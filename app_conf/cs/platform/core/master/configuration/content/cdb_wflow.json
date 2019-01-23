@@ -1,0 +1,10 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdb_class"}, "DATA": {"cdb_module_id": "cs.platform.core", "description": "", "name_cs": "", "name_de": "", "name_en": "", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "", "name_zh": null, "objclass": "cdb_class", "sys_wf": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cs_oidc_client_reg"}, "DATA": {"cdb_module_id": "cs.platform.core", "description": "", "name_cs": null, "name_de": "OIDC Client Registration Lifecycle", "name_en": "OIDC Client Registration Lifecycle", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "", "name_zh": "", "objclass": "cs_oidc_client_regis", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

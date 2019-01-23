@@ -1,0 +1,18 @@
+{
+  "cs_tasks_attribute": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "7f3c662e-ad81-11e6-b4ff-68f7284ff046"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "column_object_id": "8d2b0fe1-76d5-11e6-8171-68f7284ff046", "propname": "getCsTasksBasePriority", "tclass_object_id": "dd8518a1-5e2f-11e6-b121-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dd9b11a1-5e2f-11e6-aaf3-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "column_object_id": "79bff151-3deb-11e6-b25c-00aa004d0001", "propname": "issue_name", "tclass_object_id": "dd8518a1-5e2f-11e6-b121-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dd9b11a2-5e2f-11e6-a012-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "column_object_id": "96e333a1-3deb-11e6-bec7-00aa004d0001", "propname": "target_date", "tclass_object_id": "dd8518a1-5e2f-11e6-b121-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dd9b11a3-5e2f-11e6-9e1e-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "column_object_id": "5e3e7821-3deb-11e6-a189-00aa004d0001", "propname": "getCsTasksType", "tclass_object_id": "dd8518a1-5e2f-11e6-b121-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dd9b11a4-5e2f-11e6-bb7b-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "column_object_id": "32f4ec1e-3df6-11e6-acaa-00aa004d0001", "propname": "Project", "tclass_object_id": "dd8518a1-5e2f-11e6-b121-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dd9b11a5-5e2f-11e6-abd0-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "column_object_id": "8c3b142e-3df6-11e6-8707-00aa004d0001", "propname": "getCsTasksResponsible", "tclass_object_id": "dd8518a1-5e2f-11e6-b121-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dd9b11a6-5e2f-11e6-8838-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "column_object_id": "b3d94b70-3deb-11e6-ba66-00aa004d0001", "propname": "getCsTasksProceedData", "tclass_object_id": "dd8518a1-5e2f-11e6-b121-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dd9b11a7-5e2f-11e6-bdb3-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "column_object_id": "01e638a1-3dec-11e6-b6df-00aa004d0001", "propname": "getCsTasksTags", "tclass_object_id": "dd8518a1-5e2f-11e6-b121-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dd9b11a9-5e2f-11e6-9cff-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "column_object_id": "5204d021-3dde-11e6-b91d-00aa004d0001", "propname": "getCsTasksReadStatus", "tclass_object_id": "dd8518a1-5e2f-11e6-b121-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dd9b11aa-5e2f-11e6-96f9-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "column_object_id": "554d7e91-3df6-11e6-aec6-00aa004d0001", "propname": "Task", "tclass_object_id": "dd8518a1-5e2f-11e6-b121-a0b3ccf7c487"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

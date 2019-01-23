@@ -1,0 +1,27 @@
+{
+  "cs_tasks_attribute": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "7dfe12b0-6618-11e6-a505-68f7284ff046"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "554d7e91-3df6-11e6-aec6-00aa004d0001", "propname": "Checklist.Task", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a059ddde-5e1f-11e6-a60a-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "79bff151-3deb-11e6-b25c-00aa004d0001", "propname": "checklist_name", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a059dddf-5e1f-11e6-b3f3-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "96e333a1-3deb-11e6-bec7-00aa004d0001", "propname": "target_date", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a059dde0-5e1f-11e6-90ae-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "5e3e7821-3deb-11e6-a189-00aa004d0001", "propname": "getCsTasksType", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a059dde1-5e1f-11e6-a95d-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "32f4ec1e-3df6-11e6-acaa-00aa004d0001", "propname": "Project", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a059dde2-5e1f-11e6-9306-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "8c3b142e-3df6-11e6-8707-00aa004d0001", "propname": "getCsTasksResponsible", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a059dde3-5e1f-11e6-83b7-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "b3d94b70-3deb-11e6-ba66-00aa004d0001", "propname": "getCsTasksProceedData", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a059dde4-5e1f-11e6-b440-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "01e638a1-3dec-11e6-b6df-00aa004d0001", "propname": "getCsTasksTags", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a059dde6-5e1f-11e6-97f2-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "5204d021-3dde-11e6-b91d-00aa004d0001", "propname": "getCsTasksReadStatus", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a059dde7-5e1f-11e6-8467-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "554d7e91-3df6-11e6-aec6-00aa004d0001", "propname": "Task", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d0058011-5f07-11e6-9db7-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "79bff151-3deb-11e6-b25c-00aa004d0001", "propname": "criterion", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d0058012-5f07-11e6-8984-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "96e333a1-3deb-11e6-bec7-00aa004d0001", "propname": "target_date", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d0058013-5f07-11e6-8a85-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "5e3e7821-3deb-11e6-a189-00aa004d0001", "propname": "getCsTasksType", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d0058014-5f07-11e6-88d6-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "32f4ec1e-3df6-11e6-acaa-00aa004d0001", "propname": "Project", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d0058015-5f07-11e6-9356-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "8c3b142e-3df6-11e6-8707-00aa004d0001", "propname": "getCsTasksResponsible", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d0058016-5f07-11e6-a553-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "b3d94b70-3deb-11e6-ba66-00aa004d0001", "propname": "getCsTasksProceedData", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d0058017-5f07-11e6-be1d-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "01e638a1-3dec-11e6-b6df-00aa004d0001", "propname": "getCsTasksTags", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d0058019-5f07-11e6-8d35-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "5204d021-3dde-11e6-b91d-00aa004d0001", "propname": "getCsTasksReadStatus", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d1ae9c30-5f07-11e6-a745-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "column_object_id": "67ad2b30-3df6-11e6-a2c0-00aa004d0001", "propname": "Checklist", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

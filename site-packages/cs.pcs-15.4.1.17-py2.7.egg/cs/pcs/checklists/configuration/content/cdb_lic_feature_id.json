@@ -1,0 +1,19 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CHECKLISTS_001"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to read Checklist master data and aggregated elements (e.g. changes of status protocol)", "name": "Checklists: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "CHECKLISTS_002"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to write (create, copy, modify, delete) Checklist master data and aggregated elements (e.g. changes of status protocol)", "name": "Checklists: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "CHECKLISTS_003"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to change the status of Checklists.", "name": "Checklists: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "CHECKLISTS_005"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to create Checklists by using templates.", "name": "Checklists: Create from Template"}},
+      {"PRIMARY_KEYS": {"id": "CHECKLISTS_006"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to use Checklists as Quality Gates.", "name": "Checklists: Use Quality Gates"}},
+      {"PRIMARY_KEYS": {"id": "CHECKLISTS_007"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to use Checklists as Deliverables.", "name": "Checklists: Use Deliverables"}},
+      {"PRIMARY_KEYS": {"id": "CHECKLISTS_008"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to maintain the catalogs needed for Checklists.", "name": "Checklists: Write Basic Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "CHECKLISTS_009"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to maintain the catalogs used/referenced by Checklist logic.", "name": "Checklists: Write Logic Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "CHECKLISTS_010"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to export the Project Quality Gates Report.", "name": "Checklists: Report Project Quality Gates"}},
+      {"PRIMARY_KEYS": {"id": "CHECKLISTS_011"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to export the Task Quality Gates Report.", "name": "Checklists: Report Task Quality Gates"}},
+      {"PRIMARY_KEYS": {"id": "CHECKLIST_DOCS_003"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Allows to create Checklists by using templates.", "name": "Checklist Documents: Create from Template"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

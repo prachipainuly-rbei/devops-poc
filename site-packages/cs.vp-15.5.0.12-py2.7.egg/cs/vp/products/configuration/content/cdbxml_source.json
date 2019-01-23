@@ -1,0 +1,10 @@
+{
+  "cdbxml_source": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "GrowthShareMatrix"}, "DATA": {"cdb_module_id": "cs.vp.products", "context": "cs.portfolios.PortfolioFolder", "context_card": "1", "description": ""}},
+      {"PRIMARY_KEYS": {"name": "PortfolioGrowthShareMatrix"}, "DATA": {"cdb_module_id": "cs.vp.products", "context": "cs.portfolios.Portfolio", "context_card": "1", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

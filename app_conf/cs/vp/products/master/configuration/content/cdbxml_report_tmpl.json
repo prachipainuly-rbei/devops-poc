@@ -1,0 +1,12 @@
+{
+  "cdbxml_report_tmpl": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "GrowthShareMatrix", "report_title": "GrowthShareMatrix"}, "DATA": {"cdb_module_id": "cs.vp.products", "cdb_object_id": "ca27ff61-2e4b-11e2-81fb-082e5f0d3665", "title": "GrowthShareMatrix"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "GrowthShareMatrix", "report_title": "GrowthShareMatrix"}, "DATA": {"cdb_module_id": "cs.vp.products", "cdb_object_id": "336c679f-e2fa-11e2-b5ea-082e5f0d0c28", "title": "Growth_Share_Matrix"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "PortfolioGrowthShareMatrix", "report_title": "PortfolioGrowthShareMatrix"}, "DATA": {"cdb_module_id": "cs.vp.products", "cdb_object_id": "88f30f00-3227-11e2-bac1-082e5f0d3665", "title": "PortfolioGrowthShareMatrix"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "PortfolioGrowthShareMatrix", "report_title": "PortfolioGrowthShareMatrix"}, "DATA": {"cdb_module_id": "cs.vp.products", "cdb_object_id": "b7f56c41-e3b0-11e2-8500-082e5f0d0c28", "title": "PortfolioGrowthShareMatrix"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "cdb_file_suffix": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ft_name": "MS-Excel", "ft_suffix": ".xls"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Excel:XLSB", "ft_suffix": ".xlsb"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Excel:XLSM", "ft_suffix": ".xlsm"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Excel:XLSX", "ft_suffix": ".xlsx"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Outlook", "ft_suffix": ".msg"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-PowerPoint", "ft_suffix": ".ppt"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-PowerPoint:PPTM", "ft_suffix": ".pptm"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-PowerPoint:PPTX", "ft_suffix": ".pptx"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Visio", "ft_suffix": ".vsd"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Visio:VSDX", "ft_suffix": ".vsdx"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Word", "ft_suffix": ".doc"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Word:DOCM", "ft_suffix": ".docm"}, "DATA": {"cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Word:DOCX", "ft_suffix": ".docx"}, "DATA": {"cdb_module_id": "cs.officelink"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

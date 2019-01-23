@@ -1,0 +1,35 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbstatechangepre.ue 115535 2014-10-10 13:29:56Z js $
+#
+# CIM DATABASE user exit
+# (C) 2001 CONTACT Software GmbH
+
+from cdb import ue
+
+
+def aendMussFeld(doc, attrList):
+    for attr in attrList:
+        if not doc[attr]:
+            return 0
+    return 1
+
+
+def cdbstatechangepre(ctx):
+    if ctx.object_class == "document":
+        # Die Pruefung auf Belegung der Pflichtfelder der Änderungsmitteilung
+        # ist standardmäßig auskommentiert, da für die Verwendung von
+        # Änderungsmitteilungen MDM Lizenzen benötigt werden.
+
+        #if ctx.old.z_status=="0":
+        #    # Pruefung auf Belegung der Pflichtfelder der Änderungsmitteilung
+        #    if sqlapi.RecordSet2("aenderung",
+        #                         "z_nummer='%s' and z_index='%s'" % (ctx.new["z_nummer"], ctx.new["z_index"])):
+        #      mussAttr = ["bemerk", "begruend", "a_event", "a_source", "art_aend"]
+        #      if not aendMussFeld(aendSet[0], mussAttr):
+        #          raise ue.Exception(4809)
+        pass
+
+
+if __name__ == "__main__":
+    ue.run(cdbstatechangepre)

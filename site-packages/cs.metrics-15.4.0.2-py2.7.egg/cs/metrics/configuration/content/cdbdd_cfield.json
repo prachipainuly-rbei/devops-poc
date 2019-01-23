@@ -1,0 +1,40 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "1441ab30-f641-11e0-996e-001d60a6c82c", "field_classname": "cdbqc_history", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_history", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "25ce1066-a3e7-11e1-a6c5-082e5f0d3665", "field_classname": "cdbqc_grouping_value", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_grouping_value", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "2660d3c0-f63e-11e0-a6eb-001d60a6c82c", "field_classname": "cdbqc_aggr_rule", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_aggr_rule", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "29e69256-f963-11e0-965b-001d60a6c82c", "field_classname": "cdbqc_quality_character", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_quality_character", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "3c392896-a3e6-11e1-817b-082e5f0d3665", "field_classname": "cdbqc_grouping_attribute", "field_name": "attribute_name"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_grouping_attribute", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "3c392896-a3e6-11e1-817b-082e5f0d3665", "field_classname": "cdbqc_grouping_attribute", "field_name": "cdbqc_def_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_grouping_attribute", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "3c392896-a3e6-11e1-817b-082e5f0d3665", "field_classname": "cdbqc_grouping_attribute", "field_name": "classname"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_grouping_attribute", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "41de7861-9039-11e1-ad24-005056c00008", "field_classname": "cdbqc_action2qc", "field_name": "action_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_action2qc", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "41de7861-9039-11e1-ad24-005056c00008", "field_classname": "cdbqc_action2qc", "field_name": "qc_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_action2qc", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "60d0639e-8b15-11e2-a2ae-082e5f0d3665", "field_classname": "cdbqc_computation_protocol", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_computation_protocol", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "6454738f-a321-11e1-bf8d-082e5f0d3665", "field_classname": "cdbqc_obj_quality_character", "field_name": "cdbf_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_obj_quality_character", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "6454738f-a321-11e1-bf8d-082e5f0d3665", "field_classname": "cdbqc_quality_character", "field_name": "cdbqc_def_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_obj_quality_character", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "6bba3b5e-a3e9-11e1-9508-082e5f0d3665", "field_classname": "cdbqc_computation_rule", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_computation_rule", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "7d55d200-52c8-11e3-88ea-082e5f0d3665", "field_classname": "cdbqc_grouping_value", "field_name": "attribute_name"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_grouping_value", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "7d55d200-52c8-11e3-88ea-082e5f0d3665", "field_classname": "cdbqc_grouping_value", "field_name": "attribute_value"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_grouping_value", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "7d55d200-52c8-11e3-88ea-082e5f0d3665", "field_classname": "cdbqc_grouping_value", "field_name": "qc_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_grouping_value", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "86135c75-f89b-11e0-bd5b-001d60a6c82c", "field_classname": "cdbqc_q_grade", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_q_grade", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "8ea9ba9e-d702-11e1-822d-082e5f0d3665", "field_classname": "cdbqc_def2class", "field_name": "cdbqc_def_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_class_def2class", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "8ea9ba9e-d702-11e1-822d-082e5f0d3665", "field_classname": "cdbqc_def2class", "field_name": "classname"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_class_def2class", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "b8d66a8f-a326-11e1-90d9-082e5f0d3665", "field_classname": "cdbqc_def2class", "field_name": "cdb_classname"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_def2class", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "b8d66a8f-a326-11e1-90d9-082e5f0d3665", "field_classname": "cdbqc_def2class", "field_name": "cdbqc_def_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_def2class", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "b8d66a8f-a326-11e1-90d9-082e5f0d3665", "field_classname": "cdbqc_def2class", "field_name": "classname"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_def2class", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "b8d66a8f-a326-11e1-90d9-082e5f0d3665", "field_classname": "cdbqc_def2class", "field_name": "obj_rule_name"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_def2class", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "bd2d0a61-d632-11e1-bcde-082e5f0d3665", "field_classname": "cdbqc_definition", "field_name": "identifier"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_definition", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "be149f8f-0ab0-11e1-b076-001d60a6c82c", "field_classname": "cdbqc_children", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_children", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d0d94c40-f63b-11e0-be97-001d60a6c82c", "field_classname": "cdbqc_unit", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_unit", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d9811961-64cc-11e4-a49e-082e5f0d3665", "field_classname": "mq_aggregation_queue", "field_name": "cdbmq_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "mq_aggregation_queue", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "dddb2263-8ebb-11e1-b42e-005056c00008", "field_classname": "cdbqc_action2qc", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_action2qc", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e7640b6e-0ab4-11e1-b1f2-001d60a6c82c", "field_classname": "cdbqc_parents", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_parents", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ebb2c7b5-fa43-11e0-9c44-001d60a6c82c", "field_classname": "cdbqc_unit_type", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_unit_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "f617ef05-f638-11e0-a2a7-001d60a6c82c", "field_classname": "cdbqc_definition", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_definition", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ff087ba1-cc0e-11e1-ba44-082e5f0d3665", "field_classname": "cdbqc_update_clocks", "field_name": "position"}, "DATA": {"cdb_module_id": "cs.metrics", "classname": "cdbqc_update_clocks", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

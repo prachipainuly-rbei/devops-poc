@@ -1,0 +1,20 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: Active Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "Checklists having active items"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: Active Checkpoints"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "Active checklist items (ready)"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: Active Issues"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "Active open issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: Bookable Projects (All)"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "All active projects"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: Bookable Projects (Team)"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "My active projects"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: Bookable Tasks (All/All)"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "Active and closed tasks which are not groups"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: Bookable Tasks (All/Open)"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "Active tasks which are not group tasks"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: Bookable Tasks (Mine/All)"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "Active and closed tasks which are not groups and are assigned to me (as responsible for the task, a checklist item or open issue, or as a resource for the task)"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: Bookable Tasks (Mine/Open)"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "Active tasks which are not groups and are assigned to me (as responsible for the task, a checklist item or open issue, or as a resource for the task)"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: My Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "My checklists having active items"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: My Checkpoints"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "My checklist items"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: TimeSheet: My Issues"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "My open issues"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "ad96cd4f-8ca5-11e2-9c2d-082e5f0d3665"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.actions", "classname": "cdb_action_resp_brows", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "b01794b2-bcdb-11e0-8a72-005056c00008"}, "DATA": {"ausgabe_label": "cdb_action", "cdb_module_id": "cs.actions", "classname": "cdb_action", "decomp_id": "", "icon_id": "", "ordering": 501, "parent_id": "96ab8f40-cb30-11e1-9ea6-001c42b5d769"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "cdbpcs_cl_items"}, "DATA": {"browser_tabelle": "cdbpcs_clitem_tab", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.pcs.checklists_documents", "check_value": 0, "classname": "", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "cdbpcs_cl_item", "search_mask": "", "title_cs": "", "title_de": "Pr\u00fcfpunkte", "title_en": "Checklist Items", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Kontrol listesi maddeleri", "title_zh": "\u68c0\u67e5\u6e05\u5355\u9879"}},
+      {"PRIMARY_KEYS": {"katalog": "cdbpcs_cl_state"}, "DATA": {"browser_tabelle": "objstati_name_br_tab", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.pcs.checklists_documents", "check_value": 0, "classname": "", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "objektstati", "search_mask": "", "title_cs": "", "title_de": "Status", "title_en": "Status", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Durum", "title_zh": "\u72b6\u6001"}},
+      {"PRIMARY_KEYS": {"katalog": "cdbpcs_cli_state"}, "DATA": {"browser_tabelle": "objstati_name_br_tab", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.pcs.checklists_documents", "check_value": 0, "classname": "", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "objektstati", "search_mask": "", "title_cs": "", "title_de": "Status", "title_en": "Status", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Durum", "title_zh": "\u72b6\u6001"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

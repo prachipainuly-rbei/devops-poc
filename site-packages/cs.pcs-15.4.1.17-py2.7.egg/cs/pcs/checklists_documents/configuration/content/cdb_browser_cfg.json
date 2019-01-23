@@ -1,0 +1,15 @@
+{
+  "cdb_browser_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attrib": "cdb_project_id", "katalog": "cdbpcs_cl_items", "maskenfeld_attrib": ""}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.pcs.checklists_documents", "constant_val": 0, "create_source": 0, "input_attrib": "cdb_project_id", "no_overwrite": 0, "sep_at_end": 0, "separator": "", "std_search_val": 1, "struct_level": 0, "use_or_operator": 0, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "checklist_id", "katalog": "cdbpcs_cl_items", "maskenfeld_attrib": "parent_checkl_id"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.pcs.checklists_documents", "constant_val": 0, "create_source": 0, "input_attrib": "parent_checkl_id", "no_overwrite": 0, "sep_at_end": 0, "separator": "", "std_search_val": 1, "struct_level": 0, "use_or_operator": 0, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "cl_item_id", "katalog": "cdbpcs_cl_items", "maskenfeld_attrib": "*"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.pcs.checklists_documents", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": 0, "separator": "", "std_search_val": 1, "struct_level": 0, "use_or_operator": 0, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "objektart", "katalog": "cdbpcs_cl_state", "maskenfeld_attrib": ""}, "DATA": {"additive": 0, "alike_value": "cdbpcs_checklist", "cdb_module_id": "cs.pcs.checklists_documents", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": 0, "separator": "", "std_search_val": 1, "struct_level": 0, "use_or_operator": 0, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "statusnummer", "katalog": "cdbpcs_cl_state", "maskenfeld_attrib": "*"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.pcs.checklists_documents", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": null, "separator": "", "std_search_val": 1, "struct_level": null, "use_or_operator": 0, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "objektart", "katalog": "cdbpcs_cli_state", "maskenfeld_attrib": ""}, "DATA": {"additive": 0, "alike_value": "cdbpcs_cl_item", "cdb_module_id": "cs.pcs.checklists_documents", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": 0, "separator": "", "std_search_val": 1, "struct_level": 0, "use_or_operator": 0, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "statusnummer", "katalog": "cdbpcs_cli_state", "maskenfeld_attrib": "*"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.pcs.checklists_documents", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": null, "separator": "", "std_search_val": 1, "struct_level": null, "use_or_operator": 0, "value_list": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

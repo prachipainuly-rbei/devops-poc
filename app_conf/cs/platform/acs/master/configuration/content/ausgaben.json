@@ -1,0 +1,12 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbacs_restart_jobs"}, "DATA": {"cdb_module_id": "cs.platform.acs", "cs": "", "d": "Konvertierung neu starten", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Tekrar ba\u015flat", "uk": "Restart Conversion", "zh": "\u91cd\u65b0\u5f00\u59cb"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbmq_reg2acs_serv"}, "DATA": {"cdb_module_id": "cs.platform.acs", "cs": "", "d": "Konvertierungsdienste", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "ACS \u00e7eviri hizmetleri", "uk": "Conversion Services", "zh": "ACS\u8f6c\u6362\u670d\u52a1"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_acsAuftraege"}, "DATA": {"cdb_module_id": "cs.platform.acs", "cs": "", "d": "Auftr\u00e4ge", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "G\u00f6revler", "uk": "Jobs", "zh": "\u5de5\u4f5c"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_acsTopItem"}, "DATA": {"cdb_module_id": "cs.platform.acs", "cs": "", "d": "Konvertierungsdienst", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u00c7eviri hizmeti", "uk": "Conversion Service", "zh": "\u8f6c\u6362\u670d\u52a1"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

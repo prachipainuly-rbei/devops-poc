@@ -1,0 +1,36 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_action2qc"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_action2qc_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.metrics", "primary_table": "cdbqc_action2qc"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_aggr_rule"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_children"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_children_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.metrics", "primary_table": "cdbqc_children"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_computation_protocol"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_computation_protocol_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.metrics", "primary_table": "cdbqc_computation_protocol"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_computation_rule"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_def2class"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_def2class_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.metrics", "primary_table": "cdbqc_def2class"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_definition"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_definition_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.metrics", "primary_table": "cdbqc_definition"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_grade_not_aggregate"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.metrics", "primary_table": "", "uview_col_aliases": ""}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "SELECT *\nFROM cdbqc_q_grade\nWHERE name_de NOT IN ( 'aggregiert' )", "cdbdd_userdefined_view_txt_5": "SELECT *\nFROM cdbqc_q_grade\nWHERE name_de NOT IN ( 'aggregiert' )", "cdbdd_userdefined_view_txt_6": "SELECT *\nFROM cdbqc_q_grade\nWHERE name_de NOT IN ( 'aggregiert' )"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_grouping_attribute"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_grouping_value"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_grouping_value_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.metrics", "primary_table": "cdbqc_grouping_value"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_history"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_obj_definition_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.metrics", "primary_table": "cdbqc_definition"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_obj_quality_character"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.metrics", "primary_table": "cdbqc_quality_character"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_parents"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_q_grade"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_quality_character"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_quality_character_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.metrics", "primary_table": "cdbqc_quality_character"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_resp_brows"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.metrics", "primary_table": "", "uview_col_aliases": "subject_id, description_de, description_en, description_cs, description_es, description_fr, description_it, description_ja, description_ko, description_pl, description_pt, description_tr, description_zh, subject_type, subject_name_de, subject_name_en, subject_name_cs, subject_name_es, subject_name_fr, subject_name_it, subject_name_ja, subject_name_ko, subject_name_pl, subject_name_pt, subject_name_tr, subject_name_zh, cdb_project_id, order_by"}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "GENERATOR: cs.metrics.generate_cdbqc_resp_brows", "cdbdd_userdefined_view_txt_5": "GENERATOR: cs.metrics.generate_cdbqc_resp_brows", "cdbdd_userdefined_view_txt_6": "GENERATOR: cs.metrics.generate_cdbqc_resp_brows"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_unit"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_unit_type"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbqc_update_clocks"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"table_name": "mq_aggregation_queue"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.metrics"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

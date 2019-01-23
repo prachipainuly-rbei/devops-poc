@@ -1,0 +1,19 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_elink_prc_kpi", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "", "fallback_id": "", "identifier": "\"elink-prc_kpi.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbqc_cockpit", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "", "fallback_id": "", "identifier": "\"qc_cockpit.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbqc_compute", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "", "fallback_id": "", "identifier": "\"qc_compute.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbqc_def", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "", "fallback_id": "", "identifier": "\"qc_def.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbqc_def_class", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "", "fallback_id": "", "identifier": "\"qc_def_class.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbqc_def_obj", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "", "fallback_id": "", "identifier": "\"qc_def_obj.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbqc_default", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "Default icon f\u00fcr Zielwerte", "fallback_id": "", "identifier": "\"QualityGate_RedGreenYellow_.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbqc_gruen", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "", "fallback_id": "", "identifier": "\"QualityGate_RedGreenYellow_gruen.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbqc_protocol", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "", "fallback_id": "", "identifier": "\"cdbqc_protocol.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbqc_rot", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "", "fallback_id": "", "identifier": "\"QualityGate_RedGreenYellow_rot.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbqc_warning", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "Warnung bei fehlerhaftem Zielwert", "fallback_id": "", "identifier": "\"cdb_script_3.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

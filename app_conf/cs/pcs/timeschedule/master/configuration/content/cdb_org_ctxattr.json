@@ -1,0 +1,10 @@
+{
+  "cdb_org_ctxattr": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"context_name": "ProjectContext", "relation": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "context_attr": "cdb_project_id"}},
+      {"PRIMARY_KEYS": {"context_name": "ProjectContext", "relation": "cdbpcs_ts_content"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "context_attr": "cdb_project_id"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

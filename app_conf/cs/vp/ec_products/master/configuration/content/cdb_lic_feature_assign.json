@@ -1,0 +1,9 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "dcf5fbc0-f7bf-11e4-b8d8-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_rep", "cdb_module_id": "cs.vp.ec_products", "feature_id": "ECM_010", "password": "TvzeBYLrgZ.", "report_name": "Analyse Aenderungsmanagement"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

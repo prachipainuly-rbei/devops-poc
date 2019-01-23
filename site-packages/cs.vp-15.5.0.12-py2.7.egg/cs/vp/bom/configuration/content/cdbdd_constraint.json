@@ -1,0 +1,15 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0734cca1-bf82-11e1-8cb9-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bom", "classname": "bom_item_usage", "description": "", "exclude_empty_values": null, "fields_info": "baugruppe, b_index, teilenummer, t_index, variante, position, auswahlmenge"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0c7f83ae-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bom", "classname": "cdbbop_bomitem_para", "description": "", "exclude_empty_values": null, "fields_info": "id, teilenummer, t_index"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0c86ada4-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bom", "classname": "cdbbop_bomitem_asgn", "description": "", "exclude_empty_values": null, "fields_info": "id, baugruppe, b_index, teilenummer, t_index, variante, position, auswahlmenge"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0cbd9a02-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bom", "classname": "cdb_partslist_comp", "description": "", "exclude_empty_values": null, "fields_info": "session_id, baugruppe1, b_index1, teilenummer1, t_index1, baugruppe2, b_index2, teilenummer2, t_index2, position"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0ccbedee-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bom", "classname": "cdb_partslist_cval", "description": "", "exclude_empty_values": null, "fields_info": "session_id, baugruppe1, b_index1, baugruppe2, b_index2, position, attr_name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0fa90944-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bom", "classname": "bom_item", "description": "", "exclude_empty_values": null, "fields_info": "baugruppe, b_index, teilenummer, t_index, variante, position, auswahlmenge"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a3d3a980-a636-11e4-869e-082e5f0d3665"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bom", "classname": "cdbvp_diffutil_ignored", "description": null, "exclude_empty_values": null, "fields_info": "context_teilenummer, teilenummer"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

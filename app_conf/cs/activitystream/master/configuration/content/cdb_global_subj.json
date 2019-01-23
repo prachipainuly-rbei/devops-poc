@@ -1,0 +1,10 @@
+{
+  "cdb_global_subj": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "System Posting Queue Service", "subject_id": "aspostingqueue", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "public", "subject_id": "aspostingqueue", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.activitystream"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

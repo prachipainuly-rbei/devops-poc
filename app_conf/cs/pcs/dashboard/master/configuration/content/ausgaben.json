@@ -1,0 +1,10 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_elink_project_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "cs": null, "d": "Projektterminplan", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "Proje zaman plan\u0131", "uk": "Project Time Schedule", "zh": "\u9879\u76ee\u65f6\u95f4\u8fdb\u5ea6\u8868"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_launch_project_dashboard"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "cs": null, "d": "Meine Projekte", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "My Projects", "zh": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdb_acd"}, "DATA": {"cdb_module_id": "cs.platform.core", "description": "Access control domains"}},
+      {"PRIMARY_KEYS": {"auth_class": "frame"}, "DATA": {"cdb_module_id": "cs.platform.core", "description": "Drawing Frames"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

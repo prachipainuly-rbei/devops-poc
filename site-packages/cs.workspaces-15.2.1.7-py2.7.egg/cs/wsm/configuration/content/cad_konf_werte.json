@@ -1,0 +1,21 @@
+{
+  "cad_konf_werte": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cad_system": "Variantconfig", "name": "DOK Edit Mode", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "[None|Operation|Command|FileBased]", "wert": "None"}},
+      {"PRIMARY_KEYS": {"cad_system": "wsmsettings", "name": "DOK Edit Mode", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "[None|Operation|Command|FileBased]", "wert": "FileBased"}},
+      {"PRIMARY_KEYS": {"cad_system": "Variantconfig", "name": "DOK Print Mode", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "[None|Command|Operation|OS Standard]", "wert": "None"}},
+      {"PRIMARY_KEYS": {"cad_system": "wsmsettings", "name": "DOK Print Mode", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "[None|Command|Operation|OS Standard]", "wert": "OS Standard"}},
+      {"PRIMARY_KEYS": {"cad_system": "Variantconfig", "name": "Description", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "STRING", "wert": "Characteristics Group Sync Rules"}},
+      {"PRIMARY_KEYS": {"cad_system": "wsmsettings", "name": "Description", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "STRING", "wert": "Einstellungen des Workspace Managers"}},
+      {"PRIMARY_KEYS": {"cad_system": "wspmanager", "name": "Fetch complete record", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "TRUE|FALSE", "wert": "TRUE"}},
+      {"PRIMARY_KEYS": {"cad_system": "wspmanager", "name": "ZVS Laden Vormerken", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "[MATCHLEFT|CADSYSTEM|IGNORE|LIST:<cad1>,..,<cadn>]", "wert": "IGNORE"}},
+      {"PRIMARY_KEYS": {"cad_system": "wspmanager", "name": "ZVS Rahmen Name", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "", "wert": ""}},
+      {"PRIMARY_KEYS": {"cad_system": "Variantconfig", "name": "ZVS Show Lock Message", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "[CREATE][EDIT][IMPORT][LOCK]", "wert": "LOCK"}},
+      {"PRIMARY_KEYS": {"cad_system": "wsmsettings", "name": "ZVS Show Lock Message", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "[CREATE][EDIT][IMPORT][LOCK]", "wert": "LOCK"}},
+      {"PRIMARY_KEYS": {"cad_system": "Variantconfig", "name": "ZVS Zeichnung Endung", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "STRING", "wert": "..variantconfig"}},
+      {"PRIMARY_KEYS": {"cad_system": "wsmsettings", "name": "ZVS Zeichnung Endung", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm", "range": "STRING", "wert": ".cdbwssetting"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

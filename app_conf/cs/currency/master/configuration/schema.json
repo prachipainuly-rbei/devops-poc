@@ -1,0 +1,84 @@
+{
+  "cdbpco_curr_convert": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 4, 
+        "NAME": "valid_year", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_project_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "convert_factor", 
+        "NOTNULL": false, 
+        "TYPE": 2
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "from_curr_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "to_curr_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbpco_currency": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "symbol", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "is_ref_curr", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "cdb_acd_set_asgn": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Entries (projects)", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Access Control Domain Assignments", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Actions (COMPLETED)", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Actions (not DISCARDED, COMPLETED)", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Exceptional Access", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Projects", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Tasks", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Team, Roles", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Entries (projects)", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Access Control Domain Assignments", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Exceptional Access", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Projects", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Tasks", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Team, Roles", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

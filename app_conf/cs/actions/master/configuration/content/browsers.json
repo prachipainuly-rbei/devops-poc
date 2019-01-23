@@ -1,0 +1,11 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "cdb_action"}, "DATA": {"browser_tabelle": "[default]", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.actions", "check_value": 0, "classname": "cdb_action", "direct_create": 1, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "", "search_mask": "[default]", "title_cs": "", "title_de": "Ma\u00dfnahmen", "title_en": "Actions", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Eylemler", "title_zh": "\u64cd\u4f5c"}},
+      {"PRIMARY_KEYS": {"katalog": "cdb_action_person"}, "DATA": {"browser_tabelle": "[default]", "callfield_only": 1, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.actions", "check_value": 1, "classname": "cdb_person", "direct_create": 0, "fqpyname": "", "max_records": 0, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "", "search_mask": "[default]", "title_cs": "", "title_de": "Person", "title_en": "Person", "title_es": "", "title_fr": "", "title_it": "", "title_ja": "", "title_ko": "", "title_pl": "", "title_pt": "", "title_tr": "Ki\u015fi", "title_zh": "\u4eba\u5458"}},
+      {"PRIMARY_KEYS": {"katalog": "cdb_action_resp_brows"}, "DATA": {"browser_tabelle": "cdb_action_resp_brows", "callfield_only": 1, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.actions", "check_value": 1, "classname": "cdb_action_resp_brows", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 0, "one_entry_direct": 0, "proposal_class": "", "relation": "", "search_mask": "cdb_action_resp_brows", "title_cs": "", "title_de": "Verantwortliche", "title_en": "Responsibles", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Sorumlular", "title_zh": "\u8d23\u4efb\u4eba"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

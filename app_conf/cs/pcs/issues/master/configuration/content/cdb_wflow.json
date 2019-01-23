@@ -1,0 +1,9 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "", "name_cs": "", "name_de": "Offene Punkte", "name_en": "Open Issues", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "A\u00e7\u0131k konular", "name_zh": "\u5f00\u653e\u7684\u95ee\u9898", "objclass": "cdbpcs_issue", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

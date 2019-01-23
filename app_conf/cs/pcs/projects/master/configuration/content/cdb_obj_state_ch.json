@@ -1,0 +1,10 @@
+{
+  "cdb_obj_state_ch": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objclass": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "comp_name": "default", "prot_table": "cdbpcs_prj_prot"}},
+      {"PRIMARY_KEYS": {"objclass": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "comp_name": "default", "prot_table": "cdbpcs_tsk_prot"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cdbxml_report_tmpl": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "ProjectEfforts", "report_title": "Aufwendungen"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cdb_object_id": "052244e2-0cc4-11df-a85b-f882632621eb", "title": "Aufw\u00e4nde"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "ProjectEfforts", "report_title": "Aufwendungen"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cdb_object_id": "a2475a5f-de3e-11e2-a4aa-082e5f0d0c28", "title": "Efforts"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "TaskEfforts", "report_title": "Aufwendungen"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cdb_object_id": "463b9f67-09a7-11df-abc6-b6c200ac5dde", "title": "Aufw\u00e4nde"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "TaskEfforts", "report_title": "Aufwendungen"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cdb_object_id": "d7d1d530-de4c-11e2-8c52-082e5f0d0c28", "title": "Efforts"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

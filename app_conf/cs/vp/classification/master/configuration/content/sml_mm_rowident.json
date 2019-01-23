@@ -1,0 +1,14 @@
+{
+  "sml_mm_rowident": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mm_id": "MM,AT"}, "DATA": {"description": "Attributmerkmal"}},
+      {"PRIMARY_KEYS": {"mm_id": "MM,EM"}, "DATA": {"description": "Erg\u00e4nzungsmerkmal"}},
+      {"PRIMARY_KEYS": {"mm_id": "MM,FM"}, "DATA": {"description": "Funktionsmerkmal"}},
+      {"PRIMARY_KEYS": {"mm_id": "MM,GA"}, "DATA": {"description": "Gliederungsmerkmal"}},
+      {"PRIMARY_KEYS": {"mm_id": "MM,GM"}, "DATA": {"description": "Geometriemerkmal"}},
+      {"PRIMARY_KEYS": {"mm_id": "MM,SM"}, "DATA": {"description": "Sachmerkmal"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

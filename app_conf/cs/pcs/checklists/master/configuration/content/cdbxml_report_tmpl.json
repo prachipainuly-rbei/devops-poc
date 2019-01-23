@@ -1,0 +1,12 @@
+{
+  "cdbxml_report_tmpl": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "QualityGates", "report_title": "Quality Gates"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cdb_object_id": "e777a040-47a9-11df-806d-b2a1100d120b", "title": "Quality Gates"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "QualityGates", "report_title": "Quality Gates"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cdb_object_id": "e5fc7590-de4a-11e2-b9f3-082e5f0d0c28", "title": "Quality Gates"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "TaskQualityGates", "report_title": "TaskQualityGates"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cdb_object_id": "89bf134b-4ebe-11df-a333-b7d3b3363a44", "title": "Quality Gates"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "TaskQualityGates", "report_title": "TaskQualityGates"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cdb_object_id": "12246061-de50-11e2-9f58-082e5f0d0c28", "title": "Quality Gates"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

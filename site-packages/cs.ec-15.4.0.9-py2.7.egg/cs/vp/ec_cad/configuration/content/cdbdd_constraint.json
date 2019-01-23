@@ -1,0 +1,9 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0c67a27a-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "description": "", "exclude_empty_values": null, "fields_info": "cdb_ec_id, z_nummer, z_index"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

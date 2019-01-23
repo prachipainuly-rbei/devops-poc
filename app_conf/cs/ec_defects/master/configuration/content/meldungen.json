@@ -1,0 +1,9 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_defect2ec"}, "DATA": {"cdb_module_id": "cs.ec_defects", "cs": "", "d": "\"Fehler <-> Technische \u00c4nderung\"", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1476, "pl": "", "pt": "", "s": "", "tr": "\"Bozukluk <-> M\u00fchendislik de\u011fi\u015fikli\u011fi\"", "uk": "\"Defect <-> Engineering Change\"", "zh": "\"\u7f3a\u9677<->\u5de5\u7a0b\u66f4\u6539\""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

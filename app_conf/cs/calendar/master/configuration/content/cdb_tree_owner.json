@@ -1,0 +1,14 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "9315fef2-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"id": "9315fef2-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"id": "93186124-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"id": "931ac357-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"id": "931ac358-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"id": "931d258a-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.calendar"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

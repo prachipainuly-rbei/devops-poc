@@ -1,0 +1,9 @@
+{
+  "cdb_prop_desc": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attr": "vecf"}, "DATA": {"cdb_module_id": "cs.vp.variants", "helptext": "Variant Editor Column Fixation\ntrue = on\nfalse = off"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

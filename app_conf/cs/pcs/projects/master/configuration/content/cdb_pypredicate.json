@@ -1,0 +1,23 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.Project", "name": "ProjectEvaluationProvider", "predicate_name": "Auswertungsprojekte (Project-Cockpit)"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "status in...\n0 (geplant)\n50 (in Bearbeitung)\n200 (abgeschlossen)"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "State Change Notification Objects", "predicate_name": "cdbpcs: Task[Ready]"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.Project", "name": "cdbpcs: Active Project", "predicate_name": "Active Project"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Status has to be in progress:\n10 or 50\nNo templates"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cdbpcs: Documents valid for Instantiation", "predicate_name": "Valid Documents"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Documents that are valid to be used as templates"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.Project", "name": "cdbpcs: Finalized Project", "predicate_name": "Finalized Project"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Projekte, die sich in einem Endstatus befinden (verworfen, abgeschlossen)"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cdbpcs: Finalized Task", "predicate_name": "Finalized Task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Aufgaben, die sich in einem Endstatus befinden (verworfen, abgeschlossen, fertig)"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cdbpcs: Index-dependent Valid Documents for Instantiation", "predicate_name": "Index-dependent Valid Documents"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Documents that are valid to be used as templates"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.TeamMember", "name": "cdbpcs: My Project Memberships", "predicate_name": "cdbpcs: My Project Memberships"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cdbpcs: Parent Task Modifiable", "predicate_name": "cdbpcs: Parent Task Modifiable"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Aufgaben, bei denen die Zuordnung zur \u00fcbergeordneten ge\u00e4ndert werden darf."}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cdbpcs: Task Valid Milestones", "predicate_name": "valid milestones"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cdbtodo: task", "predicate_name": "cdbtodo: task (responsible)"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.Project", "name": "cs.sharing: Group Creator", "predicate_name": "Project"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cs.sharing: Group Creator", "predicate_name": "Project Tasks"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cs.sharing: Group Responsible", "predicate_name": "Project Tasks"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.Project", "name": "cs.sharing: Project Roles", "predicate_name": "Projects"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

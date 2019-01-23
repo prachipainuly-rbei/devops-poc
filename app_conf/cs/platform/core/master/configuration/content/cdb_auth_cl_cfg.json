@@ -1,0 +1,10 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdb_acd", "relation": "cdb_acd"}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"auth_class": "frame", "relation": "rahmen"}, "DATA": {"cdb_module_id": "cs.platform.core"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

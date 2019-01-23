@@ -1,0 +1,15 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_defect2action"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "\"Fehler <-> Ma\u00dfnahme\"", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1481, "pl": "", "pt": "", "s": "", "tr": "\"Hata <-> Eylem\"", "uk": "\"Defect <-> Action\"", "zh": "\"\u7f3a\u9677<->\u884c\u52a8\""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_defect_categ_tag"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "category", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1473, "pl": "", "pt": "", "s": "", "tr": "category", "uk": "category", "zh": "category"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_defect_source_tag"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1474, "pl": "", "pt": "", "s": "", "tr": "name", "uk": "name", "zh": "name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_defect_tag"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "id +\" / \"+ name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1471, "pl": "", "pt": "", "s": "", "tr": "id +\" / \"+ name", "uk": "id +\" / \"+ name", "zh": "id +\" / \"+ name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_defect_type_tag"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "type", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1475, "pl": "", "pt": "", "s": "", "tr": "type", "uk": "type", "zh": "type"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_defect_wf_rej_1"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "Folgende Ma\u00dfnahmen sind nicht im erforderlichen Status (%s):", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1472, "pl": "", "pt": "", "s": "", "tr": "Takip eden eylemler gerekli durumda de\u011fil (%s)", "uk": "The following action are not in the required status (%s)", "zh": "\u4ee5\u4e0b\u64cd\u4f5c\u4e0d\u5904\u4e8e\u6240\u9700\u7684\u72b6\u6001(%s)"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_defect_wf_rej_2"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "Folgende Fehler sind nicht im erforderlichen Status (%s):", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "Takip eden hatalar gerekli durumda de\u011fil (%s)", "uk": "The following defects are not in the required status (%s)", "zh": "\u4ee5\u4e0b\u7f3a\u9677\u4e0d\u5728\u6240\u9700\u7684\u72b6\u6001 (%s)\u4e2d"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

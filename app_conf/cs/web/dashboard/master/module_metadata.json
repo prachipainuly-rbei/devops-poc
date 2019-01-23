@@ -1,0 +1,36 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.platform": "15.3.7"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.web.dashboard", 
+        "required_module_id": "cs.web.components"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "bed6642e-0029-11e7-be1a-08d40c1e651d", 
+      "is_interface_module": 0, 
+      "mandatory": null, 
+      "master_config_checksum": "4ce4f30178edeeee1ff87f8bc97f398c", 
+      "name": "", 
+      "package": "cs.web"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.web.dashboard"
+    }
+  }
+}

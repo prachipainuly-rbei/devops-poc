@@ -1,0 +1,14 @@
+{
+  "cdbpcs_ts_format": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "checkbox"}, "DATA": {"description": "Checkbox"}},
+      {"PRIMARY_KEYS": {"name": "date"}, "DATA": {"description": "input - timestamp in miliseconds\ndisplay - datepicker plugin"}},
+      {"PRIMARY_KEYS": {"name": "float"}, "DATA": {"description": "text align right\ndisplay floating point"}},
+      {"PRIMARY_KEYS": {"name": "icon"}, "DATA": {"description": "input - url\ndisplay - image"}},
+      {"PRIMARY_KEYS": {"name": "number"}, "DATA": {"description": "text align right"}},
+      {"PRIMARY_KEYS": {"name": "text"}, "DATA": {"description": "searchable text"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

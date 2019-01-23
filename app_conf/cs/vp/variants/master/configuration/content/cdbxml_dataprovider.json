@@ -1,0 +1,24 @@
+{
+  "cdbxml_dataprovider": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "VPMBomComparison", "xsd_name": "VariantBOMComparison"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "cs.vp.variants.Variant", "parent_xsd_name": "Variant_N", "source": "cs.vp.variants.reports.VariantBOMComparison", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VPMBomComparison", "xsd_name": "VariantComparisonProvider"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "cs.vp.variants.Variant", "parent_xsd_name": "Variant_N", "source": "cs.vp.variants.reports.VariantComparisonProvider", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VPMBomComparison", "xsd_name": "VariantMaxBOMProvider"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "cs.vp.variants.Variant", "parent_xsd_name": "Variant_N", "source": "cs.vp.variants.reports.VariantMaxBOMProvider", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VPMBomComparison", "xsd_name": "Variant_N"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "cs.vp.variants.Variant", "parent_xsd_name": "", "source": "cs.vp.variants.Variant", "source_type": "Context"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "xsd_name": "Product"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "cs.vp.variants.Variant", "parent_xsd_name": "Variant_1", "source": "Product", "source_type": "Relationship"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "xsd_name": "StatusNames"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "", "parent_xsd_name": "VariantMaxBOMProvider", "source": "cs.vp.bom.reports.StatusNames", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "xsd_name": "VariantBOM"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "cs.vp.variants.Variant", "parent_xsd_name": "Variant_1", "source": "cs.vp.variants.reports.HierarchicalBOM", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "xsd_name": "VariantMaxBOMProvider"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "cs.vp.variants.Variant", "parent_xsd_name": "Variant_1", "source": "cs.vp.variants.reports.VariantMaxBOMProvider", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "xsd_name": "Variant_1"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "cs.vp.variants.Variant", "parent_xsd_name": "", "source": "cs.vp.variants.Variant", "source_type": "Context"}},
+      {"PRIMARY_KEYS": {"name": "VPMVirtualHierarchicalBOM", "xsd_name": "HierarchicalBOM"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "", "parent_xsd_name": "", "source": "cs.vp.variants.reports.VirtualVariantBOM", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VPMVirtualHierarchicalBOM", "xsd_name": "MaxBOM"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "", "parent_xsd_name": "", "source": "cs.vp.variants.reports.MaxBOM", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VPMVirtualHierarchicalBOM", "xsd_name": "StatusNames"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "", "parent_xsd_name": "MaxBOM", "source": "cs.vp.bom.reports.StatusNames", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VPMVirtualHierarchicalBOM", "xsd_name": "VirtualVariantProvider"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "", "parent_xsd_name": "", "source": "cs.vp.variants.reports.VirtualVariantProvider", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VirtualVPMBomComparison", "xsd_name": "MaxBOM"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "", "parent_xsd_name": "", "source": "cs.vp.variants.reports.MaxBOM", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VirtualVPMBomComparison", "xsd_name": "VirtualVariantBOMComparison"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "", "parent_xsd_name": "", "source": "cs.vp.variants.reports.VirtualVariantBOMComparison", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "VirtualVPMBomComparison", "xsd_name": "VirtualVariantComparisonProvider"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "", "parent_xsd_name": "", "source": "cs.vp.variants.reports.VirtualVariantComparisonProvider", "source_type": "CustomCode"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

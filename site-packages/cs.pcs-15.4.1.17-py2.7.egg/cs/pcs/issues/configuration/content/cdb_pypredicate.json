@@ -1,0 +1,12 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "name": "State Change Notification Objects", "predicate_name": "cdbpcs: Issue[Analysing]"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "name": "cdbtodo: task_issue", "predicate_name": "cdbtodo: task_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "name": "cs.sharing: Group Creator", "predicate_name": "Issues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "name": "cs.sharing: Group Responsible", "predicate_name": "Issues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

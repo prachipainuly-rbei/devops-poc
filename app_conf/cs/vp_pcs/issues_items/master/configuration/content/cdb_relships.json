@@ -1,0 +1,10 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2parts"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.vp_pcs.issues_items", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 1, "label": "cdbpcs_parts", "menugroup": 10000, "node_tag": "", "ordering": 21, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "part", "reference_kmap": "teilenummer=teilenummer;t_index=t_index", "referer": "cdbpcs_issue", "referer_kmap": "cdb_project_id=cdb_project_id;issue_id=issue_id", "relship_cldef": "cdbpcs_part2iss", "relship_table": "", "rolename": "Parts", "rs_acc_prof": "", "rs_profile": "cdb_association_1_N_no_copy", "show_in_mask": 2, "show_in_menu": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_part2issues"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.vp_pcs.issues_items", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 0, "label": "pcs_issues", "menugroup": 10000, "node_tag": "", "ordering": 30, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdbpcs_issue", "reference_kmap": "cdb_project_id=cdb_project_id;issue_id=issue_id", "referer": "part", "referer_kmap": "teilenummer=teilenummer;t_index=t_index", "relship_cldef": "cdbpcs_part2iss", "relship_table": "", "rolename": "OpenIssues", "rs_acc_prof": "", "rs_profile": "cdb_aggregation_1_N_no_copy", "show_in_mask": 2, "show_in_menu": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

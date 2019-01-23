@@ -1,0 +1,10 @@
+{
+  "cdb_term": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "exec_state", "expression": "0", "operator": "!=", "predicate_name": "cs.vp: Batch Operations (BOM, already run)", "table_name": "cdbbop_bomitem_asgn"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.bom", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "exec_state", "expression": "0", "operator": "=", "predicate_name": "cs.vp: Batch Operations (BOM, not run yet)", "table_name": "cdbbop_bomitem_asgn"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.bom", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

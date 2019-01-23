@@ -1,0 +1,11 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbvp_product", "mask_role_id": "public", "name": "cdb_elink_activitystream"}, "DATA": {"cdb_module_id": "cs.vp.products", "ordering": 30, "priority": 10, "reg_title": "cdbblog_maskreg_activities"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbvp_product", "mask_role_id": "public", "name": "cdbvp_product_chctrl"}, "DATA": {"cdb_module_id": "cs.vp.products", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbvp_product", "mask_role_id": "public", "name": "cdbvp_product_reg"}, "DATA": {"cdb_module_id": "cs.vp.products", "ordering": 10, "priority": 10, "reg_title": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.2", 
+      "cs.activitystream": "15.3.1.3", 
+      "cs.base": "15.4.0.3", 
+      "cs.defects": "15.2.1.2", 
+      "cs.documents": "15.2.2.8", 
+      "cs.metrics": "15.4.0.0", 
+      "cs.pcs": "15.4.1.10", 
+      "cs.platform": "15.2.24", 
+      "cs.powerreports": "15.2.0.2", 
+      "cs.vp": "15.5.0.6", 
+      "cs.web": "15.2.1.17", 
+      "cs.workflow": "15.4.0.7"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.ec_items", 
+        "required_module_id": "cs.documents"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.ec_items", 
+        "required_module_id": "cs.ec"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.ec_items", 
+        "required_module_id": "cs.shared"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.ec_items", 
+        "required_module_id": "cs.vp.items"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.ec_items", 
+        "required_module_id": "cs.web.components"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "82978c5e-51fa-11e2-8790-78acc0ace8c3", 
+      "is_interface_module": 1, 
+      "mandatory": 0, 
+      "master_config_checksum": "e5ecd5cb043f8bb79ac4e8c9572f47e4", 
+      "name": "Interface module to connect cs.ec and cs.vp.items", 
+      "package": "cs.ec"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.vp.ec_items"
+    }
+  }
+}

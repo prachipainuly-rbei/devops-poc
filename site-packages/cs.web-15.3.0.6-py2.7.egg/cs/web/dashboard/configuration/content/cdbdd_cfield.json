@@ -1,0 +1,11 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "a9e85a21-1eaa-11e7-8b88-005056c00008", "field_classname": "csweb_dashboard", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.web.dashboard", "classname": "csweb_dashboard", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "eccdb2d0-0c9a-11e7-bf2b-68f72859fd2a", "field_classname": "csweb_dashboard_item", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.web.dashboard", "classname": "csweb_dashboard_item", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "f85d7e21-0c16-11e7-a85a-08d40c1e651d", "field_classname": "csweb_dashboard_widget", "field_name": "id"}, "DATA": {"cdb_module_id": "cs.web.dashboard", "classname": "csweb_dashboard_widget", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

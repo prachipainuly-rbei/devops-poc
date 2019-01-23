@@ -1,0 +1,49 @@
+{
+  "module_folder_content": [
+    {
+      "DATA": {
+        "position": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "cdb_content_id": "2f9d0240-8c99-11e2-af31-78acc0a55b77", 
+        "cdb_folder_id": "4fc64380-5e34-11e2-ba94-78acc0ace8c3"
+      }
+    }, 
+    {
+      "DATA": {
+        "position": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "cdb_content_id": "3cb2501e-8c99-11e2-942a-78acc0a55b77", 
+        "cdb_folder_id": "4fc64380-5e34-11e2-ba94-78acc0ace8c3"
+      }
+    }, 
+    {
+      "DATA": {
+        "position": 4
+      }, 
+      "PRIMARY_KEYS": {
+        "cdb_content_id": "4bf9a5a1-7e59-11e6-bf58-78acc0a55b77", 
+        "cdb_folder_id": "4fc64380-5e34-11e2-ba94-78acc0ace8c3"
+      }
+    }, 
+    {
+      "DATA": {
+        "position": 3
+      }, 
+      "PRIMARY_KEYS": {
+        "cdb_content_id": "60bce14f-c6ce-11e2-998e-78acc0a55b77", 
+        "cdb_folder_id": "4fc64380-5e34-11e2-ba94-78acc0ace8c3"
+      }
+    }, 
+    {
+      "DATA": {
+        "position": 2
+      }, 
+      "PRIMARY_KEYS": {
+        "cdb_content_id": "83fbbf48-a1e6-11e2-bc06-78acc0ace8c3", 
+        "cdb_folder_id": "4fc64380-5e34-11e2-ba94-78acc0ace8c3"
+      }
+    }
+  ]
+}

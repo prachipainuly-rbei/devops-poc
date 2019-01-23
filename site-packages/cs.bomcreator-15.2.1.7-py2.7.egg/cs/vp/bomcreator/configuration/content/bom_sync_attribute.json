@@ -1,0 +1,10 @@
+{
+  "bom_sync_attribute": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "17158eb0-b6a6-11e0-988d-6cf049769241"}, "DATA": {"attribute_name": "menge", "configuration": "5bceaa30-b6a3-11e0-aa90-6cf049769241", "relation": "einzelteile"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "52aa1ac0-0aef-11e6-b864-dd210e660279"}, "DATA": {"attribute_name": "menge", "configuration": "529421c0-0aef-11e6-a82f-dd210e660279", "relation": "einzelteile"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

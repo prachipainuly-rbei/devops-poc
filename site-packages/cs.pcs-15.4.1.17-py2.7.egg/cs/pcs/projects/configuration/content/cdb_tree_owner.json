@@ -1,0 +1,35 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "05026cc0-f507-11e6-94b0-a0b3ccf7c487", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "34e90ae1-3eca-11e2-9261-f0def133d0a6", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "354ab030-7a91-11e2-8a9f-78acc0a55b77", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "515382c0-4d40-11e3-ba00-005056c00008", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "549a905e-f4ae-11e4-b74c-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "5e954f30-df62-11e4-8829-00a0c6000000", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "6667fe8f-feb3-11e4-8bb6-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "725d77a1-4440-11e2-89c3-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "725d77a1-4440-11e2-89c3-f0def133d0a6", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "91b2d743-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "91b2d743-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "91bec241-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "91c386a7-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "91c386a7-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "92338e05-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "9267fe67-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "926f24ff-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "926f2500-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "92718732-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "92b6a6f9-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "92ed798f-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "93139cbe-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "93139cbe-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "ab6c73de-6a22-11e2-9723-082e5f0d0c28", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "ab6c73de-6a22-11e2-9723-082e5f0d0c28", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "ea7e4e9e-11b0-11e4-9681-a0b3ccf7c487", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"id": "fca84f80-cca0-11e4-8737-082e5f0d0c28", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

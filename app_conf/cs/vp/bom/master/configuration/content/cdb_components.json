@@ -1,0 +1,10 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbvp_mbom_manager_show_preview", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.vp.bom", "classname": "", "description": "", "filename": "", "fqpyname": "cs.vp.bom.diffutil.App", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "stl_struct_list_gen", "role_id": "public"}, "DATA": {"active": 0, "cdb_module_id": "cs.vp.bom", "classname": "", "description": "Generieren Strukturst\u00fcckliste", "filename": "cdbstlstructlistgen.ue", "fqpyname": "", "inproc": 1, "location": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

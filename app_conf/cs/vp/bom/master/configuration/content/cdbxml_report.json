@@ -1,0 +1,11 @@
+{
+  "cdbxml_report": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "BOMComparison", "title": "St\u00fccklistenvergleich"}, "DATA": {"cdb_module_id": "cs.vp.bom", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbpdd_rep_bomcomp_mask"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "title": "Strukturst\u00fcckliste"}, "DATA": {"cdb_module_id": "cs.vp.bom", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbpdd_rep_strucktur_sl_mask"}},
+      {"PRIMARY_KEYS": {"name": "PartUsage", "title": "Verwendungsnachweis"}, "DATA": {"cdb_module_id": "cs.vp.bom", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbvp_part_usage_report"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

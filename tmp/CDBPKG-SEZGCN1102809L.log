@@ -1,0 +1,764 @@
+[2019-01-21T06:25:36.552Z] CDBPKG PID:6228 MSG:0 Environment: 
+pid=6228
+hostname=SEZGCN1102809L
+APPDATA=C:\Users\ppr4cob\AppData\Roaming
+CADDOK_APP_CONF=C:\cdb\rbei\app_conf
+CADDOK_ARCH=win32
+CADDOK_BASE=C:\cdb\rbei
+CADDOK_CDBPKG_HOST=sezgcn1102809l.rbeigcn.com
+CADDOK_DB1=rbei
+CADDOK_DB3=Latin1_General_CS_AS
+CADDOK_DBCNCT=SEZGCN1102809L\SQLEXPRESS1
+CADDOK_DBDRIVER=mssql
+CADDOK_DBMODE=SSPI/SSPI
+CADDOK_DBNAME=mssql
+CADDOK_DBSYS=mssql
+CADDOK_DB_RETRY=1
+CADDOK_DEBUG=MSG:log:lev=0 ERR:log:lev=0
+CADDOK_DEFAULT=mssql@:C:\cdb\rbei
+CADDOK_HOME=c:\cdb\contact_elements_server_15.3.13\cdb
+CADDOK_INSTALLDIR=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_ISOLANG=de
+CADDOK_LANGUAGE=d
+CADDOK_LOGDIR=C:\cdb\rbei\tmp
+CADDOK_MAX_USER_SESSIONS=4000
+CADDOK_PACKAGE_REPOSITORY_DIR=C:\cdb\rbei\tmp
+CADDOK_PRG_IDENT_PARENT=-1
+CADDOK_RUNTIME=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_SCRIPTDIR=c:\cdb\contact_elements_server_15.3.13\cdb\lib
+CADDOK_SERVER=SSPI/SSPI@SEZGCN1102809L\SQLEXPRESS1
+CADDOK_SML_SHOWID=true
+CADDOK_SQLDBMS=6
+CADDOK_SQLDBMS_STRLEN=len
+CADDOK_TMPDIR=C:\cdb\rbei\tmp
+CADDOK_TOOL=cdbpkg
+CADDOK_TOPDIR=c:\cdb
+CADDOK_WWWSERVICE_URL=http://www.example.org
+CAD_SYSTEM=-
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=SEZGCN1102809L
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIGSETROOT=C:\Windows\ConfigSetRoot
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\ppr4cob
+JAVA_HOME=C:\cdb\CONTACT_Elements_Server_15.3.13\java
+LOCALAPPDATA=C:\Users\ppr4cob\AppData\Local
+LOGONSERVER=\\COBGCIAD01
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\ppr4cob\OneDrive
+OPENSSL_CONF=C:\cdb\CONTACT_Elements_Server_15.3.13\share\openssl\openssl.cnf
+OS=Windows_NT
+PATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\Scripts;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pywin32_system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\CONTACT Workspace Manager\bin\cdbwscall;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\ppr4cob\AppData\Local\Microsoft\WindowsApps;C:\Windows\system32
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4e03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES=C:\Program Files
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\python27.zip;C:\cdb\CONTACT_Elements_Server_15.3.13\DLLs;C:\cdb\CONTACT_Elements_Server_15.3.13\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\plat-win;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\lib-tk;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\future-0.16.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\backports.functools_lru_cache-1.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\enum34-1.1.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\repoze.lru-0.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\reg-0.11-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\dectate-0.13-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\importscan-0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\morepath-0.18.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bowerstatic-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.forwarded-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.static-0.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.pathtool-0.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\setuptools_subversion-3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\redis-2.10.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\six-1.11.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zope.interface-4.4.3-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\constantly-15.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\automat-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\incremental-17.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\apsw-3.21.0.post1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\colorama-0.3.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\typing-3.6.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinxcontrib_websupport-1.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chardet-3.0.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\idna-2.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\urllib3-1.22-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests-2.18.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\alabaster-0.7.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pygments-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\markupsafe-1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\jinja2-2.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinx-1.6.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyparsing-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyscss-1.3.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pathtools-0.1.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argh-0.26.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\watchdog-0.8.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pem-17.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_dateutil-2.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\funcsigs-1.0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beaker-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose_timer-0.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beautifulsoup4-4.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\waitress-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\crochet-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\passlib-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyslet-0.7.20170805-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse-1.8.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse_type-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\behave-1.2.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ldaptor-16.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bcrypt-3.1.4-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\polib-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\kerberos_sspi-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\isodate-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\whoosh-2.7.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyjwkest-1.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperframe-5.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hpack-3.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\h2-3.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\priority-1.3.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1_modules-0.2.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\service_identity-17.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\appdirs-1.4.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pep8-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\psutil-5.4.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sympy-1.1.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\tatsu-4.2.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pint-0.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webtest-2.0.29-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\icalendar-4.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_constraint-1.3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\defusedxml-0.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests_toolbelt-0.8.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zeep-2.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\configparser-3.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argon2_cffi-18.1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\asn1crypto-0.24.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\babel-2.5.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose-1.3.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ipaddress-1.0.19-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\coverage-4.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\validate_email-1.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\werkzeug-0.14.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txaio-2.10.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\attrs-18.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\twisted-18.4.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\autobahn-18.5.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cached_property-1.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cffi-1.11.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperlink-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\imagesize-1.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\lxml-4.2.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\oic-0.14.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cryptography-2.2.2-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chameleon-3.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\qrcode-6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\selenium-3.12.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pytz-2018.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyopenssl-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webob-1.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zc.buildout-2.12.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pycryptodomex-3.7.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\Pythonwin;C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python;C:\cdb\rbei\lib;C:\cdb\rbei\site-packages
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\ppr4cob\AppData\Local\Temp
+TMP=C:\Users\ppr4cob\AppData\Local\Temp
+UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN=RBEIGCN.COM
+USERDOMAIN=RBEIGCN
+USERDOMAIN_ROAMINGPROFILE=RBEIGCN
+USERNAME=PPR4COB
+USERPROFILE=C:\Users\ppr4cob
+WINDIR=C:\Windows
+WSM_INST=C:\Program Files (x86)\CONTACT Workspace Manager\
+
+[2019-01-21T06:25:36.552Z] CDBPKG PID:6228 MSG:0 CADDOK_ISOLANG set to 'de' (CADDOK_LANGUAGE: 'd').
+[2019-01-21T06:58:23.634Z] CDBPKG PID:11832 MSG:0 Environment: 
+pid=11832
+hostname=SEZGCN1102809L
+APPDATA=C:\Users\ppr4cob\AppData\Roaming
+CADDOK_APP_CONF=C:\cdb\rbei\app_conf
+CADDOK_ARCH=win32
+CADDOK_BASE=C:\cdb\rbei
+CADDOK_CDBPKG_HOST=sezgcn1102809l.rbeigcn.com
+CADDOK_DB1=rbei
+CADDOK_DB3=Latin1_General_CS_AS
+CADDOK_DBCNCT=SEZGCN1102809L\SQLEXPRESS1
+CADDOK_DBDRIVER=mssql
+CADDOK_DBMODE=SSPI/SSPI
+CADDOK_DBNAME=mssql
+CADDOK_DBSYS=mssql
+CADDOK_DB_RETRY=1
+CADDOK_DEBUG=MSG:log:lev=0 ERR:log:lev=0
+CADDOK_DEFAULT=mssql@:C:\cdb\rbei
+CADDOK_HOME=c:\cdb\contact_elements_server_15.3.13\cdb
+CADDOK_INSTALLDIR=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_ISOLANG=de
+CADDOK_LANGUAGE=d
+CADDOK_LOGDIR=C:\cdb\rbei\tmp
+CADDOK_MAX_USER_SESSIONS=4000
+CADDOK_PACKAGE_REPOSITORY_DIR=C:\cdb\rbei\tmp
+CADDOK_PRG_IDENT_PARENT=-1
+CADDOK_RUNTIME=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_SCRIPTDIR=c:\cdb\contact_elements_server_15.3.13\cdb\lib
+CADDOK_SERVER=SSPI/SSPI@SEZGCN1102809L\SQLEXPRESS1
+CADDOK_SML_SHOWID=true
+CADDOK_SQLDBMS=6
+CADDOK_SQLDBMS_STRLEN=len
+CADDOK_TMPDIR=C:\cdb\rbei\tmp
+CADDOK_TOOL=cdbpkg
+CADDOK_TOPDIR=c:\cdb
+CADDOK_WWWSERVICE_URL=http://www.example.org
+CAD_SYSTEM=-
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=SEZGCN1102809L
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIGSETROOT=C:\Windows\ConfigSetRoot
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\ppr4cob
+JAVA_HOME=C:\cdb\CONTACT_Elements_Server_15.3.13\java
+LOCALAPPDATA=C:\Users\ppr4cob\AppData\Local
+LOGONSERVER=\\COBGCIAD01
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\ppr4cob\OneDrive
+OPENSSL_CONF=C:\cdb\CONTACT_Elements_Server_15.3.13\share\openssl\openssl.cnf
+OS=Windows_NT
+PATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\Scripts;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pywin32_system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\CONTACT Workspace Manager\bin\cdbwscall;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\ppr4cob\AppData\Local\Microsoft\WindowsApps;C:\Windows\system32
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4e03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES=C:\Program Files
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\python27.zip;C:\cdb\CONTACT_Elements_Server_15.3.13\DLLs;C:\cdb\CONTACT_Elements_Server_15.3.13\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\plat-win;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\lib-tk;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\future-0.16.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\backports.functools_lru_cache-1.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\enum34-1.1.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\repoze.lru-0.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\reg-0.11-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\dectate-0.13-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\importscan-0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\morepath-0.18.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bowerstatic-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.forwarded-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.static-0.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.pathtool-0.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\setuptools_subversion-3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\redis-2.10.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\six-1.11.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zope.interface-4.4.3-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\constantly-15.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\automat-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\incremental-17.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\apsw-3.21.0.post1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\colorama-0.3.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\typing-3.6.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinxcontrib_websupport-1.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chardet-3.0.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\idna-2.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\urllib3-1.22-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests-2.18.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\alabaster-0.7.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pygments-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\markupsafe-1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\jinja2-2.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinx-1.6.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyparsing-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyscss-1.3.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pathtools-0.1.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argh-0.26.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\watchdog-0.8.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pem-17.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_dateutil-2.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\funcsigs-1.0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beaker-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose_timer-0.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beautifulsoup4-4.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\waitress-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\crochet-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\passlib-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyslet-0.7.20170805-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse-1.8.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse_type-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\behave-1.2.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ldaptor-16.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bcrypt-3.1.4-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\polib-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\kerberos_sspi-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\isodate-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\whoosh-2.7.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyjwkest-1.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperframe-5.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hpack-3.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\h2-3.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\priority-1.3.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1_modules-0.2.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\service_identity-17.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\appdirs-1.4.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pep8-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\psutil-5.4.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sympy-1.1.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\tatsu-4.2.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pint-0.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webtest-2.0.29-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\icalendar-4.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_constraint-1.3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\defusedxml-0.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests_toolbelt-0.8.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zeep-2.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\configparser-3.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argon2_cffi-18.1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\asn1crypto-0.24.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\babel-2.5.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose-1.3.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ipaddress-1.0.19-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\coverage-4.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\validate_email-1.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\werkzeug-0.14.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txaio-2.10.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\attrs-18.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\twisted-18.4.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\autobahn-18.5.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cached_property-1.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cffi-1.11.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperlink-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\imagesize-1.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\lxml-4.2.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\oic-0.14.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cryptography-2.2.2-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chameleon-3.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\qrcode-6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\selenium-3.12.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pytz-2018.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyopenssl-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webob-1.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zc.buildout-2.12.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pycryptodomex-3.7.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\Pythonwin;C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python;C:\cdb\rbei\lib;c:\cdb\rbei\site-packages\cscdb.product-11.3.0.8-py2.7.egg;c:\cdb\rbei\site-packages\cs.workspaces-15.2.1.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.workflow-15.4.1.3-py2.7.egg;c:\cdb\rbei\site-packages\cs.web-15.3.0.6-py2.7.egg;c:\cdb\rbei\site-packages\cs.vp-15.5.0.12-py2.7.egg;c:\cdb\rbei\site-packages\cs.vp_pcs-15.3.0.3-py2.7.egg;c:\cdb\rbei\site-packages\cs.taskmanager-15.4.1.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.powerreports-15.3.0.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.portfolios-15.4.0.0-py2.7.egg;c:\cdb\rbei\site-packages\cs.pcs-15.4.1.17-py2.7.egg;c:\cdb\rbei\site-packages\cs.officelink-15.5.0.9-py2.7.egg;c:\cdb\rbei\site-packages\cs.metrics-15.4.0.2-py2.7.egg;c:\cdb\rbei\site-packages\cs.launchpad-15.2.1.0-py2.7.egg;c:\cdb\rbei\site-packages\cs.ec-15.4.0.9-py2.7.egg;c:\cdb\rbei\site-packages\cs.documents-15.2.3.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.designsystem-15.2.0.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.defects-15.2.1.2-py2.7.egg;c:\cdb\rbei\site-packages\cs.bomcreator-15.2.1.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.base-15.4.2.4-py2.7.egg;c:\cdb\rbei\site-packages\cs.activitystream-15.3.1.4-py2.7.egg;c:\cdb\rbei\site-packages\cs.actions-15.4.0.2-py2.7.egg;C:\cdb\rbei\site-packages
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\ppr4cob\AppData\Local\Temp
+TMP=C:\Users\ppr4cob\AppData\Local\Temp
+UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN=RBEIGCN.COM
+USERDOMAIN=RBEIGCN
+USERDOMAIN_ROAMINGPROFILE=RBEIGCN
+USERNAME=PPR4COB
+USERPROFILE=C:\Users\ppr4cob
+WINDIR=C:\Windows
+WSM_INST=C:\Program Files (x86)\CONTACT Workspace Manager\
+
+[2019-01-21T06:58:23.634Z] CDBPKG PID:11832 MSG:0 CADDOK_ISOLANG set to 'de' (CADDOK_LANGUAGE: 'd').
+[2019-01-21T06:59:54.124Z] CDBPKG PID:11832 MSG:0 No user impersonated when asking for property 'cmlt' - will use the value configured for 'public'
+[2019-01-21T06:59:54.155Z] CDBPKG PID:11832 MSG:0 No user impersonated when asking for property 'fala' - will use the value configured for 'public'
+[2019-01-21T06:59:54.170Z] CDBPKG PID:11832 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbweb_favorites'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbweb_history_item'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_dialog_hook'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_dialog_hook_func'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_display_configuration'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_display_context'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_outlet_child'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_outlet_definition'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_outlet_description'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_outlet_position'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_outlet_position_owner'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_page_config'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_page_config_app'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_page_config_class'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_page_config_detail'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_page_config_owner'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_page_frame'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_plugin'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_plugin_config'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_plugin_config_library'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_related_object_tile'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_search_fav_params'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_search_favourites'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_ui_and_rest_names'
+[2019-01-21T07:00:06.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_ui_name'
+[2019-01-21T07:00:06.984Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_dashboard'
+[2019-01-21T07:00:06.984Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_dashboard_item'
+[2019-01-21T07:00:06.984Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'csweb_dashboard_widget'
+[2019-01-21T07:00:09.375Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_link_graph_cfg'
+[2019-01-21T07:00:09.375Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_link_graph_cls'
+[2019-01-21T07:00:09.375Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_link_matrix_cfg'
+[2019-01-21T07:00:09.375Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_link_matrix_rs'
+[2019-01-21T07:00:09.375Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_semantic_link'
+[2019-01-21T07:00:09.375Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_semantic_link_type'
+[2019-01-21T07:00:11.125Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbbop_opdef'
+[2019-01-21T07:00:11.125Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbbop_operation'
+[2019-01-21T07:00:11.125Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbbop_prot'
+[2019-01-21T07:00:11.125Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbbop_typedef'
+[2019-01-21T07:00:12.782Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_cal_prof_exc'
+[2019-01-21T07:00:12.782Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_calendar_entry'
+[2019-01-21T07:00:12.782Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_calendar_profile'
+[2019-01-21T07:00:12.782Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_day_type'
+[2019-01-21T07:01:05.020Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpco_curr_convert'
+[2019-01-21T07:01:05.020Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpco_currency'
+[2019-01-21T07:01:06.145Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_audittrail'
+[2019-01-21T07:01:06.145Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_audittrail_config'
+[2019-01-21T07:01:06.145Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_audittrail_config_field'
+[2019-01-21T07:01:06.145Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_audittrail_detail'
+[2019-01-21T07:01:06.145Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_audittrail_detail_longtext'
+[2019-01-21T07:01:06.145Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_audittrail_objects'
+[2019-01-21T07:01:06.145Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_audittrail_type'
+[2019-01-21T07:01:06.145Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_audittrail_view'
+[2019-01-21T07:01:08.052Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbblog_attachment'
+[2019-01-21T07:01:08.052Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbblog_channel'
+[2019-01-21T07:01:08.052Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbblog_comment'
+[2019-01-21T07:01:08.052Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbblog_posting'
+[2019-01-21T07:01:08.052Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbblog_subscription'
+[2019-01-21T07:01:08.052Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbblog_system_posting'
+[2019-01-21T07:01:08.052Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbblog_topic2posting'
+[2019-01-21T07:01:08.052Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbblog_user_posting'
+[2019-01-21T07:01:08.052Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'mq_system_posting'
+[2019-01-21T07:01:09.462Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_object_sharing_group'
+[2019-01-21T07:01:09.462Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_personal_sharing_group'
+[2019-01-21T07:01:09.462Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_sharing'
+[2019-01-21T07:01:09.462Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_sharing_group'
+[2019-01-21T07:01:09.462Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_sharing_group_member'
+[2019-01-21T07:01:09.462Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_sharing_posting_v'
+[2019-01-21T07:01:09.462Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_sharing_recipients'
+[2019-01-21T07:01:09.462Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'mq_share_objects_queue'
+[2019-01-21T07:01:09.541Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 2627:'Violation of PRIMARY KEY constraint 'PK__cdb_sett__38CFF8D57386E2F8'. Cannot insert duplicate key in object 'dbo.cdb_setting'. The duplicate key value is (user.email_with_sharing, , public).'
+[2019-01-21T07:01:12.353Z] CDBPKG PID:11832 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-21T07:01:15.213Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_msp_default'
+[2019-01-21T07:01:15.213Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_msp_fields'
+[2019-01-21T07:01:15.213Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_msp_syncrel'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_lic_feature_assign_rep'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbxml_dataprovider'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbxml_prov_grant'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbxml_provider_arg'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbxml_provider_reg'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbxml_provider_type'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbxml_report'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbxml_report_arg'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbxml_report_grant'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbxml_report_tmpl'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbxml_source'
+[2019-01-21T07:01:17.307Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'mq_xsd_reports'
+[2019-01-21T07:01:17.416Z] CDBPKG PID:11832 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-21T07:01:17.416Z] CDBPKG PID:11832 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-21T07:01:19.667Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cs_tasks_attribute'
+[2019-01-21T07:01:19.667Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cs_tasks_class'
+[2019-01-21T07:01:19.667Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cs_tasks_class_context'
+[2019-01-21T07:01:19.667Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cs_tasks_class_relship'
+[2019-01-21T07:01:19.667Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cs_tasks_column'
+[2019-01-21T07:01:19.667Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cs_tasks_context'
+[2019-01-21T07:01:19.667Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cs_tasks_read_status'
+[2019-01-21T07:01:19.667Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cs_tasks_tag'
+[2019-01-21T07:01:19.667Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cs_tasks_user_view'
+[2019-01-21T07:01:19.776Z] CDBPKG PID:11832 MSG:0 No user impersonated when asking for property 'stsp' - will use the value configured for 'public'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_aggregate'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_aggregate_parallel'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_aggregate_proc_completion'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_aggregate_sequential'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_briefcase'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_briefcase_link'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_constraint'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_extension_assignment'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_filter_parameter'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_form'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_form_template'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_info_message'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_interactive_task'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_parameter_definition'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_process'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_process_categ'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_process_component'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_process_content'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_process_pyrule_assign'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_protocol'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_resp_browser'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_system_task'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_system_task_definition'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_task'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_task_approval'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_task_examination'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbwf_task_execution'
+[2019-01-21T07:01:26.027Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'mq_wfqueue'
+[2019-01-21T07:01:27.761Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_action'
+[2019-01-21T07:01:27.761Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_action_prot'
+[2019-01-21T07:01:27.761Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_action_resp_brows'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_action2qc'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_aggr_rule'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_children'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_class_def2class'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_class_definition'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_class_quality_character'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_computation_protocol'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_computation_rule'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_custom_computation_rule'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_def2class'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_definition'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_expression_evaluation'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_grouping_attribute'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_grouping_value'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_history'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_obj_def2class'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_obj_definition'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_obj_quality_character'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_parents'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_q_grade'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_quality_character'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_resp_brows'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_sql_statistics'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_unit'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_unit_type'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbqc_update_clocks'
+[2019-01-21T07:01:31.527Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'mq_aggregation_queue'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'aenderung'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_cad_categ_ftype'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_dcat_decomp'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_doc_categ'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_doc_categ_proposals'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_doc_rel'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_drawing2sheets'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_mod_event'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_mod_kind'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_mod_source'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_priority_cat'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_roleexc_doc'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_z_statiprot'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbbop_doc_asgn'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'doctype_assign'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'document'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'document_template_proposal'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'massstab'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'mq_mstr_repl'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'prefixes'
+[2019-01-21T07:01:36.325Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'z_verteiler'
+[2019-01-21T07:01:36.872Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_action2doc'
+[2019-01-21T07:01:38.294Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_portfolio'
+[2019-01-21T07:01:38.294Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_portfolio_category'
+[2019-01-21T07:01:38.294Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_portfolio_folder'
+[2019-01-21T07:01:40.544Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_defect'
+[2019-01-21T07:01:40.544Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_defect_categ'
+[2019-01-21T07:01:40.544Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_defect_code'
+[2019-01-21T07:01:40.544Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_defect_priority'
+[2019-01-21T07:01:40.544Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_defect_prot'
+[2019-01-21T07:01:40.544Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_defect_source'
+[2019-01-21T07:01:40.544Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_defect_type'
+[2019-01-21T07:01:40.544Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_defect2action'
+[2019-01-21T07:01:41.044Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_defect2doc'
+[2019-01-21T07:01:49.592Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_chart_config'
+[2019-01-21T07:01:49.592Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_prj_acd'
+[2019-01-21T07:01:49.592Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_prj_prot'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_prj_role'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_prj2site'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_project'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_project_cat'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rat_val_lights'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_resp_brows'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rexc_com_role'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rexc_per'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rexc_prj_role'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_role_def'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_role_exc'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_subj_com_role'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_subj_prj_role'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_subject_base'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_subject_per'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_task'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_task_b'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_task_category'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_task_constraint'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_task_prot'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_taskrel'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_team'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_tr_types'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbrm_risk_class'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'pcs_project_proposals'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'pcs_project_template_proposals'
+[2019-01-21T07:01:49.607Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'pcs_task_proposals'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_checklist'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_cl_cat'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_cl_item'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_cl_prot'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_cl_types'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_cli_prot'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_deliv2rule'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rat_asgn'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rat_def'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rat_val'
+[2019-01-21T07:01:53.608Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rat_wght'
+[2019-01-21T07:01:56.764Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_action2issue'
+[2019-01-21T07:01:56.764Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_iss_cat'
+[2019-01-21T07:01:56.764Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_iss_log'
+[2019-01-21T07:01:56.764Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_iss_prio'
+[2019-01-21T07:01:56.764Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_iss_prot'
+[2019-01-21T07:01:56.764Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_iss_rem'
+[2019-01-21T07:01:56.764Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_iss_val'
+[2019-01-21T07:01:56.764Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_issue'
+[2019-01-21T07:01:59.046Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_folder_type'
+[2019-01-21T07:01:59.046Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_folder2doc'
+[2019-01-21T07:01:59.046Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_folder'
+[2019-01-21T07:01:59.046Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_prj2doctmpl'
+[2019-01-21T07:01:59.046Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_docfolder_dynamic'
+[2019-01-21T07:01:59.046Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_docfolder_exact'
+[2019-01-21T07:01:59.046Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rexc_doc'
+[2019-01-21T07:01:59.046Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_task2doctmpl'
+[2019-01-21T07:01:59.046Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_doc_tmpl_usage'
+[2019-01-21T07:01:59.046Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_doc2task'
+[2019-01-21T07:02:00.390Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_cl2doctmpl'
+[2019-01-21T07:02:00.390Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_cli2doctmpl'
+[2019-01-21T07:02:00.390Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_doc2cl'
+[2019-01-21T07:02:00.390Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_doc2cli'
+[2019-01-21T07:02:03.765Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_worktime'
+[2019-01-21T07:02:03.765Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_billable'
+[2019-01-21T07:02:03.765Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rep_order'
+[2019-01-21T07:02:03.765Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_effort'
+[2019-01-21T07:02:03.765Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_effort_activity_type'
+[2019-01-21T07:02:03.765Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_effort_cat'
+[2019-01-21T07:02:03.765Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_effort_prot'
+[2019-01-21T07:02:04.297Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_doc2iss'
+[2019-01-21T07:02:06.844Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_project2time_schedule'
+[2019-01-21T07:02:06.844Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_time_schedule'
+[2019-01-21T07:02:06.844Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_time_schedule_timerange'
+[2019-01-21T07:02:06.844Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_ts_column'
+[2019-01-21T07:02:06.844Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_ts_content'
+[2019-01-21T07:02:06.844Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_ts_format'
+[2019-01-21T07:02:06.844Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_tsc_prot'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'werkstoffe'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'woerter'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_maturity'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_t_statiprot'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_part_categ'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_part_cust'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_part_surfac'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_part_usab'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_units'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'fav_woerter'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbbop_item_asgn'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_roleexc_prt'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'part'
+[2019-01-21T07:02:11.172Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'teile_verteiler'
+[2019-01-21T07:02:14.735Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_maturity'
+[2019-01-21T07:02:14.735Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_product'
+[2019-01-21T07:02:14.735Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_product_prot'
+[2019-01-21T07:02:14.735Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_resp_brows'
+[2019-01-21T07:02:17.142Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'altdaten_zeich'
+[2019-01-21T07:02:17.142Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'model'
+[2019-01-21T07:02:17.142Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cad_variant'
+[2019-01-21T07:02:17.970Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_product2doc'
+[2019-01-21T07:02:21.548Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_item'
+[2019-01-21T07:02:21.548Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_item_usage'
+[2019-01-21T07:02:21.548Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_partslist_comp'
+[2019-01-21T07:02:21.548Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_partslist_cval'
+[2019-01-21T07:02:21.548Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbbop_bomitem_asgn'
+[2019-01-21T07:02:21.548Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbbop_bomitem_para'
+[2019-01-21T07:02:21.548Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_diffutil_ignored'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_cg_docs'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_cg_hier'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_cg_pset'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_cg_types'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_cgroup'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_doc_purpose'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_preset'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_propcat'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_propcathier'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_propdoc'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_property'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'sml_data_type'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'sml_mm_rowident'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'sml_mm_state'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_propset'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_propvalue'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_pset_doc'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_pset_names'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_pset_prop'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_pset_view'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_pval_subset'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_pval_subset_v'
+[2019-01-21T07:02:25.533Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbsml_unit_names'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_bom_mapping'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_bom_predicate'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_bom_predicate_term'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_bom_string_predicate'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_bom_term'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_catalogue_enum_def'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_catalogue_folder'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_term'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_variant'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_variant_mapping'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_variant2part'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_property_dependency'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_property_folder'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_property_folder2property'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_property_value'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_ddhelper_prop_on_constr'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_enum_def'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_enum_def_prop_value'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_enums'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_predicate'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_product_bom'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_product_variant'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_product_view'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_product2product'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_prop2subproduct_prop'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_property'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_catalogue_prop2folder'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_catalogue_property'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_catalogue_value_folder'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_constraint'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_constraint_type'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_ddh_enum_on_bom_item'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_ddh_value_on_cat'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_view_variant'
+[2019-01-21T07:02:33.034Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_violated_constraints'
+[2019-01-21T07:02:34.909Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_column'
+[2019-01-21T07:02:34.909Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_config'
+[2019-01-21T07:02:34.909Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_config_to_role'
+[2019-01-21T07:02:34.909Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_item_occurrence'
+[2019-01-21T07:02:34.909Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_key_attribute'
+[2019-01-21T07:02:34.909Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_mapping'
+[2019-01-21T07:02:34.909Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_method'
+[2019-01-21T07:02:34.909Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_suppressed_message'
+[2019-01-21T07:02:34.909Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'bom_sync_attribute'
+[2019-01-21T07:02:37.331Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbec_resp_brows'
+[2019-01-21T07:02:37.331Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_action2ec'
+[2019-01-21T07:02:37.331Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_briefcase2ec'
+[2019-01-21T07:02:37.331Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_ec'
+[2019-01-21T07:02:37.331Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_ec_categ'
+[2019-01-21T07:02:37.331Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_ec_prot'
+[2019-01-21T07:02:37.331Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_ec_templ2proc'
+[2019-01-21T07:02:37.331Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_ec_templ2rule'
+[2019-01-21T07:02:37.878Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_defect2ec'
+[2019-01-21T07:02:38.566Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_ec2doc'
+[2019-01-21T07:02:39.957Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_ec2pitem'
+[2019-01-21T07:02:39.957Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_item_ecn'
+[2019-01-21T07:02:40.597Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbecm_ec2pmodel'
+[2019-01-21T07:02:41.910Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbvp_project2product'
+[2019-01-21T07:02:42.801Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_part2task'
+[2019-01-21T07:02:42.801Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_rexc_prt'
+[2019-01-21T07:02:43.723Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_part2cl'
+[2019-01-21T07:02:44.426Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdbpcs_part2iss'
+[2019-01-21T07:02:45.473Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_wsp'
+[2019-01-21T07:02:47.364Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'wsm_settings'
+[2019-01-21T07:02:47.364Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_file_links_status'
+[2019-01-21T07:02:47.364Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'cdb_file_wsm'
+[2019-01-21T07:02:47.364Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'exported_file'
+[2019-01-21T07:02:47.364Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'partner_export'
+[2019-01-21T07:02:47.364Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'partner_filename'
+[2019-01-21T07:02:47.364Z] CDBPKG PID:11832 MSG:0 Refreshing configuration of class 'index_update_rule'
+[2019-01-21T07:03:04.698Z] CDBPKG PID:11832 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-21T07:03:04.698Z] CDBPKG PID:11832 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-21T07:03:05.276Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_property_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:05.339Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_enum_def_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:05.417Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_constraint_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:05.683Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_action_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:05.854Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_time_schedule_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:06.042Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_definition_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:06.089Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_obj_definition_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:06.151Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_quality_character_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:06.214Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_obj_quality_character', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:06.276Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_action2qc_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:06.901Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_task_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:07.042Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_def2class_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:07.276Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_calendar_entry_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:07.386Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_term_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:07.698Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_process_component_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:07.761Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_system_task_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:08.073Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'wsm_settings_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:08.214Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_catalogue_property_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:08.417Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'document_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:08.558Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'part_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:08.699Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'zeichnung_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:08.761Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_cli2doctmplv', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:08.870Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_action_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:09.105Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_product_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:09.261Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_briefcase_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:09.792Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_form_template_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:09.839Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_form_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:10.121Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_effort_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:10.277Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'csweb_page_config_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:10.339Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'csweb_page_config_class_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:10.402Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'csweb_page_config_detail_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:10.589Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_process_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:10.652Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_filter_parameter_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:11.168Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_task_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:12.043Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_computation_protocol_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:12.121Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_predicate_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:13.011Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_prj_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:13.136Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'csweb_dialog_hook_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:13.668Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_lic_feature_assign_rep_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:14.371Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_issue_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:14.465Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_briefcase_link_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:14.574Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_product_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:15.293Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_cl_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:15.387Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_prj2doctmplv', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:16.027Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_portfolio_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:17.012Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_bom_mapping_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:17.574Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_cl_item_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:17.793Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_semantic_link_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:18.012Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_project_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:18.200Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_defect_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:18.481Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_portfolio_folder_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:18.668Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_iss_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:18.793Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_constraint_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:18.981Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_bom_term_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:20.262Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'einzelteile_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:21.044Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbsml_pset_prop_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:21.215Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_property_value_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:21.387Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_task2doctmplv', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:21.966Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_variant_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:22.059Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_view_variant', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:22.231Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_t_statiprot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:22.419Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_children_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:22.528Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_defect_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:23.466Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_cl2doctmplv', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:23.763Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_property_dependency_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:24.122Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_effort_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:24.466Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbecm_ec_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:24.997Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_tsc_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:25.232Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_protocol_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:25.763Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_grouping_value_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:25.966Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_checklist_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:26.497Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbecm_doc_ecn_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:27.247Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_enum_def_prop_value_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:27.794Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_z_statiprot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:27.888Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbecm_item_ecn_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:28.154Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbecm_ec_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:28.623Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_cli_prot_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:28.919Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_action_resp_brows', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:28.998Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_sharing_recipients_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:29.060Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_resp_brows', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:29.154Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_audittrail_view', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:29.529Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_resp_brows', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:29.607Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbec_resp_brows', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:29.670Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_process_content', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:29.716Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbecm_briefcase2ec_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:29.763Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'csweb_ui_and_rest_names', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:29.810Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_resp_brows', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:29.888Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbsml_pval_subset_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:29.888Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 208:'Invalid object name 'cdbsml_pset_pval_v'.'
+[2019-01-21T07:03:29.935Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_resp_browser', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.013Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_doc_tmpl_usage_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.060Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_part_usage_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.216Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_sharing_posting_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.263Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbsml_pval_subset_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.263Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 208:'Invalid object name 'cdbsml_pset_pval_v'.'
+[2019-01-21T07:03:30.263Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'aenderung_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.373Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_sharing_subjects', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.404Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbqc_grade_not_aggregate', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.435Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_doc_rel_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.576Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cs_tasks_headers_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.623Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_calendar_prof_dt_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.654Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_calendar_proj_entry_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.685Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_calendar_user_entry_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.732Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_person_calendar_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.763Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_global_subjects_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.795Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'vert_empf_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.826Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbwf_resp_mapping', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.857Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbsml_cghier_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.904Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbsml_propcat_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.935Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbsml_pset_pval_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.967Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_fld2docs_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:30.998Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbvp_part2var_siblings_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:31.045Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_project_calendar_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:31.076Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdb_workdays_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:31.107Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbpcs_taskrel_gaps_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:31.154Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'pcs_sharing_subjects_all', because it does not exist or you do not have permission.'
+[2019-01-21T07:03:31.435Z] CDBPKG PID:11832 MSG:0 Got SQL exception: 3701:'Cannot drop the view 'cdbsml_pval_subset_v', because it does not exist or you do not have permission.'
+[2019-01-21T07:05:18.452Z] CDBPKG PID:18564 MSG:0 Environment: 
+pid=18564
+hostname=SEZGCN1102809L
+APPDATA=C:\Users\ppr4cob\AppData\Roaming
+CADDOK_APP_CONF=C:\cdb\rbei\app_conf
+CADDOK_ARCH=win32
+CADDOK_BASE=C:\cdb\rbei
+CADDOK_CDBPKG_HOST=sezgcn1102809l.rbeigcn.com
+CADDOK_DB1=rbei
+CADDOK_DB3=Latin1_General_CS_AS
+CADDOK_DBCNCT=SEZGCN1102809L\SQLEXPRESS1
+CADDOK_DBDRIVER=mssql
+CADDOK_DBMODE=SSPI/SSPI
+CADDOK_DBNAME=mssql
+CADDOK_DBSYS=mssql
+CADDOK_DB_RETRY=1
+CADDOK_DEBUG=MSG:log:lev=0 ERR:log:lev=0
+CADDOK_DEFAULT=mssql@:C:\cdb\rbei
+CADDOK_HOME=c:\cdb\contact_elements_server_15.3.13\cdb
+CADDOK_INSTALLDIR=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_ISOLANG=de
+CADDOK_LANGUAGE=d
+CADDOK_LOGDIR=C:\cdb\rbei\tmp
+CADDOK_MAX_USER_SESSIONS=4000
+CADDOK_PACKAGE_REPOSITORY_DIR=C:\cdb\rbei\tmp
+CADDOK_PRG_IDENT_PARENT=-1
+CADDOK_RUNTIME=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_SCRIPTDIR=c:\cdb\contact_elements_server_15.3.13\cdb\lib
+CADDOK_SERVER=SSPI/SSPI@SEZGCN1102809L\SQLEXPRESS1
+CADDOK_SML_SHOWID=true
+CADDOK_SQLDBMS=6
+CADDOK_SQLDBMS_STRLEN=len
+CADDOK_TMPDIR=C:\cdb\rbei\tmp
+CADDOK_TOOL=cdbpkg
+CADDOK_TOPDIR=c:\cdb
+CADDOK_WWWSERVICE_URL=http://www.example.org
+CAD_SYSTEM=-
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=SEZGCN1102809L
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIGSETROOT=C:\Windows\ConfigSetRoot
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\ppr4cob
+JAVA_HOME=C:\cdb\CONTACT_Elements_Server_15.3.13\java
+LOCALAPPDATA=C:\Users\ppr4cob\AppData\Local
+LOGONSERVER=\\COBGCIAD01
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\ppr4cob\OneDrive
+OPENSSL_CONF=C:\cdb\CONTACT_Elements_Server_15.3.13\share\openssl\openssl.cnf
+OS=Windows_NT
+PATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\Scripts;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pywin32_system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\CONTACT Workspace Manager\bin\cdbwscall;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\ppr4cob\AppData\Local\Microsoft\WindowsApps;C:\Windows\system32
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4e03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES=C:\Program Files
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\python27.zip;C:\cdb\CONTACT_Elements_Server_15.3.13\DLLs;C:\cdb\CONTACT_Elements_Server_15.3.13\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\plat-win;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\lib-tk;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\future-0.16.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\backports.functools_lru_cache-1.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\enum34-1.1.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\repoze.lru-0.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\reg-0.11-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\dectate-0.13-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\importscan-0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\morepath-0.18.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bowerstatic-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.forwarded-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.static-0.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.pathtool-0.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\setuptools_subversion-3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\redis-2.10.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\six-1.11.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zope.interface-4.4.3-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\constantly-15.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\automat-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\incremental-17.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\apsw-3.21.0.post1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\colorama-0.3.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\typing-3.6.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinxcontrib_websupport-1.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chardet-3.0.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\idna-2.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\urllib3-1.22-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests-2.18.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\alabaster-0.7.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pygments-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\markupsafe-1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\jinja2-2.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinx-1.6.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyparsing-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyscss-1.3.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pathtools-0.1.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argh-0.26.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\watchdog-0.8.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pem-17.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_dateutil-2.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\funcsigs-1.0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beaker-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose_timer-0.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beautifulsoup4-4.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\waitress-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\crochet-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\passlib-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyslet-0.7.20170805-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse-1.8.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse_type-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\behave-1.2.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ldaptor-16.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bcrypt-3.1.4-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\polib-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\kerberos_sspi-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\isodate-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\whoosh-2.7.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyjwkest-1.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperframe-5.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hpack-3.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\h2-3.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\priority-1.3.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1_modules-0.2.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\service_identity-17.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\appdirs-1.4.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pep8-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\psutil-5.4.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sympy-1.1.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\tatsu-4.2.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pint-0.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webtest-2.0.29-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\icalendar-4.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_constraint-1.3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\defusedxml-0.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests_toolbelt-0.8.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zeep-2.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\configparser-3.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argon2_cffi-18.1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\asn1crypto-0.24.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\babel-2.5.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose-1.3.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ipaddress-1.0.19-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\coverage-4.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\validate_email-1.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\werkzeug-0.14.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txaio-2.10.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\attrs-18.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\twisted-18.4.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\autobahn-18.5.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cached_property-1.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cffi-1.11.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperlink-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\imagesize-1.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\lxml-4.2.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\oic-0.14.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cryptography-2.2.2-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chameleon-3.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\qrcode-6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\selenium-3.12.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pytz-2018.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyopenssl-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webob-1.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zc.buildout-2.12.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pycryptodomex-3.7.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\Pythonwin;C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python;C:\cdb\rbei\lib;c:\cdb\rbei\site-packages\cscdb.product-11.3.0.8-py2.7.egg;c:\cdb\rbei\site-packages\cs.workspaces-15.2.1.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.workflow-15.4.1.3-py2.7.egg;c:\cdb\rbei\site-packages\cs.web-15.3.0.6-py2.7.egg;c:\cdb\rbei\site-packages\cs.vp-15.5.0.12-py2.7.egg;c:\cdb\rbei\site-packages\cs.vp_pcs-15.3.0.3-py2.7.egg;c:\cdb\rbei\site-packages\cs.taskmanager-15.4.1.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.powerreports-15.3.0.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.portfolios-15.4.0.0-py2.7.egg;c:\cdb\rbei\site-packages\cs.pcs-15.4.1.17-py2.7.egg;c:\cdb\rbei\site-packages\cs.officelink-15.5.0.9-py2.7.egg;c:\cdb\rbei\site-packages\cs.metrics-15.4.0.2-py2.7.egg;c:\cdb\rbei\site-packages\cs.launchpad-15.2.1.0-py2.7.egg;c:\cdb\rbei\site-packages\cs.ec-15.4.0.9-py2.7.egg;c:\cdb\rbei\site-packages\cs.documents-15.2.3.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.designsystem-15.2.0.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.defects-15.2.1.2-py2.7.egg;c:\cdb\rbei\site-packages\cs.bomcreator-15.2.1.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.base-15.4.2.4-py2.7.egg;c:\cdb\rbei\site-packages\cs.activitystream-15.3.1.4-py2.7.egg;c:\cdb\rbei\site-packages\cs.actions-15.4.0.2-py2.7.egg;C:\cdb\rbei\site-packages
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\ppr4cob\AppData\Local\Temp
+TMP=C:\Users\ppr4cob\AppData\Local\Temp
+UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN=RBEIGCN.COM
+USERDOMAIN=RBEIGCN
+USERDOMAIN_ROAMINGPROFILE=RBEIGCN
+USERNAME=PPR4COB
+USERPROFILE=C:\Users\ppr4cob
+WINDIR=C:\Windows
+WSM_INST=C:\Program Files (x86)\CONTACT Workspace Manager\
+
+[2019-01-21T07:05:18.452Z] CDBPKG PID:18564 MSG:0 CADDOK_ISOLANG set to 'de' (CADDOK_LANGUAGE: 'd').
+[2019-01-21T07:05:31.266Z] CDBPKG PID:18564 MSG:0 No user impersonated when asking for property 'cmlt' - will use the value configured for 'public'
+[2019-01-21T07:05:31.391Z] CDBPKG PID:18564 MSG:0 No user impersonated when asking for property 'fala' - will use the value configured for 'public'
+[2019-01-21T07:05:31.485Z] CDBPKG PID:18564 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg

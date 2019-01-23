@@ -1,0 +1,37 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.platform": "15.3.4", 
+      "cs.web": "15.3.0.dev0"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.tools.batchoperations", 
+        "required_module_id": "cs.shared"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "32a44870-51f9-11e2-a2c9-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "f7230db7ae44d155341aa97092f9f5de", 
+      "name": "Batch operations", 
+      "package": "cs.base"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.tools.batchoperations"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cdb_auth_rules": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"label": "Account Manager"}, "DATA": {"allow_reusage": 0, "capital_count": 1, "days_of_usage": 0, "max_attempts": 5, "max_inactive": 0, "min_length": 8, "number_count": 1, "spec_char_count": 1}},
+      {"PRIMARY_KEYS": {"label": "Minimal"}, "DATA": {"allow_reusage": 0, "capital_count": 0, "days_of_usage": 0, "max_attempts": 5, "max_inactive": 0, "min_length": 8, "number_count": 1, "spec_char_count": 0}},
+      {"PRIMARY_KEYS": {"label": "Standard"}, "DATA": {"allow_reusage": 0, "capital_count": 1, "days_of_usage": 0, "max_attempts": 3, "max_inactive": 180, "min_length": 8, "number_count": 1, "spec_char_count": 1}},
+      {"PRIMARY_KEYS": {"label": "Unsafe"}, "DATA": {"allow_reusage": 1, "capital_count": 0, "days_of_usage": 0, "max_attempts": 0, "max_inactive": 0, "min_length": 0, "number_count": 0, "spec_char_count": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

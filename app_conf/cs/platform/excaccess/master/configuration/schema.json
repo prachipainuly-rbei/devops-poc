@@ -1,0 +1,71 @@
+{
+  "cdb_role_exc": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "exception_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "valid_from_date", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "valid_to_date", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 255, 
+        "NAME": "description", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "exception_id"
+    ]
+  }, 
+  "cdb_roleexc_cfg": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "context_name", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "relation", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "exc_assign_rel", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "cdb_module_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "context_name", 
+      "relation"
+    ]
+  }
+}

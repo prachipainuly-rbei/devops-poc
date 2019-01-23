@@ -1,0 +1,18 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "2D Drawings", "predicate_name": "2D Drawings"}, "DATA": {"cdb_module_id": "cs.documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "2D Drawings", "predicate_name": "Models with 2D Drawing"}, "DATA": {"cdb_module_id": "cs.documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "State Change Notification Objects", "predicate_name": "pdd:Documents[Approval]"}, "DATA": {"cdb_module_id": "cs.documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cs-web-dashboard: My Documents", "predicate_name": "cs-web-dashboard: My Documents"}, "DATA": {"cdb_module_id": "cs.documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cs.documents: With Reviewer", "predicate_name": "Document with Reviewer"}, "DATA": {"cdb_module_id": "cs.documents", "description": "A document where the attribute pruefer is not empty"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cs.sharing: Group Authors", "predicate_name": "Documents"}, "DATA": {"cdb_module_id": "cs.documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cs.sharing: Group Creator", "predicate_name": "Document"}, "DATA": {"cdb_module_id": "cs.documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cs.sharing: Group Last Saved By", "predicate_name": "Document"}, "DATA": {"cdb_module_id": "cs.documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cs.sharing: Group Released By", "predicate_name": "Documents"}, "DATA": {"cdb_module_id": "cs.documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cs.sharing: Project Roles", "predicate_name": "Document"}, "DATA": {"cdb_module_id": "cs.documents", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

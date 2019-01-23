@@ -1,0 +1,12 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Categories (non-root)", "predicate_name": "cs.vp: SML Characteristics Categories (non-root)", "table_name": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Categories (root)", "predicate_name": "cs.vp: SML Characteristics Categories (root)", "table_name": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Groups (non-root)", "predicate_name": "cs.vp: SML Characteristics Groups (non-root)", "table_name": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Groups (root)", "predicate_name": "cs.vp: SML Characteristics Groups (root)", "table_name": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

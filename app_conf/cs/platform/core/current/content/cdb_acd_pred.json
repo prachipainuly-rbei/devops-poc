@@ -1,0 +1,9 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "Schutzklassen:alle", "predicate_name": "Alle Schutzklassen", "table_name": "cdb_acd"}, "DATA": {"cdb_module_id": "cs.platform.core"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_file": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "efe6a4ee-317d-11e3-a697-082e5f0d3665"}, "CONTENT_DOMAIN": "PowerReports", "DATA": {"cdb_belongsto": null, "cdb_cdate": "10.10.2013 09:31:11", "cdb_classname": "cdb_file", "cdb_cpersno": "caddok", "cdb_folder": null, "cdb_lock_id": null, "cdb_mdate": "10.10.2013 09:31:11", "cdb_mpersno": "caddok", "cdb_wspitem_id": "ef1b3e9e-317d-11e3-a1ce-082e5f0d3665", "cdbf_blob_id": "6eccde35-1fa8-412f-ba84-2221a5d452dc", "cdbf_derived_from": "", "cdbf_description": "", "cdbf_fdate": "10.10.2013 07:20:32", "cdbf_hash": "md5:39499b56b98b8c83ee55e5a1b500633e", "cdbf_hidden": 0, "cdbf_name": "Analyse \u00c4nderungsmanagement_de.xlsm", "cdbf_object_id": "e2f2e8cf-317d-11e3-b5e0-082e5f0d3665", "cdbf_original_name": "Analyse \u00c4nderungsmanagement_de", "cdbf_primary": "1", "cdbf_size": "47010", "cdbf_type": "MS-Excel:XLSM", "cdbf_typedesc": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Administration", "allow": "FULL ACCESS", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Exceptional Access", "allow": "FULL ACCESS", "class": "common role exceptions"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Exceptional Access", "allow": "read", "class": "common role exceptions"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (BLOCKED, OBSOLETE)", "allow": "read", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "accept", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "create", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "create_bom", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "delete", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "delete_bom", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "distribute", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "read", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "save", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "save_bom", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (FROM ERP)", "allow": "CHANGE", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "mand_erp_item", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (FROM ERP)", "allow": "create_bom", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "mand_erp_item", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (FROM ERP)", "allow": "distribute", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (FROM ERP)", "allow": "index", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "mand_erp_item", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (FROM ERP)", "allow": "read", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (RELEASED)", "allow": "distribute", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (RELEASED)", "allow": "index", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (RELEASED)", "allow": "read", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVIEW)", "allow": "distribute", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVIEW)", "allow": "read", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVISION)", "allow": "read", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (configurable)", "allow": "cdbvp_instantiations", "class": "cdbvp_configurable_items"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (mBOM)", "allow": "index", "class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

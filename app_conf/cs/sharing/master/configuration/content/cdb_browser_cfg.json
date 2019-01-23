@@ -1,0 +1,14 @@
+{
+  "cdb_browser_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attrib": "cdb_object_id", "katalog": "angest_web_sharing", "maskenfeld_attrib": "cdb_object_id"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.sharing", "constant_val": 0, "create_source": 1, "input_attrib": "", "no_overwrite": 0, "sep_at_end": 0, "separator": ";", "std_search_val": 0, "struct_level": null, "use_or_operator": 0, "value_list": 1}},
+      {"PRIMARY_KEYS": {"attrib": "name", "katalog": "angest_web_sharing", "maskenfeld_attrib": "name"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.sharing", "constant_val": 0, "create_source": 1, "input_attrib": "name", "no_overwrite": 0, "sep_at_end": 0, "separator": ";", "std_search_val": 0, "struct_level": null, "use_or_operator": 0, "value_list": 1}},
+      {"PRIMARY_KEYS": {"attrib": "personalnummer", "katalog": "angest_web_sharing", "maskenfeld_attrib": "personalnummer"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.sharing", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": 0, "separator": ";", "std_search_val": 1, "struct_level": 0, "use_or_operator": 0, "value_list": 1}},
+      {"PRIMARY_KEYS": {"attrib": "subject_id", "katalog": "cdb_sharing_subjects", "maskenfeld_attrib": "subject_id"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.sharing", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": 0, "separator": "", "std_search_val": 1, "struct_level": null, "use_or_operator": 0, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "subject_name", "katalog": "cdb_sharing_subjects", "maskenfeld_attrib": "*"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.sharing", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": 0, "separator": "", "std_search_val": 1, "struct_level": null, "use_or_operator": 0, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "subject_type", "katalog": "cdb_sharing_subjects", "maskenfeld_attrib": "subject_type"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.sharing", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": 0, "separator": "", "std_search_val": 1, "struct_level": null, "use_or_operator": null, "value_list": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

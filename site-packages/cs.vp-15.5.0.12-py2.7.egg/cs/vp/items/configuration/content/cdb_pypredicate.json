@@ -1,0 +1,11 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "State Change Notification Objects", "predicate_name": "pdd:Items[Approval]"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "cdbqc: non unvalid parts", "predicate_name": "non unvalid parts"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "cs.sharing: Group Creator", "predicate_name": "Part"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

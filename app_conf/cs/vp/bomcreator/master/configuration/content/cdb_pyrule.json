@@ -1,0 +1,13 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "BOM: Ignore Component Document"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator", "description": "Components not considered when generating a BOM"}},
+      {"PRIMARY_KEYS": {"name": "BOM: Ignore Component Item"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator", "description": "Parts not considered when generating a BOM"}},
+      {"PRIMARY_KEYS": {"name": "BOM: Ignore Singleton Variant"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator", "description": "This rule will be evaluated if there is just one variant for a model. If the rule matches, the variant will be ignored."}},
+      {"PRIMARY_KEYS": {"name": "BOM: Ignore Variant"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator", "description": "Variants not considered for BOM generation"}},
+      {"PRIMARY_KEYS": {"name": "BOM: Recursive Ignore Component"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator", "description": "Components for which no BOM will be generated, even when the recursive BOM generation method is active"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

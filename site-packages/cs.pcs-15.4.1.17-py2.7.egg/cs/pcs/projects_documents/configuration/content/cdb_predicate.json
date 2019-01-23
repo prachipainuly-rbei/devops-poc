@@ -1,0 +1,15 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "cs.pcs: Exceptional Access (Documents)", "table_name": "cdbpcs_rexc_doc"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.pcs: Folder Types", "table_name": "cdb_folder_type"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.pcs: Folders", "table_name": "cdb_folder"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.pcs: Folders (exact)", "table_name": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}, "UPDATE_POLICY": "NEVER UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.pcs: Folders (immutable)", "table_name": "cdb_folder"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.pcs: Folders (no Documents)", "table_name": "cdb_folder"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.pcs: Folders (no Subfolders)", "table_name": "cdb_folder"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

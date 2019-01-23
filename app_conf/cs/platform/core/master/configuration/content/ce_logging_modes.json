@@ -1,0 +1,13 @@
+{
+  "ce_logging_modes": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "b4102a30-6565-11e7-b166-b4b52fdc3727"}, "DATA": {"config": "ERR:log:lev=1", "logmode": "critical"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "bcd8b32e-6565-11e7-a26f-b4b52fdc3727"}, "DATA": {"config": "ANY:log:lev=8:FLUSH", "logmode": "debug"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c7e8e240-6565-11e7-b42e-b4b52fdc3727"}, "DATA": {"config": "ANY:log:lev=0", "logmode": "error"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d25dbbb0-6565-11e7-80d2-b4b52fdc3727"}, "DATA": {"config": "ANY:log:lev=6", "logmode": "info"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dd7b5840-6565-11e7-8448-b4b52fdc3727"}, "DATA": {"config": "ANY:log:lev=1", "logmode": "warning"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

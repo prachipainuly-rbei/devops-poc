@@ -1,0 +1,10 @@
+{
+  "cad_konf_txt": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Only modify system tasks"}, "DATA": {"beschreibung": "When set to TRUE then system tasks can not be added or deleted in MS Project", "cdb_module_id": "cs.pcs.msproject"}},
+      {"PRIMARY_KEYS": {"name": "Required project right for sync"}, "DATA": {"beschreibung": "When the user does not have given project right, then the project synchronization gets denied", "cdb_module_id": "cs.pcs.msproject"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

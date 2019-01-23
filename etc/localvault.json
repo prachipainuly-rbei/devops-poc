@@ -1,0 +1,13 @@
+{
+    "BLOBSTORE":
+    {
+        "main": [
+            "LocalFileStore",
+            {
+                "vault_path": "${CADDOK_BASE}/storage/blobstore/vault",
+                "database": "${CADDOK_BASE}/storage/blobstore/filestore.db",
+                "vault_type": "FileStore"
+            }
+        ]
+    }
+}

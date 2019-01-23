@@ -1,0 +1,23 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {}
+  }, 
+  "dependencies": [], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "354d66b0-38ca-11e4-9694-f46d04739603", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "4307be1e173d119d1a1435fd1caf6c92", 
+      "name": "Customer module", 
+      "package": "cs.platform"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.platform.web"
+    }
+  }
+}

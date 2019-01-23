@@ -1,0 +1,11 @@
+{
+  "cdb_file_suffix": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ft_name": "MS-Project", "ft_suffix": ".mpp"}, "DATA": {"cdb_module_id": "cs.pcs.msproject"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Project:MSPXML", "ft_suffix": ".mspxml"}, "DATA": {"cdb_module_id": "cs.pcs.msproject"}},
+      {"PRIMARY_KEYS": {"ft_name": "MS-Project:MSPXMS", "ft_suffix": ".mspxms"}, "DATA": {"cdb_module_id": "cs.pcs.msproject"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

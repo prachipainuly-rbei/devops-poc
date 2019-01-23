@@ -1,0 +1,12 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbsml_catdecomp", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.vp.classification", "classname": "", "description": "", "filename": "cdbsml_catdecomp.py", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_MODULE)"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_hierbuild", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.vp.classification", "classname": "", "description": "", "filename": "cdbsml_hierbuild.py", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_MODULE)"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_oplan", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.vp.classification", "classname": "", "description": "", "filename": "cdbsml_oplan.py", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_MODULE)"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_pval_exclude", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.vp.classification", "classname": "", "description": "", "filename": "cdbsml_pval_exclude.py", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_MODULE)"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

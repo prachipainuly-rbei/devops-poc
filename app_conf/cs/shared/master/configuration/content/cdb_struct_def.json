@@ -1,0 +1,9 @@
+{
+  "cdb_struct_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "cdb_class_brows"}, "DATA": {"addtl_icon": "cdb_class_icon", "cdb_module_id": "cs.shared", "comp_tag": "", "descr": "", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdb_subclasses", "root_mask": "", "show_rs_window": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

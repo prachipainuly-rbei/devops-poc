@@ -1,0 +1,10 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.currency: Administration", "allow": "FULL ACCESS", "class": "currency", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.currency"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.currency: Administration", "allow": "read", "class": "currency", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.currency"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

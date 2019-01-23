@@ -1,0 +1,11 @@
+{
+  "cdbdd_class_join": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbvp_product", "join_relship": "cdbvp_product2objektstati"}, "DATA": {"alias_name": "Status", "cdb_module_id": "cs.vp.products", "enable_create_on_copy": null, "enable_create_on_create": null, "enable_modify_on_copy": null, "enable_modify_on_create": null, "enable_modify_on_modify": null}},
+      {"PRIMARY_KEYS": {"classname": "cdbvp_product_prot", "join_relship": "cdbvp_product_prot2new_status"}, "DATA": {"alias_name": "NewStatus", "cdb_module_id": "cs.vp.products", "enable_create_on_copy": null, "enable_create_on_create": null, "enable_modify_on_copy": null, "enable_modify_on_create": null, "enable_modify_on_modify": null}},
+      {"PRIMARY_KEYS": {"classname": "cdbvp_product_prot", "join_relship": "cdbvp_product_prot2old_status"}, "DATA": {"alias_name": "OldStatus", "cdb_module_id": "cs.vp.products", "enable_create_on_copy": null, "enable_create_on_create": null, "enable_modify_on_copy": null, "enable_modify_on_create": null, "enable_modify_on_modify": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0206498f-e653-11e7-980b-005056c00008"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_suppressed_message", "decomp_id": "", "icon_id": "", "ordering": 1100, "parent_id": "92bb6b5f-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "815932ee-b6b4-11e0-9533-6cf049769241"}, "DATA": {"ausgabe_label": "WSM_BOM_bom_import", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_config", "decomp_id": "", "icon_id": "", "ordering": 1050, "parent_id": "92bb6b5f-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c57e46c0-0e83-11e5-a0f6-9d6900e6d717"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_item_occurrence", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d18a6bc0-bd71-11e2-9b85-005056c00008"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_mapping", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "eaba17e1-3041-11e5-ac50-87c2e6b8ff81"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_method", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "cs_tasks_class_context": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"position": 10, "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "reference_name": "ParentChecklistItem"}},
+      {"PRIMARY_KEYS": {"position": 10, "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "reference_name": "Checklist"}},
+      {"PRIMARY_KEYS": {"position": 20, "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "reference_name": "Checklist"}},
+      {"PRIMARY_KEYS": {"position": 20, "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "reference_name": "ParentChecklistItem"}},
+      {"PRIMARY_KEYS": {"position": 30, "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "reference_name": "Task"}},
+      {"PRIMARY_KEYS": {"position": 30, "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "reference_name": "Checklist"}},
+      {"PRIMARY_KEYS": {"position": 40, "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "reference_name": "Project"}},
+      {"PRIMARY_KEYS": {"position": 40, "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "reference_name": "Task"}},
+      {"PRIMARY_KEYS": {"position": 50, "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "reference_name": "Project"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

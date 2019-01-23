@@ -1,0 +1,19 @@
+{
+  "phys_quant_pre": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"base": 10, "sym": "G"}, "DATA": {"fac": 9, "prefix": "giga"}},
+      {"PRIMARY_KEYS": {"base": 10, "sym": "M"}, "DATA": {"fac": 6, "prefix": "mega"}},
+      {"PRIMARY_KEYS": {"base": 10, "sym": "R"}, "DATA": {"fac": 0, "prefix": "ohm"}},
+      {"PRIMARY_KEYS": {"base": 10, "sym": "c"}, "DATA": {"fac": -2, "prefix": "centi"}},
+      {"PRIMARY_KEYS": {"base": 10, "sym": "d"}, "DATA": {"fac": -1, "prefix": "deci"}},
+      {"PRIMARY_KEYS": {"base": 10, "sym": "k"}, "DATA": {"fac": 3, "prefix": "kilo"}},
+      {"PRIMARY_KEYS": {"base": 2, "sym": "k"}, "DATA": {"fac": 10, "prefix": "kilo"}},
+      {"PRIMARY_KEYS": {"base": 10, "sym": "m"}, "DATA": {"fac": -3, "prefix": "milli"}},
+      {"PRIMARY_KEYS": {"base": 10, "sym": "n"}, "DATA": {"fac": -9, "prefix": "nano"}},
+      {"PRIMARY_KEYS": {"base": 10, "sym": "p"}, "DATA": {"fac": -12, "prefix": "pico"}},
+      {"PRIMARY_KEYS": {"base": 10, "sym": "u"}, "DATA": {"fac": -6, "prefix": "micro"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "masken": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribut": "cdb_project_id", "name": "cdbvp_project2product", "role_id": "public"}, "DATA": {"alignment": 0, "as_configured": null, "beschriftung_cs": "", "beschriftung_d": "", "beschriftung_f": "", "beschriftung_i": "", "beschriftung_ja": null, "beschriftung_ko": null, "beschriftung_pl": "", "beschriftung_pt": "", "beschriftung_s": "", "beschriftung_tr": "", "beschriftung_uk": "", "beschriftung_zh": null, "cdb_module_id": "cs.vp_pcs.products_projects", "deactivated": 0, "dflt": "", "farbe": null, "gross_klein": null, "hidden": 0, "itemtyp": 0, "katalog": "pcs_projects_by_id", "mask_index": 10, "monospaced": null, "mussfeld": null, "read_only": 0, "resize_mode": null, "rs_obj_link": "", "stored_len": null, "string1": "", "string2": "", "tooltip": "", "typ": null, "url": "", "user_exit": "", "visible_len": 20, "x_position": 20, "y_position": 20, "zeilen": null}},
+      {"PRIMARY_KEYS": {"attribut": "cdbvp_product_id", "name": "cdbvp_project2product", "role_id": "public"}, "DATA": {"alignment": 0, "as_configured": 0, "beschriftung_cs": "", "beschriftung_d": "Produkt", "beschriftung_f": "", "beschriftung_i": "", "beschriftung_ja": null, "beschriftung_ko": null, "beschriftung_pl": "", "beschriftung_pt": "", "beschriftung_s": "", "beschriftung_tr": "\u00dcr\u00fcn", "beschriftung_uk": "Product", "beschriftung_zh": "\u4ea7\u54c1", "cdb_module_id": "cs.vp_pcs.products_projects", "deactivated": 0, "dflt": "", "farbe": null, "gross_klein": null, "hidden": 0, "itemtyp": 25, "katalog": "cdbvp_product", "mask_index": 20, "monospaced": 0, "mussfeld": 0, "read_only": 0, "resize_mode": null, "rs_obj_link": "", "stored_len": null, "string1": "", "string2": "0", "tooltip": "", "typ": null, "url": "", "user_exit": "", "visible_len": 20, "x_position": 20, "y_position": 40, "zeilen": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cdb_wflowpredef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "doc_approve", "statusnummer": 0}, "DATA": {"cdb_module_id": "cs.documents", "overwrite": 1, "value": "\"0\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "doc_standard", "statusnummer": 0}, "DATA": {"cdb_module_id": "cs.documents", "overwrite": 1, "value": "\"0\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "doc_approve", "statusnummer": 180}, "DATA": {"cdb_module_id": "cs.documents", "overwrite": 1, "value": "\"1\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "doc_standard", "statusnummer": 180}, "DATA": {"cdb_module_id": "cs.documents", "overwrite": 1, "value": "\"1\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "doc_approve", "statusnummer": 200}, "DATA": {"cdb_module_id": "cs.documents", "overwrite": 1, "value": "\"0\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "doc_standard", "statusnummer": 200}, "DATA": {"cdb_module_id": "cs.documents", "overwrite": 1, "value": "\"0\""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

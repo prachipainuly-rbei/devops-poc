@@ -1,0 +1,40 @@
+{
+  "cdbxml_provider_arg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "ProjectIssues", "xsd_name": "ProjectIssues"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "ProjectIssues", "xsd_name": "ProjectIssues"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "ProjectIssues", "xsd_name": "ProjectIssues"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AllAttributeTypes", "name": "ProjectIssues", "xsd_name": "ProjectIssues"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "ProjectIssues", "xsd_name": "ProjectIssues"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "ProjectIssues", "xsd_name": "ProjectIssues"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "ProjectIssues", "xsd_name": "ProjectIssues"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "ProjectIssues", "xsd_name": "ProjectIssues"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "ProjectIssues", "xsd_name": "Project_1"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "ProjectIssues", "xsd_name": "Project_1"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "ProjectIssues", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AllAttributeTypes", "name": "ProjectIssues", "xsd_name": "Project_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "ProjectIssues", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "ProjectIssues", "xsd_name": "Project_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "ProjectIssues", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "ProjectIssues", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "TaskIssues", "xsd_name": "TaskIssues"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "TaskIssues", "xsd_name": "TaskIssues"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "TaskIssues", "xsd_name": "TaskIssues"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AllAttributeTypes", "name": "TaskIssues", "xsd_name": "TaskIssues"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "TaskIssues", "xsd_name": "TaskIssues"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "TaskIssues", "xsd_name": "TaskIssues"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "TaskIssues", "xsd_name": "TaskIssues"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "TaskIssues", "xsd_name": "TaskIssues"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "TaskIssues", "xsd_name": "Task_1"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "TaskIssues", "xsd_name": "Task_1"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "TaskIssues", "xsd_name": "Task_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "AllAttributeTypes", "name": "TaskIssues", "xsd_name": "Task_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "TaskIssues", "xsd_name": "Task_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "TaskIssues", "xsd_name": "Task_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "TaskIssues", "xsd_name": "Task_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "TaskIssues", "xsd_name": "Task_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.issues"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

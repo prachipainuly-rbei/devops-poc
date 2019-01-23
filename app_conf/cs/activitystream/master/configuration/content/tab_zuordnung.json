@@ -1,0 +1,15 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbblog_attachment", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.activitystream", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbblog_channel", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.activitystream", "dflt": null, "ersteller": "CONTACT", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbblog_comment", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.activitystream", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbblog_posting", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.activitystream", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbblog_subscription", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.activitystream", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbblog_topic2posting", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.activitystream", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "mq_system_posting", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.activitystream", "dflt": 0, "ersteller": "CONTACT", "max_records": 0, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

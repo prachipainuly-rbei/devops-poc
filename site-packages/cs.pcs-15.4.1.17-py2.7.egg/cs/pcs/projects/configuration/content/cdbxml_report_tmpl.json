@@ -1,0 +1,14 @@
+{
+  "cdbxml_report_tmpl": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "DataConsistencyCheck", "report_title": "DataConsistency"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "cdb_object_id": "11b02a8f-8754-11e7-9842-dc4a3e92c6e8", "title": "Datenkonsistenz"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "DataConsistencyCheck", "report_title": "DataConsistency"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "cdb_object_id": "63bd3eae-8bf3-11e7-826e-dc4a3e92c6e8", "title": "Data Consistency"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "MultiProjectCockpit", "report_title": "Project-Cockpit"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "cdb_object_id": "d72875d6-eaf7-11de-8e2c-d20fb6192e51", "title": "Multi-Projekt-Cockpit"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "MultiProjectCockpit", "report_title": "Project-Cockpit"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "cdb_object_id": "bc421621-dd86-11e2-b7b4-082e5f0d0c28", "title": "Multi-Project-Cockpit"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "ProjectMTA", "report_title": "Meilensteintrendanalyse"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "cdb_object_id": "a19a9b61-cb28-11e1-b8bb-082e5f0d0c14", "title": "Meilensteintrendanalyse"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "ProjectMTA", "report_title": "Meilensteintrendanalyse"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "cdb_object_id": "46904a9e-de44-11e2-b4d8-082e5f0d0c28", "title": "Milestone trend analyses"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "cdb_doc_rel": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 255, 
+        "NAME": "owner_application", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ]
+  }, 
+  "cdb_file_links_status": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdbf_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "link_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "relevant", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "file_wspitem_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdbf_object_id"
+        ], 
+        "NAME": "cdb_file_links_status_fid", 
+        "UNIQUE": false
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdb_file_wsm": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdbf_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "file_wspitem_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "wsm_manual_assigned", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "is_external_link", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdbf_object_id"
+        ], 
+        "NAME": "cdb_file_wsm_cdbf_object_id", 
+        "UNIQUE": false
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "exported_file": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "export_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "hash", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "file_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "partner_filename", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "original_blob", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "exported_file_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "export_id", 
+      "file_id"
+    ]
+  }, 
+  "index_update_rule": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "fallback_rule", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "object_rule", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "designation_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "partner_export": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "organization_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "export_id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "title", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 30, 
+        "NAME": "timestamp", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "creator", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "partner_export_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "export_id"
+    ]
+  }, 
+  "partner_filename": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "file_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "organization_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "document_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "partner_filename", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "generated", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "partner_filename_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "file_id", 
+      "organization_id"
+    ]
+  }, 
+  "wsm_settings": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "context", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 512, 
+        "NAME": "description_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 512, 
+        "NAME": "description_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "s_index", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "cdb_status_txt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "status", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "'wsm_settings'", 
+        "LENGTH": 64, 
+        "NAME": "cdb_objektart", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 5, 
+        "NAME": "wsm_version", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 512, 
+        "NAME": "description_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 512, 
+        "NAME": "description_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 512, 
+        "NAME": "description_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 512, 
+        "NAME": "description_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 512, 
+        "NAME": "description_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 512, 
+        "NAME": "description_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 512, 
+        "NAME": "description_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 512, 
+        "NAME": "description_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 512, 
+        "NAME": "description_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 512, 
+        "NAME": "description_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "context", 
+      "s_index", 
+      "wsm_version"
+    ]
+  }, 
+  "zeichnung": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "standard_library", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 255, 
+        "NAME": "generated_from", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ]
+  }
+}

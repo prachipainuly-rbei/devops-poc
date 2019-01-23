@@ -1,0 +1,25 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "00217f63-b391-11e0-8647-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_mapping", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "01e72ff0-b3ac-11e0-b547-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_config", "description": "", "exclude_empty_values": 0, "fields_info": "name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "031b06f0-b3aa-11e0-8c2b-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_mapping", "description": "", "exclude_empty_values": 0, "fields_info": "cdb_attribute_name, configuration"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "08fb0a11-b36a-11e0-9bb0-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_config", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "2c8f4d40-3103-11e5-97f8-87c2e6b8ff81"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_method", "description": "", "exclude_empty_values": 1, "fields_info": "designation_de"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "458efd8f-3103-11e5-8066-87c2e6b8ff81"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_method", "description": "", "exclude_empty_values": 1, "fields_info": "designation_en"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "4a81c1a6-b378-11e0-b732-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_column", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "5ca05ae1-b3aa-11e0-881f-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_column", "description": "", "exclude_empty_values": 0, "fields_info": "position, configuration"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "968882c5-b371-11e0-8f5c-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_sync_attribute", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "979c5042-e652-11e7-a41e-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_suppressed_message", "description": null, "exclude_empty_values": null, "fields_info": "meldung_label"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "aaedb26e-b368-11e0-a727-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_key_attribute", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "db65348f-b3aa-11e0-a82f-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_key_attribute", "description": "", "exclude_empty_values": 0, "fields_info": "attribute_name, configuration"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e0e71061-b2e1-11e0-9449-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_method", "description": "", "exclude_empty_values": null, "fields_info": "name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ece5cec0-b44d-11e0-8c2a-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_config_to_role", "description": "", "exclude_empty_values": null, "fields_info": "bom_config, role_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ee14122e-a30d-11e0-bab3-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_item_occurrence", "description": "", "exclude_empty_values": null, "fields_info": "baugruppe, b_index, teilenummer, t_index, variante, position, auswahlmenge, occurrence_id, assembly_path"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f341a51e-b3ab-11e0-aeb3-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_config", "description": "", "exclude_empty_values": 0, "fields_info": "cad_system, priority"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f92a0e0f-b3aa-11e0-bbff-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.bomcreator", "classname": "bom_sync_attribute", "description": "", "exclude_empty_values": 0, "fields_info": "attribute_name, configuration"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

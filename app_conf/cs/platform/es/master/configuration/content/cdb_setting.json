@@ -1,0 +1,11 @@
+{
+  "cdb_setting": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "ftrsearchkind", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.platform.es", "default_val": "1", "readonly": 0, "store_usr_val": 1}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "ftrsearchoperator", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.platform.es", "default_val": "AND", "readonly": 0, "store_usr_val": 1}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "fulltextsearchdoc", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.platform.es", "default_val": "0", "readonly": 0, "store_usr_val": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

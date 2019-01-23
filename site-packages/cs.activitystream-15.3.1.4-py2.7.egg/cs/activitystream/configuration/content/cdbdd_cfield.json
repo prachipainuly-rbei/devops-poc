@@ -1,0 +1,20 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "027f0690-3abc-11e5-9f34-7c7a914880db", "field_classname": "cdbblog_attachment", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_attachment", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "25c10ea1-3abc-11e5-a4bb-7c7a914880db", "field_classname": "cdbblog_attachment", "field_name": "attachment_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_attachment", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "25c10ea1-3abc-11e5-a4bb-7c7a914880db", "field_classname": "cdbblog_attachment", "field_name": "posting_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_attachment", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "4abec9b5-ae36-11e1-89ef-005056c00008", "field_classname": "cdbblog_posting", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_posting", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "5f573d66-ae38-11e1-b7e9-005056c00008", "field_classname": "cdbblog_topic2posting", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_topic2posting", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "943b151e-485b-11e2-beca-78acc0a55b77", "field_classname": "cdbblog_channel", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_channel", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "9e55191e-24d4-11e2-8d83-78acc0a55b77", "field_classname": "mq_system_posting", "field_name": "cdbmq_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "mq_system_posting", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d30b5db0-ae36-11e1-bb49-005056c00008", "field_classname": "cdbblog_comment", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_comment", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "f9c14d9e-45d2-11e2-be3b-78acc0a55b77", "field_classname": "cdbblog_subscription", "field_name": "channel_cdb_object_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_subscription", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "f9c14d9e-45d2-11e2-be3b-78acc0a55b77", "field_classname": "cdbblog_subscription", "field_name": "personalnummer"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_subscription", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "fef6b340-fce0-11e1-a0a7-549be0f00110", "field_classname": "cdbblog_topic2posting", "field_name": "posting_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_topic2posting", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "fef6b340-fce0-11e1-a0a7-549be0f00110", "field_classname": "cdbblog_topic2posting", "field_name": "topic_id"}, "DATA": {"cdb_module_id": "cs.activitystream", "classname": "cdbblog_topic2posting", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

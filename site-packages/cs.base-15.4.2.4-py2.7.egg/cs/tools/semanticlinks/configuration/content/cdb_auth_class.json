@@ -1,0 +1,10 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdb_semantic_link"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "description": "Semantische Verkn\u00fcpfungen"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_semantic_link_type"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "description": "Semantische Verkn\u00fcpfungstypen"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

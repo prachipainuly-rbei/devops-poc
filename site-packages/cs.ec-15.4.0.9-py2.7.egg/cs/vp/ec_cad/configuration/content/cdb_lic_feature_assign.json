@@ -1,0 +1,18 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "33521631-c1b0-11e4-9f46-082e5f0d3665"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "feature_id": "ECM_010", "name": "CDB_Export", "password": "8125XJFh5Pk"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "3354871e-c1b0-11e4-a207-082e5f0d3665"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "feature_id": "ECM_030", "name": "CDB_Modify", "password": "erX8pXqeDVo"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "3354871f-c1b0-11e4-818b-082e5f0d3665"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "feature_id": "ECM_030", "name": "CDB_Create", "password": "V1XzsC1bd02"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "33548720-c1b0-11e4-b6ea-082e5f0d3665"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "feature_id": "ECM_010", "name": "CDB_SearchAgain", "password": "DpISkTRUlp2"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "33548721-c1b0-11e4-9eec-082e5f0d3665"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "feature_id": "ECM_010", "name": "CDB_ShowObject", "password": "rN9ZU2WC5kg"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "33548722-c1b0-11e4-9cf5-082e5f0d3665"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "feature_id": "ECM_030", "name": "CDB_Copy", "password": "eInQxSbSz26"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "33548723-c1b0-11e4-9108-082e5f0d3665"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "feature_id": "ECM_030", "name": "CDB_Delete", "password": "pacUXqhCdog"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "33548724-c1b0-11e4-b5fa-082e5f0d3665"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "feature_id": "ECM_030", "name": "CDB_CreateWithSearchConditions", "password": "YGtEy1sdYv2"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "33548725-c1b0-11e4-8023-082e5f0d3665"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "feature_id": "ECM_010", "name": "CDB_Search", "password": "Cn7ZHNl2Iy."}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "33548726-c1b0-11e4-bcc5-082e5f0d3665"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.ec_cad", "classname": "cdbecm_ec2pmodel", "feature_id": "ECM_010", "name": "CDB_SelectAndAssign", "password": "xECmwzN9Ci2"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

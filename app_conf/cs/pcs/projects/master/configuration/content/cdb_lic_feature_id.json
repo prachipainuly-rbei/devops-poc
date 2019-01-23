@@ -1,0 +1,42 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "PROJECTS_000"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to use the Project Context.", "name": "Projects: Base Functionality"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_001"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to read Project master data and aggregated elements (e.g. changes of status protocol)", "name": "Projects: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_002"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to write (create, copy, modify, delete) Project master data and aggregated elements (e.g. changes of status protocol)", "name": "Projects: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_003"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to categorise Projects.", "name": "Projects: Categorise"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_004"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to change the status of Projects.", "name": "Projects: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_005"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to export Excel Reports for Projects.", "name": "Projects: Excel Reports"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_006"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to define exceptional access rights for Projects", "name": "Projects: Define Exceptional Access Rights"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_007"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to view the representative images of Projects.", "name": "Projects: View Image"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_008"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to import the representative images of Projects.", "name": "Projects: Import Image"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_011"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to create Projects by using templates.", "name": "Projects: Create from Template"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_012"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to lock/unlock Projects for exclusive use.", "name": "Projects: Lock"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_013"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to use Roles and to define Teams for a Project.", "name": "Projects: Roles and Teams"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_014"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to maintain the catalogs needed for Projects.", "name": "Projects: Write Basic Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_015"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to maintain the catalogs used/referenced by Project logic.", "name": "Projects: Write Logic Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_016"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to use the Activity Stream for Projects.", "name": "Projects: Activity Stream"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_017"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to use Metrics for Projects.", "name": "Projects: Metrics"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_020"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to export the Multi Project Cockpit Report.", "name": "Projects: Report Multi Project Cockpit"}},
+      {"PRIMARY_KEYS": {"id": "PROJECTS_021"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to export the Risks Report.", "name": "Projects: Report Risks"}},
+      {"PRIMARY_KEYS": {"id": "PROJECT_ITEM_EXCEPTIONS_001"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to read Exceptions for handling Items.", "name": "Project Items: Read Exceptions"}},
+      {"PRIMARY_KEYS": {"id": "PROJECT_ITEM_EXCEPTIONS_002"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to write Exceptions for handling Items.", "name": "Project Items: Write Exceptions"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_001"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to read Task master data and aggregated elements (e.g. changes of status protocol)", "name": "Tasks: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_002"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to write (create, copy, modify, delete) Task master data and aggregated elements (e.g. changes of status protocol)", "name": "Tasks: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_003"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to categorise Tasks.", "name": "Tasks: Categorise"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_004"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to change the status of Tasks.", "name": "Tasks: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_005"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to export Excel Reports for Tasks.", "name": "Tasks: Excel Reports"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_006"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to work with the Task Dependencies. The possibility to read the dependencies is given by Feature TASKS_001.", "name": "Tasks: Dependencies"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_007"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to create Tasks by using templates.", "name": "Tasks: Create from Template"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_008"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to maintain the catalogs needed for Tasks.", "name": "Tasks: Write Basic Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_009"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to maintain the catalogs used/referenced by Task logic.", "name": "Tasks: Write Logic Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_010"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to export the Milestone Trend Analysis Report.", "name": "Tasks: Report Milestone Trend Analysis"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_011"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to export the Milestones Report.", "name": "Tasks: Report Milestones"}},
+      {"PRIMARY_KEYS": {"id": "TASKS_012"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to define Adhoc Workflows for Tasks.", "name": "Tasks: Adhoc Workflow"}},
+      {"PRIMARY_KEYS": {"id": "TASK_DOCS_001"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to read references from Task to Documents.", "name": "Task Documents: Read"}},
+      {"PRIMARY_KEYS": {"id": "TASK_DOCS_002"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Allows to write (create, copy, modify, delete) references from Task to Documents.", "name": "Task Documents: Write"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

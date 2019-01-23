@@ -1,0 +1,265 @@
+{
+  "cdb_global_role": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "role_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 255, 
+        "NAME": "description", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "is_org_role", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "cdb_module_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 30, 
+        "NAME": "mno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "description_ml_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "role_id"
+    ]
+  }, 
+  "cdb_global_subj": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "role_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "subject_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "subject_type", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "''", 
+        "LENGTH": 64, 
+        "NAME": "exception_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "cdb_classname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "cdb_module_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_classname"
+        ], 
+        "NAME": "cdb_global_subj_cdb_classname", 
+        "UNIQUE": false
+      }
+    ], 
+    "PRIMARY KEY": [
+      "role_id", 
+      "subject_id", 
+      "subject_type", 
+      "exception_id"
+    ]
+  }
+}

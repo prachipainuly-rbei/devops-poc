@@ -1,0 +1,10 @@
+{
+  "cdbxml_report": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "ProjectIssues", "title": "Offene Punkte"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbpcs_issue_report"}},
+      {"PRIMARY_KEYS": {"name": "TaskIssues", "title": "Offene Punkte"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbpcs_task_issue_report"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

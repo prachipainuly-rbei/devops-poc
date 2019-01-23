@@ -1,0 +1,15 @@
+{
+  "cdb_sys_keys": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "application_name"}, "DATA": {"beschreibung": "The application name to show in client windows.", "wert": "CONTACT Elements"}},
+      {"PRIMARY_KEYS": {"name": "customer_id"}, "DATA": {"beschreibung": "Unique customer id", "wert": ""}},
+      {"PRIMARY_KEYS": {"name": "namespace"}, "DATA": {"beschreibung": "Development namespace of this installation. The namespace is used as the first part in package and module names."}},
+      {"PRIMARY_KEYS": {"name": "pwhash"}, "DATA": {"beschreibung": "Password Hash Algorithm", "wert": "default"}},
+      {"PRIMARY_KEYS": {"name": "site_id"}, "DATA": {"beschreibung": "Site identifier."}},
+      {"PRIMARY_KEYS": {"name": "ssl_mode"}, "DATA": {"beschreibung": "SSL mode of this installation"}},
+      {"PRIMARY_KEYS": {"name": "wsm_doc_change_detection_mode"}, "DATA": {"beschreibung": "Determines how the modification status of Workspace Manager documents is calculated.", "wert": "1"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operation Assignments (BO already run)"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operation Assignments (BO not run yet)"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (BOM)"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (Complete BOM)"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (Documents)"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (Parts)"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (already run)"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (not run yet)"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

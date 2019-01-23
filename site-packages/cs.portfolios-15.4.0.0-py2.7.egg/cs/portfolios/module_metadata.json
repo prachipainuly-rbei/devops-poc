@@ -1,0 +1,59 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.base": "15.2.2.dev0", 
+      "cs.metrics": "15.4.0.dev0", 
+      "cs.platform": "15.2.dev0", 
+      "cs.powerreports": "15.2.0.dev0"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.portfolios", 
+        "required_module_id": "cs.metrics"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.portfolios", 
+        "required_module_id": "cs.shared"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.portfolios", 
+        "required_module_id": "cs.tools.powerreports"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "1cc17c61-52a5-11e2-9d77-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "b85849ce6b445bc033bc6ff8a1fce376", 
+      "name": "Common portfolio module", 
+      "package": "cs.portfolios"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.portfolios"
+    }
+  }
+}

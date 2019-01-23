@@ -1,0 +1,9 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "description": "", "name_cs": "", "name_de": "Aufw\u00e4nde", "name_en": "Efforts", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Eforlar", "name_zh": "\u5de5\u4f5c\u91cf", "objclass": "cdbpcs_effort", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.products.Product", "name": "cdbqc: non unvalid products", "predicate_name": "non unvalid products"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.products.Product", "name": "cs.sharing: Group Creator", "predicate_name": "Product"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.products.Product", "name": "cs.sharing: Group Responsible", "predicate_name": "Product"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

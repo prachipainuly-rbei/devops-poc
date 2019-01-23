@@ -1,0 +1,10 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "5033f75e-c275-11e0-b528-70f39547fa1b", "field_classname": "cdb_defect2ec", "field_name": "cdb_defect_object_id"}, "DATA": {"cdb_module_id": "cs.ec_defects", "classname": "cdb_defect2ec", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "5033f75e-c275-11e0-b528-70f39547fa1b", "field_classname": "cdb_defect2ec", "field_name": "cdb_ec_id"}, "DATA": {"cdb_module_id": "cs.ec_defects", "classname": "cdb_defect2ec", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

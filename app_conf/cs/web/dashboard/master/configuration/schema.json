@@ -1,0 +1,234 @@
+{
+  "csweb_dashboard": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "owner", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "layout", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 200, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 200, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 200, 
+        "NAME": "name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 200, 
+        "NAME": "name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "is_template", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "is_default", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "position_index", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "csweb_dashboard_item": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "owner", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "widget_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "xpos", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "ypos", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "collapsed", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 2000, 
+        "NAME": "settings", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "dashboard_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "csweb_dashboard_widget": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 200, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 200, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 200, 
+        "NAME": "name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 200, 
+        "NAME": "name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "component", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "library_name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "library_version", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "cdb_module_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 1000, 
+        "NAME": "description_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 1000, 
+        "NAME": "description_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 1000, 
+        "NAME": "description_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 1000, 
+        "NAME": "description_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "id"
+    ]
+  }
+}

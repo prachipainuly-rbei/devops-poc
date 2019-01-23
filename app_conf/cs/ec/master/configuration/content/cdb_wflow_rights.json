@@ -1,0 +1,11 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbecm_simple_ec", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbecm_standard_ec", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"iststatus": 30, "objektart": "cdbecm_standard_ec", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 40}, "DATA": {"cdb_module_id": "cs.ec"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: My Sharings", "allow": "WRITE ACCESS", "class": "cdb_sharing", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: My Sharings", "allow": "read", "class": "cdb_sharing", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: My Sharings", "allow": "read", "class": "cdb_sharing_group", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Personal Sharing Groups", "allow": "WRITE ACCESS", "class": "cdb_sharing_group", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "allow": "WRITE ACCESS", "class": "cdb_sharing", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "allow": "create", "class": "cdb_sharing", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "allow": "read", "class": "cdb_sharing", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "allow": "read", "class": "cdb_sharing", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "allow": "FULL ACCESS", "class": "cdb_sharing_group", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "allow": "FULL ACCESS", "class": "cdb_sharing_group", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.sharing"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdbxml_prov_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "TimeScheduleGantt", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "ExportGantt"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "TimeScheduleGantt", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "TimeSchedule_1"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

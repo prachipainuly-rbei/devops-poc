@@ -1,0 +1,3335 @@
+{
+  "cdbvp_bom_mapping": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "baugruppe", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "b_index", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "''", 
+        "LENGTH": 20, 
+        "NAME": "teilenummer", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "variante", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "position", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "vpm_product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_value", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "baugruppe", 
+      "b_index", 
+      "teilenummer", 
+      "variante", 
+      "position", 
+      "vpm_product_object_id", 
+      "property_id", 
+      "property_value"
+    ]
+  }, 
+  "cdbvp_bom_predicate": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1000, 
+        "NAME": "expression", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "baugruppe", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "b_index", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "''", 
+        "LENGTH": 20, 
+        "NAME": "teilenummer", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "variante", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "position", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "predicate_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "cdb_classname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbvp_bom_predicate_cdb_obje0", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "baugruppe", 
+      "b_index", 
+      "teilenummer", 
+      "variante", 
+      "position", 
+      "product_object_id", 
+      "predicate_id"
+    ]
+  }, 
+  "cdbvp_bom_term": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "baugruppe", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "b_index", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "''", 
+        "LENGTH": 20, 
+        "NAME": "teilenummer", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "variante", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "position", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "predicate_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "term_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "enum_value", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "operator", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbvp_bom_term_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "baugruppe", 
+      "b_index", 
+      "teilenummer", 
+      "variante", 
+      "position", 
+      "product_object_id", 
+      "predicate_id", 
+      "term_id"
+    ]
+  }, 
+  "cdbvp_catalogue_enum_def": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "catalogue_property_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "value", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "value_txt_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "value_txt_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "value_folder_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "value", 
+      "catalogue_property_object_id"
+    ]
+  }, 
+  "cdbvp_catalogue_folder": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "parent_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 30, 
+        "NAME": "erp_name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbvp_catalogue_prop2folder": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "folder_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "property_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "folder_object_id", 
+      "property_object_id"
+    ]
+  }, 
+  "cdbvp_catalogue_property": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 30, 
+        "NAME": "sap_property", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "cdb_status_txt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "status", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "cdb_objektart", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "data_type", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 61, 
+        "NAME": "property_path", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "sap_multivalued", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbvp_catalogue_property_txt": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "NAME": "zeile", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "text", 
+        "NOTNULL": 0, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id", 
+      "zeile"
+    ]
+  }, 
+  "cdbvp_catalogue_value_folder": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "property_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "parent_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 30, 
+        "NAME": "erp_name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "name_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbvp_constraint": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "constraint_name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "view_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "constraint_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "enum_value", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "operator", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "constraint_type", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "excluding_constraint", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "constraint_text_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbvp_constraint_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "constraint_id"
+    ]
+  }, 
+  "cdbvp_constraint_info_txt_de": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "constraint_id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "NAME": "zeile", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "text", 
+        "NOTNULL": 0, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "constraint_id", 
+      "zeile"
+    ]
+  }, 
+  "cdbvp_constraint_info_txt_en": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "constraint_id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "NAME": "zeile", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "text", 
+        "NOTNULL": 0, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "constraint_id", 
+      "zeile"
+    ]
+  }, 
+  "cdbvp_constraint_txt": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "constraint_id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "NAME": "zeile", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "text", 
+        "NOTNULL": 0, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "constraint_id", 
+      "zeile"
+    ]
+  }, 
+  "cdbvp_constraint_type": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 4, 
+        "NAME": "symbol", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 20, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 20, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 1024, 
+        "NAME": "description_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 1024, 
+        "NAME": "description_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "id"
+    ]
+  }, 
+  "cdbvp_ddh_enum_on_bom_item": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "baugruppe", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "b_index", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "''", 
+        "LENGTH": 20, 
+        "NAME": "teilenummer", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "t_index", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "variante", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "position", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_value", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "cdbvp_operator", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "baugruppe", 
+      "b_index", 
+      "teilenummer", 
+      "t_index", 
+      "variante", 
+      "position", 
+      "property_id", 
+      "product_object_id", 
+      "property_value"
+    ]
+  }, 
+  "cdbvp_ddh_value_on_cat": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "property_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "value", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "value", 
+      "property_object_id", 
+      "id", 
+      "product_object_id"
+    ]
+  }, 
+  "cdbvp_ddhelper_prop_on_constr": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_value", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "constraint_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "cdbvp_operator", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "property_id", 
+      "property_value", 
+      "constraint_id"
+    ]
+  }, 
+  "cdbvp_enum_def": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "value", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "value_txt_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "''", 
+        "LENGTH": 128, 
+        "NAME": "value_txt_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 30, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "catalog_enum_value", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "catalogue_property_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "solver_status", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 2000, 
+        "NAME": "signature", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "value_txt_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbvp_enum_def_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "id", 
+      "product_object_id", 
+      "value"
+    ]
+  }, 
+  "cdbvp_enum_def_prop_value": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_value", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "rated_property_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "rated_property_value", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "property_id", 
+      "property_value", 
+      "rated_property_id", 
+      "rated_property_value"
+    ]
+  }, 
+  "cdbvp_enums": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "enum_kind", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "enum_text_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "enum_value", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "enum_text_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 40, 
+        "NAME": "enum_text_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 40, 
+        "NAME": "enum_text_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 40, 
+        "NAME": "enum_text_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 40, 
+        "NAME": "enum_text_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 40, 
+        "NAME": "enum_text_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 40, 
+        "NAME": "enum_text_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 40, 
+        "NAME": "enum_text_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 40, 
+        "NAME": "enum_text_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 40, 
+        "NAME": "enum_text_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 40, 
+        "NAME": "enum_text_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "enum_kind", 
+      "enum_value"
+    ]
+  }, 
+  "cdbvp_predicate": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "constraint_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "predicate_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 2000, 
+        "NAME": "predicate_text_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "cdb_classname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_classname"
+        ], 
+        "NAME": "cdbvp_predicate_cdb_classname", 
+        "UNIQUE": false
+      }, 
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbvp_predicate_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "constraint_id", 
+      "predicate_id"
+    ]
+  }, 
+  "cdbvp_product2product": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id2", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "product_object_id2"
+    ]
+  }, 
+  "cdbvp_product_bom": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "teilenummer", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "t_index", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "teilenummer", 
+      "t_index"
+    ]
+  }, 
+  "cdbvp_product_view": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "category", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "max_bom_evaluation", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "view_name_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "view_name_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "view_name_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "view_name_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "view_name_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "view_name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "view_name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "view_name_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "view_name_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "view_name_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbvp_product_view_cdb_objec0", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "id", 
+      "product_object_id"
+    ]
+  }, 
+  "cdbvp_prop2subproduct_prop": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "subproduct_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "subproduct_property_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "property_id", 
+      "subproduct_object_id", 
+      "subproduct_property_id"
+    ]
+  }, 
+  "cdbvp_property": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "cdb_classname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "variant_relevant", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "view_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "'Enum'", 
+        "LENGTH": 20, 
+        "NAME": "data_type", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "catalogue_property_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "dirty", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 13, 
+        "NAME": "erp_code", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "position", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "interface_property", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "property_name_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "property_name_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "property_name_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "property_name_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "property_name_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "property_name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "property_name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "property_name_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "property_name_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "property_name_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "parent_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_classname"
+        ], 
+        "NAME": "cdbvp_property_cdb_classname", 
+        "UNIQUE": false
+      }, 
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbvp_property_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "id", 
+      "product_object_id"
+    ]
+  }, 
+  "cdbvp_property_dependency": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id2", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "property_id", 
+      "property_id2"
+    ]
+  }, 
+  "cdbvp_property_folder": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "view_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "parent_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "folder_name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "folder_name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "folder_name_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "folder_name_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "folder_name_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "folder_name_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "folder_name_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "folder_name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "folder_name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "folder_name_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "folder_name_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 128, 
+        "NAME": "folder_name_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "id", 
+      "product_object_id"
+    ]
+  }, 
+  "cdbvp_property_folder2property": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "folder_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "view_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "folder_id", 
+      "property_id"
+    ]
+  }, 
+  "cdbvp_property_txt": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "NAME": "zeile", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "text", 
+        "NOTNULL": 0, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "id", 
+      "product_object_id", 
+      "zeile"
+    ]
+  }, 
+  "cdbvp_property_value": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "variant_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "value", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "disabled", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "variant_id", 
+      "id"
+    ]
+  }, 
+  "cdbvp_term": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "constraint_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "predicate_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "term_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "property_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "enum_value", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "operator", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbvp_term_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "constraint_id", 
+      "predicate_id", 
+      "term_id"
+    ]
+  }, 
+  "cdbvp_variant": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "''", 
+        "LENGTH": 128, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "view_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "solver_status", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "cdb_classname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 2000, 
+        "NAME": "signature", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "share_status", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 256, 
+        "NAME": "cdbvp_variant_info_txt_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_classname"
+        ], 
+        "NAME": "cdbvp_variant_cdb_classname", 
+        "UNIQUE": false
+      }, 
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbvp_variant_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "id", 
+      "product_object_id"
+    ]
+  }, 
+  "cdbvp_variant2part": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "variant_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "teilenummer", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "t_index", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "max_bom_teilenummer", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "max_bom_t_index", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "variant_id", 
+      "product_object_id", 
+      "teilenummer", 
+      "t_index"
+    ]
+  }, 
+  "cdbvp_variant_mapping": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "variant_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "view_variant_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "view_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "1", 
+        "NAME": "manual", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "product_object_id", 
+      "variant_id", 
+      "view_variant_id", 
+      "view_id"
+    ]
+  }, 
+  "cdbvp_variant_txt": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "NAME": "zeile", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "text", 
+        "NOTNULL": 0, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "id", 
+      "product_object_id", 
+      "zeile"
+    ]
+  }, 
+  "cdbvp_violated_constraints": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "variant_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "product_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "constraint_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "variant_id", 
+      "constraint_id", 
+      "product_object_id"
+    ]
+  }
+}

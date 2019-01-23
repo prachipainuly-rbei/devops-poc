@@ -1,0 +1,37 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Briefcase Links", "table_name": "cdbwf_briefcase_link"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Briefcases", "table_name": "cdbwf_briefcase"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Constraints", "table_name": "cdbwf_constraint"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Form Templates (NEW)", "table_name": "cdbwf_form_template"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Form Templates (not NEW)", "table_name": "cdbwf_form_template"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Forms", "table_name": "cdbwf_form"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: My Tasks (READY)", "table_name": "cdbwf_task"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: My Workflows", "table_name": "cdbwf_process"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: My Workflows (EXECUTION)", "table_name": "cdbwf_process"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: My Workflows (NEW)", "table_name": "cdbwf_process"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Parameters", "table_name": "cdbwf_filter_parameter"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Protocols", "table_name": "cdbwf_protocol"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Task Groups (Manual, READY)", "table_name": "cdbwf_task"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Task Groups (Parallel, READY)", "table_name": "cdbwf_task"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Tasks", "table_name": "cdbwf_task"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Tasks (CANCELED)", "table_name": "cdbwf_task"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Tasks (COMPLETED)", "table_name": "cdbwf_task"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Tasks (NEW)", "table_name": "cdbwf_task"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Tasks (READY)", "table_name": "cdbwf_task"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Tasks (REJECTED)", "table_name": "cdbwf_task"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Tasks (Workflow FROZEN)", "table_name": "cdbwf_task"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Workflow Templates", "table_name": "cdbwf_process"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "NEVER UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Workflow Templates (NEW)", "table_name": "cdbwf_process"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Workflow Templates (not NEW)", "table_name": "cdbwf_process"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Workflow Templates 2", "table_name": "cdbwf_process"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Workflows", "table_name": "cdbwf_process"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Workflows (EXECUTION)", "table_name": "cdbwf_process"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Workflows (FROZEN)", "table_name": "cdbwf_process"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.workflow: Workflows (NEW)", "table_name": "cdbwf_process"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workflow", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

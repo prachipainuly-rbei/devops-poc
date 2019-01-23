@@ -1,0 +1,13 @@
+{
+  "bom_key_attribute": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "52a47570-0aef-11e6-a535-dd210e660279"}, "DATA": {"attribute_name": "teilenummer", "configuration": "529421c0-0aef-11e6-a82f-dd210e660279", "relation": "einzelteile"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "52a49c80-0aef-11e6-9086-dd210e660279"}, "DATA": {"attribute_name": "t_index", "configuration": "529421c0-0aef-11e6-a82f-dd210e660279", "relation": "einzelteile"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "befb7570-b6a3-11e0-bab4-6cf049769241"}, "DATA": {"attribute_name": "teilenummer", "configuration": "5bceaa30-b6a3-11e0-aa90-6cf049769241", "relation": "einzelteile"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c3bd6a51-b6a3-11e0-be43-6cf049769241"}, "DATA": {"attribute_name": "t_index", "configuration": "5bceaa30-b6a3-11e0-aa90-6cf049769241", "relation": "einzelteile"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "cbeed8e1-b431-11e0-b91a-6cf049769241"}, "DATA": {"attribute_name": "menge", "configuration": "test", "relation": "einzelteile"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

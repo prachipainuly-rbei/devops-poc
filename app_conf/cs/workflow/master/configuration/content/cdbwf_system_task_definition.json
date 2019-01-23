@@ -1,0 +1,13 @@
+{
+  "cdbwf_system_task_definition": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "4daadbb0-e57a-11e2-9a44-082e5f0d3665"}, "DATA": {"cdb_module_id": "cs.workflow", "function_fqpyname": "cs.workflow.systemtasks.status_change", "name": "Statuswechsel", "name_cs": "", "name_de": "Status\u00e4nderung", "name_en": "Status Change", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Durum de\u011fi\u015fikli\u011fi", "name_zh": "\u72b6\u6001\u66f4\u6539"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7f87cf00-f838-11e2-b1b5-082e5f0d3665"}, "DATA": {"cdb_module_id": "cs.workflow", "function_fqpyname": "cs.workflow.systemtasks.generate_info_message", "name": "Information", "name_cs": "", "name_de": "Information", "name_en": "Information", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Bilgi", "name_zh": "\u4fe1\u606f"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91dd3340-ea12-11e2-8ad1-082e5f0d3665"}, "DATA": {"cdb_module_id": "cs.workflow", "function_fqpyname": "cs.workflow.systemtasks.copy_objects", "name": "Kopie", "name_cs": "", "name_de": "Kopie", "name_en": "Copy", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Kopyala", "name_zh": "\u590d\u5236"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a73d9cc0-ea12-11e2-baf4-082e5f0d3665"}, "DATA": {"cdb_module_id": "cs.workflow", "function_fqpyname": "cs.workflow.systemtasks.abort_process", "name": "Workflowabbruch", "name_cs": "", "name_de": "Workflow-Abbruch", "name_en": "Workflow Cancelation", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "\u0130\u015f ak\u0131\u015f\u0131n\u0131 bitir", "name_zh": "\u7ec8\u6b62\u5de5\u4f5c\u6d41"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f16b8b40-706e-11e7-9aef-68f7284ff046"}, "DATA": {"cdb_module_id": "cs.workflow", "function_fqpyname": "cs.workflow.systemtasks.run_operation", "name": "RunOperation", "name_cs": null, "name_de": "Operation ausf\u00fchren", "name_en": "Run Operation", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": null, "name_zh": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

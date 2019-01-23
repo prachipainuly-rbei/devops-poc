@@ -1,0 +1,24 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "WRITE ACCESS", "class": "cdb_folder", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "WRITE ACCESS", "class": "cdb_folder", "subject_id": "Projektmitglied", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "create_folderdoc", "class": "cdb_folder", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "create_folderdoc", "class": "cdb_folder", "subject_id": "Projektmitglied", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "create_subfolder", "class": "cdb_folder", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "create_subfolder", "class": "cdb_folder", "subject_id": "Projektmitglied", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "delete_folderdoc", "class": "cdb_folder", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "delete_folderdoc", "class": "cdb_folder", "subject_id": "Projektmitglied", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "read", "class": "cdb_folder", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "accept", "class": "cdb_folder", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "accept", "class": "cdb_folder", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "create", "class": "cdb_folder", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "create", "class": "cdb_folder", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "delete", "class": "cdb_folder", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "save", "class": "cdb_folder", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "save", "class": "cdb_folder", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

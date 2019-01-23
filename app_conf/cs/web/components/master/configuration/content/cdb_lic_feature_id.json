@@ -1,0 +1,10 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "WEB_010"}, "DATA": {"cdb_module_id": "cs.web.components", "description": "Allows access to the user's history for the Web UI", "name": "Web UI History"}},
+      {"PRIMARY_KEYS": {"id": "WEB_020"}, "DATA": {"cdb_module_id": "cs.web.components", "description": "Allows users to create and manipulate favorites for the Web UI", "name": "Web UI Favorites"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

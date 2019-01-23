@@ -1,0 +1,13 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "352e6c1e-3565-11e2-b37e-005056c00008"}, "DATA": {"ausgabe_label": "tree_ldap_search", "cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_searchbase", "decomp_id": "", "icon_id": "", "ordering": 30, "parent_id": "da7181ea-2774-11df-b18b-cf48a0fb33ef"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c471cbcf-3564-11e2-b66c-005056c00008"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_searchbase", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "da7181ea-2774-11df-b18b-cf48a0fb33ef"}, "DATA": {"ausgabe_label": "tree_LDAP", "cdb_module_id": "cs.platform.ldap", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 40, "parent_id": "92b9092d-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "da76457e-2774-11df-b18b-cf48a0fb33ef"}, "DATA": {"ausgabe_label": "tree_ldap_srvr", "cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_conf", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "da7181ea-2774-11df-b18b-cf48a0fb33ef"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "da78a748-2774-11df-b18b-cf48a0fb33ef"}, "DATA": {"ausgabe_label": "tree_ldap_conf", "cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_schema", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "da7181ea-2774-11df-b18b-cf48a0fb33ef"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

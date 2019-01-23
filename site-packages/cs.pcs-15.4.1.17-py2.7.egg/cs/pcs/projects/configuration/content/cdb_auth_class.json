@@ -1,0 +1,13 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs: Exceptional Access"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Project specific exceptional authorizations"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs: Team & Roles"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Project team and roles"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_prj_acd"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Project access control domains access rights"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Project access rights"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Project tasks"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

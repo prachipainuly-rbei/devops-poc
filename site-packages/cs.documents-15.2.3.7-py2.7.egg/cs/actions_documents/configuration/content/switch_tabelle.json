@@ -1,0 +1,9 @@
+{
+  "switch_tabelle": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdb_action2doc"}, "DATA": {"activity_create_label": "", "activity_createposting_channel": "", "activity_enable_sys_posting": 0, "activity_is_channel": 0, "activity_rule": "", "activity_sys_posting_on_create": 0, "base_cls": "", "cdb_classname": "cdb_class", "cdb_dflt_action": "", "cdb_icon_id": "", "cdb_module_id": "cs.actions_documents", "cdb_objektart": "cdb_class", "cdb_objicon_id": "", "cdb_status_txt": "valid", "cdb_wflow_cls": "", "clss_descr_tag": "cdb_action2doc", "cs_beschriftung": "", "cs_ueberschrift": "", "d_beschriftung": "Ma\u00dfnahme <-> Dokument", "d_ueberschrift": "Ma\u00dfnahmen <-> Dokumente", "f_beschriftung": "", "f_ueberschrift": "", "filename_tmpl": "", "fqpyname": "", "has_files": 0, "i_beschriftung": "", "i_ueberschrift": "", "is_abstract": 0, "is_indexed": 0, "ja_beschriftung": null, "ja_ueberschrift": null, "ko_beschriftung": null, "ko_ueberschrift": null, "log_erp": null, "module_assignment_policy": 0, "pl_beschriftung": "", "pl_ueberschrift": "", "pt_beschriftung": "", "pt_ueberschrift": "", "recent_obj_flag": 1, "relation": "cdb_action2doc", "rest_api_active": 0, "rest_visible_name": null, "s_beschriftung": "", "s_ueberschrift": "", "sorting": null, "status": 10, "tabelle": "cdb_action2doc", "tr_beschriftung": "Eylem <-> Belge", "tr_ueberschrift": "Eylem <-> Belge", "type_selector_fqpyname": "", "uk_beschriftung": "Action <-> Document", "uk_ueberschrift": "Action <-> Document", "update_policy": 5, "zh_beschriftung": "\u884c\u52a8<->\u6587\u6863", "zh_ueberschrift": "\u884c\u52a8<->\u6587\u6863"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

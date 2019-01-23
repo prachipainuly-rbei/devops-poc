@@ -1,0 +1,23 @@
+{
+  "cdb_rs_acc_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "cdbvp: boolean data types"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "cdbvp_b_data_type"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "cdbvp: boolean data types"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "cdbvp_b_data_type"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "cdbvp: boolean data types"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "cdbvp_b_data_type"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "cdbvp: boolean data types"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "cdbvp_b_data_type"}},
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "cdbvp: components"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "edit_vpm"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "cdbvp: components"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "edit_vpm"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "cdbvp: components"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "edit_vpm"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "cdbvp: components"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "edit_vpm"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "edit_vp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "edit_vp_catalogue"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "edit_vp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "edit_vp_catalogue"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "edit_vp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "edit_vp_catalogue"}},
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "edit_vp_constraint"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "edit_vp_constraint"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "edit_vp_constraint"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "edit_vp_constraint"}, "DATA": {"cdb_module_id": "cs.vp.variants", "referer_allow": "save"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

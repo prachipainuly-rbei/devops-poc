@@ -1,0 +1,25 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "01ef6ea1-f31c-11e4-835f-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_002", "name": "cdb_create_doc_from_template", "password": "WdtyYKlVp8s"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "01ef95b0-f31c-11e4-9d2e-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_002", "name": "CDB_Import", "password": "VcuG066iNMo"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "6965a000-f2f3-11e4-8262-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_001", "name": "CDB_Search", "password": "ljCq3a7Nsww"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "6965c70f-f2f3-11e4-8273-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_001", "name": "CDB_SearchAgain", "password": ".I7lH.Xb1FE"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "69661530-f2f3-11e4-bd63-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_002", "name": "CDB_Create", "password": "5gK49S.QjUo"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "6966634f-f2f3-11e4-b6a6-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_001", "name": "CDB_Export", "password": "Qc.TXmOXEa."}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "69668a61-f2f3-11e4-b8ef-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_003", "name": "CDB_Workflow", "password": "vyXk6/Y7UQQ"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "696726a1-f2f3-11e4-9843-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_002", "name": "CDB_Modify", "password": "nTvy7XWnhkw"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "696774c0-f2f3-11e4-b8c2-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_004", "name": "CDB_Index", "password": "4qjL4ATZk/M"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "6967e9ee-f2f3-11e4-a863-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_001", "name": "CDB_ShowObject", "password": "UZB6myhVpo2"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "6968380f-f2f3-11e4-ae11-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_002", "name": "CDB_Copy", "password": "zJ0nSECihCo"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "69685f1e-f2f3-11e4-be2d-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_002", "name": "CDB_CreateWithSearchConditions", "password": "KMyNP8oCacM"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "eae77a11-f4a4-11e4-aeed-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_005", "name": "CDB_Edit", "password": "JtufdJKrVgc"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "eae77a12-f4a4-11e4-aca6-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_005", "name": "cdb_wsp_edit", "password": "OAOYFm1D0M."}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "eae7a121-f4a4-11e4-8a11-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_005", "name": "CDB_Lock", "password": "3dGPArFU7dk"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "eae7a122-f4a4-11e4-9cbd-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_005", "name": "CDB_Unlock", "password": "pV/9vp64Q5Q"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f1fe0d4f-f4a4-11e4-832a-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.workspaces", "classname": "cdb_wsp", "feature_id": "WORKSPACES_006", "name": "CDB_View", "password": "PwqoKkvueGM"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

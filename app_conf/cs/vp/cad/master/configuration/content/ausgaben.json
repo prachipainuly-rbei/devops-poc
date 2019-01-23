@@ -1,0 +1,23 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_cad_assembly_component"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": null, "d": "Modellkomponenten", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "Model bile\u015fenleri", "uk": "Model Components", "zh": "\u6a21\u578b\u7ec4\u4ef6"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_repl_prep_load"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "Zum Laden ins CAD-System vorbereiten...", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "CAD sistemine y\u00fcklemek i\u00e7in haz\u0131rla...", "uk": "Prepare to load into CAD system...", "zh": "\u51c6\u5907\u52a0\u8f7d\u5230CAD\u7cfb\u7edf..."}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbvp_referenced_file"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": null, "d": "Referenzierte Datei", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "Referans dosya", "uk": "Referenced File", "zh": "\u5f15\u7528\u6587\u4ef6"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbvp_referencing_file"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "Referenzierende Datei", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Referans alan dosya", "uk": "Referencing File", "zh": "\u5f15\u7528\u6587\u4ef6"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbwf_rp2mod"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "Zugeordnete CAD-Dokumente", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Atanm\u0131\u015f CAD belgeleri", "uk": "Assigned CAD Documents", "zh": "\u5206\u914dCAD\u6587\u6863"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cs_vp_preview_threed"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": null, "d": "3D", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "3D", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cs_vp_preview_twod"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": null, "d": "2D", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "2D", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "models"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "CAD-Dokumente", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "CAD belgeleri", "uk": "CAD Documents", "zh": "CAD\u6587\u6863"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "ref_docs_struk"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "Beziehungen/Referenzstruktur", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u0130li\u015fkiler/Referans yap\u0131s\u0131", "uk": "Relationships/Reference Structure", "zh": "\u5173\u7cfb/\u5f15\u7528\u7ed3\u6784"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "ref_models2"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "Dokumentverwendungen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Belge kullan\u0131mlar\u0131", "uk": "Document Usages", "zh": "\u6587\u6863\u4f7f\u7528"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "ref_models2_struk"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "Verwendungsstruktur", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Kullan\u0131m yap\u0131s\u0131", "uk": "Usage Structure", "zh": "\u4f7f\u7528\u7ed3\u6784"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "ref_models_struk"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "Referenzstruktur", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Referans yap\u0131s\u0131", "uk": "Reference Structure", "zh": "\u5f15\u7528\u7ed3\u6784"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "variants"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "CAD-Varianten", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "CAD t\u00fcrevleri", "uk": "CAD Variants", "zh": "CAD\u53d8\u91cf"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "z_verteiler"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "Verteiler", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Da\u011f\u0131t\u0131m listesi", "uk": "Distribution List", "zh": "\u5206\u53d1\u5217\u8868"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "zeichteil"}, "DATA": {"cdb_module_id": "cs.vp.cad", "cs": "", "d": "Dokumente/CAD-Dokumente", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Belgeler/CAD belgeleri", "uk": "Documents/CAD Documents", "zh": "\u6587\u6863/CAD\u6587\u6863"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

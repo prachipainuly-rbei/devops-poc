@@ -1,0 +1,250 @@
+{
+  "acs_conv_services": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "srvr_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "plugin", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "source", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "target", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "srvr_id", 
+      "plugin", 
+      "source", 
+      "target"
+    ]
+  }, 
+  "acs_plg_conv": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "plugin", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "source", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "target", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "plugin", 
+      "source", 
+      "target"
+    ]
+  }, 
+  "mq_acs": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_priority", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_enqtime", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 750, 
+        "NAME": "cdbmq_enquser", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_deqtime", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 750, 
+        "NAME": "cdbmq_dequser", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_srvr_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1, 
+        "NAME": "cdbmq_prevstate", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1, 
+        "NAME": "cdbmq_state", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "cdbmq_site", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 36, 
+        "NAME": "cdbmq_uuid", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_rid", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1, 
+        "NAME": "cdbmq_nstate", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_fcode", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 80, 
+        "NAME": "cdbmq_ftext", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "src_object_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "plugin", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "source", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "target", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "pa_mod", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "pa_func", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "fp_func", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdbmq_id"
+    ]
+  }, 
+  "mq_acs_txt": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "NAME": "zeile", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 4000, 
+        "NAME": "text", 
+        "NOTNULL": 0, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdbmq_id", 
+      "zeile"
+    ]
+  }
+}

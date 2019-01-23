@@ -1,0 +1,10 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products", "predicate_name": "cs.vp: Products", "table_name": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "predicate_name": "cs.vp: Products (DRAFT)", "table_name": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0c0af84c-3dd6-11e6-9f56-00aa004d0001"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.taskmanager", "classname": "cs_tasks_tag", "decomp_id": "", "icon_id": "", "ordering": 100, "parent_id": "72b4e54f-da0e-11e0-91ca-0011d811aa20"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "25efa080-f961-11e0-a829-0011d811aa20"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.taskmanager", "classname": "cs_tasks_column", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "72b4e54f-da0e-11e0-91ca-0011d811aa20"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "439e0bcf-f961-11e0-b135-0011d811aa20"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.taskmanager", "classname": "cs_tasks_class", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "72b4e54f-da0e-11e0-91ca-0011d811aa20"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "72b4e54f-da0e-11e0-91ca-0011d811aa20"}, "DATA": {"ausgabe_label": "cs_task_manager_title", "cdb_module_id": "cs.taskmanager", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 50, "parent_id": "927d7231-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7e36af7c-3d06-11e6-8404-00aa004d0001"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.taskmanager", "classname": "cs_tasks_read_status", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "cdf030e1-3c66-11e6-994d-00aa004d0001"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.taskmanager", "classname": "cs_tasks_attribute", "decomp_id": "", "icon_id": "", "ordering": 30, "parent_id": "72b4e54f-da0e-11e0-91ca-0011d811aa20"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "de5c0cb0-88db-11e8-91b6-5cc5d4123f3b"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.taskmanager", "classname": "cs_tasks_context", "decomp_id": "", "icon_id": "", "ordering": 40, "parent_id": "72b4e54f-da0e-11e0-91ca-0011d811aa20"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f669cc3c-956e-11e8-ba54-68f7284ff046"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.taskmanager", "classname": "cs_tasks_user_view", "decomp_id": "", "icon_id": "", "ordering": 120, "parent_id": "72b4e54f-da0e-11e0-91ca-0011d811aa20"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

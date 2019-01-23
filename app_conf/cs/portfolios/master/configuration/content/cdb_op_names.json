@@ -1,0 +1,12 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "CDB_eLink_portfolio"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.portfolios", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdb_elink_portfolio", "inactive": 0, "kind": "PowerScript", "label": "cdb_portfolio_page_title", "label_ok": "", "menu_visible": 0, "menugroup": null, "ordering": null, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_move_down"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.portfolios", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdbdd_move_down", "inactive": 0, "kind": "PowerScript", "label": "cdb_portfolio_move_down", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_move_up"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.portfolios", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdbdd_move_up", "inactive": 0, "kind": "PowerScript", "label": "cdb_portfolio_move_up", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_overview"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.portfolios", "client_desc": "", "descr": "", "html_help": "", "icon_id": "Structure", "inactive": 0, "kind": "GraphView", "label": "overview", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

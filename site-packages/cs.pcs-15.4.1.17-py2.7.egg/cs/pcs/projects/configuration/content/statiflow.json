@@ -1,0 +1,37 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_project", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_project", "zielstatus": 50}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_project", "zielstatus": 60}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 15, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_project", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_project", "zielstatus": 50}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_project", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 30, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_project", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_project", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_project", "zielstatus": 60}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 15, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 60, "objektart": "cdbpcs_project", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 10, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 60, "objektart": "cdbpcs_project", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 30, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 60, "objektart": "cdbpcs_project", "zielstatus": 50}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.projects", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_task", "zielstatus": 180}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_task", "zielstatus": 20}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_task", "zielstatus": 50}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 30, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_task", "zielstatus": 0}, "DATA": {"acd_allow": "pcstask_wf_step_0", "cdb_module_id": "cs.pcs.projects", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_task", "zielstatus": 20}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 15, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_task", "zielstatus": 50}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_task", "zielstatus": 0}, "DATA": {"acd_allow": "pcstask_wf_step_0", "cdb_module_id": "cs.pcs.projects", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_task", "zielstatus": 180}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 30, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_task", "zielstatus": 50}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_task", "zielstatus": 0}, "DATA": {"acd_allow": "pcstask_wf_step_0", "cdb_module_id": "cs.pcs.projects", "rang": 30, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_task", "zielstatus": 250}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_task", "zielstatus": 50}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 250, "objektart": "cdbpcs_task", "zielstatus": 0}, "DATA": {"acd_allow": "pcstask_wf_step_0", "cdb_module_id": "cs.pcs.projects", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_task", "zielstatus": 0}, "DATA": {"acd_allow": "pcstask_wf_step_0", "cdb_module_id": "cs.pcs.projects", "rang": 40, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_task", "zielstatus": 180}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 30, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_task", "zielstatus": 20}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_task", "zielstatus": 200}, "DATA": {"acd_allow": "pcstask_wf_step", "cdb_module_id": "cs.pcs.projects", "rang": 10, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

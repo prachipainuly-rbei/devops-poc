@@ -1,0 +1,13 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "workspace", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.workspaces", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "workspace", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.workspaces", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "workspace", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.workspaces", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "workspace", "zielstatus": 170}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.workspaces", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "workspace", "zielstatus": 190}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.workspaces", "rang": 0, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

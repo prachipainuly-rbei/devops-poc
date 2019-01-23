@@ -1,0 +1,20 @@
+{
+  "cdb_languages": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iso_code": "cs"}, "DATA": {"name": "Tschechisch", "name_cs": "\u010ce\u0161tina", "name_en": "Czech", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "\u00c7ekce", "name_zh": "\u6377\u514b\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "de"}, "DATA": {"name": "Deutsch", "name_cs": null, "name_en": "German", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Almanca", "name_zh": "\u5fb7\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "en"}, "DATA": {"name": "Englisch", "name_cs": null, "name_en": "English", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "\u0130ngilizce", "name_zh": "\u82f1\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "es"}, "DATA": {"name": "Spanisch", "name_cs": null, "name_en": "Spanish", "name_es": "Espa\u00f1ol", "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "\u0130spanyolca", "name_zh": "\u897f\u73ed\u7259\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "fr"}, "DATA": {"name": "Franz\u00f6sisch", "name_cs": null, "name_en": "French", "name_es": null, "name_fr": "Fran\u00e7ais", "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Frans\u0131zca", "name_zh": "\u6cd5\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "it"}, "DATA": {"name": "Italienisch", "name_cs": null, "name_en": "Italian", "name_es": null, "name_fr": null, "name_it": "Italiano", "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "\u0130talyanca", "name_zh": "\u610f\u5927\u5229\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "ja"}, "DATA": {"name": "Japanisch", "name_cs": null, "name_en": "Japanese", "name_es": null, "name_fr": null, "name_it": null, "name_ja": "\u65e5\u672c\u8a9e", "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Jaonca", "name_zh": "\u65e5\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "ko"}, "DATA": {"name": "Koreanisch", "name_cs": null, "name_en": "Korean", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": "\ud55c\uad6d\uc5b4", "name_pl": null, "name_pt": null, "name_tr": "Korece", "name_zh": "\u97e9\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "pl"}, "DATA": {"name": "Polnisch", "name_cs": null, "name_en": "Polish", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": "Polski", "name_pt": null, "name_tr": "Polonya dili", "name_zh": "\u6ce2\u5170\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "pt"}, "DATA": {"name": "Portugiesisch", "name_cs": null, "name_en": "Portuguese", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": "Portugu\u00eas", "name_tr": "Portekizce", "name_zh": "\u8461\u8404\u7259\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "tr"}, "DATA": {"name": "T\u00fcrkisch", "name_cs": null, "name_en": "Turkish", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "T\u00fcrk\u00e7e", "name_zh": "\u571f\u8033\u5176\u8bed"}},
+      {"PRIMARY_KEYS": {"iso_code": "zh"}, "DATA": {"name": "Chinesisch", "name_cs": null, "name_en": "Chinese", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "\u00c7ince", "name_zh": "\u4e2d\u6587"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

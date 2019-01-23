@@ -1,0 +1,17 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "ISSUES_001"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "Allows to read Issues master data and aggregated elements (e.g. changes of status protocol)", "name": "Issues: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "ISSUES_002"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "Allows to write (create, copy, modify, delete) Issues master data and aggregated elements (e.g. changes of status protocol)", "name": "Issues: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "ISSUES_003"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "Allows to change the status of Issues.", "name": "Issues: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "ISSUES_004"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "Allows to export the Project Issues Report.", "name": "Issues: Report Project Issues"}},
+      {"PRIMARY_KEYS": {"id": "ISSUES_005"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "Allows to export the Task Issues Report.", "name": "Issues: Report Task Issues"}},
+      {"PRIMARY_KEYS": {"id": "ISSUES_006"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "Allows to maintain the catalogs needed for Issues.", "name": "Issues: Write Basic Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "ISSUES_007"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "Allows to maintain the catalogs used/referenced by Issue logic.", "name": "Issues: Write Logic Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "ISSUE_ACTIONS_001"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "Allows to read references from Issue to Actions.", "name": "Issue Actions: Read"}},
+      {"PRIMARY_KEYS": {"id": "ISSUE_ACTIONS_002"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "Allows to write references from Issue to Actions.", "name": "Issue Actions: Write Assignments"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

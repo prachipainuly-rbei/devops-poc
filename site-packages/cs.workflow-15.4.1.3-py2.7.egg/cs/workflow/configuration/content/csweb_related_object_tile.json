@@ -1,0 +1,10 @@
+{
+  "csweb_related_object_tile": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbwf_process", "relship_id": "AllTasks"}, "DATA": {"cdb_module_id": "cs.workflow", "label_cs": null, "label_de": "", "label_en": "", "label_es": null, "label_fr": null, "label_it": null, "label_ja": null, "label_ko": null, "label_pl": null, "label_pt": null, "label_tr": "", "label_zh": "", "position": 10}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_process", "relship_id": "Protocol"}, "DATA": {"cdb_module_id": "cs.workflow", "label_cs": null, "label_de": "", "label_en": "", "label_es": null, "label_fr": null, "label_it": null, "label_ja": null, "label_ko": null, "label_pl": null, "label_pt": null, "label_tr": "", "label_zh": "", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

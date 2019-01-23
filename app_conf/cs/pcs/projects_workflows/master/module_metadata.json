@@ -1,0 +1,58 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.2", 
+      "cs.activitystream": "15.3.1.4", 
+      "cs.base": "15.4.1.10", 
+      "cs.defects": "15.2.1.2", 
+      "cs.documents": "15.2.2.10", 
+      "cs.launchpad": "15.2.1.0", 
+      "cs.metrics": "15.4.0.2", 
+      "cs.platform": "15.2.33", 
+      "cs.portfolios": "15.4.0.0", 
+      "cs.powerreports": "15.2.0.4", 
+      "cs.taskmanager": "15.4.0.18", 
+      "cs.web": "15.2.1.23", 
+      "cs.workflow": "15.4.0.12"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.pcs.projects_workflows", 
+        "required_module_id": "cs.pcs.projects"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.pcs.projects_workflows", 
+        "required_module_id": "cs.workflow"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "55ba49de-3f47-11e8-973c-d0577b2793bc", 
+      "is_interface_module": 1, 
+      "mandatory": null, 
+      "master_config_checksum": "e4a72c87145166b9021ecdab49cab0cf", 
+      "name": "Interface module to connect cs.pcs.projects and cs.workflow", 
+      "package": "cs.pcs"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.pcs.projects_workflows"
+    }
+  }
+}

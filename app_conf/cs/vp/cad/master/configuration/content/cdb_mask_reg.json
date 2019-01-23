@@ -1,0 +1,24 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cad_variant", "mask_role_id": "public", "name": "variant_reg"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp", "mask_role_id": "public", "name": "cdb_elink_activitystream"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 50, "priority": 0, "reg_title": "cdbblog_maskreg_activities"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp", "mask_role_id": "public", "name": "csdsig_signature_show"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 15, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp", "mask_role_id": "public", "name": "doc_chctrl_mask"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 40, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp", "mask_role_id": "public", "name": "doc_src_info_mask"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 30, "priority": 0, "reg_title": "source_info"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp", "mask_role_id": "public", "name": "zeich_mask"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 10, "priority": 0, "reg_title": "dokumentdatenblatt"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp", "mask_role_id": "public", "name": "zeichnung_mask"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 20, "priority": 0, "reg_title": "zeichnung"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp_c", "mask_role_id": "public", "name": "doc_src_info_mask"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 30, "priority": 0, "reg_title": "source_info"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp_c", "mask_role_id": "public", "name": "zeich_mask_c"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 10, "priority": 0, "reg_title": "dokumentdatenblatt"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp_c", "mask_role_id": "public", "name": "zeichnung_mask"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 20, "priority": 0, "reg_title": "zeichnung"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp_pred_c", "mask_role_id": "public", "name": "doc_src_info_mask"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 30, "priority": 0, "reg_title": "source_info"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp_pred_c", "mask_role_id": "public", "name": "zeich_mask_c"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 10, "priority": 0, "reg_title": "dokumentdatenblatt"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp_s", "mask_role_id": "public", "name": "doc_chctrl_mask_s"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 40, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp_s", "mask_role_id": "public", "name": "doc_src_info_mask_s"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 30, "priority": 0, "reg_title": "source_info"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp_s", "mask_role_id": "public", "name": "zeich_mask_s"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 10, "priority": 0, "reg_title": "dokumentdatenblatt"}},
+      {"PRIMARY_KEYS": {"mask_name": "zeich_comp_s", "mask_role_id": "public", "name": "zeichnung_mask_s"}, "DATA": {"cdb_module_id": "cs.vp.cad", "ordering": 20, "priority": 0, "reg_title": "zeichnung"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

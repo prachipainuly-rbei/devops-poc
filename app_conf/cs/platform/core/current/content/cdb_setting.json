@@ -1,0 +1,13 @@
+{
+  "cdb_setting": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "gui.multilang.nouserfala.color", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.platform.core", "default_val": "#808000", "readonly": 0, "store_usr_val": 0}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "gui.multilang.usefala.color", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.platform.core", "default_val": "#008080", "readonly": 0, "store_usr_val": 0}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "gui.table.sort_case_sensitive", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.platform.core", "default_val": "1", "readonly": 0, "store_usr_val": 1}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "user.preferred.language", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.platform.core", "default_val": "en", "readonly": 0, "store_usr_val": 1}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "user.preferred.session_language", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.platform.core", "default_val": "", "readonly": 0, "store_usr_val": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

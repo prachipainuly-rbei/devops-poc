@@ -1,0 +1,9 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cdb.objects.cdb_file.cdb_file_base", "id": 2, "name": "WEBUI Files", "predicate_name": "WEBUI Files"}, "DATA": {"attribute": "cdbf_type", "cdb_module_id": "cs.shared", "expression": "'Hoops:HWF','PRC', 'Hoops:XML', 'Appinfo'", "filter_rule": "", "operator": "NOT IN"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

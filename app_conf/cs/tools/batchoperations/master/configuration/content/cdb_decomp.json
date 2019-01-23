@@ -1,0 +1,9 @@
+{
+  "cdb_decomp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"identifier": "CDBBOP_OPERATION_TYPES"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "descr": "Generated decomposition based on CDBBOP_TYPEDEF", "fqpyname_generator": "cs.tools.batchoperations.BatchOperation.GenerateDecomposition"}}
+    ],
+    "CONTENT_DOMAIN": "Decompositions",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

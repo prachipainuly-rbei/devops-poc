@@ -1,0 +1,17 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Change Templates", "predicate_name": "cs.ec: Engineering Change Templates", "table_name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes", "predicate_name": "cs.ec: Engineering Changes", "table_name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (EXECUTION)", "predicate_name": "cs.ec: Engineering Changes (EXECUTION)", "table_name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (NEW)", "predicate_name": "cs.ec: Engineering Changes (NEW)", "table_name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes", "predicate_name": "cs.ec: My Engineering Changes", "table_name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes", "predicate_name": "cs.ec: My Engineering Changes Creator", "table_name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (EXECUTION)", "predicate_name": "cs.ec: My Engineering Changes (EXECUTION)", "table_name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (NEW)", "predicate_name": "cs.ec: My Engineering Changes (NEW)", "table_name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (NEW)", "predicate_name": "cs.ec: My Engineering Changes Creator (NEW)", "table_name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

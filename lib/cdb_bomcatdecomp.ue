@@ -1,0 +1,47 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdb_bomcatdecomp.ue 101791 2013-09-10 12:24:05Z js $
+#
+# Copyright (C) 1990 - 2003 CONTACT Software GmbH
+# All rights reserved.
+# http://www.contact.de/
+
+
+from cdb import ue
+from cdb import decomp
+
+
+def bomcatdecomp(ctx):
+    categ_rel = "cdb_bomcat"
+    categ_key = "categ_id"
+    categ_parent = "parent_id"
+
+    conditions = {"categ<level>": "name_d"}   # Neuanlage- und Suchbedingungen
+    c_conditions = {}                         # zusätzliche Neuanlagebedingungen
+    s_conditions = {}                         # zusätzliche Suchbedingungen
+
+    label_attr = "name_<language>"
+    position_attr = ""
+    icon_attr = ""
+    leaf_attr = "leaf"
+    default_icon = "Folder"
+    leaf_icon = "Folder"
+    # Top Level Knoten haben eine leere parent_id
+    root_id = ""
+    # Die Kategorien nach der deutschen Benennung
+    # sortieren
+    order_by = "name_d"
+
+    # create source object
+    decompsource = decomp.DecompSource(None, categ_rel, categ_key, categ_parent,
+                                       conditions, c_conditions, s_conditions,
+                                       label_attr, position_attr, icon_attr,
+                                       leaf_attr, default_icon, leaf_icon,
+                                       root_id, order_by)
+    # remove decompositions based on the source object
+    decompsource.delete_decompositions()
+    # create decomposition
+    decompsource.generate_decomposition("BOMCAT")
+
+if __name__ == "__main__":
+    ue.run(bomcatdecomp, 'cdbscript')

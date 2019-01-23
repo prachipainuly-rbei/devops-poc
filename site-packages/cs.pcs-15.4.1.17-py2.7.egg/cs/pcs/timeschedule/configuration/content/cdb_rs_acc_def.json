@@ -1,0 +1,12 @@
+{
+  "cdb_rs_acc_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "Time schedule objects"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "Time schedule objects"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "Time schedule objects"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "Time schedule objects"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "referer_allow": "save"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

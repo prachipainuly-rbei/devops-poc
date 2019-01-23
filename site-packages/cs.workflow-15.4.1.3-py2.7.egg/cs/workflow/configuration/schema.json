@@ -1,0 +1,1377 @@
+{
+  "cdbwf_briefcase": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "briefcase_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 150, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbwf_briefcase_link": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "briefcase_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "task_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "iotype", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "extends_rights", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbwf_constraint": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "task_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "briefcase_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "rule_name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "invert_rule", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbwf_extension_assignment": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "origin_cdb_classname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "extension_cdb_classname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbwf_filter_parameter": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "task_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "rule_name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1024, 
+        "NAME": "value", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbwf_form": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "task_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "form_template_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_process_id", 
+      "task_id", 
+      "form_template_id"
+    ]
+  }, 
+  "cdbwf_form_contents_txt": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "task_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "form_template_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "NAME": "zeile", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "text", 
+        "NOTNULL": 0, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_process_id", 
+      "task_id", 
+      "form_template_id", 
+      "zeile"
+    ]
+  }, 
+  "cdbwf_form_template": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "mask_name", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "cdb_status_txt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "status", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "cdb_objektart", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 80, 
+        "NAME": "name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbwf_form_template_cdb_obje0", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "mask_name"
+    ]
+  }, 
+  "cdbwf_info_message": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "title", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1024, 
+        "NAME": "description", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "subject_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "subject_type", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "is_active", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_project_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "task_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbwf_parameter_definition": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "task_definition_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "cdb_module_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbwf_parameter_description": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "NAME": "zeile", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 255, 
+        "NAME": "text", 
+        "NOTNULL": 0, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id", 
+      "zeile"
+    ]
+  }, 
+  "cdbwf_process": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_project_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 255, 
+        "NAME": "title", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1, 
+        "NAME": "is_template", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1024, 
+        "NAME": "description", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "start_date", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "deadline", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "max_duration", 
+        "NOTNULL": false, 
+        "TYPE": 2
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "status", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "cdb_status_txt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "cdb_objektart", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "subject_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "subject_id2", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "subject_type", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "categ_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "org_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "cdb_classname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "started_by", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "started_at", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "completing_ok", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_classname"
+        ], 
+        "NAME": "cdbwf_process_cdb_classname", 
+        "UNIQUE": false
+      }, 
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbwf_process_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_process_id"
+    ]
+  }, 
+  "cdbwf_process_categ": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "categ_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "obsolete", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 60, 
+        "NAME": "name_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 60, 
+        "NAME": "name_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 60, 
+        "NAME": "name_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 60, 
+        "NAME": "name_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 60, 
+        "NAME": "name_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 60, 
+        "NAME": "name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 60, 
+        "NAME": "name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 60, 
+        "NAME": "name_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 60, 
+        "NAME": "name_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 60, 
+        "NAME": "name_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "categ_id"
+    ]
+  }, 
+  "cdbwf_process_pyrule_assign": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 128, 
+        "NAME": "name", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbwf_process_pyrule_assign_0", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_process_id", 
+      "name"
+    ]
+  }, 
+  "cdbwf_protocol": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1024, 
+        "NAME": "description", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "entry_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "msgtype", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "personalnummer", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "task_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "timestamp", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_process_id", 
+      "entry_id"
+    ]
+  }, 
+  "cdbwf_system_task_definition": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 200, 
+        "NAME": "function_fqpyname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_de", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_en", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_cs", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_es", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_fr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_it", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_ja", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_ko", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_pl", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_pt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_tr", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 100, 
+        "NAME": "name_zh", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "cdb_module_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_object_id"
+    ]
+  }, 
+  "cdbwf_task": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "cdb_extension_class", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "task_definition_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "task_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "uses_global_maps", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "parent_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_project_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "position", 
+        "NOTNULL": false, 
+        "TYPE": 2
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "title", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "start_date", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "deadline", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "max_duration", 
+        "NOTNULL": false, 
+        "TYPE": 2
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_cdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_cpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdb_mdate", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_mpersno", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "status", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "cdb_status_txt", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "cdb_objektart", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1024, 
+        "NAME": "description", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "subject_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "subject_id2", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "subject_type", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "reserved_by", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "finish_option", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "start_date_plan", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "end_date_act", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 255, 
+        "NAME": "task_handler", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "cdb_classname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_object_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "process_is_onhold", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "cdb_classname"
+        ], 
+        "NAME": "cdbwf_task_cdb_classname", 
+        "UNIQUE": false
+      }, 
+      {
+        "COLUMNS": [
+          "cdb_object_id"
+        ], 
+        "NAME": "cdbwf_task_cdb_object_id", 
+        "UNIQUE": true
+      }
+    ], 
+    "PRIMARY KEY": [
+      "task_id", 
+      "cdb_process_id"
+    ]
+  }, 
+  "mq_wfqueue": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 36, 
+        "NAME": "cdbmq_uuid", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1, 
+        "NAME": "cdbmq_nstate", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 80, 
+        "NAME": "cdbmq_ftext", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_rid", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_fcode", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_priority", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_enqtime", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 750, 
+        "NAME": "cdbmq_enquser", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_deqtime", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 750, 
+        "NAME": "cdbmq_dequser", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "cdbmq_srvr_id", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1, 
+        "NAME": "cdbmq_prevstate", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1, 
+        "NAME": "cdbmq_state", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "cdbmq_site", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "task_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_process_id", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdbmq_id"
+    ]
+  }
+}

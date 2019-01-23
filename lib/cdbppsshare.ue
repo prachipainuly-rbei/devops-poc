@@ -1,0 +1,26 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+#
+# $Id: cdbppsshare.ue 101791 2013-09-10 12:24:05Z js $
+#
+# CIM DATABASE user exit
+# (C) 2000 CONTACT Software GmbH
+#
+# This userexit is an example for an userexit that
+# can be configured to be used with the component
+# pps_share
+#
+
+from cdb import ue
+from cdb import misc
+
+
+class PPSShare:
+    context_name = "cdbppsshare"
+
+    def impl(self, ctx):
+        misc.log(1, "cdbppsshare")
+
+
+if __name__ == "__main__":
+    ue.run(PPSShare)

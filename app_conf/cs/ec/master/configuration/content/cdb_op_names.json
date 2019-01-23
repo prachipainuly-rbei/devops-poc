@@ -1,0 +1,10 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbecm_create_ec_from_template"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.ec", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdbecm_tcreate", "inactive": 0, "kind": "PowerScript", "label": "cdbecm_ec_create", "label_ok": "", "menu_visible": 1, "menugroup": 10, "ordering": 11, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.ec", "client_desc": "", "descr": "", "html_help": "cs_ec_user", "icon_id": "Structure", "inactive": 0, "kind": "GraphView", "label": "cdbecm_overview", "label_ok": "", "menu_visible": 1, "menugroup": 1, "ordering": 25, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

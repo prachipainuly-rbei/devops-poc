@@ -1,0 +1,10 @@
+{
+  "cdb_acd_set_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_set_name": "All Projects", "context_name": "ProjectContext", "predicate_name": "cs.pcs: Projects", "table_name": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_set_name": "Project Templates", "context_name": "ProjectContext", "predicate_name": "cs.pcs: Project Templates", "table_name": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

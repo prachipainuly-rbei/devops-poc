@@ -1,0 +1,93 @@
+{
+  "cdbpcs_part2task": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "teilenummer", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "t_index", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_project_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "task_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "rel_type", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "teilenummer", 
+      "t_index", 
+      "cdb_project_id", 
+      "task_id", 
+      "rel_type"
+    ]
+  }, 
+  "cdbpcs_rexc_prt": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_project_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 64, 
+        "NAME": "exception_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "teilenummer", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "t_index", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_project_id", 
+      "exception_id", 
+      "teilenummer", 
+      "t_index"
+    ]
+  }
+}

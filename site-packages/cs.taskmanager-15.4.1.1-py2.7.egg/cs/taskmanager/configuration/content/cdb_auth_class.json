@@ -1,0 +1,9 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cs_tasks_user_views"}, "DATA": {"cdb_module_id": "cs.taskmanager", "description": "User Views for tasks application"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

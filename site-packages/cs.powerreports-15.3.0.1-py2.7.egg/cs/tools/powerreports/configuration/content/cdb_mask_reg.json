@@ -1,0 +1,14 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbxml_dataprovider_comp", "mask_role_id": "public", "name": "cdbxml_dataprovider"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "ordering": 10, "priority": 20, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbxml_dataprovider_comp", "mask_role_id": "public", "name": "cdbxml_dataprovider_customcode"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbxml_dataprovider_comp", "mask_role_id": "public", "name": "cdbxml_dataprovider_groupby"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbxml_dataprovider_comp", "mask_role_id": "public", "name": "cdbxml_dataprovider_relship"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbxml_dataprovider_comp", "mask_role_id": "public", "name": "cdbxml_dataprovider_rule"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbxml_dataprovider_comp", "mask_role_id": "public", "name": "cdbxml_dataprovider_squery"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "ordering": 10, "priority": 10, "reg_title": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

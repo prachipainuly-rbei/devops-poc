@@ -1,0 +1,24 @@
+{
+  "cdbvp_project2product": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_project_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdbvp_product_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "cdb_project_id", 
+      "cdbvp_product_id"
+    ]
+  }
+}

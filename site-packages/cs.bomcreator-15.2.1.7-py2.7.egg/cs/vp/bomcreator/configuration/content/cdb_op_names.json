@@ -1,0 +1,10 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cad_variant_copy_item"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.vp.bomcreator", "client_desc": "", "descr": null, "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "cad_variant_copy_item", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbwsm_createbom"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.vp.bomcreator", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdb_elink_wsmbom", "inactive": 0, "kind": "PowerScript", "label": "cdbwsm_createbom", "label_ok": "", "menu_visible": 1, "menugroup": 1000, "ordering": 50, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

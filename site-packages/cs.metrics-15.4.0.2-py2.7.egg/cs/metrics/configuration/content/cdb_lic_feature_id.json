@@ -1,0 +1,22 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "METRICS_001"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to read KPI values and their history.", "name": "Metrics: Read KPI Values"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_002"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to write KPI values and their history.", "name": "Metrics: Write KPI Values"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_003"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to read the definition of KPIs", "name": "Metrics: Read KPI Definitions"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_004"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to define KPIs", "name": "Metrics: Write KPI Definitions"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_005"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to administrate the catalogs needed for KPI definition.", "name": "Metrics: Catalog Administration"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_006"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows define KPI calculation and aggregation rules needed for KPI definition.", "name": "Metrics: Write KPI Calculation Rules"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_008"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to assign actions to a metric value.", "name": "Metrics: Assign Actions to KPI values"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_009"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to read KPI calculation and aggregation rules needed for KPI definition.", "name": "Metrics: Read KPI Calculation Rules"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_010"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to activate KPI definitions by a change of status to \"active\"", "name": "Metrics: Activate KPIs"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_011"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to manually calculate KPI values.", "name": "Metrics: Manually Calculate KPI Values"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_012"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Read and write on the aggregation queue for an asychnrous aggregation of KPI values.", "name": "Metrics: Asynchronous KPI Value Aggregation"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_013"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to open the Process KPI Cockpit.", "name": "Metrics: Process KPI Cockpit"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_014"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to open the Object KPI Cockpit.", "name": "Metrics: Object KPI Cockpit"}},
+      {"PRIMARY_KEYS": {"id": "METRICS_015"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Allows to automatically calculate KPI values.", "name": "Metrics: Automatically Calculate KPI Values"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

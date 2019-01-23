@@ -1,0 +1,23 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_checklist", "zielstatus": 180}, "DATA": {"acd_allow": "pcschecklist_wf_step", "cdb_module_id": "cs.pcs.checklists", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_checklist", "zielstatus": 20}, "DATA": {"acd_allow": "pcschecklist_wf_step", "cdb_module_id": "cs.pcs.checklists", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_checklist", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.checklists", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_checklist", "zielstatus": 20}, "DATA": {"acd_allow": "pcschecklist_wf_step", "cdb_module_id": "cs.pcs.checklists", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_checklist", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.checklists", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_checklist", "zielstatus": 180}, "DATA": {"acd_allow": "pcschecklist_wf_step", "cdb_module_id": "cs.pcs.checklists", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_checklist", "zielstatus": 200}, "DATA": {"acd_allow": "pcschecklist_wf_step", "cdb_module_id": "cs.pcs.checklists", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_checklist", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.checklists", "rang": 30, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_checklist", "zielstatus": 20}, "DATA": {"acd_allow": "pcschecklist_wf_step", "cdb_module_id": "cs.pcs.checklists", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_cl_item", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.checklists", "rang": 30, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_cl_item", "zielstatus": 20}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.checklists", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_cl_item", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.checklists", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_cl_item", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.checklists", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_cl_item", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.checklists", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_cl_item", "zielstatus": 20}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.pcs.checklists", "rang": 10, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CAD_001"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "Allows to read CAD Document master data, aggregated elements.", "name": "CAD: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "CAD_002"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "Allows to write (create, copy, modify, delete) CAD Document master data and aggregated elements.", "name": "CAD: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "CAD_003"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "Allows to read and write a CAD Model Structure (contains information about bodies positions, used e.g. for 3D viewing)", "name": "CAD: Model Structure"}},
+      {"PRIMARY_KEYS": {"id": "CAD_004"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "Data Migration (using CAD/Talk)", "name": "CAD: Data Migration (using CAD/Talk)"}},
+      {"PRIMARY_KEYS": {"id": "CAD_005"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "Allows to read and write a CAD Reference Structure.", "name": "CAD: Reference Structure"}},
+      {"PRIMARY_KEYS": {"id": "CAD_006"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "Mark a CAD Document such that it can be invoked directly from within in the CAD-System later on", "name": "CAD: Load Assignment"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

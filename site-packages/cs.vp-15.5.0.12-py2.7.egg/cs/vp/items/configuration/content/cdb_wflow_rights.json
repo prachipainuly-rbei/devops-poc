@@ -1,0 +1,33 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "part", "subject_id": "Engineering", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "part", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "part", "subject_id": "Design Release", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "part", "subject_id": "Design Release", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part", "subject_id": "Design Release", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part", "subject_id": "Engineering", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part", "subject_id": "Design Release", "subject_type": "Common Role", "zielstatus": 170}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part", "subject_id": "Engineering", "subject_type": "Common Role", "zielstatus": 190}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "part_ERP", "subject_id": "Engineering", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "part_ERP", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "part_ERP", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "part_ERP", "subject_id": "Design Release", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "part_ERP", "subject_id": "Design Release", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part_ERP", "subject_id": "Engineering", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part_ERP", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part_ERP", "subject_id": "Engineering", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part_ERP", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 300}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part_ERP", "subject_id": "Engineering", "subject_type": "Common Role", "zielstatus": 300}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part_ERP", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part_ERP", "subject_id": "Engineering", "subject_type": "Common Role", "zielstatus": 190}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part_ERP", "subject_id": "Design Release", "subject_type": "Common Role", "zielstatus": 300}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 300, "objektart": "part_ERP", "subject_id": "Design Release", "subject_type": "Common Role", "zielstatus": 170}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 300, "objektart": "part_ERP", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"iststatus": 300, "objektart": "part_ERP", "subject_id": "Engineering", "subject_type": "Common Role", "zielstatus": 190}, "DATA": {"cdb_module_id": "cs.vp.items"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

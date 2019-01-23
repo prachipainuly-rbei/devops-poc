@@ -1,0 +1,22 @@
+{
+  "maskenzuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_defect2action", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_categ", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_chctrl", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_code", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_create", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_create_reg", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_details", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_modify", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_modify_reg", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_priority", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_prot", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_source", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_state", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_type", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.defects", "ersteller": "caddok", "html_help": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

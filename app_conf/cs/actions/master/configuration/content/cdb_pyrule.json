@@ -1,0 +1,10 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbtodo: action"}, "DATA": {"cdb_module_id": "cs.actions", "description": "Actions to be displayed in the Task Manager"}},
+      {"PRIMARY_KEYS": {"name": "cs.actions: Editor"}, "DATA": {"cdb_module_id": "cs.actions", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbtodo: task_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "description": "Open issues to be displayed in the Task Manager"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

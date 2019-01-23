@@ -1,0 +1,10 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CURRENCY_001"}, "DATA": {"cdb_module_id": "cs.currency", "description": "Allows to read defined Currencies and Convertion Rates", "name": "Currencies:Read"}},
+      {"PRIMARY_KEYS": {"id": "CURRENCY_002"}, "DATA": {"cdb_module_id": "cs.currency", "description": "Allows to maintain Currencies and Convertion Rates", "name": "Currencies:Write"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

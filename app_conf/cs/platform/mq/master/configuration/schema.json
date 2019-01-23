@@ -1,0 +1,161 @@
+{
+  "cdbmq_ctlmsg": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "srvr_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "message", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "srvr_id", 
+      "message"
+    ]
+  }, 
+  "cdbmq_download": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "queuename", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "job_id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "dl_id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 400, 
+        "NAME": "uri", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 1, 
+        "NAME": "dl_state", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "queuename", 
+      "job_id", 
+      "dl_id"
+    ]
+  }, 
+  "cdbmq_event": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "job_id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "ev_order", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "queue", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "ev_type", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 200, 
+        "NAME": "data", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "job_id", 
+      "ev_order", 
+      "queue"
+    ]
+  }, 
+  "cdbmq_registry": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "srvr_id", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "hostname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "pid", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "queuename", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 255, 
+        "NAME": "cmdname", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 200, 
+        "NAME": "description", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 60, 
+        "NAME": "site", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "srvr_id"
+    ]
+  }
+}

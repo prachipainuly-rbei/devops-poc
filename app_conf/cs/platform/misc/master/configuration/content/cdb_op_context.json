@@ -1,0 +1,13 @@
+{
+  "cdb_op_context": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch"}, "DATA": {"cdb_module_id": "cs.platform.misc"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations that should be offered within an enterprise search result table."}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog"}, "DATA": {"cdb_module_id": "cs.platform.misc"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations that should be offered within the operation catalog of the masks used by the operation CDB_Export."}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog"}, "DATA": {"cdb_module_id": "cs.platform.misc"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations that should be offered within the operation catalog that is displayed when the user defines a new favourite."}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog"}, "DATA": {"cdb_module_id": "cs.platform.misc"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations that should be offered within the operation catalog of the masks used by the operations CDB_ShowObjectUrl and CDB_ShowClassUrl."}},
+      {"PRIMARY_KEYS": {"id": "eLink"}, "DATA": {"cdb_module_id": "cs.platform.misc"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations that should be offered in eLink applications without own operation context definition."}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

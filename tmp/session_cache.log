@@ -1,0 +1,5 @@
+[12632] 21 Jan 12:43:14.412 # Creating Server TCP listening socket 127.0.0.1:6379: bind: No such file or directory
+[21488] 21 Jan 12:45:20.097 # Creating Server TCP listening socket 127.0.0.1:6379: bind: No such file or directory
+[6052] 21 Jan 12:48:45.225 # Creating Server TCP listening socket 127.0.0.1:6379: bind: No such file or directory
+[22168] 21 Jan 12:52:55.885 # Creating Server TCP listening socket 127.0.0.1:6379: bind: No such file or directory
+[15648] 21 Jan 14:50:22.723 # Creating Server TCP listening socket 127.0.0.1:6379: bind: No such file or directory

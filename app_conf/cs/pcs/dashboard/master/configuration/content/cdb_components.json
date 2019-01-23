@@ -1,0 +1,9 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_elink_kosmodrom", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.pcs.dashboard", "classname": "", "description": "eLink-Anwendung: Kosmodrom(Projekt\u00fcbersicht)", "filename": "", "fqpyname": "cs.pcs.dashboard.ProjectOverviewApp", "inproc": 1, "location": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

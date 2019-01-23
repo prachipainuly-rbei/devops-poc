@@ -1,0 +1,10 @@
+{
+  "cdbxml_report": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "QualityGates", "title": "Quality Gates"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbpcs_qualitygate_report"}},
+      {"PRIMARY_KEYS": {"name": "TaskQualityGates", "title": "TaskQualityGates"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbpcs_taskqualitygate_report"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

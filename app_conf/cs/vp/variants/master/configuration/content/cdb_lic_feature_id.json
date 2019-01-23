@@ -1,0 +1,26 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "VARIANTS_001"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to open the Variant Editor.", "name": "Variants: Variant Editor"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_002"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to read variants master data and aggregated elements.", "name": "Variants: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_003"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to edit the variability model.", "name": "Variants: Model Variability"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_004"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to read the property catalog.", "name": "Variants: Read Property Catalog"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_005"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to write the property catalog.", "name": "Variants: Write Property Catalog"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_006"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to define views for the variability model.", "name": "Variants: Views"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_007"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to define a submodule for a product.", "name": "Variants: Submodules"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_008"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to save variants.", "name": "Variants: Define Variants"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_009"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to define a Maximum Bom for a product.", "name": "Variants: Define Maximum Bom"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_010"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Define filter predicates for maximum boms.", "name": "Variants: Define Predicates"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_011"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Generates a 100% bom by filtering a maximum bom according to a variant.", "name": "Variants: Filter Structures"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_012"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to synchronize a variants and 100% boms to an ERP system.", "name": "Variants: Synchronization to ERP"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_013"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to edit catalogs.", "name": "Variants: Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_014"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to generate a variant structure report.", "name": "Variants: Report Variant Structure"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_015"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to generate a difference report for variants and their 100% bom.", "name": "Variants: Report Variant Differences"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_016"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to instantiate parts according to a variant.", "name": "Variants: Instantiate Part"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_017"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Open the mBOM Manager from the context of a variant.", "name": "Variants: mBOM Manager"}},
+      {"PRIMARY_KEYS": {"id": "VARIANTS_018"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Allows to open the Variant Matrix", "name": "Variants: Variant Matrix"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

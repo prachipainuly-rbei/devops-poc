@@ -1,0 +1,18 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_attachment_24", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "fallback_id": "", "identifier": "\"attachment.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_common_role_61", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "fallback_id": "", "identifier": "\"common_role_61.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_recipients_list", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "fallback_id": "", "identifier": "\"recipients_list.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_recipients_list_61", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "fallback_id": "", "identifier": "\"recipients_list_61.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_sharing_comment", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "fallback_id": "", "identifier": "\"Comment.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_sharing_group_member", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "fallback_id": "", "identifier": "subject_type + \".png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_sharing_person", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "fallback_id": "", "identifier": "\"Person.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_sharing_save", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "fallback_id": "", "identifier": "\"Save.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_sharing_search", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "fallback_id": "", "identifier": "\"Search.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "elements_share", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "fallback_id": "", "identifier": "\"share.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

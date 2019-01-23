@@ -1,0 +1,64 @@
+# -*- mode: text; coding: utf-8 -*-
+# Setup of database connections
+#
+#############
+# Examples  #
+#############
+#
+# Sample for Oracle database connections
+# Name
+# |    Database System
+# |    |      Oracle TNS host, EasyConnect or 'local', for local connections
+# |    |      |                             'x' for default connection, else '-'
+# |    |      |                             | Database account and optional password
+# |    |      |                             | |                 Unused with Oracle  
+# |    |      |                             | |                 | | Oracle NLS_LANG
+# |    |      |                             | |                 | | |                       CIM DATABASE Backend   
+# v    v      v                             v v                 v v v                       v           
+#exora  oracle dbhost                        x scott/tiger       - - german_germany.AL32UTF8 oracle
+#exora2 oracle //dbhost.example.com:1521/DEV - scott             - - german_germany.AL32UTF8 oracle
+#
+#
+# Sample for SQLite database connections
+# Name
+# |    Database System
+# |    |         unused with SQLite
+# |    |         |        'x' for default connection, else '-'
+# |    |         |        | Database File, may contain environ variables
+# |    |         |        | |                       unused with SQLite
+# |    |         |        | |                       | | |  CIM DATABASE Backend 
+# v    v         v        v v                       v v v  v           
+#exsqli sqlite3   -        - c:/cdb/sqlite3.db       - - -  sqlite3
+#sqlite sqlite3   -        - $(CADDOK_BASE)/data.db  - - -  sqlite3
+#
+#
+# Sample for MS SQL database connections
+#
+# exsspi is the variant using Integrated Windows Authentication.
+# This tries to log on with the currently logged on windows user/service user,
+# which needs an appropriate permission setup on the SQL Server and usually a
+# domain user. User and password is set to SSPI/SSPI in that case.
+#
+# Collation controls how char columns are created by the class compiler/ddl,
+# if you change it, you need to change all existing char columns.
+#
+# Name
+# |    Database System
+# |    |         MS SQL Server instance
+# |    |         |        'x' for default connection, else '-'
+# |    |         |        | Database account and optional password
+# |    |         |        | |                       Initial Catalog/Database to use
+# |    |         |        | |                       | Unused for SQL Server
+# |    |         |        | |                       | |
+# |    |         |        | |                       | | Collation to use for char columns
+# |    |         |        | |                       | | |                     CIM DATABASE Backend 
+# v    v         v        v v                       v v v                     v            
+#exmsql mssql  srv\\db     - user/passwd             - - Latin1_General_CS_AS  mssql        
+#exsspi mssql  srv\\db     - SSPI/SSPI          dbname - Latin1_General_CS_AS  mssql
+#sspi2  mssql  SQLExpress  - SSPI/SSPI          testdb - Latin1_General_CS_AS  mssql
+#
+###################################################################################################
+
+# NAME RDBMS    NET            DEFAULT LOGIN DBMS-HOME DBMS-ID DBMS-LANG DBMS_DRIVER
+rdb    remotedb SEZGCN1102809L.rbeigcn.com:37700       -       -/-   -         -       -         remotedb
+mssql mssql SEZGCN1102809L\SQLEXPRESS1 x SSPI/SSPI rbei - Latin1_General_CS_AS mssql

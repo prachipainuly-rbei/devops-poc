@@ -1,0 +1,13 @@
+{
+  "cdbpcs_iss_cat": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"category": "Frage"}, "DATA": {"category_cs": "", "category_d": "Frage", "category_f": "", "category_i": "", "category_ja": "", "category_ko": "", "category_pl": "", "category_pt": "", "category_s": "", "category_tr": "Soru", "category_uk": "Question", "category_zh": "\u95ee\u9898", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "Korrektur"}, "DATA": {"category_cs": "", "category_d": "Korrektur", "category_f": "", "category_i": "", "category_ja": "", "category_ko": "", "category_pl": "", "category_pt": "", "category_s": "", "category_tr": "D\u00fczeltme", "category_uk": "Correction", "category_zh": "\u7ea0\u6b63", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "Zusatz"}, "DATA": {"category_cs": "", "category_d": "Zusatz", "category_f": "", "category_i": "", "category_ja": "", "category_ko": "", "category_pl": "", "category_pt": "", "category_s": "", "category_tr": "Ek", "category_uk": "Addition", "category_zh": "\u9644\u52a0", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "offen"}, "DATA": {"category_cs": "", "category_d": "Offen", "category_f": "", "category_i": "", "category_ja": "", "category_ko": "", "category_pl": "", "category_pt": "", "category_s": "", "category_tr": "A\u00e7\u0131k", "category_uk": "Open", "category_zh": "\u5f00\u542f", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "zu vervollst\u00e4ndigen"}, "DATA": {"category_cs": "", "category_d": "Zu vervollst\u00e4ndigen", "category_f": "", "category_i": "", "category_ja": "", "category_ko": "", "category_pl": "", "category_pt": "", "category_s": "", "category_tr": "Tamamlanacak", "category_uk": "To complete", "category_zh": "\u5b8c\u6210", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

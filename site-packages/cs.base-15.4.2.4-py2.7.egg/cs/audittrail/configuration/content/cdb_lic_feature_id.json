@@ -1,0 +1,11 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "AUDITTRAIL_001"}, "DATA": {"cdb_module_id": "cs.audittrail", "description": "Allows to read audit trail entries", "name": "Audit Trail: Read"}},
+      {"PRIMARY_KEYS": {"id": "AUDITTRAIL_002"}, "DATA": {"cdb_module_id": "cs.audittrail", "description": "Allows to write audit trail entries when modifying objects", "name": "Audit Trail: Write"}},
+      {"PRIMARY_KEYS": {"id": "AUDITTRAIL_003"}, "DATA": {"cdb_module_id": "cs.audittrail", "description": "Allows to administrate the audit trail system (define types with audit trail, etc.)", "name": "Audit Trail: Administrate"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

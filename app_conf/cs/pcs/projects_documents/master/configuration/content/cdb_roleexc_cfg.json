@@ -1,0 +1,9 @@
+{
+  "cdb_roleexc_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"context_name": "ProjectContext", "relation": "zeichnung"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "exc_assign_rel": "cdbpcs_rexc_doc"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

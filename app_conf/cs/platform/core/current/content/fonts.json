@@ -1,0 +1,12 @@
+{
+  "fonts": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"anwender": "public", "fontkennung": "BAUM_FONT"}, "DATA": {"fontname": "-adobe-courier-medium-r-normal--12-120-75-75-m-70-iso8859-1"}},
+      {"PRIMARY_KEYS": {"anwender": "public", "fontkennung": "LOGO-FONT"}, "DATA": {"fontname": "-adobe-new century schoolbook-medium-r-normal--24-240-75-75-p-137-iso8859-1"}},
+      {"PRIMARY_KEYS": {"anwender": "public", "fontkennung": "LOGO-INFO-FONT"}, "DATA": {"fontname": "-adobe-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*"}},
+      {"PRIMARY_KEYS": {"anwender": "public", "fontkennung": "TAB_FONT"}, "DATA": {"fontname": "-adobe-helvetica-medium-r-normal-*-12-*-*-*-*-*-iso8859-1"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

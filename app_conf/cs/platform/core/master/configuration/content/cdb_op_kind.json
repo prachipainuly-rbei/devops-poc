@@ -1,0 +1,13 @@
+{
+  "cdb_op_kind": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"kind": "Client"}, "DATA": {"descr": "Client-Systemoperation, d.h. die Operation ist intern im Client bekannt und implementiert"}},
+      {"PRIMARY_KEYS": {"kind": "Client-side Script"}, "DATA": {"descr": "Die Operation wird durch ein clientseitig implementiertes Skript (Userexit) implementiert"}},
+      {"PRIMARY_KEYS": {"kind": "GraphView"}, "DATA": {"descr": "Aufblenden einer Struktur. Der Operationsname muss dem Strukturnamen entsprechen"}},
+      {"PRIMARY_KEYS": {"kind": "PowerScript"}, "DATA": {"descr": "Die Operation wird durch ein serverseitig implementiertes CDB-Powerskript (Userexit) implementiert"}},
+      {"PRIMARY_KEYS": {"kind": "System"}, "DATA": {"descr": "Systemoperation, d.h. die Operation ist intern im System bekannt und implementiert"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

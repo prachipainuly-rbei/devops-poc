@@ -1,0 +1,20 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55bf3b0-09d9-11e5-9d6f-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "part", "feature_id": "CHECKLIST_ITEMS_003", "name": "cdbpcs_checklist_assign", "password": "0efDIHdVFg6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55bf3b1-09d9-11e5-b2df-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "cdbpcs_part2cl", "feature_id": "CHECKLIST_ITEMS_002", "name": "CDB_Create", "password": "1xI38HtEi0."}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55bf3b2-09d9-11e5-b971-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "cdbpcs_part2cl", "feature_id": "CHECKLIST_ITEMS_001", "name": "CDB_Export", "password": "Z5LCrJBHLFA"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55bf3b3-09d9-11e5-8f5f-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "cdbpcs_part2cl", "feature_id": "CHECKLIST_ITEMS_002", "name": "CDB_Modify", "password": "5JQ.vwRjgyg"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55bf3b4-09d9-11e5-bbfc-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "cdbpcs_part2cl", "feature_id": "CHECKLIST_ITEMS_002", "name": "CDB_Copy", "password": "lp9RK9fSDms"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55bf3b5-09d9-11e5-a599-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "cdbpcs_part2cl", "feature_id": "CHECKLIST_ITEMS_002", "name": "CDB_CreateWithSearchConditions", "password": "LSuT7E4Gz7g"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55bf3b6-09d9-11e5-887a-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "cdbpcs_part2cl", "feature_id": "CHECKLIST_ITEMS_001", "name": "CDB_Search", "password": "AkT0izIzgM."}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55e64b0-09d9-11e5-ae38-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "cdbpcs_part2cl", "feature_id": "CHECKLIST_ITEMS_001", "name": "CDB_SelectAndAssign", "password": "FKPallYJ73A"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55e64b1-09d9-11e5-b422-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "part", "feature_id": "CHECKLIST_ITEMS_001", "name": "cdbpcs_part_checklists", "password": "u0A7OGR3PoM"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55e64b2-09d9-11e5-8972-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "cdbpcs_part2cl", "feature_id": "CHECKLIST_ITEMS_001", "name": "CDB_ShowObject", "password": "GcOrJYgr0Gk"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55e64b3-09d9-11e5-8673-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "cdbpcs_part2cl", "feature_id": "CHECKLIST_ITEMS_002", "name": "CDB_Delete", "password": "wc51fmqsBYI"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e55e64b4-09d9-11e5-8d88-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.checklists_items", "classname": "cdbpcs_part2cl", "feature_id": "CHECKLIST_ITEMS_001", "name": "CDB_SearchAgain", "password": "rCXhyfZBTuI"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

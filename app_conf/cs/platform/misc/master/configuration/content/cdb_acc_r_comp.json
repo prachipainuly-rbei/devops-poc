@@ -1,0 +1,10 @@
+{
+  "cdb_acc_r_comp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"right_comp": "CHANGE"}, "DATA": {"cdb_module_id": "cs.platform.misc", "description": "Change access rights from (save) and to (accept)"}},
+      {"PRIMARY_KEYS": {"right_comp": "WRITE ACCESS"}, "DATA": {"cdb_module_id": "cs.platform.misc", "description": "All write operations"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

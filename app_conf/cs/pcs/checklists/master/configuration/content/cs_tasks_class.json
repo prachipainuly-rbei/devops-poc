@@ -1,0 +1,10 @@
+{
+  "cs_tasks_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cs_tasks_cls_checklist"}, "DATA": {"activities_context": null, "cdb_module_id": "cs.pcs.checklists", "cdb_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487", "classname": "cdbpcs_checklist", "deadline": "target_date", "rule_id": "cdbtodo: task_checklist"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_cls_checklist_item"}, "DATA": {"activities_context": null, "cdb_module_id": "cs.pcs.checklists", "cdb_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487", "classname": "cdbpcs_cl_item", "deadline": "target_date", "rule_id": "cdbtodo: task_checklist_item"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

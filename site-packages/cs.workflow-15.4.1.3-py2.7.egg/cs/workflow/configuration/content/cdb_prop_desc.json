@@ -1,0 +1,9 @@
+{
+  "cdb_prop_desc": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attr": "wffo"}, "DATA": {"cdb_module_id": "cs.workflow", "helptext": "Show the checkbox 'finish option' in the Workflow Designer"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

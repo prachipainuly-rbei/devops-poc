@@ -1,0 +1,12 @@
+{
+  "cdbxml_source": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "VPMBomComparison"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "cs.vp.variants.Variant", "context_card": "N", "description": "Variants BOM Comparison"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "cs.vp.variants.Variant", "context_card": "1", "description": "Variants Hierarchical BOM"}},
+      {"PRIMARY_KEYS": {"name": "VPMVirtualHierarchicalBOM"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "", "context_card": "", "description": ""}},
+      {"PRIMARY_KEYS": {"name": "VirtualVPMBomComparison"}, "DATA": {"cdb_module_id": "cs.vp.variants", "context": "", "context_card": "", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

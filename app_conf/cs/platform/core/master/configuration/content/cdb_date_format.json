@@ -1,0 +1,11 @@
+{
+  "cdb_date_format": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"date_format": "DD.MM.YYYY hh:mm:ss"}, "DATA": {"description": "German date format", "example": "24.12.2014 20:15:00"}},
+      {"PRIMARY_KEYS": {"date_format": "MM/DD/YYYY hh:mm:ss"}, "DATA": {"description": "American date format", "example": "12/24/2014 20:15:00"}},
+      {"PRIMARY_KEYS": {"date_format": "YYYY-MM-DDThh:mm:ss"}, "DATA": {"description": "ISO date format without time zone", "example": "2014-12-24T20:15:00"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

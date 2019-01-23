@@ -1,0 +1,9 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "3D Models"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "Documents to be used as model for a part in the 3d viewer\n\nFormerly known as \"3D Viewer: Viewable Models\", but moved from cs.threed to cs.vp and renamed"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

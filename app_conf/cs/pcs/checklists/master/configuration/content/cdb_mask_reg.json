@@ -1,0 +1,16 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_checklst_comp", "mask_role_id": "public", "name": "cdbpcs_checkl_mask"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_checklst_comp", "mask_role_id": "public", "name": "cdbpcs_cl_chctrl"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "ordering": 30, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_checklst_comp_s", "mask_role_id": "public", "name": "cdbpcs_checkl_mask_s"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_checklst_comp_s", "mask_role_id": "public", "name": "cdbpcs_cl_chctrl_s"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "ordering": 30, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_cl_item_comp", "mask_role_id": "public", "name": "cdbpcs_cli_chctrl"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_cl_item_comp", "mask_role_id": "public", "name": "cdbpcs_clitem_mask"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_cl_item_comp_s", "mask_role_id": "public", "name": "cdbpcs_cli_chctrl_s"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_cl_item_comp_s", "mask_role_id": "public", "name": "cdbpcs_clitem_mask_s"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "ordering": 10, "priority": 0, "reg_title": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

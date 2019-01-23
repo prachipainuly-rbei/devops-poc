@@ -1,0 +1,86 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbmdmreplicate_batch.ue 115535 2014-10-10 13:29:56Z js $
+#
+# CIM DATABASE user exit
+# (C) 1999 CONTACT Software GmbH
+#
+# Beispielimplementierung des Replikationsuserexits, der aufgerufen
+# wird, wenn der Anwender auf ein Dokument zugreifen moechte, das derzeit
+# nicht im aktuellen Aenderungsstand am lokalen Standort liegt und das
+# asynchron repliziert werden soll.
+# In dieser Beispielimplementierung wird unmittelbar cdbds zum eigentlichen
+# Uebertragen der Datei im Hintergrund aufgerufen.
+# In einer zweiten Beispielimplementierung (cdbmdmreplicate_batch.ue) wird
+# hingegen der Replikationsauftrag in der Datenbank vermerkt und kann
+# spaeter (z.B. per cron-Job) zu einem bestimmten Zeitpunkt gestartet
+# werden.
+#
+
+import sys
+import os
+from cdb import misc, ue, sqlapi
+
+
+def filenameToModel(fname):
+# Modell fuer den Dateinamen aus Zeichnung suchen.
+# Dabei gelten folgenden Annahmen:
+# 1. Dateiname ist eindeutig ueber alle Pools
+#    Diese ist Voraussetzung fuer den Replikationsserver
+# 2. Es gibt keinen Dateinamen im Feld Dateinamen, der
+#    z_nummer-z_index eines anderen Modells entspricht
+# 3. Der Dateiname darf keinen Punkt enthalten, wenn kein Extension
+#    vorhanden ist
+# Rueckgabe z_nummmer, z_index des Modells, oder leere z_nummer, wenn nicht
+# gefunden wurde
+    z_nummer = ""
+    z_index = ""
+    if fname != "":
+        (root, ext) = os.path.splitext(fname)
+        condition = "dateiname='%s' or dateiname='%s'" % (fname, root)
+        rset = sqlapi.RecordSet2("zeichnung", condition)
+        if len(rset) > 0:
+            misc.log(7, "filenameToModel: Record found")
+            rec = rset[0]
+            z_nummer = rec["z_nummer"]
+            z_index = rec["z_index"]
+            if len(rset) > 1:
+                misc.log_error("Mehr als 1 Record fuer den Dateinamen "
+                               "gefunden, verwende den 1.")
+        else:
+            # keinen Eintrag gefunden, dann zerlegen des Namens in z_nummer und
+            # z_index
+            misc.log(7, "filenameToModel: no record found")
+            p = root.rfind("-")
+            if p != -1:
+                z_nummer = root[:p]
+                z_index = root[p + 1:]
+            else:
+                misc.log_error("Dateiname kann nicht zerlegt werden, da '-' fehlt")
+    misc.log(4, "filenameToModel: %s -> '%s'-'%s'" % (fname, z_nummer, z_index))
+    return (z_nummer, z_index)
+
+
+def cdbmdmreplicate(ctx):
+    sys.stderr.write("cdbmdmreplicate_batch")
+
+    if ctx.action == "" or ctx.blobId == "" or ctx.directory == "":
+        sys.stderr.write("Incomplete information in command line...\n")
+        raise ue.Exception(3710, "Incomplete information in command line")
+
+    if ctx.action == "batch":
+        misc.log(7, ctx)
+        (znum, zidx) = filenameToModel(ctx.blobId)
+        if znum:
+            # Replikationsauftrag erstellen
+            from cdb import repljobs
+            repsite = repljobs.GetSite()
+            joblist = [{repljobs.ReplQTable.z_nummer: znum,
+                        repljobs.ReplQTable.z_index: zidx,
+                        repljobs.ReplQTable.tosite: repsite,
+                        repljobs.MasterReplQTable.recursive: '0'}]
+            repljobs.masterReplQueue.put(joblist)
+
+
+if __name__ == "__main__":
+    ue.run(cdbmdmreplicate, "cdbmdmreplicate")

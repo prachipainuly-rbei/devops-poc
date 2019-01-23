@@ -1,0 +1,13 @@
+{
+  "cdbqc_aggr_rule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "06b9f440-1a63-11e1-a80a-001d60a6c82c"}, "DATA": {"cdb_cdate": "29.11.2011 09:20:41", "cdb_cpersno": "caddok", "cdb_mdate": "29.11.2011 09:20:41", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "Custom", "name_en": "Custom", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "\u00d6zel", "name_zh": "\u81ea\u5b9a\u4e49"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "1e18040f-fb0a-11e0-ade3-001d60a6c82c"}, "DATA": {"cdb_cdate": "20.10.2011 12:56:09", "cdb_cpersno": "caddok", "cdb_mdate": "20.10.2011 12:56:09", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "Maximum", "name_en": "Maximum", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Maksimum", "name_zh": "\u6700\u5927"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "962a4830-0ead-11e1-9e9c-001d60a6c82c"}, "DATA": {"cdb_cdate": "14.11.2011 11:44:10", "cdb_cpersno": "caddok", "cdb_mdate": "14.11.2011 11:44:10", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "Summe mit Koeffizient", "name_en": "Sum with Coefficient", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Katsay\u0131 ile topla", "name_zh": "\u7cfb\u6570\u6c42\u548c"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a9384900-3ee4-11e2-b467-082e5f0d3665"}, "DATA": {"cdb_cdate": "05.12.2012 15:04:18", "cdb_cpersno": "caddok", "cdb_mdate": "05.12.2012 15:04:18", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "Minimum", "name_en": "Minimum", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Minimum", "name_zh": "\u6700\u5c0f"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e9e7bf21-fa58-11e0-a5d7-001d60a6c82c"}, "DATA": {"cdb_cdate": "19.10.2011 15:47:40", "cdb_cpersno": "caddok", "cdb_mdate": "20.10.2011 09:37:18", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "Summe", "name_en": "Sum", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Topla", "name_zh": "\u6c42\u548c"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cdb_struct_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "CDBPCS_Role"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.pcs.projects", "comp_tag": "", "descr": "", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "", "root_mask": "cdbpcs_prj_role_mask", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "CDBPCS_RoleUsage"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.pcs.projects", "comp_tag": "", "descr": "", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_prj_role_usage", "root_mask": "cdbpcs_prj_role_mask", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdb_organization_res"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.pcs.projects", "comp_tag": "", "descr": "", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdb_organization_to_organization", "root_mask": "cdb_organization", "show_rs_window": 0}},
+      {"PRIMARY_KEYS": {"comp_name": "cdb_organization_res_filtered"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.pcs.projects", "comp_tag": "", "descr": "", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdb_organization_to_organization", "root_mask": "cdb_organization", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_project_info"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.pcs.projects", "comp_tag": "", "descr": "Structure representation of project tasks", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_project2toptasks", "root_mask": "", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_project_info_from"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.pcs.projects", "comp_tag": "", "descr": "Structure representation of project tasks (for catalog)", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_project2toptasks", "root_mask": "", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_project_overview"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.pcs.projects", "comp_tag": "", "descr": "Structure representation of project", "filter_catalog": "", "html_help": "cdb_gui_pcs_pjoverview", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_project2toptasks", "root_mask": "", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_project_roles"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.pcs.projects", "comp_tag": "", "descr": "Structure representation of project role assignments", "filter_catalog": "", "html_help": "cdb_gui_pcs_pjrolesview", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_project_to_project_role", "root_mask": "cdbpcs_project_mask", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_project_team"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.pcs.projects", "comp_tag": "", "descr": "", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_subject_per_to_project", "root_mask": "cdbpcs_subj_per_mask", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_task_overview"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.pcs.projects", "comp_tag": "", "descr": "Structure representation of project subtasks", "filter_catalog": "", "html_help": "cdb_gui_pcs_taskoverview", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_subtasks", "root_mask": "cdbpcs_task_mask", "show_rs_window": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

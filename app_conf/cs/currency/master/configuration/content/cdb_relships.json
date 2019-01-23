@@ -1,0 +1,9 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpco_curr2conversions"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.currency", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 0, "label": "cdbpco_conversions", "menugroup": 100, "node_tag": "", "ordering": 10, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdbpco_curr_convert", "reference_kmap": "cdb_object_id=cdb_object_id", "referer": "cdbpco_currency", "referer_kmap": "cdb_object_id=from_curr_object_id", "relship_cldef": "cdbpco_curr_convert", "relship_table": "", "rolename": "Conversions", "rs_acc_prof": "", "rs_profile": "cdb_aggregation_1_N_no_copy", "show_in_mask": 1, "show_in_menu": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cdbqc_def2class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_class_def2class", "cdbqc_def_object_id": "061b1de1-235c-11e2-9f02-0026c78a4864", "classname": "cdbecm_ec", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.ec", "computation_rule_id": "b490510f-299c-11e2-b265-082e5f0d3665", "take_aggr_val": null, "update_clock": 30}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_class_def2class", "cdbqc_def_object_id": "3ce382cf-235d-11e2-a747-0026c78a4864", "classname": "cdbecm_ec", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.ec", "computation_rule_id": "55bbadf0-235d-11e2-89b4-0026c78a4864", "take_aggr_val": null, "update_clock": 60}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_class_def2class", "cdbqc_def_object_id": "63b3fe40-235c-11e2-aa71-0026c78a4864", "classname": "cdbecm_ec", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.ec", "computation_rule_id": "05099161-235d-11e2-ba5c-0026c78a4864", "take_aggr_val": null, "update_clock": 60}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_class_def2class", "cdbqc_def_object_id": "79ed1480-235c-11e2-bd8c-0026c78a4864", "classname": "cdbecm_ec", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.ec", "computation_rule_id": "a6dd4aa1-235c-11e2-b7c3-0026c78a4864", "take_aggr_val": null, "update_clock": 60}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

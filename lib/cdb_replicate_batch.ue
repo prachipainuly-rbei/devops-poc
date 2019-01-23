@@ -1,0 +1,68 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdb_replicate_batch.ue 115535 2014-10-10 13:29:56Z js $
+#
+# CIM DATABASE user exit
+# (C) 2000 CONTACT Software GmbH
+#
+
+"""
+UE zum Einstellen eines Dokuments zur Batch-Replikation.
+"""
+
+from cdb import repljobs, sqlapi, auth, ue
+
+priority_map = {'Normal': 7,
+                'High': 0,
+                'Low': 14}
+
+
+def make_site_list(sitestr, znr, zni, prj_sites=0):
+    u"""
+    Splittet die Liste der Sites auf und lässt nur in cdb_site konfigurierte
+    Sites zu.
+    """
+    sep = ';'
+    total_sites = [rec['id'] for rec in sqlapi.RecordSet2('cdb_site')]
+    in_sites = {}
+    for x in sitestr.split(sep):
+        in_sites[x] = True
+    if prj_sites:
+        p_sites = repljobs.getDocSites(znr, zni)
+        for x in p_sites:
+            in_sites[x] = True
+    for s in in_sites.keys():
+        if s not in total_sites:
+            del in_sites[s]
+    return in_sites.keys()
+
+
+def replicate_batch(ctx):
+    u"""
+    Stellt die vom Nutzer ausgewählten Dokumente zur Replikation ein.
+    """
+    to_prj_sites = 0
+    priority = 7
+    immediately = 0
+    dlg_attrs = ctx.dialog.get_attribute_names()
+    if "to_prj_sites" in dlg_attrs:
+        to_prj_sites = int(ctx.dialog.to_prj_sites)
+    if "priority" in dlg_attrs:
+        priority = priority_map.get(ctx.dialog.priority, 7)
+    if "replicate_now" in dlg_attrs:
+        immediately = int(ctx.dialog.replicate_now)
+    alldocs = []
+    for doc in ctx.objects:
+        alldocs.append((doc["z_nummer"], doc["z_index"]))
+    if len(alldocs) > 1:
+        if not repljobs.getMulti(auth.persno):
+            raise ue.Exception(8401)
+    for (znr, zni) in alldocs:
+        site_list = make_site_list(ctx.dialog["id"], znr, zni, to_prj_sites)
+        for s in site_list:
+            repljobs.replicateDoc(znr, zni, s, priority=priority,
+                                  immediately=immediately)
+    ctx.refresh_tables(["mq_mstr_repl"])
+
+if __name__ == "__main__":
+    ue.run(replicate_batch, "cdbscript")

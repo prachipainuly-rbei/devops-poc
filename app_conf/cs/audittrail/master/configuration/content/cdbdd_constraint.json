@@ -1,0 +1,16 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e9380e1-6ef9-11e8-9f0e-605718ab0982"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_detail", "description": null, "exclude_empty_values": null, "fields_info": "detail_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0f8f2e11-f52b-11e7-9bad-605718ab0982"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_config", "description": null, "exclude_empty_values": null, "fields_info": "name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "2df07500-f533-11e7-a0a2-605718ab0982"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_config_field", "description": null, "exclude_empty_values": null, "fields_info": "config_name, field_name, classname"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "78417f80-fac1-11e7-9c5c-605718ab0982"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_config", "description": "", "exclude_empty_values": 0, "fields_info": "classname"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "bdd4e3b0-e00a-11e7-b755-68f728783d3d"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail", "description": null, "exclude_empty_values": null, "fields_info": "audittrail_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c49bfa91-e00e-11e7-a2af-68f728783d3d"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_type", "description": null, "exclude_empty_values": null, "fields_info": "type"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e61b3f4f-6eed-11e8-b8c3-605718ab0982"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_objects", "description": null, "exclude_empty_values": null, "fields_info": "audittrail_id, object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ed5b152e-6edc-11e8-a778-605718ab0982"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_view", "description": null, "exclude_empty_values": null, "fields_info": "parent, child, object_description, old_value, new_value"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

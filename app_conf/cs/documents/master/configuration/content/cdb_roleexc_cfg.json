@@ -1,0 +1,9 @@
+{
+  "cdb_roleexc_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"context_name": "GlobalContext", "relation": "zeichnung"}, "DATA": {"cdb_module_id": "cs.documents", "exc_assign_rel": "cdb_roleexc_doc"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

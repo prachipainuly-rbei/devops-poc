@@ -1,0 +1,17 @@
+{
+  "cdb_cad_categ_ftype": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ft_name": "CatiaV5:Part"}, "DATA": {"cdb_cad_categ_id": "296", "cdb_object_id": "968e4d19-2c1b-11df-8e31-e7296486c948"}},
+      {"PRIMARY_KEYS": {"ft_name": "CatiaV5:Prod"}, "DATA": {"cdb_cad_categ_id": "296", "cdb_object_id": "7250b18e-2c1b-11df-8e31-e7296486c948"}},
+      {"PRIMARY_KEYS": {"ft_name": "CatiaV5:Prodz"}, "DATA": {"cdb_cad_categ_id": "296", "cdb_object_id": "81e927de-2c1b-11df-8e31-e7296486c948"}},
+      {"PRIMARY_KEYS": {"ft_name": "CatiaV5:Shape"}, "DATA": {"cdb_cad_categ_id": "296", "cdb_object_id": "9bf28da2-2c1b-11df-8e31-e7296486c948"}},
+      {"PRIMARY_KEYS": {"ft_name": "CatiaV5:cgr"}, "DATA": {"cdb_cad_categ_id": "296", "cdb_object_id": "a25be9dc-2c1b-11df-8e31-e7296486c948"}},
+      {"PRIMARY_KEYS": {"ft_name": "inventor:asm"}, "DATA": {"cdb_cad_categ_id": "296", "cdb_object_id": "05fd0ebb-2c1d-11df-8e31-e7296486c948"}},
+      {"PRIMARY_KEYS": {"ft_name": "inventor:prt"}, "DATA": {"cdb_cad_categ_id": "296", "cdb_object_id": "416d3397-2c1d-11df-8e31-e7296486c948"}},
+      {"PRIMARY_KEYS": {"ft_name": "inventor:psm"}, "DATA": {"cdb_cad_categ_id": "296", "cdb_object_id": "525abb7d-2c1d-11df-8e31-e7296486c948"}},
+      {"PRIMARY_KEYS": {"ft_name": "inventor:weld"}, "DATA": {"cdb_cad_categ_id": "296", "cdb_object_id": "2ed4c392-2c1d-11df-8e31-e7296486c948"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

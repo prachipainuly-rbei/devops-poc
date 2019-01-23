@@ -1,0 +1,9 @@
+{
+  "cdbxml_report": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "TaskAttributesToMsp", "title": "TaskAttributesToMsp"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cdbxml_rep_exec_type": "Server (synchron)", "cdbxml_report_format": "Excel", "dialog": ""}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

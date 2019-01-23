@@ -1,0 +1,11 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_category", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_folder", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

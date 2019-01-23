@@ -1,0 +1,11 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdb_semantic_link", "relation": "cdb_semantic_link"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_semantic_link_type", "relation": "cdb_semantic_link"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_semantic_link_type", "relation": "cdb_semantic_link_type"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

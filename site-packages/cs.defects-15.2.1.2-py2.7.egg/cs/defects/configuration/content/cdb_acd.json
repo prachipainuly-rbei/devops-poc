@@ -1,0 +1,10 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (COMPLETED)"}, "DATA": {"cdb_module_id": "cs.defects", "common_flag": 1, "description": "Errors in status 200, 100, 110"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)"}, "DATA": {"cdb_module_id": "cs.defects", "common_flag": 1, "description": "Errors not in status 200, 100, 110"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

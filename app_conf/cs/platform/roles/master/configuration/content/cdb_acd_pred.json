@@ -1,0 +1,10 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "Allgemeine Rollen:alle", "predicate_name": "Alle Rollenvergaben allg. Rollen", "table_name": "cdb_global_subj"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"acd_id": "Allgemeine Rollen:alle", "predicate_name": "Alle allg. Rollen", "table_name": "cdb_global_role"}, "DATA": {"cdb_module_id": "cs.platform.roles"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

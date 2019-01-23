@@ -1,0 +1,28 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "CDB::Relationship::STL::bom_item2bom_item", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "CDB::Relationship::STL::model2bom_item", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "CDB::Relationship::STL::part2bom_item", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "bom_item2cdb_person_cnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "bom_item2cdb_person_mnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "bom_item_usage2assembly", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdb_asm_from_stlpos", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdb_bom_item2component", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdb_bom_item_models", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdb_bom_item_usage", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdb_bom_item_usage2models", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdb_bom_usage", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdb_part_usage", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdb_partslist_comp", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdb_partslist_comp2comp_val", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_bomitem_asgn2bom_item", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_op2cdbbop_bomitem_asgn", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_op2cdbbop_bomitem_para", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_part2assemblies", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_part2subparts", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bom"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

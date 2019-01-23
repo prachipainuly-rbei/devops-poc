@@ -1,0 +1,27 @@
+{
+  "maskenzuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_action2issue", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_cat_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_chctrl", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_chctrl_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_desc_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_log_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_prio", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "None", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_prot_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_rem_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_rem_maskc", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_val", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.pcs.issues", "ersteller": "Administrator", "html_help": null}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue_comp", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue_comp_c", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue_comp_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": "cdb_mask_pcs_issuedata"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue_mask_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue_report", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue_state", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_task_issue_report", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.issues", "ersteller": "caddok", "html_help": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

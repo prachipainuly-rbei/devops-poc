@@ -1,0 +1,15 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0ac5bd6c-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.cad", "classname": "cdb_title_block", "description": "", "exclude_empty_values": null, "fields_info": "gruppe, rang, relation, attribut, att_index"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0acf4ab4-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.cad", "classname": "cdb_frame_group", "description": "", "exclude_empty_values": null, "fields_info": "rahmen_gruppe"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0b97e19c-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.cad", "classname": "cdb_talk_msg", "description": "", "exclude_empty_values": null, "fields_info": "label, cad_system, isolang"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e2fbca8-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.cad", "classname": "cdb_rk_param", "description": "", "exclude_empty_values": null, "fields_info": "cad_system, rang"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e34834c-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.cad", "classname": "cdb_frame_table", "description": "", "exclude_empty_values": null, "fields_info": "rahmen_gruppe, db_relation"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0f4e4b18-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.cad", "classname": "cdb_frame", "description": "", "exclude_empty_values": null, "fields_info": "name, rahmen_gruppe"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d4f13d88-0b62-11df-a947-c43a18ffac2c"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.cad", "classname": "cdb_cadbindclss", "description": "", "exclude_empty_values": null, "fields_info": "cad_classname"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

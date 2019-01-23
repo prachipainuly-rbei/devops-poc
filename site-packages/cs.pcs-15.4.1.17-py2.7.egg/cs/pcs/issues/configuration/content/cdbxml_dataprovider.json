@@ -1,0 +1,12 @@
+{
+  "cdbxml_dataprovider": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "ProjectIssues", "xsd_name": "ProjectIssues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "context": "cs.pcs.projects.Project", "parent_xsd_name": "Project_1", "source": "cs.pcs.issues.reports.ProjectIssues", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "ProjectIssues", "xsd_name": "Project_1"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "context": "cs.pcs.projects.Project", "parent_xsd_name": "", "source": "cs.pcs.projects.Project", "source_type": "Context"}},
+      {"PRIMARY_KEYS": {"name": "TaskIssues", "xsd_name": "TaskIssues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "context": "cs.pcs.projects.tasks.Task", "parent_xsd_name": "Task_1", "source": "cs.pcs.issues.reports.TaskIssues", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "TaskIssues", "xsd_name": "Task_1"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "context": "cs.pcs.projects.tasks.Task", "parent_xsd_name": "", "source": "cs.pcs.projects.tasks.Task", "source_type": "Context"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

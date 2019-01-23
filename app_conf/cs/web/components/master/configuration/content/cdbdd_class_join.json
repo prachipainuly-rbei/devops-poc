@@ -1,0 +1,10 @@
+{
+  "cdbdd_class_join": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "csweb_dialog_hook", "join_relship": "csweb_dialog_hook2function"}, "DATA": {"alias_name": "DialogHookFunction", "cdb_module_id": "cs.web.components", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "csweb_page_config", "join_relship": "csweb_page_config2ausgaben"}, "DATA": {"alias_name": "Label", "cdb_module_id": "cs.web.components", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "0e1c5261-89f8-11e5-83b4-948f144f2cbe", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"id": "1e816d79-8f5c-11e5-b3eb-cb6015b2e7bb", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"id": "4b45e65e-9443-11e5-abb2-4c3488543485", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"id": "afd7eb03-c427-11e5-93d8-00059a3c7a00", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.sharing"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

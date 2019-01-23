@@ -1,0 +1,36 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.platform": "15.3.8"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cscdb.branding", 
+        "required_module_id": "cs.platform.branding"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "c9c36551-2917-11e4-b170-005056c00008", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "9294df57c3dd1f603854b27bb004ccde", 
+      "name": "Branding for CIM Database", 
+      "package": "cscdb.product"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cscdb.branding"
+    }
+  }
+}

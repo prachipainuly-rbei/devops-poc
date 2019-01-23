@@ -1,0 +1,57 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.2", 
+      "cs.activitystream": "15.3.1.4", 
+      "cs.base": "15.4.1.10", 
+      "cs.defects": "15.2.1.2", 
+      "cs.documents": "15.2.2.9", 
+      "cs.launchpad": "15.2.1.0", 
+      "cs.metrics": "15.4.0.1", 
+      "cs.platform": "15.2.29", 
+      "cs.portfolios": "15.4.0.0", 
+      "cs.powerreports": "15.2.0.3", 
+      "cs.web": "15.2.1.21", 
+      "cs.workflow": "15.4.0.11"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.items_documents", 
+        "required_module_id": "cs.documents"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.items_documents", 
+        "required_module_id": "cs.vp.items"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "7421b98f-51f9-11e2-b2d0-78acc0ace8c3", 
+      "is_interface_module": 1, 
+      "mandatory": 0, 
+      "master_config_checksum": "19d7491322df29c470ed7e1a857fdda0", 
+      "name": "Interface module to connect cs.vp.items and cs.documents", 
+      "package": "cs.vp"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.vp.items_documents"
+    }
+  }
+}

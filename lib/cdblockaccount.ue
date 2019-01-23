@@ -1,0 +1,75 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+#
+# CIM DATABASE user exit
+# Copyright (C) 1990 - 2011 CONTACT Software GmbH
+# All rights reserved.
+# http://www.contact.de/
+#
+"""
+"""
+
+__docformat__ = "restructuredtext en"
+__revision__ = "$Id: cdblockaccount.ue 131752 2015-09-30 11:52:47Z sla $"
+
+from cdb import cmsg
+from cdb import mail
+from cdb import misc
+from cdb import sqlapi
+from cdb import ue
+from cdb.objects import org
+
+# Exported objects
+__all__ = []
+
+
+def getAccountManagerMailAdresses():
+    accountManager = sqlapi.RecordSet2(sql="""select a.e_mail
+        FROM angestellter a JOIN cdb_global_subj b ON a.personalnummer=b.subject_id
+        WHERE b.role_id='Administrator' AND a.active_account='1'""")
+    # Prevent sending duplicated messages to the same mail account.
+    return list({row.e_mail for row in accountManager})
+
+
+def cdblockaccount(ctx):
+    misc.log(1, "cdblockaccount: %s" % ctx.account)
+    receivers = getAccountManagerMailAdresses()
+    name = ctx.account
+    sender = "cimdatabase@contact.de"
+    # Auch dem Benutzer einen Hinweis geben - evtl. hat ja jemand anders den
+    # Account misbraucht
+    account = org.Person.ByKeys(ctx.account)
+    if account:
+        name = account["name"]
+        if account["e_mail"]:
+            sender = account["e_mail"]
+            if not sender in receivers:
+                receivers.append(sender)
+    if ctx.reason == ctx.kAuthLoginFailed:
+        mailtext = "Der Account von '%s' (%s) wurde wg. mehrfachem " \
+                   "fehlerhaften Logins gesperrt." % (ctx.account, name)
+    elif ctx.reason == ctx.kAuthAccountExpired:
+        mailtext = "Der Account von '%s' (%s) wurde wg. zu langer " \
+                   "Nichtbenutzung gesperrt." % (ctx.account, name)
+    else:
+        mailtext = "Der Account von '%s' (%s) wurde gesperrt" % (ctx.account, name)
+
+    msg = mail.Message()
+    msg.Subject("CIM DATABASE Account wurde gesperrt")
+    msg.body("%s" % mailtext, mimetype="text/html")
+    misc.log(7, "Body:%s" % mailtext)
+    msg.From(sender)
+
+    #  CDBMSG-Datei/Link attachen
+    perscmsg = cmsg.Cdbcmsg("cdb_person", "CDB_ShowObject", 1)
+    perscmsg.add_item("personalnummer", "angestellter", ctx.account)
+    msg.attach(perscmsg.get_fname(), perscmsg.mimetype, perscmsg.encoding,
+               perscmsg.get_memfile())
+    for e_mail in receivers:
+        if e_mail:
+            misc.log(5, "Add receiver:%s" % e_mail)
+            msg.To(e_mail)
+    msg.send()
+
+if __name__ == "__main__":
+    ue.run(cdblockaccount)

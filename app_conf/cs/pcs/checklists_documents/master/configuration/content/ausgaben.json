@@ -1,0 +1,10 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_cl_doctmpl"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "cs": "", "d": "Dokumentvorlagen <-> Checklisten", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Belge \u015fablonlar\u0131 <-> Kontrol listeleri", "uk": "Document Templates <-> Checklists", "zh": "\u6587\u6863\u6a21\u677f<->\u68c0\u67e5\u6e05\u5355"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_cli_doctmpl"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "cs": "", "d": "Dokumentvorlagen <-> Pr\u00fcfpunkte", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Belge \u015fablonlar\u0131 <-> Kontrol listesi maddeleri", "uk": "Document Templates <-> Checklist Items", "zh": "\u6587\u6863\u6a21\u677f<->\u68c0\u67e5\u6e05\u5355"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

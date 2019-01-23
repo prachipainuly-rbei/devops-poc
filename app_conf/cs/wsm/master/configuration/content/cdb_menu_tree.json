@@ -1,0 +1,16 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "311ce55e-0070-11e1-ad8d-6cf049769241"}, "DATA": {"ausgabe_label": "workspace_manager", "cdb_module_id": "cs.wsm", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 180, "parent_id": "92b9092c-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "6fd40a8f-0070-11e1-91c7-6cf049769241"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.wsm", "classname": "index_update_rule", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "311ce55e-0070-11e1-ad8d-6cf049769241"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "86b99612-8a38-11e6-9351-005056c00008"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.wsm", "classname": "partner_export", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "311ce55e-0070-11e1-ad8d-6cf049769241"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91da336a-8718-11e6-ad03-005056c00008"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.wsm", "classname": "partner_filename", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9afc3c5e-067c-11e3-8335-005056c00008"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.wsm", "classname": "cdb_file_links_status", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c2bd6180-4950-11e4-8075-005056c00008"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.wsm", "classname": "wsm_settings", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "311ce55e-0070-11e1-ad8d-6cf049769241"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f5184a21-ee58-11e4-b7ef-f0921cf0c09b"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.wsm", "classname": "cdb_file_wsm", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f903228c-8a39-11e6-be8e-005056c00008"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.wsm", "classname": "exported_file", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

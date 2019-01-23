@@ -1,0 +1,37 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.platform": "15.3.4", 
+      "cs.web": "15.3.0.dev0"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.audittrail", 
+        "required_module_id": "cs.web.components"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "54397c5e-fb92-11e7-b95a-605718ab0982", 
+      "is_interface_module": 0, 
+      "mandatory": null, 
+      "master_config_checksum": "b3a520f047b958a74ab65017d2996108", 
+      "name": "Audit Trail", 
+      "package": "cs.base"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.audittrail"
+    }
+  }
+}

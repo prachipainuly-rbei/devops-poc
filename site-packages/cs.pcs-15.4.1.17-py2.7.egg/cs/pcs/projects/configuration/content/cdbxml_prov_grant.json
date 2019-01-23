@@ -1,0 +1,15 @@
+{
+  "cdbxml_prov_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "DataConsistencyCheck", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "ProjectDataCheck"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Gesamt"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "ProjectEvaluationProvider"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Project_N"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Risiko"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "ProjectMTA", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "ProjectMTA"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "ProjectMTA", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Project_1"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

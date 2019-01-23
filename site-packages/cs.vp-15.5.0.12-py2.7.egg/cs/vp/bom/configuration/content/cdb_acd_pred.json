@@ -1,0 +1,10 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operation Assignments (BO already run)", "predicate_name": "cs.vp: Batch Operations (BOM, already run)", "table_name": "cdbbop_bomitem_asgn"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operation Assignments (BO not run yet)", "predicate_name": "cs.vp: Batch Operations (BOM, not run yet)", "table_name": "cdbbop_bomitem_asgn"}, "DATA": {"cdb_module_id": "cs.vp.bom"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

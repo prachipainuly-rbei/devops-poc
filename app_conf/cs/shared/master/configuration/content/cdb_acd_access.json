@@ -1,0 +1,10 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Administration", "allow": "FULL ACCESS", "class": "catalogues"}, "DATA": {"cdb_module_id": "cs.shared", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Catalogs", "allow": "read", "class": "catalogues"}, "DATA": {"cdb_module_id": "cs.shared", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

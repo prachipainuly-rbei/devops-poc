@@ -1,0 +1,20 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdb_lic_feature_assign_rep_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.tools.powerreports", "primary_table": "cdb_lic_feature_assign"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbxml_dataprovider"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbxml_prov_grant"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbxml_provider_arg"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbxml_provider_reg"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbxml_provider_type"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbxml_report"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbxml_report_arg"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbxml_report_grant"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbxml_report_tmpl"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbxml_source"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"table_name": "mq_xsd_reports"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.tools.powerreports"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

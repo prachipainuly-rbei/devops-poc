@@ -1,0 +1,9 @@
+{
+  "cdbqc_definition": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "63e7f340-2ce3-11e2-8e4e-082e5f0d3665"}, "DATA": {"cdb_cdate": "12.11.2012 17:09:51", "cdb_classname": "cdbqc_class_definition", "cdb_cpersno": "caddok", "cdb_module_id": "cs.metrics", "cdb_mpersno": "caddok", "cdb_objektart": "cdbqc_definition", "cdb_status_txt": "Valid", "computed": 1, "default_target_value": "", "identifier": "", "name_cs": "", "name_de": "Anzahl registrierter Anwender", "name_en": "Number of registered users", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "", "name_zh": "", "priority": 0, "status": 100, "subject_id": "public", "subject_type": "Common Role", "time_window_from": null, "unit_object_id": "", "unit_type": "89515d80-f1ae-11e1-a67a-082e5f0d3665", "visible": 1}, "LONGTEXTS": {"cdbqc_definition_txt": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

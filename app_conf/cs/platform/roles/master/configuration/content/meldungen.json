@@ -1,0 +1,12 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_role_dtag"}, "DATA": {"cdb_module_id": "cs.platform.roles", "cs": "", "d": "\"Allgemeine Rolle \" + role_id", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 8315, "pl": "", "pt": "", "s": "", "tr": "\"Genel Rol \" + role_id", "uk": "\"Common Role \" + role_id", "zh": "\"\u901a\u7528\u89d2\u8272 \" + role_id"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_rolegrant_dtag"}, "DATA": {"cdb_module_id": "cs.platform.roles", "cs": "", "d": "acd_id + \" / \" + class + \" /  \" + allow", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 8316, "pl": "", "pt": "", "s": "", "tr": "acd_id + \" / \" + class + \" /  \" + allow", "uk": "acd_id + \" / \" + class + \" /  \" + allow", "zh": "acd_id + \" / \" + class + \" /  \" + allow"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_subjects_dtag"}, "DATA": {"cdb_module_id": "cs.platform.roles", "cs": "", "d": "subject_name + \" (\" + subject_type+\" '\"+subject_id+\"'\" + \")\"", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "subject_name + \" (\" + subject_type+\" '\"+subject_id+\"'\" + \")\"", "uk": "subject_name + \" (\" + subject_type+\" '\"+subject_id+\"'\" + \")\"", "zh": "subject_name + \" (\" + subject_type+\" '\"+subject_id+\"'\" + \")\""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbfls.invalid_assignment_oc"}, "DATA": {"cdb_module_id": "cs.platform.roles", "cs": "", "d": "Die zur Lizenz\u00fcberpr\u00fcfung notwendigen Daten sind in Ihrer Installation f\u00fcr den organisatorischen Kontext '%s' nicht korrekt.", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "%s' organizasyonel ortam\u0131ndaki lisans bilgisi do\u011fru olmad\u0131\u011f\u0131ndan lisans kontrol\u00fc yap\u0131lam\u0131yor.", "uk": "The license check is not possible. In your installation the licensing data is not correct for organizational context %s'.", "zh": "\u68c0\u67e5\u8bb8\u53ef\u8bc1\u6587\u4ef6\u4e0d\u5141\u8bb8,\u56e0\u4e3a\u8be5\u8bb8\u53ef\u8bc1\u6570\u636e\u4e0d\u6b63\u786e\u5728\u4f60\u4e3a\u7ec4\u7ec7\u5b89\u88c5\u7684\u4e0a\u4e0b\u6587 %s'\u4e2d."}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdbpcs_checklist"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "", "name_cs": "", "name_de": "Checklisten", "name_en": "Checklists", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Kontrol listeleri", "name_zh": "\u68c0\u67e5\u6e05\u5355", "objclass": "cdbpcs_checklist", "sys_wf": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdbpcs_cl_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "", "name_cs": "", "name_de": "Pr\u00fcfpunkte", "name_en": "Checklist Items", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Kontrol listesi maddeleri", "name_zh": "\u68c0\u67e5\u6e05\u5355\u9879\u76ee", "objclass": "cdbpcs_cl_item", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

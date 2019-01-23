@@ -1,0 +1,10 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdb_sharing"}, "DATA": {"cdb_module_id": "cs.sharing", "description": "Sharings"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_sharing_group"}, "DATA": {"cdb_module_id": "cs.sharing", "description": "Recipient Lists"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

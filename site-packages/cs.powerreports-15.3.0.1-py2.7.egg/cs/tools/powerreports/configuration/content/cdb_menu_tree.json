@@ -1,0 +1,10 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "9334fb89-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "cdbxml_sources", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_source", "decomp_id": "", "icon_id": "", "ordering": 310, "parent_id": "927d7231-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ee90c7ee-f6ec-11e7-be48-001a7dda7107"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.tools.powerreports", "classname": "mq_xsd_reports", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

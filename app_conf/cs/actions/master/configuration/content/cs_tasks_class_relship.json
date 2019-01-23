@@ -1,0 +1,11 @@
+{
+  "cs_tasks_class_relship": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_name": "Defects", "tclass_object_id": "9c40cc0f-42a8-11e6-9df7-00aa004d0001"}, "DATA": {"cdb_module_id": "cs.actions", "label": "cdb_defects", "position": 20}},
+      {"PRIMARY_KEYS": {"reference_name": "Documents", "tclass_object_id": "9c40cc0f-42a8-11e6-9df7-00aa004d0001"}, "DATA": {"cdb_module_id": "cs.actions", "label": "documents", "position": 10}},
+      {"PRIMARY_KEYS": {"reference_name": "Subactions", "tclass_object_id": "9c40cc0f-42a8-11e6-9df7-00aa004d0001"}, "DATA": {"cdb_module_id": "cs.actions", "label": "cdb_action_subs", "position": 30}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_action2defects", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect2actions", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect2cdb_defect_categ", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect2cdb_defect_priority", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect2cdb_defect_prot", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect2cdb_defect_source", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect2cdb_defect_subcateg", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect2cdb_defect_type", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect2objektstati", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect2subdefects", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_prot2new_status", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_prot2old_status", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_subcategs", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdb_defect_valid_subcategs", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_briefcase2defect", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

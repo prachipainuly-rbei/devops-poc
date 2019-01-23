@@ -1,0 +1,20 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_checklist", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_checklist", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_checklist", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_checklist", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_checklist", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_checklist", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_cl_item", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_cl_item", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 20}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_cl_item", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_cl_item", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdbpcs_cl_item", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_cl_item", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 20}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "54e732ae-5e0a-11e5-96a3-08002700689e"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.products_documents", "classname": "cdbvp_product2doc", "feature_id": "PRODUCTS_002", "name": "CDB_Copy", "password": "meKRvztncYU"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "54e759c0-5e0a-11e5-b434-08002700689e"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.products_documents", "classname": "cdbvp_product2doc", "feature_id": "PRODUCTS_001", "name": "CDB_ShowObject", "password": "kiFNQLmdEsU"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "54e7a7de-5e0a-11e5-9aab-08002700689e"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.products_documents", "classname": "cdbvp_product2doc", "feature_id": "PRODUCTS_001", "name": "CDB_SelectAndAssign", "password": "Kgu5/PhDzEE"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "54e7cef0-5e0a-11e5-8831-08002700689e"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.products_documents", "classname": "cdbvp_product2doc", "feature_id": "PRODUCTS_001", "name": "CDB_Export", "password": "ANloJdEZq3k"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "54e7f600-5e0a-11e5-b314-08002700689e"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.products_documents", "classname": "cdbvp_product2doc", "feature_id": "PRODUCTS_002", "name": "CDB_Create", "password": "l45k89b.V9Y"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "54e81d0f-5e0a-11e5-8fd2-08002700689e"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.products_documents", "classname": "cdbvp_product2doc", "feature_id": "PRODUCTS_002", "name": "CDB_Delete", "password": "076CgmasnOc"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "54e86b30-5e0a-11e5-8405-08002700689e"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.products_documents", "classname": "cdbvp_product2doc", "feature_id": "PRODUCTS_002", "name": "CDB_CreateWithSearchConditions", "password": "0HzHcIZwni2"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "54e89240-5e0a-11e5-aeab-08002700689e"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.products_documents", "classname": "cdbvp_product2doc", "feature_id": "PRODUCTS_001", "name": "CDB_SearchAgain", "password": ".T.QOeB4ziU"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "54e8b94f-5e0a-11e5-8e48-08002700689e"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.products_documents", "classname": "cdbvp_product2doc", "feature_id": "PRODUCTS_002", "name": "CDB_Modify", "password": "2X5Hyu/eFzU"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "54e8e061-5e0a-11e5-8caa-08002700689e"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp.products_documents", "classname": "cdbvp_product2doc", "feature_id": "PRODUCTS_001", "name": "CDB_Search", "password": "biUoQq4GsrU"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

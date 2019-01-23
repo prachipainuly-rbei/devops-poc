@@ -1,0 +1,9 @@
+{
+  "cdb_decomp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"identifier": "DOC"}, "DATA": {"cdb_module_id": "cs.documents", "descr": "Generated decomposition based on CDB_DOC_CATEG", "fqpyname_generator": "cs.documents.Document.GenerateDecomposition"}}
+    ],
+    "CONTENT_DOMAIN": "Decompositions",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

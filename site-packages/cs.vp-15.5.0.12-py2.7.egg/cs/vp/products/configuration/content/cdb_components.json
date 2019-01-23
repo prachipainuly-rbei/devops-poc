@@ -1,0 +1,9 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbvp_calculate_variants", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.vp.products", "classname": "", "description": "", "filename": "", "fqpyname": "cs.vp.variants.apps.generatorui.VPApplication", "inproc": 1, "location": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

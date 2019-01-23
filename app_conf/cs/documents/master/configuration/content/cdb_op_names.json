@@ -1,0 +1,14 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "CDB_DocCategoriesConf"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.documents", "client_desc": "", "descr": "", "html_help": "", "icon_id": "Structure", "inactive": 0, "kind": "GraphView", "label": "cdb_dcateg_struct", "label_ok": "", "menu_visible": 1, "menugroup": 100, "ordering": 5, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_create_doc_from_template"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.documents", "client_desc": "desc_doc_create_ex", "descr": "Erstellen aus Vorlage oder Datei", "html_help": "cdb_op_cdb_create_doc_from_template", "icon_id": "cdb_create_from_template", "inactive": 0, "kind": "PowerScript", "label": "menu_doc_create_ex", "label_ok": "", "menu_visible": 1, "menugroup": 10, "ordering": 11, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_replicate_batch"}, "DATA": {"acl_allow": "cdb_replicate_batch", "cdb_module_id": "cs.documents", "client_desc": "", "descr": "", "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "cdb_rep_batch", "label_ok": "", "menu_visible": 1, "menugroup": 30, "ordering": 140, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_restart_replication"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.documents", "client_desc": "", "descr": "", "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "cdb_restart_job", "label_ok": "", "menu_visible": 1, "menugroup": 30, "ordering": 140, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbdoc_decomp"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.documents", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdb_gen_decomp", "inactive": 0, "kind": "PowerScript", "label": "cdb_gen_decomp", "label_ok": "", "menu_visible": 1, "menugroup": 100, "ordering": 10, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cs_documents"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.documents", "client_desc": "", "descr": null, "html_help": "", "icon_id": "Document", "inactive": 0, "kind": "PowerScript", "label": "cdbbop_documents", "label_ok": "", "menu_visible": 0, "menugroup": null, "ordering": null, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

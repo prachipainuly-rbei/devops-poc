@@ -1,0 +1,11 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.portfolio: Objects", "predicate_name": "cs.portfolios: Portfolio Categories", "table_name": "cdb_portfolio_category"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.portfolio: Objects", "predicate_name": "cs.portfolios: Portfolio Folders", "table_name": "cdb_portfolio_folder"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.portfolio: Objects", "predicate_name": "cs.portfolios: Portfolios", "table_name": "cdb_portfolio"}, "DATA": {"cdb_module_id": "cs.portfolios"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

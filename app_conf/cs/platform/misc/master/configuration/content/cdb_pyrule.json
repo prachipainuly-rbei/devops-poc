@@ -1,0 +1,9 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "State Change Notification Objects"}, "DATA": {"cdb_module_id": "cs.platform.misc", "description": "Objects that send notifications after status changes"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

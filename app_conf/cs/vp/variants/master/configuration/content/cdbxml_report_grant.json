@@ -1,0 +1,10 @@
+{
+  "cdbxml_report_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "VPMBomComparison", "report_title": "VarSt\u00fccklistenvergleich", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "report_title": "VarStrukturStueckliste", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

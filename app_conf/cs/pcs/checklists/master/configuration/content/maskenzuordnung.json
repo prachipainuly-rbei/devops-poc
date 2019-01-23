@@ -1,0 +1,35 @@
+{
+  "maskenzuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs_checkl_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": "cdb_mask_pcs_checklistdata"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_checkl_mask_c", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": "cdb_mask_pcs_checklistdata"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_checkl_mask_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_checkl_state", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_checklst_comp", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_checklst_comp_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl_cat_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl_chctrl", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl_chctrl_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl_item_comp", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl_item_comp_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl_item_state", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl_prot_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl_types_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cli_chctrl", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cli_chctrl_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cli_prot_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_clitem_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": "cdb_mask_pcs_checklistdata"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_clitem_mask_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": "cdb_mask_pcs_checklistdata"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_clitem_rating", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_deliv2rule", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_qualitygate_report", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_rat_asgn_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_rat_def_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_rat_val_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_rat_wght_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_taskqualitygate_report", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.checklists", "ersteller": "caddok", "html_help": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

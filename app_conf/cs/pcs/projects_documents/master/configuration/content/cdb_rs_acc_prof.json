@@ -1,0 +1,10 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "CheckCreateSubFolder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "descr": "Checking the create_subfolderdoc access rights upon the create operation.", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cs.pcs: Folder: Document Assignments"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "descr": "", "mandatory": 1}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

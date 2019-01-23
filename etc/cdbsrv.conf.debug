@@ -1,0 +1,49 @@
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbsrv.conf.debug 185729 2018-10-26 13:13:33Z js $
+
+# Detailed logging of the messages of 'cdbsrv' as well as of stdout and stderr
+# of all called components.
+
+# Tip:
+#
+#    Activation via symlink enables easy switching between different debug
+#    settings
+#    (cdbsrv.conf -> cdbsrv.conf.debug,
+#     cdbsrv.conf -> cdbsrv.conf.normal).
+#
+# Flushing:
+#
+#   Immediate writing of the log can be activated by adding ":FLUSH" to the log
+#   configuration. By default writing of the log may happen deferred.
+#   WARNING: Activating FLUSH may lead to serious performance decrease of the
+#   application. See documentation for further details on FLUSH.
+#
+#   Example:
+#   CADDOK_DEBUG = "ANY:show:lev=7:FLUSH SQL:show:lev=0:FLUSH"
+
+# debug level (1-9)
+# (meaningful values: 6,7,8;9 only in extreme cases!)
+dbglevel = 7
+
+if CADDOK_DEBUG == "FALSE":
+    CADDOK_DEBUG = ""
+
+# Logging of cdbsrv
+CADDOK_DEBUG = " ".join([CADDOK_DEBUG,
+                         "ANY:log:lev=%s" % dbglevel,
+                         # Only SQL Statements
+                         "SQL:log:lev=0",
+                         ])
+
+# To support the development of eLink applications, enable the debugging mode
+# of the eLink framework. Running in debugging mode may affect the performance
+# of eLink applications.
+# In debugging mode:
+# * the (html) template files are not cached, i. e. the changes to the
+#   template files can be loaded by reloading the pages (e. g. # pressing the
+#   "F5" key in the browser) instead of restarting the process.
+# * In the event of an error, tracebacks are also displayed directly in the
+#   browser.
+# * /static URLs to get a session dependent version URL part, to avoid loading
+#   cached content
+# CADDOK_ELINK_DEBUG = "TRUE"

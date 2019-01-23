@@ -1,0 +1,14 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "branding_company_logo_small", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.branding", "descr": "", "fallback_id": "", "identifier": "\"branding_company_logo_small.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "branding_web_app_icon", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.branding", "descr": "Allgemeines Applikationslogo f\u00fcr (generierte) Websites / Webanwendungen", "fallback_id": "", "identifier": "\"branding_web_app_icon.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "branding_web_company_logo", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.branding", "descr": "Firmenlogo f\u00fcr (generierte) Websites / Webanwendungen", "fallback_id": "", "identifier": "\"branding_web_company_logo.jpg\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "branding_web_favicon", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.branding", "descr": "Favicon f\u00fcr (generierte) Websites / Webanwendungen", "fallback_id": "", "identifier": "\"branding_web_favicon.ico\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "branding_web_portal_logo", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.branding", "descr": "The logo that is used in the title bar of portal pages, e.g.  the documentation portal.", "fallback_id": "", "identifier": "\"branding_web_portal_logo.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "branding_web_portal_logo_small", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.branding", "descr": "The logo that is used in the title bar of portal pages, e.g.  the documentation portal.", "fallback_id": "", "identifier": "\"branding_web_portal_logo_small.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

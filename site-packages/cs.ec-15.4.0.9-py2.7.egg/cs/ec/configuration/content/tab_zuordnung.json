@@ -1,0 +1,19 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_action2ec", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbec_resp_brows", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_briefcase2ec", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec_brows", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec_categ", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec_categ_brows", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec_prot", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec_templ2proc", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec_templ2rule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_process_templ", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

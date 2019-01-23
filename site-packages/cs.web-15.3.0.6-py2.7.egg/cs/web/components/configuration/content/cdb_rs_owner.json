@@ -1,0 +1,29 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_dialog2csweb_dialog_hook", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_dialog_hook2function", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_dialog_hook_func_usage", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_display_context2configurations", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_child2positions", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_child2positions", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_definition2positions", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_definition2positions", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_description2definitions", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_position2child", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_position2child", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_position2owners", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_position2owners", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_page_config2ausgaben", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_page_config2ausgaben", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_page_config2csweb_page_config_owner", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_page_config2csweb_page_config_owner", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_page_config2csweb_page_frame", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_plugin2csweb_plugin_config", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_plugin_config2libraries", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"name": "csweb_search_favourite2params", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

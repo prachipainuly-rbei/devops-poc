@@ -1,0 +1,134 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbreplaceversion.ue 115535 2014-10-10 13:29:56Z js $
+#
+# Copyright (C) 1990 - 2003 CONTACT Software GmbH
+# All rights reserved.
+# http://www.contact.de/
+#
+u"""
+Ermittlung neuere Staende oder alternativer Version zu einem Modell
+bzw. einem Artikel / SML-Modell
+
+
+     // Es werden immer 3 Werte von
+      // key_number, key_version und typ (Z/T) uebergeben
+      // Als Antwort werden entsprechende 4 Werte
+      // mit der Anzahl vorweg erwartet:
+      // --> key_num  p1
+      // --> key_ver  p1
+      // --> key_type P1
+      //  ...
+      // --> key_num  pn
+      // --> key_ver  pn
+      // --> type     Pn
+      // <- Antwort des UEs
+      // Fehlercode (0)
+      // <Anzahl der Alternativen Objekt p1>
+      // <key_num alt1 p1>
+      // <key_ver alt1 p1>
+      // <key_type alt1 p1>
+      // <valid_exchanged  alt1 p1>
+      // <key_num alt2 p1>
+      // <key_ver alt2 p1>
+      // <key_type alt2 p1>
+      // <valid_exchanged alt2 p1>
+      // ...
+      // <key_num altN p1>
+      // <key_ver altN p1>
+      // <key_type altN p1>
+      // <valid_exchanged altN p1>
+      // ...
+      // <Anzahl der Alternativen Objekt pN>
+
+
+
+     Angepasst werden sollten die Funktionen:
+     get_model_alternatives und get_part_alternatives,
+     wenn eine andere Ermittlung von alternativen Modellen
+     gewünscht ist. Z.B. wenn auch die Möglichkeit gegeben sein
+     soll nach allen Ständen auch älteren zu suchen
+"""
+
+from cdb import misc
+from cdb import sqlapi
+from cdb import util
+from cdb import ue
+
+
+def get_model_alternatives(key_no, key_ver):
+    sortCriteria = util.get_prop("ixsm")
+    if sortCriteria == "":
+        sortCriteria = "z_index"
+        index = key_ver
+    index = None
+    if sortCriteria != "z_index":
+        recSec = sqlapi.RecordSet2(sql="SELECT %s FROM zeichnung "
+                                   " WHERE z_nummer='%s' AND z_index='%s'" % (
+                                       sortCriteria, key_no, key_ver))
+        if (len(recSec) == 1):
+            index = recSec[0][recSec[0].keys()[0]]
+    if index is None:
+        index = key_ver
+        sortCriteria = "z_index"
+        misc.log_error("cdbreplaceversion: Can't get sort attribute "
+                       "using z_index for sort")
+    sqlCond = "z_nummer = '%s' and %s > '%s'" % (key_no, sortCriteria, index)
+    recSet = sqlapi.RecordSet2("zeichnung", sqlCond, addtl="ORDER BY %s" % sortCriteria)
+    # Da das Ergebnis auch von einen anderen Typ (z.B: SML=Teilestamm) sein
+    # kann wird hier eine Liste aus 4 Werten alt_no, alt_ver, alt_type,
+    # valid_echange aufgebaut
+    return [[dat["z_nummer"], dat["z_index"], "Z", "1"] for dat in recSet]
+
+
+def get_part_alternatives(key_no, key_ver):
+    return [[dat["teilenummer"], dat["t_index"], "T", "1"]
+            for dat in sqlapi.RecordSet2(
+                "teile_stamm",
+                "teilenummer = '%s' and t_index > '%s'" % (key_no, key_ver),
+                addtl="ORDER BY t_index")]
+
+
+# do not edit after this point
+class cdbreplaceversions:
+    context_name = "cadtalkstdinout"
+
+    def write_result(self, ctx, resultList):
+        ctx.writeln("%s" % len(resultList))
+        for l in resultList:
+            misc.log(8, "rec: %s" % l)
+            ctx.writeln(l[0])
+            ctx.writeln(l[1])
+            ctx.writeln(l[2])
+            ctx.writeln(l[3])
+
+    def impl(self, ctx):
+        misc.log(7, "---- start cdbreplaceversion")
+        lines = ctx.stdin
+        count = len(lines)
+        i = 0
+        if (count % 3) == 0:
+            while i < count:
+                key_no = lines[i].strip()
+                i += 1
+                key_ver = lines[i].strip()
+                i += 1
+                key_type = lines[i].strip()
+                i += 1
+                misc.log(7, "Testing Record %s %s % s" %
+                         (key_no, key_ver, key_type))
+                resultList = []
+                if key_type == 'Z':
+                    resultList = get_model_alternatives(key_no, key_ver)
+                elif key_type == 'T':
+                    resultList = get_part_alternatives(key_no, key_ver)
+                else:
+                    misc.log_error("cdbreplaceversion: unknown type")
+                self.write_result(ctx, resultList)
+        else:
+            misc.log_error("cdbreplaceversion: parameter not multiple of 3 ")
+            ctx.seterror(999)
+        misc.log(7, "-----end cdbreplaceversion")
+
+if __name__ == "__main__":
+    ue.run(cdbreplaceversions)

@@ -1,0 +1,22 @@
+{
+  "maskenzuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs_billable", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.pcs.efforts", "ersteller": "Administrator", "html_help": null}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_eff_report", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": "cdb_mask_pcs_timesheetrep"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort_activity_type", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort_cat", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort_prot", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.pcs.efforts", "ersteller": "Administrator", "html_help": null}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort_state", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_rep_order", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.efforts", "ersteller": "None", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_task_eff_report", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": "cdb_mask_pcs_timesheetrep"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_ts_chctrl", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_ts_chctrl_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_tsheet_comp", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_tsheet_comp_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_tsheet_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": "cdb_mask_pcs_timesheetdata"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_tsheet_mask_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.pcs.efforts", "ersteller": "caddok", "html_help": "cdb_mask_pcs_timesheetdata"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

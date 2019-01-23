@@ -1,0 +1,13 @@
+{
+  "cdb_term": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "excluding_constraint", "expression": "0", "operator": "!=", "predicate_name": "cs.vp: VPM Auto Constraints", "table_name": "cdbvp_constraint"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "data_type", "expression": "boolean", "operator": "!=", "predicate_name": "cs.vp: VPM Catalog Properties (non-boolean)", "table_name": "cdbvp_catalogue_property"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "0", "operator": "!=", "predicate_name": "cs.vp: VPM Catalog Properties (not NEW)", "table_name": "cdbvp_catalogue_property"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "catalogue_property_object_id", "expression": "", "operator": "!=", "predicate_name": "cs.vp: VPM Properties (from catalog)", "table_name": "cdbvp_property"}, "DATA": {"cdb_module_id": "cs.vp.variants", "data_type": "char"}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "data_type", "expression": "boolean", "operator": "!=", "predicate_name": "cs.vp: VPM Properties (non-boolean)", "table_name": "cdbvp_property"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

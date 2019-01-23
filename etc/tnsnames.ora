@@ -1,0 +1,9 @@
+dbhost.CONTACT.DE =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = alibaba)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = deva)
+    )
+  )

@@ -1,0 +1,9 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: PowerReports Templates", "allow": "FULL ACCESS", "class": "cdbxml_report_tmpl"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

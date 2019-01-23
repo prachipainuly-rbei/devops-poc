@@ -1,0 +1,9 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "1dcd86dd-6c9b-11df-ba15-b481be918ab9"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.currency", "classname": "cdbpco_currency", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "bc961c8f-4446-11e2-8098-f0def133d0a6"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

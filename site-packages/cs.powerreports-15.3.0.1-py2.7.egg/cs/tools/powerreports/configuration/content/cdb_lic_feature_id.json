@@ -1,0 +1,12 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "POWERREPORTS_001"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "description": "Allows to read report definition data", "name": "PowerReports: Read"}},
+      {"PRIMARY_KEYS": {"id": "POWERREPORTS_002"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "description": "Allows to write report definition data (in order to modify standard reports or to create custom reports)", "name": "PowerReports: Write"}},
+      {"PRIMARY_KEYS": {"id": "POWERREPORTS_003"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "description": "Allows to generate reports (on client side)", "name": "PowerReports: Generate"}},
+      {"PRIMARY_KEYS": {"id": "POWERREPORTS_004"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "description": "Allows to generate reports on server side", "name": "PowerReports: Generate Remotely"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

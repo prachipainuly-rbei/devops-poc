@@ -1,0 +1,11 @@
+{
+  "cdb_struct_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "CDB_PartsListComparison"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.vp.bom", "comp_tag": "", "descr": "BOM comparison (structure representation)", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdb_partslist_comp", "root_mask": "cdb_partslist_comp_root", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "CDB_ProductStructure"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.vp.bom", "comp_tag": "", "descr": "", "filter_catalog": "cdb_bomflt_head", "html_help": "cdb_op_cdb_productstructure", "icon_size": 16, "initial_level": 4, "initial_rs": "CDB::Relationship::STL::part2bom_item", "root_mask": "", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "CDB_ProductUtilization"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.vp.bom", "comp_tag": "", "descr": "", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdb_part_usage", "root_mask": "", "show_rs_window": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

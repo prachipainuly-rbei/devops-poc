@@ -1,0 +1,10 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "WEB_001"}, "DATA": {"cdb_module_id": "cs.shared", "description": "Allows configuration of the Web UI in the backend", "name": "Web UI configuration"}},
+      {"PRIMARY_KEYS": {"id": "WEB_002"}, "DATA": {"cdb_module_id": "cs.shared", "description": "Allows users to store personal settings for the Web UI", "name": "Web UI personalization"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.base": "15.4.1.10", 
+      "cs.pcs": "15.4.1.14", 
+      "cs.platform": "15.2.30", 
+      "cs.vp": "15.5.0.11"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp_pcs.issues_items", 
+        "required_module_id": "cs.pcs.issues"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp_pcs.issues_items", 
+        "required_module_id": "cs.pcs.projects"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp_pcs.issues_items", 
+        "required_module_id": "cs.shared"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp_pcs.issues_items", 
+        "required_module_id": "cs.vp.items"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "186dd05e-51fa-11e2-bb9f-78acc0ace8c3", 
+      "is_interface_module": 1, 
+      "mandatory": 0, 
+      "master_config_checksum": "70bf861a426b4a75b46cc7ecf6d59fd3", 
+      "name": "Interface module to connect cs.pcs.issues and cs.vp.items", 
+      "package": "cs.vp-pcs"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.vp_pcs.issues_items"
+    }
+  }
+}

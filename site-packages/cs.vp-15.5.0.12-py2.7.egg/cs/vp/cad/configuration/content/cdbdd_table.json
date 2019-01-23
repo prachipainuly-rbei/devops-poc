@@ -1,0 +1,14 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "altdaten_zeich"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"table_name": "cad_variant"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_cad_assembly_component"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_cad_assembly_component_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.vp.cad", "primary_table": "cdb_cad_assembly_component"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_doc_rel_v"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.vp.cad", "primary_table": "", "uview_col_aliases": ""}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "SELECT \n   a.z_nummer, a.z_index, a.z_nummer2, a.z_index2, a.logischer_name, a.reltype, \n   b.teilenummer, b.t_index, b.wsp_filename, b.dateiname, b.erzeug_system, b.z_art, b.z_status, \n   c.benennung\n FROM \n   cdb_doc_rel a, \n   zeichnung b,\n   teile_stamm c \n WHERE \n   a.z_nummer2 = b.z_nummer AND \n   a.z_index2 = b.z_index AND \n   b.teilenummer = c.teilenummer AND \n   b.t_index = c.t_index", "cdbdd_userdefined_view_txt_5": "SELECT \n   a.z_nummer z_nummer, a.z_index z_index, a.z_nummer2 z_nummer2, a.z_index2 z_index2,\n   a.logischer_name logischer_name, a.reltype reltype,\n   b.teilenummer teilenummer, b.t_index t_index, b.wsp_filename wsp_filename,\n   b.dateiname dateiname, b.erzeug_system erzeug_system, b.z_art z_art,\n   b.z_status z_status, c.benennung benennung\nFROM \n   cdb_doc_rel a, \n   zeichnung b, \n   teile_stamm c\nWHERE\n   a.z_nummer2 = b.z_nummer AND \n   a.z_index2 = b.z_index AND \n   b.teilenummer = c.teilenummer AND\n   b.t_index = c.t_index", "cdbdd_userdefined_view_txt_6": "SELECT \n   a.z_nummer, a.z_index, a.z_nummer2, a.z_index2, a.logischer_name, a.reltype, \n   b.teilenummer, b.t_index, b.wsp_filename, b.dateiname, b.erzeug_system, b.z_art, b.z_status, \n   c.benennung\n FROM \n   cdb_doc_rel a, \n   zeichnung b,\n   teile_stamm c \n WHERE \n   a.z_nummer2 = b.z_nummer AND \n   a.z_index2 = b.z_index AND \n   b.teilenummer = c.teilenummer AND \n   b.t_index = c.t_index"}},
+      {"PRIMARY_KEYS": {"table_name": "zeichnung_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.vp.cad", "primary_table": "zeichnung"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_global_role": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "cdbwf: Process Administrator"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Administration des Workflow-Managements", "description_ml_cs": null, "description_ml_en": "Administration of Workflow Management", "description_ml_es": null, "description_ml_fr": null, "description_ml_it": null, "description_ml_ja": null, "description_ml_ko": null, "description_ml_pl": null, "description_ml_pt": null, "description_ml_tr": "\u0130\u015f ak\u0131\u015f\u0131 y\u00f6netimi", "description_ml_zh": "\u5de5\u4f5c\u6d41\u7ba1\u7406", "is_org_role": 0, "mno": null, "name_cs": null, "name_de": "Administration: Workflows", "name_en": "Administration: Workflows", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Y\u00f6netim: \u0130\u015f ak\u0131\u015f\u0131", "name_zh": "\u7ba1\u7406:\u5de5\u4f5c\u6d41"}},
+      {"PRIMARY_KEYS": {"role_id": "cdbwf: Process Library Manager"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Administration von Workflow-Vorlagen", "description_ml_cs": null, "description_ml_en": "Administration of Workflow Templates", "description_ml_es": null, "description_ml_fr": null, "description_ml_it": null, "description_ml_ja": null, "description_ml_ko": null, "description_ml_pl": null, "description_ml_pt": null, "description_ml_tr": "\u0130\u015f ak\u0131\u015f\u0131 \u015fablon y\u00f6netimi", "description_ml_zh": "\u5de5\u4f5c\u6d41\u6a21\u677f\u7ba1\u7406", "is_org_role": 0, "mno": null, "name_cs": null, "name_de": "Administration: Workflow-Vorlagen", "name_en": "Administration: Workflow Templates", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Y\u00f6netim: \u0130\u015f ak\u0131\u015f\u0131 \u015fablonlar\u0131", "name_zh": "\u7ba1\u7406:\u5de5\u4f5c\u6d41\u6a21\u677f"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

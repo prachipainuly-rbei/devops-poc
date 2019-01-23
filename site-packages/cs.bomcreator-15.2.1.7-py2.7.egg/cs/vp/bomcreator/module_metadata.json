@@ -1,0 +1,59 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.base": "15.5.0.dev0", 
+      "cs.documents": "15.2.2.8", 
+      "cs.platform": "15.2.25", 
+      "cs.vp": "15.5.0.6"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.bomcreator", 
+        "required_module_id": "cs.vp.bom"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.bomcreator", 
+        "required_module_id": "cs.vp.cad"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.bomcreator", 
+        "required_module_id": "cs.vp.items"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "55893d70-7aab-11e2-833e-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "23f54691fcceabbca60865777d9bb858", 
+      "name": "BOM Generation", 
+      "package": "cs.bomcreator"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.vp.bomcreator"
+    }
+  }
+}

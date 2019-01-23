@@ -1,0 +1,18 @@
+{
+  "phys_quant_types": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"type": 1000}, "DATA": {"base_prefix": "", "quantity": "default", "valid_vals": "[*]"}},
+      {"PRIMARY_KEYS": {"type": 1001}, "DATA": {"base_prefix": "", "quantity": "length", "valid_vals": "[mm|c|cm|d|dm||m|k|km]"}},
+      {"PRIMARY_KEYS": {"type": 1002}, "DATA": {"base_prefix": "", "quantity": "mass", "valid_vals": "[p|pg|n|ng|u|ug|m|mg|c|cg|d|dg||g|k|kg|M|Mg|G|Gg]"}},
+      {"PRIMARY_KEYS": {"type": 1003}, "DATA": {"base_prefix": "", "quantity": "resistance", "valid_vals": "[R|m|mohm||ohm|k|kohm]"}},
+      {"PRIMARY_KEYS": {"type": 1004}, "DATA": {"base_prefix": "", "quantity": "capacity", "valid_vals": "[p|pF|n|nF|u|uF|m|mF|c|cF|d|dF||F|k|kF|M|MF|G|GF]"}},
+      {"PRIMARY_KEYS": {"type": 1005}, "DATA": {"base_prefix": "", "quantity": "frequence", "valid_vals": "[p|phz|n|nhz|u|uhz|m|mhz|c|chz|d|dhz||hz|k|khz|M|Mhz|G|Ghz]"}},
+      {"PRIMARY_KEYS": {"type": 1006}, "DATA": {"base_prefix": "", "quantity": "test", "valid_vals": "[|b|byte|k|kb|m|mb]"}},
+      {"PRIMARY_KEYS": {"type": 1010}, "DATA": {"base_prefix": "c", "quantity": "length", "valid_vals": "[|mm|cm|c|d|m|k|km]"}},
+      {"PRIMARY_KEYS": {"type": 1012}, "DATA": {"base_prefix": "", "quantity": "mass", "valid_vals": "[|m|mg|c|cg|d|dg||g]"}},
+      {"PRIMARY_KEYS": {"type": 1013}, "DATA": {"base_prefix": "", "quantity": "resistance", "valid_vals": "[R|m|mohm|mOhm|ohm|Ohm|k|kohm|kOhm]"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

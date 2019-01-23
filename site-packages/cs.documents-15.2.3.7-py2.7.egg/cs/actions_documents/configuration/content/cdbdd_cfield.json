@@ -1,0 +1,11 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "d9d1ae5e-c273-11e0-b5ee-70f39547fa1b", "field_classname": "cdb_action2doc", "field_name": "action_object_id"}, "DATA": {"cdb_module_id": "cs.actions_documents", "classname": "cdb_action2doc", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d9d1ae5e-c273-11e0-b5ee-70f39547fa1b", "field_classname": "cdb_action2doc", "field_name": "z_index"}, "DATA": {"cdb_module_id": "cs.actions_documents", "classname": "cdb_action2doc", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d9d1ae5e-c273-11e0-b5ee-70f39547fa1b", "field_classname": "cdb_action2doc", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.actions_documents", "classname": "cdb_action2doc", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

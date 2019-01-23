@@ -1,0 +1,32 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdbsml_propset"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdbsml_propset"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_catdecomp"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_hierbuild"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_mkpset"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_mkpset1"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_oplan"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_propset"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_pval_exclude"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_pval_global_exclude"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_pval_global_include"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbsml_pval_include"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdbsml_propset"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdbsml_propset"}, "DATA": {"cdb_module_id": "cs.vp.classification"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

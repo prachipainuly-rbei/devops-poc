@@ -1,0 +1,18 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_defect", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 10}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_defect", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdb_defect", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdb_defect", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 110}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdb_defect", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 20}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdb_defect", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 10}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdb_defect", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdb_defect", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdb_defect", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 10}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdb_defect", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 20}, "DATA": {"cdb_module_id": "cs.defects"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

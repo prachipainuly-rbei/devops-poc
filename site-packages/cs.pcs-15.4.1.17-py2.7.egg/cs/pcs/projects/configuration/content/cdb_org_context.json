@@ -1,0 +1,9 @@
+{
+  "cdb_org_context": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"context_name": "ProjectContext"}, "DATA": {"acd_relation": "cdbpcs_prj_acd", "cdb_module_id": "cs.pcs.projects", "context_attr": "cdb_project_id", "context_obj_relation": "cdbpcs_project", "description": "Organizational context for projects", "exception_relation": "cdbpcs_role_exc", "role_identifier": "PCS Role", "role_relation": "cdbpcs_prj_role", "subject_relation": "cdbpcs_subject"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cdb_acd_set_asgn": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules (NEW)", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules (VALID, INVALID)", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Time Schedule Contents", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Time Schedules", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules (NEW)", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules (VALID, INVALID)", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Time Schedule Contents", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Time Schedules", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

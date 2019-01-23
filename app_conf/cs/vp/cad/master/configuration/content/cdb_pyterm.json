@@ -1,0 +1,13 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "3D Models", "predicate_name": "3D Modelle"}, "DATA": {"attribute": "cdb_classname", "cdb_module_id": "cs.vp.cad", "expression": "model", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 2, "name": "3D Models", "predicate_name": "3D Modelle"}, "DATA": {"attribute": "z_categ1", "cdb_module_id": "cs.vp.cad", "expression": "144", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 3, "name": "3D Models", "predicate_name": "3D Modelle"}, "DATA": {"attribute": "z_categ2", "cdb_module_id": "cs.vp.cad", "expression": "'213', '296', '211', '212'", "filter_rule": "", "operator": "IN"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "3D Models", "predicate_name": "Workspaces"}, "DATA": {"attribute": "cdb_classname", "cdb_module_id": "cs.vp.cad", "expression": "cdb_wsp", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "3D Models", "predicate_name": "Items"}, "DATA": {"attribute": "Documents", "cdb_module_id": "cs.vp.cad", "expression": "0", "filter_rule": "3D Models", "operator": "!="}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

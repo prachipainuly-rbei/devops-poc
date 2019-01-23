@@ -1,0 +1,26 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbtodo: cdbwf_info_message"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Notifications to be displayed in the Task Manager"}},
+      {"PRIMARY_KEYS": {"name": "cdbtodo: task_approval"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Approval tasks to be displayed in the Task Manager"}},
+      {"PRIMARY_KEYS": {"name": "cdbtodo: task_examination"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Review tasks to be displayed in the Task Manager"}},
+      {"PRIMARY_KEYS": {"name": "cdbtodo: task_execution"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Execution tasks to be displayed in the Task Manager"}},
+      {"PRIMARY_KEYS": {"name": "cdbtodo: task_information"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Notifications to be displayed in the Task Manager"}},
+      {"PRIMARY_KEYS": {"name": "cdbwf: process components done"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Filter rule, used in wf-designer rules. Do not use alone."}},
+      {"PRIMARY_KEYS": {"name": "cdbwf: process components not done"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Filter rule, used in wf-designer rules. Do not use alone."}},
+      {"PRIMARY_KEYS": {"name": "cdbwf: tasks not having start date and deadline"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Filter rule, used in wf-designer rules. Do not use alone."}},
+      {"PRIMARY_KEYS": {"name": "cdbwf: tasks with system postings"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Filter rule, used in wf-designer rules. Do not use alone."}},
+      {"PRIMARY_KEYS": {"name": "cdbwf: unapproved documents"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Filter rule, used in wf-designer rules. Do not use alone."}},
+      {"PRIMARY_KEYS": {"name": "cdbwf: unapproved parts"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Filter rule, used in wf-designer rules. Do not use alone."}},
+      {"PRIMARY_KEYS": {"name": "wf-designer:  previous process component done"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "The previous process component has been completed"}},
+      {"PRIMARY_KEYS": {"name": "wf-designer: all briefcase objects approved"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "All briefcase contents are released. Can be applied to a briefcase or to a workflow task."}},
+      {"PRIMARY_KEYS": {"name": "wf-designer: all previous tasks done"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "All tasks immediately preceding the current one are completed"}},
+      {"PRIMARY_KEYS": {"name": "wf-designer: all process tasks have start date and deadline"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Can be applied only to a process"}},
+      {"PRIMARY_KEYS": {"name": "wf-designer: briefcase contains exactly 1 object"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Can be applied only to a briefcase"}},
+      {"PRIMARY_KEYS": {"name": "wf-designer: parent's previous process component done"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Parent's previous task is completed"}},
+      {"PRIMARY_KEYS": {"name": "wf-designer: process completing successfully"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Successfully completed processes"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

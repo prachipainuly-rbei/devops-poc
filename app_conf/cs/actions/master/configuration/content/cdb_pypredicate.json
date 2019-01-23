@@ -1,0 +1,13 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "name": "cdbtodo: action", "predicate_name": "cdbtodo: action (realisation)"}, "DATA": {"cdb_module_id": "cs.actions", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "name": "cdbtodo: action", "predicate_name": "cdbtodo: action (responsible)"}, "DATA": {"cdb_module_id": "cs.actions", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "name": "cs.actions: Editor", "predicate_name": "Action"}, "DATA": {"cdb_module_id": "cs.actions", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "name": "cs.sharing: Group Creator", "predicate_name": "Action"}, "DATA": {"cdb_module_id": "cs.actions", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "name": "cs.sharing: Group Responsible", "predicate_name": "Action"}, "DATA": {"cdb_module_id": "cs.actions", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

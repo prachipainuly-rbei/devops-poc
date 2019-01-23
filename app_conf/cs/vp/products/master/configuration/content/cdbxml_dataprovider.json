@@ -1,0 +1,14 @@
+{
+  "cdbxml_dataprovider": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "GrowthShareMatrix", "xsd_name": "Category"}, "DATA": {"cdb_module_id": "cs.vp.products", "context": "cs.portfolios.PortfolioFolder", "parent_xsd_name": "PortfolioFolder_1", "source": "Category", "source_type": "Relationship"}},
+      {"PRIMARY_KEYS": {"name": "GrowthShareMatrix", "xsd_name": "GrowthShareMatrix"}, "DATA": {"cdb_module_id": "cs.vp.products", "context": "cs.portfolios.PortfolioFolder", "parent_xsd_name": "PortfolioFolder_1", "source": "cs.vp.products.portfolios.GrowthShareMatrix", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "GrowthShareMatrix", "xsd_name": "Portfolio"}, "DATA": {"cdb_module_id": "cs.vp.products", "context": "cs.portfolios.PortfolioCategory", "parent_xsd_name": "Category", "source": "Portfolio", "source_type": "Relationship"}},
+      {"PRIMARY_KEYS": {"name": "GrowthShareMatrix", "xsd_name": "PortfolioFolder_1"}, "DATA": {"cdb_module_id": "cs.vp.products", "context": "cs.portfolios.PortfolioFolder", "parent_xsd_name": "", "source": "cs.portfolios.PortfolioFolder", "source_type": "Context"}},
+      {"PRIMARY_KEYS": {"name": "PortfolioGrowthShareMatrix", "xsd_name": "GrowthShareMatrix"}, "DATA": {"cdb_module_id": "cs.vp.products", "context": "cs.portfolios.Portfolio", "parent_xsd_name": "Portfolio_1", "source": "cs.vp.products.portfolios.GrowthShareMatrix", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "PortfolioGrowthShareMatrix", "xsd_name": "Portfolio_1"}, "DATA": {"cdb_module_id": "cs.vp.products", "context": "cs.portfolios.Portfolio", "parent_xsd_name": "", "source": "cs.portfolios.Portfolio", "source_type": "Context"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

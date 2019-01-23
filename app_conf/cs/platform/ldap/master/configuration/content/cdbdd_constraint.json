@@ -1,0 +1,11 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "d0a0fded-252f-11df-94af-82cd4a5755a8"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_schema", "description": "", "exclude_empty_values": null, "fields_info": "colname, ldap_attr, objclass, profile, relation, key_type"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ecae12a5-2536-11df-a32f-b94c193b6839"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_conf", "description": "", "exclude_empty_values": null, "fields_info": "connection_name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "fcc740c0-3562-11e2-8d28-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_searchbase", "description": "", "exclude_empty_values": null, "fields_info": "realm"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0238180f-b3a2-11e1-9282-005056c00008"}, "DATA": {"ausgabe_label": "cdbblog_postings", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_posting", "decomp_id": "", "icon_id": "", "ordering": 100, "parent_id": "eb02a2f0-250c-11e2-b5a6-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "315f5370-4613-11e2-97d7-78acc0a55b77"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_subscription", "decomp_id": "", "icon_id": "", "ordering": 150, "parent_id": "eb02a2f0-250c-11e2-b5a6-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7b7880f0-4873-11e2-8ba5-78acc0a55b77"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_channel", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "eb02a2f0-250c-11e2-b5a6-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "85844ea1-b3a2-11e1-a783-005056c00008"}, "DATA": {"ausgabe_label": "cdbblog_comments", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_comment", "decomp_id": "", "icon_id": "", "ordering": 60, "parent_id": "eb02a2f0-250c-11e2-b5a6-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9ce80180-2509-11e2-a047-78acc0a55b77"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.activitystream", "classname": "mq_system_posting", "decomp_id": "", "icon_id": "", "ordering": 200, "parent_id": "eb02a2f0-250c-11e2-b5a6-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "eb02a2f0-250c-11e2-b5a6-78acc0a55b77"}, "DATA": {"ausgabe_label": "cdbblog_activity_stream", "cdb_module_id": "cs.activitystream", "classname": "", "decomp_id": "", "icon_id": "cdb_elink_activity", "ordering": 1100, "parent_id": "92b6a6fa-2528-11df-b716-e1f861774235"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

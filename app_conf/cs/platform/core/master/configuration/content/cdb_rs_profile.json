@@ -1,0 +1,19 @@
+{
+  "cdb_rs_profile": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_aggregated_files"}, "DATA": {"allow_rs_change": 1, "cdb_module_id": "cs.platform.core", "descr": "Zugeordnete Dateien - 1:N Aggregation", "max_card": "N"}},
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_aggregation_1_N"}, "DATA": {"allow_rs_change": 1, "cdb_module_id": "cs.platform.core", "descr": "1:N-Aggregation", "max_card": "N"}},
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_aggregation_1_N_no_copy"}, "DATA": {"allow_rs_change": 1, "cdb_module_id": "cs.platform.core", "descr": "1:N-Aggregation, Referenzen nicht mitkopiert", "max_card": "N"}},
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_aggregation_deep"}, "DATA": {"allow_rs_change": 1, "cdb_module_id": "cs.platform.core", "descr": "1:N-Aggregation - tiefes L\u00f6schen, tiefe Kopie", "max_card": "N"}},
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_aggregation_deep_delete"}, "DATA": {"allow_rs_change": 1, "cdb_module_id": "cs.platform.core", "descr": "1:N-Aggregation, Referenzen nicht mitkopiert", "max_card": "N"}},
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_association_1_1"}, "DATA": {"allow_rs_change": 1, "cdb_module_id": "cs.platform.core", "descr": "1:1-Beziehung", "max_card": "1"}},
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_association_1_N"}, "DATA": {"allow_rs_change": 1, "cdb_module_id": "cs.platform.core", "descr": "1:N-Assoziation", "max_card": "N"}},
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_association_1_N_no_copy"}, "DATA": {"allow_rs_change": 1, "cdb_module_id": "cs.platform.core", "descr": "1:N-Assoziation, Referenzen nicht mitkopiert", "max_card": "N"}},
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_navigation_1_N"}, "DATA": {"allow_rs_change": 1, "cdb_module_id": "cs.platform.core", "descr": "Nur zum Navigieren, keine Aktionen beim Kopieren oder L\u00f6schen des referenzierenden Objekts. Neuanlage und L\u00f6schen von Datens\u00e4tzen aus der Beziehung ist prinzipiell erlaubt.", "max_card": "N"}},
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_readonly_1_N"}, "DATA": {"allow_rs_change": 0, "cdb_module_id": "cs.platform.core", "descr": "Nur zum Navigieren, keine Aktionen beim Kopieren oder L\u00f6schen des referenzierenden Objekts.  Neuanlage und L\u00f6schen von Datens\u00e4tzen aus der Beziehung ist verboten.", "max_card": "N"}},
+      {"PRIMARY_KEYS": {"rs_profile": "cdb_readonly_1_N_with_copy"}, "DATA": {"allow_rs_change": 0, "cdb_module_id": "cs.platform.core", "descr": "Nur zum Navigieren, Kopieren und L\u00f6schen. Neuanlage und L\u00f6schen von Datens\u00e4tzen aus der Beziehung ist verboten.", "max_card": "N"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

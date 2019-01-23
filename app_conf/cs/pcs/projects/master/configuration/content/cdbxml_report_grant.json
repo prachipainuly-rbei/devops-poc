@@ -1,0 +1,11 @@
+{
+  "cdbxml_report_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "DataConsistencyCheck", "report_title": "DataConsistency", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "subject_name": "Administrator"}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit", "report_title": "Project-Cockpit", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "ProjectMTA", "report_title": "Meilensteintrendanalyse", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

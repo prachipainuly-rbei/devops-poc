@@ -1,0 +1,14 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0e85b430-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_msp_syncrel", "field_name": "cdb_column"}, "DATA": {"cdb_module_id": "cs.pcs.msproject", "classname": "cdbpcs_msp_syncrel", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e85b430-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_msp_syncrel", "field_name": "cdb_relation"}, "DATA": {"cdb_module_id": "cs.pcs.msproject", "classname": "cdbpcs_msp_syncrel", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e85b430-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_msp_syncrel", "field_name": "pcs_field"}, "DATA": {"cdb_module_id": "cs.pcs.msproject", "classname": "cdbpcs_msp_syncrel", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e8cde26-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_msp_fields", "field_name": "pcs_field"}, "DATA": {"cdb_module_id": "cs.pcs.msproject", "classname": "cdbpcs_msp_fields", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e8f4178-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_msp_default", "field_name": "cdb_column"}, "DATA": {"cdb_module_id": "cs.pcs.msproject", "classname": "cdbpcs_msp_default", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e8f4178-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_msp_default", "field_name": "cdb_relation"}, "DATA": {"cdb_module_id": "cs.pcs.msproject", "classname": "cdbpcs_msp_default", "position": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

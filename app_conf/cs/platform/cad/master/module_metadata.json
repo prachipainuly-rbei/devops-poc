@@ -1,0 +1,34 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {}
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.platform.cad", 
+        "required_module_id": "cs.platform.core"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "b2437161-be6b-11e4-b5c1-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": null, 
+      "master_config_checksum": "2a5bb9ba547947bd12bf4005ff70b0f3", 
+      "name": "CAD", 
+      "package": "cs.platform"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.platform.cad"
+    }
+  }
+}

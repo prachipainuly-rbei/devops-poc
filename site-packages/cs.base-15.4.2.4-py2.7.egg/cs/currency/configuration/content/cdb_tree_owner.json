@@ -1,0 +1,9 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "1dcd86dd-6c9b-11df-ba15-b481be918ab9", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.currency"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

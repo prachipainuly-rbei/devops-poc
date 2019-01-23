@@ -1,0 +1,31 @@
+{
+  "module_folder_content": [
+    {
+      "DATA": {
+        "position": 3
+      }, 
+      "PRIMARY_KEYS": {
+        "cdb_content_id": "8c37ee8f-1051-11e6-8751-78acc0a55b77", 
+        "cdb_folder_id": "e30994f0-58bf-11e2-bfd1-78acc0ace8c3"
+      }
+    }, 
+    {
+      "DATA": {
+        "position": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "cdb_content_id": "99504583-76e1-11de-a2d5-986f0c508d59", 
+        "cdb_folder_id": "e30994f0-58bf-11e2-bfd1-78acc0ace8c3"
+      }
+    }, 
+    {
+      "DATA": {
+        "position": 2
+      }, 
+      "PRIMARY_KEYS": {
+        "cdb_content_id": "eb5af880-4be0-11e0-a016-005056c00008", 
+        "cdb_folder_id": "e30994f0-58bf-11e2-bfd1-78acc0ace8c3"
+      }
+    }
+  ]
+}

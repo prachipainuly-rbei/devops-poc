@@ -1,0 +1,98 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.2", 
+      "cs.activitystream": "15.3.1.4", 
+      "cs.base": "15.4.1.10", 
+      "cs.defects": "15.2.1.2", 
+      "cs.documents": "15.2.2.10", 
+      "cs.launchpad": "15.2.1.0", 
+      "cs.metrics": "15.4.0.2", 
+      "cs.platform": "15.2.33", 
+      "cs.portfolios": "15.4.0.0", 
+      "cs.powerreports": "15.2.0.4", 
+      "cs.taskmanager": "15.4.0.18", 
+      "cs.web": "15.2.1.23", 
+      "cs.workflow": "15.4.0.12"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.pcs.projects_documents", 
+        "required_module_id": "cs.documents"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.pcs.projects_documents", 
+        "required_module_id": "cs.pcs.dashboard"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.pcs.projects_documents", 
+        "required_module_id": "cs.pcs.projects"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.pcs.projects_documents", 
+        "required_module_id": "cs.pcs.timeschedule"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.pcs.projects_documents", 
+        "required_module_id": "cs.platform.roles"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.pcs.projects_documents", 
+        "required_module_id": "cs.shared"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "e6f8392e-51f9-11e2-926f-78acc0ace8c3", 
+      "is_interface_module": 1, 
+      "mandatory": 0, 
+      "master_config_checksum": "b58daa50bd019998729fdf570a8179f6", 
+      "name": "Interface module to connect cs.pcs.projects and cs.documents", 
+      "package": "cs.pcs"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.pcs.projects_documents"
+    }
+  }
+}

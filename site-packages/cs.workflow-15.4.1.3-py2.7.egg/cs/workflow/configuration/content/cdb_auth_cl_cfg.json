@@ -1,0 +1,17 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbwf", "relation": "cdbwf_briefcase"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbwf", "relation": "cdbwf_briefcase_link"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbwf", "relation": "cdbwf_constraint"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbwf", "relation": "cdbwf_filter_parameter"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbwf", "relation": "cdbwf_form"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbwf", "relation": "cdbwf_form_template"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbwf", "relation": "cdbwf_process"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbwf", "relation": "cdbwf_protocol"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbwf", "relation": "cdbwf_task"}, "DATA": {"cdb_module_id": "cs.workflow"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

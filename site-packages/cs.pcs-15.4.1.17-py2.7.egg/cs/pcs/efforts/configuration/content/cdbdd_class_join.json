@@ -1,0 +1,12 @@
+{
+  "cdbdd_class_join": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_effort", "join_relship": "cdbpcs_effort2cdbpcs_task"}, "DATA": {"alias_name": "Task", "cdb_module_id": "cs.pcs.efforts", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_effort", "join_relship": "cdbpcs_effort2objektstati"}, "DATA": {"alias_name": "Status", "cdb_module_id": "cs.pcs.efforts", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_effort_prot", "join_relship": "cdbpcs_effort_prot2new_status"}, "DATA": {"alias_name": "NewStatus", "cdb_module_id": "cs.pcs.efforts", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_effort_prot", "join_relship": "cdbpcs_effort_prot2old_status"}, "DATA": {"alias_name": "OldStatus", "cdb_module_id": "cs.pcs.efforts", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

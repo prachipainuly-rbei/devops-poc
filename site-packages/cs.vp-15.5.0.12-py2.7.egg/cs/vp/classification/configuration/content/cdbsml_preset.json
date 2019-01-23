@@ -1,0 +1,11 @@
+{
+  "cdbsml_preset": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "benennung", "pset_id": "*"}, "DATA": {"condition": "", "relation": "cdbsml_propset", "value": "name_de"}},
+      {"PRIMARY_KEYS": {"attribute": "mengeneinheit", "pset_id": "*"}, "DATA": {"condition": "", "relation": "", "value": "Stk."}},
+      {"PRIMARY_KEYS": {"attribute": "t_kategorie", "pset_id": "*"}, "DATA": {"condition": "", "relation": "", "value": "Einzelteil"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

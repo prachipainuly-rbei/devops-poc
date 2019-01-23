@@ -1,0 +1,12 @@
+{
+  "cdbxml_report_tmpl": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "ProjectIssues", "report_title": "Offene Punkte"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cdb_object_id": "718ae3f6-09a4-11df-8c27-b2f78fb3fd5c", "title": "Offene Punkte"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "ProjectIssues", "report_title": "Offene Punkte"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cdb_object_id": "14fe63c0-de42-11e2-9743-082e5f0d0c28", "title": "Issues"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "TaskIssues", "report_title": "Offene Punkte"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cdb_object_id": "986bebdf-09a6-11df-bf87-809454223903", "title": "Offene Punkte"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "TaskIssues", "report_title": "Offene Punkte"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cdb_object_id": "243aeb80-de4f-11e2-b41f-082e5f0d0c28", "title": "Open Issues"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

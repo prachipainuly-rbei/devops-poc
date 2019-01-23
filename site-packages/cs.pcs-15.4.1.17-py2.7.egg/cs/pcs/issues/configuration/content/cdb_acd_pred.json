@@ -1,0 +1,12 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "predicate_name": "Frozen Issues", "table_name": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues", "predicate_name": "cs.pcs: Issues", "table_name": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues (by me)", "predicate_name": "cs.pcs: Issues (by me)", "table_name": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Issues", "predicate_name": "cs.pcs: My Issues", "table_name": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

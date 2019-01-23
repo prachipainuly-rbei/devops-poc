@@ -1,0 +1,33 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbqc_action2qc", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_action2qc_effect", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_aggr_rule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_children", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_computation_protocol", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_computation_rule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_def2class", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_def2object", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_definition", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_grade_not_aggregate", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "None", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_grouping_attribute", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_grouping_value", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_history", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_obj_quality_character", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_parents", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_perfomance_indicators", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_performance_indicators", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_q_grade", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_qc2action_effect", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_quality_character", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_resp_brows", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_unit", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_unit_type", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_update_clocks", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "mq_aggregation_queue", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

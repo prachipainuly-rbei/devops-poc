@@ -1,0 +1,13 @@
+{
+  "cdb_defect_categ": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Fehler"}, "DATA": {"category_cs": "", "category_de": "Fehler", "category_en": "Defect", "category_es": "", "category_fr": "", "category_it": "", "category_ja": "", "category_ko": "", "category_pl": "", "category_pt": "", "category_tr": "Hata", "category_zh": "\u7f3a\u9677", "cdb_object_id": "4bfa1ec0-cb54-11e1-bd63-001c42b5d769", "obsolete": 0, "parent_object_id": ""}},
+      {"PRIMARY_KEYS": {"name": "Funktionsausfall"}, "DATA": {"category_cs": "", "category_de": "Funktionsausfall", "category_en": "Function Failure", "category_es": "", "category_fr": "", "category_it": "", "category_ja": "", "category_ko": "", "category_pl": "", "category_pt": "", "category_tr": "Fonksiyonkayb\u0131", "category_zh": "\u529f\u80fd\u5931\u6548", "cdb_object_id": "4608f8b0-cb54-11e1-b82f-001c42b5d769", "obsolete": 0, "parent_object_id": ""}},
+      {"PRIMARY_KEYS": {"name": "Funktionsst\u00f6rung"}, "DATA": {"category_cs": "", "category_de": "Funktionsst\u00f6rung", "category_en": "Malfunction", "category_es": "", "category_fr": "", "category_it": "", "category_ja": "", "category_ko": "", "category_pl": "", "category_pt": "", "category_tr": "Ar\u0131za", "category_zh": "\u6545\u969c", "cdb_object_id": "9ea6345e-cb45-11e1-bce6-001c42b5d769", "obsolete": 0, "parent_object_id": ""}},
+      {"PRIMARY_KEYS": {"name": "Mangel"}, "DATA": {"category_cs": "", "category_de": "Mangel", "category_en": "Deficiency", "category_es": "", "category_fr": "", "category_it": "", "category_ja": "", "category_ko": "", "category_pl": "", "category_pt": "", "category_tr": "Yetersizlik", "category_zh": "\u4e0d\u8db3", "cdb_object_id": "48f5914f-cb54-11e1-a800-001c42b5d769", "obsolete": 0, "parent_object_id": ""}},
+      {"PRIMARY_KEYS": {"name": "Reklamation"}, "DATA": {"category_cs": "", "category_de": "Reklamation", "category_en": "Complaint", "category_es": "", "category_fr": "", "category_it": "", "category_ja": "", "category_ko": "", "category_pl": "", "category_pt": "", "category_tr": "\u015eikayet", "category_zh": "\u6295\u8bc9", "cdb_object_id": "4f0a6c00-cb54-11e1-b053-001c42b5d769", "obsolete": 0, "parent_object_id": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_global_subj": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Variants: Manager", "subject_id": "Product: Manager", "subject_type": "Common Role"}, "DATA": {"cdb_classname": "cdb_gl_subj_role", "cdb_module_id": "cs.vp.variants"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

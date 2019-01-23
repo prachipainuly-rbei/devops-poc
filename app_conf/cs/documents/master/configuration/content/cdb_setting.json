@@ -1,0 +1,11 @@
+{
+  "cdb_setting": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "cs.documents.default_cad", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.documents", "default_val": "-", "readonly": 1, "store_usr_val": 1}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "cs.documents.web.gui", "setting_id2": "collapsedblocks"}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.documents", "default_val": "statusprotocol,document-history,referenced-documents,referencing-documents,files", "readonly": 0, "store_usr_val": 1}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "decomp_sort_attribute", "setting_id2": "DOC"}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.documents", "default_val": "name_d", "readonly": 1, "store_usr_val": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

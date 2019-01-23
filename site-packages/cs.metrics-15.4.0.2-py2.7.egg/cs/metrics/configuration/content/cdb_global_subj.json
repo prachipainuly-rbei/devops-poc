@@ -1,0 +1,12 @@
+{
+  "cdb_global_subj": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "QC Aggregation Engine Service", "subject_id": "qcaggregationengine", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "QC Computation Engine Service", "subject_id": "qccomputationengine", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "public", "subject_id": "qcaggregationengine", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "public", "subject_id": "qccomputationengine", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.metrics"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

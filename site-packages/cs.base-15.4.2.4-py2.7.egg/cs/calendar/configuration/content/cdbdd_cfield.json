@@ -1,0 +1,22 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "170e7c48-e0d4-11de-ad97-edb9c50e1668", "field_classname": "cdb_calendar_profile", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_calendar_profile", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "1ef8b9d3-e404-11de-9e3e-f39b9f1964d6", "field_classname": "cdb_day_type", "field_name": "name_de"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_day_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "3d0ffb1c-e404-11de-9e3e-f39b9f1964d6", "field_classname": "cdb_day_type", "field_name": "name_en"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_day_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "40c88bcb-e0b9-11de-95c4-bbe4daa67874", "field_classname": "cdb_day_type", "field_name": "day_type_id"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_day_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "5316cf8b-e0c3-11de-b448-9ee209b04112", "field_classname": "cdb_cal_prof_exc", "field_name": "calendar_profile_id"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_cal_prof_exc", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "5316cf8b-e0c3-11de-b448-9ee209b04112", "field_classname": "cdb_cal_prof_exc", "field_name": "day"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_cal_prof_exc", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "55dc34cc-e0bb-11de-95c4-bbe4daa67874", "field_classname": "cdb_calendar_profile", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_calendar_profile", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "6de42987-e0b5-11de-95c4-bbe4daa67874", "field_classname": "cdb_calendar_entry", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_calendar_entry", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "91cef82b-e0d2-11de-ad97-edb9c50e1668", "field_classname": "cdb_calendar_entry", "field_name": "day"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_calendar_entry", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "91cef82b-e0d2-11de-ad97-edb9c50e1668", "field_classname": "cdb_calendar_entry", "field_name": "personalnummer"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_calendar_entry", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "bf78686c-e0d2-11de-ad97-edb9c50e1668", "field_classname": "cdb_calendar_entry", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_calendar_entry", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "bf78686c-e0d2-11de-ad97-edb9c50e1668", "field_classname": "cdb_calendar_entry", "field_name": "day"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_calendar_entry", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "da364620-0f43-11df-b59c-a71fe66b880c", "field_classname": "cdb_calendar_entry", "field_name": "calendar_profile_id"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_calendar_entry", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "da364620-0f43-11df-b59c-a71fe66b880c", "field_classname": "cdb_calendar_entry", "field_name": "day"}, "DATA": {"cdb_module_id": "cs.calendar", "classname": "cdb_calendar_entry", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

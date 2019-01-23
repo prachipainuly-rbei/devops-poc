@@ -1,0 +1,28 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "Index filter rule: Released", "predicate_name": "Document in revision"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.wsm", "expression": "190", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "Index filter rule: Released", "predicate_name": "Released document"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.wsm", "expression": "200", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "Index filter rule: Released", "predicate_name": "Item in revision"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.wsm", "expression": "190", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "Index filter rule: Released", "predicate_name": "Released item"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.wsm", "expression": "200", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "Index filter rule: Released or checking", "predicate_name": "Checking document"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.wsm", "expression": "100", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "Index filter rule: Released or checking", "predicate_name": "Document in revision"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.wsm", "expression": "190", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "Index filter rule: Released or checking", "predicate_name": "Released document"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.wsm", "expression": "200", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "Index filter rule: Released or checking", "predicate_name": "Checking item"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.wsm", "expression": "190", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "Index filter rule: Released or checking", "predicate_name": "Item in revision"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.wsm", "expression": "100", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "Index filter rule: Released or checking", "predicate_name": "Released item"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.wsm", "expression": "200", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "Index update rule: Highest released", "predicate_name": "Document in revision"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.wsm", "expression": "190", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "Index update rule: Highest released", "predicate_name": "Released document"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.wsm", "expression": "200", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "Index update rule: Highest released", "predicate_name": "Item in revision"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.wsm", "expression": "190", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "Index update rule: Highest released", "predicate_name": "Released item"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.wsm", "expression": "200", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "Index update rule: Highest released or checking", "predicate_name": "Checking document"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.wsm", "expression": "100", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "Index update rule: Highest released or checking", "predicate_name": "Document in revision"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.wsm", "expression": "190", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "Index update rule: Highest released or checking", "predicate_name": "Released document"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.wsm", "expression": "200", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "Index update rule: Highest released or checking", "predicate_name": "Checking item"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.wsm", "expression": "100", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "Index update rule: Highest released or checking", "predicate_name": "Item in revision"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.wsm", "expression": "190", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "Index update rule: Highest released or checking", "predicate_name": "Released item"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.wsm", "expression": "200", "filter_rule": "", "operator": "="}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

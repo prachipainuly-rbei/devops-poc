@@ -1,0 +1,17 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "TIMESCHEDULE_001"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": "Allows to read Time Schedule master data and aggregated elements", "name": "Time Schedule: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "TIMESCHEDULE_002"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": "Allows to write (create, copy, modify, delete) Time Schedule master data and aggregated elements", "name": "Time Schedule: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "TIMESCHEDULE_003"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": "Allows to export the Time Schedule Report.", "name": "Time Schedule: Report Time Schedule"}},
+      {"PRIMARY_KEYS": {"id": "TIMESCHEDULE_004"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": "Allows to start Time Schedule Elink in view mode.", "name": "Time Schedule: View Time Schedule"}},
+      {"PRIMARY_KEYS": {"id": "TIMESCHEDULE_005"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": "Allows to start Time Schedule Elink in edit mode.", "name": "Time Schedule: Edit Time Schedule"}},
+      {"PRIMARY_KEYS": {"id": "TIMESCHEDULE_006"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": "Allows to maintain the catalogs needed for Time Schedule.", "name": "Time Schedule: Write Basic Calalogs"}},
+      {"PRIMARY_KEYS": {"id": "TIMESCHEDULE_007"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": "Allows to maintain the catalogs used/referenced by Time Schedule logic.", "name": "Time Schedule: Write Logic Calalogs"}},
+      {"PRIMARY_KEYS": {"id": "TIMESCHEDULE_008"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": "Allows to change the status of Time Schedules.", "name": "Time Schedule: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "TIMESCHEDULE_009"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": "Allows to export Excel Reports for Time Schedule", "name": "Time Schedule: Excel Reports"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

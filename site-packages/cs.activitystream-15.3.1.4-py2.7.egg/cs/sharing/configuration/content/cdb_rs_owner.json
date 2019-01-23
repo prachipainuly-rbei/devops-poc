@@ -1,0 +1,11 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_object_sg2pyrule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing2subscription", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_group_members", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.sharing"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

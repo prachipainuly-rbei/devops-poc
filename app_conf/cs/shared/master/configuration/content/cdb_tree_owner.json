@@ -1,0 +1,12 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "92a5f794-2528-11df-b716-e1f861774235", "role_id": "CDBPCO-Admin"}, "DATA": {"cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"id": "92a5f794-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"id": "92a5f794-2528-11df-b716-e1f861774235", "role_id": "PDXAdmin"}, "DATA": {"cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"id": "96ab8f40-cb30-11e1-9ea6-001c42b5d769", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.shared"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

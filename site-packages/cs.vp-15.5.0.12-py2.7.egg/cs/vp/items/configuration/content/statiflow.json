@@ -1,0 +1,31 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "part", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "part", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "part", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "part", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part", "zielstatus": 170}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part", "zielstatus": 190}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "part_ERP", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "part_ERP", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "part_ERP", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "part_ERP", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "part_ERP", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part_ERP", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part_ERP", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "part_ERP", "zielstatus": 300}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part_ERP", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part_ERP", "zielstatus": 190}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "part_ERP", "zielstatus": 300}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 300, "objektart": "part_ERP", "zielstatus": 170}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 300, "objektart": "part_ERP", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 300, "objektart": "part_ERP", "zielstatus": 190}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.items", "rang": 0, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

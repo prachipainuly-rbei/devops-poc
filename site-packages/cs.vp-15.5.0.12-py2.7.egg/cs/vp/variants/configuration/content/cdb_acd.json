@@ -1,0 +1,13 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties"}, "DATA": {"cdb_module_id": "cs.vp.variants", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties (VALID, INVALID)"}, "DATA": {"cdb_module_id": "cs.vp.variants", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Constraints (automatically generated)"}, "DATA": {"cdb_module_id": "cs.vp.variants", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects"}, "DATA": {"cdb_module_id": "cs.vp.variants", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Properties (non-boolean)"}, "DATA": {"cdb_module_id": "cs.vp.variants", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

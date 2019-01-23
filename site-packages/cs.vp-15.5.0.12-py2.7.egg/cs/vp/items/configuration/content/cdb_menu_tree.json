@@ -1,0 +1,16 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "3a0c92c0-a4d5-11e5-a91d-082e5f0d3665"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.items", "classname": "cdb_part_cust", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91a227dd-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Artikelkat", "cdb_module_id": "cs.vp.items", "classname": "cdb_part_categ", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "655dd4a1-4440-11e2-b6f0-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91a48a11-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_ArtikelGeb", "cdb_module_id": "cs.vp.items", "classname": "cdb_part_usab", "decomp_id": "", "icon_id": "", "ordering": 30, "parent_id": "655dd4a1-4440-11e2-b6f0-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91b53975-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Mengeneinheit", "cdb_module_id": "cs.vp.items", "classname": "cdb_units", "decomp_id": "", "icon_id": "", "ordering": 50, "parent_id": "655dd4a1-4440-11e2-b6f0-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91caad41-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.items", "classname": "cdb_part_surfac", "decomp_id": "", "icon_id": "", "ordering": 60, "parent_id": "655dd4a1-4440-11e2-b6f0-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "92a5f795-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Benennungen", "cdb_module_id": "cs.vp.items", "classname": "woerter", "decomp_id": "", "icon_id": "", "ordering": 0, "parent_id": "655dd4a1-4440-11e2-b6f0-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "92a859c7-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Werkstoffe", "cdb_module_id": "cs.vp.items", "classname": "werkstoffe", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "655dd4a1-4440-11e2-b6f0-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9339bfee-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Statusprotok2", "cdb_module_id": "cs.vp.items", "classname": "cdb_t_statiprot", "decomp_id": "", "icon_id": "", "ordering": 40, "parent_id": "9326ae57-2528-11df-b716-e1f861774235"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

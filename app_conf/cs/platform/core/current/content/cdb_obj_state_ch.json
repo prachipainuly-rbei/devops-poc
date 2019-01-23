@@ -1,0 +1,10 @@
+{
+  "cdb_obj_state_ch": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objclass": "cdb_class"}, "DATA": {"cdb_module_id": "cs.platform.core", "comp_name": "default", "prot_table": ""}},
+      {"PRIMARY_KEYS": {"objclass": "cs_oidc_client_regis"}, "DATA": {"cdb_module_id": "cs.platform.core", "comp_name": null, "prot_table": null}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

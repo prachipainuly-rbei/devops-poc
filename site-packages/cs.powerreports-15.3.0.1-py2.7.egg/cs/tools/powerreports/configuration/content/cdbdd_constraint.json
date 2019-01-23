@@ -1,0 +1,19 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "07c412c0-f6ea-11e7-bbbc-001a7dda7107"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "mq_xsd_reports", "description": null, "exclude_empty_values": null, "fields_info": "cdbmq_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "096754b0-d795-11df-b4c6-1cc1de660f15"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_provider_type", "description": "", "exclude_empty_values": 0, "fields_info": "provider_type"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "09733b91-d795-11df-a87d-1cc1de660f15"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_provider_reg", "description": "", "exclude_empty_values": 0, "fields_info": "fqpyname"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0a5a4802-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_dataprovider", "description": "", "exclude_empty_values": null, "fields_info": "name, xsd_name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0a6171f8-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_source", "description": "", "exclude_empty_values": null, "fields_info": "name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0a63d54a-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report", "description": "", "exclude_empty_values": null, "fields_info": "name, title"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0a689bee-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_grant", "description": "", "exclude_empty_values": null, "fields_info": "name, report_title, subject_id, subject_type"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0a722936-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_prov_grant", "description": "", "exclude_empty_values": null, "fields_info": "name, xsd_name, subject_id, subject_type"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0afa4678-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_provider_arg", "description": "", "exclude_empty_values": null, "fields_info": "name, xsd_name, arg_name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "52593f38-ddbe-11de-80ec-c5de3751c2b3"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_arg", "description": "", "exclude_empty_values": null, "fields_info": "name, report_title, persno, arg_name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f7f55674-ddbf-11de-80ec-c5de3751c2b3"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_tmpl", "description": "", "exclude_empty_values": null, "fields_info": "name, report_title, iso_code"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

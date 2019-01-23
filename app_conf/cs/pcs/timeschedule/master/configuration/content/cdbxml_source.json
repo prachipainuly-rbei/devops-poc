@@ -1,0 +1,9 @@
+{
+  "cdbxml_source": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "TimeScheduleGantt"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "context": "cs.pcs.timeschedule.TimeSchedule", "context_card": "1", "description": "Gantt"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

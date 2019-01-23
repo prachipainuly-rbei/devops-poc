@@ -1,0 +1,13 @@
+{
+  "cdbqc_unit_type": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "18891e30-d7b4-11e1-8bd0-082e5f0d0c14"}, "DATA": {"cdb_cdate": "27.07.2012 08:27:10", "cdb_cpersno": "caddok", "cdb_mdate": "27.07.2012 08:27:10", "cdb_module_id": "cs.metrics", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "Datum", "name_en": "Date", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Tarih", "name_zh": "\u65e5\u671f"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7122f94f-2366-11e2-8bc1-0026c78a4864"}, "DATA": {"cdb_cdate": "31.10.2012 15:22:46", "cdb_cpersno": "caddok", "cdb_mdate": "31.10.2012 15:22:46", "cdb_module_id": "cs.metrics", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "W\u00e4hrung", "name_en": "Currency", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Para birimi", "name_zh": "\u8d27\u5e01"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "89515d80-f1ae-11e1-a67a-082e5f0d3665"}, "DATA": {"cdb_cdate": "29.08.2012 09:52:52", "cdb_cpersno": "caddok", "cdb_mdate": "29.08.2012 09:52:52", "cdb_module_id": "cs.metrics", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "Indikator", "name_en": "Indicator", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "G\u00f6sterge", "name_zh": "\u6307\u793a\u5668"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "8a95ac2e-2365-11e2-b2f5-0026c78a4864"}, "DATA": {"cdb_cdate": "31.10.2012 15:16:19", "cdb_cpersno": "caddok", "cdb_mdate": "31.10.2012 15:16:19", "cdb_module_id": "cs.metrics", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "Gewicht", "name_en": "Weight", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "A\u011f\u0131rl\u0131k", "name_zh": "\u91cd\u91cf"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9d0e6bcf-edbf-11e1-8ab0-082e5f0d3665"}, "DATA": {"cdb_cdate": "24.08.2012 09:45:02", "cdb_cpersno": "caddok", "cdb_mdate": "24.08.2012 09:45:02", "cdb_module_id": "cs.metrics", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "Zeit", "name_en": "Time", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Zaman", "name_zh": "\u65f6\u95f4"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

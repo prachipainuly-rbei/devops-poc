@@ -1,0 +1,9 @@
+{
+  "cdbqc_computation_rule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "7a2a62de-2ce4-11e2-97a7-082e5f0d3665"}, "DATA": {"action": "", "cdb_classname": "cdbqc_sql_statistics", "cdb_module_id": "cs.vp.items", "evalued_attribute": "distinct teilenummer", "name": "Anzahl Artikel ohne Revision", "period": "", "statistics_name": "COUNT"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

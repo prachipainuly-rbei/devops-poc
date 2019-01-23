@@ -1,0 +1,11 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Administration", "allow": "FULL ACCESS", "class": "catalogues", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Administration", "allow": "FULL ACCESS", "class": "catalogues", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Catalogs", "allow": "read", "class": "catalogues", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.shared"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

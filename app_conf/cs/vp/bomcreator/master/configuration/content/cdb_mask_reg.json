@@ -1,0 +1,9 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "bom_config", "mask_role_id": "public", "name": "bom_config_reg"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator", "ordering": 10, "priority": 10, "reg_title": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

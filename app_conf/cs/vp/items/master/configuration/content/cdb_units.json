@@ -1,0 +1,14 @@
+{
+  "cdb_units": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Stk"}, "DATA": {"name_cs": "", "name_de": "Stk", "name_en": "Piece", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Tane", "name_zh": "\u4e2a", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "g"}, "DATA": {"name_cs": "", "name_de": "g", "name_en": "g", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "g", "name_zh": "\u514b", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "kg"}, "DATA": {"name_cs": "", "name_de": "kg", "name_en": "kg", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "kg", "name_zh": "\u5343\u514b", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "l"}, "DATA": {"name_cs": "", "name_de": "l", "name_en": "l", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "l", "name_zh": "\u5347", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "m"}, "DATA": {"name_cs": "", "name_de": "m", "name_en": "m", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "m", "name_zh": "\u7c73", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "qm"}, "DATA": {"name_cs": "", "name_de": "qm", "name_en": "sqm", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "m2", "name_zh": "\u5e73\u65b9\u7c73", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

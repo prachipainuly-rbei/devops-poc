@@ -1,0 +1,12 @@
+{
+  "cdb_obj_state_ch": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objclass": "cdbwf_aggregate"}, "DATA": {"cdb_module_id": "cs.workflow", "comp_name": "default", "prot_table": ""}},
+      {"PRIMARY_KEYS": {"objclass": "cdbwf_form_template"}, "DATA": {"cdb_module_id": "cs.workflow", "comp_name": null, "prot_table": null}},
+      {"PRIMARY_KEYS": {"objclass": "cdbwf_process"}, "DATA": {"cdb_module_id": "cs.workflow", "comp_name": "default", "prot_table": ""}},
+      {"PRIMARY_KEYS": {"objclass": "cdbwf_task"}, "DATA": {"cdb_module_id": "cs.workflow", "comp_name": "default", "prot_table": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

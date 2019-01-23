@@ -1,0 +1,11 @@
+{
+  "cs_tasks_column": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "69595d4f-a72d-11e6-86c9-68f7284ff046"}, "DATA": {"cdb_module_id": "cs.actions", "name": "cs_tasks_col_parent_action", "plugin_component": "cs-taskmanager-web-ObjectCell", "tooltip": ""}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "942c31b0-a72d-11e6-a1bc-68f7284ff046"}, "DATA": {"cdb_module_id": "cs.actions", "name": "cs_tasks_col_product", "plugin_component": "cs-taskmanager-web-ObjectCell", "tooltip": ""}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a4fba161-a72d-11e6-a973-68f7284ff046"}, "DATA": {"cdb_module_id": "cs.actions", "name": "cs_tasks_col_item", "plugin_component": "cs-taskmanager-web-ObjectCell", "tooltip": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

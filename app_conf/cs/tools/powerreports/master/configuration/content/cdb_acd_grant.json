@@ -1,0 +1,9 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: PowerReports Templates", "allow": "FULL ACCESS", "class": "cdbxml_report_tmpl", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

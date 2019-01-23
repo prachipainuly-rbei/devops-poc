@@ -1,0 +1,23 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "09c41ab0-d795-11df-a2bd-1cc1de660f15"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_prio", "description": "", "exclude_empty_values": 0, "fields_info": "priority"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0bcc6aa8-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_issue", "description": "", "exclude_empty_values": null, "fields_info": "issue_id, cdb_project_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0c11aaf2-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_prot", "description": "", "exclude_empty_values": null, "fields_info": "cdbprot_zaehler"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0d40f0a0-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_log", "description": "", "exclude_empty_values": null, "fields_info": "id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e8350de-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_rem", "description": "", "exclude_empty_values": null, "fields_info": "cdb_project_id, issue_id, remark_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e94081c-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_cat", "description": "", "exclude_empty_values": null, "fields_info": "category"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "4473e0f0-e983-11e4-a663-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_prio", "description": "", "exclude_empty_values": 1, "fields_info": "priority_d"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "496fd18f-e983-11e4-8565-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_prio", "description": "", "exclude_empty_values": 1, "fields_info": "priority_uk"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "6166d8c0-e9b5-11e4-884c-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_val", "description": "", "exclude_empty_values": 1, "fields_info": "close_flag_de"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7017fc51-e9b5-11e4-89a8-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_val", "description": "", "exclude_empty_values": 1, "fields_info": "close_flag_en"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "77794740-e980-11e4-875a-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_cat", "description": "", "exclude_empty_values": 1, "fields_info": "category_d"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7cf31433-5e2d-11e1-98ea-001c42b5d769"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.issues", "classname": "cdb_action2issue", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "80391db0-e980-11e4-82b4-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_cat", "description": "", "exclude_empty_values": 1, "fields_info": "category_uk"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "969104d4-0108-11e4-b8ba-082e5f0d0c28"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_val", "description": null, "exclude_empty_values": null, "fields_info": "close_flag"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e22d89c0-5e2d-11e1-be24-001c42b5d769"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.issues", "classname": "cdb_action2issue", "description": "", "exclude_empty_values": 0, "fields_info": "action_object_id, issue_id, cdb_project_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

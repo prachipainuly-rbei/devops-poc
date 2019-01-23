@@ -1,0 +1,17 @@
+{
+  "cdb_rs_propmode": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"op_name": "CDB_Copy", "p_mode": "copy_file"}, "DATA": {"descr": "Dateiobjekte werden abh\u00e4ngig vom Dateitypen mitkopiert"}},
+      {"PRIMARY_KEYS": {"op_name": "CDB_Index", "p_mode": "copy_file"}, "DATA": {"descr": "Dateiobjekte werden abh\u00e4ngig vom Dateitypen mitkopiert"}},
+      {"PRIMARY_KEYS": {"op_name": "CDB_Copy", "p_mode": "copy_reference"}, "DATA": {"descr": "Die Verweise auf zugeordnete Objekte werden kopiert."}},
+      {"PRIMARY_KEYS": {"op_name": "CDB_Index", "p_mode": "copy_reference"}, "DATA": {"descr": "Die Verweise auf zugeordnete Objekte werden kopiert."}},
+      {"PRIMARY_KEYS": {"op_name": "CDB_Delete", "p_mode": "disconnect"}, "DATA": {"descr": "Die Verbindung wird gel\u00f6st. Die zugeordneten Objekte werden nicht gel\u00f6scht."}},
+      {"PRIMARY_KEYS": {"op_name": "CDB_Delete", "p_mode": "propagate"}, "DATA": {"descr": "Die Verbindung wird gel\u00f6st. Die zugeordneten Objekte werden gel\u00f6scht."}},
+      {"PRIMARY_KEYS": {"op_name": "CDB_Copy", "p_mode": "propagate_deep"}, "DATA": {"descr": "Die dem Ursprungsobjekt zugeordneten Objekte werden durch eine eigenst\u00e4ndige Kopieroperation kopiert und dem kopierten Objekt zugordnet."}},
+      {"PRIMARY_KEYS": {"op_name": "CDB_Delete", "p_mode": "propagate_deep"}, "DATA": {"descr": "Die Verbindung wird gel\u00f6st. Die zugeordneten Objekte werden durch eine eigenst\u00e4ndige L\u00f6schoperation inklusive ggf. aggregierter Objekte gel\u00f6scht"}},
+      {"PRIMARY_KEYS": {"op_name": "CDB_Index", "p_mode": "propagate_deep"}, "DATA": {"descr": "Die dem Ursprungsobjekt zugeordneten Objekte werden durch eine eigenst\u00e4ndige Kopieroperation kopiert und dem kopierten Objekt zugordnet."}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

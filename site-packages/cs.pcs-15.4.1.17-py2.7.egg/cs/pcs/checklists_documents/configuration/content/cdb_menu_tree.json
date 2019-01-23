@@ -1,0 +1,10 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "6ed72b70-6365-11e5-8cfe-080027002473"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cli2doctmpl", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c70294b0-6365-11e5-833c-080027002473"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cl2doctmpl", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "CDB_ReferencedModels"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "CDB_ReferencingModels"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "CDB_ReferencedModels"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "CDB_ReferencingModels"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_ReferencedModels"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_ReferencingModels"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbcadtalk_postbind"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "CDB_ReferencedModels"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "CDB_ReferencingModels"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "CDB_ReferencedModels"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "CDB_ReferencingModels"}, "DATA": {"cdb_module_id": "cs.vp.cad"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

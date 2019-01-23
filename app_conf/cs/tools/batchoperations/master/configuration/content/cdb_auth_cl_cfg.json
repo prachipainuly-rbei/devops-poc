@@ -1,0 +1,9 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbbop_operation", "relation": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

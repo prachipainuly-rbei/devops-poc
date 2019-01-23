@@ -1,0 +1,9 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "de8ccb5e-662d-11e7-bcb8-082e5f0d0c14"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.misc", "classname": "cdbdd_field_content_type", "description": null, "exclude_empty_values": null, "fields_info": "name"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

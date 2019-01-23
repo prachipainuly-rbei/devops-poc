@@ -1,0 +1,12 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0d4353f2-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cl", "description": "", "exclude_empty_values": null, "fields_info": "z_nummer, z_index, cdb_project_id, checklist_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0d4a7de8-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cli", "description": "", "exclude_empty_values": null, "fields_info": "z_nummer, z_index, cdb_project_id, checklist_id, cl_item_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0ee53900-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cl2doctmpl", "description": "", "exclude_empty_values": null, "fields_info": "cdb_project_id, checklist_id, z_nummer"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0ee9ffa4-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cli2doctmpl", "description": "", "exclude_empty_values": null, "fields_info": "cdb_project_id, checklist_id, cl_item_id, z_nummer"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

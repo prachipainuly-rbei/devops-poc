@@ -1,0 +1,9 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cs_landing_page"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.platform.branding", "client_desc": "", "descr": null, "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "landing_page", "label_ok": "", "menu_visible": 0, "menugroup": null, "ordering": null, "rs_visible": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

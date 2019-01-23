@@ -1,0 +1,17 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "SML", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "", "fallback_id": "", "identifier": "\"icon_sml.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbsml_black", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "\n", "fallback_id": "", "identifier": "\"cdbsml_black.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbsml_cgroup", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "\n", "fallback_id": "", "identifier": "\"cdbsml_cgroup.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbsml_icon1", "kind": "Bitmap", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "\n", "fallback_id": "", "identifier": "name", "location": "sml_icon_path", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbsml_oplan", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "Objektplan", "fallback_id": "", "identifier": "\"cdbsml_oplan.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbsml_propcat", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "\n", "fallback_id": "", "identifier": "\"cdbsml_propcat.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbsml_propset", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "\n", "fallback_id": "", "identifier": "\"cdbsml_propset.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbsml_propset2", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "\n", "fallback_id": "", "identifier": "\"cdbsml_propset2.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbsml_pval_onoff", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "\n", "fallback_id": "", "identifier": "\"cdbsml_pval\" + pval_exclude + \".png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "wsm_settings", "subject_id": "Administrator: WSM", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "wsm_settings", "subject_id": "Administrator: WSM", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "wsm_settings", "subject_id": "Administrator: WSM", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "wsm_settings", "subject_id": "Administrator: WSM", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "wsm_settings", "subject_id": "Administrator: WSM", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "wsm_settings", "subject_id": "Administrator: WSM", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.wsm"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

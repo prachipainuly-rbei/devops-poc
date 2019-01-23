@@ -1,0 +1,57 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.platform": "15.3.4", 
+      "cs.web": "15.3.0.dev0"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.tools.semanticlinks", 
+        "required_module_id": "cs.audittrail"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.tools.semanticlinks", 
+        "required_module_id": "cs.shared"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.tools.semanticlinks", 
+        "required_module_id": "cs.web.components"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "8caee0cf-5a2f-11e2-ad82-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "f1c8dad04290c1bb288c3a5eedf78578", 
+      "name": "Visualization of dependencies as graph or matrix", 
+      "package": "cs.base"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.tools.semanticlinks"
+    }
+  }
+}

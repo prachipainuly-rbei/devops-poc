@@ -1,0 +1,11 @@
+{
+  "cdbpcs_time_schedule_timerange": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "b1fea140-ae9d-11e3-917c-b4b52faf81e1"}, "DATA": {"name_cs": "", "name_de": "Tagesansicht", "name_en": "Day View", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "G\u00fcn g\u00f6r\u00fcn\u00fcm\u00fc", "name_zh": "\u65e5\u89c6\u56fe", "obsolete": 0, "range_code": 1}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "b9f50d2e-ae9d-11e3-8678-b4b52faf81e1"}, "DATA": {"name_cs": "", "name_de": "Monatsansicht", "name_en": "Month View", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Ay ismi", "name_zh": "\u6708\u89c6\u56fe", "obsolete": 0, "range_code": 3}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c201e74f-ae9d-11e3-a69e-b4b52faf81e1"}, "DATA": {"name_cs": "", "name_de": "Wochenansicht", "name_en": "Week View", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Hafta g\u00f6r\u00fcn\u00fcm\u00fc", "name_zh": "\u5468\u89c6\u56fe", "obsolete": 0, "range_code": 2}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

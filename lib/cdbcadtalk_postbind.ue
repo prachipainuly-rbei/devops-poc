@@ -1,0 +1,153 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbcadtalk_postbind.ue 127191 2015-07-01 11:16:50Z wme $
+#
+# Copyright (C) 1990 - 2006 CONTACT Software GmbH
+# All rights reserved.
+# http://www.contact.de/
+#
+
+import sys
+from cdb import ue
+from cdb import repljobs
+from cdb import sqlapi
+from cdb import cad
+from cdb import misc
+from cs.documents import Document
+
+
+class CPostBindOp:
+    misc.log(7, "Running userexit " + sys.argv[0])
+    context_name = "cdbscript"
+
+    # Synchrone Replikation zulaessig?
+    kSyncIsAllowed = 1
+
+    kCancel = "cancel"
+    kSync = "sync"
+    kAsync = "async"
+    kIgnore = "ignore"
+
+    total_files = 0
+    total_size = 0
+
+    def impl(self, ctx):
+        misc.log(7, ctx)
+
+        self.object_keys = ctx.objects[0]
+
+        if ctx.mode == 'now':
+            self.now(ctx)
+
+    def now(self, ctx):
+        doVerify = self.get_cad_conf_bool_value("ZVS Post Bind Structure Check",
+                                                ctx.cad_system)
+        if doVerify:
+            doc = Document.ByKeys(ctx.object.z_nummer,
+                                  ctx.object.z_index)
+            if doc is not None:
+                self.verify_cad_document(doc)
+
+        doCheckReplication = self.get_cad_conf_bool_value(
+            "ZVS Post Bind Replication Check",
+            ctx.cad_system)
+        if doCheckReplication:
+            self.check_replication(ctx)
+
+    def get_cad_conf_bool_value(self, attr, cad_system):
+        val = cad.getCADConfValue(attr, cad_system)
+        res = val.upper() == "TRUE" or val == "1"
+        return res
+
+    def verify_cad_document(self, doc, traversed=frozenset()):
+        """
+        Checks that the given document and its referenced documents are
+        suitable to be loaded with classic CAD integrations.
+        Otherwise shows an error message and exits the UE.
+
+        :param doc: Document
+        :param traversed: internal recursion guard
+        """
+        key = (doc.z_nummer, doc.z_index)
+        if key not in traversed:
+            if self.has_folders(doc):
+                if not traversed:
+                    raise ue.Exception('cdb_load_doc_has_folders',
+                                       *key)
+                else:
+                    raise ue.Exception('cdb_load_linked_doc_has_folders',
+                                       *key)
+
+            traversed = traversed.union([key])
+            for refDoc in doc.ReferencedDocuments:
+                self.verify_cad_document(refDoc, traversed)
+
+    def has_folders(self, doc):
+        """
+        :param doc: Document
+        :return: bool
+        """
+        sql = "SELECT COUNT(*) AS cnt FROM cdb_file " \
+              "WHERE cdbf_object_id = '%s' " \
+              "AND cdb_classname = 'cdb_folder_item'" \
+              % sqlapi.quote(doc.cdb_object_id)
+        rs = sqlapi.RecordSet2(sql=sql)
+        count = rs[0].cnt
+        return count > 0
+
+    def check_replication(self, ctx):
+        znr = ctx.object.z_nummer
+        zni = ctx.object.z_index
+
+        tmp = repljobs.filesize_toreplicate(znr, zni, recursive=True)
+        self.total_files, self.total_size, blob_id_list = tmp
+
+        if self.total_files > 0:
+            # Replikation notwendig
+            if not "question_sync_async" in ctx.dialog.get_attribute_names():
+                # Messagebox und UE beenden
+                misc.log(7, "cdbcadtalk_postbind.ue: some replication necessary "
+                         "(%s files, %s total size), no mode selected, will "
+                         "ask the user" % (self.total_files, self.total_size))
+                self.ask_mode(ctx)
+                return
+            else:
+                the_mode = ctx.dialog.question_sync_async
+                misc.log(7, "cdbcadtalk_postbind.ue: selected mode = '%s'" % the_mode)
+
+                if the_mode == self.kCancel:
+                    raise ue.Exception(8037)
+
+                elif the_mode == self.kAsync:
+                    repljobs.replicateDocHere(znr, zni, recursive='1',
+                                              immediately='1')
+                    raise ue.Exception(8371)
+
+                elif the_mode == self.kSync:
+                    # das dauert jetzt ... blockierende Replikation
+                    repljobs.replicate_blobs(blob_id_list)
+
+                elif the_mode == self.kIgnore:
+                    # Normal laden
+                    pass
+
+    def ask_mode(self, ctx):
+        msgbox = ctx.MessageBox("cdb_load_replquest",             # Label
+                                [self.object_keys.z_nummer,
+                                 self.object_keys.z_index,
+                                 "%d" % (self.total_files), self.total_size],
+                                "question_sync_async")
+        msgbox.addButton(ctx.MessageBoxButton(
+            "repl_async", self.kAsync,
+            ctx.MessageBoxButton.kButtonActionCallServer, 1))
+        if self.kSyncIsAllowed:
+            msgbox.addButton(ctx.MessageBoxButton("repl_sync", self.kSync))
+        msgbox.addButton(ctx.MessageBoxButton("cdb_load_anyway", self.kIgnore))
+        # Abbruch-Button explizit konfigurieren, bei
+        # MessageBox.addCancelButton() wird der UE nicht nochmal aufgerufen.
+        msgbox.addButton(ctx.MessageBoxButton("button_cancel", self.kCancel))
+        ctx.show_message(msgbox)
+
+
+if __name__ == "__main__":
+    ue.run(CPostBindOp)

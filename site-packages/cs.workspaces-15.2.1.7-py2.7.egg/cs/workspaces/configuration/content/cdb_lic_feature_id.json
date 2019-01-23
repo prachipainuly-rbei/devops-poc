@@ -1,0 +1,14 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "WORKSPACES_001"}, "DATA": {"cdb_module_id": "cs.workspaces", "description": "Allows to read the Master Data of Workspaces", "name": "Workspaces: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "WORKSPACES_002"}, "DATA": {"cdb_module_id": "cs.workspaces", "description": "Allows to write the Master Data of Workspaces", "name": "Workspaces: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "WORKSPACES_003"}, "DATA": {"cdb_module_id": "cs.workspaces", "description": "Allows to change the status of a Workspace", "name": "Workspaces: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "WORKSPACES_004"}, "DATA": {"cdb_module_id": "cs.workspaces", "description": "Allows to make new revisions of a Workspace", "name": "Workspaces: Revision"}},
+      {"PRIMARY_KEYS": {"id": "WORKSPACES_005"}, "DATA": {"cdb_module_id": "cs.workspaces", "description": "Allows to edit Workspaces (inclusive lock/unlock mechanisms) by directly invoking the Workspace Manager.", "name": "Workspaces: Edit"}},
+      {"PRIMARY_KEYS": {"id": "WORKSPACES_006"}, "DATA": {"cdb_module_id": "cs.workspaces", "description": "Allows to view Workspaces", "name": "Workspaces: View"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

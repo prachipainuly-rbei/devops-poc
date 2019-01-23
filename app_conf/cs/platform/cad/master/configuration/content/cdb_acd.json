@@ -1,0 +1,9 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "frame: All Frames"}, "DATA": {"cdb_module_id": "cs.platform.cad", "common_flag": 1, "description": "All Frames"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

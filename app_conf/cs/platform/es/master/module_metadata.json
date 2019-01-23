@@ -1,0 +1,34 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {}
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.platform.es", 
+        "required_module_id": "cs.platform.core"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "b67575b0-5808-11e2-9cfe-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "041876617c350cae4c06b25d92e5aa7f", 
+      "name": "Enterprise search", 
+      "package": "cs.platform"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.platform.es"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "cdb_acc_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acc_right": "FULL ACCESS"}, "DATA": {"description": "Vollzugriff"}},
+      {"PRIMARY_KEYS": {"acc_right": "accept"}, "DATA": {"description": "Ge\u00e4nderte Daten sichern"}},
+      {"PRIMARY_KEYS": {"acc_right": "create"}, "DATA": {"description": "Neuanlage"}},
+      {"PRIMARY_KEYS": {"acc_right": "create_bom"}, "DATA": {"description": "Neuanlage STL Position"}},
+      {"PRIMARY_KEYS": {"acc_right": "create_derived_file"}, "DATA": {"description": "Abgeleitete Datei erzeugen"}},
+      {"PRIMARY_KEYS": {"acc_right": "create_file"}, "DATA": {"description": "Neue Datei erzeugen"}},
+      {"PRIMARY_KEYS": {"acc_right": "delete"}, "DATA": {"description": "L\u00f6schen"}},
+      {"PRIMARY_KEYS": {"acc_right": "delete_bom"}, "DATA": {"description": "L\u00f6schen STL Position"}},
+      {"PRIMARY_KEYS": {"acc_right": "delete_derived_file"}, "DATA": {"description": "Abgeleitete Datei l\u00f6schen"}},
+      {"PRIMARY_KEYS": {"acc_right": "delete_file"}, "DATA": {"description": "Datei l\u00f6schen"}},
+      {"PRIMARY_KEYS": {"acc_right": "distribute"}, "DATA": {"description": "Verteilen"}},
+      {"PRIMARY_KEYS": {"acc_right": "file replica"}, "DATA": {"description": "Dateireplikation"}},
+      {"PRIMARY_KEYS": {"acc_right": "index"}, "DATA": {"description": "Index anlegen"}},
+      {"PRIMARY_KEYS": {"acc_right": "lock"}, "DATA": {"description": "Sperren"}},
+      {"PRIMARY_KEYS": {"acc_right": "read"}, "DATA": {"description": "Finden/Lesen (Metadaten)"}},
+      {"PRIMARY_KEYS": {"acc_right": "read_derived_file"}, "DATA": {"description": "Abgeleitete Datei lesen"}},
+      {"PRIMARY_KEYS": {"acc_right": "read_file"}, "DATA": {"description": "Datei lesen"}},
+      {"PRIMARY_KEYS": {"acc_right": "save"}, "DATA": {"description": "Datensatz \u00e4ndern bzw. Datei speichern"}},
+      {"PRIMARY_KEYS": {"acc_right": "save_bom"}, "DATA": {"description": "Sichern STL Position"}},
+      {"PRIMARY_KEYS": {"acc_right": "send"}, "DATA": {"description": "Senden"}},
+      {"PRIMARY_KEYS": {"acc_right": "unlock"}, "DATA": {"description": "Entsperren"}},
+      {"PRIMARY_KEYS": {"acc_right": "write_derived_file"}, "DATA": {"description": "Abgeleitete Datei \u00fcberschreiben"}},
+      {"PRIMARY_KEYS": {"acc_right": "write_file"}, "DATA": {"description": "Bestehende Datei \u00fcberschreiben"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

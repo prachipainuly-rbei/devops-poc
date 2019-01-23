@@ -1,0 +1,17 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_portfolio", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_portfolio", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdb_portfolio", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdb_portfolio", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_portfolio_folder", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdb_portfolio_folder", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdb_portfolio_folder", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdb_portfolio_folder", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdb_portfolio_folder", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.portfolios"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

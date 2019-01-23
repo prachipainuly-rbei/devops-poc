@@ -1,0 +1,10 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "descr": "Maps access rights of the file history onto the file.", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "descr": "Maps the access rights checks on files onto the access rights of the files' superordinate document object.", "mandatory": 1}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

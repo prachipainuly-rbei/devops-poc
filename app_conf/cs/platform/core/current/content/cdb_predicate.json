@@ -1,0 +1,10 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "Alle Schutzklassen", "table_name": "cdb_acd"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.platform.core", "description": "Alle Schutzklassen"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "ddfield:IsNotPredefinedState", "table_name": "cdbdd_field"}, "DATA": {"cdb_module_id": "cs.platform.core", "description": "Matches if the attribute is not predefined by status. Used to disable activity stream configuration mask register."}, "UPDATE_POLICY": "ALWAYS UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

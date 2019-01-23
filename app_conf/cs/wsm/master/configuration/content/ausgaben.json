@@ -1,0 +1,17 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "ExportedFiles"}, "DATA": {"cdb_module_id": "cs.wsm", "cs": null, "d": "Exportierte Dateien", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Exported files", "zh": null}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "FALLBACK_RULE"}, "DATA": {"cdb_module_id": "cs.wsm", "cs": null, "d": "Ausweichregel", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "Geri \u00e7ekilme kural\u0131", "uk": "Fallback Rule", "zh": "\u56de\u9000\u89c4\u5219"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "INDEX_UPDATE_RULE_DEFINITION"}, "DATA": {"cdb_module_id": "cs.wsm", "cs": "", "d": "Definition", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Tan\u0131m", "uk": "Definition", "zh": "\u5b9a\u4e49"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_cad_wsm_edit"}, "DATA": {"cdb_module_id": "cs.wsm", "cs": null, "d": "Im CAD-System \u00f6ffnen", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "CAD sisteminde a\u00e7", "uk": "Open in CAD System", "zh": "\u5728CAD\u7cfb\u7edf\u6253\u5f00"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_file2partner_filename"}, "DATA": {"cdb_module_id": "cs.wsm", "cs": null, "d": "Partner-Dateinamen", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Partner filenames", "zh": null}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbwsm_create_partner_filenames"}, "DATA": {"cdb_module_id": "cs.wsm", "cs": null, "d": "Dateinamen f\u00fcr Partner vergeben ...", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Assign partner filenames ...", "zh": null}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "partner_filenames"}, "DATA": {"cdb_module_id": "cs.wsm", "cs": null, "d": "Partner-Dateinamen", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Partner filenames", "zh": null}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "workspace_manager"}, "DATA": {"cdb_module_id": "cs.wsm", "cs": "", "d": "Workspace Manager", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Workspace Manager", "uk": "Workspace Manager", "zh": "Workspace Manager"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "wsm_settings_status"}, "DATA": {"cdb_module_id": "cs.wsm", "cs": null, "d": "Status", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "Durum", "uk": "Status", "zh": "\u72b6\u6001"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

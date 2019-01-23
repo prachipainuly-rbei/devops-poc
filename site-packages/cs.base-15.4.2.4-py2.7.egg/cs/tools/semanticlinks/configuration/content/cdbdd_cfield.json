@@ -1,0 +1,27 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "069dfa51-2110-11e8-b0e8-605718ab0982", "field_classname": "cdb_link_graph_cls", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_graph_cls", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c4ad095-1c2a-11e2-a26b-001c42b5d769", "field_classname": "cdb_link_graph_cfg", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_graph_cfg", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "1136430f-f280-11e1-bf15-001c42b5d769", "field_classname": "cdb_link_matrix_rs", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_rs", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "2d042405-f27f-11e1-a9b7-001c42b5d769", "field_classname": "cdb_link_matrix_cfg", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_cfg", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "51363f4f-1c2a-11e2-89f7-001c42b5d769", "field_classname": "cdb_link_graph_cfg", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_graph_cfg", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "7796ef40-f5f1-11e2-8166-10604b7deefb", "field_classname": "cdb_semantic_link", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "80e766cf-f280-11e1-82db-001c42b5d769", "field_classname": "cdb_link_matrix_rs", "field_name": "column_classname"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_rs", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "80e766cf-f280-11e1-82db-001c42b5d769", "field_classname": "cdb_link_matrix_rs", "field_name": "dsm_object_id"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_rs", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "80e766cf-f280-11e1-82db-001c42b5d769", "field_classname": "cdb_link_matrix_rs", "field_name": "row_classname"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_rs", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "80f2290f-f5f6-11e2-a44c-10604b7deefb", "field_classname": "cdb_semantic_link_type", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "80f2290f-f5f6-11e2-a44c-10604b7deefb", "field_classname": "cdb_semantic_link_type", "field_name": "object_object_classname"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "80f2290f-f5f6-11e2-a44c-10604b7deefb", "field_classname": "cdb_semantic_link_type", "field_name": "subject_object_classname"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "84e564de-f27f-11e1-9f67-001c42b5d769", "field_classname": "cdb_link_matrix_cfg", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_cfg", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "99f9f70f-f5f3-11e2-b5b8-10604b7deefb", "field_classname": "cdb_semantic_link", "field_name": "object_object_id"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "99f9f70f-f5f3-11e2-b5b8-10604b7deefb", "field_classname": "cdb_semantic_link", "field_name": "subject_object_id"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "adc80b4f-f5f4-11e2-9132-10604b7deefb", "field_classname": "cdb_semantic_link_type", "field_name": "is_copy_link_type"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "adc80b4f-f5f4-11e2-9132-10604b7deefb", "field_classname": "cdb_semantic_link_type", "field_name": "object_object_classname"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "adc80b4f-f5f4-11e2-9132-10604b7deefb", "field_classname": "cdb_semantic_link_type", "field_name": "subject_object_classname"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "f08e1e81-f5f3-11e2-92b2-10604b7deefb", "field_classname": "cdb_semantic_link_type", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

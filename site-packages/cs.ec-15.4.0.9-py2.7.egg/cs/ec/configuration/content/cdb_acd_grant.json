@@ -1,0 +1,27 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Change Templates", "allow": "CHANGE", "class": "cdbecm_ec", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Change Templates", "allow": "CHANGE", "class": "cdbecm_ec", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Change Templates", "allow": "cdbecm_ec_template", "class": "cdbecm_ec", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Change Templates", "allow": "cdbecm_ec_template", "class": "cdbecm_ec", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Change Templates", "allow": "create", "class": "cdbecm_ec", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Change Templates", "allow": "create", "class": "cdbecm_ec", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Change Templates", "allow": "delete", "class": "cdbecm_ec", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Change Templates", "allow": "delete", "class": "cdbecm_ec", "subject_id": "Administrator: Master Data", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes", "allow": "create", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes", "allow": "distribute", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes", "allow": "read", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes", "allow": "EC Statechange", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (EXECUTION)", "allow": "CHANGE", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (EXECUTION)", "allow": "delete", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (EXECUTION)", "allow": "ec_index_item", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (EXECUTION)", "allow": "ec_planned_changes", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (NEW)", "allow": "CHANGE", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (NEW)", "allow": "delete", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (NEW)", "allow": "ec_planned_changes", "class": "cdbecm_ec", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.ec"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

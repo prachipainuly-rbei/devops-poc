@@ -1,0 +1,28 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "190e0240-cb56-11e1-a7dc-001c42b5d769", "field_classname": "cdb_defect_priority", "field_name": "name_de"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_priority", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "2e608f80-b81d-11e4-b1ff-082e5f0d0c28", "field_classname": "cdb_defect_type", "field_name": "type_en"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "4287a9d5-5e2a-11e1-a194-001c42b5d769", "field_classname": "cdb_defect_code", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_code", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "5cfd1a05-bc33-11e0-bc69-005056c00008", "field_classname": "cdb_defect_categ", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_categ", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "5ea3cecf-bc1b-11e4-80fa-082e5f0d0c28", "field_classname": "cdb_defect_categ", "field_name": "category_de"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_categ", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "5ea3cecf-bc1b-11e4-80fa-082e5f0d0c28", "field_classname": "cdb_defect_categ", "field_name": "parent_object_id"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_categ", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "6037f585-b9c9-11e0-a9c1-005056c00008", "field_classname": "cdb_defect", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "67d894b0-5e2a-11e1-84ef-001c42b5d769", "field_classname": "cdb_defect_type", "field_name": "type_de"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "6e238c4f-c323-11e0-82a6-70f39547fa1b", "field_classname": "cdb_defect2action", "field_name": "action_object_id"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect2action", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "6e238c4f-c323-11e0-82a6-70f39547fa1b", "field_classname": "cdb_defect2action", "field_name": "defect_object_id"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect2action", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "70609240-5e2a-11e1-8849-001c42b5d769", "field_classname": "cdb_defect_source", "field_name": "source_de"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_source", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "7779bd8f-5e2a-11e1-b366-001c42b5d769", "field_classname": "cdb_defect_code", "field_name": "code"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_code", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "b0de4e2e-596a-11e1-8394-001c42b5d769", "field_classname": "cdb_defect_categ", "field_name": "category_en"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_categ", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "b0de4e2e-596a-11e1-8394-001c42b5d769", "field_classname": "cdb_defect_categ", "field_name": "parent_object_id"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_categ", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "cbd78bcf-bc3e-11e0-8aa1-005056c00008", "field_classname": "cdb_defect_source", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_source", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d0f83e51-bc45-11e0-819e-005056c00008", "field_classname": "cdb_defect_type", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d4ffdf70-c0c0-11e4-a883-5cac4cc18d47", "field_classname": "cdb_defect_source", "field_name": "source_en"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_source", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d5fde2b5-5eb6-11e1-be3a-001c42b5d769", "field_classname": "cdb_defect_prot", "field_name": "cdbprot_zaehler"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_prot", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e090fa9e-b836-11e4-a743-082e5f0d0c28", "field_classname": "cdb_defect_priority", "field_name": "name_en"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_priority", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ffab4a66-cb55-11e1-bee7-001c42b5d769", "field_classname": "cdb_defect_priority", "field_name": "priority"}, "DATA": {"cdb_module_id": "cs.defects", "classname": "cdb_defect_priority", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Catalog Folders", "table_name": "cdbvp_catalogue_folder"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Catalog Properties", "table_name": "cdbvp_catalogue_property"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Catalog Value Folders", "table_name": "cdbvp_catalogue_value_folder"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Catalog Values", "table_name": "cdbvp_catalogue_enum_def"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Auto Constraints", "table_name": "cdbvp_constraint"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Catalog Properties (non-boolean)", "table_name": "cdbvp_catalogue_property"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Catalog Properties (not NEW)", "table_name": "cdbvp_catalogue_property"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Constraints", "table_name": "cdbvp_constraint"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Predicates", "table_name": "cdbvp_predicate"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Properties", "table_name": "cdbvp_property"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Properties (from catalog)", "table_name": "cdbvp_property"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Properties (non-boolean)", "table_name": "cdbvp_property"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Property Assignments", "table_name": "cdbvp_property_folder2property"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Property Dependencies", "table_name": "cdbvp_property_dependency"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Property Folders", "table_name": "cdbvp_property_folder"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Property Values", "table_name": "cdbvp_property_value"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Property-Folder Assignments", "table_name": "cdbvp_catalogue_prop2folder"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Terms", "table_name": "cdbvp_term"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Values", "table_name": "cdbvp_enum_def"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Variant Mappings", "table_name": "cdbvp_variant_mapping"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Variants", "table_name": "cdbvp_variant"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: VPM Views", "table_name": "cdbvp_product_view"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.variants", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

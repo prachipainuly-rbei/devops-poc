@@ -1,0 +1,9 @@
+{
+  "cdbsml_cgroup": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cgroup_id": "root"}, "DATA": {"cdb_object_id": "26a6aec0-8262-11e2-bad4-78acc0ace8c3", "cgroup_type": "Objektplan", "icon_id": "", "name_cs": "", "name_de": "Objektplan", "name_en": "Object Plan", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Nesne plan\u0131", "name_zh": "\u5bf9\u8c61\u89c4\u5212"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

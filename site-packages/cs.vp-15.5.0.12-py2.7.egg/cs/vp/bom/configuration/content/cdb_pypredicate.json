@@ -1,0 +1,11 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "mBOM Manager: 2D documents", "predicate_name": "CAD drawings"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Documents which have the category 'CAD-Zeichnung'"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "mBOM Manager: 3D documents", "predicate_name": "CAD models"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Documents which have the category 'CAD-Modell'\t"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "mBOM Manager: Ignore differences", "predicate_name": "mBOM items without an engineering view"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

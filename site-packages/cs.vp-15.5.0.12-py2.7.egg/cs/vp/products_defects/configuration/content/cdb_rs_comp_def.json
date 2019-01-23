@@ -1,0 +1,9 @@
+{
+  "cdb_rs_comp_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "cdbvp_product", "rs_name": "cdbvp_product2defects"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.vp.products_defects", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "", "descr": "", "empty_folders": 0, "has_folder": 1, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "", "ordering": 210, "pre_evaluate": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

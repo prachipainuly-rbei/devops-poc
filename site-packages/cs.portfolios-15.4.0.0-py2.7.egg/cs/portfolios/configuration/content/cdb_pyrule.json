@@ -1,0 +1,10 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Visible Portfolio Folders"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": "Portfolio folders to be displayed in Portfolio Navigator"}},
+      {"PRIMARY_KEYS": {"name": "Visible Portfolios"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": "Portfolios to be displayed"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

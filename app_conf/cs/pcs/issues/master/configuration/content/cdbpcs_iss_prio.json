@@ -1,0 +1,13 @@
+{
+  "cdbpcs_iss_prio": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"priority": "hoch"}, "DATA": {"obsolete": 0, "priority_cs": "", "priority_d": "Hoch", "priority_f": "", "priority_i": "", "priority_ja": "", "priority_ko": "", "priority_pl": "", "priority_pt": "", "priority_s": "", "priority_tr": "Y\u00fcksek", "priority_uk": "High", "priority_zh": "\u9ad8"}},
+      {"PRIMARY_KEYS": {"priority": "kritisch"}, "DATA": {"obsolete": 0, "priority_cs": "", "priority_d": "Kritisch", "priority_f": "", "priority_i": "", "priority_ja": "", "priority_ko": "", "priority_pl": "", "priority_pt": "", "priority_s": "", "priority_tr": "Kritik", "priority_uk": "Critical", "priority_zh": "\u5173\u952e\u7684"}},
+      {"PRIMARY_KEYS": {"priority": "niedrig"}, "DATA": {"obsolete": 0, "priority_cs": "", "priority_d": "Niedrig", "priority_f": "", "priority_i": "", "priority_ja": "", "priority_ko": "", "priority_pl": "", "priority_pt": "", "priority_s": "", "priority_tr": "D\u00fc\u015f\u00fck", "priority_uk": "Low", "priority_zh": "\u4f4e"}},
+      {"PRIMARY_KEYS": {"priority": "normal"}, "DATA": {"obsolete": 0, "priority_cs": "", "priority_d": "Normal", "priority_f": "", "priority_i": "", "priority_ja": "", "priority_ko": "", "priority_pl": "", "priority_pt": "", "priority_s": "", "priority_tr": "Normal", "priority_uk": "Normal", "priority_zh": "\u6b63\u5e38"}},
+      {"PRIMARY_KEYS": {"priority": "offen"}, "DATA": {"obsolete": 0, "priority_cs": "", "priority_d": "Offen", "priority_f": "", "priority_i": "", "priority_ja": "", "priority_ko": "", "priority_pl": "", "priority_pt": "", "priority_s": "", "priority_tr": "A\u00e7\u0131k", "priority_uk": "Open", "priority_zh": "\u5f00\u542f"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

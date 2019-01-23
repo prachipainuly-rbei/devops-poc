@@ -1,0 +1,18 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CreateOperations", "name": "cdb_create_doc_from_template"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "CDB_DocCategoriesConf"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "CDB_DocCategoriesConf"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_DocCategoriesConf"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_create_doc_from_template"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_replicate_batch"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_restart_replication"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbdoc_decomp"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "CDB_DocCategoriesConf"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "CDB_DocCategoriesConf"}, "DATA": {"cdb_module_id": "cs.documents"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

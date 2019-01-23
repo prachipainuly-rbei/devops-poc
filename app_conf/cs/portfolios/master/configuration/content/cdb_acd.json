@@ -1,0 +1,9 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.portfolio: Objects"}, "DATA": {"cdb_module_id": "cs.portfolios", "common_flag": 1, "description": "all elements of portfolio structures"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

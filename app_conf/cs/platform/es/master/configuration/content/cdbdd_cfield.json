@@ -1,0 +1,10 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "8567fedc-489e-11e0-ab96-0019bb22e334", "field_classname": "cdbes_jobs", "field_name": "job_id"}, "DATA": {"cdb_module_id": "cs.platform.es", "classname": "cdbes_jobs", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "dc3c7efa-48a5-11e0-a4c2-0019bb22e334", "field_classname": "cdbes_state", "field_name": "state_id"}, "DATA": {"cdb_module_id": "cs.platform.es", "classname": "cdbes_state", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

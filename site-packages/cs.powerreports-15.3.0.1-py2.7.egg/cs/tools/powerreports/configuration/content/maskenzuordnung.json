@@ -1,0 +1,29 @@
+{
+  "maskenzuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_lic_feature_assign_rep", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "CONTACT", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_dataprovider", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_dataprovider_comp", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": "", "predicate_mask": "cdbxml_dataprovider_pred"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_dataprovider_customcode", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_dataprovider_groupby", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_dataprovider_pred", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_dataprovider_relship", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_dataprovider_rule", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_dataprovider_squery", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_prov_grant", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_provider_arg", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_provider_reg", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "None", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_provider_type", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "None", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_report", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_report_arg", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_report_final_web", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_report_grant", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_report_tmpl", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_select_report", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_source", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.tools.powerreports", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "mq_xsd_reports", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.tools.powerreports", "ersteller": "Administrator", "html_help": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

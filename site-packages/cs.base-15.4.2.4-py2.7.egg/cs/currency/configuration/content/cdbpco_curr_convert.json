@@ -1,0 +1,9 @@
+{
+  "cdbpco_curr_convert": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "ef482e05-6c9d-11df-8e74-d05fa2b39649"}, "DATA": {"cdb_project_id": "", "convert_factor": 1.2995, "from_curr_object_id": "c3fef935-6c9c-11df-8e74-d05fa2b39649", "to_curr_object_id": "cc95388c-6c9c-11df-8e74-d05fa2b39649", "valid_year": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

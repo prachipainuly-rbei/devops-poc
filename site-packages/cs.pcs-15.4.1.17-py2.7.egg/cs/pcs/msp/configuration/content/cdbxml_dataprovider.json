@@ -1,0 +1,10 @@
+{
+  "cdbxml_dataprovider": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "TaskAttributesToMsp", "xsd_name": "Project_1"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "context": "cs.pcs.projects.Project", "parent_xsd_name": "", "source": "cs.pcs.projects.Project", "source_type": "Context"}},
+      {"PRIMARY_KEYS": {"name": "TaskAttributesToMsp", "xsd_name": "TaskAttributeProvider"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "context": "cs.pcs.projects.Project", "parent_xsd_name": "Project_1", "source": "cs.pcs.msp.exports.TaskAttributeProvider", "source_type": "CustomCode"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

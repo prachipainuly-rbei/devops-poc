@@ -1,0 +1,13 @@
+{
+  "cdb_mod_source": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Kunde"}, "DATA": {"obsolete": 0, "source_cs": "", "source_de": "Kunde", "source_en": "Customer", "source_es": "", "source_fr": "", "source_it": "", "source_ja": "", "source_ko": "", "source_pl": "", "source_pt": "", "source_tr": "M\u00fc\u015fteri", "source_zh": "\u5ba2\u6237"}},
+      {"PRIMARY_KEYS": {"name": "Lieferant"}, "DATA": {"obsolete": 0, "source_cs": "", "source_de": "Lieferant", "source_en": "Supplier", "source_es": "", "source_fr": "", "source_it": "", "source_ja": "", "source_ko": "", "source_pl": "", "source_pt": "", "source_tr": "Tedarik\u00e7i", "source_zh": "\u4f9b\u5e94\u5546"}},
+      {"PRIMARY_KEYS": {"name": "betriebl. Vorschlagswesen"}, "DATA": {"obsolete": 0, "source_cs": "", "source_de": "Betriebliches Vorschlagswesen", "source_en": "Employee Suggestion System", "source_es": "", "source_fr": "", "source_it": "", "source_ja": "", "source_ko": "", "source_pl": "", "source_pt": "", "source_tr": "\u00c7al\u0131\u015fan \u00f6neri sistemi", "source_zh": "\u5458\u5de5\u5efa\u8bae\u7cfb\u7edf"}},
+      {"PRIMARY_KEYS": {"name": "intern"}, "DATA": {"obsolete": 0, "source_cs": "", "source_de": "Intern", "source_en": "Internal", "source_es": "", "source_fr": "", "source_it": "", "source_ja": "", "source_ko": "", "source_pl": "", "source_pt": "", "source_tr": "\u0130\u00e7", "source_zh": "\u5185\u90e8"}},
+      {"PRIMARY_KEYS": {"name": "unbekannte Quelle"}, "DATA": {"obsolete": 0, "source_cs": "", "source_de": "Unbekannte Quelle", "source_en": "Unknown Source", "source_es": "", "source_fr": "", "source_it": "", "source_ja": "", "source_ko": "", "source_pl": "", "source_pt": "", "source_tr": "Bilinmeyen kaynak", "source_zh": "\u672a\u77e5\u6765\u6e90"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.2", 
+      "cs.activitystream": "15.3.1.4", 
+      "cs.base": "15.4.1.10", 
+      "cs.defects": "15.2.1.2", 
+      "cs.documents": "15.2.2.10", 
+      "cs.launchpad": "15.2.1.0", 
+      "cs.metrics": "15.4.0.2", 
+      "cs.platform": "15.2.33", 
+      "cs.portfolios": "15.4.0.0", 
+      "cs.powerreports": "15.2.0.4", 
+      "cs.taskmanager": "15.4.0.18", 
+      "cs.web": "15.2.1.23", 
+      "cs.workflow": "15.4.0.12"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.pcs.dashboard", 
+        "required_module_id": "cs.pcs.projects"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.pcs.dashboard", 
+        "required_module_id": "cs.shared"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "34253151-5f19-11e2-93e5-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "eb402629c5957408cd7fd264d9710a49", 
+      "name": "Project dashboard", 
+      "package": "cs.pcs"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.pcs.dashboard"
+    }
+  }
+}

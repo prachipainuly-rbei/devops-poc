@@ -1,0 +1,10 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "cs.currency: Currencies", "table_name": "cdbpco_currency"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.currency", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.currency: Currency Conversions", "table_name": "cdbpco_curr_convert"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.currency", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

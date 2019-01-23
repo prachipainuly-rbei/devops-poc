@@ -1,0 +1,10 @@
+{
+  "cdb_rs_comp_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "cdbmq_administration", "rs_name": "cdbmq_acsjob2events"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.platform.acs", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "", "descr": "", "empty_folders": 0, "has_folder": 0, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "cdbmq_event", "ordering": 60, "pre_evaluate": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdbmq_administration", "rs_name": "cdbmq_queues2acs"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.platform.acs", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "", "descr": "", "empty_folders": 0, "has_folder": 1, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "tree_acsAuftraege", "ordering": 20, "pre_evaluate": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

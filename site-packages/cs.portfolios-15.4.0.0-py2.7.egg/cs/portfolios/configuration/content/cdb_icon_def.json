@@ -1,0 +1,11 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_elink_portfolio", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.portfolios", "descr": "", "fallback_id": "", "identifier": "\"elink-portfolio.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_portfolio", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.portfolios", "descr": "Icon f\u00fcr Portfolios", "fallback_id": "", "identifier": "\"portfolio.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_portfolio_object_icon", "kind": "Bitmap", "location_type": "Icon", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.portfolios", "descr": "", "fallback_id": "", "identifier": "cdb_icon_id", "location": "", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

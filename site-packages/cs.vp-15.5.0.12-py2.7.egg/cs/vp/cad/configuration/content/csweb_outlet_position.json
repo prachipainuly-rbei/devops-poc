@@ -1,0 +1,14 @@
+{
+  "csweb_outlet_position": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "model", "outlet_name": "object_details", "pos": 10, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.vp.cad", "child_name": "cs-vp-items-components-MultiFormatPreview", "json_properties": "{\n    \"viewerConfigLink\": \"/internal/cad_document/available_viewers/\"\n}", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "model", "outlet_name": "object_details", "pos": 20, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.vp.cad", "child_name": "FileList", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "model", "outlet_name": "object_details", "pos": 30, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.vp.cad", "child_name": "Form", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "model", "outlet_name": "object_details", "pos": 40, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.vp.cad", "child_name": "cs-activitystream-web-ObjectActivities", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "model", "outlet_name": "object_details", "pos": 50, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "CDB Relship Register", "cdb_module_id": "cs.vp.cad", "child_name": "DetailOutletRelationshipTable", "json_properties": "{\n    \"includeRelships\" : [\n        \"Changes\",\n        \"DocumentUsage\",\n        \"StatusProtocol\"\n    ]\n}", "setup_fqpyname": "cs.web.components.outlet_generators.OutletPositionRelationshipsCallback"}},
+      {"PRIMARY_KEYS": {"classname": "model", "outlet_name": "object_details", "pos": 60, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.vp.cad", "child_name": "cs-vp-cad-ReferencedModels", "json_properties": "", "setup_fqpyname": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

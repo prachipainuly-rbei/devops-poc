@@ -1,0 +1,13 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.taskmanager: All User Views", "predicate_name": "cs.taskmanager: All User Views", "table_name": "cs_tasks_user_view"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.taskmanager: My Own User Views", "predicate_name": "My Own User Views", "table_name": "cs_tasks_user_view"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.taskmanager: My User Views", "predicate_name": "My User Views", "table_name": "cs_tasks_user_view"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs_tasks: Show Own Tasks", "predicate_name": "Meine Personendaten", "table_name": "angestellter"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs_tasks: Show Tasks", "predicate_name": "Alle Personenstammdaten", "table_name": "angestellter"}, "DATA": {"cdb_module_id": "cs.taskmanager"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

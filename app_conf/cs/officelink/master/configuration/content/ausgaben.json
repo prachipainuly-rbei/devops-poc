@@ -1,0 +1,10 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "officelink_interface_version_too_old"}, "DATA": {"cdb_module_id": "cs.officelink", "cs": "", "d": "Die Version des verwendeten OfficeLink ist '%s', ben\u00f6tigt wird jedoch mindestens '%s'.", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "OfficeLink versiyonu '%s', gerekli olan en d\u00fc\u015f\u00fck versiyon '%s'.", "uk": "The OfficeLink version is '%s', but required is at least '%s'.", "zh": "\u5f53\u524dOfficeLink\u7248\u672c\u662f'%s',\u4f46\u662f\u6240\u9700\u7248\u672c\u81f3\u5c11\u662f'%s'."}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "officelink_package_version_too_old"}, "DATA": {"cdb_module_id": "cs.officelink", "cs": "", "d": "Die Version des verwendeten cs.officelink-Packages ist '%s', ben\u00f6tigt wird jedoch mindestens '%s'.", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "cs.officelink paket versiyonu '%s', gerekli olan: '%s'.", "uk": "The version of the cs.officelink package is '%s', but required is at least '%s'.", "zh": "\u5f53\u524dcs.officelink\u5305\u7248\u672c\u662f'%s',\u4f46\u662f\u6240\u9700\u7248\u672c\u81f3\u5c11\u662f'%s'."}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

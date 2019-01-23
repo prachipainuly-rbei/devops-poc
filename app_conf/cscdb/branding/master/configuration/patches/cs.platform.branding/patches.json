@@ -1,0 +1,83 @@
+{
+  "MODIFIED": {
+    "ausgaben": [
+      {
+        "MODIFICATIONS": {
+          "d": {
+            "NEW_VALUE": "Neues CIM Database Passwort", 
+            "OLD_VALUE": "Neues CONTACT Elements Passwort"
+          }, 
+          "uk": {
+            "NEW_VALUE": "New CIM Database Password", 
+            "OLD_VALUE": "New CONTACT Elements Password"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "ausgabe_label": "branding_gen_passwd_subject"
+        }
+      }
+    ], 
+    "meldungen": [
+      {
+        "MODIFICATIONS": {
+          "d": {
+            "NEW_VALUE": "CDB", 
+            "OLD_VALUE": "CE"
+          }, 
+          "uk": {
+            "NEW_VALUE": "CDB", 
+            "OLD_VALUE": "CE"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "meldung_label": "branding_product_name_acronym"
+        }
+      }, 
+      {
+        "MODIFICATIONS": {
+          "d": {
+            "NEW_VALUE": "CIM Database", 
+            "OLD_VALUE": "CONTACT Elements"
+          }, 
+          "uk": {
+            "NEW_VALUE": "CIM Database", 
+            "OLD_VALUE": "CONTACT Elements"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "meldung_label": "branding_product_name"
+        }
+      }, 
+      {
+        "MODIFICATIONS": {
+          "d": {
+            "NEW_VALUE": "$(PRODUCT_NAME) ($(CADDOK_AUTH_LOGIN))", 
+            "OLD_VALUE": "$(PRODUCT_NAME) $(PRODUCT_VERSION) ($(CADDOK_AUTH_LOGIN))"
+          }, 
+          "uk": {
+            "NEW_VALUE": "$(PRODUCT_NAME) ($(CADDOK_AUTH_LOGIN))", 
+            "OLD_VALUE": "$(PRODUCT_NAME) $(PRODUCT_VERSION) ($(CADDOK_AUTH_LOGIN))"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "meldung_label": "branding_appl_name"
+        }
+      }, 
+      {
+        "MODIFICATIONS": {
+          "d": {
+            "NEW_VALUE": "%s", 
+            "OLD_VALUE": "15.3 [%s]"
+          }, 
+          "uk": {
+            "NEW_VALUE": "%s", 
+            "OLD_VALUE": "15.3 [%s]"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "meldung_label": "branding_srv_version_long"
+        }
+      }
+    ]
+  }
+}

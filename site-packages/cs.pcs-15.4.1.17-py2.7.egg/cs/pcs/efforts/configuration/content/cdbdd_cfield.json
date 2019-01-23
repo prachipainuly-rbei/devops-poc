@@ -1,0 +1,21 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "09d00191-d795-11df-906f-1cc1de660f15", "field_classname": "cdbpcs_rep_order", "field_name": "eorder"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_rep_order", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "09d00191-d795-11df-906f-1cc1de660f15", "field_classname": "cdbpcs_rep_order", "field_name": "ordercode"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_rep_order", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0bdd21e6-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_effort", "field_name": "effort_id"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e9b3212-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_effort_cat", "field_name": "category"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_cat", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "7dafb1d9-4257-11df-8d63-dbed6d507682", "field_classname": "cdb_worktime", "field_name": "day"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdb_worktime", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "7dafb1d9-4257-11df-8d63-dbed6d507682", "field_classname": "cdb_worktime", "field_name": "person_id"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdb_worktime", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "94171d30-a160-11e0-bdc2-005056c00008", "field_classname": "cdbpcs_effort_activity_type", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_activity_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "9e583ea1-fd28-11e4-987c-f0def133d0a6", "field_classname": "cdbpcs_billable", "field_name": "id"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_billable", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "bf3f3d80-a160-11e0-af2c-005056c00008", "field_classname": "cdbpcs_effort_activity_type", "field_name": "name_de"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_activity_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "c0b2a4f0-cd48-11e4-9ef0-082e5f0d0c28", "field_classname": "cdbpcs_effort_cat", "field_name": "name_de"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_cat", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "c0b2a4f0-cd48-11e4-9ef0-082e5f0d0c28", "field_classname": "cdbpcs_effort_cat", "field_name": "name_en"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_cat", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d2366f30-a160-11e0-85b6-005056c00008", "field_classname": "cdbpcs_effort_activity_type", "field_name": "name_en"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_activity_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "da8bd200-39e1-11e6-958f-a0b3ccf7c487", "field_classname": "cdbpcs_effort_prot", "field_name": "cdbprot_zaehler"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_prot", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

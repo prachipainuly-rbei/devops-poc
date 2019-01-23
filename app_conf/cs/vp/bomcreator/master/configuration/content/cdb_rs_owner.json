@@ -1,0 +1,17 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Appinfo mapping", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"name": "Key attributes", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"name": "Synchronization attributes", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"name": "Table columns", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"name": "bom_config_method", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"name": "bom_config_to_roles", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"name": "bom_item_to_occurrences", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"name": "bom_suppressed_message_to_message", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"name": "cdb_part2bom_item_occurrences", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "cdbxml_prov_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "BOMComparison", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "BOMComparison"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "BOMComparison", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "BOMComparisonHeader"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "BOMComparison", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Item_N"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "HierarchicalBOM"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Item_1"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Product"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "StatusNames"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Variant"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "PartUsage", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Item_1"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "PartUsage", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "PartUsage"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "PartUsage", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "StatusNames"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

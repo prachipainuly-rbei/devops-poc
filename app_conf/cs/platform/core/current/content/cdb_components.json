@@ -1,0 +1,11 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_pyrule_open", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.core", "classname": "", "description": "", "filename": "", "fqpyname": "cdb.apps.rules.RuleViewer", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "ce_reset_logging", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.core", "classname": "", "description": "Sets the current logging configuration (server)", "filename": "", "fqpyname": "cdb.misc.OpResetLogging", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "server_cdb_xfer_times", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.core", "classname": "cdb_xfer_times", "description": "server_cdb_xfer_times", "filename": "cdbserver_cdb_xfer_times.ue", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_SCRIPTDIR)"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

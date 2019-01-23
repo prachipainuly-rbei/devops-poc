@@ -1,0 +1,3 @@
+
+# Diese Zeichen nicht als Trenner fuer die WordDelimiterFilterFactory vorsehen
+_ => ALPHA

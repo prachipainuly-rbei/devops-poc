@@ -1,0 +1,13 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "CDB_CustomUpdate"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.platform.installscripts", "client_desc": "", "descr": "", "html_help": "", "icon_id": "Structure", "inactive": 0, "kind": "GraphView", "label": "overview", "label_ok": "", "menu_visible": 1, "menugroup": 100, "ordering": 5, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "CDB_Version"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.platform.installscripts", "client_desc": "", "descr": "", "html_help": "", "icon_id": "Structure", "inactive": 0, "kind": "GraphView", "label": "overview", "label_ok": "", "menu_visible": 1, "menugroup": 100, "ordering": 5, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_exp_custupdate"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.platform.installscripts", "client_desc": "", "descr": "", "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "cdb_exp_custupdate", "label_ok": "", "menu_visible": 1, "menugroup": 100, "ordering": 1010, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_run_custupdate"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.platform.installscripts", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdb_execute", "inactive": 0, "kind": "PowerScript", "label": "cdb_run_custupdate", "label_ok": "", "menu_visible": 1, "menugroup": 100, "ordering": 1000, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_script_log_checked"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.platform.installscripts", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdb_ok", "inactive": 0, "kind": "PowerScript", "label": "cdb_scrlog_checked", "label_ok": "", "menu_visible": 1, "menugroup": 10, "ordering": 100, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

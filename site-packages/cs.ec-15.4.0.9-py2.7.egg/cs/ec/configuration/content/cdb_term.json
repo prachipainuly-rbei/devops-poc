@@ -1,0 +1,20 @@
+{
+  "cdb_term": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "template", "expression": "1", "operator": "=", "predicate_name": "cs.ec: Engineering Change Templates", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "50", "operator": "=", "predicate_name": "cs.ec: Engineering Changes (EXECUTION)", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "0", "operator": "=", "predicate_name": "cs.ec: Engineering Changes (NEW)", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "template", "expression": "0", "operator": "=", "predicate_name": "cs.ec: Engineering Changes (no templates)", "table_name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec", "data_type": "integer"}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "subject_id", "expression": "$role", "operator": "=", "predicate_name": "cs.ec: My Engineering Changes", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "50", "operator": "=", "predicate_name": "cs.ec: My Engineering Changes (EXECUTION)", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "subject_id", "expression": "$role", "operator": "=", "predicate_name": "cs.ec: My Engineering Changes (EXECUTION)", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "cdb_cpersno", "expression": "$(persno)", "operator": "=", "predicate_name": "cs.ec: My Engineering Changes (NEW)", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "0", "operator": "=", "predicate_name": "cs.ec: My Engineering Changes (NEW)", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "cdb_cpersno", "expression": "$(persno)", "operator": "=", "predicate_name": "cs.ec: My Engineering Changes Creator", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "0", "operator": "=", "predicate_name": "cs.ec: My Engineering Changes Creator (NEW)", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "subject_id", "expression": "$role", "operator": "=", "predicate_name": "cs.ec: My Engineering Changes Creator (NEW)", "table_name": "cdbecm_ec"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.ec", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

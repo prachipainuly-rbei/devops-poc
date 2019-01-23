@@ -1,0 +1,29 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "20a45970-46a7-11e1-b4c0-001d60a6c82c", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "20a45970-46a7-11e1-b4c0-001d60a6c82c", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "22de111e-cc0f-11e1-bc76-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "30e7438f-038e-11e5-b522-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "35f88430-64cd-11e4-9d78-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "4670f78f-2577-11e1-b9a7-001d60a6c82c", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "4ec59580-46a7-11e1-b37c-001d60a6c82c", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "4ec59580-46a7-11e1-b37c-001d60a6c82c", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "569681c0-c690-11e1-a036-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "569681c0-c690-11e1-a036-082e5f0d3665", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "5e0fbf40-68e4-11e4-bc57-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "6118ceee-2757-11e2-a04c-082e5f0d3665", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "659669de-52c8-11e3-8e55-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "7248c540-46a7-11e1-8fc1-001d60a6c82c", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "8da8106e-46a7-11e1-91c8-001d60a6c82c", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "a1fd540f-d722-11e2-a219-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "ca9d2fc0-46a6-11e1-ac1b-001d60a6c82c", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "ca9d2fc0-46a6-11e1-ac1b-001d60a6c82c", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "e72f658f-2756-11e2-9398-082e5f0d3665", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "f4f56e30-2ac4-11e5-9395-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "ff5fb7c0-4ef3-11e4-90a1-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

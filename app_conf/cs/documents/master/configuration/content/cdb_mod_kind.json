@@ -1,0 +1,16 @@
+{
+  "cdb_mod_kind": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Bezeichnung"}, "DATA": {"kind_cs": "", "kind_de": "Bezeichnung", "kind_en": "Naming", "kind_es": "", "kind_fr": "", "kind_it": "", "kind_ja": "", "kind_ko": "", "kind_pl": "", "kind_pt": "", "kind_tr": "\u0130simlendirme", "kind_zh": "\u547d\u540d", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Darstellung"}, "DATA": {"kind_cs": "", "kind_de": "Darstellung", "kind_en": "Representation", "kind_es": "", "kind_fr": "", "kind_it": "", "kind_ja": "", "kind_ko": "", "kind_pl": "", "kind_pt": "", "kind_tr": "Temsil", "kind_zh": "\u4ee3\u8868", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Ma\u00dfe"}, "DATA": {"kind_cs": "", "kind_de": "Ma\u00dfe", "kind_en": "Dimensions", "kind_es": "", "kind_fr": "", "kind_it": "", "kind_ja": "", "kind_ko": "", "kind_pl": "", "kind_pt": "", "kind_tr": "\u00d6l\u00e7\u00fcler", "kind_zh": "\u5c3a\u5bf8", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Nummerierung"}, "DATA": {"kind_cs": "", "kind_de": "Nummerierung", "kind_en": "Numeration", "kind_es": "", "kind_fr": "", "kind_it": "", "kind_ja": "", "kind_ko": "", "kind_pl": "", "kind_pt": "", "kind_tr": "Numaralama", "kind_zh": "\u8ba1\u7b97", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Oberfl\u00e4che"}, "DATA": {"kind_cs": "", "kind_de": "Oberfl\u00e4che", "kind_en": "Surface", "kind_es": "", "kind_fr": "", "kind_it": "", "kind_ja": "", "kind_ko": "", "kind_pl": "", "kind_pt": "", "kind_tr": "Y\u00fczey", "kind_zh": "\u8868\u9762", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Toleranz"}, "DATA": {"kind_cs": "", "kind_de": "Toleranz", "kind_en": "Tolerance", "kind_es": "", "kind_fr": "", "kind_it": "", "kind_ja": "", "kind_ko": "", "kind_pl": "", "kind_pt": "", "kind_tr": "Tolerans", "kind_zh": "\u516c\u5dee", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Werkstoff"}, "DATA": {"kind_cs": "", "kind_de": "Werkstoff", "kind_en": "Material", "kind_es": "", "kind_fr": "", "kind_it": "", "kind_ja": "", "kind_ko": "", "kind_pl": "", "kind_pt": "", "kind_tr": "Malzeme", "kind_zh": "\u6750\u6599", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "andere Art"}, "DATA": {"kind_cs": "", "kind_de": "Andere Art", "kind_en": "Other Type", "kind_es": "", "kind_fr": "", "kind_it": "", "kind_ja": "", "kind_ko": "", "kind_pl": "", "kind_pt": "", "kind_tr": "Ba\u015fka tip", "kind_zh": "\u5176\u5b83\u7c7b\u578b", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

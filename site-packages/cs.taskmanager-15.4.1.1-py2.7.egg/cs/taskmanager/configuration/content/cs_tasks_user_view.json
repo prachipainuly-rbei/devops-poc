@@ -1,0 +1,9 @@
+{
+  "cs_tasks_user_view": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "4fb33321-9570-11e8-ba1d-68f7284ff046"}, "DATA": {"category": "default", "cdb_cdate": null, "cdb_cpersno": null, "cdb_mdate": null, "cdb_mpersno": null, "customizes": "", "name_de": "Meine Aufgaben", "name_en": "My Tasks", "name_tr": "G\u00f6revlerim", "name_zh": "\u6211\u7684\u4efb\u52a1", "subject_id": "public", "subject_type": "Common Role"}, "LONGTEXTS": {"cs_tasks_user_view_condition": "{\n    \"contexts\": [],\n    \"roles\": false,\n    \"deadline\": {\n        \"active\": null,\n        \"range\": null,\n        \"days\": 5\n    },\n    \"users\": [\"$(persno)\"],\n    \"types\": []\n}"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_bom_cpara"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Komponente", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Bile\u015fen", "uk": "Component", "zh": "\u7ec4\u4ef6"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_bom_cvpara"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Komponenten", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Bile\u015fenler", "uk": "Components", "zh": "\u7ec4\u4ef6"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_bom_dpara"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Komponente", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Bile\u015fen", "uk": "Component", "zh": "\u7ec4\u4ef6"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_bom_reppara"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Komponenten", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Bile\u015fenler", "uk": "Components", "zh": "\u7ec4\u4ef6"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_doc_scpara"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Status\u00e4nderungsparameter", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Durum de\u011fi\u015fiklik parametreleri", "uk": "Status Change Parameters", "zh": "\u72b6\u6001\u66f4\u6539\u53c2\u6570"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_item_scpara"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Status\u00e4nderungsparameter", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Durum de\u011fi\u015fiklik parametreleri", "uk": "Status Change Parameters", "zh": "\u72b6\u6001\u66f4\u6539\u53c2\u6570"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_op_create"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Sammeloperation Neu ...", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Yeni toplu i\u015flem ...", "uk": "Batch Operation New ...", "zh": "\u6279\u91cf\u65b0\u5efa..."}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_op_exec"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Ausf\u00fchren", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Uygula", "uk": "Execute", "zh": "\u6267\u884c"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_opdef"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Operationen", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "\u0130\u015flemler", "uk": "Operations", "zh": "\u64cd\u4f5c"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_prot"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Ausf\u00fchrungsprotokolle", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Uygulama protokolleri", "uk": "Execution Protocols", "zh": "\u6267\u884c\u534f\u8bae"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_tree_config"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Konfiguration", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Konfig\u00fcrasyon", "uk": "Configuration", "zh": "\u914d\u7f6e"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_tree_op"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Sammeloperationen", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Toplu i\u015flemler", "uk": "Batch Operations", "zh": "\u6279\u91cf\u64cd\u4f5c"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbbop_typedef"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "cs": "", "d": "Typdefinition", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Tip tan\u0131mlama", "uk": "Type Definition", "zh": "\u7c7b\u578b\u5b9a\u4e49"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

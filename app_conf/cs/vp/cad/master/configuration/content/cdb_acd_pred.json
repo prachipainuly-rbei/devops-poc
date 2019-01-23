@@ -1,0 +1,26 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (BLOCKED, OBSOLETE)", "predicate_name": "cs.vp: Documents (cad_assembly, BLOCKED)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (BLOCKED, OBSOLETE)", "predicate_name": "cs.vp: Documents (cad_assembly, OBSOLETE)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (BLOCKED, OBSOLETE)", "predicate_name": "cs.vp: Documents (cad_drawing, BLOCKED)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (BLOCKED, OBSOLETE)", "predicate_name": "cs.vp: Documents (cad_drawing, OBSOLETE)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (BLOCKED, OBSOLETE)", "predicate_name": "cs.vp: Documents (cad_part, BLOCKED)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (BLOCKED, OBSOLETE)", "predicate_name": "cs.vp: Documents (cad_part, OBSOLETE)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "predicate_name": "cs.vp: Documents (cad_assembly, DRAFT)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "predicate_name": "cs.vp: Documents (cad_drawing, DRAFT)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "predicate_name": "cs.vp: Documents (cad_part, DRAFT)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (RELEASED)", "predicate_name": "cs.vp: Documents (cad_assembly, RELEASED)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (RELEASED)", "predicate_name": "cs.vp: Documents (cad_drawing, RELEASED)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (RELEASED)", "predicate_name": "cs.vp: Documents (cad_part, RELEASED)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)", "predicate_name": "cs.vp: Documents (cad_assembly, REVIEW)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)", "predicate_name": "cs.vp: Documents (cad_drawing, REVIEW)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)", "predicate_name": "cs.vp: Documents (cad_part, REVIEW)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVISION)", "predicate_name": "cs.vp: Documents (cad_assembly, REVISION)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVISION)", "predicate_name": "cs.vp: Documents (cad_drawing, REVISION)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVISION)", "predicate_name": "cs.vp: Documents (cad_part, REVISION)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.vp.cad"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "cdbxml_provider_arg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "GrowthShareMatrix", "xsd_name": "Category"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "GrowthShareMatrix", "xsd_name": "Category"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "GrowthShareMatrix", "xsd_name": "Category"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "GrowthShareMatrix", "xsd_name": "Category"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "GrowthShareMatrix", "xsd_name": "Category"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "GrowthShareMatrix", "xsd_name": "Category"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "GrowthShareMatrix", "xsd_name": "Category"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "GrowthShareMatrix", "xsd_name": "Category"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "GrowthShareMatrix", "xsd_name": "Portfolio"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "GrowthShareMatrix", "xsd_name": "Portfolio"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "GrowthShareMatrix", "xsd_name": "Portfolio"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "GrowthShareMatrix", "xsd_name": "Portfolio"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "GrowthShareMatrix", "xsd_name": "Portfolio"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "GrowthShareMatrix", "xsd_name": "Portfolio"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "GrowthShareMatrix", "xsd_name": "Portfolio"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "GrowthShareMatrix", "xsd_name": "Portfolio"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "GrowthShareMatrix", "xsd_name": "PortfolioFolder_1"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "GrowthShareMatrix", "xsd_name": "PortfolioFolder_1"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "GrowthShareMatrix", "xsd_name": "PortfolioFolder_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "GrowthShareMatrix", "xsd_name": "PortfolioFolder_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "GrowthShareMatrix", "xsd_name": "PortfolioFolder_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "GrowthShareMatrix", "xsd_name": "PortfolioFolder_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "GrowthShareMatrix", "xsd_name": "PortfolioFolder_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "GrowthShareMatrix", "xsd_name": "PortfolioFolder_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "PortfolioGrowthShareMatrix", "xsd_name": "Portfolio_1"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "PortfolioGrowthShareMatrix", "xsd_name": "Portfolio_1"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "PortfolioGrowthShareMatrix", "xsd_name": "Portfolio_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "PortfolioGrowthShareMatrix", "xsd_name": "Portfolio_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "PortfolioGrowthShareMatrix", "xsd_name": "Portfolio_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "PortfolioGrowthShareMatrix", "xsd_name": "Portfolio_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "PortfolioGrowthShareMatrix", "xsd_name": "Portfolio_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "PortfolioGrowthShareMatrix", "xsd_name": "Portfolio_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.products"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

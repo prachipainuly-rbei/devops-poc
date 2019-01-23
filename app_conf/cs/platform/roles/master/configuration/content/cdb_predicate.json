@@ -1,0 +1,10 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "Alle Rollenvergaben allg. Rollen", "table_name": "cdb_global_subj"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.platform.roles", "description": "Alle Rollenvergaben allgemeiner Rollen"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "Alle allg. Rollen", "table_name": "cdb_global_role"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.platform.roles", "description": "Alle allgemeinen Rollen"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

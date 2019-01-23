@@ -1,0 +1,14 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cad_change_gensystem", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.vp.cad", "classname": "", "description": "Called by CAD integration import function in case 'erzeug_system' of the importing file differs from the actual main file type.", "filename": "cad_change_gensystem.py", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_MODULE)"}},
+      {"PRIMARY_KEYS": {"name": "cdb_max_index", "role_id": "public"}, "DATA": {"active": 0, "cdb_module_id": "cs.vp.cad", "classname": "", "description": "Konfigurierbare Ermittlung von neueren St\u00e4nden", "filename": "cdbmaxindex.ue", "fqpyname": "", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbcadtalk_postbind", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.vp.cad", "classname": "", "description": "", "filename": "cdbcadtalk_postbind.ue", "fqpyname": "", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbreplaceversion", "role_id": "public"}, "DATA": {"active": 0, "cdb_module_id": "cs.vp.cad", "classname": "", "description": "Konfigurierbare Ermittlung von neueren St\u00e4nden", "filename": "cdbreplaceversion.ue", "fqpyname": "", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "client_mdm_create", "role_id": "public"}, "DATA": {"active": 0, "cdb_module_id": "cs.vp.cad", "classname": "", "description": "Clientseitiger Aufruf nach Neuanlage von (CAD-)Dokumenten", "filename": "cdbclientmdmcreate.ue", "fqpyname": "", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "mdm_replicate", "role_id": "public"}, "DATA": {"active": 0, "cdb_module_id": "cs.vp.cad", "classname": "", "description": "Replikation einer Dokumentendatei am lokalen Standort im Hintergrund", "filename": "cdbmdmreplicate.ue", "fqpyname": "", "inproc": 1, "location": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "17131c8f-3ed9-11e2-a796-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}},
+      {"PRIMARY_KEYS": {"id": "4b2b91a1-2110-11e8-abfe-605718ab0982", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}},
+      {"PRIMARY_KEYS": {"id": "5467a923-1c2a-11e2-a219-001c42b5d769", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}},
+      {"PRIMARY_KEYS": {"id": "b7075b30-1dcd-11e2-8c30-082e5f0d0c14", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}},
+      {"PRIMARY_KEYS": {"id": "bc9d0002-f5f3-11e2-9cf9-10604b7deefb", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}},
+      {"PRIMARY_KEYS": {"id": "c09a01c2-f5f4-11e2-8d4c-10604b7deefb", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

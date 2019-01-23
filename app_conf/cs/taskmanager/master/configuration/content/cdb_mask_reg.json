@@ -1,0 +1,10 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cs_tasks_user_view_comp", "mask_role_id": "public", "name": "cs_tasks_user_view"}, "DATA": {"cdb_module_id": "cs.taskmanager", "ordering": 10, "priority": 10, "reg_title": null}},
+      {"PRIMARY_KEYS": {"mask_name": "cs_tasks_user_view_comp", "mask_role_id": "public", "name": "cs_tasks_user_view_chctrl"}, "DATA": {"cdb_module_id": "cs.taskmanager", "ordering": 20, "priority": 20, "reg_title": "aenderungsinf"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_audittrail2detail"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.audittrail", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 0, "label": "cdb_module_protocol_sub_entries", "menugroup": null, "node_tag": "", "ordering": null, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdb_audittrail_detail", "reference_kmap": "cdb_object_id=cdb_object_id", "referer": "cdb_audittrail", "referer_kmap": "cdb_object_id=audittrail_object_id", "relship_cldef": "cdb_audittrail_detail", "relship_table": "", "rolename": "Audittrail2Detail", "rs_acc_prof": "", "rs_profile": "cdb_aggregation_1_N", "show_in_mask": 1, "show_in_menu": 0}},
+      {"PRIMARY_KEYS": {"name": "cdb_audittrail_config2field"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.audittrail", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 1, "label": "cdb_audittrail_config2field", "menugroup": null, "node_tag": "", "ordering": null, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdb_audittrail_config_field", "reference_kmap": "config_name=config_name; classname=classname", "referer": "cdb_audittrail_config", "referer_kmap": "name=config_name;classname=classname", "relship_cldef": "cdb_audittrail_config_field", "relship_table": "", "rolename": "Config2Field", "rs_acc_prof": "", "rs_profile": "cdb_aggregation_1_N", "show_in_mask": 1, "show_in_menu": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

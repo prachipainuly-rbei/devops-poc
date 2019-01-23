@@ -1,0 +1,19 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "21a945b0-6448-11e1-9daa-001bfc744136", "field_classname": "cdb_portfolio_folder", "field_name": "name_de"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "21a945b0-6448-11e1-9daa-001bfc744136", "field_classname": "cdb_portfolio_folder", "field_name": "parent_object_id"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "21a945b0-6448-11e1-9daa-001bfc744136", "field_classname": "cdb_portfolio_folder", "field_name": "portfolio_object_id"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "23df17de-638c-11e1-a6dc-001bfc744136", "field_classname": "cdb_portfolio", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "386595b0-6448-11e1-ae9d-001bfc744136", "field_classname": "cdb_portfolio_folder", "field_name": "name_en"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "386595b0-6448-11e1-ae9d-001bfc744136", "field_classname": "cdb_portfolio_folder", "field_name": "parent_object_id"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "386595b0-6448-11e1-ae9d-001bfc744136", "field_classname": "cdb_portfolio_folder", "field_name": "portfolio_object_id"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "48592bae-6445-11e1-b58c-001bfc744136", "field_classname": "cdb_portfolio_folder", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "5478a4ae-6441-11e1-801c-001bfc744136", "field_classname": "cdb_portfolio_category", "field_name": "ebene"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_category", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "5478a4ae-6441-11e1-801c-001bfc744136", "field_classname": "cdb_portfolio_category", "field_name": "portfolio_object_id"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_category", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "fd078030-643f-11e1-bb13-001bfc744136", "field_classname": "cdb_portfolio_category", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_category", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "predicate_name": "cs.vp: Catalog Folders", "table_name": "cdbvp_catalogue_folder"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "predicate_name": "cs.vp: Catalog Properties", "table_name": "cdbvp_catalogue_property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "predicate_name": "cs.vp: Catalog Value Folders", "table_name": "cdbvp_catalogue_value_folder"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "predicate_name": "cs.vp: Catalog Values", "table_name": "cdbvp_catalogue_enum_def"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "predicate_name": "cs.vp: VPM Property-Folder Assignments", "table_name": "cdbvp_catalogue_prop2folder"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties (VALID, INVALID)", "predicate_name": "cs.vp: VPM Catalog Properties (not NEW)", "table_name": "cdbvp_catalogue_property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Constraints (automatically generated)", "predicate_name": "cs.vp: VPM Auto Constraints", "table_name": "cdbvp_constraint"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Constraints", "table_name": "cdbvp_constraint"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Predicates", "table_name": "cdbvp_predicate"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Properties", "table_name": "cdbvp_property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Property Assignments", "table_name": "cdbvp_property_folder2property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Property Dependencies", "table_name": "cdbvp_property_dependency"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Property Folders", "table_name": "cdbvp_property_folder"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Property Values", "table_name": "cdbvp_property_value"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Terms", "table_name": "cdbvp_term"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Values", "table_name": "cdbvp_enum_def"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Variant Mappings", "table_name": "cdbvp_variant_mapping"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Variants", "table_name": "cdbvp_variant"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "predicate_name": "cs.vp: VPM Views", "table_name": "cdbvp_product_view"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Properties (non-boolean)", "predicate_name": "cs.vp: VPM Catalog Properties (non-boolean)", "table_name": "cdbvp_catalogue_property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Properties (non-boolean)", "predicate_name": "cs.vp: VPM Properties (non-boolean)", "table_name": "cdbvp_property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

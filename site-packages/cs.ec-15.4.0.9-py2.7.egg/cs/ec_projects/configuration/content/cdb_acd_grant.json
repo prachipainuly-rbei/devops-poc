@@ -1,0 +1,18 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes", "allow": "EC Statechange", "class": "cdbecm_ec", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (EXECUTION)", "allow": "CHANGE", "class": "cdbecm_ec", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (EXECUTION)", "allow": "create", "class": "cdbecm_ec", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (EXECUTION)", "allow": "delete", "class": "cdbecm_ec", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (EXECUTION)", "allow": "ec_index_item", "class": "cdbecm_ec", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (EXECUTION)", "allow": "ec_planned_changes", "class": "cdbecm_ec", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (NEW)", "allow": "CHANGE", "class": "cdbecm_ec", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (NEW)", "allow": "create", "class": "cdbecm_ec", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (NEW)", "allow": "delete", "class": "cdbecm_ec", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (NEW)", "allow": "ec_planned_changes", "class": "cdbecm_ec", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.ec_projects"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

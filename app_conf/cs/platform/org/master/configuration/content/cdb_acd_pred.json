@@ -1,0 +1,11 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle", "predicate_name": "Alle Personenstammdaten", "table_name": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:eigener Eintrag", "predicate_name": "Meine Personendaten", "table_name": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:ohne CDB Account", "predicate_name": "Personen ohne CIM DATABASE Account", "table_name": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

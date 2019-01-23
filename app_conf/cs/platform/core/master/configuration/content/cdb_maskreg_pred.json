@@ -1,0 +1,9 @@
+{
+  "cdb_maskreg_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbdd_predefined_field_comp", "mask_role_id": "public", "name": "cdbdd_field_activity", "predicate_name": "ddfield:IsNotPredefinedState", "table_name": "cdbdd_field"}, "DATA": {"cdb_module_id": "cs.platform.core"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "cdb_dragdropatt": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"drag_attrib": "benennung", "drag_classname": "part", "drop_classname": "bom_item"}, "DATA": {"cdb_module_id": "cs.vp.bom", "drop_attrib": "benennung"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "cdb_status_txt", "drag_classname": "part", "drop_classname": "bom_item"}, "DATA": {"cdb_module_id": "cs.vp.bom", "drop_attrib": "cdb_status_txt"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "eng_benennung", "drag_classname": "part", "drop_classname": "bom_item"}, "DATA": {"cdb_module_id": "cs.vp.bom", "drop_attrib": "eng_benennung"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "gebrauchsstand", "drag_classname": "part", "drop_classname": "bom_item"}, "DATA": {"cdb_module_id": "cs.vp.bom", "drop_attrib": "gebrauchsstand"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "mengeneinheit", "drag_classname": "part", "drop_classname": "bom_item"}, "DATA": {"cdb_module_id": "cs.vp.bom", "drop_attrib": "mengeneinheit"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "status", "drag_classname": "part", "drop_classname": "bom_item"}, "DATA": {"cdb_module_id": "cs.vp.bom", "drop_attrib": "status"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "t_index", "drag_classname": "part", "drop_classname": "bom_item"}, "DATA": {"cdb_module_id": "cs.vp.bom", "drop_attrib": "t_index"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "techdaten", "drag_classname": "part", "drop_classname": "bom_item"}, "DATA": {"cdb_module_id": "cs.vp.bom", "drop_attrib": "techdaten"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "teilenummer", "drag_classname": "part", "drop_classname": "bom_item"}, "DATA": {"cdb_module_id": "cs.vp.bom", "drop_attrib": "teilenummer"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

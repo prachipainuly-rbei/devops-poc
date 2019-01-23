@@ -1,0 +1,32 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "abt_nummer_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_add_type_br_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_add_type_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_address_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_angest_tab", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_angest_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "CONTACT", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_country_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_employee_template", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_gender", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_gender_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_role_assignment_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "CONTACT", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_role_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_language_browser_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_language_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_org_address_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_org_type_br_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_org_type_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_organization", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_per_address_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_person_tab", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_person_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_phone_type", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_phone_types", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_template_role", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

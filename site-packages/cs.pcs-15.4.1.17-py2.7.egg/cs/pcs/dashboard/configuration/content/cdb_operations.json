@@ -1,0 +1,10 @@
+{
+  "cdb_operations": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "", "name": "CDB_eLink_kosmodrom"}, "DATA": {"applicability": "Meta", "cdb_module_id": "cs.pcs.dashboard", "comp_name": "cdb_elink_kosmodrom", "descr": "", "essential_op": 0, "help_url": "", "label": "", "mask_name": "", "mask_name_webui": null, "menu_visible": 0, "menugroup": null, "offer_in_web_ui": 0, "ordering": null, "render_comp_id": null, "url": null}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_project", "name": "cdbpcs_launch_project_dashboard"}, "DATA": {"applicability": "MultipleObjects", "cdb_module_id": "cs.pcs.dashboard", "comp_name": "", "descr": "", "essential_op": 0, "help_url": "", "label": "cdbpcs_launch_project_dashboard", "mask_name": "", "mask_name_webui": null, "menu_visible": 1, "menugroup": 30, "offer_in_web_ui": 0, "ordering": 50, "render_comp_id": null, "url": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

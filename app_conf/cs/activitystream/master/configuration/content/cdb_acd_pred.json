@@ -1,0 +1,14 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cdbblog: All Subscriptions", "predicate_name": "All", "table_name": "cdbblog_subscription"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"acd_id": "cdbblog: My Subscriptions", "predicate_name": "My", "table_name": "cdbblog_subscription"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.activitystream: Comments", "predicate_name": "cs.activitystream: Comments", "table_name": "cdbblog_comment"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.activitystream: My Comments", "predicate_name": "cs.activitystream: My Comments", "table_name": "cdbblog_comment"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.activitystream: My Postings", "predicate_name": "cs.activitystream: My Postings", "table_name": "cdbblog_posting"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.activitystream: Postings", "predicate_name": "cs.activitystream: Postings", "table_name": "cdbblog_posting"}, "DATA": {"cdb_module_id": "cs.activitystream"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

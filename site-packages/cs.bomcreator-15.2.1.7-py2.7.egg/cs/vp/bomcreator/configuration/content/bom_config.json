@@ -1,0 +1,9 @@
+{
+  "bom_config": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "5bceaa30-b6a3-11e0-aa90-6cf049769241"}, "DATA": {"cad_system": "default_cad", "cadsource": null, "method_name": "Keine St\u00fcckliste erzeugen", "name": "Default", "priority": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

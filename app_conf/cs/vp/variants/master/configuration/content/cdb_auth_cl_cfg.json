@@ -1,0 +1,26 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_catalogue", "relation": "cdbvp_catalogue_enum_def"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_catalogue", "relation": "cdbvp_catalogue_folder"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_catalogue", "relation": "cdbvp_catalogue_prop2folder"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_catalogue", "relation": "cdbvp_catalogue_property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_catalogue", "relation": "cdbvp_catalogue_value_folder"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_constraint"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_ddhelper_prop_on_constr"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_enum_def"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_predicate"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_product_view"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_property_dependency"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_property_folder"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_property_folder2property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_property_value"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_term"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_variant"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components", "relation": "cdbvp_variant_mapping"}, "DATA": {"cdb_module_id": "cs.vp.variants"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

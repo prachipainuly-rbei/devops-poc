@@ -1,0 +1,19 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cs_tasks_attr2class", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_attr2cls_attr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_attr2column", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_class2attr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_class2context", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_class2plugins", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_class2relships", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_class2rule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_class_relship2plugins", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_column2attr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_user_view2customized", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.taskmanager"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

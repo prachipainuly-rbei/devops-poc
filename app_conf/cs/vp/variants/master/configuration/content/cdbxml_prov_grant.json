@@ -1,0 +1,24 @@
+{
+  "cdbxml_prov_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "VPMBomComparison", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "VariantBOMComparison"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMBomComparison", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "VariantComparisonProvider"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMBomComparison", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "VariantMaxBOMProvider"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMBomComparison", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Variant_N"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Product"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "StatusNames"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "VariantBOM"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "VariantMaxBOMProvider"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMHierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Variant_1"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMVirtualHierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "HierarchicalBOM"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMVirtualHierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "MaxBOM"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMVirtualHierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "StatusNames"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VPMVirtualHierarchicalBOM", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "VirtualVariantProvider"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VirtualVPMBomComparison", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "MaxBOM"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VirtualVPMBomComparison", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "VirtualVariantBOMComparison"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "VirtualVPMBomComparison", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "VirtualVariantComparisonProvider"}, "DATA": {"cdb_module_id": "cs.vp.variants", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

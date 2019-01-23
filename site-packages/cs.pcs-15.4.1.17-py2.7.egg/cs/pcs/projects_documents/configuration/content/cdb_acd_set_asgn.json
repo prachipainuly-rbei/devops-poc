@@ -1,0 +1,12 @@
+{
+  "cdb_acd_set_asgn": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

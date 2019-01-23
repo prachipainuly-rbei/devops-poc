@@ -1,0 +1,10 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "cdbpcs_msp_syncrel_c"}, "DATA": {"browser_tabelle": "cdb_columns_tab", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.pcs.msproject", "check_value": 0, "classname": "", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 1, "proposal_class": "", "relation": "cdb_columns", "search_mask": "cdb_columns_mask", "title_cs": "", "title_de": "Spalte-Synchr.", "title_en": "Column sync.", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "S\u00fctun sync", "title_zh": "\u5217\u540c\u6b65."}},
+      {"PRIMARY_KEYS": {"katalog": "cdbpcs_msp_syncrel_f"}, "DATA": {"browser_tabelle": "cdbpcs_msp_fields_b", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.pcs.msproject", "check_value": 0, "classname": "", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 1, "proposal_class": "", "relation": "cdbpcs_msp_fields", "search_mask": "cdbpcs_msp_fields_s", "title_cs": "", "title_de": "Feld-Synchr.", "title_en": "Field sync.", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Alan sync", "title_zh": "\u533a\u57df\u540c\u6b65."}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_maskreg_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbvp_property", "mask_role_id": "public", "name": "cdbvp_property_catalogue_diff", "predicate_name": "cs.vp: VPM Properties (from catalog)", "table_name": "cdbvp_property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_role_exc2cdb_roleexc_per"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.platform.excaccess", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "Exceptional global role assignments to persons", "dropreferenceok": 1, "label": "cdb_roleexc_per", "menugroup": 1000, "node_tag": "", "ordering": 10, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdb_roleexc_per", "reference_kmap": "role_id=role_id;subject_id=subject_id;subject_type=subject_type;exception_id=exception_id", "referer": "cdb_role_exc", "referer_kmap": "exception_id=exception_id", "relship_cldef": "cdb_roleexc_per", "relship_table": "", "rolename": "RoleAssignmentToPersons", "rs_acc_prof": "", "rs_profile": "cdb_aggregation_1_N", "show_in_mask": 1, "show_in_menu": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_role_exc2cdb_roleexc_rol"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.platform.excaccess", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "Exceptional global role assignments to global roles", "dropreferenceok": 1, "label": "cdb_roleexc_rol", "menugroup": 1000, "node_tag": "", "ordering": 20, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdb_roleexc_rol", "reference_kmap": "role_id=role_id;subject_id=subject_id;subject_type=subject_type;exception_id=exception_id", "referer": "cdb_role_exc", "referer_kmap": "exception_id=exception_id", "relship_cldef": "cdb_roleexc_rol", "relship_table": "", "rolename": "RoleAssignmentToCommonRoles", "rs_acc_prof": "", "rs_profile": "cdb_aggregation_1_N", "show_in_mask": 1, "show_in_menu": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

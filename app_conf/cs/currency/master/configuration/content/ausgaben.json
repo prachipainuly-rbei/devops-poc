@@ -1,0 +1,10 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpco_conversions"}, "DATA": {"cdb_module_id": "cs.currency", "cs": "", "d": "Umrechnungen", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "\u00c7evrimler", "uk": "Conversions", "zh": "\u8f6c\u6362"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpco_currency"}, "DATA": {"cdb_module_id": "cs.currency", "cs": "", "d": "W\u00e4hrungen", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Para birimleri", "uk": "Currencies", "zh": "\u8d27\u5e01"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

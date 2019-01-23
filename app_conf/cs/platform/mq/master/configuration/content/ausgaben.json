@@ -1,0 +1,12 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbmq_ctlmsg"}, "DATA": {"cdb_module_id": "cs.platform.mq", "cs": "", "d": "Steuerungsmeldung des MQ-Servers", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "MQ sunucusu kontrol mesajlar\u0131", "uk": "Control Messages of MQ Server", "zh": "\u63a7\u5236MQ\u670d\u52a1\u5668\u7684\u6d88\u606f"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbmq_event"}, "DATA": {"cdb_module_id": "cs.platform.mq", "cs": "", "d": "Message Queue Events", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "MQ-olaylar\u0131", "uk": "Message Queue Events", "zh": "MQ\u4e8b\u4ef6"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbmq_queues"}, "DATA": {"cdb_module_id": "cs.platform.mq", "cs": "", "d": "Message Queues", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Mesaj sorgular\u0131", "uk": "Message Queues", "zh": "\u6d88\u606f\u5e8f\u5217"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbmq_registry"}, "DATA": {"cdb_module_id": "cs.platform.mq", "cs": "", "d": "Registrierte MQ Server", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Kay\u0131tl\u0131 mq sunucular\u0131", "uk": "Registered MQ Servers", "zh": "\u6ce8\u518c\u7684MQ\u670d\u52a1\u5668"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

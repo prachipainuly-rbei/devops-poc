@@ -1,0 +1,22 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklist Item Templates"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 1, "description": "Checklist Items of Checklist Templates"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklist Items"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklist Items (NEW)"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklist Items (READY)"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklist Templates"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklists (EVALUATION)"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklists (NEW)"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Deliverables"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Checklist Items (NEW)"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Checklist Items (READY)"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Checklists (EVALUATION)"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Checklists (NEW)"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

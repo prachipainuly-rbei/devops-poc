@@ -1,0 +1,29 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cad_assembly", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cad_assembly", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cad_assembly", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "cad_assembly", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "cad_assembly", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cad_assembly", "zielstatus": 170}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cad_assembly", "zielstatus": 190}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cad_drawing", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cad_drawing", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cad_drawing", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "cad_drawing", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "cad_drawing", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cad_drawing", "zielstatus": 170}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cad_drawing", "zielstatus": 190}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cad_part", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cad_part", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cad_part", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "cad_part", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "cad_part", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cad_part", "zielstatus": 170}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cad_part", "zielstatus": 190}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.vp.cad", "rang": 0, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

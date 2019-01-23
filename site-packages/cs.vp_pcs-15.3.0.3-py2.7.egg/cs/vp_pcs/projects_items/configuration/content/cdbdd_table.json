@@ -1,0 +1,10 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_part2task"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp_pcs.projects_items"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_rexc_prt"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp_pcs.projects_items"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "name": "cdbqc: optimal actions", "predicate_name": "Optimal Action"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Action which is used to calculate optimal action mix"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cdb.objects.org.Person", "name": "cdbqc: users with valid account", "predicate_name": "Both dates set"}, "DATA": {"cdb_module_id": "cs.metrics", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cdb.objects.org.Person", "name": "cdbqc: users with valid account", "predicate_name": "No dates set"}, "DATA": {"cdb_module_id": "cs.metrics", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cdb.objects.org.Person", "name": "cdbqc: users with valid account", "predicate_name": "Only end date set"}, "DATA": {"cdb_module_id": "cs.metrics", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cdb.objects.org.Person", "name": "cdbqc: users with valid account", "predicate_name": "Only start date set"}, "DATA": {"cdb_module_id": "cs.metrics", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "name": "cdbqc: valid actions", "predicate_name": "Valid Action"}, "DATA": {"cdb_module_id": "cs.metrics", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.metrics.qualitycharacteristics.QualityCharacteristic", "name": "cdbqc: visible quality characteristics", "predicate_name": "My Quality Characteristics"}, "DATA": {"cdb_module_id": "cs.metrics", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.metrics.qualitycharacteristics.QualityCharacteristic", "name": "cdbqc: visible quality characteristics", "predicate_name": "Public Quality Characteristics"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Apparently the other predicate does not work with 'public' as responsible"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

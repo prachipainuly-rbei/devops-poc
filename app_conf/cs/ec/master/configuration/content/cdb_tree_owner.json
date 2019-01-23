@@ -1,0 +1,20 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "1892850f-21f0-11e3-98c7-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "1accd7a1-f109-11e5-bf23-cc3d8239ce24", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "433c0d8f-f7c3-11e4-9979-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "56cc67e1-445d-11e2-9fc5-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "56cc67e1-445d-11e2-9fc5-f0def133d0a6", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "91db5ca5-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "91db5ca5-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "92207c6d-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "92207c6d-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "922a0538-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "922a0538-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "9235f037-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

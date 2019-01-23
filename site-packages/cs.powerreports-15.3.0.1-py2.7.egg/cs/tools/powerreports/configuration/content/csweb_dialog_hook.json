@@ -1,0 +1,11 @@
+{
+  "csweb_dialog_hook": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribut": ".cdbxml_report_tmpl_title", "dialog_name": "cdbxml_select_report", "hook_name": "cdbxml_excel_report_change"}, "DATA": {"active": 1, "cdb_module_id": "cs.tools.powerreports", "position": 50}},
+      {"PRIMARY_KEYS": {"attribut": "::PRE_SUBMIT::", "dialog_name": "cdbxml_select_report", "hook_name": "cdbxml_excel_report_post"}, "DATA": {"active": 1, "cdb_module_id": "cs.tools.powerreports", "position": 30}},
+      {"PRIMARY_KEYS": {"attribut": "::PRE_DISPLAY::", "dialog_name": "cdbxml_select_report", "hook_name": "cdbxml_excel_report_pre"}, "DATA": {"active": 1, "cdb_module_id": "cs.tools.powerreports", "position": 40}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

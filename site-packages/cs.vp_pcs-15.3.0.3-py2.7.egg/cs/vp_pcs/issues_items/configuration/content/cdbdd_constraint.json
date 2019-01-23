@@ -1,0 +1,9 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0f129816-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp_pcs.issues_items", "classname": "cdbpcs_part2iss", "description": "", "exclude_empty_values": null, "fields_info": "teilenummer, t_index, cdb_project_id, issue_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

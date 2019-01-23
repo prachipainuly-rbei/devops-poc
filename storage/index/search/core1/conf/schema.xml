@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+ contributor license agreements.  See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ The ASF licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<!--  
+ For more information, on how to customize this file, please see
+ http://wiki.apache.org/solr/SchemaXml
+-->
+
+<schema name="cdb" version="1.5">
+  <types>
+    <!-- field type definitions. The "name" attribute is
+       just a label to be used by field definitions.  The "class"
+       attribute and any other attributes determine the real
+       behavior of the fieldType.
+       Class names starting with "solr" refer to java classes in the
+       org.apache.solr.analysis package.
+    -->
+
+    <!-- The StrField type is not analyzed, but indexed/stored verbatim.  
+       - StrField and TextField support an optional compressThreshold which
+       limits compression (if enabled in the derived fields) to values which
+       exceed a certain size (in characters).
+    -->
+    <fieldType name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
+
+    <!-- boolean type: "true" or "false" -->
+    <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true" omitNorms="true"/>
+
+    <!-- The optional sortMissingLast and sortMissingFirst attributes are
+         currently supported on types that are sorted internally as strings.
+	 This includes "string","boolean","sint","slong","sfloat","sdouble","pdate"
+       - If sortMissingLast="true", then a sort on this field will cause documents
+         without the field to come after documents with the field,
+         regardless of the requested sort order (asc or desc).
+       - If sortMissingFirst="true", then a sort on this field will cause documents
+         without the field to come before documents with the field,
+         regardless of the requested sort order.
+       - If sortMissingLast="false" and sortMissingFirst="false" (the default),
+         then default lucene sorting will be used which places docs without the
+         field first in an ascending sort and last in a descending sort.
+    -->    
+
+    <!-- Default numeric field types.  For faster range queries, consider the tint/tfloat/tlong/tdouble types.
+      Note: the statistics component does not yet work with these field types.
+    -->
+    <fieldType name="int" class="solr.TrieIntField" precisionStep="0" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="float" class="solr.TrieFloatField" precisionStep="0" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="long" class="solr.TrieLongField" precisionStep="0" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="double" class="solr.TrieDoubleField" precisionStep="0" omitNorms="true" positionIncrementGap="0"/>
+
+    <!--
+     Numeric field types that index each value at various levels of precision
+     to accelerate range queries when the number of values between the range
+     endpoints is large. See the javadoc for NumericRangeQuery for internal
+     implementation details.
+
+     Smaller precisionStep values (specified in bits) will lead to more tokens
+     indexed per value, slightly larger index size, and faster range queries.
+
+     Note: faceting does not currently work for these fields.
+    -->
+    <fieldType name="tint" class="solr.TrieIntField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="tfloat" class="solr.TrieFloatField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="tlong" class="solr.TrieLongField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="tdouble" class="solr.TrieDoubleField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+
+    <!-- The format for this date field is of the form 1995-12-31T23:59:59Z, and
+         is a more restricted form of the canonical representation of dateTime
+         http://www.w3.org/TR/xmlschema-2/#dateTime    
+         The trailing "Z" designates UTC time and is mandatory.
+         Optional fractional seconds are allowed: 1995-12-31T23:59:59.999Z
+         All other components are mandatory.
+
+         Expressions can also be used to denote calculations that should be
+         performed relative to "NOW" to determine the value, ie...
+
+               NOW/HOUR
+                  ... Round to the start of the current hour
+               NOW-1DAY
+                  ... Exactly 1 day prior to now
+               NOW/DAY+6MONTHS+3DAYS
+                  ... 6 months and 3 days in the future from the start of
+                      the current day
+                      
+         Consult the DateField javadocs for more information.
+      -->
+    <fieldType name="date" class="solr.TrieDateField" omitNorms="true" precisionStep="0" positionIncrementGap="0"/>
+
+    <!-- A Trie based date field for faster date range queries and date faceting. -->
+    <fieldType name="tdate" class="solr.TrieDateField" omitNorms="true" precisionStep="6" positionIncrementGap="0"/>
+
+    <fieldType name="term" class="solr.TextField" positionIncrementGap="100">
+      <analyzer>
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <!--The filter removes all non-numeric and non alpha characters from the beginnijng and end of terms, while leaving them 
+            intact within it. The following example is a little over the top.
+                        -#+?)aabfoofoofoof.bar-yippee(,,,,  will be reduced to aabfoofoofoof.bar-yippee.
+        -->
+        <filter class="solr.PatternReplaceFilterFactory" 
+                pattern="(\A[^a-zA-Z0-9]*|[^a-zA-Z0-9]*\z)" 
+                replacement="" 
+                replace="all" /> 
+      </analyzer>
+    </fieldType>
+
+    <!--#########################################################################
+        CONTACT Elements uses different field types for the four fields we query on
+        plus one type for auxiliary fields for highlighting, summary and so on.
+        This way it is possible to configure the fields different to get
+        better results and/or a smaller index.
+        Note that in the standard configuration all types are defined equally.
+        #########################################################################
+    -->  
+
+    <!-- Type for field "identifying" -->
+    <fieldType name="cdb_identifying" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+	<filter class="solr.LimitTokenCountFilterFactory" maxTokenCount="250000" />
+        <!--<filter class="solr.SynonymFilterFactory" 
+                synonyms="cdb_synonyms_index.txt" 
+                ignoreCase="true" 
+                expand="true"/>-->
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.WordDelimiterFilterFactory" 
+                generateWordParts="1"
+                generateNumberParts="0" 
+                catenateWords="0" 
+                catenateNumbers="0" 
+                catenateAll="1" 
+                splitOnCaseChange="0"
+                splitOnNumerics="0"
+                preserveOriginal="1"
+                types="wdfftypes.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <!--<filter class="solr.DictionaryCompoundWordTokenFilterFactory" 
+                dictionary="cdb_dictionary.txt" />-->
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+        <filter class="solr.ReversedWildcardFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <!--<filter class="solr.SynonymFilterFactory" 
+                synonyms="cdb_synonyms_query.txt" 
+                ignoreCase="true" 
+                expand="true"/>-->
+        <filter class="solr.WordDelimiterFilterFactory"
+                generateNumberParts="0"
+                splitOnCaseChange="0"
+                splitOnNumerics="0"
+                preserveOriginal="1"
+                types="wdfftypes.txt"/>
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <!-- Type for field "classifying" -->
+    <fieldType name="cdb_classifying" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LimitTokenCountFilterFactory" maxTokenCount="250000" />
+        <!--<filter class="solr.SynonymFilterFactory" 
+                synonyms="cdb_synonyms_index.txt" 
+                ignoreCase="true" 
+                expand="true"/>-->
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.WordDelimiterFilterFactory" 
+                generateWordParts="1"
+                generateNumberParts="0" 
+                catenateWords="0" 
+                catenateNumbers="0" 
+                catenateAll="1" 
+                splitOnCaseChange="0"
+                splitOnNumerics="0"
+                preserveOriginal="1"
+                types="wdfftypes.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <!--<filter class="solr.DictionaryCompoundWordTokenFilterFactory" 
+                dictionary="cdb_dictionary.txt" />-->
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+        <filter class="solr.ReversedWildcardFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <!--<filter class="solr.SynonymFilterFactory" 
+                synonyms="cdb_synonyms_query.txt" 
+                ignoreCase="true" 
+                expand="true"/>-->
+        <filter class="solr.WordDelimiterFilterFactory"
+                generateNumberParts="0"
+                splitOnCaseChange="0"
+                splitOnNumerics="0"
+                preserveOriginal="1"
+                types="wdfftypes.txt"/>
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <!-- Type for field "descriptive" -->
+    <fieldType name="cdb_descriptive" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LimitTokenCountFilterFactory" maxTokenCount="250000" />
+        <!--<filter class="solr.SynonymFilterFactory" 
+                synonyms="cdb_synonyms_index.txt" 
+                ignoreCase="true" 
+                expand="true"/>-->
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.WordDelimiterFilterFactory" 
+                generateWordParts="1"
+                generateNumberParts="0" 
+                catenateWords="0" 
+                catenateNumbers="0" 
+                catenateAll="1" 
+                splitOnCaseChange="0"
+                splitOnNumerics="0"
+                preserveOriginal="1"
+                types="wdfftypes.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <!--<filter class="solr.DictionaryCompoundWordTokenFilterFactory" 
+                dictionary="cdb_dictionary.txt" />-->
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+        <filter class="solr.ReversedWildcardFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <!--<filter class="solr.SynonymFilterFactory" 
+                synonyms="cdb_synonyms_query.txt" 
+                ignoreCase="true" 
+                expand="true"/>-->
+        <filter class="solr.WordDelimiterFilterFactory"
+                generateNumberParts="0"
+                splitOnCaseChange="0"
+                splitOnNumerics="0"
+                preserveOriginal="1"
+                types="wdfftypes.txt"/>
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <!-- Type for field "content" -->
+    <fieldType name="cdb_content" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LimitTokenCountFilterFactory" maxTokenCount="250000" />
+        <!--<filter class="solr.SynonymFilterFactory" 
+                synonyms="cdb_synonyms_index.txt" 
+                ignoreCase="true" 
+                expand="true"/>-->
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.WordDelimiterFilterFactory" 
+                generateWordParts="1"
+                generateNumberParts="0" 
+                catenateWords="0" 
+                catenateNumbers="0" 
+                catenateAll="1" 
+                splitOnCaseChange="0"
+                splitOnNumerics="0"
+                preserveOriginal="1"
+                types="wdfftypes.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <!--<filter class="solr.DictionaryCompoundWordTokenFilterFactory" 
+                dictionary="cdb_dictionary.txt" />-->
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+        <filter class="solr.ReversedWildcardFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <!--<filter class="solr.SynonymFilterFactory" 
+                synonyms="cdb_synonyms_query.txt" 
+                ignoreCase="true" 
+                expand="true"/>-->
+        <filter class="solr.WordDelimiterFilterFactory"
+                generateNumberParts="0"
+                splitOnCaseChange="0"
+                splitOnNumerics="0"
+                preserveOriginal="1"
+                types="wdfftypes.txt"/>
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <!-- Auxiliary type -->
+    <fieldType name="cdb_text" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LimitTokenCountFilterFactory" maxTokenCount="250000" />
+        <!--<filter class="solr.SynonymFilterFactory" 
+                synonyms="cdb_synonyms_index.txt" 
+                ignoreCase="true" 
+                expand="true"/>-->
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.WordDelimiterFilterFactory" 
+                generateWordParts="1"
+                generateNumberParts="0" 
+                catenateWords="0" 
+                catenateNumbers="0" 
+                catenateAll="1" 
+                splitOnCaseChange="0"
+                splitOnNumerics="0"
+                preserveOriginal="1"
+                types="wdfftypes.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <!--<filter class="solr.DictionaryCompoundWordTokenFilterFactory" 
+                dictionary="cdb_dictionary.txt" />-->
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+        <filter class="solr.ReversedWildcardFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <!--<filter class="solr.SynonymFilterFactory" 
+                synonyms="cdb_synonyms_query.txt" 
+                ignoreCase="true" 
+                expand="true"/>-->
+        <filter class="solr.WordDelimiterFilterFactory"
+                generateNumberParts="0"
+                splitOnCaseChange="0"
+                splitOnNumerics="0"
+                preserveOriginal="1"
+                types="wdfftypes.txt"/>
+        <filter class="solr.StopFilterFactory" 
+                ignoreCase="true" 
+                words="cdb_stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory"/>
+      </analyzer>
+    </fieldType>
+ </types>
+
+ <fields>
+   <!-- cdb_object_id of the IndexJob having run the last index update for this object -->
+   <field name="job_id" type="string" indexed="true" stored="true" required="true"/> 
+   <!-- cdb_object_id of the object being indexed -->
+   <field name="object_id" type="string" indexed="true" stored="true" required="true"/> 
+   <!-- type/classname of the object being indexed -->
+   <field name="object_type" type="string" indexed="true" stored="true" required="true"/> 
+   <!-- cdb_object_id of the object's owner. Is identical to object_id, if not file/blob -->
+   <field name="owner_id" type="string" indexed="true" stored="true" required="true"/> 
+   <!-- type/classname of the object's owner. Is identical to object_type, if not file/blob -->
+   <field name="owner_type" type="string" indexed="true" stored="true" required="true"/> 
+
+   <!-- Ranking factor fields -->
+   <field name="identifying" type="cdb_identifying" indexed="true" stored="true" multiValued="true"/>
+   <field name="classifying" type="cdb_classifying" indexed="true" stored="true" multiValued="true"/>
+   <field name="descriptive" type="cdb_descriptive" indexed="true" stored="true" multiValued="true"/>
+   <field name="content" type="cdb_content" indexed="true" stored="false" multiValued="true"/>
+
+   <!-- Housekeeping fields -->
+   <field name="contentHL" type="cdb_text" indexed="true" stored="true" multiValued="true" 
+          termVectors="true" termPositions="true" termOffsets="true"/>
+   <field name="summary" type="cdb_text" indexed="false" stored="true"/>
+   <field name="lang" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
+   <field name="cdb_date" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
+   <field name="autocomplete" type="term" indexed="true" stored="true" multiValued="true"/>   
+   <field name="cdb_obsolete"  type="boolean" indexed="true"  stored="true" default="false"/>
+
+   <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
+ </fields>
+
+ <!-- Unique key: cdb_object_id of the object or blob being indexed. -->
+ <uniqueKey>object_id</uniqueKey>
+
+ <!-- field for the QueryParser to use when an explicit fieldname is absent -->
+ <defaultSearchField>content</defaultSearchField>
+
+ <!-- SolrQueryParser configuration: defaultOperator="AND|OR" -->
+ <solrQueryParser defaultOperator="AND"/>
+
+  <!-- copyField commands copy one field to another at the time a document
+        is added to the index.  It's used either to index the same field differently,
+        or to add multiple fields to the same field for easier/faster searching.  -->
+
+ <copyField source="identifying" dest="autocomplete"/>
+ <copyField source="classifying" dest="autocomplete"/>
+ <copyField source="descriptive" dest="autocomplete"/>
+ <copyField source="content" dest="autocomplete" maxChars="10000"/>
+ <copyField source="content" dest="contentHL" maxChars="500000"/>
+	
+</schema>

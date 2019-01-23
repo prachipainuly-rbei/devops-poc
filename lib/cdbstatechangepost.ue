@@ -1,0 +1,17 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbstatechangepost.ue 101791 2013-09-10 12:24:05Z js $
+#
+# CIM DATABASE user exit
+# (C) 2000 CONTACT Software GmbH
+#
+
+from cdb import ue
+
+
+class cdbstatechangepost:
+    def impl(self, ctx):
+        pass
+
+if __name__ == "__main__":
+    ue.run(cdbstatechangepost)

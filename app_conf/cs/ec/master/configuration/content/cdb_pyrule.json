@@ -1,0 +1,9 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbecm: EC Reference modifiable"}, "DATA": {"cdb_module_id": "cs.ec", "description": "Documents, parts and other objects for which the assignment to an engineering change can be modified later on"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

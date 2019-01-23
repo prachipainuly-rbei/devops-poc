@@ -1,0 +1,19 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_export_task_attrs_to_excel"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": null, "d": "MS Project/Aufgabenattribute exportieren (Excel)", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "MS Project/Export Task Attributes (Excel)", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_export_to_xml"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": "", "d": "MS Project/Projekt exportieren (XML)", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "", "uk": "MS Project/Export Project (XML)", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_import_from_xml"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": "", "d": "MS Project/Projekt importieren && aktualisieren (XML)", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "", "uk": "MS Project/Import && update Project (XML)", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_msp_import"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": null, "d": "MS Project - Importieren und aktualisieren", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "MS Project - Import and update", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.msp-imports.cancel"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": null, "d": "Abbrechen", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Cancel", "zh": null}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.msp-imports.close"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": "", "d": "Schlie\u00dfen", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "", "uk": "Close", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.msp-imports.error"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": null, "d": "Fehler", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Error", "zh": null}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.msp-imports.errors"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": null, "d": "Fehler", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Errors", "zh": null}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.msp-imports.execute_import"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": null, "d": "Import ausf\u00fchren", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Execute Import", "zh": null}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.msp-imports.please_wait"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": null, "d": "Bitte warten...", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Please wait...", "zh": null}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.msp-imports.synced"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": null, "d": "Vollst\u00e4ndig synchronisiert!", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Fully synchronized!", "zh": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

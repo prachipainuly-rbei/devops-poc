@@ -1,0 +1,11 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "CDB_FulltextSearch"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.platform.es", "client_desc": "", "descr": "", "html_help": "", "icon_id": "ES_Search", "inactive": 0, "kind": "PowerScript", "label": "cdb_fulltextsearch", "label_ok": "", "menu_visible": 0, "menugroup": 100, "ordering": 1000, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbdd_es_index_class"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.platform.es", "client_desc": "", "descr": null, "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "cdbdd_es_index_cls", "label_ok": "", "menu_visible": 1, "menugroup": 120, "ordering": 10, "rs_visible": 0}},
+      {"PRIMARY_KEYS": {"name": "cdbes_restart_jobs"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.platform.es", "client_desc": "cdbes_restart_jobs", "descr": "", "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "cdbes_restart_jobs", "label_ok": "", "menu_visible": 1, "menugroup": 999, "ordering": 999, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

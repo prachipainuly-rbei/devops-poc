@@ -1,0 +1,9 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs_timesheet_elink"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.pcs.efforts", "client_desc": "", "descr": "", "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "cdbpcs_ts_elink", "label_ok": "", "menu_visible": 1, "menugroup": 10, "ordering": 15, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

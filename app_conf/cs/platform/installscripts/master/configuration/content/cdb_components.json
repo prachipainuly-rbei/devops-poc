@@ -1,0 +1,11 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_run_custupdate", "role_id": "Administrator"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.installscripts", "classname": "", "description": "Run a custom update", "filename": "cdb_run_custupdate.ue", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_SCRIPTDIR)"}},
+      {"PRIMARY_KEYS": {"name": "cdb_script_log_checked", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.installscripts", "classname": "", "description": "Implements the issue evaluation of custom updates", "filename": "cdb_script_log_checked.ue", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_SCRIPTDIR)"}},
+      {"PRIMARY_KEYS": {"name": "cdbserver_cdb_custupdate", "role_id": "Administrator"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.installscripts", "classname": "cdb_custupdate", "description": "Registers custom update scripts", "filename": "cdbserver_cdb_custupdate.ue", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_SCRIPTDIR)"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

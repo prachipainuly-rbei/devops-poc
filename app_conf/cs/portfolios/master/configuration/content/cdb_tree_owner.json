@@ -1,0 +1,11 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "13a6f440-638e-11e1-a19c-001bfc744136", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"id": "13a6f440-638e-11e1-a19c-001bfc744136", "role_id": "Portfolio: Manager"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"id": "8353a621-3037-11e5-9b1a-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.portfolios"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

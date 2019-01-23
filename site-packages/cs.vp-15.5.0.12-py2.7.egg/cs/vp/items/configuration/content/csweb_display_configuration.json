@@ -1,0 +1,9 @@
+{
+  "csweb_display_configuration": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "part", "name": "object_header"}, "DATA": {"cdb_module_id": "cs.vp.items", "mask_name": "part_object_header"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

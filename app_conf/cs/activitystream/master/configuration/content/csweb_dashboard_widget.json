@@ -1,0 +1,9 @@
+{
+  "csweb_dashboard_widget": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "activitystream"}, "DATA": {"cdb_module_id": "cs.activitystream", "component": "cs-activitystream-web-DashboardWidget", "description_de": null, "description_en": null, "description_tr": null, "description_zh": null, "library_name": "cs-activitystream-web", "library_version": "15.1.0", "name_de": "Activity Stream", "name_en": "Activity Stream", "name_tr": "", "name_zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

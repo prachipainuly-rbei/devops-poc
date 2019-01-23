@@ -1,0 +1,10 @@
+{
+  "bom_method": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Dokumentspezifische Methode"}, "DATA": {"cdb_object_id": "5e0d79cf-b436-11e0-bd64-6cf049769241", "class_name": "cs.vp.bomcreator.takereaderfromdocument.TakeReaderFromDocument", "designation_cs": "", "designation_de": "Dokumentspezifische Methode", "designation_en": "Document Specific Method", "designation_es": "", "designation_fr": "", "designation_it": "", "designation_ja": "", "designation_ko": "", "designation_pl": "", "designation_pt": "", "designation_tr": "Belge spesifik metot", "designation_zh": "\u6587\u6863\u7279\u6b8a\u65b9\u6cd5"}},
+      {"PRIMARY_KEYS": {"name": "Keine St\u00fcckliste erzeugen"}, "DATA": {"cdb_object_id": "423e520f-0af3-11e6-b931-dd210e660279", "class_name": "cs.vp.bomcreator.generatenobom.GenerateNoBOM", "designation_cs": "", "designation_de": "Keine St\u00fcckliste erzeugen", "designation_en": "Generate no BOM", "designation_es": "", "designation_fr": "", "designation_it": "", "designation_ja": "", "designation_ko": "", "designation_pl": "", "designation_pt": "", "designation_tr": "Bile\u015fen yap\u0131s\u0131ndan olu\u015ftur", "designation_zh": "\u4ece\u7ec4\u4ef6\u59d0\u6b27\u80a1\u4e2d\u751f\u6210"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

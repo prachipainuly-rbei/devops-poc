@@ -1,0 +1,10 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdb_portfolio"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": "", "name_cs": "", "name_de": "Portfolios", "name_en": "Portfolios", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Portfolyolar", "name_zh": "\u7ec4\u5408", "objclass": "cdb_portfolio", "sys_wf": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdb_portfolio_folder"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": "", "name_cs": "", "name_de": "Portfolio-Ordner", "name_en": "Portfolio Folders", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Portfolyo klas\u00f6rleri", "name_zh": "\u7ec4\u5408\u6587\u4ef6\u5939", "objclass": "cdb_pf_folder", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

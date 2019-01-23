@@ -1,0 +1,49 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.2", 
+      "cs.activitystream": "15.3.1.4", 
+      "cs.base": "15.4.1.10", 
+      "cs.platform": "15.2.30"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.metrics", 
+        "required_module_id": "cs.actions"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.metrics", 
+        "required_module_id": "cs.shared"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "bf54b651-51fa-11e2-80db-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "37e6f27844cf265c7dd6e360fcd1a872", 
+      "name": "Metrics", 
+      "package": "cs.metrics"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.metrics"
+    }
+  }
+}

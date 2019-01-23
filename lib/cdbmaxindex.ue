@@ -1,0 +1,85 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbmaxindex.ue 115535 2014-10-10 13:29:56Z js $
+#
+# Copyright (C) 1990 - 2003 CONTACT Software GmbH
+# All rights reserved.
+# http://www.contact.de/
+#
+u"""
+Ermittlung des aktuellen maximalen Index
+
+Beispielimplementierung fuer die Auswertung von objstati.statusrelease
+Die Ermittlung des maximalen freigegeben Index ist nur für Klassen/
+Relationen geeignet in dem die objart in cdb_objectart und der Status in
+status steht, sowie für die Relation zeichnung.
+"""
+
+from cdb import misc
+from cdb import sqlapi
+from cdb import ue
+
+
+class cdbMaxIndex:
+    context_name = "talkcomponent"
+
+    def getMaxIndex(self, relation, numberAttribute, indexAttribute,
+                    sortAttribute, onlyReleased, number, currentIndex):
+        misc.log(0, "getting max index for %s %s %s %s" %
+                 (relation, number, currentIndex, onlyReleased))
+        if onlyReleased:
+            if relation == "zeichnung":
+                objart_attr1 = "z_art"
+                status_attr1 = "z_status"
+            else:
+                objart_attr1 = "cdb_objektart"
+                status_attr1 = "status "
+            selStmt = "SELECT %(indexAttribute)s, %(sortAttribute)s" \
+                      " FROM %(relation)s, objektstati" \
+                      " WHERE %(numberAttribute)s ='%(number)s' AND" \
+                      "   %(objart_attr1)s = objektstati.objektart AND" \
+                      "   %(status_attr1)s = objektstati.statusnummer AND" \
+                      "   objektstati.statusrelease>0" \
+                      " ORDER BY 2 DESC, 1 DESC" % (locals())
+        else:
+            selStmt = "SELECT %(indexAttribute)s, %(sortAttribute)s" \
+                      " FROM %(relation)s" \
+                      " WHERE %(numberAttribute)s = '%(number)s'" \
+                      " ORDER BY 2 DESC, 1 DESC"
+        recSet = sqlapi.RecordSet2(sql=selStmt)
+        retIdx = currentIndex
+        misc.log(5, "Results: %s" % len(recSet))
+        if len(recSet) > 0:
+            retIdx = recSet[0][indexAttribute]
+        return retIdx
+
+    def impl(self, ctx):
+        misc.log(7, "---- start cdbmaxindex")
+        lines = ctx.argv
+        count = len(lines)
+        # wir erwarten hier mindestens:
+        if count >= 8:
+            relation = lines[1].strip()
+            numberAttribute = lines[2].strip()
+            indexAttribute = lines[3].strip()
+            sortAttribute = lines[4].strip()
+            onlyReleased = (lines[5].strip() == "1")
+            number = lines[6].strip()
+            currentIndex = lines[7].strip()
+            if currentIndex == "___EMPTY":
+                currentIndex = ""
+            newIndex = self.getMaxIndex(relation,
+                                        numberAttribute,
+                                        indexAttribute,
+                                        sortAttribute,
+                                        onlyReleased,
+                                        number,
+                                        currentIndex)
+            ctx.set(newIndex)
+        else:
+            misc.log_error("cdbmaxindex: cdbmaxindex not enough parameters")
+            raise ue.Exception(3710, "not enough args")
+        misc.log(7, "-----end cdbmaxindex")
+
+if __name__ == "__main__":
+    ue.run(cdbMaxIndex)

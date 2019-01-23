@@ -1,0 +1,13 @@
+{
+  "cdb_location_t": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"location_type": "Built in"}, "DATA": {"descr": "Vorkonfiguriertes Standard-Icon"}},
+      {"PRIMARY_KEYS": {"location_type": "CDB File"}, "DATA": {"descr": "System-Datei. Im Feld Identifier wird die File-ID angegeben"}},
+      {"PRIMARY_KEYS": {"location_type": "Client Path"}, "DATA": {"descr": "Vom Client zugreifbarer Pfad. Im Feld Ablageort wird der Pfad angegeben, im Feld Identifier der Dateiname."}},
+      {"PRIMARY_KEYS": {"location_type": "Icon"}, "DATA": {"descr": "Das Feld Identifier ergibt nach der Auswertung eine Icon-ID"}},
+      {"PRIMARY_KEYS": {"location_type": "Server Path"}, "DATA": {"descr": "Vom Server zugreifbarer Pfad. Im Feld Ablageort wird der Pfad angegeben, im Feld Identifier der Dateiname."}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

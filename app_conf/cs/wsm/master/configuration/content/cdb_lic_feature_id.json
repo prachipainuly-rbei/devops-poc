@@ -1,0 +1,11 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "WSM_001"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "Allows to work with the Workspace Manager (incl. directly open CAD Documents, read/write of WSM Settings, Revision Rules, Manual File Assignments, Relevance Definition of File References)", "name": "WSM: Base"}},
+      {"PRIMARY_KEYS": {"id": "WSM_002"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "Allows to import PARTsolutions parts into to the system and to load PARTsolutions parts into Workspaces.\n", "name": "WSM: Integration CADENAS PARTsolutions"}},
+      {"PRIMARY_KEYS": {"id": "WSM_003"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "Allows external systems to import, load and search parts using the Workspace Manager.\n", "name": "WSM: External system integration"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

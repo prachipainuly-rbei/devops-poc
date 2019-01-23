@@ -1,0 +1,11 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.cad.CADVariant", "name": "BOM: Ignore Singleton Variant", "predicate_name": "SolidWorks Varianten"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "BOM: Recursive Ignore Component", "predicate_name": "Detect Unigraphics parts"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator", "description": "Exclude Unigraphics parts."}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "BOM: Recursive Ignore Component", "predicate_name": "Detect parts"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator", "description": "Exclude common part file types"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

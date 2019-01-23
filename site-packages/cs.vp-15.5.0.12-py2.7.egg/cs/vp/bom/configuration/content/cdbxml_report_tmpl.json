@@ -1,0 +1,14 @@
+{
+  "cdbxml_report_tmpl": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "BOMComparison", "report_title": "St\u00fccklistenvergleich"}, "DATA": {"cdb_module_id": "cs.vp.bom", "cdb_object_id": "1980c095-47dc-11df-b3ae-b3c5f2933047", "title": "Mengenvergleich"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "BOMComparison", "report_title": "St\u00fccklistenvergleich"}, "DATA": {"cdb_module_id": "cs.vp.bom", "cdb_object_id": "4f7dd6b0-e2f8-11e2-acd0-082e5f0d0c28", "title": "BOM Comparison"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "HierarchicalBOM", "report_title": "Strukturst\u00fcckliste"}, "DATA": {"cdb_module_id": "cs.vp.bom", "cdb_object_id": "e3d0dbf6-eaf6-11de-8683-ecd29aa3339c", "title": "Strukturst\u00fcckliste"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "HierarchicalBOM", "report_title": "Strukturst\u00fcckliste"}, "DATA": {"cdb_module_id": "cs.vp.bom", "cdb_object_id": "1f748770-e2fd-11e2-97f6-082e5f0d0c28", "title": "Structured BOM"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "PartUsage", "report_title": "Verwendungsnachweis"}, "DATA": {"cdb_module_id": "cs.vp.bom", "cdb_object_id": "17ebc84f-96c8-11e2-b740-082e5f0d3665", "title": "Verwendungsnachweis"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "PartUsage", "report_title": "Verwendungsnachweis"}, "DATA": {"cdb_module_id": "cs.vp.bom", "cdb_object_id": "7ba4ec40-e2ff-11e2-a7db-082e5f0d0c28", "title": "Part Usage List"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

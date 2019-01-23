@@ -1,0 +1,26 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbsml_catprop", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_cg_docs", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_cg_hier", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_cg_hier_inverse", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_cg_pset", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_cg_pset_inverse", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_prop2pval", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_prop_pset", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_propcathier", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_propcathier_inverse", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_pset_doc", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_pset_il8", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_pset_part", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_pset_presets", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_pset_prop", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_pset_prop_2_cdbsml_prop", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_pset_view", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"name": "cdbsml_pval_subset", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

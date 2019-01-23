@@ -1,0 +1,10 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "8567fedc-489e-11e0-ab96-0019bb22e334"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.es", "classname": "cdbes_jobs", "description": "", "exclude_empty_values": null, "fields_info": "job_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dc3c7efa-48a5-11e0-a4c2-0019bb22e334"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.es", "classname": "cdbes_state", "description": "", "exclude_empty_values": null, "fields_info": "state_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

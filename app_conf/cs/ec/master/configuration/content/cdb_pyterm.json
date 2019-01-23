@@ -1,0 +1,10 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.ec.EngineeringChange", "id": 1, "name": "cs.sharing: Group Creator", "predicate_name": "Engineering Change"}, "DATA": {"attribute": "cdb_cpersno", "cdb_module_id": "cs.ec", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.ec.EngineeringChange", "id": 1, "name": "cs.sharing: Group Responsible", "predicate_name": "Engineering Change"}, "DATA": {"attribute": "subject_id", "cdb_module_id": "cs.ec", "expression": "", "filter_rule": "", "operator": ">"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cdbsml_doc_purpose": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"purpose": "Bild im Objektplan"}, "DATA": {"text_cs": "", "text_de": "Bild im Objektplan", "text_en": "Image in Object Plan", "text_es": "", "text_fr": "", "text_it": "", "text_ja": "", "text_ko": "", "text_pl": "", "text_pt": "", "text_tr": "Nesne plan\u0131nda resim", "text_zh": "\u56fe\u7247\u5728\u5bf9\u8c61\u8ba1\u5212"}},
+      {"PRIMARY_KEYS": {"purpose": "Bild in Maske"}, "DATA": {"text_cs": "", "text_de": "Bild in Maske", "text_en": "Image in Mask", "text_es": "", "text_fr": "", "text_it": "", "text_ja": "", "text_ko": "", "text_pl": "", "text_pt": "", "text_tr": "Maskede resim", "text_zh": "\u56fe\u7247\u5728\u6837\u5f0f\u4e2d"}},
+      {"PRIMARY_KEYS": {"purpose": "Bild in Maske/Objektplan"}, "DATA": {"text_cs": "", "text_de": "Bild in Maske/Objektplan", "text_en": "Image in Mask/Object Plan", "text_es": "", "text_fr": "", "text_it": "", "text_ja": "", "text_ko": "", "text_pl": "", "text_pt": "", "text_tr": "Maske/Nesne plan\u0131nda resim", "text_zh": "\u56fe\u7247\u5728/\u5bf9\u8c61 \u8ba1\u5212"}},
+      {"PRIMARY_KEYS": {"purpose": "Weitere Dokumente"}, "DATA": {"text_cs": "", "text_de": "Weitere Dokumente", "text_en": "Additional Documents", "text_es": "", "text_fr": "", "text_it": "", "text_ja": "", "text_ko": "", "text_pl": "", "text_pt": "", "text_tr": "Ek belgeler", "text_zh": "\u9644\u52a0\u6587\u6863"}},
+      {"PRIMARY_KEYS": {"purpose": "Zusatzbild"}, "DATA": {"text_cs": "", "text_de": "Zusatzbild", "text_en": "Additional Image", "text_es": "", "text_fr": "", "text_it": "", "text_ja": "", "text_ko": "", "text_pl": "", "text_pt": "", "text_tr": "Ek resim", "text_zh": "\u9644\u52a0\u56fe\u7247"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

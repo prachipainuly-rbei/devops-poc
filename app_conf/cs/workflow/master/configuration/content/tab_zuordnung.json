@@ -1,0 +1,34 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_class_brows_flat", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_aggregate", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": 0, "ersteller": "fp", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_briefcase", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_briefcase_link", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_briefcase_modus", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_constraint", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_extension_assignment", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_filter_parameter", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_form", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_form_template", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_info_message", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_interactive_task", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_parameter_definition", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_process", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": 0, "ersteller": "fp", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_process_categ", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_process_categ_brows", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_process_component", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_process_content", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_process_pyrule_assign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_process_relship", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": 0, "ersteller": "", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_protocol", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_resp_browser", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_system_task_definition", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_task", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": 0, "ersteller": "fp", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_task_ext", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "mq_wfqueue", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

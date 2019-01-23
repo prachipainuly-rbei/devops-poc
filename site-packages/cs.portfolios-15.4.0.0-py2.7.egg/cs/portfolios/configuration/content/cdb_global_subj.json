@@ -1,0 +1,9 @@
+{
+  "cdb_global_subj": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Portfolio: Manager", "subject_id": "caddok", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.portfolios"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

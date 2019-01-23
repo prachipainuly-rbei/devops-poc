@@ -1,0 +1,9 @@
+{
+  "csweb_plugin_config": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"discriminator": "cs_tasks_cls_action", "plugin_id": "cs-tasks-desc"}, "DATA": {"cdb_module_id": "cs.actions", "component": "cs-tasks-actions-plugin-ActionDetails", "priority": 10, "setup_fqpyname": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

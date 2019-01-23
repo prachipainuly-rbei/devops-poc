@@ -1,0 +1,34 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {}
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.platform.mq", 
+        "required_module_id": "cs.platform.core"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "fd53279e-5841-11e2-9334-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "3fda4f1c0a92a1f605929e60fd429018", 
+      "name": "Message queue infrastructure", 
+      "package": "cs.platform"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.platform.mq"
+    }
+  }
+}

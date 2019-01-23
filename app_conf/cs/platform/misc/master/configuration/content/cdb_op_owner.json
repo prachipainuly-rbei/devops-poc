@@ -1,0 +1,38 @@
+{
+  "cdb_op_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "*", "name": "CDB_AddClassDefToFavourites", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "*", "name": "CDB_AddClassToFavourites", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "*", "name": "CDB_AddObjectToFavourites", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "CDB_ChangePassword", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "CDB_CheckConfig", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "cdbdd_field_content_type", "name": "CDB_Copy", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "cdbdd_field_content_type", "name": "CDB_Create", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "cdbdd_field_content_type", "name": "CDB_CreateWithSearchConditions", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "cdbdd_field_content_type", "name": "CDB_Delete", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "cdbdd_field_content_type", "name": "CDB_Export", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "CDB_FavouriteCreateFolder", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "CDB_InstallLic", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "CDB_InstallLic", "role_id": "License-Admin"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "cdbdd_field_content_type", "name": "CDB_Modify", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "CDB_RegisterViewer", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "*", "name": "CDB_ResetSearch", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "cdbdd_field_content_type", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "cdbdd_field_content_type", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "cdbdd_field_content_type", "name": "CDB_SelectAndAssign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "CDB_SetViewPriority", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "*", "name": "CDB_ShowACConfig", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "*", "name": "CDB_ShowClassUrl", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "cdbdd_field_content_type", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "*", "name": "CDB_ShowObjectUrl", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "*", "name": "CDB_TableSetSort", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "CDB_UnregisterViewer", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "CDB_UserSettings", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "cdb_refresh_table", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "csapp_documentation_portal", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"classname": "", "name": "csapp_software_portal", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

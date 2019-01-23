@@ -1,0 +1,10 @@
+{
+  "cdb_favourites": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "60bce14f-c6ce-11e2-998e-78acc0a55b77"}, "DATA": {"autostart": 0, "fav_link": "byname/classname/cdbblog_channel/CDB_Search/batch", "interactive": 0, "label": "Kan\u00e4le (Aktivit\u00e4ten)", "label_cs": null, "label_en": "Channels (Activities)", "label_es": null, "label_fr": null, "label_it": null, "label_ja": null, "label_ko": null, "label_pl": null, "label_pt": null, "label_tr": "Kanallar (aktiviteler)", "label_zh": "\u9891\u9053(\u6d3b\u52a8)", "parent_oid": null, "subject_id": "public", "subject_type": "Common Role"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "83fbbf48-a1e6-11e2-bc06-78acc0ace8c3"}, "DATA": {"autostart": 2, "fav_link": "byname/opname/CDB_eLink_cdbblog/batch", "interactive": 0, "label": "Aktivit\u00e4ten", "label_cs": "", "label_en": "Activities", "label_es": "", "label_fr": "", "label_it": "", "label_ja": null, "label_ko": null, "label_pl": "", "label_pt": "", "label_tr": "Aktiviteler", "label_zh": "\u6d3b\u52a8", "parent_oid": null, "subject_id": "public", "subject_type": "Common Role"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

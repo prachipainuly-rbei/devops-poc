@@ -1,0 +1,9 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "KPI/Metrics entities"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdb_sharing_group_members"}, "DATA": {"cdb_module_id": "cs.sharing", "descr": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

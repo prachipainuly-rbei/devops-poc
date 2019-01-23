@@ -1,0 +1,25 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdb_part_categ"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_part_cust"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_part_protyp"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_part_surfac"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_part_usab"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_roleexc_prt"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_t_statiprot"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_t_statiprot_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.vp.items", "primary_table": "cdb_t_statiprot"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_units"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbbop_item_asgn"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbecm_maturity"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "fav_woerter"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "part_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.vp.items", "primary_table": "teile_stamm"}},
+      {"PRIMARY_KEYS": {"table_name": "teile_stamm"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "teile_verteiler"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "werkstoffe"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"table_name": "woerter"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.items"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

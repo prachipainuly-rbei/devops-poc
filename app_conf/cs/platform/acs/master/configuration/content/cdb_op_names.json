@@ -1,0 +1,9 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cs_acs_restart_jobs"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.platform.acs", "client_desc": "cdb_acs_restart_jobs", "descr": "", "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "cdbacs_restart_jobs", "label_ok": "", "menu_visible": 1, "menugroup": 30, "ordering": 49, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

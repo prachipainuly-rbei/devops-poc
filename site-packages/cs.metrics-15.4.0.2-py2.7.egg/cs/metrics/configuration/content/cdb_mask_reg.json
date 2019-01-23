@@ -1,0 +1,14 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbqc_aggr_rule", "mask_role_id": "public", "name": "cdbqc_aggr_rule_reg"}, "DATA": {"cdb_module_id": "cs.metrics", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbqc_history", "mask_role_id": "public", "name": "cdbqc_history_reg"}, "DATA": {"cdb_module_id": "cs.metrics", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbqc_q_grade", "mask_role_id": "public", "name": "cdbqc_q_grade_reg"}, "DATA": {"cdb_module_id": "cs.metrics", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbqc_quality_character", "mask_role_id": "public", "name": "cdbqc_quality_character_reg"}, "DATA": {"cdb_module_id": "cs.metrics", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbqc_unit", "mask_role_id": "public", "name": "cdbqc_unit_reg"}, "DATA": {"cdb_module_id": "cs.metrics", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbqc_unit_type", "mask_role_id": "public", "name": "cdbqc_unit_type_reg"}, "DATA": {"cdb_module_id": "cs.metrics", "ordering": 10, "priority": 10, "reg_title": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

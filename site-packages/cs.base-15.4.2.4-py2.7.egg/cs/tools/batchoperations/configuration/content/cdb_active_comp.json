@@ -1,0 +1,10 @@
+{
+  "cdb_active_comp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "*", "name": "cdbbop_operation", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "now", "name": "cdbbop_operation_exec", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

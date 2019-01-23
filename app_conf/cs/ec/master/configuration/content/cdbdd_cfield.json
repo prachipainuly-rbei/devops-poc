@@ -1,0 +1,19 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0af0b930-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_ec_templ2rule", "field_name": "cdb_ec_id"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdbecm_ec_templ2rule", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0af0b930-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_ec_templ2rule", "field_name": "rule_id"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdbecm_ec_templ2rule", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c43d0ac-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_ec", "field_name": "cdb_ec_id"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdbecm_ec", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c5bb1e0-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_ec_templ2proc", "field_name": "cdb_ec_id"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdbecm_ec_templ2proc", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c5bb1e0-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_ec_templ2proc", "field_name": "cdb_process_id"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdbecm_ec_templ2proc", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c607884-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_ec_prot", "field_name": "cdbprot_zaehler"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdbecm_ec_prot", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ca0f22a-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_ec_categ", "field_name": "categ_d"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdbecm_ec_categ", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "3a2e36f0-f8af-11e4-92e8-f0def133d0a6", "field_classname": "cdbecm_ec_categ", "field_name": "name_de"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdbecm_ec_categ", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "3f4ca3ae-f8af-11e4-a91f-f0def133d0a6", "field_classname": "cdbecm_ec_categ", "field_name": "name_en"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdbecm_ec_categ", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e864dc8f-5977-11e1-93ef-001c42b5d769", "field_classname": "cdb_action2ec", "field_name": "action_object_id"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdb_action2ec", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e864dc8f-5977-11e1-93ef-001c42b5d769", "field_classname": "cdb_action2ec", "field_name": "cdb_ec_id"}, "DATA": {"cdb_module_id": "cs.ec", "classname": "cdb_action2ec", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

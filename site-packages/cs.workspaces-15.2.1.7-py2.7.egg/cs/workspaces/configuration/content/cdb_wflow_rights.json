@@ -1,0 +1,14 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "workspace", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "workspace", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "workspace", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "workspace", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "workspace", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 170}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "workspace", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 190}, "DATA": {"cdb_module_id": "cs.workspaces"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

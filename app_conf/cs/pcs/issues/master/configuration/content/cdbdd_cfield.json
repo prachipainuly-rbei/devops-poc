@@ -1,0 +1,28 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "09c41ab0-d795-11df-a2bd-1cc1de660f15", "field_classname": "cdbpcs_iss_prio", "field_name": "priority"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_prio", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0bcc6aa8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_issue", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_issue", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0bcc6aa8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_issue", "field_name": "issue_id"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_issue", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c11aaf2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_iss_prot", "field_name": "cdbprot_zaehler"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_prot", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d40f0a0-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_iss_log", "field_name": "id"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_log", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e8350de-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_iss_rem", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_rem", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e8350de-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_iss_rem", "field_name": "issue_id"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_rem", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e8350de-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_iss_rem", "field_name": "remark_id"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_rem", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e94081c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_iss_cat", "field_name": "category"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_cat", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "4473e0f0-e983-11e4-a663-f0def133d0a6", "field_classname": "cdbpcs_iss_prio", "field_name": "priority_d"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_prio", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "496fd18f-e983-11e4-8565-f0def133d0a6", "field_classname": "cdbpcs_iss_prio", "field_name": "priority_uk"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_prio", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "6166d8c0-e9b5-11e4-884c-f0def133d0a6", "field_classname": "cdbpcs_iss_val", "field_name": "close_flag_de"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_val", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "7017fc51-e9b5-11e4-89a8-f0def133d0a6", "field_classname": "cdbpcs_iss_val", "field_name": "close_flag_en"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_val", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "77794740-e980-11e4-875a-f0def133d0a6", "field_classname": "cdbpcs_iss_cat", "field_name": "category_d"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_cat", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "7cf31433-5e2d-11e1-98ea-001c42b5d769", "field_classname": "cdb_action2issue", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdb_action2issue", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "80391db0-e980-11e4-82b4-f0def133d0a6", "field_classname": "cdbpcs_iss_cat", "field_name": "category_uk"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_cat", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "969104d4-0108-11e4-b8ba-082e5f0d0c28", "field_classname": "cdbpcs_iss_val", "field_name": "close_flag"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_val", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e22d89c0-5e2d-11e1-be24-001c42b5d769", "field_classname": "cdb_action2issue", "field_name": "action_object_id"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdb_action2issue", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e22d89c0-5e2d-11e1-be24-001c42b5d769", "field_classname": "cdb_action2issue", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdb_action2issue", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e22d89c0-5e2d-11e1-be24-001c42b5d769", "field_classname": "cdb_action2issue", "field_name": "issue_id"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "classname": "cdb_action2issue", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

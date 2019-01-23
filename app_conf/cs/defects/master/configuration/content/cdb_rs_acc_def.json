@@ -1,0 +1,10 @@
+{
+  "cdb_rs_acc_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "Defect Relationships"}, "DATA": {"cdb_module_id": "cs.defects", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "Defect Relationships"}, "DATA": {"cdb_module_id": "cs.defects", "referer_allow": "save"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

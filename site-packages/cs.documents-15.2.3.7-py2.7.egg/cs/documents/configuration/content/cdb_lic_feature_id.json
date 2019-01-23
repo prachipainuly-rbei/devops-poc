@@ -1,0 +1,25 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_001"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to read Document master data, aggregated elements (e.g. changes of status protocol)..", "name": "Documents: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_002"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to write (create, copy, modify, delete) Document master data and aggregated elements.", "name": "Documents: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_003"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to categorise Documents. The categorisation of a Document determines e.g. the Document's Object Lifecycle and Access Rights. It is also configurable to define default categories depending on the file type of a Document.", "name": "Documents: Categorise"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_004"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to change the status of Documents.", "name": "Documents: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_005"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to revision Documents.", "name": "Documents: Revision"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_006"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to create Documents from Templates.", "name": "Documents: Create from Template"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_007"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to import Files to Documents", "name": "Documents: Import"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_008"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to edit Documents (inclusive lock/unlock mechanisms) by directly invoking a Document's application and using a comfortable save-to-server dialogue to store any changes.", "name": "Documents: Edit"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_009"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to view Documents", "name": "Documents: View"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_010"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to print Documents.", "name": "Documents: Print"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_011"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to remember a Document to be opened in the CAD System", "name": "Documents: Mark for CAD"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_012"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to use the Platform's Batch Operation functionality for e.g. the change of status for multiple documents.", "name": "Documents: Batch Operations"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_013"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to hierarchically structure Documents e.g. assembly and components or mail and attachements. The possibility to read the structure is given by Featre DOCUMENTS 001.", "name": "Documents: Hierarchically Structure"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_014"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to maintain the catalog Scale used/referenced by Document objects/master data", "name": "Documents: Write Scale Catalog"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_015"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to define exceptional access rights for Documents", "name": "Documents: Define Eceptional Access Rights"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_022"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows to maintain the catalogs needed for Document Changes", "name": "Documents: Write ECM Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "DOCUMENTS_100"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Allows access to the documents Web UI", "name": "Documents: Web UI"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

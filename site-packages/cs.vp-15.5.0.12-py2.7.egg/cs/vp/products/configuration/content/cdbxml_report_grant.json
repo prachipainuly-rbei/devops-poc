@@ -1,0 +1,10 @@
+{
+  "cdbxml_report_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "GrowthShareMatrix", "report_title": "GrowthShareMatrix", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.products", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "PortfolioGrowthShareMatrix", "report_title": "PortfolioGrowthShareMatrix", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.products", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

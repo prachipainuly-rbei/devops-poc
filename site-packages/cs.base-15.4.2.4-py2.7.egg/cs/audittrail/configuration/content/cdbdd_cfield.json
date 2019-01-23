@@ -1,0 +1,23 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0e9380e1-6ef9-11e8-9f0e-605718ab0982", "field_classname": "cdb_audittrail_detail", "field_name": "detail_object_id"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_detail", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0f8f2e11-f52b-11e7-9bad-605718ab0982", "field_classname": "cdb_audittrail_config", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_config", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "2df07500-f533-11e7-a0a2-605718ab0982", "field_classname": "cdb_audittrail_config_field", "field_name": "classname"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_config_field", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "2df07500-f533-11e7-a0a2-605718ab0982", "field_classname": "cdb_audittrail_config_field", "field_name": "config_name"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_config_field", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "2df07500-f533-11e7-a0a2-605718ab0982", "field_classname": "cdb_audittrail_config_field", "field_name": "field_name"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_config_field", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "78417f80-fac1-11e7-9c5c-605718ab0982", "field_classname": "cdb_audittrail_config", "field_name": "classname"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_config", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "bdd4e3b0-e00a-11e7-b755-68f728783d3d", "field_classname": "cdb_audittrail", "field_name": "audittrail_object_id"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "c49bfa91-e00e-11e7-a2af-68f728783d3d", "field_classname": "cdb_audittrail_type", "field_name": "type"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e61b3f4f-6eed-11e8-b8c3-605718ab0982", "field_classname": "cdb_audittrail_objects", "field_name": "audittrail_id"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_objects", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e61b3f4f-6eed-11e8-b8c3-605718ab0982", "field_classname": "cdb_audittrail_objects", "field_name": "object_id"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_objects", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ed5b152e-6edc-11e8-a778-605718ab0982", "field_classname": "cdb_audittrail_view", "field_name": "child"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_view", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ed5b152e-6edc-11e8-a778-605718ab0982", "field_classname": "cdb_audittrail_view", "field_name": "new_value"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_view", "position": 60}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ed5b152e-6edc-11e8-a778-605718ab0982", "field_classname": "cdb_audittrail_view", "field_name": "object_description"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_view", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ed5b152e-6edc-11e8-a778-605718ab0982", "field_classname": "cdb_audittrail_view", "field_name": "old_value"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_view", "position": 50}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ed5b152e-6edc-11e8-a778-605718ab0982", "field_classname": "cdb_audittrail_view", "field_name": "parent"}, "DATA": {"cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_view", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

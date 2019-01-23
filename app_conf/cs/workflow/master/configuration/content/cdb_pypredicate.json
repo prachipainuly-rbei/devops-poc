@@ -1,0 +1,32 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "State Change Notification Objects", "predicate_name": "cdbwf: Task[Ready]"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.systemtasks.InfoMessage", "name": "cdbtodo: cdbwf_info_message", "predicate_name": "cdbtodo: cdbwf_info_message"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "cdbtodo: task_approval", "predicate_name": "cdbtodo: task_approval"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "cdbtodo: task_approval", "predicate_name": "cdbtodo: task_approval (reserved)"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "cdbtodo: task_examination", "predicate_name": "cdbtodo: task_examination"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "cdbtodo: task_examination", "predicate_name": "cdbtodo: task_examination (reserved)"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "cdbtodo: task_execution", "predicate_name": "cdbtodo: task_execution"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "cdbtodo: task_execution", "predicate_name": "cdbtodo: task_execution (reserved)"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "cdbwf: process components done", "predicate_name": "tasks with status 20"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "cdbwf: process components not done", "predicate_name": "tasks with status 20"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "cdbwf: tasks not having start date and deadline", "predicate_name": "tasks with start_date = NULL or deadline = NULL"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "cdbwf: tasks with system postings", "predicate_name": "cdbwf: task with state not 0"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cdbwf: unapproved documents", "predicate_name": "documents with status not 200"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "cdbwf: unapproved parts", "predicate_name": "unapproved parts"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.processes.Process", "name": "cs.sharing: Group Creator", "predicate_name": "Workflow"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.processes.Process", "name": "cs.sharing: Group Responsible", "predicate_name": "Workflow"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "wf-designer:  previous process component done", "predicate_name": "previous task with status 20"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.briefcases.Briefcase", "name": "wf-designer: all briefcase objects approved", "predicate_name": "Briefcase"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "wf-designer: all briefcase objects approved", "predicate_name": "Tasks"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "wf-designer: all previous tasks done", "predicate_name": "parent's previous task with status 20"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.processes.Process", "name": "wf-designer: all process tasks have start date and deadline", "predicate_name": "process with all tasks having start_date not NULL and deadline not NULL"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.briefcases.Briefcase", "name": "wf-designer: briefcase contains exactly 1 object", "predicate_name": "Briefcase"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "wf-designer: parent's previous process component done", "predicate_name": "parent's previous task with status 20"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.workflow.schemacomponents.SchemaComponent", "name": "wf-designer: process completing successfully", "predicate_name": "SchemaComponent"}, "DATA": {"cdb_module_id": "cs.workflow", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

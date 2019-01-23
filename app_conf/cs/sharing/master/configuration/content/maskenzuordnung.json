@@ -1,0 +1,21 @@
+{
+  "maskenzuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_object_sharing_group", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.sharing", "ersteller": "Administrator", "html_help": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_object_sharing_group_comp", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.sharing", "ersteller": "caddok", "html_help": null, "predicate_mask": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.sharing", "ersteller": "Administrator", "html_help": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_add_person", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.sharing", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_group", "role_id": "Administrator"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.sharing", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_group", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.sharing", "ersteller": "Administrator", "html_help": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_group_chctrl", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.sharing", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_group_comp", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.sharing", "ersteller": "caddok", "html_help": null, "predicate_mask": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_group_member", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.sharing", "ersteller": "Administrator", "html_help": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_posting_v", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.sharing", "ersteller": "Administrator", "html_help": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_recipients", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.sharing", "ersteller": "Administrator", "html_help": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_subjects", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.sharing", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "mq_share_objects_queue", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.sharing", "ersteller": "Administrator, ", "html_help": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cdb_op_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pitem", "name": "CDB_Copy", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_Copy", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pitem", "name": "CDB_Create", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_Create", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pitem", "name": "CDB_Delete", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_Delete", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pitem", "name": "CDB_Export", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_Export", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_Export", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pitem", "name": "CDB_Modify", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_Modify", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_Modify", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pitem", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_Search", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pitem", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_SearchAgain", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pitem", "name": "CDB_SelectAndAssign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_SelectAndAssign", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_SelectAndAssign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pitem", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_ShowObject", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_item_ecn", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_items"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

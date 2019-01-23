@@ -1,0 +1,13 @@
+{
+  "cdb_term": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "source_type", "expression": "CustomCode", "operator": "=", "predicate_name": "cs.powerreports: Providers (Custom)", "table_name": "cdbxml_dataprovider"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "data_type": "char"}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "source_type", "expression": "GroupBy", "operator": "=", "predicate_name": "cs.powerreports: Providers (Group By)", "table_name": "cdbxml_dataprovider"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "data_type": "char"}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "source_type", "expression": "Relationship", "operator": "=", "predicate_name": "cs.powerreports: Providers (Relationship)", "table_name": "cdbxml_dataprovider"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "data_type": "char"}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "source_type", "expression": "Rule", "operator": "=", "predicate_name": "cs.powerreports: Providers (Rule)", "table_name": "cdbxml_dataprovider"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "data_type": "char"}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "source_type", "expression": "SimpleQuery", "operator": "=", "predicate_name": "cs.powerreports: Providers (Simple Query)", "table_name": "cdbxml_dataprovider"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "data_type": "char"}, "UPDATE_POLICY": "ALWAYS UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "ITEMS_001"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Allows to read part master data and aggregated elements.", "name": "Part: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "ITEMS_002"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Allows to write part master data and aggregated elements.", "name": "Part: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "ITEMS_003"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Allows to categorise parts. The categorisation of a part determines e.g. its Object Lifecycle and Access Rights.", "name": "Part: Categorize"}},
+      {"PRIMARY_KEYS": {"id": "ITEMS_004"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Allows to change the status of Documents.", "name": "Part: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "ITEMS_005"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Allows to revision parts.", "name": "Part: Revision"}},
+      {"PRIMARY_KEYS": {"id": "ITEMS_006"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Allows to use the Platform's Batch Operation functionality for e.g. the revision of multiple parts.", "name": "Part: Batch Operations"}},
+      {"PRIMARY_KEYS": {"id": "ITEMS_007"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Allows to modify part catalogs.", "name": "Part: Manage Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "ITEMS_008"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Allows to define exceptional authorizations for parts.", "name": "Part: Exceptional Authorizations"}},
+      {"PRIMARY_KEYS": {"id": "ITEMS_100"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Allows access to the parts Web UI", "name": "Part: Web UI"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

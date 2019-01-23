@@ -1,0 +1,10 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification", "description": "Access rights for characteristics groups"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification", "description": "Access rights for characteristics categories"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

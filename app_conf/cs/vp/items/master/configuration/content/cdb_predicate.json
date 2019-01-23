@@ -1,0 +1,29 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp.items: Exceptional Access", "table_name": "cdb_roleexc_prt"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Batch Operations (Part, already run)", "table_name": "cdbbop_item_asgn"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Batch Operations (Part, not run yet)", "table_name": "cdbbop_item_asgn"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Part Categories", "table_name": "cdb_part_categ"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (configurable)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (mBOM)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part, BLOCKED)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part in status 170"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part, DRAFT)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part in status 0"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part, OBSOLETE)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part in status 180"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part, RELEASED)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part in status 200"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part, REVIEW)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part in status 100"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part, REVISION)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part in status 190"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part_ERP, BLOCKED)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part_ERP in status 170"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part_ERP, DRAFT)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part_ERP in status 0"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part_ERP, FROM ERP)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part_ERP in status 400"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part_ERP, OBSOLETE)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part_ERP in status 180"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part_ERP, RELEASED FOR ERP)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part_ERP in status 300"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part_ERP, RELEASED)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part_ERP in status 200"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part_ERP, REVIEW)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part_ERP in status 100"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Parts (part_ERP, REVISION)", "table_name": "teile_stamm"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.items", "description": "part_ERP in status 190"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

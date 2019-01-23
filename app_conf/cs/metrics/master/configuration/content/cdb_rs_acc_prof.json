@@ -1,0 +1,10 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbqc: Delete KPI"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbqc:New KPIs"}, "DATA": {"cdb_module_id": "cs.metrics", "descr": "Checks if the KPI definition is in status 'New'", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

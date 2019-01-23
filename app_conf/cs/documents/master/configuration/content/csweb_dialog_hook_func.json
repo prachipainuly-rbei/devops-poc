@@ -1,0 +1,10 @@
+{
+  "csweb_dialog_hook_func": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"hook_name": "DocCheckItemReferenced"}, "DATA": {"backend": 1, "cdb_module_id": "cs.documents", "description": "Check if an item reference is obligatory for a document with the given category.", "function_name": "cs.documents.std_hooks.CheckItemReference"}},
+      {"PRIMARY_KEYS": {"hook_name": "DocOLCCheckReferencedHook"}, "DATA": {"backend": 1, "cdb_module_id": "cs.documents", "description": "Hook that checks if referenced documents have an appropriate state.", "function_name": "cs.documents.std_hooks.OLCCheckReferencedHook"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

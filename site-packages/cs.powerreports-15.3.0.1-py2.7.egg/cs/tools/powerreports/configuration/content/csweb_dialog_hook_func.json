@@ -1,0 +1,12 @@
+{
+  "csweb_dialog_hook_func": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"hook_name": "ReportLoadParameter"}, "DATA": {"backend": 1, "cdb_module_id": "cs.tools.powerreports", "description": "Retrieve the parameters that has been stored using the 'Save Filter' button", "function_name": "cs.tools.powerreports.XMLSource.cdbxml_excel_report_load_parameters_hook"}},
+      {"PRIMARY_KEYS": {"hook_name": "cdbxml_excel_report_change"}, "DATA": {"backend": 1, "cdb_module_id": "cs.tools.powerreports", "description": "", "function_name": "cs.tools.powerreports.cdbxml_excel_report_change_mask_hook"}},
+      {"PRIMARY_KEYS": {"hook_name": "cdbxml_excel_report_post"}, "DATA": {"backend": 1, "cdb_module_id": "cs.tools.powerreports", "description": "", "function_name": "cs.tools.powerreports.cdbxml_excel_report_post_mask_hook"}},
+      {"PRIMARY_KEYS": {"hook_name": "cdbxml_excel_report_pre"}, "DATA": {"backend": 1, "cdb_module_id": "cs.tools.powerreports", "description": "", "function_name": "cs.tools.powerreports.cdbxml_excel_report_pre_mask_hook"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

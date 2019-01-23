@@ -1,0 +1,34 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {}
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.platform.ldap", 
+        "required_module_id": "cs.platform.core"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "5d1ed2e1-5808-11e2-a8d6-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "02037ae8844e911bb6822168b11f1552", 
+      "name": "LDAP configuration", 
+      "package": "cs.platform"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.platform.ldap"
+    }
+  }
+}

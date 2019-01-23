@@ -1,0 +1,14 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "accept", "class": "wsm_settings"}, "DATA": {"cdb_module_id": "cs.wsm", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "create", "class": "wsm_settings"}, "DATA": {"cdb_module_id": "cs.wsm", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "delete", "class": "wsm_settings"}, "DATA": {"cdb_module_id": "cs.wsm", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "read", "class": "wsm_settings"}, "DATA": {"cdb_module_id": "cs.wsm", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "read_file", "class": "wsm_settings"}, "DATA": {"cdb_module_id": "cs.wsm", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "save", "class": "wsm_settings"}, "DATA": {"cdb_module_id": "cs.wsm", "error_label": "", "mandatory": 1}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

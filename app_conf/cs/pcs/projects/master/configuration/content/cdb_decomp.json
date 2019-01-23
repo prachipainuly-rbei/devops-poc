@@ -1,0 +1,9 @@
+{
+  "cdb_decomp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"identifier": "CDBPCS_PROJECTS"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "descr": "Generated decomposition based on CDBPCS_PROJ_CAT", "fqpyname_generator": "cs.pcs.projects.ProjectCategory.GenerateDecomposition"}}
+    ],
+    "CONTENT_DOMAIN": "Decompositions",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

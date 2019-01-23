@@ -1,0 +1,11 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.defects.Defect", "name": "cs.actions: Editor", "predicate_name": "Defect"}, "DATA": {"cdb_module_id": "cs.defects", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.defects.Defect", "name": "cs.sharing: Group Creator", "predicate_name": "Defect"}, "DATA": {"cdb_module_id": "cs.defects", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.defects.Defect", "name": "cs.sharing: Group Responsible", "predicate_name": "Defect"}, "DATA": {"cdb_module_id": "cs.defects", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

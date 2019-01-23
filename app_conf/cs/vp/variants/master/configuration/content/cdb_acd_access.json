@@ -1,0 +1,21 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "accept", "class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "create", "class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "delete", "class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "edit_vp_catalogue", "class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "read", "class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "save", "class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "vp_state_change", "class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties (VALID, INVALID)", "allow": "WRITE ACCESS", "class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties (VALID, INVALID)", "allow": "edit_vp_catalogue", "class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Constraints (automatically generated)", "allow": "CHANGE", "class": "cdbvp_components"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "cdbvp_automatic_constraint", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "allow": "read", "class": "cdbvp_components"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Properties (non-boolean)", "allow": "cdbvp_b_data_type", "class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Properties (non-boolean)", "allow": "cdbvp_b_data_type", "class": "cdbvp_components"}, "DATA": {"cdb_module_id": "cs.vp.variants", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

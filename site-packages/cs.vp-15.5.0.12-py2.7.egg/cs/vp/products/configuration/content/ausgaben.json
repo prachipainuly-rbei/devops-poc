@@ -1,0 +1,15 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbvp_create_from_template"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "Neu aus Vorlage ...", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u015eablondan olu\u015ftur ...", "uk": "Create from Template ...", "zh": "\u521b\u5efa\u57fa\u4e8e\u6a21\u677f..."}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbvp_objektstati"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "Objektstatus", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Nesne Durumu", "uk": "Object Status", "zh": "\u5bf9\u8c61\u72b6\u6001"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "Produkt", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u00dcr\u00fcn", "uk": "Product", "zh": "\u4ea7\u54c1"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbvp_product_overview"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "Produkt\u00fcbersicht", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u00dcr\u00fcn genel bak\u0131\u015f\u0131", "uk": "Product Overview", "zh": "\u4ea7\u54c1\u6982\u89c8"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbvp_variant_editor"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "Varianteneditor", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "T\u00fcrev d\u00fczenleyicisi", "uk": "Variant Editor", "zh": "\u53d8\u91cf\u7f16\u8f91"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "growth_share_report"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "Growth-Share Matrix", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "B\u00fcy\u00fcme-payla\u015f\u0131m matrisi", "uk": "Growth-Share Matrix", "zh": "\u589e\u957f\u4efd\u989d\u77e9\u9635"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_Produktdaten"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "Produkte", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u00dcr\u00fcnler", "uk": "Products", "zh": "\u4ea7\u54c1"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

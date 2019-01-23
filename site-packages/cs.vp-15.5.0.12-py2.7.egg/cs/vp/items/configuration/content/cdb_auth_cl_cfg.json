@@ -1,0 +1,13 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "catalogues", "relation": "cdb_part_categ"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbbop_operation_asgn", "relation": "cdbbop_item_asgn"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_configurable_items", "relation": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"auth_class": "common role exceptions", "relation": "cdb_roleexc_prt"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"auth_class": "part", "relation": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "csweb_plugin_config_library": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"discriminator": "cdbpcs_project", "library_name": "cs-pcs-projects-web", "plugin_id": "class-tile-small"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "library_version": "15.1.0"}},
+      {"PRIMARY_KEYS": {"discriminator": "cs_tasks_cls_pcs_task", "library_name": "cs-tasks-pcs-task-plugin", "plugin_id": "cs-tasks-desc"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "library_version": "15.1.0"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

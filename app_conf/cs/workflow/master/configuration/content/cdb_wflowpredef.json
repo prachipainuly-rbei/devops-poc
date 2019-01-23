@@ -1,0 +1,10 @@
+{
+  "cdb_wflowpredef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "completing_ok", "objektart": "cdbwf_process", "statusnummer": 0}, "DATA": {"cdb_module_id": "cs.workflow", "overwrite": 1, "value": "\"1\""}},
+      {"PRIMARY_KEYS": {"attribute": "completing_ok", "objektart": "cdbwf_process", "statusnummer": 10}, "DATA": {"cdb_module_id": "cs.workflow", "overwrite": 1, "value": "\"1\""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

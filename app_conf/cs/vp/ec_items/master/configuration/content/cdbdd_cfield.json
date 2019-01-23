@@ -1,0 +1,13 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0c489750-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_item_ecn", "field_name": "t_index"}, "DATA": {"cdb_module_id": "cs.vp.ec_items", "classname": "cdbecm_item_ecn", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c489750-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_item_ecn", "field_name": "teilenummer"}, "DATA": {"cdb_module_id": "cs.vp.ec_items", "classname": "cdbecm_item_ecn", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c5487ea-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_ec2pitem", "field_name": "cdb_ec_id"}, "DATA": {"cdb_module_id": "cs.vp.ec_items", "classname": "cdbecm_ec2pitem", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c5487ea-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_ec2pitem", "field_name": "t_index"}, "DATA": {"cdb_module_id": "cs.vp.ec_items", "classname": "cdbecm_ec2pitem", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c5487ea-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbecm_ec2pitem", "field_name": "teilenummer"}, "DATA": {"cdb_module_id": "cs.vp.ec_items", "classname": "cdbecm_ec2pitem", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

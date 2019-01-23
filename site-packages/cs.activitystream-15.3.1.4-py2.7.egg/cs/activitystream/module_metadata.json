@@ -1,0 +1,78 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.base": "15.4.0.3", 
+      "cs.platform": "15.2.22", 
+      "cs.web": "15.2.1.16"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.activitystream", 
+        "required_module_id": "cs.platform.core"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.activitystream", 
+        "required_module_id": "cs.platform.org"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.activitystream", 
+        "required_module_id": "cs.shared"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.activitystream", 
+        "required_module_id": "cs.web.components"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.activitystream", 
+        "required_module_id": "cs.web.dashboard"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "4fc64380-5e34-11e2-ba94-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "387ada6060a4731b1566bbfd8e398c72", 
+      "name": "Activitystream", 
+      "package": "cs.activitystream"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.activitystream"
+    }
+  }
+}

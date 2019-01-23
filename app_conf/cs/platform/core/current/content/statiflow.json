@@ -1,0 +1,19 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_class", "zielstatus": 10}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_class", "zielstatus": 20}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": 20, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdb_class", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdb_class", "zielstatus": 20}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdb_class", "zielstatus": 10}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cs_oidc_client_reg", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": null, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cs_oidc_client_reg", "zielstatus": 300}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cs_oidc_client_reg", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": null, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cs_oidc_client_reg", "zielstatus": 300}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": null, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cs_oidc_client_reg", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cs_oidc_client_reg", "zielstatus": 300}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.platform.core", "rang": null, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

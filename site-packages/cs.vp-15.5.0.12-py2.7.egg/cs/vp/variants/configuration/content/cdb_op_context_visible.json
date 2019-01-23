@@ -1,0 +1,36 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdbvp_catalogue_overview"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdbvp_catalogue_overview"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_bom_comparison"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_catalogue_overview"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_edit_erp_code"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_filtered_bom"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_instantiate_max_bom"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_property_move_down"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_property_move_up"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_show_bom_item"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_show_sap_condition"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_toggle_constraint_operator"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_toggle_term_operator"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_upload_csv_to_client"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_variant_bom_report"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdbvp_catalogue_overview"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrix", "name": "CDB_ProductStructure"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrix", "name": "CDB_ProductUtilization"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrix", "name": "CDB_ShowObject"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrix", "name": "CDB_Workflow"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrix", "name": "cdbwf_ahwf_new"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrix", "name": "cdbwf_ahwf_new_from_template"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrix", "name": "threed_viewer"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrixVariant", "name": "cdbvp_filtered_bom"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrixVariant", "name": "cdbvp_instantiate_max_bom"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrixVariant", "name": "cdbvp_variant_bom_report"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrixVariant", "name": "threed_viewer"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdbvp_catalogue_overview"}, "DATA": {"cdb_module_id": "cs.vp.variants"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

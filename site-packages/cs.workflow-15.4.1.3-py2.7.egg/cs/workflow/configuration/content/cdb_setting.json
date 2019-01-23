@@ -1,0 +1,13 @@
+{
+  "cdb_setting": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "cs.workflow", "setting_id2": "cancel_info_on_failure"}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.workflow", "default_val": "0", "readonly": 1, "store_usr_val": 0}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "cs.workflow.designer", "setting_id2": "check_access_proactively"}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.workflow", "default_val": "1", "readonly": 0, "store_usr_val": 1}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "cs.workflow.status_change_unlock", "setting_id2": "cdb_wsp"}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.workflow", "default_val": "2", "readonly": 1, "store_usr_val": 0}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "cs.workflow.status_change_unlock", "setting_id2": "document"}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.workflow", "default_val": "2", "readonly": 1, "store_usr_val": 0}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "cs.workflow.status_change_unlock", "setting_id2": "model"}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.workflow", "default_val": "2", "readonly": 1, "store_usr_val": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

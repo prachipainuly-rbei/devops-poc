@@ -1,0 +1,11 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0aa1eb9e-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.acs", "classname": "mq_acs", "description": "", "exclude_empty_values": null, "fields_info": "cdbmq_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "30ca1cee-e81a-11df-baab-002215f1b468"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.acs", "classname": "acs_conv_services", "description": "", "exclude_empty_values": null, "fields_info": "srvr_id, plugin, source, target"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "b17bb600-e81b-11df-9b4d-002215f1b468"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.acs", "classname": "acs_plg_conv", "description": "", "exclude_empty_values": null, "fields_info": "plugin, source, target"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

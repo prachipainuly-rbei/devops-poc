@@ -1,0 +1,14 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "id": 1, "name": "cdbtodo: action", "predicate_name": "cdbtodo: action (realisation)"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.actions", "expression": "0, 20", "filter_rule": "", "operator": "IN"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "id": 2, "name": "cdbtodo: action", "predicate_name": "cdbtodo: action (realisation)"}, "DATA": {"attribute": "editor", "cdb_module_id": "cs.actions", "expression": "$(persno)", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "id": 1, "name": "cdbtodo: action", "predicate_name": "cdbtodo: action (responsible)"}, "DATA": {"attribute": "subject_id", "cdb_module_id": "cs.actions", "expression": "$(role)", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "id": 2, "name": "cdbtodo: action", "predicate_name": "cdbtodo: action (responsible)"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.actions", "expression": "0, 20", "filter_rule": "", "operator": "IN"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "id": 1, "name": "cs.actions: Editor", "predicate_name": "Action"}, "DATA": {"attribute": "editor", "cdb_module_id": "cs.actions", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.actions.Action", "id": 1, "name": "cs.sharing: Group Creator", "predicate_name": "Action"}, "DATA": {"attribute": "cdb_cpersno", "cdb_module_id": "cs.actions", "expression": "", "filter_rule": "", "operator": ">"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

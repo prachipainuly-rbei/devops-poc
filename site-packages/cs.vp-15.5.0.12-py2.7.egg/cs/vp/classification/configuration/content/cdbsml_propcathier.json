@@ -1,0 +1,12 @@
+{
+  "cdbsml_propcathier": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cat_id": "", "child_id": "1"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"cat_id": "1", "child_id": "00000001"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"cat_id": "1", "child_id": "00000002"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"cat_id": "1", "child_id": "00000003"}, "DATA": {}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

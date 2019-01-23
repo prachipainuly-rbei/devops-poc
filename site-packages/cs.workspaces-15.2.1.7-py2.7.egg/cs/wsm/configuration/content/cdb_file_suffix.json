@@ -1,0 +1,13 @@
+{
+  "cdb_file_suffix": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ft_name": "Appinfo", "ft_suffix": ".appinfo"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"ft_name": "Variantconfig", "ft_suffix": ".variantconfig"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"ft_name": "wsmsettings", "ft_suffix": ".cadsetting"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"ft_name": "wsmsettings", "ft_suffix": ".cdbwssetting"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"ft_name": "wsmsettings", "ft_suffix": ".xml"}, "DATA": {"cdb_module_id": "cs.wsm"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

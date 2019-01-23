@@ -1,0 +1,13 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Entries (base)"}, "DATA": {"cdb_module_id": "cs.calendar", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Entries (personal)"}, "DATA": {"cdb_module_id": "cs.calendar", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Entries (projects)"}, "DATA": {"cdb_module_id": "cs.calendar", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Profiles and Exceptions"}, "DATA": {"cdb_module_id": "cs.calendar", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: My Calendar Entries"}, "DATA": {"cdb_module_id": "cs.calendar", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

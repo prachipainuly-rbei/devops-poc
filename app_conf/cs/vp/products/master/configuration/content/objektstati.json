@@ -1,0 +1,12 @@
+{
+  "objektstati": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdbvp_product", "statusnummer": 0}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.vp.products", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Entwurf", "statusbez_en": "Draft", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "Taslak", "statusbez_zh": "\u8349\u56fe", "statusbezeich": "Draft", "statusfarbe": "CE_Danger", "statusrelease": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdbvp_product", "statusnummer": 100}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.vp.products", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Pr\u00fcfung", "statusbez_en": "Review", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "G\u00f6zden ge\u00e7irme", "statusbez_zh": "\u5ba1\u9605", "statusbezeich": "Review", "statusfarbe": "CE_Info_Lr", "statusrelease": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdbvp_product", "statusnummer": 200}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.vp.products", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Freigegeben", "statusbez_en": "Released", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "Yay\u0131nland\u0131", "statusbez_zh": "\u53d1\u5e03", "statusbezeich": "Released", "statusfarbe": "CE_Success_D", "statusrelease": 1}},
+      {"PRIMARY_KEYS": {"objektart": "cdbvp_product", "statusnummer": 300}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.vp.products", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Gesperrt", "statusbez_en": "Blocked", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "Engelli", "statusbez_zh": "\u963b\u585e", "statusbezeich": "Blocked", "statusfarbe": "CE_Gray_Dr", "statusrelease": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

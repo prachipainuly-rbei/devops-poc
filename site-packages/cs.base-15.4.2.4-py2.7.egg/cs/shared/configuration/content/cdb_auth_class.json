@@ -1,0 +1,9 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "catalogues"}, "DATA": {"cdb_module_id": "cs.shared", "description": "Common access rights assigment for protected catalogs"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

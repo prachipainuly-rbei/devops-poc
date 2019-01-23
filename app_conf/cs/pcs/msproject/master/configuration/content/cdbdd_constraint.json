@@ -1,0 +1,11 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e85b430-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.msproject", "classname": "cdbpcs_msp_syncrel", "description": "", "exclude_empty_values": null, "fields_info": "cdb_relation, cdb_column, pcs_field"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e8cde26-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.msproject", "classname": "cdbpcs_msp_fields", "description": "", "exclude_empty_values": null, "fields_info": "pcs_field"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e8f4178-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.msproject", "classname": "cdbpcs_msp_default", "description": "", "exclude_empty_values": null, "fields_info": "cdb_relation, cdb_column"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

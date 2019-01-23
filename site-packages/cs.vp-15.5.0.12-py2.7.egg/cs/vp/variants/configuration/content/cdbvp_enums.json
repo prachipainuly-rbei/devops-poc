@@ -1,0 +1,13 @@
+{
+  "cdbvp_enums": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"enum_kind": "SolverStatus", "enum_value": "0"}, "DATA": {"enum_text_cs": "", "enum_text_de": "manuell", "enum_text_en": "manual", "enum_text_es": "", "enum_text_fr": "", "enum_text_it": "", "enum_text_ja": "", "enum_text_ko": "", "enum_text_pl": "", "enum_text_pt": "", "enum_text_tr": "manuel", "enum_text_zh": "\u624b\u52a8\u7684"}},
+      {"PRIMARY_KEYS": {"enum_kind": "SolverStatus", "enum_value": "1"}, "DATA": {"enum_text_cs": "", "enum_text_de": "ok", "enum_text_en": "ok", "enum_text_es": "", "enum_text_fr": "", "enum_text_it": "", "enum_text_ja": "", "enum_text_ko": "", "enum_text_pl": "", "enum_text_pt": "", "enum_text_tr": "tamam", "enum_text_zh": "\u540c\u610f"}},
+      {"PRIMARY_KEYS": {"enum_kind": "SolverStatus", "enum_value": "2"}, "DATA": {"enum_text_cs": "", "enum_text_de": "ung\u00fcltig", "enum_text_en": "invalid", "enum_text_es": "", "enum_text_fr": "", "enum_text_it": "", "enum_text_ja": "", "enum_text_ko": "", "enum_text_pl": "", "enum_text_pt": "", "enum_text_tr": "Ge\u00e7ersiz", "enum_text_zh": "\u65e0\u6548\u7684"}},
+      {"PRIMARY_KEYS": {"enum_kind": "SolverStatus", "enum_value": "3"}, "DATA": {"enum_text_cs": "", "enum_text_de": "neu", "enum_text_en": "new", "enum_text_es": "", "enum_text_fr": "", "enum_text_it": "", "enum_text_ja": "", "enum_text_ko": "", "enum_text_pl": "", "enum_text_pt": "", "enum_text_tr": "Yeni", "enum_text_zh": "\u65b0\u7684"}},
+      {"PRIMARY_KEYS": {"enum_kind": "SolverStatus", "enum_value": "4"}, "DATA": {"enum_text_cs": null, "enum_text_de": "unvollst\u00e4ndig", "enum_text_en": "incomplete", "enum_text_es": null, "enum_text_fr": null, "enum_text_it": null, "enum_text_ja": null, "enum_text_ko": null, "enum_text_pl": null, "enum_text_pt": null, "enum_text_tr": null, "enum_text_zh": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

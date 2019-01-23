@@ -1,0 +1,10 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "ISSUE_DOCS_001"}, "DATA": {"cdb_module_id": "cs.pcs.issues_documents", "description": "Allows to read references from Issue to Documents.", "name": "Issue Documents: Read"}},
+      {"PRIMARY_KEYS": {"id": "ISSUE_DOCS_002"}, "DATA": {"cdb_module_id": "cs.pcs.issues_documents", "description": "Allows to write (create, copy, modify, delete) references from Issue to Documents.", "name": "Issue Documents: Write"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

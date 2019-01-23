@@ -1,0 +1,9 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.currency: Administration"}, "DATA": {"cdb_module_id": "cs.currency", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

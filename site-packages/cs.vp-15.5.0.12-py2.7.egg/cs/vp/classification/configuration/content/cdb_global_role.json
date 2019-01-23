@@ -1,0 +1,9 @@
+{
+  "cdb_global_role": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "SML-Bearbeiter"}, "DATA": {"cdb_module_id": "cs.vp.classification", "description": "Administration der Sachmerkmalsleisten", "description_ml_cs": "", "description_ml_en": "Administration of Class Lists of Characteristics", "description_ml_es": "", "description_ml_fr": "", "description_ml_it": "", "description_ml_ja": "", "description_ml_ko": "", "description_ml_pl": "", "description_ml_pt": "", "description_ml_tr": "Karakteristiklerin s\u0131n\u0131f listelerinin y\u00f6netimi", "description_ml_zh": "\u7ba1\u7406\u7279\u6027\u7c7b\u5217\u8868", "is_org_role": 1, "mno": "", "name_cs": "", "name_de": "Administration: SML", "name_en": "Administration CLC", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "CLC y\u00f6netimi", "name_zh": "\u7ba1\u7406CLC"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

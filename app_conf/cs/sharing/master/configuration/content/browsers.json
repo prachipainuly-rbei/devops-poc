@@ -1,0 +1,10 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "angest_web_sharing"}, "DATA": {"browser_tabelle": "cdb_person_tab", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.sharing", "check_value": 0, "classname": "angestellter", "direct_create": 0, "fqpyname": "cs.sharing.web.user_catalog.UserCatalog", "max_records": 0, "no_search": 0, "offer_operations": 1, "one_entry_direct": 1, "proposal_class": "", "relation": "", "search_mask": "cdb_person_mask_s", "title_cs": "", "title_de": "Personen", "title_en": "Persons", "title_es": "", "title_fr": "", "title_it": "", "title_ja": "", "title_ko": "", "title_pl": "", "title_pt": "", "title_tr": "Ki\u015filer", "title_zh": "\u4eba\u5458"}},
+      {"PRIMARY_KEYS": {"katalog": "cdb_sharing_subjects"}, "DATA": {"browser_tabelle": "cdb_sharing_subjects", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.sharing", "check_value": 0, "classname": "", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "cdb_sharing_subjects", "search_mask": "cdb_sharing_subjects", "title_cs": "", "title_de": "Rollen/Personen", "title_en": "Roles/Persons", "title_es": "", "title_fr": "", "title_it": "", "title_ja": "", "title_ko": "", "title_pl": "", "title_pt": "", "title_tr": "Roller/ki\u015filer", "title_zh": "\u89d2\u8272/\u4eba\u5458"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

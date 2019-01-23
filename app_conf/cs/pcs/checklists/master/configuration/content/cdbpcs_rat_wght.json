@@ -1,0 +1,12 @@
+{
+  "cdbpcs_rat_wght": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "GermanSchoolmarks", "weighting": "1"}, "DATA": {"position": 1}},
+      {"PRIMARY_KEYS": {"name": "GermanSchoolmarks", "weighting": "2"}, "DATA": {"position": 2}},
+      {"PRIMARY_KEYS": {"name": "GermanSchoolmarks", "weighting": "3"}, "DATA": {"position": 3}},
+      {"PRIMARY_KEYS": {"name": "RedGreenYellow", "weighting": "1"}, "DATA": {"position": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

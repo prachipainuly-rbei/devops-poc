@@ -1,0 +1,13 @@
+{
+  "cdb_decomp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"identifier": "CDBDD_FIELD"}, "DATA": {"cdb_module_id": "cs.platform.core", "descr": "Generated decomposition based on CDBDD_FIELD", "fqpyname_generator": "cdb.platform.mom.entities.Class.generate_decomp"}},
+      {"PRIMARY_KEYS": {"identifier": "CDBDD_RELATION"}, "DATA": {"cdb_module_id": "cs.platform.core", "descr": "Generated decomposition based on CDBDD_RELATION", "fqpyname_generator": "cdb.platform.mom.entities.Class.generate_decomp"}},
+      {"PRIMARY_KEYS": {"identifier": "CDB_BROWSER"}, "DATA": {"cdb_module_id": "cs.platform.core", "descr": "Generated decomposition based on CDB_BROWSER", "fqpyname_generator": "cdb.platform.mom.entities.Class.generate_decomp"}},
+      {"PRIMARY_KEYS": {"identifier": "CDB_ENTITY"}, "DATA": {"cdb_module_id": "cs.platform.core", "descr": "Generated decomposition based on CDB_ENTITY", "fqpyname_generator": "cdb.platform.mom.entities.Class.generate_decomp"}},
+      {"PRIMARY_KEYS": {"identifier": "CDB_LIC_FEATURE_ASSIGN"}, "DATA": {"cdb_module_id": "cs.platform.core", "descr": "Generated decomposition based on CDB_LIC_FEATURE_ASSIGN", "fqpyname_generator": "cdb.platform.mom.entities.Class.generate_decomp"}}
+    ],
+    "CONTENT_DOMAIN": "Decompositions",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

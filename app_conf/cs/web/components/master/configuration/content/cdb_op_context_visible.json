@@ -1,0 +1,28 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "WebUIApplicationBar", "name": "CDB_Copy"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIApplicationBar", "name": "CDB_Delete"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIApplicationBar", "name": "CDB_Modify"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIApplicationBar", "name": "CDB_Workflow"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIClassApplicationBar", "name": "CDB_Create"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIFileControl", "name": "CDB_Delete"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIFileControl", "name": "CDB_Edit"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIFileControl", "name": "CDB_Export"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIFileControl", "name": "CDB_Import"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIFileControl", "name": "CDB_Lock"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIFileControl", "name": "CDB_Modify"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIFileControl", "name": "CDB_Unlock"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIObjectApplicationBar", "name": "CDB_Modify"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIObjectApplicationBar", "name": "CDB_Workflow"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIRelationshipTable", "name": "CDB_Modify"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIResultArea", "name": "CDB_Modify"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIToolbar", "name": "CDB_Copy"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIToolbar", "name": "CDB_Delete"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIToolbar", "name": "CDB_Modify"}, "DATA": {"cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"id": "WebUIToolbar", "name": "CDB_Workflow"}, "DATA": {"cdb_module_id": "cs.web.components"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

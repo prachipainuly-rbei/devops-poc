@@ -1,0 +1,19 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio2category", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio2cdb_file", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio2objektstati", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio2top_folders", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_category2cdb_file", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_category2folder", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_folder2cdb_file", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_folder2childern", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_folder2folder_content", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_folder2objektstati", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"name": "cdb_portfolio_folder2parent", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.portfolios"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

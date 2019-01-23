@@ -1,0 +1,11 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Products", "table_name": "cdbvp_product"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.products", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Products (DRAFT)", "table_name": "cdbvp_product"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.vp.products", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.vp: Products 2", "table_name": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": ""}, "UPDATE_POLICY": "NEVER UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

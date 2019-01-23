@@ -1,0 +1,10 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "Checklist Items"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "Conjunctive mapping of access rights form checklist items to their checklist.", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "Conjunctive mapping of access rights form checklists to assigned tasks.", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

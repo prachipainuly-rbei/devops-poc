@@ -1,0 +1,13 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "1c45c78f-6365-11e5-9940-080027002473"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_task2doctmpl", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "2e7669f0-fd54-11e4-9d89-f0def133d0a6"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.pcs.projects_documents", "classname": "cdb_folder", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "93375dbb-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "cdb_folder_types", "cdb_module_id": "cs.pcs.projects_documents", "classname": "cdb_folder_type", "decomp_id": "", "icon_id": "", "ordering": 130, "parent_id": "725d77a1-4440-11e2-89c3-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d32977aa-c0a0-11e7-963f-a0b3ccf7c487"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_doc_tmpl_usage", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d9b586de-6364-11e5-adf0-080027002473"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_prj2doctmpl", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

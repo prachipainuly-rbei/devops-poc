@@ -1,0 +1,9 @@
+{
+  "cdb_roleexc_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"context_name": "ProjectContext", "relation": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "exc_assign_rel": "cdbpcs_rexc_prt"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

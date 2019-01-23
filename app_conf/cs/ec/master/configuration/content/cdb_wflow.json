@@ -1,0 +1,10 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdbecm_simple_ec"}, "DATA": {"cdb_module_id": "cs.ec", "description": "", "name_cs": "", "name_de": "Technische \u00c4nderungen (Einfach)", "name_en": "Engineering Changes (Simple)", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "M\u00fchendislik de\u011fi\u015fiklikleri (basit)", "name_zh": "\u5de5\u7a0b\u66f4\u6539(\u7b80\u5355)", "objclass": "cdbecm_ec", "sys_wf": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdbecm_standard_ec"}, "DATA": {"cdb_module_id": "cs.ec", "description": "", "name_cs": "", "name_de": "Technische \u00c4nderungen (Standard)", "name_en": "Engineering Changes (Standard)", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "M\u00fchendislik de\u011fi\u015fiklikleri (standart)", "name_zh": "\u5de5\u7a0b\u66f4\u6539(\u6807\u51c6)", "objclass": "cdbecm_ec", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

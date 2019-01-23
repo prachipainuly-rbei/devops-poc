@@ -1,0 +1,10 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "currency", "relation": "cdbpco_curr_convert"}, "DATA": {"cdb_module_id": "cs.currency"}},
+      {"PRIMARY_KEYS": {"auth_class": "currency", "relation": "cdbpco_currency"}, "DATA": {"cdb_module_id": "cs.currency"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "csweb_outlet_position_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_project", "outlet_name": "object_details", "pos": 10, "priority": 10, "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_project", "outlet_name": "object_details", "pos": 15, "priority": 10, "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_project", "outlet_name": "object_details", "pos": 20, "priority": 10, "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_project", "outlet_name": "object_details", "pos": 30, "priority": 10, "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_project", "outlet_name": "object_details", "pos": 40, "priority": 10, "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_project", "outlet_name": "object_header_extension", "pos": 10, "priority": 10, "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions", "predicate_name": "cs.metrics: Definitions", "table_name": "cdbqc_definition"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions (INVALID)", "predicate_name": "cs.metrics: Definitions (INVALID)", "table_name": "cdbqc_definition"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions (NEW)", "predicate_name": "cs.metrics: Definitions (NEW)", "table_name": "cdbqc_definition"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: My Definitions (NEW)", "predicate_name": "cs.metrics: My Definitions (EXECUTION)", "table_name": "cdbqc_definition"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: My Quality Characteristics", "predicate_name": "cs.metrics: My Quality Characteristics", "table_name": "cdbqc_quality_character"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Objects", "predicate_name": "cs.metrics: Children", "table_name": "cdbqc_children"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Objects", "predicate_name": "cs.metrics: Class Assignments", "table_name": "cdbqc_def2class"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Objects", "predicate_name": "cs.metrics: Definitions", "table_name": "cdbqc_definition"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Objects", "predicate_name": "cs.metrics: Grouping Attributes", "table_name": "cdbqc_grouping_attribute"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Objects", "predicate_name": "cs.metrics: Grouping Values", "table_name": "cdbqc_grouping_value"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Objects", "predicate_name": "cs.metrics: Parents", "table_name": "cdbqc_parents"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Objects", "predicate_name": "cs.metrics: Quality Characteristics 2", "table_name": "cdbqc_quality_character"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Quality Characteristics", "predicate_name": "cs.metrics: Quality Characteristics", "table_name": "cdbqc_quality_character"}, "DATA": {"cdb_module_id": "cs.metrics"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

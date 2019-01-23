@@ -1,0 +1,44 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {}
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.platform.roles", 
+        "required_module_id": "cs.platform.core"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.platform.roles", 
+        "required_module_id": "cs.platform.org"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "9fe1e6d1-59de-11e2-8633-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 1, 
+      "master_config_checksum": "625d787e3c8de53b8298ef5896212dd8", 
+      "name": "Roles: Extension point for applications", 
+      "package": "cs.platform"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.platform.roles"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_obj_state_ch": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objclass": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "comp_name": "default", "prot_table": "cdb_action_prot"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

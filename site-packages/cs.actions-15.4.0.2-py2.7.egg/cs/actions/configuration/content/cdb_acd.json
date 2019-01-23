@@ -1,0 +1,10 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (COMPLETED)"}, "DATA": {"cdb_module_id": "cs.actions", "common_flag": 1, "description": "Actions in status 100, 200"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (not DISCARDED, COMPLETED)"}, "DATA": {"cdb_module_id": "cs.actions", "common_flag": 1, "description": "Actions not in status 200, 100, 110"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

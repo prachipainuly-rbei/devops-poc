@@ -1,0 +1,13 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (BLOCKED, OBSOLETE)"}, "DATA": {"cdb_module_id": "cs.vp.cad", "common_flag": 1, "description": "cad_part, cad_drawing, cad_assembly in status 170,180"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)"}, "DATA": {"cdb_module_id": "cs.vp.cad", "common_flag": 1, "description": "cad_part, cad_drawing, cad_assembly in status 0"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (RELEASED)"}, "DATA": {"cdb_module_id": "cs.vp.cad", "common_flag": 1, "description": "cad_part, cad_drawing, cad_assembly in status 200"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)"}, "DATA": {"cdb_module_id": "cs.vp.cad", "common_flag": 1, "description": "cad_part, cad_drawing, cad_assembly in status 100"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVISION)"}, "DATA": {"cdb_module_id": "cs.vp.cad", "common_flag": 1, "description": "cad_part, cad_drawing, cad_assembly in status 190"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

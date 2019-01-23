@@ -1,0 +1,10 @@
+{
+  "cdbxml_report_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "ProjectIssues", "report_title": "Offene Punkte", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "TaskIssues", "report_title": "Offene Punkte", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

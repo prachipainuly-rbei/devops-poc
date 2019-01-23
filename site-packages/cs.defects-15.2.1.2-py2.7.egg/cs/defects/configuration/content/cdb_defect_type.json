@@ -1,0 +1,10 @@
+{
+  "cdb_defect_type": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Produktfehler"}, "DATA": {"cdb_object_id": "09df7eb0-75f7-11e2-afb1-00a0c6000000", "obsolete": 0, "type_cs": "", "type_de": "Produktfehler", "type_en": "Product Defect", "type_es": "", "type_fr": "", "type_it": "", "type_ja": "", "type_ko": "", "type_pl": "", "type_pt": "", "type_tr": "\u00dcr\u00fcn hatas\u0131", "type_zh": "\u4ea7\u54c1\u7f3a\u9677"}},
+      {"PRIMARY_KEYS": {"name": "Prozessfehler"}, "DATA": {"cdb_object_id": "a191ca50-bda4-11e4-9a3a-082e5f0d0c28", "obsolete": 0, "type_cs": "", "type_de": "Prozessfehler", "type_en": "Process Defect", "type_es": "", "type_fr": "", "type_it": "", "type_ja": "", "type_ko": "", "type_pl": "", "type_pt": "", "type_tr": "Proses hatas\u0131", "type_zh": "\u5de5\u827a\u7f3a\u9677"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

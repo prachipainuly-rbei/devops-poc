@@ -1,0 +1,19 @@
+{
+  "cdbqc_def2class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_obj_def2class", "cdbqc_def_object_id": "3a62a3e1-2d9b-11e2-bc0d-082e5f0d3665", "classname": "cdb_portfolio_folder", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "54054aee-2d9b-11e2-8ee6-082e5f0d3665", "take_aggr_val": 0, "update_clock": 30}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_obj_def2class", "cdbqc_def_object_id": "91a5c570-2d9a-11e2-b61c-082e5f0d3665", "classname": "cdb_portfolio_folder", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "be7e7bf0-2d9a-11e2-b8fb-082e5f0d3665", "take_aggr_val": 0, "update_clock": 30}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_obj_def2class", "cdbqc_def_object_id": "0351b5ee-2362-11e2-94e3-0026c78a4864", "classname": "cdbvp_product", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "71f91ff0-2364-11e2-835c-0026c78a4864", "take_aggr_val": 0, "update_clock": 10}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_obj_def2class", "cdbqc_def_object_id": "31364ba2-2d7d-11e2-9dd2-082e5f0d3665", "classname": "cdbvp_product", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "", "take_aggr_val": 0, "update_clock": 0}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_obj_def2class", "cdbqc_def_object_id": "39b32640-2364-11e2-bba4-0026c78a4864", "classname": "cdbvp_product", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "5f436e9e-2365-11e2-b721-0026c78a4864", "take_aggr_val": 0, "update_clock": 10}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_obj_def2class", "cdbqc_def_object_id": "4133148f-2362-11e2-9102-0026c78a4864", "classname": "cdbvp_product", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "ec9fe5de-2364-11e2-8ee9-0026c78a4864", "take_aggr_val": 0, "update_clock": 10}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_obj_def2class", "cdbqc_def_object_id": "56873680-2d7d-11e2-a94b-082e5f0d3665", "classname": "cdbvp_product", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "", "take_aggr_val": 0, "update_clock": 0}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_class_def2class", "cdbqc_def_object_id": "b68403ae-235a-11e2-8f1e-0026c78a4864", "classname": "cdbvp_product", "obj_rule_name": "cdbqc: non unvalid products"}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "91dcd470-2d6d-11e2-a1d8-082e5f0d3665", "take_aggr_val": null, "update_clock": 30}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_obj_def2class", "cdbqc_def_object_id": "c513ea01-2362-11e2-a018-0026c78a4864", "classname": "cdbvp_product", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "", "take_aggr_val": 0, "update_clock": 0}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_class_def2class", "cdbqc_def_object_id": "dc668e51-2d6d-11e2-83cc-082e5f0d3665", "classname": "cdbvp_product", "obj_rule_name": "cdbqc: non unvalid products"}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "91dcd470-2d6d-11e2-a1d8-082e5f0d3665", "take_aggr_val": null, "update_clock": 30}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_obj_def2class", "cdbqc_def_object_id": "fc604170-2362-11e2-b871-0026c78a4864", "classname": "cdbvp_product", "obj_rule_name": ""}, "DATA": {"cdb_module_id": "cs.vp.products", "computation_rule_id": "", "take_aggr_val": 0, "update_clock": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

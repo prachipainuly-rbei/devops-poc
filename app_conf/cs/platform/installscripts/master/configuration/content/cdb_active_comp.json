@@ -1,0 +1,14 @@
+{
+  "cdb_active_comp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "now", "name": "cdb_run_custupdate", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "post", "name": "cdb_run_custupdate", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "now", "name": "cdb_script_log_checked", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "pre_mask", "name": "cdb_script_log_checked", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"action_what": "query", "action_when": "pre", "name": "cdbserver_cdb_custupdate", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"action_what": "requery", "action_when": "pre", "name": "cdbserver_cdb_custupdate", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "cdbdd_class_join": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbwf_briefcase_link", "join_relship": "cdbwf_briefcase_link2briefcase"}, "DATA": {"alias_name": "Briefcase", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_briefcase_link", "join_relship": "cdbwf_briefcase_link2process"}, "DATA": {"alias_name": "Process", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_briefcase_link", "join_relship": "cdbwf_briefcase_link2task"}, "DATA": {"alias_name": "Task", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_constraint", "join_relship": "cdbwf_constraint2briefcase"}, "DATA": {"alias_name": "Briefcase", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_constraint", "join_relship": "cdbwf_constraint2process"}, "DATA": {"alias_name": "Process", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_constraint", "join_relship": "cdbwf_constraint2process_component"}, "DATA": {"alias_name": "ProcessComponent", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_filter_parameter", "join_relship": "cdbwf_filter_parameter2process"}, "DATA": {"alias_name": "Process", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_filter_parameter", "join_relship": "cdbwf_filter_parameter2task"}, "DATA": {"alias_name": "Task", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_form", "join_relship": "cdbwf_form2template"}, "DATA": {"alias_name": "Template", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_form_template", "join_relship": "cdbwf_form_template2objektstati"}, "DATA": {"alias_name": "Status", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_process", "join_relship": "cdbwf_process2objektstati"}, "DATA": {"alias_name": "Status", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_process_component", "join_relship": "cdbwf_process_component2objektstati"}, "DATA": {"alias_name": "Status", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_protocol", "join_relship": "cdbwf_prot2task_pc"}, "DATA": {"alias_name": "Task_comp", "cdb_module_id": "cs.workflow", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

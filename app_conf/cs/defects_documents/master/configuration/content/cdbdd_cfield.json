@@ -1,0 +1,11 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "3027fef0-c273-11e0-a678-70f39547fa1b", "field_classname": "cdb_defect2doc", "field_name": "cdb_defect_object_id"}, "DATA": {"cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "3027fef0-c273-11e0-a678-70f39547fa1b", "field_classname": "cdb_defect2doc", "field_name": "z_index"}, "DATA": {"cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "3027fef0-c273-11e0-a678-70f39547fa1b", "field_classname": "cdb_defect2doc", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

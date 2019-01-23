@@ -1,0 +1,22 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (BLOCKED, OBSOLETE)", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "accept", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "create", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "delete", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "distribute", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "lock", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "save", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (RELEASED)", "allow": "index", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (RELEASED)", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)", "allow": "distribute", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)", "allow": "unlock", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVISION)", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

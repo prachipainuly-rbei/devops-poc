@@ -1,0 +1,16 @@
+{
+  "cdbxml_report_tmpl": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "VPMBomComparison", "report_title": "VarSt\u00fccklistenvergleich"}, "DATA": {"cdb_module_id": "cs.vp.variants", "cdb_object_id": "bdcc311e-3f9c-11e2-8c91-082e5f0d3665", "title": "Variantenvergleich"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "VPMBomComparison", "report_title": "VarSt\u00fccklistenvergleich"}, "DATA": {"cdb_module_id": "cs.vp.variants", "cdb_object_id": "35880c21-3f9d-11e2-b564-082e5f0d3665", "title": "Variant comparison"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "VPMHierarchicalBOM", "report_title": "VarStrukturStueckliste"}, "DATA": {"cdb_module_id": "cs.vp.variants", "cdb_object_id": "4abc9b00-3eea-11e2-acb4-082e5f0d3665", "title": "Variantenst\u00fcckliste"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "VPMHierarchicalBOM", "report_title": "VarStrukturStueckliste"}, "DATA": {"cdb_module_id": "cs.vp.variants", "cdb_object_id": "663ba330-3eea-11e2-b758-082e5f0d3665", "title": "Variant BOM"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "VPMVirtualHierarchicalBOM", "report_title": "VirtVarStrukturStueckliste"}, "DATA": {"cdb_module_id": "cs.vp.variants", "cdb_object_id": "6d8f0231-d986-11e2-b192-082e5f0d3665", "title": "Variantenst\u00fcckliste (virtuell)"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "VPMVirtualHierarchicalBOM", "report_title": "VirtVarStrukturStueckliste"}, "DATA": {"cdb_module_id": "cs.vp.variants", "cdb_object_id": "7969fb50-d986-11e2-b2d4-082e5f0d3665", "title": "Variant BOM (virtual)"}},
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "VirtualVPMBomComparison", "report_title": "VirtualVPMBomComparison"}, "DATA": {"cdb_module_id": "cs.vp.variants", "cdb_object_id": "0089bd31-d989-11e2-98a1-082e5f0d3665", "title": "Variantenvergleich (virtuell)"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "VirtualVPMBomComparison", "report_title": "VirtualVPMBomComparison"}, "DATA": {"cdb_module_id": "cs.vp.variants", "cdb_object_id": "0f03f240-d989-11e2-b5e0-082e5f0d3665", "title": "Variant comparison (virtual)"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

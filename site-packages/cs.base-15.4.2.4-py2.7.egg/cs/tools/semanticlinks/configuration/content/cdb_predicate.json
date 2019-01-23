@@ -1,0 +1,10 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "Alle semantischen Verkn\u00fcpfungen", "table_name": "cdb_semantic_link"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "description": "Alle semantischen Verkn\u00fcpfungen"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "Alle semantischen Verkn\u00fcpfungstypen", "table_name": "cdb_semantic_link_type"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "description": "Alle semantischen Verkn\u00fcpfungstypen"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdbqc_def2class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_class_def2class", "cdbqc_def_object_id": "8856b2b0-2d6b-11e2-8a77-082e5f0d3665", "classname": "part", "obj_rule_name": "cdbqc: non unvalid parts"}, "DATA": {"cdb_module_id": "cs.vp.items", "computation_rule_id": "7a2a62de-2ce4-11e2-97a7-082e5f0d3665", "take_aggr_val": null, "update_clock": 30}},
+      {"PRIMARY_KEYS": {"cdb_classname": "cdbqc_class_def2class", "cdbqc_def_object_id": "dac5bdee-2359-11e2-990e-0026c78a4864", "classname": "part", "obj_rule_name": "cdbqc: non unvalid parts"}, "DATA": {"cdb_module_id": "cs.vp.items", "computation_rule_id": "7a2a62de-2ce4-11e2-97a7-082e5f0d3665", "take_aggr_val": null, "update_clock": 30}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

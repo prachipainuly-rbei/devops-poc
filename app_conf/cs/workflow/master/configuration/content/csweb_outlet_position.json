@@ -1,0 +1,12 @@
+{
+  "csweb_outlet_position": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbwf_process", "outlet_name": "object_details", "pos": 10, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.workflow", "child_name": "cs-workflow-web-EmbeddedDesigner", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_process", "outlet_name": "object_details", "pos": 20, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.workflow", "child_name": "Form", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_process", "outlet_name": "object_details", "pos": 30, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "CDB Relship Register", "cdb_module_id": "cs.workflow", "child_name": "DetailOutletRelationshipTable", "json_properties": "{\"includeRelships\": [\"AllTasks\", \"Protocol\"]}", "setup_fqpyname": "cs.web.components.outlet_generators.OutletPositionRelationshipsCallback"}},
+      {"PRIMARY_KEYS": {"classname": "cdbwf_process", "outlet_name": "object_details", "pos": 40, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.workflow", "child_name": "cs-activitystream-web-ObjectActivities", "json_properties": "", "setup_fqpyname": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

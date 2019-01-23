@@ -1,0 +1,15 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "DEFECTS_001"}, "DATA": {"cdb_module_id": "cs.defects", "description": "Allows to read Defect master data, aggregated elements (e.g. changes of status protocol) and used catalogs as Defect Types.", "name": "Defects: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "DEFECTS_002"}, "DATA": {"cdb_module_id": "cs.defects", "description": "Allows to write (create, copy, modify, delete) Defect master data and aggregated elements.", "name": "Defects: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "DEFECTS_003"}, "DATA": {"cdb_module_id": "cs.defects", "description": "Allows to open the structure tree control of a Defect to navigate to Sub-Defects and other related elements (e.g. assigned Actions).", "name": "Defects: Open Structure Tree"}},
+      {"PRIMARY_KEYS": {"id": "DEFECTS_004"}, "DATA": {"cdb_module_id": "cs.defects", "description": "Allows to change the status of a Defect.", "name": "Defects: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "DEFECTS_005"}, "DATA": {"cdb_module_id": "cs.defects", "description": "Allows to write (create, copy, modify, delete) catalog data as Defect Types used/referenced by Defect objects/master data.", "name": "Defects: Write Catalog Data"}},
+      {"PRIMARY_KEYS": {"id": "DEFECTS_006"}, "DATA": {"cdb_module_id": "cs.defects", "description": "Allows to read the assignments between Defects and Actions.", "name": "Defects: Read Action Assignments"}},
+      {"PRIMARY_KEYS": {"id": "DEFECTS_007"}, "DATA": {"cdb_module_id": "cs.defects", "description": "Allows to assign Actions to Defects.", "name": "Defects: Write Action Assignments"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

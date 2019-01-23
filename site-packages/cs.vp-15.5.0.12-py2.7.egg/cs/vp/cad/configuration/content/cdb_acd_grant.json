@@ -1,0 +1,23 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (BLOCKED, OBSOLETE)", "allow": "read_file", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "accept", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "create", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "delete", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "distribute", "class": "document", "subject_id": "Design Release", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "lock", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "read_file", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (DRAFT)", "allow": "save", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (RELEASED)", "allow": "index", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (RELEASED)", "allow": "read_file", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)", "allow": "distribute", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)", "allow": "read_file", "class": "document", "subject_id": "Design Release", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)", "allow": "read_file", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVIEW)", "allow": "unlock", "class": "document", "subject_id": "Design Release", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: CAD Documents (REVISION)", "allow": "read_file", "class": "document", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.cad"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

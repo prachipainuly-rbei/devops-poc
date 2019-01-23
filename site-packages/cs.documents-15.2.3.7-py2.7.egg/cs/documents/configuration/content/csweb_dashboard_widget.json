@@ -1,0 +1,9 @@
+{
+  "csweb_dashboard_widget": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "recently-modified-documents-widget"}, "DATA": {"cdb_module_id": "cs.documents", "component": "cs-documents-web-RecentlyModifiedDocumentsWidget", "description_de": "Zeigt die zuletzt ge\u00e4nderten Dokumente des aktuellen Benutzers an", "description_en": "Shows the last modified documents of the current user", "description_tr": "", "description_zh": "", "library_name": "cs-documents-web", "library_version": "15.3.0", "name_de": "Zuletzt ge\u00e4nderte Dokumente", "name_en": "Last modified Documents", "name_tr": "", "name_zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

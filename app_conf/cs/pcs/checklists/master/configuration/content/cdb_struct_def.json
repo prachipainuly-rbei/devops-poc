@@ -1,0 +1,11 @@
+{
+  "cdb_struct_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_checklist"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.pcs.checklists", "comp_tag": "", "descr": "Structure representation of checklists", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_checklist2cl_items", "root_mask": "cdbpcs_checkl_mask", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_project_qgates_pr\u00fcfpkte"}, "DATA": {"addtl_icon": "Structure", "cdb_module_id": "cs.pcs.checklists", "comp_tag": "cdbpcs_quality_gates", "descr": "", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_project2qualitygates", "root_mask": "", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_task_qgates_pr\u00fcfpkte"}, "DATA": {"addtl_icon": "Structure", "cdb_module_id": "cs.pcs.checklists", "comp_tag": "cdbpcs_quality_gates", "descr": "", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_task2qualitygates", "root_mask": "", "show_rs_window": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

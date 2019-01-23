@@ -1,0 +1,10 @@
+{
+  "csweb_outlet_description": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"outlet_name": "object_details"}, "DATA": {"cdb_module_id": "cs.web.components", "description": "The tabs that are rendered on the detail page"}},
+      {"PRIMARY_KEYS": {"outlet_name": "object_header_extension"}, "DATA": {"cdb_module_id": "cs.web.components", "description": "Optional extension to be shown below the object header on detail pages"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

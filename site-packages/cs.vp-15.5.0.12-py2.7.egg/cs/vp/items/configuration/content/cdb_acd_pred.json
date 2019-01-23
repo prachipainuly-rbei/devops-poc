@@ -1,0 +1,30 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Administration", "predicate_name": "cs.vp: Part Categories", "table_name": "cdb_part_categ"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Administration", "predicate_name": "cs.vp: Parts", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Catalogs", "predicate_name": "cs.vp: Part Categories", "table_name": "cdb_part_categ"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operation Assignments (BO already run)", "predicate_name": "cs.vp: Batch Operations (Part, already run)", "table_name": "cdbbop_item_asgn"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operation Assignments (BO not run yet)", "predicate_name": "cs.vp: Batch Operations (Part, not run yet)", "table_name": "cdbbop_item_asgn"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Exceptional Access", "predicate_name": "cs.vp.items: Exceptional Access", "table_name": "cdb_roleexc_prt"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (BLOCKED, OBSOLETE)", "predicate_name": "cs.vp: Parts (part, BLOCKED)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (BLOCKED, OBSOLETE)", "predicate_name": "cs.vp: Parts (part, OBSOLETE)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (BLOCKED, OBSOLETE)", "predicate_name": "cs.vp: Parts (part_ERP, BLOCKED)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (BLOCKED, OBSOLETE)", "predicate_name": "cs.vp: Parts (part_ERP, OBSOLETE)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "predicate_name": "cs.vp: Parts (part, DRAFT)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "predicate_name": "cs.vp: Parts (part_ERP, DRAFT)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (FROM ERP)", "predicate_name": "cs.vp: Parts (part_ERP, FROM ERP)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (RELEASED)", "predicate_name": "cs.vp: Parts (part, RELEASED)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (RELEASED)", "predicate_name": "cs.vp: Parts (part_ERP, RELEASED FOR ERP)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (RELEASED)", "predicate_name": "cs.vp: Parts (part_ERP, RELEASED)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVIEW)", "predicate_name": "cs.vp: Parts (part, REVIEW)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVIEW)", "predicate_name": "cs.vp: Parts (part_ERP, REVIEW)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVISION)", "predicate_name": "cs.vp: Parts (part, REVISION)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVISION)", "predicate_name": "cs.vp: Parts (part_ERP, REVISION)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (configurable)", "predicate_name": "cs.vp: Parts (configurable)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (mBOM)", "predicate_name": "cs.vp: Parts (mBOM)", "table_name": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

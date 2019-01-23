@@ -1,0 +1,165 @@
+{
+  "cdbes_jobs": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 50, 
+        "NAME": "job_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "enqueued", 
+        "NOTNULL": 1, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "sent", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "last_change", 
+        "NOTNULL": false, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "cdb_jobject_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 32, 
+        "NAME": "relation_name", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "obj_deleted", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "job_state", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "tes_state", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "initial_phase", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "0", 
+        "NAME": "prevent_associated_obj_update", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }
+    ], 
+    "INDEXES": [
+      {
+        "COLUMNS": [
+          "enqueued"
+        ], 
+        "NAME": "cdbes_jobs_enq", 
+        "UNIQUE": false
+      }, 
+      {
+        "COLUMNS": [
+          "job_state"
+        ], 
+        "NAME": "cdbes_jobs_js", 
+        "UNIQUE": false
+      }, 
+      {
+        "COLUMNS": [
+          "cdb_jobject_id"
+        ], 
+        "NAME": "cdbes_jobs_objs", 
+        "UNIQUE": false
+      }, 
+      {
+        "COLUMNS": [
+          "tes_state"
+        ], 
+        "NAME": "cdbes_jobs_ts", 
+        "UNIQUE": false
+      }
+    ], 
+    "PRIMARY KEY": [
+      "job_id"
+    ]
+  }, 
+  "cdbes_jobs_txt": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 50, 
+        "NAME": "job_id", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": null, 
+        "NAME": "zeile", 
+        "NOTNULL": 1, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": null, 
+        "LENGTH": 4000, 
+        "NAME": "text", 
+        "NOTNULL": 0, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "job_id", 
+      "zeile"
+    ]
+  }, 
+  "cdbes_state": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "queue_state", 
+        "NOTNULL": 1, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "last_update", 
+        "NOTNULL": 1, 
+        "TYPE": 3
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 40, 
+        "NAME": "state_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }
+    ], 
+    "PRIMARY KEY": [
+      "state_id"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+#
+# Copyright (C) 1990 - 2016 CONTACT Software GmbH
+# All rights reserved.
+# http://www.contact.de/
+
+import re
+from cdb import ue, util
+
+__reNumMatch = re.compile("([^0-9]*)([0-9]*)$")
+
+
+def genno(start, trailing="1", prefixlength=0):
+    result = "0"
+    matches = __reNumMatch.match(start)
+    if matches:
+        # In diesem Fall sind die letzten Zeichen nur noch Ziffern.
+        segments = matches.groups()
+        prefixlength = max(len(segments[0]), prefixlength)
+        prefix = start[:prefixlength]
+        suffix = start[prefixlength:]
+        if not len(suffix):
+            suffix = trailing
+        else:
+            suffix = "%0*d" % (len(suffix), int(suffix) + 1)
+        result = "%s%s" % (prefix, suffix)
+    else:
+        # 'start' endet nicht mit Ziffern! Also einfach 'trailing'
+        # anhaengen.
+        result = "%s%s" % (start, trailing)
+    return result
+
+
+def numgen(ctx):
+    newNumber = ""
+    if ctx.type == "1":
+        newNumber = genno(ctx.nummer)
+    elif ctx.type == "2":
+        from cs.vp.items import Item
+        newNumber = Item.MakeItemNumber(num_digits=6)
+    elif ctx.type == "42" and ctx.relation == "cdb_org":
+        newNumber = ("%s" % (util.nextval("cdb_org"))).zfill(6)
+    elif ctx.type == "42" and ctx.relation == "cdbsml_property":
+        newNumber = ("%s" % (util.nextval("cdbsml_property", 1))).zfill(8)
+    elif ctx.type == "42" and ctx.relation == "cdbsml_propcat":
+        newNumber = ("%s" % (util.nextval("cdbsml_propcat", 1))).zfill(8)
+    else:
+        newNumber = genno(ctx.nummer)
+    ctx.new_num(newNumber)
+
+
+if __name__ == "__main__":
+    ue.run(numgen)

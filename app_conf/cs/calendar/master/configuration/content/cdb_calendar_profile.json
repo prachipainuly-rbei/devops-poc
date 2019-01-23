@@ -1,0 +1,9 @@
+{
+  "cdb_calendar_profile": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "1cb4cf41-0f40-11df-a6f9-9435b380e702"}, "DATA": {"cdb_cdate": "01.02.2010 15:43:07", "cdb_cpersno": "caddok", "cdb_mdate": "18.09.2015 14:41:41", "cdb_mpersno": "caddok", "description": "Standard calendar profile with weekend rule but without official holiday", "fr_type_id": "1", "mo_type_id": "1", "name": "Standard", "sa_type_id": "2", "su_type_id": "2", "th_type_id": "1", "tu_type_id": "1", "valid_from": "01.01.2004", "valid_until": "31.12.2029", "we_type_id": "1"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

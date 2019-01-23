@@ -1,0 +1,12 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_frame2cdb_file", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"name": "cdb_frame_group2cdb_frame", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"name": "cdb_frame_group2cdb_frame_table", "role_id": "Frame-Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"name": "cdb_frame_group2cdb_title_block", "role_id": "Frame-Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

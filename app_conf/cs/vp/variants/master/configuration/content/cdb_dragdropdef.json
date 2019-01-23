@@ -1,0 +1,18 @@
+{
+  "cdb_dragdropdef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"drag_classname": "cdbvp_catalogue_enum_def", "drop_classname": "cdbvp_enum_def"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"drag_classname": "cdbvp_catalogue_property", "drop_classname": "cdbvp_property"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"drag_classname": "cdbvp_enum_def", "drop_classname": "cdbvp_bom_term"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"drag_classname": "cdbvp_enum_def", "drop_classname": "cdbvp_constraint"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"drag_classname": "cdbvp_enum_def", "drop_classname": "cdbvp_property_value"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"drag_classname": "cdbvp_enum_def", "drop_classname": "cdbvp_term"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"drag_classname": "cdbvp_property", "drop_classname": "cdbvp_bom_term"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"drag_classname": "cdbvp_property", "drop_classname": "cdbvp_constraint"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"drag_classname": "cdbvp_property", "drop_classname": "cdbvp_property_value"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"drag_classname": "cdbvp_property", "drop_classname": "cdbvp_term"}, "DATA": {"cdb_module_id": "cs.vp.variants"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

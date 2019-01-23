@@ -1,0 +1,15 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_sharing", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.sharing", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_group", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.sharing", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_group_member", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.sharing", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_posting_v", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.sharing", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_recipients", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.sharing", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_subjects", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.sharing", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "mq_share_objects_queue", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.sharing", "dflt": null, "ersteller": "Administrator, ", "max_records": null, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

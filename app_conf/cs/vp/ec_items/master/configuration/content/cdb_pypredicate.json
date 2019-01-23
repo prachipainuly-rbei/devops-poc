@@ -1,0 +1,9 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "cdbecm: EC Reference modifiable", "predicate_name": "Artikel im Status 0"}, "DATA": {"cdb_module_id": "cs.vp.ec_items", "description": "Artikel im Status 'in Arbeit'"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

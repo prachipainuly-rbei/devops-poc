@@ -1,0 +1,92 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.0", 
+      "cs.activitystream": "15.3.1.1", 
+      "cs.base": "15.4.0.1", 
+      "cs.documents": "15.2.2.1", 
+      "cs.platform": "15.2.11", 
+      "cs.powerreports": "15.2.0.0", 
+      "cs.workflow": "15.4.0.0"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.defects", 
+        "required_module_id": "cs.actions"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.defects", 
+        "required_module_id": "cs.activitystream"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.defects", 
+        "required_module_id": "cs.platform.core"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.defects", 
+        "required_module_id": "cs.shared"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.defects", 
+        "required_module_id": "cs.sharing"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.defects", 
+        "required_module_id": "cs.workflow"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "b23aad80-51fa-11e2-92bb-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "9eef300c063ba7147b9355eec07629bb", 
+      "name": "Defects", 
+      "package": "cs.defects"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.defects"
+    }
+  }
+}

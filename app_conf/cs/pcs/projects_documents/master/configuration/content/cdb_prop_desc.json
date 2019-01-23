@@ -1,0 +1,9 @@
+{
+  "cdb_prop_desc": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attr": "mspt"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "helptext": "Document to be used as the global MS-Project template file (.mpp).\nFor projects it automatically gets set as the default primary MSP time schedule.\nValue syntax: \"<z_nummer>;<z_index>\""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

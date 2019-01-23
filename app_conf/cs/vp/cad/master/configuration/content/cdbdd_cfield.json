@@ -1,0 +1,14 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "1986e980-8276-11e2-bf28-78acc0a55b77", "field_classname": "altdaten_zeich", "field_name": "alt_dateiname"}, "DATA": {"cdb_module_id": "cs.vp.cad", "classname": "altdaten_zeich", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "1986e980-8276-11e2-bf28-78acc0a55b77", "field_classname": "altdaten_zeich", "field_name": "blattnr"}, "DATA": {"cdb_module_id": "cs.vp.cad", "classname": "altdaten_zeich", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "1986e980-8276-11e2-bf28-78acc0a55b77", "field_classname": "altdaten_zeich", "field_name": "konfiguration"}, "DATA": {"cdb_module_id": "cs.vp.cad", "classname": "altdaten_zeich", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "a535cf6e-a18e-11e0-9a35-6cf049769241", "field_classname": "cad_variant", "field_name": "variant_id"}, "DATA": {"cdb_module_id": "cs.vp.cad", "classname": "cad_variant", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "a535cf6e-a18e-11e0-9a35-6cf049769241", "field_classname": "cad_variant", "field_name": "z_index"}, "DATA": {"cdb_module_id": "cs.vp.cad", "classname": "cad_variant", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "a535cf6e-a18e-11e0-9a35-6cf049769241", "field_classname": "cad_variant", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.vp.cad", "classname": "cad_variant", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

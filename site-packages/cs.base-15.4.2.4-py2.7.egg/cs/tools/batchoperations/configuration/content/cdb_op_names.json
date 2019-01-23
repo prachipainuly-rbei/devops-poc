@@ -1,0 +1,11 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbbop_decomp"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.tools.batchoperations", "client_desc": "", "descr": "", "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "cdb_gen_decomp", "label_ok": "", "menu_visible": 1, "menugroup": 100, "ordering": 10, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_operation_create"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.tools.batchoperations", "client_desc": "", "descr": "", "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "cdbbop_op_create", "label_ok": "", "menu_visible": 1, "menugroup": 1000, "ordering": 3, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_operation_exec"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.tools.batchoperations", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdb_execute", "inactive": 0, "kind": "PowerScript", "label": "cdbbop_op_exec", "label_ok": "", "menu_visible": 1, "menugroup": 1000, "ordering": 10, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "WEB_030"}, "DATA": {"cdb_module_id": "cs.web.search", "description": "Allows users to access the search features of the Web UI", "name": "Web UI Search"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

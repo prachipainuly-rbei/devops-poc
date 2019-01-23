@@ -1,0 +1,17 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_checkl", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "Checklisten-Klassensymbol", "fallback_id": "branding_company_logo_small", "identifier": "\"checklist.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_checkl_object", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "Checklist Objektsymbol", "fallback_id": "branding_company_logo_small", "identifier": "type+\"_\"+rating_scheme+\"_\"+rating_id+\".png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_checkl_rating", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "Dynamisches Checklist-Symbol, abh\u00e4ngig von der Bewertung (Note)", "fallback_id": "", "identifier": "type+\"_MaskImage_\"+rating_scheme+\"_\"+rating_id+\".png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_checklist", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "", "fallback_id": "", "identifier": "\"Checklist_RedGreenYellow_.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_cl_item_object", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "Checklist Item Objektsymbol", "fallback_id": "branding_company_logo_small", "identifier": "type+\"_Item_\"+rating_scheme+\"_\"+rating_id+\".png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_cl_item_rat", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "Dynamisches Checklist-Symbol, abh\u00e4ngig von der Bewertung (Note)", "fallback_id": "", "identifier": "type+\"_MaskImage_\"+rating_scheme+\"_\"+rating_id+\".png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_deliverable", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "", "fallback_id": "", "identifier": "\"Deliverable_RedGreenYellow_.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_qualitygate", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "", "fallback_id": "", "identifier": "\"QualityGate_RedGreenYellow_.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_valuate_cl_item", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "descr": "", "fallback_id": "branding_company_logo_small", "identifier": "\"valuate_cl_item.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

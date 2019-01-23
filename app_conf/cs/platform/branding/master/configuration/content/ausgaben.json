@@ -1,0 +1,10 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "branding_gen_passwd_subject"}, "DATA": {"cdb_module_id": "cs.platform.branding", "cs": "", "d": "Neues CONTACT Elements Passwort", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Yeni CONTACT Elements parolas\u0131", "uk": "New CONTACT Elements Password", "zh": "\u65b0\u5efaCONTACT\u5143\u7d20\u5bc6\u7801"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "landing_page"}, "DATA": {"cdb_module_id": "cs.platform.branding", "cs": null, "d": "Startseite anzeigen", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "Giri\u015f sayfas\u0131n\u0131 a\u00e7", "uk": "Display Homepage", "zh": "\u6253\u5f00\u767b\u9646\u9875\u9762"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

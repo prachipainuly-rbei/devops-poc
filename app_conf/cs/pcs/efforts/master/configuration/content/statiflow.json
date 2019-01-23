@@ -1,0 +1,10 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_effort", "zielstatus": 200}, "DATA": {"acd_allow": "pcs_effort_wf_step", "cdb_module_id": "cs.pcs.efforts", "rang": 10, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_effort", "zielstatus": 0}, "DATA": {"acd_allow": "pcs_effort_wf_step", "cdb_module_id": "cs.pcs.efforts", "rang": 10, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

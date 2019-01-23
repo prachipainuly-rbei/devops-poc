@@ -1,0 +1,16 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "0969810f-e00f-11e7-b288-68f728783d3d", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.audittrail"}},
+      {"PRIMARY_KEYS": {"id": "2324db9b-6eee-11e8-88ef-605718ab0982", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.audittrail"}},
+      {"PRIMARY_KEYS": {"id": "26308dc0-df0b-11e7-a51b-68f728783d3d", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.audittrail"}},
+      {"PRIMARY_KEYS": {"id": "365716f0-04e1-11e8-adf6-4c3488543485", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.audittrail"}},
+      {"PRIMARY_KEYS": {"id": "507079a1-e00b-11e7-b874-68f728783d3d", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.audittrail"}},
+      {"PRIMARY_KEYS": {"id": "9019b2f0-f533-11e7-a474-605718ab0982", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.audittrail"}},
+      {"PRIMARY_KEYS": {"id": "a3c7538f-e00f-11e7-9279-68f728783d3d", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.audittrail"}},
+      {"PRIMARY_KEYS": {"id": "c5cbf451-f531-11e7-86b4-605718ab0982", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.audittrail"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

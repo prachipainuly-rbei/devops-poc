@@ -1,0 +1,13 @@
+{
+  "csweb_outlet_position": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "document", "outlet_name": "object_details", "pos": 10, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.documents", "child_name": "ContentWithFilelist", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "document", "outlet_name": "object_details", "pos": 20, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.documents", "child_name": "Form", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "document", "outlet_name": "object_details", "pos": 30, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.documents", "child_name": "cs-activitystream-web-ObjectActivities", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "document", "outlet_name": "object_details", "pos": 50, "priority": 10}, "DATA": {"ausgabe_label": "ref_models", "cdb_icon_id": "cdb_document", "cdb_module_id": "cs.documents", "child_name": "DetailOutletRelationshipTableWithContentView", "json_properties": "{\"relshipName\": \"ReferencedDocuments\"}", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "document", "outlet_name": "object_details", "pos": 60, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.documents", "child_name": "DetailOutletRelationshipTable", "json_properties": "{\"includeRelships\": [\"StatusProtocol\", \"Changes\", \"Tasks\"]}", "setup_fqpyname": "cs.web.components.outlet_generators.OutletPositionRelationshipsCallback"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

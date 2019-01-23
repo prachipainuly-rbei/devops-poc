@@ -1,0 +1,10 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "SemanticLinkTypes: all", "allow": "FULL ACCESS", "class": "cdb_semantic_link_type", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}},
+      {"PRIMARY_KEYS": {"acd_id": "SemanticLinks: all", "allow": "FULL ACCESS", "class": "cdb_semantic_link", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

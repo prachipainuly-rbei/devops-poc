@@ -1,0 +1,9 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_issue", "relation": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

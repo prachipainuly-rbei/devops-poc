@@ -1,0 +1,15 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbsml_property", "mask_role_id": "public", "name": "cdbsml_property_deta"}, "DATA": {"cdb_module_id": "cs.vp.classification", "ordering": 20, "priority": 0, "reg_title": "cdbsml_details"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbsml_property", "mask_role_id": "public", "name": "cdbsml_property_main"}, "DATA": {"cdb_module_id": "cs.vp.classification", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbsml_propset", "mask_role_id": "public", "name": "cdbsml_propset_dtl"}, "DATA": {"cdb_module_id": "cs.vp.classification", "ordering": 20, "priority": 0, "reg_title": "cdbsml_details"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbsml_propset", "mask_role_id": "public", "name": "cdbsml_propset_labels"}, "DATA": {"cdb_module_id": "cs.vp.classification", "ordering": 30, "priority": 0, "reg_title": "cdb_translations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbsml_propset", "mask_role_id": "public", "name": "cdbsml_propset_main"}, "DATA": {"cdb_module_id": "cs.vp.classification", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbsml_pset_prop", "mask_role_id": "public", "name": "cdbsml_pset_prop_dtl"}, "DATA": {"cdb_module_id": "cs.vp.classification", "ordering": 20, "priority": 0, "reg_title": "cdbsml_details"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbsml_pset_prop", "mask_role_id": "public", "name": "cdbsml_pset_prop_mai"}, "DATA": {"cdb_module_id": "cs.vp.classification", "ordering": 10, "priority": 0, "reg_title": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

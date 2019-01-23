@@ -1,0 +1,54 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {}
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.platform.excaccess", 
+        "required_module_id": "cs.platform.core"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.platform.excaccess", 
+        "required_module_id": "cs.platform.org"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.platform.excaccess", 
+        "required_module_id": "cs.platform.roles"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "383e006e-59e0-11e2-8985-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 1, 
+      "master_config_checksum": "b1e84ba8beab4097c1d809bd36cb5a25", 
+      "name": "Exceptional access: Extension point for applications", 
+      "package": "cs.platform"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.platform.excaccess"
+    }
+  }
+}

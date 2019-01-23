@@ -1,0 +1,14 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "21a945b0-6448-11e1-9daa-001bfc744136"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "description": "", "exclude_empty_values": 0, "fields_info": "name_de, parent_object_id, portfolio_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "23df17de-638c-11e1-a6dc-001bfc744136"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "386595b0-6448-11e1-ae9d-001bfc744136"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "description": "", "exclude_empty_values": 0, "fields_info": "name_en, parent_object_id, portfolio_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "48592bae-6445-11e1-b58c-001bfc744136"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "5478a4ae-6441-11e1-801c-001bfc744136"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_category", "description": "Pro Portfolio und pro Ebene gibt es nur eine Kategorie", "exclude_empty_values": 0, "fields_info": "ebene, portfolio_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "fd078030-643f-11e1-bb13-001bfc744136"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_category", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

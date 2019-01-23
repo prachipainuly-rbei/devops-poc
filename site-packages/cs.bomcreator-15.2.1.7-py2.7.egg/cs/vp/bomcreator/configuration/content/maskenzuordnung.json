@@ -1,0 +1,18 @@
+{
+  "maskenzuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "bom_column", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.bomcreator", "ersteller": "caddok", "html_help": "cdb_mask_bom_column"}},
+      {"PRIMARY_KEYS": {"name": "bom_config", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.vp.bomcreator", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "bom_config_reg", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.bomcreator", "ersteller": "caddok", "html_help": "cdb_mask_bom_config_reg"}},
+      {"PRIMARY_KEYS": {"name": "bom_config_to_role", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.bomcreator", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "bom_item_occurrence", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.bomcreator", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "bom_key_attribute", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.bomcreator", "ersteller": "caddok", "html_help": "cdb_mask_bom_key_attribute"}},
+      {"PRIMARY_KEYS": {"name": "bom_mapping", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.bomcreator", "ersteller": "caddok", "html_help": "cdb_mask_bom_mapping"}},
+      {"PRIMARY_KEYS": {"name": "bom_method", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.bomcreator", "ersteller": "caddok", "html_help": "cdb_mask_bom_method"}},
+      {"PRIMARY_KEYS": {"name": "bom_suppressed_message", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.vp.bomcreator", "ersteller": "Administrator", "html_help": null}},
+      {"PRIMARY_KEYS": {"name": "bom_sync_attribute", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.bomcreator", "ersteller": "caddok", "html_help": "cdb_mask_bom_sync_attribute"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

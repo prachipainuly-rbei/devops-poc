@@ -1,0 +1,38 @@
+{
+  "maskenzuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_create_mbom_from_mbom", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_prt_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": "cdb_mask_aclandgroups-exceptionalauth-objectassign"}},
+      {"PRIMARY_KEYS": {"name": "cdb_t_statiprot_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": "cdb_mask_workflow-conf-statusprotocol"}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_item_asgn", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_item_asgn_c", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_maturity", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "fav_woerter", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "material_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "part_cat_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "part_cust_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "part_des_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "part_index_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "part_mask_webattrs", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "part_object_header", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "part_state", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "part_surface_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "part_usab_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "t_verteiler_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "tv_add_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": "cs_vp_part_masterdata"}},
+      {"PRIMARY_KEYS": {"name": "tv_add_mask_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": "cs_vp_part_masterdata"}},
+      {"PRIMARY_KEYS": {"name": "tv_change_ctl_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "tv_change_ctl_mask_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "tv_comp", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "tv_comp_c", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "tv_comp_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": "", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "tv_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": "cs_vp_part_masterdata"}},
+      {"PRIMARY_KEYS": {"name": "tv_mask_c", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": "cs_vp_part_masterdata"}},
+      {"PRIMARY_KEYS": {"name": "tv_mask_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": "cs_vp_part_masterdata"}},
+      {"PRIMARY_KEYS": {"name": "tv_sml_search_mask_s", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "custom", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "unit_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "ersteller": "caddok", "html_help": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cdb_defect_source": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Betriebsmittel"}, "DATA": {"cdb_object_id": "60b52080-cb54-11e1-9522-001c42b5d769", "obsolete": 0, "source_cs": "", "source_de": "Betriebsmittel", "source_en": "Equipment", "source_es": "", "source_fr": "", "source_it": "", "source_ja": "", "source_ko": "", "source_pl": "", "source_pt": "", "source_tr": "Kaynaklar", "source_zh": "\u8d44\u6e90"}},
+      {"PRIMARY_KEYS": {"name": "Kaufteil"}, "DATA": {"cdb_object_id": "664ba370-cb54-11e1-871a-001c42b5d769", "obsolete": 0, "source_cs": "", "source_de": "Kaufteil", "source_en": "Purchase Part", "source_es": "", "source_fr": "", "source_it": "", "source_ja": "", "source_ko": "", "source_pl": "", "source_pt": "", "source_tr": "Par\u00e7a sat\u0131n al", "source_zh": "\u91c7\u8d2d\u96f6\u4ef6"}},
+      {"PRIMARY_KEYS": {"name": "Konstruktion"}, "DATA": {"cdb_object_id": "695e61b0-cb54-11e1-82e5-001c42b5d769", "obsolete": 0, "source_cs": "", "source_de": "Konstruktion", "source_en": "Construction", "source_es": "", "source_fr": "", "source_it": "", "source_ja": "", "source_ko": "", "source_pl": "", "source_pt": "", "source_tr": "Yap\u0131", "source_zh": "\u6784\u4ef6"}},
+      {"PRIMARY_KEYS": {"name": "Lieferant"}, "DATA": {"cdb_object_id": "631c5c80-cb54-11e1-bc3e-001c42b5d769", "obsolete": 0, "source_cs": "", "source_de": "Lieferant", "source_en": "Supplier", "source_es": "", "source_fr": "", "source_it": "", "source_ja": "", "source_ko": "", "source_pl": "", "source_pt": "", "source_tr": "Tedarik\u00e7i", "source_zh": "\u4f9b\u5e94\u5546"}},
+      {"PRIMARY_KEYS": {"name": "Montage"}, "DATA": {"cdb_object_id": "5d8f4f70-cb54-11e1-b798-001c42b5d769", "obsolete": 0, "source_cs": "", "source_de": "Montage", "source_en": "Assembly", "source_es": "", "source_fr": "", "source_it": "", "source_ja": "", "source_ko": "", "source_pl": "", "source_pt": "", "source_tr": "Montaj", "source_zh": "\u88c5\u914d"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

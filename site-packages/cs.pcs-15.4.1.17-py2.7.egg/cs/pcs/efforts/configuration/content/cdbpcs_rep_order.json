@@ -1,0 +1,12 @@
+{
+  "cdbpcs_rep_order": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"eorder": "Aufgabennummer", "ordercode": "task_id"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"eorder": "Buchungsnummer", "ordercode": "effort_id"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"eorder": "Buchungstag", "ordercode": "day"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"eorder": "Person", "ordercode": "person"}, "DATA": {}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

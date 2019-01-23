@@ -1,0 +1,17 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "DASHBOARD_002"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": "Allows to use the Project Details.", "name": "Dashboard: Project Details"}},
+      {"PRIMARY_KEYS": {"id": "FOLDER_001"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": "Allows to read Folder master data and aggregated elements", "name": "Folder: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "FOLDER_002"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": "Allows to write (create, copy, modify, delete) Folder master data and aggregated elements", "name": "Folder: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "FOLDER_003"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": "Allows to maintain the catalogs needed for Folder.", "name": "Folder: Write Basic Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "FOLDER_004"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": "Allows to create Folder by using templates.", "name": "Folder: Create from Template"}},
+      {"PRIMARY_KEYS": {"id": "PROJECT_DOCS_001"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": "Allows to create Documents by using templates assigned to Projects.", "name": "Project Documents: Create Documents from Template"}},
+      {"PRIMARY_KEYS": {"id": "PROJECT_DOC_EXCEPTIONS_001"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": "Allows to read Exceptions for handling Documents.", "name": "Project Documents: Read Exceptions"}},
+      {"PRIMARY_KEYS": {"id": "PROJECT_DOC_EXCEPTIONS_002"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": "Allows to write Exceptions for handling Documents.", "name": "Project Documents: Write Exceptions"}},
+      {"PRIMARY_KEYS": {"id": "TASK_DOCS_003"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": "Allows to create Documents by using templates assigned to Tasks.", "name": "Task Documents: Create Documents from Template"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

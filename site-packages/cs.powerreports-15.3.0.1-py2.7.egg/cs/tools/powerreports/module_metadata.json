@@ -1,0 +1,48 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.base": "15.4.2.3", 
+      "cs.officelink": "15.5.0.6", 
+      "cs.platform": "15.3.4"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.tools.powerreports", 
+        "required_module_id": "cs.platform.core"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.tools.powerreports", 
+        "required_module_id": "cs.shared"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "6816bbae-af58-11e3-a43e-005056c00008", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "783b5b3e2977b6a3728d98a640435f7e", 
+      "name": "Creating reports with excel", 
+      "package": "cs.powerreports"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.tools.powerreports"
+    }
+  }
+}

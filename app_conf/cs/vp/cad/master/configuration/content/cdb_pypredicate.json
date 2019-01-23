@@ -1,0 +1,11 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "3D Models", "predicate_name": "3D Modelle"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "CAD Documents with category \"CAD-Modell\""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "3D Models", "predicate_name": "Workspaces"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "3D Models", "predicate_name": "Items"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "Items with viewable models"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

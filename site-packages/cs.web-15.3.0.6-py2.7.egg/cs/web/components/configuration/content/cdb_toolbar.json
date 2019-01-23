@@ -1,0 +1,10 @@
+{
+  "cdb_toolbar": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"toolbar_id": "webui_account"}, "DATA": {"cdb_module_id": "cs.web.components", "cdb_object_id": "19ed9fc0-83c8-11e6-a7cb-c19c0a01ee62", "description": "Entries for account menu - ignored by the windows client", "label_cs": "", "label_de": "Konto", "label_en": "Account", "label_es": "", "label_fr": "", "label_it": "", "label_ja": "", "label_ko": "", "label_pl": "", "label_pt": "", "label_tr": "", "label_zh": ""}},
+      {"PRIMARY_KEYS": {"toolbar_id": "webui_navigation"}, "DATA": {"cdb_module_id": "cs.web.components", "cdb_object_id": "78869780-5af6-11e6-aea0-78acc0a55b77", "description": "Navigation sidebar in the WebUI - ignored by the windows client", "label_cs": "", "label_de": "Anwendungen", "label_en": "Applications", "label_es": "", "label_fr": "", "label_it": "", "label_ja": "", "label_ko": "", "label_pl": "", "label_pt": "", "label_tr": "Uygulama", "label_zh": "\u5e94\u7528"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

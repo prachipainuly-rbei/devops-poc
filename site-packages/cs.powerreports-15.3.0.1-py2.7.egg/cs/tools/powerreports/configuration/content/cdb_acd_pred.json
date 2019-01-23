@@ -1,0 +1,9 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: PowerReports Templates", "predicate_name": "cs.tools: PowerReports Templates", "table_name": "cdbxml_report_tmpl"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

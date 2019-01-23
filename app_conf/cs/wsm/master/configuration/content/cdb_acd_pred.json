@@ -1,0 +1,9 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "predicate_name": "cs.wsm: Workspaces Settings", "table_name": "wsm_settings"}, "DATA": {"cdb_module_id": "cs.wsm"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

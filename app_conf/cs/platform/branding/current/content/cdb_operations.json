@@ -1,0 +1,9 @@
+{
+  "cdb_operations": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "", "name": "cs_landing_page"}, "DATA": {"applicability": "Meta", "cdb_module_id": "cs.platform.branding", "comp_name": "", "descr": "", "essential_op": 0, "help_url": "", "label": "landing_page", "mask_name": "", "mask_name_webui": null, "menu_visible": 0, "menugroup": null, "offer_in_web_ui": 0, "ordering": null, "render_comp_id": "", "url": "\"/dashboard\""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

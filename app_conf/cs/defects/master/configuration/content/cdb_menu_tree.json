@@ -1,0 +1,15 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "011ae380-f4cc-11e0-afb2-00a0c6000000"}, "DATA": {"ausgabe_label": "cdb_defect_source", "cdb_module_id": "cs.defects", "classname": "cdb_defect_source", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "a1891ecf-4440-11e2-8155-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0ad79080-f4cc-11e0-8f06-00a0c6000000"}, "DATA": {"ausgabe_label": "cdb_defect_categ", "cdb_module_id": "cs.defects", "classname": "cdb_defect_categ", "decomp_id": "", "icon_id": "", "ordering": 30, "parent_id": "a1891ecf-4440-11e2-8155-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "1c98135e-cb56-11e1-b2a4-001c42b5d769"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.defects", "classname": "cdb_defect_priority", "decomp_id": "", "icon_id": "", "ordering": 50, "parent_id": "a1891ecf-4440-11e2-8155-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "5a96b891-5e2a-11e1-9b87-001c42b5d769"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.defects", "classname": "cdb_defect_code", "decomp_id": "", "icon_id": "", "ordering": 40, "parent_id": "a1891ecf-4440-11e2-8155-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7b34bd40-b9e8-11e0-8633-005056c00008"}, "DATA": {"ausgabe_label": "cdb_defects", "cdb_module_id": "cs.defects", "classname": "cdb_defect", "decomp_id": "", "icon_id": "", "ordering": 500, "parent_id": "96ab8f40-cb30-11e1-9ea6-001c42b5d769"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a1891ecf-4440-11e2-8155-f0def133d0a6"}, "DATA": {"ausgabe_label": "tree_quality", "cdb_module_id": "cs.defects", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 80, "parent_id": "92a5f794-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f84c670f-f4cb-11e0-b0ed-00a0c6000000"}, "DATA": {"ausgabe_label": "cdb_defect_type", "cdb_module_id": "cs.defects", "classname": "cdb_defect_type", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "a1891ecf-4440-11e2-8155-f0def133d0a6"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

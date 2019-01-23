@@ -1,0 +1,15 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CreateOperations", "name": "cdbecm_create_ec_from_template"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbecm_create_ec_from_template"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

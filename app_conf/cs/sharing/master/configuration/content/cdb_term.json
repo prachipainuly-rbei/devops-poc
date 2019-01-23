@@ -1,0 +1,13 @@
+{
+  "cdb_term": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "subject_id", "expression": "$role", "operator": "=", "predicate_name": "My Sharing Groups", "table_name": "cdb_sharing_group"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.sharing", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "subject_id", "expression": "$role", "operator": "=", "predicate_name": "My Sharing Groups", "table_name": "cdb_sharing_group_member"}, "DATA": {"cdb_module_id": "cs.sharing", "data_type": "char"}, "UPDATE_POLICY": "NEVER UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "cdb_cpersno", "expression": "$persno", "operator": "=", "predicate_name": "My Sharings", "table_name": "cdb_sharing"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.sharing", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "subject_id", "expression": "$persno", "operator": "=", "predicate_name": "Personal Sharing Groups", "table_name": "cdb_sharing_group"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.sharing", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "subject_type", "expression": "Person", "operator": "=", "predicate_name": "Personal Sharing Groups", "table_name": "cdb_sharing_group"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.sharing", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

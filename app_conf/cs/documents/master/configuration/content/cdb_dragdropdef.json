@@ -1,0 +1,9 @@
+{
+  "cdb_dragdropdef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"drag_classname": "document", "drop_classname": "cdbbop_doc_asgn"}, "DATA": {"cdb_module_id": "cs.documents"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

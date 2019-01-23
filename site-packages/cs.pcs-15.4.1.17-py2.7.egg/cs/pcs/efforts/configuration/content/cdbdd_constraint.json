@@ -1,0 +1,18 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "09d00191-d795-11df-906f-1cc1de660f15"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_rep_order", "description": "", "exclude_empty_values": 0, "fields_info": "eorder, ordercode"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0bdd21e6-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort", "description": "", "exclude_empty_values": null, "fields_info": "effort_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e9b3212-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_cat", "description": "", "exclude_empty_values": null, "fields_info": "category"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7dafb1d9-4257-11df-8d63-dbed6d507682"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.efforts", "classname": "cdb_worktime", "description": "", "exclude_empty_values": null, "fields_info": "person_id, day"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "94171d30-a160-11e0-bdc2-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_activity_type", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9e583ea1-fd28-11e4-987c-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_billable", "description": null, "exclude_empty_values": null, "fields_info": "id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "bf3f3d80-a160-11e0-af2c-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_activity_type", "description": "", "exclude_empty_values": 1, "fields_info": "name_de"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c0b2a4f0-cd48-11e4-9ef0-082e5f0d0c28"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_cat", "description": "", "exclude_empty_values": 1, "fields_info": "name_de, name_en"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d2366f30-a160-11e0-85b6-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_activity_type", "description": "", "exclude_empty_values": 1, "fields_info": "name_en"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "da8bd200-39e1-11e6-958f-a0b3ccf7c487"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.efforts", "classname": "cdbpcs_effort_prot", "description": null, "exclude_empty_values": null, "fields_info": "cdbprot_zaehler"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

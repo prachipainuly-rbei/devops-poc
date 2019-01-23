@@ -1,0 +1,14 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "wsm_settings", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.wsm", "rang": 1, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "wsm_settings", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.wsm", "rang": 0, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "wsm_settings", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.wsm", "rang": 1, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "wsm_settings", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.wsm", "rang": 0, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "wsm_settings", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.wsm", "rang": 0, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "wsm_settings", "zielstatus": 180}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.wsm", "rang": 1, "user_exit": "", "verteiler": null}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

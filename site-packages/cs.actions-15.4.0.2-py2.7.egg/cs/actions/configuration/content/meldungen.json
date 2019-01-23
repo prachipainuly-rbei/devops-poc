@@ -1,0 +1,10 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_action_tag"}, "DATA": {"cdb_module_id": "cs.actions", "cs": "", "d": "id +\" / \"+ name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1470, "pl": "", "pt": "", "s": "", "tr": "id +\" / \"+ name", "uk": "id +\" / \"+ name", "zh": ""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_action_wf_rej_1"}, "DATA": {"cdb_module_id": "cs.actions", "cs": "", "d": "Folgende Ma\u00dfnahmen sind nicht im erforderlichen Status (%s):", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "Gerekli durumda olmayan eylemler (%s)", "uk": "The following actions are not in the required status (%s):", "zh": "\u4ee5\u4e0b\u64cd\u4f5c\u4e0d\u5728\u5141\u8bb8\u7684\u72b6\u6001(%s)"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

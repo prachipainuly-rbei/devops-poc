@@ -1,0 +1,15 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_billable"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": null, "d": "Abrechenbar", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "Faturalanabilir", "uk": "Billable", "zh": "\u53ef\u652f\u4ed8"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_effort_activity_types"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": "", "d": "Leistungsarten", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Performans tipleri", "uk": "Performance Types", "zh": "\u7ee9\u6548\u7c7b\u578b"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_effort_cat"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": null, "d": "Aufwandskategorie", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "Efor kategorisi", "uk": "Effort Category", "zh": "\u5de5\u4f5c\u91cf\u7c7b\u522b"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_ts_elink"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": "", "d": "&Erfassen...", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "&Y\u00f6net...", "uk": "&Manage...", "zh": "&\u7ba1\u7406..."}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "pcs_rel_efforts"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": "", "d": "Beziehungen/Aufw\u00e4nde", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "\u0130li\u015fkiler/Eforlar", "uk": "Relationships/Efforts", "zh": "\u5173\u7cfb/\u5de5\u4f5c\u91cf"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_pcs_effortcat"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": "", "d": "Aufwandkategorien", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Efor kategorileri", "uk": "Effort Categories", "zh": "\u5de5\u4f5c\u91cf\u7c7b\u522b"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_pcs_efforts"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": "", "d": "Aufwandseintr\u00e4ge", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Efor kay\u0131tlar\u0131", "uk": "Effort Records", "zh": "\u5de5\u4f5c\u91cf\u8bb0\u5f55"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": "Project Folder"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

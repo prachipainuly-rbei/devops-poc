@@ -1,0 +1,19 @@
+{
+  "cdbpcs_task": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "NAME": "msp_uid", 
+        "NOTNULL": false, 
+        "TYPE": 1
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 36, 
+        "NAME": "msp_guid", 
+        "NOTNULL": false, 
+        "TYPE": 0
+      }
+    ]
+  }
+}

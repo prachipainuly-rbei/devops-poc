@@ -1,0 +1,17 @@
+{
+  "MODIFIED": {
+    "cdb_sys_keys": [
+      {
+        "MODIFICATIONS": {
+          "wert": {
+            "NEW_VALUE": "CIM Database 11.3", 
+            "OLD_VALUE": "CONTACT Elements"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "name": "application_name"
+        }
+      }
+    ]
+  }
+}

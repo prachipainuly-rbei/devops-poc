@@ -1,0 +1,15 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_gl_subj_r_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_subj_base", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_subj_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_per_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_rol_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_subjects", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "rs_grant_cdb_subjects", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles", "dflt": null, "ersteller": "CONTACT", "max_records": 0, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

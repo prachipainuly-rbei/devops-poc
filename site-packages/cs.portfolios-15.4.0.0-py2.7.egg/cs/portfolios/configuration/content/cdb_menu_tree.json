@@ -1,0 +1,11 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "13a6f440-638e-11e1-a19c-001bfc744136"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio", "decomp_id": "", "icon_id": "", "ordering": 140, "parent_id": "919b0145-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "8353a621-3037-11e5-9b1a-f0def133d0a6"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_category", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f67185e1-0ee9-11e2-ad9a-082e5f0d3665"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

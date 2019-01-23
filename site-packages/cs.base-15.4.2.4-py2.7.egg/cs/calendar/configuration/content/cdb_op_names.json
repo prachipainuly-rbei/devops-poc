@@ -1,0 +1,11 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_cal_entry_multi_new"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.calendar", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdb_doc_new", "inactive": 0, "kind": "PowerScript", "label": "cdb_cal_create", "label_ok": "button_new", "menu_visible": 1, "menugroup": 10, "ordering": 5, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof_chg"}, "DATA": {"acl_allow": "save", "cdb_module_id": "cs.calendar", "client_desc": "", "descr": "", "html_help": "", "icon_id": "Modify", "inactive": 0, "kind": "PowerScript", "label": "cdb_cal_prof_chg", "label_ok": "pcs_modify", "menu_visible": 1, "menugroup": 60, "ordering": 10, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof_imp"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.calendar", "client_desc": "", "descr": "", "html_help": "", "icon_id": "Import", "inactive": 0, "kind": "PowerScript", "label": "cdb_cal_prof_imp", "label_ok": "button_import", "menu_visible": 1, "menugroup": 40, "ordering": 10, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

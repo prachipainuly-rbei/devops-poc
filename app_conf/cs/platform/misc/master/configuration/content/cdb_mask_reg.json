@@ -1,0 +1,11 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdb_personal_settings", "mask_role_id": "public", "name": "cdb_perssettings_dirs"}, "DATA": {"cdb_module_id": "cs.platform.misc", "ordering": 10, "priority": 10, "reg_title": "cdb_maskreg_perssetting_dir"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_personal_settings", "mask_role_id": "public", "name": "cdb_perssettings_misc"}, "DATA": {"cdb_module_id": "cs.platform.misc", "ordering": 100, "priority": 10, "reg_title": "cdb_maskreg_perssetting_misc"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_personal_settings", "mask_role_id": "public", "name": "cdb_perssettings_representation"}, "DATA": {"cdb_module_id": "cs.platform.misc", "ordering": 20, "priority": 10, "reg_title": "cdb_maskreg_perssetting_representation"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

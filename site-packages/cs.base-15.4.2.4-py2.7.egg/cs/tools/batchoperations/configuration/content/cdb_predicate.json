@@ -1,0 +1,19 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (BOM)", "table_name": "cdbbop_operation"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (Documents)", "table_name": "cdbbop_operation"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (Parts)", "table_name": "cdbbop_operation"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (add Variant to BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (already run)", "table_name": "cdbbop_operation"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (change Document status)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (change Part status)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (complete BOM)", "table_name": "cdbbop_operation"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (not run yet)", "table_name": "cdbbop_operation"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (remove Part from BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "ALWAYS UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.tools: Batch Operations (replace Part in BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": ""}, "UPDATE_POLICY": "ALWAYS UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

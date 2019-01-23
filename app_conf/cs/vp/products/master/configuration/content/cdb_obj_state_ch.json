@@ -1,0 +1,9 @@
+{
+  "cdb_obj_state_ch": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objclass": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "comp_name": "default", "prot_table": "cdbvp_product_prot"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

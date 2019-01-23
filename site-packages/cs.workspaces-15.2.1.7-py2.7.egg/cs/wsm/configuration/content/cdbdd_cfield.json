@@ -1,0 +1,22 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0663c691-10a4-11e3-a4a4-005056c00008", "field_classname": "cdb_file_links_status", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "cdb_file_links_status", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "13a31300-3105-11e5-a1fe-87c2e6b8ff81", "field_classname": "index_update_rule", "field_name": "designation_de"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "index_update_rule", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "26f33a1e-3105-11e5-ae57-87c2e6b8ff81", "field_classname": "index_update_rule", "field_name": "designation_en"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "index_update_rule", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "3858cc82-8717-11e6-9ae0-005056c00008", "field_classname": "partner_filename", "field_name": "file_id"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "partner_filename", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "3858cc82-8717-11e6-9ae0-005056c00008", "field_classname": "partner_filename", "field_name": "organization_id"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "partner_filename", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "5e61b205-10b6-11e3-bb5a-005056c00008", "field_classname": "cdb_file_wsm", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "cdb_file_wsm", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "89531111-eb48-11e0-a281-6cf049769241", "field_classname": "index_update_rule", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "index_update_rule", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "bf9c41c5-8a34-11e6-a73d-005056c00008", "field_classname": "exported_file", "field_name": "export_id"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "exported_file", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "bf9c41c5-8a34-11e6-a73d-005056c00008", "field_classname": "exported_file", "field_name": "file_id"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "exported_file", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "c16cc68f-8a35-11e6-a28b-005056c00008", "field_classname": "partner_export", "field_name": "export_id"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "partner_export", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "c6d0068f-eb5e-11e0-bcea-6cf049769241", "field_classname": "index_update_rule", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "index_update_rule", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "c90a1ec0-47d4-11e4-aa4a-005056c00008", "field_classname": "wsm_settings", "field_name": "context"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "wsm_settings", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "c90a1ec0-47d4-11e4-aa4a-005056c00008", "field_classname": "wsm_settings", "field_name": "s_index"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "wsm_settings", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "c90a1ec0-47d4-11e4-aa4a-005056c00008", "field_classname": "wsm_settings", "field_name": "wsm_version"}, "DATA": {"cdb_module_id": "cs.wsm", "classname": "wsm_settings", "position": 30}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

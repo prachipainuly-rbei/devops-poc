@@ -1,0 +1,14 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "mBOM Manager: 2D documents", "predicate_name": "CAD drawings"}, "DATA": {"attribute": "z_categ1", "cdb_module_id": "cs.vp.bom", "expression": "144", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 3, "name": "mBOM Manager: 2D documents", "predicate_name": "CAD drawings"}, "DATA": {"attribute": "z_categ2", "cdb_module_id": "cs.vp.bom", "expression": "177", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "mBOM Manager: 3D documents", "predicate_name": "CAD models"}, "DATA": {"attribute": "z_categ1", "cdb_module_id": "cs.vp.bom", "expression": "144", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 2, "name": "mBOM Manager: 3D documents", "predicate_name": "CAD models"}, "DATA": {"attribute": "z_categ2", "cdb_module_id": "cs.vp.bom", "expression": "296", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 1, "name": "mBOM Manager: Ignore differences", "predicate_name": "mBOM items without an engineering view"}, "DATA": {"attribute": "is_mbom", "cdb_module_id": "cs.vp.bom", "expression": "1", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 2, "name": "mBOM Manager: Ignore differences", "predicate_name": "mBOM items without an engineering view"}, "DATA": {"attribute": "cdb_depends_on", "cdb_module_id": "cs.vp.bom", "expression": "", "filter_rule": "", "operator": "="}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

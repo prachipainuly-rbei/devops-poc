@@ -1,0 +1,13 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules", "predicate_name": "cs.pcs: My Time Schedules", "table_name": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules (NEW)", "predicate_name": "cs.pcs: My Time Schedules (NEW)", "table_name": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules (VALID, INVALID)", "predicate_name": "cs.pcs: My Time Schedules (VALID, INVALID)", "table_name": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Time Schedule Contents", "predicate_name": "cs.pcs: Time Schedule Contents", "table_name": "cdbpcs_ts_content"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Time Schedules", "predicate_name": "cs.pcs: Time Schedules", "table_name": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

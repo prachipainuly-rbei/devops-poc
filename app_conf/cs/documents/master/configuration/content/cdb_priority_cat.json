@@ -1,0 +1,11 @@
+{
+  "cdb_priority_cat": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "High"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"name": "Low"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"name": "Normal"}, "DATA": {}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {}
+  }, 
+  "dependencies": [], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "4946ad30-293d-11e4-946a-f0921cf0c018", 
+      "is_interface_module": 0, 
+      "mandatory": 1, 
+      "master_config_checksum": "3d843aeb25db58b50603ccd8681ba575", 
+      "name": "Basic CONTACT Elements branding", 
+      "package": "cs.platform"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.platform.branding"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: Children", "table_name": "cdbqc_children"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: Class Assignments", "table_name": "cdbqc_def2class"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: Definitions", "table_name": "cdbqc_definition"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: Definitions (INVALID)", "table_name": "cdbqc_definition"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: Definitions (NEW)", "table_name": "cdbqc_definition"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: Grouping Attributes", "table_name": "cdbqc_grouping_attribute"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: Grouping Values", "table_name": "cdbqc_grouping_value"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: My Definitions (EXECUTION)", "table_name": "cdbqc_definition"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: My Quality Characteristics", "table_name": "cdbqc_quality_character"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: Parents", "table_name": "cdbqc_parents"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: Quality Characteristics", "table_name": "cdbqc_quality_character"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.metrics: Quality Characteristics 2", "table_name": "cdbqc_quality_character"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.metrics", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

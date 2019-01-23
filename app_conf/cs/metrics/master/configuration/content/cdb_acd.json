@@ -1,0 +1,15 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions"}, "DATA": {"cdb_module_id": "cs.metrics", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions (INVALID)"}, "DATA": {"cdb_module_id": "cs.metrics", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions (NEW)"}, "DATA": {"cdb_module_id": "cs.metrics", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: My Definitions (NEW)"}, "DATA": {"cdb_module_id": "cs.metrics", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: My Quality Characteristics"}, "DATA": {"cdb_module_id": "cs.metrics", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Objects"}, "DATA": {"cdb_module_id": "cs.metrics", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Quality Characteristics"}, "DATA": {"cdb_module_id": "cs.metrics", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

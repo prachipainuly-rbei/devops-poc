@@ -1,0 +1,13 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_time_schedule", "zielstatus": 100}, "DATA": {"acd_allow": "pcs_ts_wf_step", "cdb_module_id": "cs.pcs.timeschedule", "rang": 1, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_time_schedule", "zielstatus": 200}, "DATA": {"acd_allow": "pcs_ts_wf_step", "cdb_module_id": "cs.pcs.timeschedule", "rang": 2, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbpcs_time_schedule", "zielstatus": 0}, "DATA": {"acd_allow": "pcs_ts_wf_step", "cdb_module_id": "cs.pcs.timeschedule", "rang": 1, "user_exit": "", "verteiler": null}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbpcs_time_schedule", "zielstatus": 200}, "DATA": {"acd_allow": "pcs_ts_wf_step", "cdb_module_id": "cs.pcs.timeschedule", "rang": 2, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_time_schedule", "zielstatus": 0}, "DATA": {"acd_allow": "pcs_ts_wf_step", "cdb_module_id": "cs.pcs.timeschedule", "rang": 1, "user_exit": "", "verteiler": null}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

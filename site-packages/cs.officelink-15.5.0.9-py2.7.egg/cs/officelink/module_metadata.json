@@ -1,0 +1,26 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.base": "15.4.1.9", 
+      "cs.platform": "15.2.29"
+    }
+  }, 
+  "dependencies": [], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "7889c06e-a83a-11e3-8907-80c16ee65d57", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "463b25163c77a405b155f13773cf528a", 
+      "name": "Microsoft Office interface", 
+      "package": "cs.officelink"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.officelink"
+    }
+  }
+}

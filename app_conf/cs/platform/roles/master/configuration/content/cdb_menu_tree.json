@@ -1,0 +1,12 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "91ddbed8-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_role_subj_r", "cdb_module_id": "cs.platform.roles", "classname": "cdb_gl_subj_role", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "9260d7cd-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "925e759b-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_role", "cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "9259b135-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "926cc2cc-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_role_subject", "cdb_module_id": "cs.platform.roles", "classname": "cdb_global_subject", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "9260d7cd-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f305fede-86b0-11e4-8a1e-1cc1de660f15"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.platform.roles", "classname": "cdb_subjects", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

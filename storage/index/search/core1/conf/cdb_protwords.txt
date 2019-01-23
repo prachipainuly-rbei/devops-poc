@@ -1,0 +1,4 @@
+
+# List of protected words, i.e. words the stemming 
+# algorithms should ignore.
+

@@ -1,0 +1,9 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbecm_ecs"}, "DATA": {"cdb_module_id": "cs.ec_projects", "cs": "", "d": "Beziehungen/Technische \u00c4nderungen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u0130li\u015fkiler/M\u00fchendislik de\u011fi\u015fiklikleri", "uk": "Relationships/Engineering Changes", "zh": "\u5173\u7cfb/\u5de5\u7a0b\u66f4\u6539"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

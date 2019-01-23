@@ -1,0 +1,32 @@
+<HTML>
+  <HEAD>
+    <SCRIPT src="%(elink_options_jscript)sjquery.min.js" type="text/javascript"></SCRIPT>
+    <SCRIPT language="JavaScript">
+      function resizeViewer() {
+        if ($('#viewer3dCtl') != null) {
+          $('#viewer3dCtl').height(document.body.clientHeight);
+          $('#viewer3dCtl').width(document.body.clientWidth);
+        }
+      }
+      function loadPreviewFile() {
+        if ($('#viewer3dCtl') != null) {
+          resizeViewer();
+          viewer3dCtl.Open("%(abs_file_uri)s");
+        }
+      }
+      $(document).ready(function() { 
+         loadPreviewFile(); 
+      });    
+    </SCRIPT>
+  </HEAD>
+  <!-- Tested with JT2Go 8.1.0 and Internet Explorer 8 -->
+  <BODY BGCOLOR="#FFFFFF"
+        STYLE="padding:0px;margin:0px;"
+        onresize="resizeViewer();">
+    <OBJECT ID="viewer3dCtl"
+            CLASSID="clsid:AD0DEF5C-DEC1-4950-AC57-1533F90C6BAD"
+            STYLE="padding:0px;margin:0px;"
+            TYPE="application/oleobject">
+    </OBJECT>
+  </BODY>
+</HTML>

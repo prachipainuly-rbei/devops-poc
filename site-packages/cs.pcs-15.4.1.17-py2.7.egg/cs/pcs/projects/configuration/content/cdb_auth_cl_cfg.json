@@ -1,0 +1,15 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs: Exceptional Access", "relation": "cdbpcs_role_exc"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs: Team & Roles", "relation": "cdbpcs_prj_role"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs: Team & Roles", "relation": "cdbpcs_subject"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs: Team & Roles", "relation": "cdbpcs_team"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_prj_acd", "relation": "cdbpcs_prj_acd"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_project", "relation": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_task", "relation": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

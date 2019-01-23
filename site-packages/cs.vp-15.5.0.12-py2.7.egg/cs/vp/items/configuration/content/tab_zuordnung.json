@@ -1,0 +1,24 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_dependent_mbom_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_prt_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_t_statiprot_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_item_asgn", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_maturity", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_maturity_brows", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "fav_woerter", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "material_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "part_cat_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "part_des_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "part_rel_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "part_surface_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "part_usab_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "t_verteiler_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "tv_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "unit_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

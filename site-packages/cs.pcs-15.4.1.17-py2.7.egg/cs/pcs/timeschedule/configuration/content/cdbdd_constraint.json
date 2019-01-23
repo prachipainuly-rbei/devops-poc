@@ -1,0 +1,16 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "15e80c61-1b8b-11e3-9769-a0b3ccf7c487"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.timeschedule", "classname": "cdbpcs_ts_content", "description": null, "exclude_empty_values": null, "fields_info": "view_oid, content_oid"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "22337eb0-a9e2-11e3-be88-a0b3ccf7c487"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.timeschedule", "classname": "cdbpcs_ts_column", "description": "", "exclude_empty_values": 0, "fields_info": "position, chart"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "3797881e-a9d6-11e3-8791-a0b3ccf7c487"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.timeschedule", "classname": "cdbpcs_ts_column", "description": null, "exclude_empty_values": null, "fields_info": "attribute, chart"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a36fdd80-a9e1-11e3-a95b-a0b3ccf7c487"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.timeschedule", "classname": "cdbpcs_ts_format", "description": null, "exclude_empty_values": null, "fields_info": "name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "af3d8c0f-1b8a-11e3-ab1a-a0b3ccf7c487"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.timeschedule", "classname": "cdbpcs_time_schedule", "description": null, "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c9d613e1-3878-11e6-9fb3-a0b3ccf7c487"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.timeschedule", "classname": "cdbpcs_tsc_prot", "description": null, "exclude_empty_values": null, "fields_info": "cdbprot_zaehler"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f0778a70-aab7-11e3-bb5e-b4b52faf81e1"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.timeschedule", "classname": "cdbpcs_time_schedule_timerange", "description": null, "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f6ec0ef6-3ca6-11e3-88e7-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.timeschedule", "classname": "cdbpcs_project2time_schedule", "description": null, "exclude_empty_values": null, "fields_info": "cdb_project_id, time_schedule_oid"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

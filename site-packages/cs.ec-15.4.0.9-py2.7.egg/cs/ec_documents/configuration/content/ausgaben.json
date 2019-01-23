@@ -1,0 +1,11 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbecm_add_docs"}, "DATA": {"cdb_module_id": "cs.ec_documents", "cs": "", "d": "Begleitdokumente", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Ekli belgeler", "uk": "Attached Documents", "zh": "\u9644\u52a0\u6587\u6863"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbecm_doc_ecn"}, "DATA": {"cdb_module_id": "cs.ec_documents", "cs": "", "d": "\u00c4nderungsmitteilungen (Dokumente)", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "De\u011fi\u015fiklik bildirimleri (belgeler)", "uk": "Change Notifications (Documents)", "zh": "\u66f4\u6539\u901a\u77e5(\u6587\u6863)"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_ecnotice_doc"}, "DATA": {"cdb_module_id": "cs.ec_documents", "cs": "", "d": "\u00c4nderungsmitteilungen (Dokumente)", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "De\u011fi\u015fiklik bildirimleri (belgeler)", "uk": "Change Notifications (Documents)", "zh": "\u66f4\u6539\u901a\u77e5(\u6587\u6863)"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

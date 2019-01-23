@@ -1,0 +1,35 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdbweb_favorites"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbweb_history_item"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "cs_operations_webui"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_dialog_hook"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_dialog_hook_func"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_dialog_hook_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.web.components", "primary_table": "csweb_dialog_hook"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_display_configuration"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_display_context"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_outlet_child"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_outlet_definition"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_outlet_description"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_outlet_position"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_outlet_position_owner"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_page_config"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_page_config_class_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.web.components", "primary_table": "csweb_page_config"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_page_config_detail_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.web.components", "primary_table": "csweb_page_config"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_page_config_owner"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_page_config_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.web.components", "primary_table": "csweb_page_config"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_page_frame"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_plugin"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_plugin_config"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_plugin_config_library"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_related_object_tile"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_search_fav_params"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_search_favourites"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_ui_and_rest_names"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.web.components", "primary_table": null, "uview_col_aliases": "ui_name"}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "select DISTINCT rest_visible_name ui_name FROM switch_tabelle WHERE rest_visible_name is NOT NULL and rest_visible_name != '' UNION select DISTINCT ui_name FROM csweb_ui_name", "cdbdd_userdefined_view_txt_5": "SELECT DISTINCT rest_visible_name ui_name FROM switch_tabelle WHERE rest_visible_name IS NOT NULL AND rest_visible_name != '' UNION SELECT DISTINCT ui_name ui_name FROM csweb_ui_name", "cdbdd_userdefined_view_txt_6": "select DISTINCT rest_visible_name as ui_name FROM switch_tabelle WHERE rest_visible_name is NOT NULL and rest_visible_name != '' UNION select DISTINCT ui_name FROM csweb_ui_name"}},
+      {"PRIMARY_KEYS": {"table_name": "csweb_ui_name"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.web.components"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

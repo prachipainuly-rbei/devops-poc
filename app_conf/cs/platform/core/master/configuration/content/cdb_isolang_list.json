@@ -1,0 +1,11 @@
+{
+  "cdb_isolang_list": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "34909211-08ff-11e4-b18c-78acc0a55b77"}, "DATA": {"cdb_module_id": "cs.platform.core", "iso_languages": "", "label_cs": null, "label_de": "Alle Sprachen", "label_en": "All Languages", "label_es": null, "label_fr": null, "label_it": null, "label_ja": null, "label_ko": null, "label_pl": null, "label_pt": null, "label_tr": null, "label_zh": null}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "4431cab0-08ee-11e4-909a-78acc0a55b77"}, "DATA": {"cdb_module_id": "cs.platform.core", "iso_languages": "de,en, tr, zh", "label_cs": null, "label_de": "Aktive GUI-Spachen", "label_en": "Active GUI Languages", "label_es": null, "label_fr": null, "label_it": null, "label_ja": null, "label_ko": null, "label_pl": null, "label_pt": null, "label_tr": null, "label_zh": null}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "653ea340-08ee-11e4-bc29-78acc0a55b77"}, "DATA": {"cdb_module_id": "cs.platform.core", "iso_languages": "cs,de,en,es,fr,it,ja,ko,pl,pt,tr,zh", "label_cs": null, "label_de": "Alle GUI-Sprachen", "label_en": "All GUI Languages", "label_es": null, "label_fr": null, "label_it": null, "label_ja": null, "label_ko": null, "label_pl": null, "label_pt": null, "label_tr": null, "label_zh": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

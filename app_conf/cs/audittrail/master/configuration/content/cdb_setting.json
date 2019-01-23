@@ -1,0 +1,9 @@
+{
+  "cdb_setting": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "cs.webcomponents.table", "setting_id2": "cdb_audittrail_view@cdb_audittrail_view"}, "DATA": {"cdb_classname": "cdb_setting_long", "cdb_module_id": "cs.audittrail", "default_val": null, "readonly": 0, "store_usr_val": 0}, "LONGTEXTS": {"cdb_setting_long_txt": "{\"configurations\": {\"AuditTrail\": {\"treeViewOff\": false, \"sortColumns\": [{\"id\": \"cdb::argument::tablecolumn.cdb_cdate\", \"desc\": true}], \"orderedColumns\": [\"cs-web-components-base-table-selector-column\", \"cdb::argument::tablecolumn.icon_id\", \"cdb::argument::tablecolumn.object_description\", \"cdb::argument::tablecolumn.idx\", \"cdb::argument::tablecolumn.type_de\", \"cdb::argument::tablecolumn.label_de\", \"cdb::argument::tablecolumn.old_value\", \"cdb::argument::tablecolumn.new_value\", \"cdb::argument::tablecolumn.cdb_cdate\", \"cdb::argument::tablecolumn.name\", \"cdb::argument::tablecolumn.child\", \"cdb::argument::tablecolumn.parent\"], \"groupColumns\": [], \"fixedColumns\": 0, \"hiddenColumns\": [\"cdb::argument::tablecolumn.child\", \"cdb::argument::tablecolumn.parent\"], \"columnWidths\": {}}}, \"lastUsed\": \"AuditTrail\"}"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

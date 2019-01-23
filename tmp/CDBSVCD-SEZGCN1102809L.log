@@ -1,0 +1,66 @@
+[2019-01-21T06:14:21.284Z] CDBSVCD PID:21024 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-21T07:13:14.849Z] CDBSVCD PID:22496 ERROR [root] cdb.uberserver.services.authentication.SessionCache Session Cache has exited with returncode 1
+[2019-01-21T07:13:23.866Z] CDBSVCD PID:22496 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-21T07:13:24.022Z] CDBSVCD PID:22496 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-21T07:13:43.938Z] CDBSVCD PID:22496 ERROR [root] cdb.uberserver.services.authentication.SessionCache SessionCache could not be reached! Please check session_cache.log for errors. Is the service port 6379 already in use?
+[2019-01-21T07:13:43.938Z] CDBSVCD PID:22496 ERROR [root] cdb.uberserver.cdbsvcd: Starting service 'cdb.uberserver.services.authentication.SessionCache' failed:
+	Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	Traceback (most recent call last):
+	Failure: cdb.uberserver.iservice.SvcStartTimeoutError: Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	
+[2019-01-21T07:13:44.001Z] CDBSVCD PID:22496 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start dependency 'cdb.uberserver.services.authentication.SessionCache' for service 'cdb.uberserver.services.apache.Apache'
+[2019-01-21T07:13:44.001Z] CDBSVCD PID:22496 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start 'cdb.uberserver.services.apache.Apache' due to failed dependency  on 'cdb.uberserver.services.authentication.SessionCache'
+[2019-01-21T07:14:30.521Z] CDBSVCD PID:22496 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-21T07:14:30.521Z] CDBSVCD PID:22496 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-21T07:15:20.253Z] CDBSVCD PID:10520 ERROR [root] cdb.uberserver.services.authentication.SessionCache Session Cache has exited with returncode 1
+[2019-01-21T07:15:29.535Z] CDBSVCD PID:10520 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-21T07:15:29.660Z] CDBSVCD PID:10520 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-21T07:15:49.607Z] CDBSVCD PID:10520 ERROR [root] cdb.uberserver.services.authentication.SessionCache SessionCache could not be reached! Please check session_cache.log for errors. Is the service port 6379 already in use?
+[2019-01-21T07:15:49.607Z] CDBSVCD PID:10520 ERROR [root] cdb.uberserver.cdbsvcd: Starting service 'cdb.uberserver.services.authentication.SessionCache' failed:
+	Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	Traceback (most recent call last):
+	Failure: cdb.uberserver.iservice.SvcStartTimeoutError: Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	
+[2019-01-21T07:15:49.639Z] CDBSVCD PID:10520 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start dependency 'cdb.uberserver.services.authentication.SessionCache' for service 'cdb.uberserver.services.apache.Apache'
+[2019-01-21T07:15:49.654Z] CDBSVCD PID:10520 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start 'cdb.uberserver.services.apache.Apache' due to failed dependency  on 'cdb.uberserver.services.authentication.SessionCache'
+[2019-01-21T07:16:32.025Z] CDBSVCD PID:10520 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-21T07:16:32.025Z] CDBSVCD PID:10520 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-21T07:18:45.397Z] CDBSVCD PID:2264 ERROR [root] cdb.uberserver.services.authentication.SessionCache Session Cache has exited with returncode 1
+[2019-01-21T07:18:54.695Z] CDBSVCD PID:2264 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-21T07:18:54.836Z] CDBSVCD PID:2264 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-21T07:19:14.746Z] CDBSVCD PID:2264 ERROR [root] cdb.uberserver.services.authentication.SessionCache SessionCache could not be reached! Please check session_cache.log for errors. Is the service port 6379 already in use?
+[2019-01-21T07:19:14.758Z] CDBSVCD PID:2264 ERROR [root] cdb.uberserver.cdbsvcd: Starting service 'cdb.uberserver.services.authentication.SessionCache' failed:
+	Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	Traceback (most recent call last):
+	Failure: cdb.uberserver.iservice.SvcStartTimeoutError: Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	
+[2019-01-21T07:19:15.354Z] CDBSVCD PID:2264 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start dependency 'cdb.uberserver.services.authentication.SessionCache' for service 'cdb.uberserver.services.apache.Apache'
+[2019-01-21T07:19:15.542Z] CDBSVCD PID:2264 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start 'cdb.uberserver.services.apache.Apache' due to failed dependency  on 'cdb.uberserver.services.authentication.SessionCache'
+[2019-01-21T07:20:07.843Z] CDBSVCD PID:2264 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-21T07:20:07.843Z] CDBSVCD PID:2264 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-21T07:22:55.979Z] CDBSVCD PID:14256 ERROR [root] cdb.uberserver.services.authentication.SessionCache Session Cache has exited with returncode 1
+[2019-01-21T07:23:05.280Z] CDBSVCD PID:14256 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-21T07:23:05.437Z] CDBSVCD PID:14256 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-21T07:23:25.345Z] CDBSVCD PID:14256 ERROR [root] cdb.uberserver.services.authentication.SessionCache SessionCache could not be reached! Please check session_cache.log for errors. Is the service port 6379 already in use?
+[2019-01-21T07:23:25.345Z] CDBSVCD PID:14256 ERROR [root] cdb.uberserver.cdbsvcd: Starting service 'cdb.uberserver.services.authentication.SessionCache' failed:
+	Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	Traceback (most recent call last):
+	Failure: cdb.uberserver.iservice.SvcStartTimeoutError: Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	
+[2019-01-21T07:23:25.361Z] CDBSVCD PID:14256 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start dependency 'cdb.uberserver.services.authentication.SessionCache' for service 'cdb.uberserver.services.apache.Apache'
+[2019-01-21T07:23:25.361Z] CDBSVCD PID:14256 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start 'cdb.uberserver.services.apache.Apache' due to failed dependency  on 'cdb.uberserver.services.authentication.SessionCache'
+[2019-01-21T07:24:10.961Z] CDBSVCD PID:14256 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-21T07:24:10.961Z] CDBSVCD PID:14256 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-21T09:20:23.208Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.services.authentication.SessionCache Session Cache has exited with returncode 1
+[2019-01-21T09:20:32.021Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-21T09:20:32.209Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-21T09:20:53.123Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.services.authentication.SessionCache SessionCache could not be reached! Please check session_cache.log for errors. Is the service port 6379 already in use?
+[2019-01-21T09:20:53.125Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.cdbsvcd: Starting service 'cdb.uberserver.services.authentication.SessionCache' failed:
+	Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	Traceback (most recent call last):
+	Failure: cdb.uberserver.iservice.SvcStartTimeoutError: Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	
+[2019-01-21T09:20:53.178Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start dependency 'cdb.uberserver.services.authentication.SessionCache' for service 'cdb.uberserver.services.apache.Apache'
+[2019-01-21T09:20:53.186Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start 'cdb.uberserver.services.apache.Apache' due to failed dependency  on 'cdb.uberserver.services.authentication.SessionCache'
+[2019-01-21T09:21:54.740Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-21T09:21:54.743Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.

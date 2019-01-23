@@ -1,0 +1,9 @@
+{
+  "cdb_op_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "", "name": "cs_landing_page", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.branding"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cs.sharing: Group Authors"}, "DATA": {"cdb_module_id": "cs.sharing", "description": ""}},
+      {"PRIMARY_KEYS": {"name": "cs.sharing: Group Creator"}, "DATA": {"cdb_module_id": "cs.sharing", "description": ""}},
+      {"PRIMARY_KEYS": {"name": "cs.sharing: Group Last Saved By"}, "DATA": {"cdb_module_id": "cs.sharing", "description": ""}},
+      {"PRIMARY_KEYS": {"name": "cs.sharing: Group Released By"}, "DATA": {"cdb_module_id": "cs.sharing", "description": ""}},
+      {"PRIMARY_KEYS": {"name": "cs.sharing: Group Responsible"}, "DATA": {"cdb_module_id": "cs.sharing", "description": ""}},
+      {"PRIMARY_KEYS": {"name": "cs.sharing: Project Roles"}, "DATA": {"cdb_module_id": "cs.sharing", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "TaskObjects"}, "DATA": {"cdb_module_id": "cs.workflow", "descr": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "Workflow components"}, "DATA": {"cdb_module_id": "cs.workflow", "descr": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbwf_assign_rights"}, "DATA": {"cdb_module_id": "cs.workflow", "descr": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbwf_briefcase_modus"}, "DATA": {"cdb_module_id": "cs.workflow", "descr": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbwf_obj_edit"}, "DATA": {"cdb_module_id": "cs.workflow", "descr": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbwf_obj_info"}, "DATA": {"cdb_module_id": "cs.workflow", "descr": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbwf_task_active"}, "DATA": {"cdb_module_id": "cs.workflow", "descr": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

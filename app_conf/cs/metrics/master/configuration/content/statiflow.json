@@ -1,0 +1,14 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbqc_definition", "zielstatus": 100}, "DATA": {"acd_allow": "qc_state_change", "cdb_module_id": "cs.metrics", "rang": 1, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbqc_definition", "zielstatus": 200}, "DATA": {"acd_allow": "qc_state_change", "cdb_module_id": "cs.metrics", "rang": 4, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbqc_definition", "zielstatus": 0}, "DATA": {"acd_allow": "qc_state_change", "cdb_module_id": "cs.metrics", "rang": 2, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbqc_definition", "zielstatus": 200}, "DATA": {"acd_allow": "qc_state_change", "cdb_module_id": "cs.metrics", "rang": 6, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbqc_definition", "zielstatus": 0}, "DATA": {"acd_allow": "qc_state_change", "cdb_module_id": "cs.metrics", "rang": 3, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbqc_definition", "zielstatus": 100}, "DATA": {"acd_allow": "qc_state_change", "cdb_module_id": "cs.metrics", "rang": 5, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

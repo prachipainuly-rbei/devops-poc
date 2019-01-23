@@ -1,0 +1,11 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0dd037d8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_roleexc_cfg", "field_name": "context_name"}, "DATA": {"cdb_module_id": "cs.platform.excaccess", "classname": "cdb_roleexc_cfg", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0dd037d8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_roleexc_cfg", "field_name": "relation"}, "DATA": {"cdb_module_id": "cs.platform.excaccess", "classname": "cdb_roleexc_cfg", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0f06a77c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_role_exc", "field_name": "exception_id"}, "DATA": {"cdb_module_id": "cs.platform.excaccess", "classname": "cdb_role_exc", "position": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

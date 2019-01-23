@@ -1,0 +1,12 @@
+{
+  "cdbxml_prov_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "ProjectIssues", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "ProjectIssues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "ProjectIssues", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Project_1"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "TaskIssues", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "TaskIssues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "TaskIssues", "subject_id": "public", "subject_type": "Common Role", "xsd_name": "Task_1"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

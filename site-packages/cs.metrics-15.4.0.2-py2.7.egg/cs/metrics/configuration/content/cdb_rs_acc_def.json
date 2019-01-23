@@ -1,0 +1,17 @@
+{
+  "cdb_rs_acc_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "cdbqc: Delete KPI"}, "DATA": {"cdb_module_id": "cs.metrics", "referer_allow": "accept"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "cdbqc: Delete KPI"}, "DATA": {"cdb_module_id": "cs.metrics", "referer_allow": "create"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "cdbqc: Delete KPI"}, "DATA": {"cdb_module_id": "cs.metrics", "referer_allow": "delete"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read", "rs_acc_prof": "cdbqc: Delete KPI"}, "DATA": {"cdb_module_id": "cs.metrics", "referer_allow": "read"}},
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "cdbqc:New KPIs"}, "DATA": {"cdb_module_id": "cs.metrics", "referer_allow": "qc_planned"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "cdbqc:New KPIs"}, "DATA": {"cdb_module_id": "cs.metrics", "referer_allow": "qc_planned"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "cdbqc:New KPIs"}, "DATA": {"cdb_module_id": "cs.metrics", "referer_allow": "delete"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read", "rs_acc_prof": "cdbqc:New KPIs"}, "DATA": {"cdb_module_id": "cs.metrics", "referer_allow": "read"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "cdbqc:New KPIs"}, "DATA": {"cdb_module_id": "cs.metrics", "referer_allow": "qc_planned"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

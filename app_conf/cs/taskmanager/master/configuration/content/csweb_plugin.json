@@ -1,0 +1,12 @@
+{
+  "csweb_plugin": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"plugin_id": "cs-tasks-custom"}, "DATA": {"cdb_module_id": "cs.taskmanager", "description": "custom task details blocks", "fqpyname": ""}},
+      {"PRIMARY_KEYS": {"plugin_id": "cs-tasks-custom-relship"}, "DATA": {"cdb_module_id": "cs.taskmanager", "description": "custom object renderer used in task relationships\ndiscriminator is not the task class, but the relationship name", "fqpyname": ""}},
+      {"PRIMARY_KEYS": {"plugin_id": "cs-tasks-custom-status-cell"}, "DATA": {"cdb_module_id": "cs.taskmanager", "description": "override for standard StatusCell component", "fqpyname": ""}},
+      {"PRIMARY_KEYS": {"plugin_id": "cs-tasks-desc"}, "DATA": {"cdb_module_id": "cs.taskmanager", "description": "task details block \"description\"", "fqpyname": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

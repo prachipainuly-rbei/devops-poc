@@ -1,0 +1,15 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "0b121bee-1fc6-11e5-8fa7-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "58c7edde-4732-11e1-98c0-001bfc744136", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "58c7edde-4732-11e1-98c0-001bfc744136", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "5e846b00-daf4-11e5-8da1-cc3d8239ce24", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "63606da1-d993-11e2-bca1-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "6997e521-19b7-11e5-a840-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"id": "6b00fb4f-daf4-11e5-b941-cc3d8239ce24", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.variants"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

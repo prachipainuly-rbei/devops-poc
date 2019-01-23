@@ -1,0 +1,17 @@
+{
+  "cdb_op_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pmodel", "name": "CDB_Copy", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_cad"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pmodel", "name": "CDB_Create", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_cad"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pmodel", "name": "CDB_Delete", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_cad"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pmodel", "name": "CDB_Export", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_cad"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pmodel", "name": "CDB_Modify", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_cad"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pmodel", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_cad"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pmodel", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_cad"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pmodel", "name": "CDB_SelectAndAssign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_cad"}},
+      {"PRIMARY_KEYS": {"classname": "cdbecm_ec2pmodel", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.ec_cad"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "bom_column"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"table_name": "bom_config"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"table_name": "bom_config_to_role"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"table_name": "bom_item_occurrence"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"table_name": "bom_key_attribute"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"table_name": "bom_mapping"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"table_name": "bom_method"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"table_name": "bom_suppressed_message"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"table_name": "bom_sync_attribute"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.vp.bomcreator"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

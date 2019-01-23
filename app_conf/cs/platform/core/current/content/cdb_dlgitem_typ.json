@@ -1,0 +1,32 @@
+{
+  "cdb_dlgitem_typ": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"itemtyp": 0}, "DATA": {"beschreibung": "Edit control for text input", "bezeichnung": "Text", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 11}, "DATA": {"beschreibung": "Multiline edit control", "bezeichnung": "Long text", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 12}, "DATA": {"beschreibung": "A Picture control", "bezeichnung": "Bitmap/Icon", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 13}, "DATA": {"beschreibung": "A button to run custom code implemented on the server side", "bezeichnung": "Button (server)", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 14}, "DATA": {"beschreibung": "A button to run custom code implemented on the client side", "bezeichnung": "Button (client)", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 15}, "DATA": {"beschreibung": "Placeholder", "bezeichnung": "Spacer", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 17}, "DATA": {"beschreibung": "Edit control with a catalog that displays a File Open dialog box", "bezeichnung": "FileOpenBrowser", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 18}, "DATA": {"beschreibung": "Edit control with a catalog that displays a File Save As dialog box", "bezeichnung": "FileSaveBrowser", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 19}, "DATA": {"beschreibung": "Edit control with a catalog that displays a dialog box that enables the user to select a folder", "bezeichnung": "DirectoryBrowser", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 2}, "DATA": {"beschreibung": "Checkbox control for binary choices", "bezeichnung": "Checkbox", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 20}, "DATA": {"beschreibung": "Edit control with a catalog that displays a calendar", "bezeichnung": "Calendar", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 21}, "DATA": {"beschreibung": "Edit control. The value is an URL displayed as a hyperlink", "bezeichnung": "HyperLink", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 22}, "DATA": {"beschreibung": "Edit control. The value is a mail address displayed as hyperlink", "bezeichnung": "EMail", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 24}, "DATA": {"beschreibung": "Edit control that displays an asterisk (*) for each character typed into the control", "bezeichnung": "Password", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 25}, "DATA": {"beschreibung": "Edit control with a value that is an UUID representing an object. The object description is displayed instead of the UUID", "bezeichnung": "CDB Object UUID", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 26}, "DATA": {"beschreibung": "Edit control that supports formatted number input", "bezeichnung": "NumericEdit", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 3}, "DATA": {"beschreibung": "Checkbox control with an additional indeterminate state", "bezeichnung": "Checkbox (Tri State)", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 30}, "DATA": {"beschreibung": "IE-Control", "bezeichnung": "eLINKControl", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 31}, "DATA": {"beschreibung": "Text with a button to switch the language", "bezeichnung": "Multilanguage", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 32}, "DATA": {"beschreibung": "Multilanguage Text with a button to open a multilanguage dialog", "bezeichnung": "Multilanguage Extended", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 33}, "DATA": {"beschreibung": "Combobox with a button to switch the language", "bezeichnung": "Multilanguage Combobox", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 35}, "DATA": {"beschreibung": "React Component - at this time only used with the Elements UI", "bezeichnung": "React Component", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 4}, "DATA": {"beschreibung": "Catalog that opens a drop-down list", "bezeichnung": "Combobox", "string2": ""}},
+      {"PRIMARY_KEYS": {"itemtyp": 9}, "DATA": {"beschreibung": "Edit control with a button that allows the user to generate a number", "bezeichnung": "Generator", "string2": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

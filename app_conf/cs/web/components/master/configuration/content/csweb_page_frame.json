@@ -1,0 +1,9 @@
+{
+  "csweb_page_frame": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "csweb_default_page_frame"}, "DATA": {"cdb_module_id": "cs.web.components", "config_component": "cs-web-components-base-ApplicationFrame", "config_location": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

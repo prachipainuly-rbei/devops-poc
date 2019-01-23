@@ -1,0 +1,12 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbwf_aggregate", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 35}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbwf_task", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 10}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbwf_task", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 35}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdbwf_task", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 35}, "DATA": {"cdb_module_id": "cs.workflow"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

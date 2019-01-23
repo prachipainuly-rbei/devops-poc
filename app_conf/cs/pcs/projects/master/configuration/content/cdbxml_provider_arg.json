@@ -1,0 +1,33 @@
+{
+  "cdbxml_provider_arg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"arg_name": "Group_By1", "name": "MultiProjectCockpit", "xsd_name": "Gesamt"}, "DATA": {"arg_value": "eval_total", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "MultiProjectCockpit", "xsd_name": "Project_N"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "MultiProjectCockpit", "xsd_name": "Project_N"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "MultiProjectCockpit", "xsd_name": "Project_N"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "MultiProjectCockpit", "xsd_name": "Project_N"}, "DATA": {"arg_value": "CDB_ShowObject", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "MultiProjectCockpit", "xsd_name": "Project_N"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "MultiProjectCockpit", "xsd_name": "Project_N"}, "DATA": {"arg_value": "project_name", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "MultiProjectCockpit", "xsd_name": "Project_N"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Group_By1", "name": "MultiProjectCockpit", "xsd_name": "Risiko"}, "DATA": {"arg_value": "risk_id", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "ProjectMTA", "xsd_name": "ProjectMTA"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "ProjectMTA", "xsd_name": "ProjectMTA"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "ProjectMTA", "xsd_name": "ProjectMTA"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "ProjectMTA", "xsd_name": "ProjectMTA"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "ProjectMTA", "xsd_name": "ProjectMTA"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "ProjectMTA", "xsd_name": "ProjectMTA"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "ProjectMTA", "xsd_name": "ProjectMTA"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "ProjectMTA", "xsd_name": "ProjectMTA"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "ProjectMTA", "xsd_name": "Project_1"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "ProjectMTA", "xsd_name": "Project_1"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "ProjectMTA", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "ProjectMTA", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "ProjectMTA", "xsd_name": "Project_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "ProjectMTA", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "ProjectMTA", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "ProjectMTA", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.projects"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

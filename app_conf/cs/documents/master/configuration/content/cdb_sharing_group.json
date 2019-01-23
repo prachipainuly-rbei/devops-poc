@@ -1,0 +1,9 @@
+{
+  "cdb_sharing_group": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "1d5ff1d2-657b-11e8-8f93-62150181cc6a"}, "DATA": {"cdb_cdate": "01.06.2018 11:06:48", "cdb_classname": "cdb_object_sharing_group", "cdb_cpersno": "caddok", "cdb_mdate": "01.06.2018 12:42:18", "cdb_mpersno": "caddok", "field_name": "", "fqpyname": "getReviewerSharingRecipients", "name_cs": "", "name_de": "Pr\u00fcfer", "name_en": "Reviewer", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "", "name_zh": "\u521b\u5efa\u8005", "pyrule": "cs.documents: With Reviewer", "subject_id": "public", "subject_type": "Common Role"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

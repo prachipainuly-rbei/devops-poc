@@ -1,0 +1,16 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0969810f-e00f-11e7-b288-68f728783d3d"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_detail", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "2324db9b-6eee-11e8-88ef-605718ab0982"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_objects", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "26308dc0-df0b-11e7-a51b-68f728783d3d"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_view", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "365716f0-04e1-11e8-adf6-4c3488543485"}, "DATA": {"ausgabe_label": "audittrail", "cdb_module_id": "cs.audittrail", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 55, "parent_id": "927d7231-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "507079a1-e00b-11e7-b874-68f728783d3d"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9019b2f0-f533-11e7-a474-605718ab0982"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_config_field", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a3c7538f-e00f-11e7-9279-68f728783d3d"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_type", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "365716f0-04e1-11e8-adf6-4c3488543485"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c5cbf451-f531-11e7-86b4-605718ab0982"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.audittrail", "classname": "cdb_audittrail_config", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "365716f0-04e1-11e8-adf6-4c3488543485"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

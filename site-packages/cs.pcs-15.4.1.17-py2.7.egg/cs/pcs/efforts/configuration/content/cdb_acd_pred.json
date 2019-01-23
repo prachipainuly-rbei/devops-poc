@@ -1,0 +1,11 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "predicate_name": "cs.pcs: Efforts", "table_name": "cdbpcs_time_sheet"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts (booked)", "predicate_name": "cs.pcs: Efforts (booked)", "table_name": "cdbpcs_time_sheet"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Efforts", "predicate_name": "cs.pcs: My Efforts", "table_name": "cdbpcs_time_sheet"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

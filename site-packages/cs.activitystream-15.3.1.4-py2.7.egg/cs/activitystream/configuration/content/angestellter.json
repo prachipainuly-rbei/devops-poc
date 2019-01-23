@@ -1,0 +1,9 @@
+{
+  "angestellter": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"personalnummer": "aspostingqueue"}, "DATA": {"abt_nummer": "IT", "account_expiration_date": null, "account_start_date": null, "active_account": "1", "beruf": "System-Dienst", "calendar_profile_id": "", "capacity": 0.0, "cdb_cdate": "19.09.2016 13:07:47", "cdb_classname": "angestellter", "cdb_cpersno": "caddok", "cdb_mdate": "19.09.2016 15:07:14", "cdb_mpersno": "caddok", "cdb_object_id": "4bf9a5a1-7e59-11e6-bf58-78acc0a55b77", "cdb_repl_limit": 0, "cdb_repl_multi": "0", "cdblic_named_user": 1, "city": "Bremen", "country": "DE", "e_mail": "", "firstname": "", "force_pwdchange": 0, "gender": "", "initials": "VSU", "is_resource": null, "is_system_account": 0, "lastname": "System Posting Queue", "login": "aspostingqueue", "name": "Activity Stream System Posting Queue", "org_id": "131", "password_rule": "Minimal", "remarks": "Predefined Account for system posting queue user", "state": "Bremen", "street": "Wiener Str. 1-3", "tel1_remark": "", "tel2_remark": "", "tel3_remark": "", "telefon1": "", "telefon2": "", "telefon3": "", "title": "", "visibility_flag": 1, "zip": "D-28359"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

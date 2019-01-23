@@ -1,0 +1,13 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.taskmanager: All User Views", "allow": "FULL ACCESS", "class": "cs_tasks_user_views"}, "DATA": {"cdb_module_id": "cs.taskmanager", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.taskmanager: My Own User Views", "allow": "FULL ACCESS", "class": "cs_tasks_user_views"}, "DATA": {"cdb_module_id": "cs.taskmanager", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.taskmanager: My User Views", "allow": "read", "class": "cs_tasks_user_views"}, "DATA": {"cdb_module_id": "cs.taskmanager", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs_tasks: Show Own Tasks", "allow": "show_tasks", "class": "angestellter"}, "DATA": {"cdb_module_id": "cs.taskmanager", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs_tasks: Show Tasks", "allow": "show_tasks", "class": "angestellter"}, "DATA": {"cdb_module_id": "cs.taskmanager", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

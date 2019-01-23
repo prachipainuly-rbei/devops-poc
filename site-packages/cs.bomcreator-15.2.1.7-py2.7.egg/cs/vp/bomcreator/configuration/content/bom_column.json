@@ -1,0 +1,18 @@
+{
+  "bom_column": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "52a16830-0aef-11e6-ba7e-dd210e660279"}, "DATA": {"attribute": "position", "configuration": "529421c0-0aef-11e6-a82f-dd210e660279", "fqpyname": "cs.vp.bom.AssemblyComponent", "label": "WSM_BOM_POSITION", "position": 40}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "52a18f40-0aef-11e6-a2ed-dd210e660279"}, "DATA": {"attribute": "menge", "configuration": "529421c0-0aef-11e6-a82f-dd210e660279", "fqpyname": "cs.vp.bom.AssemblyComponent", "label": "WSM_BOM_AMOUNT", "position": 30}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "52a18f41-0aef-11e6-9076-dd210e660279"}, "DATA": {"attribute": "Item.i18n_benennung", "configuration": "529421c0-0aef-11e6-a82f-dd210e660279", "fqpyname": "cs.vp.bom.AssemblyComponent", "label": "WSM_BOM_DESIGNATION", "position": 50}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "52a18f42-0aef-11e6-8420-dd210e660279"}, "DATA": {"attribute": "teilenummer", "configuration": "529421c0-0aef-11e6-a82f-dd210e660279", "fqpyname": "cs.vp.bom.AssemblyComponent", "label": "WSM_BOM_PART_NO", "position": 10}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "52a18f43-0aef-11e6-8ca3-dd210e660279"}, "DATA": {"attribute": "t_index", "configuration": "529421c0-0aef-11e6-a82f-dd210e660279", "fqpyname": "cs.vp.bom.AssemblyComponent", "label": "WSM_BOM_PART_INDEX", "position": 20}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7dea1721-b6a4-11e0-b42b-6cf049769241"}, "DATA": {"attribute": "t_index", "configuration": "5bceaa30-b6a3-11e0-aa90-6cf049769241", "fqpyname": "cs.vp.bom.AssemblyComponent", "label": "WSM_BOM_PART_INDEX", "position": 20}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "945560f0-b6a4-11e0-897c-6cf049769241"}, "DATA": {"attribute": "menge", "configuration": "5bceaa30-b6a3-11e0-aa90-6cf049769241", "fqpyname": "cs.vp.bom.AssemblyComponent", "label": "WSM_BOM_AMOUNT", "position": 30}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a3525a91-b6a4-11e0-b312-6cf049769241"}, "DATA": {"attribute": "position", "configuration": "5bceaa30-b6a3-11e0-aa90-6cf049769241", "fqpyname": "cs.vp.bom.AssemblyComponent", "label": "WSM_BOM_POSITION", "position": 40}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "b3a80661-b6a4-11e0-9ced-6cf049769241"}, "DATA": {"attribute": "Item.i18n_benennung", "configuration": "5bceaa30-b6a3-11e0-aa90-6cf049769241", "fqpyname": "cs.vp.bom.AssemblyComponent", "label": "WSM_BOM_DESIGNATION", "position": 50}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "dda5a5de-b6a3-11e0-8ec4-6cf049769241"}, "DATA": {"attribute": "teilenummer", "configuration": "5bceaa30-b6a3-11e0-aa90-6cf049769241", "fqpyname": "cs.vp.bom.AssemblyComponent", "label": "WSM_BOM_PART_NO", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.2", 
+      "cs.activitystream": "15.3.1.3", 
+      "cs.base": "15.4.0.3", 
+      "cs.defects": "15.2.1.2", 
+      "cs.documents": "15.2.2.8", 
+      "cs.metrics": "15.4.0.0", 
+      "cs.pcs": "15.4.1.10", 
+      "cs.platform": "15.2.24", 
+      "cs.powerreports": "15.2.0.2", 
+      "cs.vp": "15.5.0.6", 
+      "cs.web": "15.2.1.17", 
+      "cs.workflow": "15.4.0.7"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.ec_cad", 
+        "required_module_id": "cs.documents"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.ec_cad", 
+        "required_module_id": "cs.ec"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": null
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.ec_cad", 
+        "required_module_id": "cs.shared"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.ec_cad", 
+        "required_module_id": "cs.vp.cad"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "6e579e40-6175-11e2-80a1-78acc0ace8c3", 
+      "is_interface_module": 1, 
+      "mandatory": 0, 
+      "master_config_checksum": "8f9a0da068624f3f4f0131608a0dde46", 
+      "name": "Interface module to connect cs.ec and cs.vp.cad", 
+      "package": "cs.ec"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.vp.ec_cad"
+    }
+  }
+}

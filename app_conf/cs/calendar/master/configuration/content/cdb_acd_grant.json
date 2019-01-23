@@ -1,0 +1,16 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Entries (base)", "allow": "read", "class": "cdb_calendar", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Entries (personal)", "allow": "WRITE ACCESS", "class": "cdb_calendar", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Entries (personal)", "allow": "read", "class": "cdb_calendar", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Entries (projects)", "allow": "WRITE ACCESS", "class": "cdb_calendar", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Entries (projects)", "allow": "read", "class": "cdb_calendar", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Profiles and Exceptions", "allow": "WRITE ACCESS", "class": "cdb_calendar", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: Calendar Profiles and Exceptions", "allow": "read", "class": "cdb_calendar", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.calendar: My Calendar Entries", "allow": "WRITE ACCESS", "class": "cdb_calendar", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.calendar"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

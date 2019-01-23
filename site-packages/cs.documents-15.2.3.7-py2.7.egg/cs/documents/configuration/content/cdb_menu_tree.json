@@ -1,0 +1,23 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "5e39acd1-4440-11e2-bdd3-f0def133d0a6"}, "DATA": {"ausgabe_label": "tree_documents", "cdb_module_id": "cs.documents", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "92a5f794-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91a48a10-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "dokument", "cdb_module_id": "cs.documents", "classname": "document", "decomp_id": "DOC", "icon_id": "cdb_document", "ordering": 10, "parent_id": "919b0145-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91b0750f-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_DocCateg", "cdb_module_id": "cs.documents", "classname": "cdb_doc_categ", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "5e39acd1-4440-11e2-bdd3-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91c5e8da-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Aendanlass", "cdb_module_id": "cs.documents", "classname": "cdb_mod_event", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "5e39acd1-4440-11e2-bdd3-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91cd0f74-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Aendquelle", "cdb_module_id": "cs.documents", "classname": "cdb_mod_source", "decomp_id": "", "icon_id": "", "ordering": 30, "parent_id": "5e39acd1-4440-11e2-bdd3-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91d1d3d9-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Aendtype", "cdb_module_id": "cs.documents", "classname": "cdb_mod_kind", "decomp_id": "", "icon_id": "", "ordering": 40, "parent_id": "5e39acd1-4440-11e2-bdd3-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91e9a9d9-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Massstab", "cdb_module_id": "cs.documents", "classname": "massstab", "decomp_id": "", "icon_id": "", "ordering": 70, "parent_id": "655dd4a1-4440-11e2-b6f0-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91fcbb6f-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_replTopItem", "cdb_module_id": "cs.documents", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 35, "parent_id": "92b9092c-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91ff1da3-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_repl_master", "cdb_module_id": "cs.documents", "classname": "mq_mstr_repl", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "91fcbb6f-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "921955d4-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_replTopItem", "cdb_module_id": "cs.documents", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 110, "parent_id": "92b6a6fa-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "921bb806-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_repl_master", "cdb_module_id": "cs.documents", "classname": "mq_mstr_repl", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "921955d4-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "92af8060-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Referenzstruk", "cdb_module_id": "cs.documents", "classname": "cdb_doc_rel", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "76f63280-3ec2-11e2-b529-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9334fb88-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Statusprotoko", "cdb_module_id": "cs.documents", "classname": "cdb_z_statiprot", "decomp_id": "", "icon_id": "", "ordering": 30, "parent_id": "9326ae57-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "cbe7a330-ee98-11e0-a523-005056c00008"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.documents", "classname": "doctype_assign", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "cf123e1e-818c-11e2-8744-78acc0a55b77"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.documents", "classname": "prefixes", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

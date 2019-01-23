@@ -1,0 +1,12 @@
+{
+  "csweb_related_object_tile": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdb_organization", "relship_id": "Cdb_organization_to_cdb_person"}, "DATA": {"cdb_module_id": "cs.web.components", "label_cs": "", "label_de": "", "label_en": "", "label_es": "", "label_fr": "", "label_it": "", "label_ja": "", "label_ko": "", "label_pl": "", "label_pt": "", "label_tr": "", "label_zh": "", "position": 30}},
+      {"PRIMARY_KEYS": {"classname": "cdb_organization", "relship_id": "ParentOrganisation"}, "DATA": {"cdb_module_id": "cs.web.components", "label_cs": "", "label_de": "", "label_en": "", "label_es": "", "label_fr": "", "label_it": "", "label_ja": "", "label_ko": "", "label_pl": "", "label_pt": "", "label_tr": "", "label_zh": "", "position": 10}},
+      {"PRIMARY_KEYS": {"classname": "cdb_organization", "relship_id": "Suborganizations"}, "DATA": {"cdb_module_id": "cs.web.components", "label_cs": "", "label_de": "", "label_en": "", "label_es": "", "label_fr": "", "label_it": "", "label_ja": "", "label_ko": "", "label_pl": "", "label_pt": "", "label_tr": "", "label_zh": "", "position": 20}},
+      {"PRIMARY_KEYS": {"classname": "cdb_person", "relship_id": "Organization"}, "DATA": {"cdb_module_id": "cs.web.components", "label_cs": null, "label_de": "Organisation", "label_en": "Organization", "label_es": null, "label_fr": null, "label_it": null, "label_ja": null, "label_ko": null, "label_pl": null, "label_pt": null, "label_tr": "", "label_zh": "", "position": 100}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

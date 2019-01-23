@@ -1,0 +1,135 @@
+#!/bin/sh
+# SuSE
+# Einbinden des Startscripts in die Runlevel mit 'chkconfig cdbedgesvcd on'
+# RC Link erzeugen 'ln -s /etc/init.d/cdbedgesvcd /sbin/rccdbedgesvcd'
+#
+#     system startup script for CIM DATABASE Service Daemon
+#
+# /etc/init.d/cdbedgesvcd
+#   and its symbolic link
+# /(usr/)sbin/rccdbedgesvcd
+#
+# system startup script for  CIM DATABASE Service Daemon cdbedgesvcd
+#
+### BEGIN INIT INFO
+# Provides:          CDBEDGESVCD
+# Required-Start:    $syslog $network $named
+# Should-Start:      
+# Required-Stop:     $syslog $network $named
+# Should-Stop:       
+# Default-Start:     3 5
+# Default-Stop:      0 1 2 6
+# Short-Description: CIM DATABASE Service Daemon
+# Description:       Start cdbedgesvcd to have a running CIM DATABASE Installation...
+### END INIT INFO
+# 
+
+# Theese values must be checked/adopted in every installation....
+CADDOK_RUNTIME=<PATH_TO_CDB>/bin
+CADDOK_BASE=<PATH_TO_INSTANCEDIR>
+CDBEDGESVCD_PIDFILE=$CADDOK_BASE/tmp/cdbedgesvcd.pid 
+CDBUSER=caddok
+
+# Check for missing binaries (stale symlinks should not happen)
+# Note: Special treatment of stop for LSB conformance
+CDBEDGESVCD_BIN=$CADDOK_RUNTIME/cdbedgesvcd
+test -x $CDBEDGESVCD_BIN || { echo "$CDBEDGESVCD_BIN not installed"; 
+        if [ "$1" = "stop" ]; then exit 0;
+        else exit 5; fi; }
+
+# E016413: Sandbox.checkout Fehler bei Dateinamen mit Umlauten
+# Remember LC_ALL before /etc/rc.status modifies it to POSIX
+if [ -n "${LC_ALL+x}" ]; then
+  ORIG_LC_ALL=$LC_ALL
+fi
+
+# Shell functions sourced from /etc/rc.status:
+#      rc_check         check and set local and overall rc status
+#      rc_status        check and set local and overall rc status
+#      rc_status -v     be verbose in local rc status and clear it afterwards
+#      rc_status -v -r  ditto and clear both the local and overall rc status
+#      rc_status -s     display "skipped" and exit with status 3
+#      rc_status -u     display "unused" and exit with status 3
+#      rc_failed        set local and overall rc status to failed
+#      rc_failed <num>  set local and overall rc status to <num>
+#      rc_reset         clear both the local and overall rc status
+#      rc_exit          exit appropriate to overall rc status
+#      rc_active        checks whether a service is activated by symlinks
+. /etc/rc.status
+
+# Reset status of this service
+rc_reset
+
+# Return values acc. to LSB for all commands but status:
+# 0          - success
+# 1       - generic or unspecified error
+# 2       - invalid or excess argument(s)
+# 3       - unimplemented feature (e.g. "reload")
+# 4       - user had insufficient privileges
+# 5       - program is not installed
+# 6       - program is not configured
+# 7       - program is not running
+# 8--199  - reserved (8--99 LSB, 100--149 distrib, 150--199 appl)
+# 
+# Note that starting an already running service, stopping
+# or restarting a not-running service as well as the restart
+# with force-reload (in case signaling is not supported) are
+# considered a success.
+
+# E016413: Sandbox.checkout Fehler bei Dateinamen mit Umlauten
+# Reset LC_ALL to original value, to have a correct environment
+if [ -n "${ORIG_LC_ALL+x}" ]; then
+  LC_ALL=$ORIG_LC_ALL
+  export LC_ALL
+else
+  unset LC_ALL
+fi
+
+case "$1" in
+    start)
+        echo "Starting cdbedgesvcd ..." 
+        command="$CDBEDGESVCD_BIN run -p --instancedir=$CADDOK_BASE >$CDBEDGESVCD_PIDFILE 2>/dev/null"
+        if [ `whoami` = $CDBUSER ]; then
+            eval "$command"
+        else
+            su - $CDBUSER -c "eval $command"
+        fi
+        retval=$?
+        ;;
+    stop)
+        echo "Shutting down cdbedgesvcd " 
+        if [ -f $CDBEDGESVCD_PIDFILE ]; then
+            # Then kill the service daemon itself.
+            CDBPID=`head -n 1 $CDBEDGESVCD_PIDFILE`
+            RUN=`ps -p $CDBPID | grep -c $CDBPID`
+            if [ $RUN -ge 1 ]; then
+                kill $CDBPID
+                retval=0
+            else
+                echo "process not running!"
+            fi
+            command="rm -f $CDBEDGESVCD_PIDFILE"
+            if [ `whoami` = $CDBUSER ]; then
+                eval "$command"
+            else
+                su - $CDBUSER -c "$command"
+            fi
+        else
+            echo "Error: PIDFILE missing"
+        fi
+        ;;
+    restart)
+        ## Stop the service and regardless of whether it was
+        ## running or not, start it again.
+        $0 stop
+        $0 start
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        exit 1
+        ;;
+esac
+
+# Inform the caller not only verbosely and set an exit status.
+test "$retval" = "0" || exit 1
+exit 0

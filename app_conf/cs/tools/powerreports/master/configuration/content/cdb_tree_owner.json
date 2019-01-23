@@ -1,0 +1,10 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "9334fb89-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"id": "ee90c7ee-f6ec-11e7-be48-001a7dda7107", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

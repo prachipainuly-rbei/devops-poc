@@ -1,0 +1,16 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "1a82144f-3ec8-11e2-9821-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "1a82144f-3ec8-11e2-9821-f0def133d0a6", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "655dd4a1-4440-11e2-b6f0-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "655dd4a1-4440-11e2-b6f0-f0def133d0a6", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "76f63280-3ec2-11e2-b529-f0def133d0a6", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "92a859c8-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "92cc1ac4-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "a4fa2ff0-3dcb-11e0-b2f5-60fb428a7517", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.products"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

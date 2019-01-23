@@ -1,0 +1,12 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_effort_activity_type_tag"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": "", "d": "name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1960, "pl": "", "pt": "", "s": "", "tr": "name", "uk": "name", "zh": "name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_effort_report_failed"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": null, "d": "Report fehlgeschlagen: %s", "f": null, "i": null, "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Report failed: %s", "zh": null}},
+      {"PRIMARY_KEYS": {"meldung_label": "pcs_effort_tag"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": "", "d": "\"Aufwand: \" + hours + \" Std.\" + \" (\"  + day + \"/ \" +  person + \")\"", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1552, "pl": "", "pt": "", "s": "", "tr": "\"Efor: \" + hours + \" sa\" + \" (\" + day + \"/ \" + person + \")\"", "uk": "\"Aufwand: \" + hours + \" h\" + \" (\"  + day + \"/ \" +  person + \")\"", "zh": "\"\u6d88\u8017:\" + hours + \" \u5c0f\u65f6\" + \" (\"  + day + \"/ \" + person + \")\""}},
+      {"PRIMARY_KEYS": {"meldung_label": "pcs_err_effort7"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cs": "", "d": "Um f\u00fcr ein Teammitglied Aufw\u00e4nde zu erfassen, m\u00fcssen Sie in dem betreffenden Projekt die Rolle 'Projektleiter' besitzen.", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "Sadece se\u00e7ili projenin proje y\u00f6neticisi iseniz bir tak\u0131m eleman\u0131 i\u00e7in efor girebilirsiniz.", "uk": "You can only create effort entries for a teammember if you are project manager within the selected Project.", "zh": "\u4f60\u4ec5\u80fd\u521b\u5efa\u5de5\u4f5c\u91cf\u6761\u76ee\u7ed9\u56e2\u961f\u6210\u5458\u5982\u4f60\u662f\u6240\u9009\u9879\u76ee\u7684\u9879\u76ee\u7ba1\u7406\u8005."}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

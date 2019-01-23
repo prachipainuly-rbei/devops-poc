@@ -1,0 +1,14 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0e1c5261-89f8-11e5-83b4-948f144f2cbe"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.sharing", "classname": "cdb_sharing_group", "decomp_id": "", "icon_id": "cdb_user_group", "ordering": 10, "parent_id": "4b45e65e-9443-11e5-abb2-4c3488543485"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "1e816d79-8f5c-11e5-b3eb-cb6015b2e7bb"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.sharing", "classname": "cdb_sharing_recipients", "decomp_id": "", "icon_id": "", "ordering": 1120, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "4b45e65e-9443-11e5-abb2-4c3488543485"}, "DATA": {"ausgabe_label": "elements_share", "cdb_module_id": "cs.sharing", "classname": "", "decomp_id": "", "icon_id": "elements_share", "ordering": 1200, "parent_id": "92b6a6fa-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7ed92230-8e08-11e5-81bf-cb6015b2e7bb"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.sharing", "classname": "cdb_sharing_posting_v", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a7bc2180-89f7-11e5-bddd-948f144f2cbe"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.sharing", "classname": "cdb_sharing", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "4b45e65e-9443-11e5-abb2-4c3488543485"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "afd7eb03-c427-11e5-93d8-00059a3c7a00"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.sharing", "classname": "mq_share_objects_queue", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "4b45e65e-9443-11e5-abb2-4c3488543485"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

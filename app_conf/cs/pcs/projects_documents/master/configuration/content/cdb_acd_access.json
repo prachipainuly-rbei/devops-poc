@@ -1,0 +1,19 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "WRITE ACCESS", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "create_folderdoc", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "create_subfolder", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "delete_folderdoc", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "allow": "read", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "accept", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "immutable_folder", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "create", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "immutable_folder", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "delete", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "immutable_folder", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "allow": "save", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "immutable_folder", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (no Documents)", "allow": "create_folderdoc", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "err_no_folderdoc", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (no Subfolders)", "allow": "create_subfolder", "class": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "error_label": "err_no_subfolder", "mandatory": 1}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

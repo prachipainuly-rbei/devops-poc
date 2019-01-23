@@ -1,0 +1,10 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0dd037d8-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.excaccess", "classname": "cdb_roleexc_cfg", "description": "", "exclude_empty_values": null, "fields_info": "context_name, relation"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0f06a77c-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.excaccess", "classname": "cdb_role_exc", "description": "", "exclude_empty_values": null, "fields_info": "exception_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

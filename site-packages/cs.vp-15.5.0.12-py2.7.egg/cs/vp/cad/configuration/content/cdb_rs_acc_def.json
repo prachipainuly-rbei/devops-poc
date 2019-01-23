@@ -1,0 +1,11 @@
+{
+  "cdb_rs_acc_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "The variant's document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "referer_allow": "create"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "The variant's document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "referer_allow": "delete"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "The variant's document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "referer_allow": "save"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

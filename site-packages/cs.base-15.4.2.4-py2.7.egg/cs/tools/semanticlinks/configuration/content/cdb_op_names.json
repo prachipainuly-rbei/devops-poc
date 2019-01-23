@@ -1,0 +1,11 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "createlink"}, "DATA": {"acl_allow": "create", "cdb_module_id": "cs.tools.semanticlinks", "client_desc": "", "descr": null, "html_help": "", "icon_id": "", "inactive": 0, "kind": "PowerScript", "label": "pccl_new", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "link_graph"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.tools.semanticlinks", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdb_link_graph", "inactive": 0, "kind": "PowerScript", "label": "link_graph", "label_ok": "", "menu_visible": 1, "menugroup": 1, "ordering": 15, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "link_matrix"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.tools.semanticlinks", "client_desc": "", "descr": "", "html_help": "", "icon_id": "linkmatrix", "inactive": 0, "kind": "PowerScript", "label": "linkmatrix", "label_ok": "", "menu_visible": 1, "menugroup": 1, "ordering": 15, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

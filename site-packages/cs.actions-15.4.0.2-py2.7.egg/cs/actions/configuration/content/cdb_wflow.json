@@ -1,0 +1,9 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "description": "", "name_cs": "", "name_de": "Ma\u00dfnahmen", "name_en": "Actions", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "eylemler", "name_zh": "\u64cd\u4f5c", "objclass": "cdb_action", "sys_wf": 1}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

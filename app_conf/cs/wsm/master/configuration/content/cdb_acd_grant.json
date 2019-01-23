@@ -1,0 +1,14 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "accept", "class": "wsm_settings", "subject_id": "Administrator: WSM", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "create", "class": "wsm_settings", "subject_id": "Administrator: WSM", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "delete", "class": "wsm_settings", "subject_id": "Administrator: WSM", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "read", "class": "wsm_settings", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "read_file", "class": "wsm_settings", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.wsm: Settings", "allow": "save", "class": "wsm_settings", "subject_id": "Administrator: WSM", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.wsm"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

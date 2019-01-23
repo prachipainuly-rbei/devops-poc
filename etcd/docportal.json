@@ -1,0 +1,114 @@
+{
+    "languages": {
+        "fr": {
+            "zh": "\u6cd5\u8bed",
+            "fr": "Fran\u00e7ais",
+            "de": "Franz\u00f6sisch",
+            "tr": "Frans\u0131zca",
+            "en": "French"
+        },
+        "en": {
+            "zh": "\u82f1\u8bed",
+            "de": "Englisch",
+            "tr": "\u0130ngilizce",
+            "en": "English"
+        },
+        "zh": {
+            "zh": "\u4e2d\u6587",
+            "de": "Chinesisch",
+            "tr": "\u00c7ince",
+            "en": "Chinese"
+        },
+        "pt": {
+            "zh": "\u8461\u8404\u7259\u8bed",
+            "de": "Portugiesisch",
+            "tr": "Portekizce",
+            "pt": "Portugu\u00eas",
+            "en": "Portuguese"
+        },
+        "tr": {
+            "zh": "\u571f\u8033\u5176\u8bed",
+            "de": "T\u00fcrkisch",
+            "tr": "T\u00fcrk\u00e7e",
+            "en": "Turkish"
+        },
+        "de": {
+            "zh": "\u5fb7\u8bed",
+            "de": "Deutsch",
+            "tr": "Almanca",
+            "en": "German"
+        },
+        "ko": {
+            "tr": "Korece",
+            "zh": "\u97e9\u8bed",
+            "de": "Koreanisch",
+            "ko": "\ud55c\uad6d\uc5b4",
+            "en": "Korean"
+        },
+        "it": {
+            "zh": "\u610f\u5927\u5229\u8bed",
+            "de": "Italienisch",
+            "tr": "\u0130talyanca",
+            "it": "Italiano",
+            "en": "Italian"
+        },
+        "pl": {
+            "zh": "\u6ce2\u5170\u8bed",
+            "de": "Polnisch",
+            "tr": "Polonya dili",
+            "pl": "Polski",
+            "en": "Polish"
+        },
+        "cs": {
+            "cs": "\u010ce\u0161tina",
+            "zh": "\u6377\u514b\u8bed",
+            "de": "Tschechisch",
+            "tr": "\u00c7ekce",
+            "en": "Czech"
+        },
+        "ja": {
+            "zh": "\u65e5\u8bed",
+            "de": "Japanisch",
+            "tr": "Jaonca",
+            "ja": "\u65e5\u672c\u8a9e",
+            "en": "Japanese"
+        },
+        "es": {
+            "zh": "\u897f\u73ed\u7259\u8bed",
+            "de": "Spanisch",
+            "tr": "\u0130spanyolca",
+            "es": "Espa\u00f1ol",
+            "en": "Spanish"
+        }
+    },
+    "messages": {
+        "branding_company_name": {
+            "fr": "CONTACT Software",
+            "en": "CONTACT Software",
+            "zh": "CONTACT Software",
+            "pt": "CONTACT Software",
+            "tr": "CONTACT Software",
+            "de": "CONTACT Software",
+            "ko": "CONTACT Software",
+            "it": "CONTACT Software",
+            "es": "CONTACT Software",
+            "cs": "CONTACT Software",
+            "ja": "CONTACT Software",
+            "pl": "CONTACT Software"
+        },
+        "branding_doc_portal_title": {
+            "fr": "Documentation Portal",
+            "en": "Documentation Portal",
+            "zh": "Documentation Portal",
+            "pt": "Documentation Portal",
+            "tr": "Documentation Portal",
+            "de": "Dokumentationsportal",
+            "ko": "Documentation Portal",
+            "it": "Documentation Portal",
+            "es": "Documentation Portal",
+            "cs": "Documentation Portal",
+            "ja": "Documentation Portal",
+            "pl": "Documentation Portal"
+        }
+    }
+}

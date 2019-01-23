@@ -1,0 +1,39 @@
+{
+  "cdb_op_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdb_install_script", "name": "CDB_Create", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_custupdate", "name": "CDB_CustomUpdate", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_exec", "name": "CDB_Export", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_log", "name": "CDB_Export", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_version", "name": "CDB_Export", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_custupdate", "name": "CDB_Search", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_demo_script", "name": "CDB_Search", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_exec", "name": "CDB_Search", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_log", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_update", "name": "CDB_Search", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_version", "name": "CDB_Search", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_custupdate", "name": "CDB_SearchAgain", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_demo_script", "name": "CDB_SearchAgain", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_exec", "name": "CDB_SearchAgain", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_log", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_update", "name": "CDB_SearchAgain", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_version", "name": "CDB_SearchAgain", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_exec", "name": "CDB_SelectAndAssign", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_log", "name": "CDB_SelectAndAssign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_version", "name": "CDB_SelectAndAssign", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_install_script", "name": "CDB_SelectType", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_custupdate", "name": "CDB_ShowObject", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_demo_script", "name": "CDB_ShowObject", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_exec", "name": "CDB_ShowObject", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_log", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_update", "name": "CDB_ShowObject", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_version", "name": "CDB_ShowObject", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_version", "name": "CDB_Version", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_custupdate", "name": "cdb_exp_custupdate", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_custupdate", "name": "cdb_run_custupdate", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_script_log", "name": "cdb_script_log_checked", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.installscripts"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

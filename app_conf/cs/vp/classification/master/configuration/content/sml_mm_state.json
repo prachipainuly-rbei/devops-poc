@@ -1,0 +1,12 @@
+{
+  "sml_mm_state": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mm_st": 0}, "DATA": {"description": "Daten sind nicht in der Datei aufgef\u00fchrt", "description_i18n_cs": "", "description_i18n_en": "", "description_i18n_es": "", "description_i18n_fr": "", "description_i18n_it": "", "description_i18n_ja": "", "description_i18n_ko": "", "description_i18n_pl": "", "description_i18n_pt": "", "description_i18n_tr": "", "description_i18n_zh": ""}},
+      {"PRIMARY_KEYS": {"mm_st": 1}, "DATA": {"description": "Daten sind in den Merkmalsdatens\u00e4tzen aufgef\u00fchrt", "description_i18n_cs": "", "description_i18n_en": "", "description_i18n_es": "", "description_i18n_fr": "", "description_i18n_it": "", "description_i18n_ja": "", "description_i18n_ko": "", "description_i18n_pl": "", "description_i18n_pt": "", "description_i18n_tr": "", "description_i18n_zh": ""}},
+      {"PRIMARY_KEYS": {"mm_st": 2}, "DATA": {"description": "Daten sind als Merkmalsalgorithmus aufgef\u00fchrt", "description_i18n_cs": "", "description_i18n_en": "", "description_i18n_es": "", "description_i18n_fr": "", "description_i18n_it": "", "description_i18n_ja": "", "description_i18n_ko": "", "description_i18n_pl": "", "description_i18n_pt": "", "description_i18n_tr": "", "description_i18n_zh": ""}},
+      {"PRIMARY_KEYS": {"mm_st": 3}, "DATA": {"description": "Daten sind als Funktionswert aufgef\u00fchrt", "description_i18n_cs": "", "description_i18n_en": "", "description_i18n_es": "", "description_i18n_fr": "", "description_i18n_it": "", "description_i18n_ja": "", "description_i18n_ko": "", "description_i18n_pl": "", "description_i18n_pt": "", "description_i18n_tr": "", "description_i18n_zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

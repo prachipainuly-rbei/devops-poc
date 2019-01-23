@@ -1,0 +1,9 @@
+{
+  "cdb_setting": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "cs.vp.items.web.gui", "setting_id2": "collapsedblocks"}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.vp.items", "default_val": "bom,bom-usage,statusprotocol,documents,item-history", "readonly": 0, "store_usr_val": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

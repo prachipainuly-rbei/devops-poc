@@ -1,0 +1,17 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdbqc_definition_overview"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdbqc_definition_overview"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbqc_compute"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbqc_definition_overview"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbqc_obj_cockpit"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbqc_prc_cockpit"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdbqc_definition_overview"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdbqc_definition_overview"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdbqc_obj_cockpit"}, "DATA": {"cdb_module_id": "cs.metrics"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

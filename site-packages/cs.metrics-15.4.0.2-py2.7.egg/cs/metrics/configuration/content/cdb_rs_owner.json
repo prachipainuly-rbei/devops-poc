@@ -1,0 +1,40 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbqc_action2qualitychar", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_action_qc2qc", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_asso2class", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_asso2computation_rule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_asso2pyrule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_children2aggr_rule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_children2pyrule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_children2relships", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_class_clsasso2qc", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_class_def2clsassoziation", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_class_definition2quality_characters", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_class_grouping_attribute", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_class_quality_character2association", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_class_quality_character2definition", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_clsasso2children", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_clsasso2parents", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_computation_protocol", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_def2clsassoziation", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_def2units", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_definition2objektstati", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_grouping2entity", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_groups", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_history2q_grade", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_obj_clsasso2qc", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_obj_def2clsassoziation", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_obj_definition2quality_character", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_obj_quality_character2definition", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_parents2pyrule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_quality_character2history1", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_qualitychar2actions", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_unit2utype", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc_utype2unit", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.metrics"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

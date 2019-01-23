@@ -1,0 +1,16 @@
+{
+  "cdb_audittrail_type": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"type": "create"}, "DATA": {"cdb_icon_id": "Create", "name_cs": null, "name_de": "Neu", "name_en": "Create", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "", "name_zh": ""}},
+      {"PRIMARY_KEYS": {"type": "create_file"}, "DATA": {"cdb_icon_id": "Create", "name_cs": null, "name_de": "Datei Neu", "name_en": "Create File", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "", "name_zh": ""}},
+      {"PRIMARY_KEYS": {"type": "create_index"}, "DATA": {"cdb_icon_id": "Index", "name_cs": "", "name_de": "Index generieren", "name_en": "Generate Index", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "", "name_zh": ""}},
+      {"PRIMARY_KEYS": {"type": "delete"}, "DATA": {"cdb_icon_id": "Delete", "name_cs": null, "name_de": "L\u00f6schen", "name_en": "Delete", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "", "name_zh": ""}},
+      {"PRIMARY_KEYS": {"type": "delete_file"}, "DATA": {"cdb_icon_id": "Delete", "name_cs": "", "name_de": "Datei l\u00f6schen", "name_en": "Delete File", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "", "name_zh": ""}},
+      {"PRIMARY_KEYS": {"type": "modify"}, "DATA": {"cdb_icon_id": "Modify", "name_cs": null, "name_de": "\u00c4ndern", "name_en": "Modify", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "", "name_zh": ""}},
+      {"PRIMARY_KEYS": {"type": "modify_file"}, "DATA": {"cdb_icon_id": "LocalFile_Modified", "name_cs": "", "name_de": "Datei \u00e4ndern", "name_en": "Modify File", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "", "name_zh": ""}},
+      {"PRIMARY_KEYS": {"type": "status_change"}, "DATA": {"cdb_icon_id": "Workflow", "name_cs": null, "name_de": "Status\u00e4nderung", "name_en": "Status Change", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "", "name_zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

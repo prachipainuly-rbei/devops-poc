@@ -1,0 +1,46 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.2", 
+      "cs.activitystream": "15.3.1.4", 
+      "cs.base": "15.4.2.4", 
+      "cs.bomcreator": "15.2.1.7", 
+      "cs.defects": "15.2.1.2", 
+      "cs.designsystem": "15.2.0.1", 
+      "cs.documents": "15.2.3.7", 
+      "cs.ec": "15.4.0.9", 
+      "cs.launchpad": "15.2.1.0", 
+      "cs.metrics": "15.4.0.2", 
+      "cs.officelink": "15.5.0.9", 
+      "cs.pcs": "15.4.1.17", 
+      "cs.platform": "15.3.13", 
+      "cs.portfolios": "15.4.0.0", 
+      "cs.powerreports": "15.3.0.1", 
+      "cs.taskmanager": "15.4.1.1", 
+      "cs.vp": "15.5.0.12", 
+      "cs.vp-pcs": "15.3.0.3", 
+      "cs.web": "15.3.0.6", 
+      "cs.workflow": "15.4.1.3", 
+      "cs.workspaces": "15.2.1.7", 
+      "cscdb.product": "11.3.0.8"
+    }
+  }, 
+  "dependencies": [], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "e4f18a34-1d4a-11e9-9335-b4d5bda63023", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "d41d8cd98f00b204e9800998ecf8427e", 
+      "name": "Customer module", 
+      "package": "rbei.plm"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "rbei.plm"
+    }
+  }
+}

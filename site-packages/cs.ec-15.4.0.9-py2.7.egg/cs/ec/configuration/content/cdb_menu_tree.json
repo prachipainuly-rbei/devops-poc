@@ -1,0 +1,17 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "1892850f-21f0-11e3-98c7-082e5f0d3665"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.ec", "classname": "cdbecm_briefcase2ec", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "1accd7a1-f109-11e5-bf23-cc3d8239ce24"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec_templ2proc", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "433c0d8f-f7c3-11e4-9979-f0def133d0a6"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.ec", "classname": "cdbec_resp_brows", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "56cc67e1-445d-11e2-9fc5-f0def133d0a6"}, "DATA": {"ausgabe_label": "tree_change_manage", "cdb_module_id": "cs.ec", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 40, "parent_id": "92a5f794-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91db5ca5-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_eng_change", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "9235f037-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "92207c6d-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "cdbecm_maturity", "cdb_module_id": "cs.ec", "classname": "cdbecm_maturity", "decomp_id": "", "icon_id": "", "ordering": 50, "parent_id": "56cc67e1-445d-11e2-9fc5-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "922a0538-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "cdbecm_ec_categ", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec_categ", "decomp_id": "", "icon_id": "", "ordering": 40, "parent_id": "56cc67e1-445d-11e2-9fc5-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9235f037-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_change_manage", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec", "decomp_id": "", "icon_id": "", "ordering": 60, "parent_id": "92a859c8-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "cd450be1-92d1-11e1-ad2e-78acc0a55b77"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec_prot", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

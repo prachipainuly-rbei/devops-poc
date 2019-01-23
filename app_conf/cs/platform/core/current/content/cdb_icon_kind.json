@@ -1,0 +1,14 @@
+{
+  "cdb_icon_kind": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"kind": "Bitmap"}, "DATA": {"descr": "Windows-Bitmap (.bmp)"}},
+      {"PRIMARY_KEYS": {"kind": "ClassIcon"}, "DATA": {"descr": "The class icon of the class that is referenced by the identifier"}},
+      {"PRIMARY_KEYS": {"kind": "Color"}, "DATA": {"descr": "A Color icon. The identifier contains an attribute that references a color in the relation \"farben\""}},
+      {"PRIMARY_KEYS": {"kind": "Icon"}, "DATA": {"descr": "Window-Icon (.ico)"}},
+      {"PRIMARY_KEYS": {"kind": "Image"}, "DATA": {"descr": "Image icon"}},
+      {"PRIMARY_KEYS": {"kind": "StateColor"}, "DATA": {"descr": "The Color of an object life cycle status. The identifier is composed in the following way: <life cycle>:<status>"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdbbop_typedef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"type_id": "zeichnung"}, "DATA": {"asgn_type": "cs.documents.batchoperations.BatchOperationDocumentAssignment", "cdb_module_id": "cs.documents", "log_rel": "cdbbop_doc_log", "name_cs": "", "name_d": "Dokumente", "name_es": "", "name_fr": "", "name_i": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Belgeler", "name_uk": "Documents", "name_zh": "\u6587\u6863", "obj_type": "cs.documents.Document", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "BatchOperations",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

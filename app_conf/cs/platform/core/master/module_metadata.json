@@ -1,0 +1,23 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {}
+  }, 
+  "dependencies": [], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "0adaf2c0-5808-11e2-b269-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 1, 
+      "master_config_checksum": "e94d352e6563bb148e56bcb755e67a56", 
+      "name": "Core components, typically not customized by applications", 
+      "package": "cs.platform"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.platform.core"
+    }
+  }
+}

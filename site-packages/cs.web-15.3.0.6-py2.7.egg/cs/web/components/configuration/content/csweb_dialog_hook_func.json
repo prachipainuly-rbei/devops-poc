@@ -1,0 +1,13 @@
+{
+  "csweb_dialog_hook_func": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"hook_name": "CalculateOrganizationDetailAttrs"}, "DATA": {"backend": 1, "cdb_module_id": "cs.web.components", "description": "Calculates some attributes used in the organization detail header", "function_name": "cs.web.components.platform.org.CalculateOrganizationDetailAttrs"}},
+      {"PRIMARY_KEYS": {"hook_name": "CalculatePersonPhoneNumbers"}, "DATA": {"backend": 1, "cdb_module_id": "cs.web.components", "description": "", "function_name": "cs.web.components.platform.org.CalculatePersonPhoneNumbers"}},
+      {"PRIMARY_KEYS": {"hook_name": "EmulateLegacyDialogButton"}, "DATA": {"backend": 1, "cdb_module_id": "cs.web.components", "description": "A dialog hook that calls the function the Windows Client calls to retrieve changes after clicking on a button. Usually an user exit (maskaction) is called.", "function_name": "cs.web.components.ui_support.dialog_hooks.emulate_button_ue"}},
+      {"PRIMARY_KEYS": {"hook_name": "EmulateLegacyDialogItemChange"}, "DATA": {"backend": 1, "cdb_module_id": "cs.web.components", "description": "A dialog hook that calls the function the Windows Client calls to retrieve changes. Usually an user exit (maskaction) is called.", "function_name": "cs.web.components.ui_support.dialog_hooks.emulate_maskaction_ue"}},
+      {"PRIMARY_KEYS": {"hook_name": "HandleMaskCompositionsWithPredicateMasks"}, "DATA": {"backend": 1, "cdb_module_id": "cs.web.components", "description": "", "function_name": "cs.web.components.ui_support.dialog_hooks.handle_predicate_masks"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

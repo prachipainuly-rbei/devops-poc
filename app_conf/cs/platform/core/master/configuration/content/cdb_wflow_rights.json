@@ -1,0 +1,19 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_class", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 10}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_class", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 20}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdb_class", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdb_class", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 20}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdb_class", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 10}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cs_oidc_client_reg", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cs_oidc_client_reg", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 300}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cs_oidc_client_reg", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cs_oidc_client_reg", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 300}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cs_oidc_client_reg", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.platform.core"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cs_oidc_client_reg", "subject_id": "Administrator", "subject_type": "Common Role", "zielstatus": 300}, "DATA": {"cdb_module_id": "cs.platform.core"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

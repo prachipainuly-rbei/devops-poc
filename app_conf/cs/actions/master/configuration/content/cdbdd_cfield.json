@@ -1,0 +1,10 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "237a94b5-5e31-11e1-8153-001c42b5d769", "field_classname": "cdb_action_prot", "field_name": "cdbprot_zaehler"}, "DATA": {"cdb_module_id": "cs.actions", "classname": "cdb_action_prot", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "9901b300-bcdb-11e0-9f00-005056c00008", "field_classname": "cdb_action", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.actions", "classname": "cdb_action", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

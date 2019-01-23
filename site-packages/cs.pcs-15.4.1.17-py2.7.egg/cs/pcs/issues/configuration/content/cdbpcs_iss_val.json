@@ -1,0 +1,11 @@
+{
+  "cdbpcs_iss_val": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"close_flag": "ja"}, "DATA": {"close_flag_cs": "", "close_flag_de": "Ja", "close_flag_en": "Yes", "close_flag_es": "", "close_flag_fr": "", "close_flag_it": "", "close_flag_ja": "", "close_flag_ko": "", "close_flag_pl": "", "close_flag_pt": "", "close_flag_tr": "Evet", "close_flag_zh": "\u662f", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"close_flag": "nein"}, "DATA": {"close_flag_cs": "", "close_flag_de": "Nein", "close_flag_en": "No", "close_flag_es": "", "close_flag_fr": "", "close_flag_it": "", "close_flag_ja": "", "close_flag_ko": "", "close_flag_pl": "", "close_flag_pt": "", "close_flag_tr": "Hay\u0131r", "close_flag_zh": "\u5426", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"close_flag": "offen"}, "DATA": {"close_flag_cs": "", "close_flag_de": "Offen", "close_flag_en": "Open", "close_flag_es": "", "close_flag_fr": "", "close_flag_it": "", "close_flag_ja": "", "close_flag_ko": "", "close_flag_pl": "", "close_flag_pt": "", "close_flag_tr": "A\u00e7\u0131k", "close_flag_zh": "\u5f00\u542f", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.base": "15.4.1.9", 
+      "cs.platform": "15.2.29"
+    }
+  }, 
+  "dependencies": [], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "de16f80f-51f9-11e2-bab3-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "1b76d53cc123b658f017185eb74a0d9c", 
+      "name": "Project synchronization", 
+      "package": "cs.officelink"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.pcs.msproject"
+    }
+  }
+}

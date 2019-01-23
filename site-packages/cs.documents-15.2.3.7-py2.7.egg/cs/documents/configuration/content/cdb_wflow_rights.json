@@ -1,0 +1,20 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "doc_approve", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "doc_approve", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "doc_approve", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "doc_approve", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "doc_approve", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "doc_approve", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 170}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "doc_approve", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 190}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "doc_standard", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "doc_standard", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 190, "objektart": "doc_standard", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "doc_standard", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 170}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "doc_standard", "subject_id": "Documentation", "subject_type": "Common Role", "zielstatus": 190}, "DATA": {"cdb_module_id": "cs.documents"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

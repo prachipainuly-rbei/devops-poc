@@ -1,0 +1,17 @@
+{
+  "cdb_mod_event": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Funktionsverbesserung"}, "DATA": {"event_cs": "", "event_de": "Funktionsverbesserung", "event_en": "Functional Improvement", "event_es": "", "event_fr": "", "event_it": "", "event_ja": "", "event_ko": "", "event_pl": "", "event_pt": "", "event_tr": "Fonksiyonel iyile\u015ftirme", "event_zh": "\u529f\u80fd\u6539\u8fdb", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Gesetze/Normen/Spezifikationen"}, "DATA": {"event_cs": "", "event_de": "Gesetze/Normen/Spezifikationen", "event_en": "Laws/Standards/Specifications", "event_es": "", "event_fr": "", "event_it": "", "event_ja": "", "event_ko": "", "event_pl": "", "event_pt": "", "event_tr": "Kanunlar/Standartlar/Spesifik.", "event_zh": "\u4f4e/\u6b63\u5e38/\u89c4\u8303", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Kapazit\u00e4ts\u00e4nderung"}, "DATA": {"event_cs": "", "event_de": "Kapazit\u00e4ts\u00e4nderung", "event_en": "Change in Capacity", "event_es": "", "event_fr": "", "event_it": "", "event_ja": "", "event_ko": "", "event_pl": "", "event_pt": "", "event_tr": "Kapasite de\u011fi\u015fikli\u011fi", "event_zh": "\u6709\u9650\u80fd\u529b\u66f4\u6539", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Kostenminimierung"}, "DATA": {"event_cs": "", "event_de": "Kostenminimierung", "event_en": "Costs Minimization", "event_es": "", "event_fr": "", "event_it": "", "event_ja": "", "event_ko": "", "event_pl": "", "event_pt": "", "event_tr": "Maliyetin minimize edilmesi", "event_zh": "\u6210\u672c\u6700\u5c11", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Prozessverbesserung"}, "DATA": {"event_cs": "", "event_de": "Prozessverbesserung", "event_en": "Process Improvement", "event_es": "", "event_fr": "", "event_it": "", "event_ja": "", "event_ko": "", "event_pl": "", "event_pt": "", "event_tr": "S\u00fcre\u00e7 iyile\u015ftirme", "event_zh": "\u5de5\u827a\u6539\u8fdb", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Richtigstellung"}, "DATA": {"event_cs": "", "event_de": "Richtigstellung", "event_en": "Correction", "event_es": "", "event_fr": "", "event_it": "", "event_ja": "", "event_ko": "", "event_pl": "", "event_pt": "", "event_tr": "D\u00fczeltme", "event_zh": "\u4fee\u6b63", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Serieneinf\u00fchrung"}, "DATA": {"event_cs": "", "event_de": "Serieneinf\u00fchrung", "event_en": "Start Of Production", "event_es": "", "event_fr": "", "event_it": "", "event_ja": "", "event_ko": "", "event_pl": "", "event_pt": "", "event_tr": "\u00dcretime ba\u015flama", "event_zh": "SOP", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "Verpackung"}, "DATA": {"event_cs": "", "event_de": "Verpackung", "event_en": "Packaging", "event_es": "", "event_fr": "", "event_it": "", "event_ja": "", "event_ko": "", "event_pl": "", "event_pt": "", "event_tr": "Paketleme", "event_zh": "\u5305\u88c5", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "anderer Anlass"}, "DATA": {"event_cs": "", "event_de": "Anderer Anlass", "event_en": "Other Cause", "event_es": "", "event_fr": "", "event_it": "", "event_ja": "", "event_ko": "", "event_pl": "", "event_pt": "", "event_tr": "Ba\u015fka sebep", "event_zh": "\u5176\u5b83\u539f\u56e0", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

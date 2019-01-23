@@ -1,0 +1,9 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "The variant's document"}, "DATA": {"cdb_module_id": "cs.vp.cad", "descr": "Delegates the access rights check form a CAD variant to its document.", "mandatory": 1}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "cdbpcs_doc2iss": {
+    "COLUMNS": [
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "z_nummer", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 10, 
+        "NAME": "z_index", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "LENGTH": 20, 
+        "NAME": "cdb_project_id", 
+        "NOTNULL": true, 
+        "TYPE": 0
+      }, 
+      {
+        "DEFAULT": "", 
+        "NAME": "issue_id", 
+        "NOTNULL": true, 
+        "TYPE": 1
+      }
+    ], 
+    "PRIMARY KEY": [
+      "z_nummer", 
+      "z_index", 
+      "cdb_project_id", 
+      "issue_id"
+    ]
+  }
+}

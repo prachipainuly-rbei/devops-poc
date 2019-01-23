@@ -1,0 +1,11 @@
+{
+  "cdbqc_q_grade": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "1283df0f-1469-11e2-8fe5-082e5f0d0c14"}, "DATA": {"cdb_cdate": "12.10.2012 14:33:48", "cdb_cpersno": "caddok", "cdb_mdate": "10.09.2015 12:57:34", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "berechnet", "name_en": "calculated", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Hesaplanm\u0131\u015f", "name_zh": "\u8ba1\u7b97"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "2286c4cf-060b-11e1-a8d5-001d60a6c82c"}, "DATA": {"cdb_cdate": "03.11.2011 12:01:09", "cdb_cpersno": "caddok", "cdb_mdate": "10.09.2015 12:57:27", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "aggregiert", "name_en": "aggregated", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "K\u00fcmelenmi\u015f", "name_zh": "\u805a\u5408"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7a245670-fa59-11e0-9756-001d60a6c82c"}, "DATA": {"cdb_cdate": "19.10.2011 15:51:42", "cdb_cpersno": "caddok", "cdb_mdate": "02.12.2015 14:38:35", "cdb_mpersno": "caddok", "name_cs": "", "name_de": "manuell", "name_en": "manually", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Manuel", "name_zh": "\u624b\u52a8"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

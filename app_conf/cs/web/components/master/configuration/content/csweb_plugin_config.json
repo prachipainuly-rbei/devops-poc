@@ -1,0 +1,12 @@
+{
+  "csweb_plugin_config": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"discriminator": "cdb_person", "plugin_id": "class-tile-small"}, "DATA": {"cdb_module_id": "cs.web.components", "component": "cs-web-components-base-PersonTile", "priority": 10, "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"discriminator": "^application/pdf$", "plugin_id": "content-view"}, "DATA": {"cdb_module_id": "cs.web.components", "component": "cs-web-components-pdf-PDFViewer", "priority": 10, "setup_fqpyname": "cs.web.components.pdf.setup_worker_url"}},
+      {"PRIMARY_KEYS": {"discriminator": "^image/(?:jpeg|jpg|gif|png|svg)$", "plugin_id": "content-view"}, "DATA": {"cdb_module_id": "cs.web.components", "component": "cs-web-components-base-ImageViewer", "priority": 10, "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"discriminator": "^text/plain$", "plugin_id": "content-view"}, "DATA": {"cdb_module_id": "cs.web.components", "component": "cs-web-components-base-TextViewer", "priority": 10, "setup_fqpyname": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

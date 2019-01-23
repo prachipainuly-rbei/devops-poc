@@ -1,0 +1,10 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "CDB_eLink_cdbblog"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.activitystream", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdb_elink_activity", "inactive": 0, "kind": "PowerScript", "label": "cdbblog_elink_page_title", "label_ok": "", "menu_visible": 0, "menugroup": null, "ordering": null, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbblog_open_thread"}, "DATA": {"acl_allow": "read", "cdb_module_id": "cs.activitystream", "client_desc": "", "descr": "", "html_help": "", "icon_id": "cdb_elink_activity", "inactive": 0, "kind": "PowerScript", "label": "cdbblog_open_thread", "label_ok": "", "menu_visible": 1, "menugroup": 10, "ordering": 10, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

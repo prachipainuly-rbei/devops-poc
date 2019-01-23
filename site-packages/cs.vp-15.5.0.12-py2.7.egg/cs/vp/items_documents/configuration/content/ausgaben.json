@@ -1,0 +1,10 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cs_items_all_ref_docs"}, "DATA": {"cdb_module_id": "cs.vp.items_documents", "cs": null, "d": "Alle Dokumente", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "T\u00fcm belgeler", "uk": "All Documents", "zh": "\u6240\u6709\u6587\u6863"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cs_items_documents"}, "DATA": {"cdb_module_id": "cs.vp.items_documents", "cs": null, "d": "Dokumente", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "Belgeler", "uk": "Documents", "zh": "\u6587\u6863"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

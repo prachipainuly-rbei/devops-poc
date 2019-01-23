@@ -1,0 +1,9 @@
+{
+  "cdb_folder_type": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"folder_type": "Standard"}, "DATA": {"folder_classname": "cdb_folder", "folder_type_cs": "", "folder_type_de": "Standard", "folder_type_en": "Standard", "folder_type_es": "", "folder_type_fr": "", "folder_type_it": "", "folder_type_ja": "", "folder_type_ko": "", "folder_type_pl": "", "folder_type_pt": "", "folder_type_tr": "Standart", "folder_type_zh": "\u6807\u51c6", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

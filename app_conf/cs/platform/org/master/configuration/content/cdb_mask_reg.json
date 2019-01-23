@@ -1,0 +1,34 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdb_address_comp", "mask_role_id": "public", "name": "cdb_address_chctrl"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_address_comp", "mask_role_id": "public", "name": "cdb_address_mask"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angest_comp", "mask_role_id": "public", "name": "cdb_account_adm_mask"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 20, "priority": 0, "reg_title": "cdb_account"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angest_comp", "mask_role_id": "public", "name": "cdb_account_licensing"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 22, "priority": 0, "reg_title": "cdb.license_management"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angest_comp", "mask_role_id": "public", "name": "cdb_person_chctrl"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 30, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angest_comp", "mask_role_id": "public", "name": "cdb_person_mask"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angest_comp", "mask_role_id": "public", "name": "cdb_person_repl_prefs"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 40, "priority": 0, "reg_title": "cdb_mq_rep"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angest_comp_s", "mask_role_id": "public", "name": "cdb_account_admsmask"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 20, "priority": 0, "reg_title": "cdb_account"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angest_comp_s", "mask_role_id": "public", "name": "cdb_account_licensing_s"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 22, "priority": 0, "reg_title": "cdb.license_management"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angest_comp_s", "mask_role_id": "public", "name": "cdb_person_chctrl_s"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 30, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angest_comp_s", "mask_role_id": "public", "name": "cdb_person_mask_s"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angestellter_create_comp", "mask_role_id": "public", "name": "cdb_account_adm_mask"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 20, "priority": 0, "reg_title": "cdb_account"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angestellter_create_comp", "mask_role_id": "public", "name": "cdb_account_licensing"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 22, "priority": 0, "reg_title": "cdb.license_management"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angestellter_create_comp", "mask_role_id": "public", "name": "cdb_angestellter_create_mask"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angestellter_create_comp", "mask_role_id": "public", "name": "cdb_person_chctrl"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 30, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_angestellter_create_comp", "mask_role_id": "public", "name": "cdb_person_repl_prefs"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 40, "priority": 0, "reg_title": "cdb_mq_rep"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_org_comp", "mask_role_id": "public", "name": "cdb_org_chctrl"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_org_comp", "mask_role_id": "public", "name": "cdb_organization"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_person_comp", "mask_role_id": "public", "name": "cdb_person_chctrl"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 30, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_person_comp", "mask_role_id": "public", "name": "cdb_person_mask"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_person_comp_s", "mask_role_id": "public", "name": "cdb_person_chctrl_s"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 30, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdb_person_comp_s", "mask_role_id": "public", "name": "cdb_person_mask_s"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cs_organization_webui_comp", "mask_role_id": "public", "name": "cdb_org_chctrl"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cs_organization_webui_comp", "mask_role_id": "public", "name": "cs_organization_webui"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 10, "priority": 10, "reg_title": null}},
+      {"PRIMARY_KEYS": {"mask_name": "cs_person_webui_comp", "mask_role_id": "public", "name": "cdb_person_chctrl"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cs_person_webui_comp", "mask_role_id": "public", "name": "cs_person_webui"}, "DATA": {"cdb_module_id": "cs.platform.org", "ordering": 10, "priority": 10, "reg_title": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

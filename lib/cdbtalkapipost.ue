@@ -1,0 +1,37 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbtalkapipost.ue 115535 2014-10-10 13:29:56Z js $
+#
+# Copyright (C) 1990 - 2003 CONTACT Software GmbH
+# All rights reserved.
+# http://www.contact.de/
+#
+"""
+Template fuer Komponenten-UE cdbtalkapipost
+"""
+
+from cdb import ue
+from cdb import misc
+from cdb import sqlapi
+
+import sys
+
+
+class cdbtalkapipost:
+    misc.log(1, "Running userexit " + sys.argv[0])
+    context_name = "cdbtalkapipost"
+
+    def impl(self, ctx):
+        # In diesem Userexit koennen sie nach einer Aktion in der Kopplung
+        # etwas ausführen.
+        misc.log(1, u"cdbtalkapipost mit z_nummer '%s', z_index '%s' für %s/%s" % (
+            ctx.z_nummer, ctx.z_index, ctx.action, ctx.mode))
+
+        # Beispielhaft hier das auslesen der cdb_doc_rel
+        if ctx.mode == "post" and ctx.action == "save":
+            for row in sqlapi.RecordSet2(table="cdb_doc_rel",
+                                         condition="z_nummer='%s' and z_index='%s'" % (ctx.z_nummer, ctx.z_index)):
+                pass
+
+if __name__ == "__main__":
+    ue.run(cdbtalkapipost)

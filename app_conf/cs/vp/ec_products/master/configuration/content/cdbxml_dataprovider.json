@@ -1,0 +1,10 @@
+{
+  "cdbxml_dataprovider": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Analyse Aenderungsmanagement", "xsd_name": "NumberOfECsHistory"}, "DATA": {"cdb_module_id": "cs.vp.ec_products", "context": "", "parent_xsd_name": "", "source": "cs.vp.ec_products.NumberOfECsHistory", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "Analyse Aenderungsmanagement", "xsd_name": "NumberOfECsReport"}, "DATA": {"cdb_module_id": "cs.vp.ec_products", "context": "", "parent_xsd_name": "", "source": "cs.vp.ec_products.NumberOfECsReport", "source_type": "CustomCode"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

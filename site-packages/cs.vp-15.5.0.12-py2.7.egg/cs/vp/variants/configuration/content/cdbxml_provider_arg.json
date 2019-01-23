@@ -1,0 +1,32 @@
+{
+  "cdbxml_provider_arg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "VPMBomComparison", "xsd_name": "Variant_N"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "VPMBomComparison", "xsd_name": "Variant_N"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "VPMBomComparison", "xsd_name": "Variant_N"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "VPMBomComparison", "xsd_name": "Variant_N"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "VPMBomComparison", "xsd_name": "Variant_N"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "VPMBomComparison", "xsd_name": "Variant_N"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "VPMBomComparison", "xsd_name": "Variant_N"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "VPMBomComparison", "xsd_name": "Variant_N"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "VPMHierarchicalBOM", "xsd_name": "Product"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "VPMHierarchicalBOM", "xsd_name": "Product"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "VPMHierarchicalBOM", "xsd_name": "Product"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "VPMHierarchicalBOM", "xsd_name": "Product"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "VPMHierarchicalBOM", "xsd_name": "Product"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "VPMHierarchicalBOM", "xsd_name": "Product"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "VPMHierarchicalBOM", "xsd_name": "Product"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "VPMHierarchicalBOM", "xsd_name": "Product"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "VPMHierarchicalBOM", "xsd_name": "Variant_1"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "VPMHierarchicalBOM", "xsd_name": "Variant_1"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "VPMHierarchicalBOM", "xsd_name": "Variant_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "VPMHierarchicalBOM", "xsd_name": "Variant_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "VPMHierarchicalBOM", "xsd_name": "Variant_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "VPMHierarchicalBOM", "xsd_name": "Variant_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "VPMHierarchicalBOM", "xsd_name": "Variant_1"}, "DATA": {"arg_value": "cdbvp_variant_info_txt_de", "cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "VPMHierarchicalBOM", "xsd_name": "Variant_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.vp.variants"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

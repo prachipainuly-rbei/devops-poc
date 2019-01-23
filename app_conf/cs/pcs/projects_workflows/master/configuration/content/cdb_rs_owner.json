@@ -1,0 +1,10 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs_project2processes", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects_workflows"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_task2process", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.projects_workflows"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_term": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "predefined_field_name", "expression": "status", "operator": "!=", "predicate_name": "ddfield:IsNotPredefinedState", "table_name": "cdbdd_field"}, "DATA": {"cdb_module_id": "cs.platform.core", "data_type": "char"}, "UPDATE_POLICY": "ALWAYS UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

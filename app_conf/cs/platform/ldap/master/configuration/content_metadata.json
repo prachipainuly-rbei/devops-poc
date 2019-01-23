@@ -1,0 +1,22 @@
+{
+  "module_folder_content": [
+    {
+      "DATA": {
+        "position": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "cdb_content_id": "7f810d5e-ffe0-11e6-bbd9-f0921cf0c018", 
+        "cdb_folder_id": "5d1ed2e1-5808-11e2-a8d6-78acc0ace8c3"
+      }
+    }, 
+    {
+      "DATA": {
+        "position": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "cdb_content_id": "7f815b80-ffe0-11e6-b313-f0921cf0c018", 
+        "cdb_folder_id": "5d1ed2e1-5808-11e2-a8d6-78acc0ace8c3"
+      }
+    }
+  ]
+}

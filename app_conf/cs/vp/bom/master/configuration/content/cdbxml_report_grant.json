@@ -1,0 +1,11 @@
+{
+  "cdbxml_report_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "BOMComparison", "report_title": "St\u00fccklistenvergleich", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "report_title": "Strukturst\u00fcckliste", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}},
+      {"PRIMARY_KEYS": {"name": "PartUsage", "report_title": "Verwendungsnachweis", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.bom", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.defects.Defect", "id": 1, "name": "cs.actions: Editor", "predicate_name": "Defect"}, "DATA": {"attribute": "editor", "cdb_module_id": "cs.defects", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.defects.Defect", "id": 1, "name": "cs.sharing: Group Creator", "predicate_name": "Defect"}, "DATA": {"attribute": "cdb_cpersno", "cdb_module_id": "cs.defects", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.defects.Defect", "id": 1, "name": "cs.sharing: Group Responsible", "predicate_name": "Defect"}, "DATA": {"attribute": "responsible", "cdb_module_id": "cs.defects", "expression": "", "filter_rule": "", "operator": ">"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

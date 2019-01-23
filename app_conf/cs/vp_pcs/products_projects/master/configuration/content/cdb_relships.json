@@ -1,0 +1,10 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbvp_product2project"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.vp_pcs.products_projects", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 1, "label": "pcs_projects", "menugroup": 10, "node_tag": "", "ordering": 20, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdbpcs_project", "reference_kmap": "cdb_project_id=cdb_project_id", "referer": "cdbvp_product", "referer_kmap": "cdb_object_id=cdbvp_product_id", "relship_cldef": "cdbvp_project2product", "relship_table": "", "rolename": "Projects", "rs_acc_prof": "", "rs_profile": "cdb_association_1_N", "show_in_mask": 1, "show_in_menu": 0}},
+      {"PRIMARY_KEYS": {"name": "cdbvp_project2product"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.vp_pcs.products_projects", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 1, "label": "cdbvp_products", "menugroup": 10000, "node_tag": "", "ordering": 42, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdbvp_product", "reference_kmap": "cdb_object_id=cdbvp_product_id", "referer": "cdbpcs_project", "referer_kmap": "cdb_project_id=cdb_project_id", "relship_cldef": "cdbvp_project2product", "relship_table": "", "rolename": "Products", "rs_acc_prof": "", "rs_profile": "cdb_association_1_N", "show_in_mask": 2, "show_in_menu": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

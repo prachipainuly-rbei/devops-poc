@@ -1,0 +1,9 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_effort", "relation": "cdbpcs_time_sheet"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdbxml_report": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Analyse Aenderungsmanagement", "title": "Analyse \u00c4nderungsmanagement"}, "DATA": {"cdb_module_id": "cs.vp.ec_products", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": ""}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

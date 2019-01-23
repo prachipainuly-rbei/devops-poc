@@ -1,0 +1,57 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.2", 
+      "cs.activitystream": "15.3.1.4", 
+      "cs.base": "15.4.1.10", 
+      "cs.defects": "15.2.1.2", 
+      "cs.documents": "15.2.2.9", 
+      "cs.launchpad": "15.2.1.0", 
+      "cs.metrics": "15.4.0.1", 
+      "cs.platform": "15.2.29", 
+      "cs.portfolios": "15.4.0.0", 
+      "cs.powerreports": "15.2.0.3", 
+      "cs.web": "15.2.1.21", 
+      "cs.workflow": "15.4.0.11"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.items_defects", 
+        "required_module_id": "cs.defects"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 1
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.items_defects", 
+        "required_module_id": "cs.vp.items"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "fc599c8f-5287-11e2-95c8-78acc0ace8c3", 
+      "is_interface_module": 1, 
+      "mandatory": 0, 
+      "master_config_checksum": "8fbd3e5596821b7113ad1ff92906d15c", 
+      "name": "Interface module to connect cs.vp.items and cs.defects", 
+      "package": "cs.vp"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.vp.items_defects"
+    }
+  }
+}

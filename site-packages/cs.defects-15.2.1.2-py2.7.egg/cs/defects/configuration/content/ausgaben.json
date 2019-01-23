@@ -1,0 +1,18 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_defect2projects"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "\u00c4nderungsprojekte", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Projeleri de\u011fi\u015ftir", "uk": "Change Projects", "zh": "\u66f4\u6539\u9879\u76ee"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_defect_categ"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "Fehlerkategorien", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Hata Kategorileri", "uk": "Defect Categories", "zh": "\u7f3a\u9677\u7c7b\u522b"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_defect_category"}, "DATA": {"cdb_module_id": "cs.defects", "cs": null, "d": "Kategorie", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "Kategori", "uk": "Category", "zh": "\u7c7b\u522b"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_defect_details"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "Details", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Detaylar", "uk": "Details", "zh": "\u8be6\u7ec6"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_defect_overview"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "Fehler\u00fcbersicht", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Hata genel bak\u0131\u015f", "uk": "Defects Overview", "zh": "\u7f3a\u9677\u6982\u89c8"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_defect_priority"}, "DATA": {"cdb_module_id": "cs.defects", "cs": null, "d": "Priorit\u00e4ten", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "\u00d6ncelikler", "uk": "Priorities", "zh": "\u4f18\u5148\u7ea7"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_defect_source"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "Fehlerquelle", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Hata kayna\u011f\u0131", "uk": "Defect Source", "zh": "\u7f3a\u9677\u6e90"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_defect_subs"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "Detailfehler", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Hatalar\u0131 detayland\u0131r", "uk": "Detail Defects", "zh": "\u8be6\u7ec6\u7f3a\u9677"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_defect_type"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "Fehlertyp", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Hata tipi", "uk": "Defect Type", "zh": "\u7f3a\u9677\u7c7b\u578b"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_defects"}, "DATA": {"cdb_module_id": "cs.defects", "cs": "", "d": "Fehler", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Hatalar", "uk": "Defects", "zh": "\u7f3a\u9677"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

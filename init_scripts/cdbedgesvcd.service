@@ -1,0 +1,30 @@
+# -*- mode: systemd -*-
+# $Id: $
+#
+# Copyright (c) 1990 - 2018 by CONTACT Software GmbH.
+# All rights reserved.
+# https://www.contact-software.com/
+#
+# Systemd unit file for the CONTACT Elements EdgeServer Service Daemon cdbedgesvcd
+#
+# Copy this file to /etc/systemd/system
+# Enable cdbedgesvcd launch on startup with systemctl enable cdbedgesvcd
+
+[Unit]
+Description=CONTACT Elements EdgeServer Service Daemon
+After=syslog.target network.target
+
+[Service]
+# Customize the following fields using the .conf file.
+# To create it, run "systemctl edit cdbedgesvcd.service
+# Please note that PIDFile has to be set in the override config
+# See cdbsvcd.conf
+Environment="CADDOK_RUNTIME=[INSTALLATION_PATH]"
+Environment="CADDOK_BASE=[INSTANCE_PATH]"
+User=CDB_USER
+
+Type=forking
+ExecStart=/bin/sh -c "${CADDOK_RUNTIME}/cdbedgesvcd run -p --instancedir=${CADDOK_BASE} > ${CADDOK_BASE}/tmp/cdbedgesvcd.pid"
+
+[Install]
+WantedBy=multi-user.target

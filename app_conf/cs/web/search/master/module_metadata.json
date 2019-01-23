@@ -1,0 +1,36 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.platform": "15.3.7"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.web.search", 
+        "required_module_id": "cs.platform.core"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "faac6b30-b8e6-11e4-8deb-005056c00008", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "bc8134840239950b5ce16ab7221c65e0", 
+      "name": "Customer module", 
+      "package": "cs.web"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.web.search"
+    }
+  }
+}

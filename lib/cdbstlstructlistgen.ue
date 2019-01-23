@@ -1,0 +1,34 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbstlstructlistgen.ue 101791 2013-09-10 12:24:05Z js $
+#
+# Copyright (C) 2002 CONTACT Software GmbH
+# All rights reserved.
+# http://www.contact.de/
+
+from cdb import ue
+from cdb import misc
+
+import sys
+
+
+class STLStructListGen:
+    misc.log(1, "Running userexit " + sys.argv[0])
+    context_name = "cdbserver"
+
+    def impl(self, ctx):
+        # misc.log(1, "CTX\n%s\n" %(ctx))
+
+        # for attr in ctx.object.get_attribute_names():
+        #     misc.log(1, "object['%s'] = '%s'" % (attr, ctx.object[attr]))
+
+        # for attr in ctx.dialog.get_attribute_names():
+        #     misc.log(1, "dialog['%s'] = '%s'" % (attr, ctx.dialog[attr]))
+
+        # if (ctx.mode == "pre_mask"):
+        #     ctx.set(".filter_id", "0")
+        #     ctx.set(".filter_name","Dein Filter")
+        pass
+
+if __name__ == "__main__":
+    ue.run(STLStructListGen)

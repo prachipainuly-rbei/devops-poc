@@ -1,0 +1,26 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.platform": "15.3.4", 
+      "cs.web": "15.3.0.dev0"
+    }
+  }, 
+  "dependencies": [], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "aa1d5c91-ace7-11e2-8775-549be0f00110", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "a607fc127a9b7c73df8df9779d072585", 
+      "name": "Currency", 
+      "package": "cs.base"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.currency"
+    }
+  }
+}

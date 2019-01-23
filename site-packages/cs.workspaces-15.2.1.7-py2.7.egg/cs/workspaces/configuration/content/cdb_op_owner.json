@@ -1,0 +1,20 @@
+{
+  "cdb_op_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "CDB_Copy", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "CDB_Create", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "CDB_Index", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "CDB_Lock", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "CDB_Modify", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "CDB_Unlock", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "CDB_Workflow", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "cdb_create_doc_from_template", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_wsp", "name": "cdb_wsp_edit", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workspaces"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

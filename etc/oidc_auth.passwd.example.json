@@ -1,0 +1,12 @@
+{
+    "https://oidc.contact.de/acr/fallback": {
+        "1": [["sufficient", "cdb.wsgi.oidc.authn.ElementsAuth", {
+            "auth_method": "password"
+        }]]
+    },
+    "https://oidc.contact.de/acr/default": {
+        "1": [["sufficient", "cdb.wsgi.oidc.authn.ElementsAuth", {
+            "auth_method": "password"
+        }]]
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "cdb_op_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdb_defect2doc", "name": "CDB_AddClassDefToFavourites", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects_documents"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_defect2doc", "name": "CDB_AddClassToFavourites", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects_documents"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_defect2doc", "name": "CDB_Create", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects_documents"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_defect2doc", "name": "CDB_Delete", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects_documents"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_defect2doc", "name": "CDB_ResetSearch", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects_documents"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_defect2doc", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects_documents"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_defect2doc", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects_documents"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_defect2doc", "name": "CDB_SelectAndAssign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects_documents"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_defect2doc", "name": "CDB_TableSetSort", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects_documents"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

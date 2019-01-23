@@ -1,0 +1,27 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CreateOperations", "name": "CDB_Copy"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "CreateOperations", "name": "CDB_Create"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "CreateOperations", "name": "CDB_CreateWithSearchConditions"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "CreateOperations", "name": "CDB_Index"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "CDB_ShowObject"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "CDB_View"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "CDB_ShowObject"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "CDB_View"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_Create"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_Edit"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_Search"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_ShowObject"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_View"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_license_report"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_refresh_table"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "CDB_ShowObject"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "CDB_View"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "CDB_ShowObject"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "CDB_View"}, "DATA": {"cdb_module_id": "cs.platform.misc"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbqc: non unvalid products"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": "Products not in status Blocked"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

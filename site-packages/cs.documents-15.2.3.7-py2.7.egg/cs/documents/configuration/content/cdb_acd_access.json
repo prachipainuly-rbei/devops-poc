@@ -1,0 +1,37 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents", "allow": "read", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (BLOCKED, OBSOLETE)", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (DRAFT)", "allow": "accept", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (DRAFT)", "allow": "create", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (DRAFT)", "allow": "delete", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (DRAFT)", "allow": "distribute", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (DRAFT)", "allow": "lock", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (DRAFT)", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (DRAFT)", "allow": "save", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (RELEASED)", "allow": "index", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (RELEASED)", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (RELEASED)", "allow": "save", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "doc_no_write_access_for_released_doc", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (REVIEW)", "allow": "distribute", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (REVIEW)", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (REVIEW)", "allow": "unlock", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (REVISION)", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents - Unprotected", "allow": "read_file", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Exceptional Access", "allow": "FULL ACCESS", "class": "common role exceptions"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Exceptional Access", "allow": "read", "class": "common role exceptions"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs", "allow": "CHANGE", "class": "mq_repl"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs", "allow": "create", "class": "mq_repl"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs", "allow": "delete", "class": "mq_repl"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs", "allow": "distribute", "class": "mq_repl"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs", "allow": "read", "class": "mq_repl"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs (not by me)", "allow": "distribute", "class": "mq_repl"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs (not by me)", "allow": "read", "class": "mq_repl"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs (on demand)", "allow": "cdb_replicate_batch", "class": "mq_repl_docs"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs (orig sec)", "allow": "REPLICATE", "class": "mq_repl_docs"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Administration", "allow": "FULL ACCESS", "class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

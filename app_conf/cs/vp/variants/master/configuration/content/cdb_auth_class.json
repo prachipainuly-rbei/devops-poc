@@ -1,0 +1,10 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Variant management catalogs"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_components"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "Variant management entities"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

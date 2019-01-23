@@ -1,0 +1,17 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "cs": "", "d": "Ma\u00dfnahmen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Eylemler", "uk": "Actions", "zh": "\u64cd\u4f5c"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_action_overview"}, "DATA": {"cdb_module_id": "cs.actions", "cs": "", "d": "Ma\u00dfnahmen\u00fcbersicht", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Eylen genel bak\u0131\u015f", "uk": "Actions Overview", "zh": "\u64cd\u4f5c\u6982\u89c8"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_action_subs"}, "DATA": {"cdb_module_id": "cs.actions", "cs": "", "d": "Detailma\u00dfnahmen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Detay eylemler", "uk": "Detail Actions", "zh": "\u8be6\u7ec6\u64cd\u4f5c"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cs_tasks_col_item"}, "DATA": {"cdb_module_id": "cs.actions", "cs": null, "d": "Artikel", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "Part", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cs_tasks_col_parent_action"}, "DATA": {"cdb_module_id": "cs.actions", "cs": null, "d": "\u00dcbergeordnete Ma\u00dfnahme", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "Parent Action", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cs_tasks_col_product"}, "DATA": {"cdb_module_id": "cs.actions", "cs": null, "d": "Produkt", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "Product", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.cs-tasks-actions-plugin.cost"}, "DATA": {"cdb_module_id": "cs.actions", "cs": "", "d": "Sachkosten", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Malzeme maliyetleri", "uk": "Material Costs", "zh": "\u7269\u6599\u6210\u672c"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.cs-tasks-actions-plugin.currency"}, "DATA": {"cdb_module_id": "cs.actions", "cs": "", "d": "W\u00e4hrung", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Ge\u00e7erlilik", "uk": "Currency", "zh": "\u8d27\u5e01"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.cs-tasks-actions-plugin.effort"}, "DATA": {"cdb_module_id": "cs.actions", "cs": "", "d": "Aufwand [Std]", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Efor (Sa)", "uk": "Effort [h]", "zh": "\u5de5\u65f6[\u5c0f\u65f6]"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

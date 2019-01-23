@@ -1,0 +1,369 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbdistribute.ue 115535 2014-10-10 13:29:56Z js $
+#
+# CIM DATABASE user exit
+# (C) 2001 CONTACT Software GmbH
+#
+##   cdbdistribute.ue
+##   ...exemplarische Implementierung.
+
+# pylint: disable-msg=C0103, C0111, R0912, R0914
+
+"""
+Implementation for the CDB_Distribute operation.
+"""
+
+from cdb import ue
+from cdb import misc
+
+
+###############################################################################
+# Logging und Beschreibung ....
+###############################################################################
+def LogDistributeCtx(ctx):
+    u"""Loggen des Inhalts des Kontext-Objekts
+(dient lediglich Dokumentationszwecken)
+
+Bsp.:    ctx = ue.getContext()
+
+Der Kontextadapter des cdbdistribute.ue baut sich dann wie folgt auf:
+
+ -- Standardparameter --
+
+ ctx.dist          - HAUPTVERTEILER
+ ctx.action        - Aktion (['state_change' | 'distribute'])
+ ctx.object_class  - Objektklasse ([document|part|...])
+ ctx.object_kind   - Falls object_class= 'document' entspricht der Wert
+                     dem in Rel. zeichnung.z_art, sonst object_class
+ ctx.dok_name      - Dokumentenname (Leer fuer object_class <> 'document')
+ ctx.host          - Hostname (Leer fuer object_klasse <> 'document')
+ ctx.status_old    - bisheriger Objektstatus
+ ctx.status_new    - Neuer Objektstatus (=status_alt, wenn action <>
+                     'state_change')
+ ctx.note          - Bemerkungstext   aus Verteiler-Dialog
+ ctx.plot          - Plotten-Schalter aus Verteiler-Dialog ('0' | '1')
+ ctx.mail          - Mail-Schalter    aus Verteiler-Dialog ('0' | '1')
+ ctx.batch_flag    - Batch-Flag ('0' | '1')
+
+ -- Objektrelationen --
+
+ ctx.objects       - Liste von <Object> Instanzen, jeweils nur Relation und
+                     Schlüssel Bsp.:
+                     mit n als Objektzähler (0-N) und der Vorraussetzung, dass
+                     Zeichnungen als Objekte übergeben wurden:
+                       if ctx.objects[n].dbtable == 'zeichnung':
+                           Zeichnungsnummer = ctx.objects[n].dbkeys['z_nummer']
+                           Zeichnungsindex  = ctx.objects[n].dbkeys['z_index']
+
+ -- Anwenderparameter --
+
+ ctx.param         - dict mit Anwenderparametern, name=value
+                     die Namen und Werte ergeben sich aus dem Verteilerdialog
+                     und könnten z.B. wie folgt aussehen:
+                     ctx.param ==  { 'Medium'       : 'Datentraeger',    \
+                                     'Aufbereitung' : 'Kundenzeichnung', \
+                                     'Kopienanzahl' : '1'}
+ -- Mailtext --
+
+ ctx.text          - Mailtext
+                     Ergibt sich aus der Relation 'textbaustein' für:
+                        schluessel1 = 'state_change'
+                        schluessel2 = statusbezeich.objektstati (des alten Stati)
+                        schluessel3 = statusbezeich.objektstati (des neuen Stati)
+                        schluessel4 = Objektklasse ([ 'document' | 'part' | ...])
+
+                     Da Rel. 'textbaustein' in den wenigsten Fällen
+                     konfiguriert sein dürfte, ergeben sich Defaults für ...
+
+                     ... Statuswechsel von Teilen (part) und beliebigen Objekten
+                           Der Wert in Spalte d.meldungen der sich für Zeile
+                           meldung_label.meldungen == 'ObjStateChangeDfl' ergibt
+
+                     ... Statuswechsel eines Dokumentes (document)
+                           Der Wert in Spalte d.meldungen der sich für Zeile
+                           meldung_label.meldungen == 'transfer15' ergibt
+
+                     Da die Bildung des Mailtextes in der Regel kontextabhängig
+                     ist, sollte auf die Standardttexte verzichtet
+                     werden. Statdessen empfiehlt es sich innerhalb des
+                     cdbdistribute.ue eigene Texte zu erzeugen.
+
+ -- Empfängerparameter --
+
+ ctx.receivers     - Liste Receiver-Objekte, mit Werte (0-N) für n jeweils
+                        ctx.receivers[n].personalnummer
+                        ctx.receivers[n].login
+                        ctx.receivers[n].telefon
+                        ctx.receivers[n].fax
+                        ctx.receivers[n].e_mail
+
+                     Optional existieren noch:
+
+                        ctx.receivers[n].kopien
+
+                        ctx.receivers[n].dparam
+                           .... auf den !! HAUPTVERTEILER !! bezogene Parameter
+                           Dictionary mit { 'name' : 'value', ...}
+                           (siehe Gruppen&Rechte/Verteiler/Verteilungsparameter)
+
+                        ctx.receivers[n].rparam
+                           .... auf den Empfänger bezogener Parameter
+                           Dictionary mit { 'name' : 'value', ...}
+                           (siehe Gruppen&Rechte/Verteiler/Empfängerparameter)
+  Anmerkung:
+    'HAUPTVERTEILER', bezieht sich auf den, im Verteilerdialog angegebenen
+    Verteiler. Wird der cdbdistribute.ue aber durch einen, im
+    StW. konfigurierten Verteiler (in Spalte 'verteiler.statiflow'
+    konfiguriert) angestossen, so handelt es sich hierbei nicht im einen
+    'HAUPTVERTEILER'. D.h. dann auch, 'ctx.receivers[n].rparam' als auch
+    'ctx.dist' sind in diesem Fall leer.  """
+
+    ### noch ein paar Daten ranholen ...
+
+    # ... Bezeichnung der Dokumentenklasse holen
+    #     ctx.object_kind_descr
+    from cdb import sqlapi
+
+    # ... Statusbezeichnungen und Bemerkungen aus DB holen ...
+    #     ctx.status_old_name, ctx.status_old_desc
+    #     ctx.status_new_name, ctx.status_new_desc
+    ctx.status_old_name = ctx.status_old
+    ctx.status_old_desc = ctx.status_old
+    ctx.status_new_name = ctx.status_new
+    ctx.status_new_desc = ctx.status_new
+
+    rset = sqlapi.RecordSet2(
+        "objektstati",
+        "objektart='%s' AND (statusnummer='%s' OR statusnummer='%s')" % (
+            ctx.object_kind, ctx.status_old, ctx.status_new))
+    for row in rset:
+        if row.statusnummer == int(ctx.status_old):
+            ctx.status_old_name = row.statusbezeich
+            ctx.status_old_desc = row.statusbemerk
+        elif row.statusnummer == int(ctx.status_new):
+            ctx.status_new_name = row.statusbezeich
+            ctx.status_new_desc = row.statusbemerk
+    del rset
+
+    ### Protokoll ...
+
+    _logctx = "\nContext Adapter contens ...\n"
+    misc.log(5, _logctx)
+
+    # Standardparameter ...
+    stdpar = ('dist', 'action', 'object_class', 'object_kind',
+              'object_kind_descr', 'dok_name', 'host',
+              'status_old', 'status_old_name', 'status_old_desc',
+              'status_new', 'status_new_name', 'status_new_desc',
+              'note', 'plot', 'mail', 'batch_flag')
+    _logstdpar = " -- Standardparameter --\n"
+    for para in stdpar:
+        if para in ctx.__dict__:
+            _logstdpar = _logstdpar + "  %-20s ==> '%s'\n" \
+                % (para, ctx.__dict__[para])
+        else:
+            _logstdpar = _logstdpar + "  %-20s ==> \n" % (para)
+    misc.log(5, _logstdpar)
+
+    # Objektparameter ....
+    _logobjpar = " -- Objektrelationen und -parameter --\n"
+    for Obj in range(len(ctx.objects)):
+        _logobjpar = _logobjpar + " Relation:  '%s'\n" % (
+            ctx.objects[Obj].dbtable)
+        for key_attrib in ctx.objects[Obj].dbkeys.keys():
+            _logobjpar = _logobjpar + "  %-20s == '%s'\n" % (
+                key_attrib, ctx.objects[Obj].dbkeys[key_attrib])
+    misc.log(5, _logobjpar)
+
+    # Anwenderparameter ...
+    _logusrpar = " -- Anwenderparameter --\n"
+    for keyname in ctx.param.keys():
+        _logusrpar = _logusrpar + "  %-20s == '%s'\n" % (keyname,
+                                                         ctx.param[keyname])
+    misc.log(5, _logusrpar)
+
+    # Mailtext ...
+    misc.log(5, " -- Mailtext --\nANFANG-->"
+             + "%s" % ctx.text
+             + " <--ENDE\n")
+
+    # Empfängerparameter ...
+    _logrecpar = u" -- Empfängerparameter --\n"
+    recparas = ('personalnummer', 'login', 'telefon', 'fax', 'e_mail', 'kopien')
+    for receiver in range(len(ctx.receivers)):
+        _logrecpar = _logrecpar + u" Empfänger:  '%s'\n" % (receiver)
+        for para in recparas:
+            if para in ctx.receivers[receiver].__dict__:
+                _logrecpar = _logrecpar + "  %-20s ==> '%s'\n" % (
+                    para, ctx.receivers[receiver].__dict__[para])
+            else:
+                _logrecpar = _logrecpar + "  %-20s ==> \n" % (para)
+
+        _logrecpar = _logrecpar + "  auf den Haupverteiler bezogene Parameter ...\n"
+        for key in ctx.receivers[receiver].dparam.keys():
+            _logrecpar = _logrecpar + "  %-20s == '%s'\n" % (
+                key, ctx.receivers[receiver].dparam[key])
+
+        _logrecpar = _logrecpar + u"  auf den Empfänger bezogene Parameter ...\n"
+        for key in ctx.receivers[receiver].rparam.keys():
+            _logrecpar = _logrecpar + "  %-20s == '%s'\n" % (
+                key, ctx.receivers[receiver].rparam[key])
+    misc.log(5, _logrecpar)
+
+
+###############################################################################
+# Funktionen (Klassen)....
+###############################################################################
+class SenderObject:
+    pass
+
+
+def build_text(ctx):
+    '''Zusammenbauen des Betreffs und des Mailtextes...'''
+    # Subject ...
+    build_subject(ctx)
+
+    # Absender, bzw. Auslöser suchen ...
+    from cdb import sqlapi
+    from cdb import auth
+    rset = sqlapi.RecordSet2("angestellter a",
+                             "a.personalnummer='%s' " % auth.persno)
+    ctx.sender = SenderObject()
+
+    if len(rset) > 0:
+        ctx.sender.personalnummer = rset[0].personalnummer
+        ctx.sender.funktion = rset[0].beruf
+        ctx.sender.name = rset[0].name
+        ctx.sender.abteilung = rset[0].abt_nummer
+        ctx.sender.login = rset[0].login
+        ctx.sender.telefon1 = rset[0].telefon1
+        ctx.sender.fax = rset[0].telefon2
+        ctx.sender.e_mail = rset[0].e_mail
+
+    ctx.text = u"Durch den Benutzer <B>%s</B> wurde ein" % ctx.sender.name
+
+    # Aktion ...
+    if ctx.action == 'state_change':
+        ctx.text = ctx.text + " Statuswechsel ausgel&ouml;st.<BR><BR>"
+        _action = u"Aktion : <B>Statuswechsel</B>"
+        _state = ("<UL><LI>alter Status : <B>%s</B><BR>... %s</LI>" %
+                  (ctx.status_old_name, ctx.status_old_desc) +
+                  u"<LI>neuer Status : <B>%s</B><BR>... %s</LI></UL><BR>" %
+                  (ctx.status_new_name, ctx.status_new_desc))
+    else:
+        ctx.text = ctx.text + u"e Verteilung ausgel&ouml;st.<BR>"
+        _action = u"Aktion : <B>Verteilung</B><BR><BR>"
+        _state = ""
+
+    # Objekte ...
+    if len(ctx.objects) > 1:
+        _objects = "betroffene Objekte:<OL>"
+        _ojects_end_tag = "</OL>"
+    else:
+        _objects = "betroffenes Objekt:<UL>"
+        _ojects_end_tag = "</UL>"
+    for Obj in range(len(ctx.objects)):
+        _objects = _objects + "<LI><B>%s</B></LI>" % ObjectStr(ctx, Obj)
+    _objects = _objects + _ojects_end_tag
+
+    # Initiator ...
+    _released_by = (u"Initiator: <B>%s</B><BR>"
+                    u"<UL><LI>Funktion: %s<BR>"
+                    u"<LI>Abteilung: %s<BR>"
+                    u"<LI>Telefon: %s<BR>"
+                    u"<LI>Fax: % s<BR>"
+                    u"<LI>E-Mail: <a href=\"mailto:%s\">%s</a>"
+                    u"</UL>" % (ctx.sender.name,
+                                ctx.sender.funktion,
+                                ctx.sender.abteilung,
+                                ctx.sender.telefon1,
+                                ctx.sender.fax,
+                                ctx.sender.e_mail,
+                                ctx.sender.e_mail))
+
+    # Bemerkung ...
+    _note = ""
+    if ctx.note:
+        _note = u"Bemerkung:<BR>" + ctx.note.replace("\n", "<br>") + "<BR><BR>"
+
+    # Rückfragen an ...
+    _quest_to = (u"<B>R&uuml;ckfragen bitte an "
+                 u"<a href=\"mailto:%s\">%s</a></B>"
+                 % (ctx.sender.e_mail, ctx.sender.name))
+
+    ctx.text = ctx.text + \
+        u"Die Daten im Einzelnen ...<BR><BR>" + \
+        ("%s" % _action) + \
+        ("%s" % _state) + \
+        ("%s" % _objects) + \
+        ("%s" % _released_by) + \
+        ("%s" % _note) + \
+        ("%s" % _quest_to)
+
+
+def att_objects(msg, ctx):
+    from cdb import cmsg
+    for Obj in range(len(ctx.objects)):
+        relation = ctx.objects[Obj].dbtable
+        if relation == 'zeichnung':
+            attachment = cmsg.Cdbcmsg(classname='document')
+        elif relation == 'teile_stamm':
+            attachment = cmsg.Cdbcmsg(classname='part')
+        else:
+            return
+        for key_att in ctx.objects[Obj].dbkeys.keys():
+            attachment.add_item(key_att, relation,
+                                ctx.objects[Obj].dbkeys[key_att])
+        msg.attach("%s.cdbcmsg" % ObjectStr(ctx, Obj),
+                   attachment.mimetype,
+                   attachment.encoding,
+                   attachment.get_memfile())
+
+
+def ObjectStr(ctx, n=0):
+    """returns Object 'n' dbkeys as a string, with n==0 as default"""
+    _keys = ctx.objects[n].dbkeys.keys()
+    _object_n = u"%s-%s" % (ctx.objects[n].dbkeys[_keys[0]],
+                            ctx.objects[n].dbkeys[_keys[1]])
+    return _object_n
+
+
+def build_subject(ctx):
+    if ctx.action == 'state_change':
+        ctx.subject = u"Statuswechsel von Objekt '%s'" % ObjectStr(ctx)
+    else:
+        ctx.subject = u"Verteilung von Objekt '%s'" % ObjectStr(ctx)
+
+
+def cdbdistribute(Ctx):
+    misc.log(1, "cdbdistribute")
+    LogDistributeCtx(Ctx)
+    misc.log(5, "\n-->\n")
+
+    build_text(Ctx)         # ... Mail-Text und Betreff zusammenbauen
+    from cdb import mail
+    Msg = mail.Message()
+    Msg.Subject(Ctx.subject)
+    Msg.body(Ctx.text, "text/html")
+    Msg.From(Ctx.sender.e_mail)
+    Msg.Organization("CONTACT Software GmbH")
+
+    att_objects(Msg, Ctx)   # anhängen der Objekte
+
+    # Alle Empfänger erhalten die selbe E-Mail,
+    # das macht natürlich nur so lange Sinn, wie die
+    # Empfängerspez. Parameter nicht relevant sind.
+    # (für die Exemplarische implementierung solls aber reichen)
+    rec_list = '\n'
+    for n in range(len(Ctx.receivers)):
+        Msg.To(Ctx.receivers[n].e_mail)
+        rec_list = rec_list + "   reciver no. %s: %s\n" % (
+            n, Ctx.receivers[n].e_mail)
+
+    misc.log(5, "send mail to all receivers ...%s" % rec_list)
+    Msg.send()
+
+
+if __name__ == "__main__":
+    ue.run(cdbdistribute)

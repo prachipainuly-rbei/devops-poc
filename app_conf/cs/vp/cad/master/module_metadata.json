@@ -1,0 +1,127 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.4.0.2", 
+      "cs.activitystream": "15.3.1.4", 
+      "cs.base": "15.4.1.10", 
+      "cs.defects": "15.2.1.2", 
+      "cs.documents": "15.2.2.9", 
+      "cs.launchpad": "15.2.1.0", 
+      "cs.metrics": "15.4.0.1", 
+      "cs.platform": "15.2.29", 
+      "cs.portfolios": "15.4.0.0", 
+      "cs.powerreports": "15.2.0.3", 
+      "cs.web": "15.2.1.21", 
+      "cs.workflow": "15.4.0.11"
+    }
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.cad", 
+        "required_module_id": "cs.activitystream"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.cad", 
+        "required_module_id": "cs.documents"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.cad", 
+        "required_module_id": "cs.platform.org"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": null
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.cad", 
+        "required_module_id": "cs.shared"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.cad", 
+        "required_module_id": "cs.vp.items"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.cad", 
+        "required_module_id": "cs.vp.items_documents"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.cad", 
+        "required_module_id": "cs.vp.products"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.cad", 
+        "required_module_id": "cs.web.components"
+      }
+    }, 
+    {
+      "DATA": {
+        "dependency_type": "customizes", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.vp.cad", 
+        "required_module_id": "cs.workflow"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "d395220f-616a-11e2-b71c-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "bda5bc9c62ae9268293f180078b73b97", 
+      "name": "CAD Documents", 
+      "package": "cs.vp"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.vp.cad"
+    }
+  }
+}

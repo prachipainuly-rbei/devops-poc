@@ -1,0 +1,14 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "AssemblyState", "kind": "StateColor", "location_type": "Built in", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.bom", "descr": "Assembly State for bom tems", "fallback_id": "", "identifier": "assembly_cdb_objektart+\"-\"+assembly_status", "location": "", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_partslist_comp", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.bom", "descr": "", "fallback_id": "", "identifier": "\"cdb_partslist_comp_\"+typ+\".png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_replace_by_mbom", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.bom", "descr": "", "fallback_id": "", "identifier": "\"replace_by_mbom.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbvp_elink_diffutil", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.bom", "descr": "", "fallback_id": "", "identifier": "\"mbom_manager.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbvp_part", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.bom", "descr": "Icon f\u00fcr Artikel mit Ber\u00fccksichtigung der Kategorie und des Positionstyps", "fallback_id": "cdbvp_part1", "identifier": "\"cdb_part\" + t_kategorie + \"_\" + cdbvp_positionstyp + \"_\" + cdbvp_has_condition + \".png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbvp_part1", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.vp.bom", "descr": "Fallback Icon f\u00fcr Artikel ohne Ber\u00fccksichtigung der Kategorie.", "fallback_id": "cdb_part1", "identifier": "\"cdb_part_\" + cdbvp_positionstyp + \"_\" + cdbvp_has_condition + \".png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

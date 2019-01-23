@@ -1,0 +1,10 @@
+{
+  "cdb_favourites": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "83f97552-a1e6-11e2-a316-78acc0ace8c3"}, "DATA": {"autostart": 0, "fav_link": "byname/classname/document/query/batch?zeichnung.cdb_cpersno=$%28persno%29", "interactive": 0, "label": "Meine Dokumente", "label_cs": null, "label_en": "My Documents", "label_es": null, "label_fr": null, "label_it": null, "label_ja": null, "label_ko": null, "label_pl": null, "label_pt": null, "label_tr": "Belgelerim", "label_zh": "\u6211\u7684\u6587\u6863", "parent_oid": null, "subject_id": "public", "subject_type": "Common Role"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "83fbbf40-a1e6-11e2-9b6c-78acc0ace8c3"}, "DATA": {"autostart": 0, "fav_link": "byname/classname/document/query/batch?zeichnung.cdb_m2date=$%28date%29", "interactive": 0, "label": "Heute gespeicherte Dokumente", "label_cs": null, "label_en": "Documents saved today", "label_es": null, "label_fr": null, "label_it": null, "label_ja": null, "label_ko": null, "label_pl": null, "label_pt": null, "label_tr": "Bug\u00fcn kaydedilen Belgeler", "label_zh": "\u4eca\u65e5\u6587\u6863\u5df2\u5b58", "parent_oid": null, "subject_id": "public", "subject_type": "Common Role"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

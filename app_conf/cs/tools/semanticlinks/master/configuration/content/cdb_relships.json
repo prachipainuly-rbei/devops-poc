@@ -1,0 +1,10 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_link_matrix_cfg2rs"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.tools.semanticlinks", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 1, "label": "cdb_link_matrix_rs", "menugroup": null, "node_tag": "", "ordering": null, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdb_link_matrix_rs", "reference_kmap": "cdb_object_id=cdb_object_id", "referer": "cdb_link_matrix_cfg", "referer_kmap": "cdb_object_id=dsm_object_id", "relship_cldef": "cdb_link_matrix_rs", "relship_table": "", "rolename": "RelationshipsConfigs", "rs_acc_prof": "", "rs_profile": "cdb_aggregation_1_N", "show_in_mask": 1, "show_in_menu": 0}},
+      {"PRIMARY_KEYS": {"name": "cdb_semantic_link2link_type"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.tools.semanticlinks", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 0, "label": "cdb_semantic_link_type", "menugroup": null, "node_tag": "", "ordering": null, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdb_semantic_link_type", "reference_kmap": "cdb_object_id=cdb_object_id", "referer": "cdb_semantic_link", "referer_kmap": "link_type_object_id=cdb_object_id", "relship_cldef": "cdb_semantic_link_type", "relship_table": "", "rolename": "LinkType", "rs_acc_prof": "", "rs_profile": "cdb_association_1_1", "show_in_mask": 0, "show_in_menu": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

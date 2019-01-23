@@ -1,0 +1,12 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.workspaces: Workspaces (BLOCKED, OBSOLETE)"}, "DATA": {"cdb_module_id": "cs.workspaces", "common_flag": 1, "description": "status 170,180"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workspaces: Workspaces (DRAFT)"}, "DATA": {"cdb_module_id": "cs.workspaces", "common_flag": 1, "description": "status 0"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workspaces: Workspaces (RELEASED)"}, "DATA": {"cdb_module_id": "cs.workspaces", "common_flag": 1, "description": "status 200"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workspaces: Workspaces (REVISION)"}, "DATA": {"cdb_module_id": "cs.workspaces", "common_flag": 1, "description": "status 190"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

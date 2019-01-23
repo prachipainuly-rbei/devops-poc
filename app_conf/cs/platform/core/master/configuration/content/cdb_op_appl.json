@@ -1,0 +1,13 @@
+{
+  "cdb_op_appl": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"applicability": "Class"}, "DATA": {"descr": "Operation ist im Kontext einer Klasse aufrufbar"}},
+      {"PRIMARY_KEYS": {"applicability": "Meta"}, "DATA": {"descr": "Operation ist ohne Kontext aufrufbar"}},
+      {"PRIMARY_KEYS": {"applicability": "MultipleObjects"}, "DATA": {"descr": "Operation ist auf eins oder mehrere Objekte anwendbar"}},
+      {"PRIMARY_KEYS": {"applicability": "Query"}, "DATA": {"descr": "Operation ist im Kontext eines Suchergebnisses auch ohne Selektion aufrufbar"}},
+      {"PRIMARY_KEYS": {"applicability": "SingleObject"}, "DATA": {"descr": "Operation ist auf genau eines Objektes anwendbar."}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

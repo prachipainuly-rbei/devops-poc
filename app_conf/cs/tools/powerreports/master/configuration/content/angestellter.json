@@ -1,0 +1,9 @@
+{
+  "angestellter": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"personalnummer": "powerreports_service"}, "DATA": {"abt_nummer": "", "account_expiration_date": null, "account_start_date": null, "active_account": "1", "beruf": "", "calendar_profile_id": "1cb4cf41-0f40-11df-a6f9-9435b380e702", "capacity": 0.0, "cdb_cdate": "12.03.2018 12:00:56", "cdb_classname": "angestellter", "cdb_cpersno": "caddok", "cdb_mdate": "12.03.2018 12:01:40", "cdb_mpersno": "caddok", "cdb_object_id": "a387d740-25e4-11e8-8fb7-d0577b2793bc", "cdb_repl_limit": null, "cdb_repl_multi": "", "cdblic_named_user": 0, "city": "", "country": "", "e_mail": "", "firstname": "", "force_pwdchange": 1, "gender": "", "initials": "", "is_resource": null, "is_system_account": 1, "lastname": "PowerReports Service User", "login": "powerreports_service", "name": "PowerReports Service User", "org_id": "131", "password_rule": "Unsafe", "remarks": "", "state": "", "street": "", "tel1_remark": "", "tel2_remark": "", "tel3_remark": "", "telefon1": "", "telefon2": "", "telefon3": "", "title": "", "visibility_flag": 1, "zip": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

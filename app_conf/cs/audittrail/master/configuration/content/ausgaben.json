@@ -1,0 +1,16 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "audittrail"}, "DATA": {"cdb_module_id": "cs.audittrail", "cs": null, "d": "Audit Trail", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "Audit Trail", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_audittrail_config2field"}, "DATA": {"cdb_module_id": "cs.audittrail", "cs": null, "d": "Felder", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "Fields", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.audittrail.all_versions"}, "DATA": {"cdb_module_id": "cs.audittrail", "cs": null, "d": "Alle Versionen anzeigen", "f": null, "i": null, "ja": null, "ko": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "Show all Versions", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.audittrail.detail"}, "DATA": {"cdb_module_id": "cs.audittrail", "cs": "", "d": "Textuelle Unterschiede", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "", "uk": "Textual Differences", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.audittrail.refresh"}, "DATA": {"cdb_module_id": "cs.audittrail", "cs": "", "d": "Aktualisieren", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "", "uk": "Refresh", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.audittrail.select_entry"}, "DATA": {"cdb_module_id": "cs.audittrail", "cs": "", "d": "Bitte vergleichbaren Eintrag ausw\u00e4hlen.", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "", "uk": "Please select a comparable entry.", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.audittrail.source"}, "DATA": {"cdb_module_id": "cs.audittrail", "cs": "", "d": "Quelle", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "", "uk": "From", "zh": ""}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "web.audittrail.target"}, "DATA": {"cdb_module_id": "cs.audittrail", "cs": "", "d": "Ziel", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "", "uk": "Target", "zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

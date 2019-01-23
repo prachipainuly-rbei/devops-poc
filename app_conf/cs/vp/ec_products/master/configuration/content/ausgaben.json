@@ -1,0 +1,10 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbec_number_of_ecos"}, "DATA": {"cdb_module_id": "cs.vp.ec_products", "cs": null, "d": "Anzahl der \u00c4nderungsauftr\u00e4ge", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "M\u00fchendislik de\u011fi\u015fikli\u011fi emri say\u0131s\u0131", "uk": "Number of Engineering Change Orders", "zh": "\u5de5\u7a0b\u66f4\u6539\u6307\u4ee4\u6570\u91cf"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbec_number_of_ecrs"}, "DATA": {"cdb_module_id": "cs.vp.ec_products", "cs": null, "d": "Anzahl der \u00c4nderungsantr\u00e4ge", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "M\u00fchendislik de\u011fi\u015fiklik talebi say\u0131s\u0131", "uk": "Number of Engineering Change Requests", "zh": "\u5de5\u7a0b\u66f4\u6539\u8bf7\u6c42\u6570\u91cf"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

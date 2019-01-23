@@ -1,0 +1,22 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0bc540b2-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_checklist", "description": "", "exclude_empty_values": null, "fields_info": "cdb_project_id, checklist_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0d290f6c-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_prot", "description": "", "exclude_empty_values": null, "fields_info": "cdbprot_zaehler"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0d5b3526-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_item", "description": "", "exclude_empty_values": null, "fields_info": "cl_item_id, checklist_id, cdb_project_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0d625f1c-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cli_prot", "description": "", "exclude_empty_values": null, "fields_info": "cdbprot_zaehler"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0ea25c08-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_types", "description": "", "exclude_empty_values": null, "fields_info": "name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0ea4bf5a-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_cat", "description": "", "exclude_empty_values": null, "fields_info": "category"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0ea722ac-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_def", "description": "", "exclude_empty_values": null, "fields_info": "name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0eabe950-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_val", "description": "", "exclude_empty_values": null, "fields_info": "name, rating_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0eae4ca2-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_wght", "description": "", "exclude_empty_values": null, "fields_info": "name, weighting"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0eb57698-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_asgn", "description": "", "exclude_empty_values": null, "fields_info": "cl_type, rating_scheme"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0efd1a34-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_deliv2rule", "description": "", "exclude_empty_values": null, "fields_info": "cdb_project_id, checklist_id, rule_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "10e4f9e1-eca8-11e4-922d-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_val", "description": "", "exclude_empty_values": 1, "fields_info": "name, rating_value_de"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "133d8fde-eca8-11e4-bc19-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_val", "description": "", "exclude_empty_values": 1, "fields_info": "name, rating_value_en"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e152e800-cca3-11e4-b96c-082e5f0d0c28"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_cat", "description": "", "exclude_empty_values": 1, "fields_info": "name_de, name_en"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle"}, "DATA": {"cdb_module_id": "cs.platform.org", "common_flag": 1, "description": "Alle Personenstammdaten"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:eigener Eintrag"}, "DATA": {"cdb_module_id": "cs.platform.org", "common_flag": 1, "description": "Personenstammdaten des angemeldeten Anwenders"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:ohne CDB Account"}, "DATA": {"cdb_module_id": "cs.platform.org", "common_flag": 1, "description": "Personenstammdaten ohne CDB Account"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

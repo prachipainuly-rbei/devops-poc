@@ -1,0 +1,17 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0c18d4e8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_part2task", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "classname": "cdbpcs_part2task", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c18d4e8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_part2task", "field_name": "rel_type"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "classname": "cdbpcs_part2task", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c18d4e8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_part2task", "field_name": "t_index"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "classname": "cdbpcs_part2task", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c18d4e8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_part2task", "field_name": "task_id"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "classname": "cdbpcs_part2task", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c18d4e8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_part2task", "field_name": "teilenummer"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "classname": "cdbpcs_part2task", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ecfbb1e-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rexc_prt", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "classname": "cdbpcs_rexc_prt", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ecfbb1e-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rexc_prt", "field_name": "exception_id"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "classname": "cdbpcs_rexc_prt", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ecfbb1e-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rexc_prt", "field_name": "t_index"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "classname": "cdbpcs_rexc_prt", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ecfbb1e-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rexc_prt", "field_name": "teilenummer"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "classname": "cdbpcs_rexc_prt", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

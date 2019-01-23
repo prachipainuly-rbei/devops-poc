@@ -1,0 +1,9 @@
+{
+  "csweb_outlet_child": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"outlet_child_name": "cs-vp-cad-ReferencedModels"}, "DATA": {"ausgabe_label": "ref_models", "cdb_icon_id": "csweb_table_treeview_on", "cdb_module_id": "cs.vp.cad", "config_component": "cs-web-components-base-StructureTree", "config_location": "", "json_properties": "{\n  \"structureName\": \"CDB_ReferencedModels\",\n  \"treeRendererName\": \"SimpleTreeContainer.DefaultRenderer\"\n}"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

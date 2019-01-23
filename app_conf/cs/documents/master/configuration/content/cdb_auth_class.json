@@ -1,0 +1,11 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "document"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Documents"}},
+      {"PRIMARY_KEYS": {"auth_class": "mq_repl"}, "DATA": {"cdb_module_id": "cs.documents", "description": "MQ based replication"}},
+      {"PRIMARY_KEYS": {"auth_class": "mq_repl_docs"}, "DATA": {"cdb_module_id": "cs.documents", "description": "All documents"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

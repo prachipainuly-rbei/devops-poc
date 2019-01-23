@@ -1,0 +1,33 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0bc540b2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_checklist", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_checklist", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0bc540b2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_checklist", "field_name": "checklist_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_checklist", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d290f6c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cl_prot", "field_name": "cdbprot_zaehler"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_prot", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d5b3526-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cl_item", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_item", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d5b3526-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cl_item", "field_name": "checklist_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_item", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d5b3526-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cl_item", "field_name": "cl_item_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_item", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d625f1c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cli_prot", "field_name": "cdbprot_zaehler"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cli_prot", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ea25c08-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cl_types", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_types", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ea4bf5a-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cl_cat", "field_name": "category"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_cat", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ea722ac-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rat_def", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_def", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0eabe950-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rat_val", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_val", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0eabe950-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rat_val", "field_name": "rating_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_val", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0eae4ca2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rat_wght", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_wght", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0eae4ca2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rat_wght", "field_name": "weighting"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_wght", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0eb57698-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rat_asgn", "field_name": "cl_type"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_asgn", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0eb57698-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rat_asgn", "field_name": "rating_scheme"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_asgn", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0efd1a34-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_deliv2rule", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_deliv2rule", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0efd1a34-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_deliv2rule", "field_name": "checklist_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_deliv2rule", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0efd1a34-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_deliv2rule", "field_name": "rule_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_deliv2rule", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "10e4f9e1-eca8-11e4-922d-f0def133d0a6", "field_classname": "cdbpcs_rat_val", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_val", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "10e4f9e1-eca8-11e4-922d-f0def133d0a6", "field_classname": "cdbpcs_rat_val", "field_name": "rating_value_de"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_val", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "133d8fde-eca8-11e4-bc19-f0def133d0a6", "field_classname": "cdbpcs_rat_val", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_val", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "133d8fde-eca8-11e4-bc19-f0def133d0a6", "field_classname": "cdbpcs_rat_val", "field_name": "rating_value_en"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_rat_val", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e152e800-cca3-11e4-b96c-082e5f0d0c28", "field_classname": "cdbpcs_cl_cat", "field_name": "name_de"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_cat", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e152e800-cca3-11e4-b96c-082e5f0d0c28", "field_classname": "cdbpcs_cl_cat", "field_name": "name_en"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "classname": "cdbpcs_cl_cat", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

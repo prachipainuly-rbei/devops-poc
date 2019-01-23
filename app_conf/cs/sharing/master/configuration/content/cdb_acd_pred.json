@@ -1,0 +1,14 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: My Sharings", "predicate_name": "My Sharing Groups", "table_name": "cdb_sharing_group"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: My Sharings", "predicate_name": "My Sharings", "table_name": "cdb_sharing"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Personal Sharing Groups", "predicate_name": "Personal Sharing Groups", "table_name": "cdb_sharing_group"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "predicate_name": "All Sharing Group Members", "table_name": "cdb_sharing_group_member"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "predicate_name": "All Sharing Groups", "table_name": "cdb_sharing_group"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "predicate_name": "All Sharings", "table_name": "cdb_sharing"}, "DATA": {"cdb_module_id": "cs.sharing"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

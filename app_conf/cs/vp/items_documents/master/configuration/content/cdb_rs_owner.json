@@ -1,0 +1,10 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_doc_to_part", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdb_part_documents", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items_documents"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

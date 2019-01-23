@@ -1,0 +1,10 @@
+{
+  "cdb_decomp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"identifier": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "Generated decomposition based on cg", "fqpyname_generator": "cs.vp.classification.sml.rebuild_smldecomp"}},
+      {"PRIMARY_KEYS": {"identifier": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification", "descr": "Generated decomposition based on cp", "fqpyname_generator": "cs.vp.classification.sml.CatDecompBuilder.rebuild_decomposition"}}
+    ],
+    "CONTENT_DOMAIN": "Decompositions",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

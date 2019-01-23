@@ -1,0 +1,11 @@
+{
+  "cdb_operations": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_project", "name": "export_task_attrs_to_excel"}, "DATA": {"applicability": "SingleObject", "cdb_module_id": "cs.pcs.msp", "comp_name": "", "descr": "", "essential_op": 0, "help_url": "", "label": "cdbpcs_export_task_attrs_to_excel", "mask_name": "", "mask_name_webui": null, "menu_visible": 1, "menugroup": 10, "offer_in_web_ui": 0, "ordering": 53, "render_comp_id": null, "url": ""}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_project", "name": "export_to_xml"}, "DATA": {"applicability": "SingleObject", "cdb_module_id": "cs.pcs.msp", "comp_name": "", "descr": "", "essential_op": 0, "help_url": "", "label": "cdbpcs_export_to_xml", "mask_name": "cdbpcs_export_xml_mask", "mask_name_webui": null, "menu_visible": 1, "menugroup": 10, "offer_in_web_ui": 0, "ordering": 52, "render_comp_id": null, "url": ""}},
+      {"PRIMARY_KEYS": {"classname": "cdbpcs_project", "name": "import_from_xml"}, "DATA": {"applicability": "SingleObject", "cdb_module_id": "cs.pcs.msp", "comp_name": "", "descr": "", "essential_op": 0, "help_url": "", "label": "cdbpcs_import_from_xml", "mask_name": "", "mask_name_webui": null, "menu_visible": 1, "menugroup": 10, "offer_in_web_ui": 0, "ordering": 51, "render_comp_id": null, "url": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

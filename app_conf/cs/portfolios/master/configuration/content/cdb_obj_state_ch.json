@@ -1,0 +1,10 @@
+{
+  "cdb_obj_state_ch": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objclass": "cdb_pf_folder"}, "DATA": {"cdb_module_id": "cs.portfolios", "comp_name": "", "prot_table": ""}},
+      {"PRIMARY_KEYS": {"objclass": "cdb_portfolio"}, "DATA": {"cdb_module_id": "cs.portfolios", "comp_name": "", "prot_table": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

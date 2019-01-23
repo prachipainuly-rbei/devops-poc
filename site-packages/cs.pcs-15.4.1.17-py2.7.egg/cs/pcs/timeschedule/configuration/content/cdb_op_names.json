@@ -1,0 +1,15 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "CDBPCS_ProjectPlan"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.pcs.timeschedule", "client_desc": "", "descr": null, "html_help": "", "icon_id": "cdbpcs_gantt_chart", "inactive": 0, "kind": "PowerScript", "label": "pcs_ganttchart", "label_ok": "", "menu_visible": 1, "menugroup": 1, "ordering": 6, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_add_project"}, "DATA": {"acl_allow": "save", "cdb_module_id": "cs.pcs.timeschedule", "client_desc": "", "descr": "", "html_help": "", "icon_id": "CDB_SelectAndAssign", "inactive": 0, "kind": "PowerScript", "label": "pcs_add_project_to_timeschedule", "label_ok": "", "menu_visible": 1, "menugroup": 10, "ordering": 100, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_add_task"}, "DATA": {"acl_allow": "save", "cdb_module_id": "cs.pcs.timeschedule", "client_desc": "", "descr": "", "html_help": "", "icon_id": "CDB_SelectAndAssign", "inactive": 0, "kind": "PowerScript", "label": "pcs_add_task_to_timeschedule", "label_ok": "", "menu_visible": 1, "menugroup": 10, "ordering": 200, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_delete_settings"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.pcs.timeschedule", "client_desc": "", "descr": null, "html_help": "", "icon_id": "Delete", "inactive": 0, "kind": "PowerScript", "label": "cdbpcs_delete_settings", "label_ok": "", "menu_visible": 1, "menugroup": 0, "ordering": 0, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_timeschedule_ganttexport"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.pcs.timeschedule", "client_desc": "", "descr": "", "html_help": "", "icon_id": "Excel_icon", "inactive": 0, "kind": "PowerScript", "label": "cdbpcs_timeschedule_ganttexport_label", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_ts_add_obj"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.pcs.timeschedule", "client_desc": "", "descr": null, "html_help": "", "icon_id": "Create", "inactive": 0, "kind": "PowerScript", "label": "cdbpcs_ts_add_obj", "label_ok": "", "menu_visible": 1, "menugroup": 40, "ordering": 90, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "reset_position"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.pcs.timeschedule", "client_desc": "", "descr": null, "html_help": "", "icon_id": "cdbdd_change_field_pos", "inactive": 0, "kind": "PowerScript", "label": "cdbpcs_reset_position", "label_ok": "", "menu_visible": 1, "menugroup": 0, "ordering": 0, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

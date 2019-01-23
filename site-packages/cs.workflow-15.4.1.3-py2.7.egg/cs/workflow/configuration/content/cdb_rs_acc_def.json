@@ -1,0 +1,33 @@
+{
+  "cdb_rs_acc_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "TaskObjects"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "edit schema"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "TaskObjects"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "edit schema"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "TaskObjects"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "edit schema"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read", "rs_acc_prof": "TaskObjects"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "read"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "TaskObjects"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "edit schema"}},
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "Workflow components"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "edit schema"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "Workflow components"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "edit schema"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "Workflow components"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "edit schema"}},
+      {"PRIMARY_KEYS": {"reference_allow": "edit schema", "rs_acc_prof": "Workflow components"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "edit schema"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "Workflow components"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "edit schema"}},
+      {"PRIMARY_KEYS": {"reference_allow": "task complete", "rs_acc_prof": "Workflow components"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "task complete"}},
+      {"PRIMARY_KEYS": {"reference_allow": "task_ready", "rs_acc_prof": "Workflow components"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "task_ready"}},
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "cdbwf_assign_rights"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_obj_edit"}},
+      {"PRIMARY_KEYS": {"reference_allow": "lock", "rs_acc_prof": "cdbwf_assign_rights"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_obj_edit"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read", "rs_acc_prof": "cdbwf_assign_rights"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_obj_info"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read_file", "rs_acc_prof": "cdbwf_assign_rights"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_obj_info"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "cdbwf_assign_rights"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_obj_edit"}},
+      {"PRIMARY_KEYS": {"reference_allow": "unlock", "rs_acc_prof": "cdbwf_assign_rights"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_obj_edit"}},
+      {"PRIMARY_KEYS": {"reference_allow": "cdbwf_obj_create", "rs_acc_prof": "cdbwf_briefcase_modus"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_obj_create"}},
+      {"PRIMARY_KEYS": {"reference_allow": "cdbwf_obj_edit", "rs_acc_prof": "cdbwf_briefcase_modus"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_obj_edit"}},
+      {"PRIMARY_KEYS": {"reference_allow": "cdbwf_obj_info", "rs_acc_prof": "cdbwf_briefcase_modus"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_obj_info"}},
+      {"PRIMARY_KEYS": {"reference_allow": "cdbwf_obj_edit", "rs_acc_prof": "cdbwf_obj_edit"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_task_active"}},
+      {"PRIMARY_KEYS": {"reference_allow": "cdbwf_obj_info", "rs_acc_prof": "cdbwf_obj_edit"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_task_active"}},
+      {"PRIMARY_KEYS": {"reference_allow": "cdbwf_obj_info", "rs_acc_prof": "cdbwf_obj_info"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_task_active"}},
+      {"PRIMARY_KEYS": {"reference_allow": "cdbwf_task_active", "rs_acc_prof": "cdbwf_task_active"}, "DATA": {"cdb_module_id": "cs.workflow", "referer_allow": "cdbwf_task_active"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

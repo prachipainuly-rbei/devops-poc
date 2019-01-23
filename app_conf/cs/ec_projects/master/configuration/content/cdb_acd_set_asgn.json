@@ -1,0 +1,14 @@
+{
+  "cdb_acd_set_asgn": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (EXECUTION)", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (NEW)", "acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (EXECUTION)", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.ec_projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (NEW)", "acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_module_id": "cs.ec_projects"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

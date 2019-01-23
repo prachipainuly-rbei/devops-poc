@@ -1,0 +1,31 @@
+# -*- mode: systemd -*-
+# $Id: $
+#
+# Copyright (c) 1990 - 2018 by CONTACT Software GmbH.
+# All rights reserved.
+# https://www.contact-software.com/
+#
+# Systemd unit file for the CONTACT Elements Service Daemon cdbsvcd
+#
+# Copy this file to /etc/systemd/system
+# Enable cdbsvcd launch on startup with systemctl enable cdbsvcd
+
+[Unit]
+Description=CONTACT Elements Service Daemon
+After=syslog.target network.target
+
+[Service]
+# Customize the following fields using the .conf file.
+# To create it, run "systemctl edit cdbsvcd.service
+# Please note that PIDFile has to be set in the override config
+# See cdbsvcd.conf
+Environment="CADDOK_RUNTIME=[INSTALLATION_PATH]"
+Environment="CADDOK_BASE=[INSTANCE_PATH]"
+User=CDB_USER
+
+Type=forking
+ExecStart=/bin/sh -c "${CADDOK_RUNTIME}/cdbsvcd run -p --instancedir=${CADDOK_BASE} > ${CADDOK_BASE}/tmp/cdbsvcd.pid"
+ExecStop=/usr/bin/env "${CADDOK_RUNTIME}/cdbsvcdctl" --instancedir=${CADDOK_BASE} stopall
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+{
+  "cdb_global_subj": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Administrator", "subject_id": "caddok", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Frame-Administrator", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_classname": "cdb_gl_subj_role", "cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "public", "subject_id": "caddok", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.platform.misc"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

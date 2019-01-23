@@ -1,0 +1,11 @@
+{
+  "tabellen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribut": "cdb_ec_id", "data_source": "Object", "itemtype": "Value", "name": "cdbecm_ec2pmodel", "role_id": "public"}, "DATA": {"anzeigen": 1, "as_configured": 0, "beschriftung_cs": "", "beschriftung_d": "\u00c4nderungsnummer", "beschriftung_f": "", "beschriftung_i": "", "beschriftung_ja": null, "beschriftung_ko": null, "beschriftung_pl": "", "beschriftung_pt": "", "beschriftung_s": "", "beschriftung_tr": "M\u00fchendislik de\u011fi\u015fikli\u011fi no.", "beschriftung_uk": "Engineering Change No.", "beschriftung_zh": "\u5de5\u7a0b\u66f4\u6539\u7f16\u53f7", "cdb_icon_id": null, "cdb_module_id": "cs.vp.ec_cad", "icon_alignment": null, "link_relship": null, "link_type": null, "ordnung_attrib": null, "tabellen_index": 10, "visible_len": 10}},
+      {"PRIMARY_KEYS": {"attribut": "z_index", "data_source": "Object", "itemtype": "Value", "name": "cdbecm_ec2pmodel", "role_id": "public"}, "DATA": {"anzeigen": 1, "as_configured": 0, "beschriftung_cs": "", "beschriftung_d": "Dokumentindex", "beschriftung_f": "", "beschriftung_i": "", "beschriftung_ja": null, "beschriftung_ko": null, "beschriftung_pl": "", "beschriftung_pt": "", "beschriftung_s": "", "beschriftung_tr": "Belge indeksi", "beschriftung_uk": "Document Index", "beschriftung_zh": "\u6587\u6863\u7d22\u5f15", "cdb_icon_id": null, "cdb_module_id": "cs.vp.ec_cad", "icon_alignment": null, "link_relship": null, "link_type": null, "ordnung_attrib": null, "tabellen_index": 30, "visible_len": 10}},
+      {"PRIMARY_KEYS": {"attribut": "z_nummer", "data_source": "Object", "itemtype": "Value", "name": "cdbecm_ec2pmodel", "role_id": "public"}, "DATA": {"anzeigen": 1, "as_configured": 0, "beschriftung_cs": "", "beschriftung_d": "Dokumentnummer", "beschriftung_f": "", "beschriftung_i": "", "beschriftung_ja": null, "beschriftung_ko": null, "beschriftung_pl": "", "beschriftung_pt": "", "beschriftung_s": "", "beschriftung_tr": "Belge no.", "beschriftung_uk": "Document No.", "beschriftung_zh": "\u6587\u6863\u7f16\u53f7", "cdb_icon_id": null, "cdb_module_id": "cs.vp.ec_cad", "icon_alignment": null, "link_relship": null, "link_type": null, "ordnung_attrib": null, "tabellen_index": 20, "visible_len": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

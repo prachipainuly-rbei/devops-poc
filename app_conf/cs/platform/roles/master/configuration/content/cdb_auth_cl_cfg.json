@@ -1,0 +1,10 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "common roles", "relation": "cdb_global_role"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"auth_class": "common roles", "relation": "cdb_global_subj"}, "DATA": {"cdb_module_id": "cs.platform.roles"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

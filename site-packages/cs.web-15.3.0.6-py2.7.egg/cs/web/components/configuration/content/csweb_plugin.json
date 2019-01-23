@@ -1,0 +1,10 @@
+{
+  "csweb_plugin": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"plugin_id": "class-tile-small"}, "DATA": {"cdb_module_id": "cs.web.components", "description": "Used to find a react component that is able to render an object of the class that is matched by the discriminator.", "fqpyname": "cs.web.components.plugin_config.WebUIPluginCallbackClassTileSmall"}},
+      {"PRIMARY_KEYS": {"plugin_id": "content-view"}, "DATA": {"cdb_module_id": "cs.web.components", "description": "Used to find a plugin that is responsible to display the content of a file.The regular expression given in the discriminator is evaluated against the mime type of the file.", "fqpyname": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

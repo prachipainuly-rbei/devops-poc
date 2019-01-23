@@ -1,0 +1,58 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {
+      "cs.actions": "15.2.2.dev0", 
+      "cs.activitystream": "15.3.1.dev0", 
+      "cs.base": "15.2.2.dev0", 
+      "cs.bomcreator": "15.2.1.dev0", 
+      "cs.costing": "15.3.0.dev0", 
+      "cs.cp": "15.3.0.dev0", 
+      "cs.defects": "15.2.1.dev0", 
+      "cs.documents": "15.2.2.dev0", 
+      "cs.dsig": "15.2.2.dev0", 
+      "cs.dsig-pdf": "15.2.0.dev0", 
+      "cs.ec": "15.4.0.dev0", 
+      "cs.erp": "15.2.0.dev0", 
+      "cs.innovation": "15.2.2.dev0", 
+      "cs.launchpad": "15.2.1.dev0", 
+      "cs.metrics": "15.4.0.dev0", 
+      "cs.mfa": "15.1.0.dev0", 
+      "cs.noteslink": "15.4.0.dev0", 
+      "cs.officelink": "15.5.0.dev0", 
+      "cs.pcs": "15.4.1.dev0", 
+      "cs.pdx": "15.3.0.dev0", 
+      "cs.platform": "15.2.dev0", 
+      "cs.portfolios": "15.4.0.dev0", 
+      "cs.powerreports": "15.2.0.dev0", 
+      "cs.requirements": "15.2.0.dev0", 
+      "cs.resources": "15.3.1.dev0", 
+      "cs.scm": "15.3.0.dev0", 
+      "cs.taskmanager": "15.4.0.dev0", 
+      "cs.threed": "15.5.0.dev0", 
+      "cs.vp": "15.5.0.dev0", 
+      "cs.vp-pcs": "15.2.0.dev0", 
+      "cs.web": "15.2.1.dev0", 
+      "cs.workflow": "15.4.0.dev0", 
+      "cs.workspaces": "15.2.1.dev0", 
+      "cs.xml": "15.2.0.dev0"
+    }
+  }, 
+  "dependencies": [], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "d35075e1-6190-11e7-967c-bc83850f59f2", 
+      "is_interface_module": 0, 
+      "mandatory": 0, 
+      "master_config_checksum": "d41d8cd98f00b204e9800998ecf8427e", 
+      "name": "Customer module", 
+      "package": "cs.designsystem"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.designsystem"
+    }
+  }
+}

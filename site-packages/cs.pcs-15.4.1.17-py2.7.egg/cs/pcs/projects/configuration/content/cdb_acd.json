@@ -1,0 +1,23 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 0, "description": "Projects frozen by its managers"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Access Control Domain Assignments"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Actions (COMPLETED)"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 0, "description": "Actions in status 100, 200"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Actions (not DISCARDED, COMPLETED)"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 0, "description": "Actions not in status 200, 100, 110"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Exceptional Access"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Tasks"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Tasks (READY, EXECUTION)"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates (creation)"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Projects"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Projects (COMPLETED)"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Projects (not NEW)"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Tasks"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Tasks (COMPLETED)"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Team, Roles"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

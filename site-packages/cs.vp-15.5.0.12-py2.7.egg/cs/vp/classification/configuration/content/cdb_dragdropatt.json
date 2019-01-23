@@ -1,0 +1,12 @@
+{
+  "cdb_dragdropatt": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"drag_attrib": "din4001_mm_mk", "drag_classname": "cdbsml_property", "drop_classname": "cdbsml_pset_prop"}, "DATA": {"cdb_module_id": "cs.vp.classification", "drop_attrib": "prop_mk"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "prop_id", "drag_classname": "cdbsml_property", "drop_classname": "cdbsml_pset_prop"}, "DATA": {"cdb_module_id": "cs.vp.classification", "drop_attrib": "prop_id"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "z_index", "drag_classname": "model", "drop_classname": "cdbsml_pset_view"}, "DATA": {"cdb_module_id": "cs.vp.classification", "drop_attrib": "z_index"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "z_nummer", "drag_classname": "model", "drop_classname": "cdbsml_pset_view"}, "DATA": {"cdb_module_id": "cs.vp.classification", "drop_attrib": "z_nummer"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

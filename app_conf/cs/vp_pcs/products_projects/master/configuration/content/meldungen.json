@@ -1,0 +1,9 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdbvp_project2product_dtag"}, "DATA": {"cdb_module_id": "cs.vp_pcs.products_projects", "cs": "", "d": "\"Projekt \" + cdb_project_id + \" <-> Produkt \" + cdbvp_product_id", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 9861, "pl": "", "pt": "", "s": "", "tr": "\"Project \" + cdb_project_id + \" <-> product \" + cdbvp_product_id", "uk": "\"Project \" + cdb_project_id + \" <-> product \" + cdbvp_product_id", "zh": "\"\u9879\u76ee\" + cdb_project_id + \" <->\u4ea7\u54c1\" + cdbvp_product_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

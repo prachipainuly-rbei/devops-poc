@@ -1,0 +1,18 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "allow": "CHANGE", "class": "cdbpcs_issue", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "allow": "create", "class": "cdbpcs_issue", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "allow": "delete", "class": "cdbpcs_issue", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues", "allow": "FULL ACCESS", "class": "cdbpcs_issue", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues", "allow": "FULL ACCESS", "class": "cdbpcs_issue", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues", "allow": "FULL ACCESS", "class": "cdbpcs_issue", "subject_id": "Projektmitglied", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues", "allow": "create", "class": "cdbpcs_issue", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues", "allow": "read", "class": "cdbpcs_issue", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues (by me)", "allow": "FULL ACCESS", "class": "cdbpcs_issue", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Issues", "allow": "FULL ACCESS", "class": "cdbpcs_issue", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

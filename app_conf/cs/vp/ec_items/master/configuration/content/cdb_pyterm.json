@@ -1,0 +1,9 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "id": 57, "name": "cdbecm: EC Reference modifiable", "predicate_name": "Artikel im Status 0"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.vp.ec_items", "expression": "0", "filter_rule": "", "operator": "="}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

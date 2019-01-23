@@ -1,0 +1,9 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "common role exceptions", "relation": "cdb_role_exc"}, "DATA": {"cdb_module_id": "cs.platform.excaccess"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

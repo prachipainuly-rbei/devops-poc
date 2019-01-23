@@ -1,0 +1,15 @@
+{
+  "cad_konf_txt": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Allow Metadata Manage"}, "DATA": {"beschreibung": "Berechtigt zur Benutzung des CDB-Variable-Wizards (Button: Metadaten verwalten)", "cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"name": "Allow Metadata Write"}, "DATA": {"beschreibung": "Berechtigt zu schreibendem Metadatenabgleich (Button: Metadaten \u00fcbergeben)", "cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"name": "DOK Message Id Attribute"}, "DATA": {"beschreibung": "Document attribute for storing MS Outlook mail IDs (INTERNET_MESSAGE_ID). Used for add-in side duplicate check of MS-Outlook documents.", "cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"name": "Disable Attach Document"}, "DATA": {"beschreibung": "Legt fest, ob die Funktion \"Dokumente aus dem System anh\u00e4ngen\" verf\u00fcgbar ist.", "cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"name": "Disallow Delete Attachment"}, "DATA": {"beschreibung": "Verhindert das kopplungsgesteuerte L\u00f6schen von Dateianh\u00e4ngen aus Emails bevor sie eingecheckt werden", "cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"name": "Disconnect After Operation"}, "DATA": {"beschreibung": "Legt fest, ob die nach jeder Operation die Verbindung zu CDB gel\u00f6st wird.", "cdb_module_id": "cs.officelink"}},
+      {"PRIMARY_KEYS": {"name": "Force Metadata Write"}, "DATA": {"beschreibung": "Gleicht Metadaten in passwort-geschuetzten Dokumenten ohne Passwortabfrage ab", "cdb_module_id": "cs.officelink"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

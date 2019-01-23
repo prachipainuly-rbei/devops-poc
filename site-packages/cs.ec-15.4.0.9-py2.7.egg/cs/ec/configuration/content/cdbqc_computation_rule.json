@@ -1,0 +1,12 @@
+{
+  "cdbqc_computation_rule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "05099161-235d-11e2-ba5c-0026c78a4864"}, "DATA": {"cdb_classname": "cdbqc_custom_computation_rule", "cdb_module_id": "cs.ec", "fqpyname": "cs.ec.metrics.ecm_compute_aver_part", "name": "ECM: Durchschnittl. Anzahl EC-Artikel"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "55bbadf0-235d-11e2-89b4-0026c78a4864"}, "DATA": {"cdb_classname": "cdbqc_custom_computation_rule", "cdb_module_id": "cs.ec", "fqpyname": "cs.ec.metrics.ecm_compute_aver_process_time", "name": "ECM: Durchschnittl. Durchlaufzeit ECs"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a6dd4aa1-235c-11e2-b7c3-0026c78a4864"}, "DATA": {"cdb_classname": "cdbqc_custom_computation_rule", "cdb_module_id": "cs.ec", "fqpyname": "cs.ec.metrics.ecm_compute_aver_doc", "name": "ECM: Durchschnittl. Anzahl EC-Dokumente"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "b490510f-299c-11e2-b265-082e5f0d3665"}, "DATA": {"action": "cdb_cdate", "cdb_classname": "cdbqc_sql_statistics", "cdb_module_id": "cs.ec", "evalued_attribute": "*", "name": "# neue Datens\u00e4tze pro Monat", "period": "30", "statistics_name": "COUNT"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

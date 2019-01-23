@@ -1,0 +1,32 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "predicate_name": "Frozen Projects", "table_name": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "predicate_name": "Frozen Tasks", "table_name": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Access Control Domain Assignments", "predicate_name": "cs.pcs: Access Control Domain Assignments (Projects)", "table_name": "cdbpcs_prj_acd"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Actions (COMPLETED)", "predicate_name": "cs.pcs: Actions (COMPLETED)", "table_name": "cdb_action"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Actions (COMPLETED)", "predicate_name": "cs.pcs: Actions (DISCARDED)", "table_name": "cdb_action"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Actions (not DISCARDED, COMPLETED)", "predicate_name": "cs.pcs: Actions (not DISCARDED, COMPLETED)", "table_name": "cdb_action"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Exceptional Access", "predicate_name": "cs.pcs: Exceptional Access", "table_name": "cdbpcs_role_exc"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Tasks", "predicate_name": "cs.pcs: My Tasks", "table_name": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Tasks (READY, EXECUTION)", "predicate_name": "cs.pcs: My Tasks (EXECUTION)", "table_name": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Tasks (READY, EXECUTION)", "predicate_name": "cs.pcs: My Tasks (READY)", "table_name": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates", "predicate_name": "cs.pcs: Project Teams", "table_name": "cdbpcs_team"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates", "predicate_name": "cs.pcs: Projects", "table_name": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates", "predicate_name": "cs.pcs: Role Assignments", "table_name": "cdbpcs_subject"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates", "predicate_name": "cs.pcs: Role Definitions", "table_name": "cdbpcs_prj_role"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates", "predicate_name": "cs.pcs: Tasks", "table_name": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates (creation)", "predicate_name": "cs.pcs: Project Templates", "table_name": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Projects", "predicate_name": "cs.pcs: Projects", "table_name": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Projects (COMPLETED)", "predicate_name": "cs.pcs: Projects (COMPLETED)", "table_name": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Projects (not NEW)", "predicate_name": "cs.pcs: Projects (not NEW)", "table_name": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Tasks", "predicate_name": "cs.pcs: Tasks", "table_name": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Tasks (COMPLETED)", "predicate_name": "cs.pcs: My Tasks (COMPLETED)", "table_name": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Team, Roles", "predicate_name": "cs.pcs: Project Teams", "table_name": "cdbpcs_team"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Team, Roles", "predicate_name": "cs.pcs: Role Assignments", "table_name": "cdbpcs_subject"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Team, Roles", "predicate_name": "cs.pcs: Role Definitions", "table_name": "cdbpcs_prj_role"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

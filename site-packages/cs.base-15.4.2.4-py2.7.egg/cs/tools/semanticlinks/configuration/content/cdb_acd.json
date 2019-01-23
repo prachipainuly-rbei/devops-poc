@@ -1,0 +1,10 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "SemanticLinkTypes: all"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "common_flag": 1, "description": "Alle semantischen Verkn\u00fcpfungstypen"}},
+      {"PRIMARY_KEYS": {"acd_id": "SemanticLinks: all"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "common_flag": 1, "description": "Alle semantischen Verkn\u00fcpfungen"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

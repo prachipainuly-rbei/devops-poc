@@ -1,0 +1,10 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": "Batch operations"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbbop_operation_asgn"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "description": "Object assignments to batch operations"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

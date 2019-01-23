@@ -1,0 +1,11 @@
+{
+  "cdb_rs_acc_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "CheckCreateSubFolder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "referer_allow": "create_subfolder"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "cs.pcs: Folder: Document Assignments"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "referer_allow": "create_folderdoc"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "cs.pcs: Folder: Document Assignments"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "referer_allow": "delete_folderdoc"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

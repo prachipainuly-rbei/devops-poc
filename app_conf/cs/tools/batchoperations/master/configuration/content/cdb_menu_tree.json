@@ -1,0 +1,11 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "70ab200f-3ed7-11e2-8630-f0def133d0a6"}, "DATA": {"ausgabe_label": "cdbbop_tree_op", "cdb_module_id": "cs.tools.batchoperations", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 80, "parent_id": "927d7231-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "8560d39e-0eab-11e5-adb8-f0def133d0a6"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.tools.batchoperations", "classname": "cdbbop_opdef", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "92f23df4-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "cdbbop_tree_config", "cdb_module_id": "cs.tools.batchoperations", "classname": "cdbbop_typedef", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "70ab200f-3ed7-11e2-8630-f0def133d0a6"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

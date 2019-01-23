@@ -1,0 +1,9 @@
+{
+  "cdb_global_role": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "Product: Manager"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": "Management von Produkten", "description_ml_cs": null, "description_ml_en": "Management of Products", "description_ml_es": null, "description_ml_fr": null, "description_ml_it": null, "description_ml_ja": null, "description_ml_ko": null, "description_ml_pl": null, "description_ml_pt": null, "description_ml_tr": "\u00dcr\u00fcn y\u00f6netimi", "description_ml_zh": "\u4ea7\u54c1\u7ba1\u7406", "is_org_role": 1, "mno": "", "name_cs": null, "name_de": "Produktmanager", "name_en": "Product Manager", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "\u00dcr\u00fcn y\u00f6neticisi", "name_zh": "\u4ea7\u54c1\u7ba1\u7406\u5668"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

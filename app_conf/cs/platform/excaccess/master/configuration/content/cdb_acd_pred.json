@@ -1,0 +1,9 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "Allgemeine Ausnahmeberechtigungen:alle", "predicate_name": "Alle allg. Ausnahmeberechtigungen", "table_name": "cdb_role_exc"}, "DATA": {"cdb_module_id": "cs.platform.excaccess"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

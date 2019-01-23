@@ -1,0 +1,11 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.products.Product", "id": 1, "name": "cdbqc: non unvalid products", "predicate_name": "non unvalid products"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.vp.products", "expression": "300", "filter_rule": "", "operator": "!="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.products.Product", "id": 1, "name": "cs.sharing: Group Creator", "predicate_name": "Product"}, "DATA": {"attribute": "cdb_cpersno", "cdb_module_id": "cs.vp.products", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.products.Product", "id": 1, "name": "cs.sharing: Group Responsible", "predicate_name": "Product"}, "DATA": {"attribute": "subject_id", "cdb_module_id": "cs.vp.products", "expression": "", "filter_rule": "", "operator": ">"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

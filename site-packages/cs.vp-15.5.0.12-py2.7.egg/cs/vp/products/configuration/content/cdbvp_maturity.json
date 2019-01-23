@@ -1,0 +1,13 @@
+{
+  "cdbvp_maturity": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "c361d961-5d42-11e1-b2c0-001bfc744136"}, "DATA": {"name_cs": "", "name_de": "Idee", "name_en": "Idea", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Fikir", "name_zh": "\u60f3\u6cd5", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "cabc5370-5d42-11e1-b229-001bfc744136"}, "DATA": {"name_cs": "", "name_de": "Konzept", "name_en": "Concept", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Kavram", "name_zh": "\u6982\u5ff5", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "cf59d061-5d42-11e1-a68a-001bfc744136"}, "DATA": {"name_cs": "", "name_de": "Entwicklung", "name_en": "Development", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Geli\u015ftirme", "name_zh": "\u5f00\u53d1", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d35fef4f-5d42-11e1-b19b-001bfc744136"}, "DATA": {"name_cs": "", "name_de": "Prototyp", "name_en": "Prototype", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Prototip", "name_zh": "\u539f\u578b", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "fd434e6e-41b9-11e5-8803-001a7dda7107"}, "DATA": {"name_cs": "", "name_de": "", "name_en": "", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "", "name_zh": "", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

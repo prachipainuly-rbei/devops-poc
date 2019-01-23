@@ -1,0 +1,42 @@
+{
+  "cdb_op_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbbop_opdef", "name": "CDB_Copy", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_operation", "name": "CDB_Copy", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_typedef", "name": "CDB_Copy", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_opdef", "name": "CDB_Create", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_operation", "name": "CDB_Create", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_typedef", "name": "CDB_Create", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_opdef", "name": "CDB_Delete", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_operation", "name": "CDB_Delete", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_typedef", "name": "CDB_Delete", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_opdef", "name": "CDB_Export", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_operation", "name": "CDB_Export", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_prot", "name": "CDB_Export", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_typedef", "name": "CDB_Export", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_opdef", "name": "CDB_Modify", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_operation", "name": "CDB_Modify", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_typedef", "name": "CDB_Modify", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_opdef", "name": "CDB_Search", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_operation", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_prot", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_typedef", "name": "CDB_Search", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_opdef", "name": "CDB_SearchAgain", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_operation", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_prot", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_typedef", "name": "CDB_SearchAgain", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_opdef", "name": "CDB_SelectAndAssign", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_operation", "name": "CDB_SelectAndAssign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_prot", "name": "CDB_SelectAndAssign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_typedef", "name": "CDB_SelectAndAssign", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_opdef", "name": "CDB_ShowObject", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_operation", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_prot", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_typedef", "name": "CDB_ShowObject", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_typedef", "name": "cdbbop_decomp", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"classname": "cdbbop_operation", "name": "cdbbop_operation_exec", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

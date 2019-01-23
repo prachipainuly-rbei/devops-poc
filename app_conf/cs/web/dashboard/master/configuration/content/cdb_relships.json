@@ -1,0 +1,9 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "csweb_dashboard2items"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.web.dashboard", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 1, "label": "csweb_dashboard2items", "menugroup": null, "node_tag": "", "ordering": null, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "csweb_dashboard_item", "reference_kmap": "dashboard_id=dashboard_id;cdb_object_id=cdb_object_id", "referer": "csweb_dashboard", "referer_kmap": "cdb_object_id=dashboard_id", "relship_cldef": "csweb_dashboard_item", "relship_table": "", "rolename": "Items", "rs_acc_prof": "", "rs_profile": "cdb_aggregation_deep", "show_in_mask": 1, "show_in_menu": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

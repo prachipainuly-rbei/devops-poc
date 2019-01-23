@@ -1,0 +1,21 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions", "allow": "qc_state_change", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions (INVALID)", "allow": "delete", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "cdbqc_status_valid_delete", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions (NEW)", "allow": "WRITE ACCESS", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions (NEW)", "allow": "delete", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "cdbqc_status_valid_delete", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Definitions (NEW)", "allow": "qc_planned", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: My Definitions (NEW)", "allow": "WRITE ACCESS", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: My Definitions (NEW)", "allow": "delete", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "cdbqc_status_valid_delete", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: My Definitions (NEW)", "allow": "qc_planned", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: My Quality Characteristics", "allow": "read", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Objects", "allow": "read", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Quality Characteristics", "allow": "WRITE ACCESS", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Quality Characteristics", "allow": "create", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.metrics: Quality Characteristics", "allow": "delete", "class": "cdbqc"}, "DATA": {"cdb_module_id": "cs.metrics", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

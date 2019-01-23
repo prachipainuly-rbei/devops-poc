@@ -1,0 +1,9 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "BOM Items"}, "DATA": {"cdb_module_id": "cs.vp.bom", "descr": "Access rights check with reference to the assembly when creating, modifying and deleting BOM items.", "mandatory": 1}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

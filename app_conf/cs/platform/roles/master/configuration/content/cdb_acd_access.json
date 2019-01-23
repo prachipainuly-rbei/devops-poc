@@ -1,0 +1,10 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "Allgemeine Rollen:alle", "allow": "FULL ACCESS", "class": "common roles"}, "DATA": {"cdb_module_id": "cs.platform.roles", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "Allgemeine Rollen:alle", "allow": "read", "class": "common roles"}, "DATA": {"cdb_module_id": "cs.platform.roles", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_iss_categ"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "Kategorie", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Kategori", "uk": "Category", "zh": "\u7c7b\u522b"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_iss_prio"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": null, "d": "Priorit\u00e4t", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "\u00d6ncelik", "uk": "Priority", "zh": "\u4f18\u5148\u7ea7"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_iss_val"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "Erledigt", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Tamamland\u0131", "uk": "Done", "zh": "\u7ed3\u675f"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": null, "d": "Offener Punkt", "f": "", "i": "", "ja": null, "ko": null, "pl": null, "pt": null, "s": "", "tr": "A\u00e7\u0131k konu", "uk": "Open Issue", "zh": "\u5f00\u653e\u7684\u95ee\u9898"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "pcs_iss_descr"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "Beschreibungen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "A\u00e7\u0131klamalar", "uk": "Descriptions", "zh": "\u63cf\u8ff0"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "pcs_iss_log"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "Beziehungen/\u00c4nderungslog (Details)", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u0130li\u015fkiler/De\u011fi\u015fiklik log (Detaylar)", "uk": "Relationships/Modification Log (Details)", "zh": "\u5173\u7cfb/\u66f4\u6539\u65e5\u5fd7(\u8be6\u7ec6)"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "pcs_issue_remarks"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "Beziehungen/Kommentare", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u0130li\u015fkiler/Yorumlar", "uk": "Relationships/Comments", "zh": "\u5173\u7cfb/\u5907\u6ce8"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "pcs_issues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "Beziehungen/Offene Punkte", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u0130li\u015fkiler/A\u00e7\u0131k konular", "uk": "Relationships/Open Issues", "zh": "\u5173\u7cfb/\u5f00\u653e\u7684\u95ee\u9898"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_pcs_iss_cat"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "Offene Punkte Kategorien", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "A\u00e7\u0131k konu \u00f6ncelikleri", "uk": "Open Issue Categories", "zh": "\u5f00\u653e\u7684\u95ee\u9898\u7c7b\u522b"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_pcs_iss_prio"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "Offene Punkte Priorit\u00e4ten", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "A\u00e7\u0131k konu \u00f6ncelikleri", "uk": "Open Issue Priorities", "zh": "\u5f00\u653e\u7684\u95ee\u9898\u4f18\u5148\u7ea7"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_pcs_issues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "Offene Punkte", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "A\u00e7\u0131k konular", "uk": "Open Issues", "zh": "\u5f00\u653e\u7684\u95ee\u9898"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

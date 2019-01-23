@@ -1,0 +1,9 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdbqc_definition"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "", "name_cs": "", "name_de": "", "name_en": "", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "", "name_zh": null, "objclass": "cdbqc_definition", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

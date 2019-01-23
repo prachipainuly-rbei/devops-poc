@@ -1,0 +1,15 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbqc", "relation": "cdbqc_children"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbqc", "relation": "cdbqc_def2class"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbqc", "relation": "cdbqc_definition"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbqc", "relation": "cdbqc_grouping_attribute"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbqc", "relation": "cdbqc_grouping_value"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbqc", "relation": "cdbqc_parents"}, "DATA": {"cdb_module_id": "cs.metrics"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbqc", "relation": "cdbqc_quality_character"}, "DATA": {"cdb_module_id": "cs.metrics"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

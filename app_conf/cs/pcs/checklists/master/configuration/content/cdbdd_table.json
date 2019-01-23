@@ -1,0 +1,23 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_checklist_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.pcs.checklists", "primary_table": "cdbpcs_checklst"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_checklst"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_cl_cat"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_cl_item"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_cl_item_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.pcs.checklists", "primary_table": "cdbpcs_cl_item"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_cl_prot"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_cl_prot_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.pcs.checklists", "primary_table": "cdbpcs_cl_prot"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_cl_types"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_cli_prot"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_cli_prot_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.pcs.checklists", "primary_table": "cdbpcs_cli_prot"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_deliv2rule"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_rat_asgn"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_rat_def"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_rat_val"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_rat_wght"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.checklists"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

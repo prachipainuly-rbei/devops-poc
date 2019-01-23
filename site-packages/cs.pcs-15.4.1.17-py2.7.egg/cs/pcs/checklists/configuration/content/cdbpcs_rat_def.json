@@ -1,0 +1,10 @@
+{
+  "cdbpcs_rat_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "GermanSchoolmarks"}, "DATA": {"description": "Bewertungsschema nach Schulnoten"}},
+      {"PRIMARY_KEYS": {"name": "RedGreenYellow"}, "DATA": {"description": "Ampelbewertungsschema"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

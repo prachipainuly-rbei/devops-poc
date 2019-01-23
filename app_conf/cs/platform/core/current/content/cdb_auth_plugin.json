@@ -1,0 +1,12 @@
+{
+  "cdb_auth_plugin": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "ldap"}, "DATA": {"active": 0, "cdb_module_id": "cs.platform.core", "cdb_object_id": "601d5ccf-35e8-11e5-80d3-f0921cf0c018", "fqpyname": "cdb.authentication.ldap.LDAPAuthenticator", "post_authentication": null}},
+      {"PRIMARY_KEYS": {"name": "oidc_client"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.core", "cdb_object_id": "f941a8de-b033-11e7-823d-a0d3c120cfde", "fqpyname": "cdb.authentication.oidc_client.OIDCClientAuth", "post_authentication": ""}},
+      {"PRIMARY_KEYS": {"name": "password"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.core", "cdb_object_id": "f4cafc21-35e3-11e5-a763-f0921cf0c018", "fqpyname": "cdb.authentication.password.PasswordAuth", "post_authentication": null}},
+      {"PRIMARY_KEYS": {"name": "sso"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.core", "cdb_object_id": "1ed5ac8f-e6bf-11e5-a10a-f0921cf0c018", "fqpyname": "cdb.authentication.sso.SSO", "post_authentication": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

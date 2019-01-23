@@ -1,0 +1,17 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0a913460-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbmq_registry", "field_name": "srvr_id"}, "DATA": {"cdb_module_id": "cs.platform.mq", "classname": "cdbmq_registry", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a9397b2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbmq_ctlmsg", "field_name": "message"}, "DATA": {"cdb_module_id": "cs.platform.mq", "classname": "cdbmq_ctlmsg", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a9397b2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbmq_ctlmsg", "field_name": "srvr_id"}, "DATA": {"cdb_module_id": "cs.platform.mq", "classname": "cdbmq_ctlmsg", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a985e56-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbmq_event", "field_name": "ev_order"}, "DATA": {"cdb_module_id": "cs.platform.mq", "classname": "cdbmq_event", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a985e56-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbmq_event", "field_name": "job_id"}, "DATA": {"cdb_module_id": "cs.platform.mq", "classname": "cdbmq_event", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a985e56-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbmq_event", "field_name": "queue"}, "DATA": {"cdb_module_id": "cs.platform.mq", "classname": "cdbmq_event", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e88de930-3ec5-11e2-8a54-b8c8608e4b60", "field_classname": "cdbmq_download", "field_name": "dl_id"}, "DATA": {"cdb_module_id": "cs.platform.mq", "classname": "cdbmq_download", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e88de930-3ec5-11e2-8a54-b8c8608e4b60", "field_classname": "cdbmq_download", "field_name": "job_id"}, "DATA": {"cdb_module_id": "cs.platform.mq", "classname": "cdbmq_download", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e88de930-3ec5-11e2-8a54-b8c8608e4b60", "field_classname": "cdbmq_download", "field_name": "queuename"}, "DATA": {"cdb_module_id": "cs.platform.mq", "classname": "cdbmq_download", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

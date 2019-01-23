@@ -1,0 +1,18 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (COMPLETED)", "allow": "FULL ACCESS", "class": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (COMPLETED)", "allow": "distribute", "class": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (COMPLETED)", "allow": "read", "class": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (not DISCARDED, COMPLETED)", "allow": "FULL ACCESS", "class": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (not DISCARDED, COMPLETED)", "allow": "accept", "class": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (not DISCARDED, COMPLETED)", "allow": "create", "class": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (not DISCARDED, COMPLETED)", "allow": "delete", "class": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (not DISCARDED, COMPLETED)", "allow": "distribute", "class": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (not DISCARDED, COMPLETED)", "allow": "read", "class": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (not DISCARDED, COMPLETED)", "allow": "save", "class": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

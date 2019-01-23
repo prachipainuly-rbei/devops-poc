@@ -1,0 +1,9 @@
+{
+  "cdb_decomp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"identifier": "CSWEB_PAGE_CONFIG"}, "DATA": {"cdb_module_id": "cs.web.components", "descr": "Generated decomposition based on CSWEB_PAGE_CONFIG", "fqpyname_generator": "cdb.platform.mom.entities.Class.generate_decomp"}}
+    ],
+    "CONTENT_DOMAIN": "Decompositions",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

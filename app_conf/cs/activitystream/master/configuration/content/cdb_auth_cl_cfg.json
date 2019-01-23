@@ -1,0 +1,11 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbblog_comment", "relation": "cdbblog_comment"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbblog_posting", "relation": "cdbblog_posting"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbblog_subscription", "relation": "cdbblog_subscription"}, "DATA": {"cdb_module_id": "cs.activitystream"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

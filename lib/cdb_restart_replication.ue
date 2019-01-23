@@ -1,0 +1,34 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdb_restart_replication.ue 149151 2016-11-10 10:00:56Z heiko $
+#
+# CIM DATABASE user exit
+# (C) 2000 CONTACT Software GmbH
+#
+
+"""
+UE zm Restart von Replikationsjobs.
+"""
+
+from cdb import ue, mq, repljobs
+
+
+def restart(ctx):
+    """
+    Started einen Replikationsjob erneut.
+    """
+    if (ctx.mode == "now"):
+        if ctx.classname == 'mq_mstr_repl':
+            queue = repljobs.MasterReplQueue()
+            jobclass = repljobs.MasterReplJob
+            for j in ctx.objects:
+                try:
+                    job = jobclass(int(j['cdbmq_id']), queue)
+                except mq.NoSuchJob:
+                    job = None
+                if job:
+                    job.restart()
+            ctx.refresh_tables(["mq_mstr_repl"])
+
+if __name__ == "__main__":
+    ue.run(restart, "cdbscript")

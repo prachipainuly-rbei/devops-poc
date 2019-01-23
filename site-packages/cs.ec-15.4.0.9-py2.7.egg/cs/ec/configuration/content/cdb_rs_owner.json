@@ -1,0 +1,23 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_action2ecs", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec2actions", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec2categ", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec2cdb_mod_event", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec2cdb_mod_source", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec2cdb_person_cnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec2cdb_person_mnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec2cdbecm_ec_prot", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec2cdbwf_process", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec2objekstati", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec_prot2new_state", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec_prot2old_state", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec_template2cdbwf_process", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec_template2rule", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_process2cdbecm_ec_template", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.ec"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

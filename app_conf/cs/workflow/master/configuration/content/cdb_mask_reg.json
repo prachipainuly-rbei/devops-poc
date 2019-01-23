@@ -1,0 +1,21 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_form_template_comp", "mask_role_id": "public", "name": "cdbwf_form_template"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 10, "priority": 10, "reg_title": null}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_form_template_comp", "mask_role_id": "public", "name": "cdbwf_form_template_chctl"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 20, "priority": 20, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_process", "mask_role_id": "public", "name": "cdb_elink_activitystream"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 30, "priority": 10, "reg_title": "cdbblog_maskreg_activities"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_process", "mask_role_id": "public", "name": "cdbwf_changelog"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 20, "priority": 10, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_process", "mask_role_id": "public", "name": "cdbwf_process_reg"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 10, "priority": 10, "reg_title": null}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_process_c", "mask_role_id": "public", "name": "cdbwf_changelog"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 20, "priority": 10, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_process_c", "mask_role_id": "public", "name": "cdbwf_process_reg"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_process_s", "mask_role_id": "public", "name": "cdbwf_changelog_s"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 20, "priority": 10, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_process_s", "mask_role_id": "public", "name": "cdbwf_process_reg_s"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 10, "priority": 10, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_task_approval", "mask_role_id": "public", "name": "$Facet:cdb_extension_class"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 20, "priority": 10, "reg_title": "cdbwf_dlg_extension_label"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_task_approval", "mask_role_id": "public", "name": "cdbwf_task_approval_reg"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 10, "priority": 10, "reg_title": null}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_task_examination", "mask_role_id": "public", "name": "$Facet:cdb_extension_class"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 20, "priority": 10, "reg_title": "cdbwf_dlg_extension_label"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbwf_task_examination", "mask_role_id": "public", "name": "cdbwf_task_examination_reg"}, "DATA": {"cdb_module_id": "cs.workflow", "ordering": 10, "priority": 10, "reg_title": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

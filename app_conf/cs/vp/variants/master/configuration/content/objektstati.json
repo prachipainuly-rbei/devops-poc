@@ -1,0 +1,11 @@
+{
+  "objektstati": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdbvp_catalogue_property", "statusnummer": 0}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.vp.variants", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Neu", "statusbez_en": "New", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "Yeni", "statusbez_zh": "\u65b0\u7684", "statusbezeich": "New", "statusfarbe": "CE_Gray_Lst", "statusrelease": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdbvp_catalogue_property", "statusnummer": 100}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.vp.variants", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "G\u00fcltig", "statusbez_en": "Valid", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "Ge\u00e7erli", "statusbez_zh": "\u6709\u6548\u7684", "statusbezeich": "Valid", "statusfarbe": "CE_Success", "statusrelease": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdbvp_catalogue_property", "statusnummer": 200}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.vp.variants", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Ung\u00fcltig", "statusbez_en": "Invalid", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "Ge\u00e7ersiz", "statusbez_zh": "\u65e0\u6548\u7684", "statusbezeich": "Invalid", "statusfarbe": "CE_Gray_D", "statusrelease": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

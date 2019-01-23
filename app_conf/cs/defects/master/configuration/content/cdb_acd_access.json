@@ -1,0 +1,16 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (COMPLETED)", "allow": "distribute", "class": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (COMPLETED)", "allow": "read", "class": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "accept", "class": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "create", "class": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "delete", "class": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "distribute", "class": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "read", "class": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "save", "class": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

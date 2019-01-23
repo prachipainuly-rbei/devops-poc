@@ -1,0 +1,15 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "17131c8f-3ed9-11e2-a796-f0def133d0a6"}, "DATA": {"ausgabe_label": "cdb_tree_sem_links", "cdb_module_id": "cs.tools.semanticlinks", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 150, "parent_id": "927d7231-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "4b2b91a1-2110-11e8-abfe-605718ab0982"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_graph_cls", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "5467a923-1c2a-11e2-a219-001c42b5d769"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_graph_cfg", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "17131c8f-3ed9-11e2-a796-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "b7075b30-1dcd-11e2-8c30-082e5f0d0c14"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_cfg", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "bc9d0002-f5f3-11e2-9cf9-10604b7deefb"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c09a01c2-f5f4-11e2-8d4c-10604b7deefb"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "17131c8f-3ed9-11e2-a796-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f56a6ab0-395d-11e2-818d-001c42b5d769"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_rs", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

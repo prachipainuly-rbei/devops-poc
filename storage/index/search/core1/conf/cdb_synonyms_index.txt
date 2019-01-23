@@ -1,0 +1,30 @@
+
+
+# Define synonyms to use when indexing.
+#
+# Note that the index has to be rebuilt after the file 
+# is changed! Use cdb_synonyms_query.txt to define synonyms 
+# to use when querying.
+#
+# Caution: Synonyms must *not* be defined in both files,
+#          cdb_synonyms_index.txt and cdb_synonyms_query.txt!
+#
+# Format:
+# =======
+#
+# 1. Explicit mapping. Replace all (comma separated) words at the
+#    left side of "=>" by all words at the right side of the token.
+#    Example:
+#       i-pod, i pod => ipod
+#
+# 2. Synonym lists. Will be triggered if any word from the list
+#    is found. The effect depends of the "expand" flag of the
+#    SynonymFilterFactory defined in the schema.
+#    The entry:
+#       ipod, i-pod, i pod
+#    will produce the tokens 
+#       "ipod", "i-pod" and "i pod"
+#    if expand is true, but only 
+#       "ipod" 
+#    (the first word) if expand is set to false.
+#

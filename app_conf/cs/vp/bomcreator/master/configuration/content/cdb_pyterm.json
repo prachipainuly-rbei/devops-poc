@@ -1,0 +1,12 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.cad.CADVariant", "id": 1, "name": "BOM: Ignore Singleton Variant", "predicate_name": "SolidWorks Varianten"}, "DATA": {"attribute": "Document.erzeug_system", "cdb_module_id": "cs.vp.bomcreator", "expression": "SolidWorks%", "filter_rule": "", "operator": "LIKE"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "BOM: Recursive Ignore Component", "predicate_name": "Detect Unigraphics parts"}, "DATA": {"attribute": "erzeug_system", "cdb_module_id": "cs.vp.bomcreator", "expression": "Unigrapics:prt", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 2, "name": "BOM: Recursive Ignore Component", "predicate_name": "Detect Unigraphics parts"}, "DATA": {"attribute": "ReferencedDocuments", "cdb_module_id": "cs.vp.bomcreator", "expression": "0", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "BOM: Recursive Ignore Component", "predicate_name": "Detect parts"}, "DATA": {"attribute": "erzeug_system", "cdb_module_id": "cs.vp.bomcreator", "expression": "'inventor:prt', 'SolidEdge:part', 'SolidEdge:psm', 'CatiaV5:Part', 'ProE:Part', 'SolidWorks:part'", "filter_rule": "", "operator": "IN"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

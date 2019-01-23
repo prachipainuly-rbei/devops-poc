@@ -1,0 +1,9 @@
+{
+  "cdb_org_context": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"context_name": "GlobalContext"}, "DATA": {"acd_relation": "-", "cdb_module_id": "cs.platform.roles", "context_attr": "-", "context_obj_relation": "-", "description": "Global organizational context", "exception_relation": "cdb_role_exc", "role_identifier": "Common Role", "role_relation": "cdb_global_role", "subject_relation": "cdb_global_subj"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

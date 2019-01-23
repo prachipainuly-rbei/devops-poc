@@ -1,0 +1,26 @@
+{
+  "cdbxml_provider_arg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "TaskAttributesToMsp", "xsd_name": "Project_1"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "TaskAttributesToMsp", "xsd_name": "Project_1"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "TaskAttributesToMsp", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "AllAttributeTypes", "name": "TaskAttributesToMsp", "xsd_name": "Project_1"}, "DATA": {"arg_value": "False", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "TaskAttributesToMsp", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "TaskAttributesToMsp", "xsd_name": "Project_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "TaskAttributesToMsp", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "TaskAttributesToMsp", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "TaskAttributesToMsp", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "TaskAttributesToMsp", "xsd_name": "TaskAttributeProvider"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "TaskAttributesToMsp", "xsd_name": "TaskAttributeProvider"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "TaskAttributesToMsp", "xsd_name": "TaskAttributeProvider"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "AllAttributeTypes", "name": "TaskAttributesToMsp", "xsd_name": "TaskAttributeProvider"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "TaskAttributesToMsp", "xsd_name": "TaskAttributeProvider"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "TaskAttributesToMsp", "xsd_name": "TaskAttributeProvider"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "TaskAttributesToMsp", "xsd_name": "TaskAttributeProvider"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "TaskAttributesToMsp", "xsd_name": "TaskAttributeProvider"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "TaskAttributesToMsp", "xsd_name": "TaskAttributeProvider"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.msp"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

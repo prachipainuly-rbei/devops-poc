@@ -1,0 +1,11 @@
+{
+  "cdb_defect_priority": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"priority": "hoch"}, "DATA": {"cdb_object_id": "9f509570-cb56-11e1-97b8-001c42b5d769", "name_cs": "", "name_de": "hoch", "name_en": "high", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "\u00c7ok", "name_zh": "\u9ad8", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"priority": "mittel"}, "DATA": {"cdb_object_id": "a15abd4f-cb56-11e1-b35f-001c42b5d769", "name_cs": "", "name_de": "mittel", "name_en": "middle", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "orta", "name_zh": "\u4e2d", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"priority": "niedrig"}, "DATA": {"cdb_object_id": "a4664f9e-cb56-11e1-abf2-001c42b5d769", "name_cs": "", "name_de": "niedrig", "name_en": "low", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Az", "name_zh": "\u4f4e", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

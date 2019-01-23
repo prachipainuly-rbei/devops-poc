@@ -1,0 +1,12 @@
+{
+  "cdb_wflowpredef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "part", "statusnummer": 0}, "DATA": {"cdb_module_id": "cs.vp.items", "overwrite": 1, "value": "\"0\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "part_ERP", "statusnummer": 0}, "DATA": {"cdb_module_id": "cs.vp.items", "overwrite": 1, "value": "\"0\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "part", "statusnummer": 180}, "DATA": {"cdb_module_id": "cs.vp.items", "overwrite": 1, "value": "\"1\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "part_ERP", "statusnummer": 180}, "DATA": {"cdb_module_id": "cs.vp.items", "overwrite": 1, "value": "\"1\""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

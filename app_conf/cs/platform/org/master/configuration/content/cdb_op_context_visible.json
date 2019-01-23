@@ -1,0 +1,21 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "CDB_Organization"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "CDB_UserRoles"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "CDB_Organization"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "CDB_UserRoles"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_Organization"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_UserRoles"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_generate_new_password"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_ldap_sync_user"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_show_responsible"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "CDB_Organization"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "CDB_UserRoles"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "CDB_Organization"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "CDB_UserRoles"}, "DATA": {"cdb_module_id": "cs.platform.org"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

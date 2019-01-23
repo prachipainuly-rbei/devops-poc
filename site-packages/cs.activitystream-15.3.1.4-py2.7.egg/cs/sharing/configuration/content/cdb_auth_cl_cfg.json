@@ -1,0 +1,11 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdb_sharing", "relation": "cdb_sharing"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_sharing_group", "relation": "cdb_sharing_group"}, "DATA": {"cdb_module_id": "cs.sharing"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_sharing_group", "relation": "cdb_sharing_group_member"}, "DATA": {"cdb_module_id": "cs.sharing"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

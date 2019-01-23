@@ -1,0 +1,15 @@
+{
+  "phys_quant_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"quantity": "capacity"}, "DATA": {"base": 10, "valid_syms": "[F]"}},
+      {"PRIMARY_KEYS": {"quantity": "default"}, "DATA": {"base": 10, "valid_syms": "[]"}},
+      {"PRIMARY_KEYS": {"quantity": "frequence"}, "DATA": {"base": 10, "valid_syms": "[hz|Hz]"}},
+      {"PRIMARY_KEYS": {"quantity": "length"}, "DATA": {"base": 10, "valid_syms": "[m]"}},
+      {"PRIMARY_KEYS": {"quantity": "mass"}, "DATA": {"base": 10, "valid_syms": "[g]"}},
+      {"PRIMARY_KEYS": {"quantity": "resistance"}, "DATA": {"base": 10, "valid_syms": "[ohm|Ohm]"}},
+      {"PRIMARY_KEYS": {"quantity": "test"}, "DATA": {"base": 2, "valid_syms": "[]"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

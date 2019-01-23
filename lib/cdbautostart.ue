@@ -1,0 +1,32 @@
+#!/usr/bin/env powerscript
+# -*- mode: python; coding: utf-8 -*-
+# $Id: cdbautostart.ue 101791 2013-09-10 12:24:05Z js $
+#
+# Copyright (C) 1990 - 2003 CONTACT Software GmbH
+# All rights reserved.
+# http://www.contact.de/
+#
+"""
+Template fuer Komponenten-UE autostart
+"""
+
+from cdb import ue
+from cdb import misc
+
+import sys
+
+
+class Autostart:
+    misc.log(1, "Running userexit " + sys.argv[0])
+    context_name = "cdbautostart"
+
+    def impl(self, ctx):
+        # So koennen Sie Operationen festlegen, die beim Start
+        # von CIM DATABASE aufgerufen werden
+        # ctx.add_autostart_operation("CDB_OperationWelcome")
+        # ctx.add_autostart_url("http://www.contact.de")
+        # ctx.add_cmsg("byname/classname/...)
+        pass
+
+if __name__ == "__main__":
+    ue.run(Autostart)

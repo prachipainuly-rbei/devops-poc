@@ -1,0 +1,9 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "wsm_settings"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "", "name_cs": null, "name_de": "WSM-Einstellungen", "name_en": "WSM Settings", "name_es": null, "name_fr": null, "name_it": "", "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "WSM ayarlar\u0131", "name_zh": "WSM\u8bbe\u7f6e", "objclass": "wsm_settings", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

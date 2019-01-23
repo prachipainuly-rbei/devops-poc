@@ -1,0 +1,15 @@
+{
+    "https://oidc.contact.de/acr/fallback": {
+        "1": [["sufficient", "cdb.wsgi.oidc.authn.ElementsAuth", {
+            "auth_method": "password"
+        }]]
+    },
+    "https://oidc.contact.de/acr/default": {
+        "1": [["sufficient", "cdb.wsgi.oidc.proxyauth.ADFSProxyAuthn", {
+            "auth_method": "sso",
+            "issuer": "https://adfs2016.example.org/adfs"
+        }], ["sufficient", "cdb.wsgi.oidc.authn.ElementsAuth", {
+            "auth_method": "password"
+        }]]
+    }
+}

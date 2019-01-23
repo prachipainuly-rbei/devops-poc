@@ -1,0 +1,9 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "Schutzklassen:alle"}, "DATA": {"cdb_module_id": "cs.platform.core", "common_flag": 1, "description": "Alle Schutzklassen"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

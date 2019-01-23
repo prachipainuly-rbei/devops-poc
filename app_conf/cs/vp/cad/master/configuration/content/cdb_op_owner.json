@@ -1,0 +1,43 @@
+{
+  "cdb_op_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_AddClassDefToFavourites", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_AddClassToFavourites", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_AddObjectToFavourites", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "altdaten_zeich", "name": "CDB_Copy", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_Copy", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "model", "name": "CDB_Copy", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "altdaten_zeich", "name": "CDB_Create", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_Create", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "model", "name": "CDB_Create", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "altdaten_zeich", "name": "CDB_CreateWithSearchConditions", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "altdaten_zeich", "name": "CDB_Delete", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_Delete", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "altdaten_zeich", "name": "CDB_Export", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_Export", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "altdaten_zeich", "name": "CDB_Modify", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_Modify", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "model", "name": "CDB_Modify", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "model", "name": "CDB_ReferencedModels", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "model", "name": "CDB_ReferencingModels", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_ResetSearch", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "altdaten_zeich", "name": "CDB_Search", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "model", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "altdaten_zeich", "name": "CDB_SearchAgain", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "model", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "altdaten_zeich", "name": "CDB_SelectAndAssign", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_SelectAndAssign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "model", "name": "CDB_SelectAndAssign", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "altdaten_zeich", "name": "CDB_ShowObject", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "model", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cad_variant", "name": "CDB_TableSetSort", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "model", "name": "cdbcadtalk_postbind", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}},
+      {"PRIMARY_KEYS": {"classname": "cdb_cad_assembly_component", "name": "cdbmu_render", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.cad"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

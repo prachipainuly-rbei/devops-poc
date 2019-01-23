@@ -1,0 +1,18 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdb_defect_categ_overview"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdb_defect_overview"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdb_defect_categ_overview"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdb_defect_overview"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_defect_categ_overview"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_defect_overview"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdb_defect_categ_overview"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdb_defect_overview"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdb_defect_categ_overview"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdb_defect_overview"}, "DATA": {"cdb_module_id": "cs.defects"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

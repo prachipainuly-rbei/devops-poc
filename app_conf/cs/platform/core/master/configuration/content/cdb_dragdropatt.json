@@ -1,0 +1,11 @@
+{
+  "cdb_dragdropatt": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"drag_attrib": "name", "drag_classname": "cdb_relships", "drop_classname": "cdb_rs_comp_def"}, "DATA": {"cdb_module_id": "cs.platform.core", "drop_attrib": "rs_name"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "field_name", "drag_classname": "cdbdd_field", "drop_classname": "cdb_masken"}, "DATA": {"cdb_module_id": "cs.platform.core", "drop_attrib": "attribut"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "field_name", "drag_classname": "cdbdd_field", "drop_classname": "cdb_tabellen"}, "DATA": {"cdb_module_id": "cs.platform.core", "drop_attrib": "attribut"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

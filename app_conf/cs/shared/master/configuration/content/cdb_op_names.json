@@ -1,0 +1,9 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "csweb_attr_block"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.shared", "client_desc": "", "descr": null, "html_help": "", "icon_id": "Structure", "inactive": 0, "kind": "GraphView", "label": "csweb_attr_overview", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

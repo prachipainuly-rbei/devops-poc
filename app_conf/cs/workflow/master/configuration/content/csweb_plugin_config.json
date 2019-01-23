@@ -1,0 +1,16 @@
+{
+  "csweb_plugin_config": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"discriminator": "CsTasksEditBriefcases", "plugin_id": "cs-tasks-custom-relship"}, "DATA": {"cdb_module_id": "cs.workflow", "component": "cs-tasks-workflow-plugin-Briefcase", "priority": 10, "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"discriminator": "CsTasksEditForms", "plugin_id": "cs-tasks-custom-relship"}, "DATA": {"cdb_module_id": "cs.workflow", "component": "cs-tasks-workflow-plugin-Form", "priority": 10, "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"discriminator": "CsTasksInfoBriefcases", "plugin_id": "cs-tasks-custom-relship"}, "DATA": {"cdb_module_id": "cs.workflow", "component": "cs-tasks-workflow-plugin-Briefcase", "priority": 10, "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"discriminator": "CsTasksInfoForms", "plugin_id": "cs-tasks-custom-relship"}, "DATA": {"cdb_module_id": "cs.workflow", "component": "cs-tasks-workflow-plugin-Form", "priority": 10, "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"discriminator": "cs_tasks_cls_wf_approval", "plugin_id": "cs-tasks-desc"}, "DATA": {"cdb_module_id": "cs.workflow", "component": "cs-tasks-workflow-plugin-WFTaskDetails", "priority": 10, "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"discriminator": "cs_tasks_cls_wf_examination", "plugin_id": "cs-tasks-desc"}, "DATA": {"cdb_module_id": "cs.workflow", "component": "cs-tasks-workflow-plugin-WFTaskDetails", "priority": 10, "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"discriminator": "cs_tasks_cls_wf_execution", "plugin_id": "cs-tasks-desc"}, "DATA": {"cdb_module_id": "cs.workflow", "component": "cs-tasks-workflow-plugin-WFTaskDetails", "priority": 10, "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"discriminator": "cs_tasks_cls_wf_info", "plugin_id": "cs-tasks-desc"}, "DATA": {"cdb_module_id": "cs.workflow", "component": "cs-tasks-workflow-plugin-WFTaskDetails", "priority": 10, "setup_fqpyname": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cdbxml_provider_arg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "TimeScheduleGantt", "xsd_name": "TimeSchedule_1"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "TimeScheduleGantt", "xsd_name": "TimeSchedule_1"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "TimeScheduleGantt", "xsd_name": "TimeSchedule_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "TimeScheduleGantt", "xsd_name": "TimeSchedule_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "TimeScheduleGantt", "xsd_name": "TimeSchedule_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:SubReport", "name": "TimeScheduleGantt", "xsd_name": "TimeSchedule_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "TimeScheduleGantt", "xsd_name": "TimeSchedule_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "TimeScheduleGantt", "xsd_name": "TimeSchedule_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.timeschedule"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue_waiting_for", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_issue", "description": "", "filename": "", "fqpyname": "cs.pcs.issues.Issue", "inproc": 1, "location": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

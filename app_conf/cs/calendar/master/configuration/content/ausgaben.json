@@ -1,0 +1,26 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "button_import"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Import", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "\u0130\u00e7e aktar", "uk": "Import", "zh": "\u5bfc\u5165"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "button_new"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Neu", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Yeni", "uk": "New", "zh": "\u65b0"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_cal_create"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "&Neu", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "&Yeni", "uk": "&New", "zh": "&\u65b0"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_cal_data"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Kalender", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Takvim", "uk": "Calendar", "zh": "\u65e5\u5386"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_cal_prof_chg"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Kalender/Profil \u00e4ndern", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Takvim/profil de\u011fi\u015ftir", "uk": "Calendar/Change Profile", "zh": "\u65e5\u5386/\u66f4\u6539\u8bbe\u7f6e"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_cal_prof_exc"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Kalenderprofilausnahmen", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Takvim profil istisnalar\u0131", "uk": "Calendar Profile Exceptions", "zh": "\u65e5\u5386\u8bbe\u7f6e\u4f8b\u5916"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_cal_prof_imp"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Feiertage aus .ics-Datei importieren ...", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Tatilleri .ics dosyas\u0131ndan al ...", "uk": "Import holidays from .ics file ...", "zh": "\u4ece.ics\u6587\u4ef6\u5bfc\u5165\u5047\u65e5..."}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_cal_profile"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Kalenderprofile", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Takvim profilleri", "uk": "Calendar Profiles", "zh": "\u65e5\u5386\u8bbe\u7f6e"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_calendar_entry"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Kalendereintr\u00e4ge", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Takvim girdileri", "uk": "Calendar Entries", "zh": "\u65e5\u5386\u6761\u76ee"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_day_type"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Tagesart", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "G\u00fcn tipi", "uk": "Day Type", "zh": "\u65e5\u7c7b\u578b"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "pcs_modify"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "\u00c4ndern", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "De\u011fi\u015ftir", "uk": "Modify", "zh": "\u4fee\u6539"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "weekday_1_short"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Mo.", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Pts", "uk": "Mon.", "zh": "\u5468\u4e00"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "weekday_2_short"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Di.", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Sal", "uk": "Tue.", "zh": "\u5468\u4e8c"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "weekday_3_short"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Mi.", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "\u00c7r\u015f", "uk": "Wed.", "zh": "\u5468\u56db"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "weekday_4_short"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Do.", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Pr\u015f", "uk": "Thu.", "zh": "\u5468\u4e09"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "weekday_5_short"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Fr.", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Cum", "uk": "Fri.", "zh": "\u5468\u4e94"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "weekday_6_short"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "Sa.", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Cts", "uk": "Sat.", "zh": "\u5468\u516d"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "weekday_7_short"}, "DATA": {"cdb_module_id": "cs.calendar", "cs": "", "d": "So.", "f": "", "i": "", "ja": "", "ko": "", "pl": "", "pt": "", "s": "", "tr": "Pzr", "uk": "Sun.", "zh": "\u5468\u65e5"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

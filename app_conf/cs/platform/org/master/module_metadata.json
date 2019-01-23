@@ -1,0 +1,34 @@
+{
+  "build_info": {
+    "export_version": 7, 
+    "package_versions": {}
+  }, 
+  "dependencies": [
+    {
+      "DATA": {
+        "dependency_type": "uses", 
+        "interface_dependency": 0
+      }, 
+      "PRIMARY_KEYS": {
+        "module_id": "cs.platform.org", 
+        "required_module_id": "cs.platform.core"
+      }
+    }
+  ], 
+  "module": {
+    "DATA": {
+      "cdb_object_id": "e30994f0-58bf-11e2-bfd1-78acc0ace8c3", 
+      "is_interface_module": 0, 
+      "mandatory": 1, 
+      "master_config_checksum": "f296bc760d09ee502072ecf5e2f3c3ed", 
+      "name": "User Management, Persons and organizations", 
+      "package": "cs.platform"
+    }, 
+    "LONGTEXTS": {
+      "cdb_module_txt": ""
+    }, 
+    "PRIMARY_KEYS": {
+      "module_id": "cs.platform.org"
+    }
+  }
+}

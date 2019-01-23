@@ -1,0 +1,14 @@
+{
+  "massstab": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"wert": "1:10"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"wert": "1:100"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"wert": "1:2"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"wert": "1:20"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"wert": "1:5"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"wert": "1:500"}, "DATA": {}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

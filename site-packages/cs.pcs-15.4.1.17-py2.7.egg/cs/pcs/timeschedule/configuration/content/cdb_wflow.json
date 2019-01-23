@@ -1,0 +1,9 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": "", "name_cs": null, "name_de": "Terminpl\u00e4ne", "name_en": "Time Schedules", "name_es": null, "name_fr": null, "name_it": "", "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Zaman planlar\u0131", "name_zh": "\u65f6\u95f4\u8fdb\u5ea6\u8868", "objclass": "cdbpcs_time_schedule", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

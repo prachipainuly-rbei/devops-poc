@@ -1,0 +1,10 @@
+{
+  "cdb_toolbar": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"toolbar_id": "applications"}, "DATA": {"cdb_module_id": "cs.platform.misc", "cdb_object_id": "295b3b2e-6157-11e2-9c92-78acc0a55b77", "description": "Toolbar to start eLink-Applications", "label_cs": "", "label_de": "Anwendungen", "label_en": "Applications", "label_es": "", "label_fr": "", "label_it": "", "label_ja": null, "label_ko": null, "label_pl": "", "label_pt": "", "label_tr": "Uygulama", "label_zh": "\u5e94\u7528"}},
+      {"PRIMARY_KEYS": {"toolbar_id": "operations"}, "DATA": {"cdb_module_id": "cs.platform.misc", "cdb_object_id": "267a30c0-6156-11e2-a81f-78acc0a55b77", "description": "Toolbar for frequently used operations", "label_cs": "", "label_de": "Operationen", "label_en": "Operations", "label_es": "", "label_fr": "", "label_it": "", "label_ja": null, "label_ko": null, "label_pl": "", "label_pt": "", "label_tr": "Operat\u00f6rler", "label_zh": "\u64cd\u4f5c"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

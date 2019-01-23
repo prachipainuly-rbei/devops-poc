@@ -1,0 +1,14 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "2acb761e-89f8-11e5-aaac-948f144f2cbe"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.sharing", "classname": "cdb_sharing_group_member", "description": null, "exclude_empty_values": null, "fields_info": "group_id, subject_id, subject_type"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "97f1c5c0-89f7-11e5-86f0-948f144f2cbe"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.sharing", "classname": "cdb_sharing", "description": null, "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9a345370-c426-11e5-8344-00059a3c7a00"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.sharing", "classname": "mq_share_objects_queue", "description": null, "exclude_empty_values": null, "fields_info": "cdbmq_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a29aa2de-943c-11e5-ad90-4c3488543485"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.sharing", "classname": "cdb_sharing_group", "description": "", "exclude_empty_values": 0, "fields_info": "subject_id, subject_type, name_en"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d87cc08f-89f7-11e5-be3f-948f144f2cbe"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.sharing", "classname": "cdb_sharing_group", "description": null, "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ebd91cb0-89f7-11e5-8e01-948f144f2cbe"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.sharing", "classname": "cdb_sharing_group", "description": "", "exclude_empty_values": 0, "fields_info": "subject_id, subject_type, name_de"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "Document templates"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "descr": "Conjunctive mapping of rights from projects, tasks, checklists or checklist items to document templates.", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "PCSFolder"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "descr": "Delegates the access rights check form a folder to its project", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "Project Tasks"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "descr": "Conjunctive mappig of access rights form subtasks to their superordinate task.", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "Task Dependencies"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "descr": "Access rights check when creating and deleting predecessor-successor dependencies between tasks based on the affected tasks.", "mandatory": 1}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

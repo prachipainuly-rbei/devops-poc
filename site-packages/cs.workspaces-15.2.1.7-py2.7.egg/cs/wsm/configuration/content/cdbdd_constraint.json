@@ -1,0 +1,18 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0663c691-10a4-11e3-a4a4-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.wsm", "classname": "cdb_file_links_status", "description": null, "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "13a31300-3105-11e5-a1fe-87c2e6b8ff81"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.wsm", "classname": "index_update_rule", "description": "", "exclude_empty_values": 1, "fields_info": "designation_de"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "26f33a1e-3105-11e5-ae57-87c2e6b8ff81"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.wsm", "classname": "index_update_rule", "description": "", "exclude_empty_values": 1, "fields_info": "designation_en"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "3858cc82-8717-11e6-9ae0-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.wsm", "classname": "partner_filename", "description": null, "exclude_empty_values": null, "fields_info": "file_id, organization_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "5e61b205-10b6-11e3-bb5a-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.wsm", "classname": "cdb_file_wsm", "description": null, "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "89531111-eb48-11e0-a281-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.wsm", "classname": "index_update_rule", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "bf9c41c5-8a34-11e6-a73d-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.wsm", "classname": "exported_file", "description": null, "exclude_empty_values": null, "fields_info": "export_id, file_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c16cc68f-8a35-11e6-a28b-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.wsm", "classname": "partner_export", "description": null, "exclude_empty_values": null, "fields_info": "export_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c6d0068f-eb5e-11e0-bcea-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.wsm", "classname": "index_update_rule", "description": "", "exclude_empty_values": 0, "fields_info": "name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "c90a1ec0-47d4-11e4-aa4a-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.wsm", "classname": "wsm_settings", "description": null, "exclude_empty_values": null, "fields_info": "context, s_index, wsm_version"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

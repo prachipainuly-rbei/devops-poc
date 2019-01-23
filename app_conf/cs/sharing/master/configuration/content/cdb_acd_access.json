@@ -1,0 +1,16 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: My Sharings", "allow": "WRITE ACCESS", "class": "cdb_sharing"}, "DATA": {"cdb_module_id": "cs.sharing", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: My Sharings", "allow": "read", "class": "cdb_sharing"}, "DATA": {"cdb_module_id": "cs.sharing", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: My Sharings", "allow": "read", "class": "cdb_sharing_group"}, "DATA": {"cdb_module_id": "cs.sharing", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Personal Sharing Groups", "allow": "WRITE ACCESS", "class": "cdb_sharing_group"}, "DATA": {"cdb_module_id": "cs.sharing", "error_label": "authorization_fail", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "allow": "WRITE ACCESS", "class": "cdb_sharing"}, "DATA": {"cdb_module_id": "cs.sharing", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "allow": "create", "class": "cdb_sharing"}, "DATA": {"cdb_module_id": "cs.sharing", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "allow": "read", "class": "cdb_sharing"}, "DATA": {"cdb_module_id": "cs.sharing", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings", "allow": "FULL ACCESS", "class": "cdb_sharing_group"}, "DATA": {"cdb_module_id": "cs.sharing", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}
