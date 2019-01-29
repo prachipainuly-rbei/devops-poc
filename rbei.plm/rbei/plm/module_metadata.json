@@ -32,7 +32,7 @@
       "cdb_object_id": "e4f18a34-1d4a-11e9-9335-b4d5bda63023", 
       "is_interface_module": 0, 
       "mandatory": 0, 
-      "master_config_checksum": "d41d8cd98f00b204e9800998ecf8427e", 
+      "master_config_checksum": "7db1e7648b7da73d2afe1d577093de8b", 
       "name": "Customer module", 
       "package": "rbei.plm"
     }, 
