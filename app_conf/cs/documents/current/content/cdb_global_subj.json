@@ -1,0 +1,9 @@
+{
+  "cdb_global_subj": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Documentation", "subject_id": "cs.dcs.service", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.documents"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

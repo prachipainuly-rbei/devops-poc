@@ -1,0 +1,14 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Exceptional Access", "predicate_name": "cs.pcs: Exceptional Access (Documents)", "table_name": "cdbpcs_rexc_doc"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders", "predicate_name": "cs.pcs: Folders", "table_name": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)", "predicate_name": "cs.pcs: Folders (immutable)", "table_name": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (no Documents)", "predicate_name": "cs.pcs: Folders (no Documents)", "table_name": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (no Subfolders)", "predicate_name": "cs.pcs: Folders (no Subfolders)", "table_name": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Administration", "predicate_name": "cs.pcs: Folder Types", "table_name": "cdb_folder_type"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

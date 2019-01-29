@@ -1,0 +1,10 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "66a4a88f-3ec6-11e2-b500-b8c8608e4b60"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.platform.mq", "classname": "cdbmq_download", "decomp_id": "", "icon_id": "", "ordering": 61, "parent_id": "92b9092c-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91a6ec44-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.platform.mq", "classname": "cdbmq_queues", "decomp_id": "", "icon_id": "", "ordering": 60, "parent_id": "92b9092c-2528-11df-b716-e1f861774235"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "9315fef2-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "cdb_day_type", "cdb_module_id": "cs.calendar", "classname": "cdb_day_type", "decomp_id": "", "icon_id": "", "ordering": 40, "parent_id": "931d258a-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "93186124-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "cdb_cal_profile", "cdb_module_id": "cs.calendar", "classname": "cdb_calendar_profile", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "931d258a-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "931ac357-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "cdb_cal_prof_exc", "cdb_module_id": "cs.calendar", "classname": "cdb_cal_prof_exc", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "931d258a-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "931ac358-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "cdb_calendar_entry", "cdb_module_id": "cs.calendar", "classname": "cdb_calendar_entry", "decomp_id": "", "icon_id": "", "ordering": 30, "parent_id": "931d258a-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "931d258a-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "cdb_cal_data", "cdb_module_id": "cs.calendar", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 170, "parent_id": "92b9092c-2528-11df-b716-e1f861774235"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

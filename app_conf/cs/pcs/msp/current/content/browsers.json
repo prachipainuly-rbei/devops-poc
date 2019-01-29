@@ -1,0 +1,9 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "cdbpcs_msp_xml_brows"}, "DATA": {"browser_tabelle": "[default]", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.pcs.msp", "check_value": 0, "classname": "document", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "zeichnung", "search_mask": "[default]", "title_cs": "", "title_de": "XML-Dokumente", "title_en": "XML Documents", "title_es": "", "title_fr": "", "title_it": "Documenti", "title_ja": "", "title_ko": "", "title_pl": "", "title_pt": "", "title_tr": "", "title_zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "2D Drawings", "predicate_name": "2D Drawings"}, "DATA": {"attribute": "cdb_classname", "cdb_module_id": "cs.documents", "expression": "model", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 2, "name": "2D Drawings", "predicate_name": "2D Drawings"}, "DATA": {"attribute": "z_categ1", "cdb_module_id": "cs.documents", "expression": "311", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "2D Drawings", "predicate_name": "Models with 2D Drawing"}, "DATA": {"attribute": "cdb_classname", "cdb_module_id": "cs.documents", "expression": "model", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 2, "name": "2D Drawings", "predicate_name": "Models with 2D Drawing"}, "DATA": {"attribute": "z_categ1", "cdb_module_id": "cs.documents", "expression": "144", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 3, "name": "2D Drawings", "predicate_name": "Models with 2D Drawing"}, "DATA": {"attribute": "z_categ2", "cdb_module_id": "cs.documents", "expression": "'212', '296'", "filter_rule": "", "operator": "IN"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "State Change Notification Objects", "predicate_name": "pdd:Documents[Approval]"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.documents", "expression": "100", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cs-web-dashboard: My Documents", "predicate_name": "cs-web-dashboard: My Documents"}, "DATA": {"attribute": "cdb_mpersno", "cdb_module_id": "cs.documents", "expression": "$(persno)", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cs.documents: With Reviewer", "predicate_name": "Document with Reviewer"}, "DATA": {"attribute": "pruefer", "cdb_module_id": "cs.documents", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cs.sharing: Group Authors", "predicate_name": "Documents"}, "DATA": {"attribute": "autoren", "cdb_module_id": "cs.documents", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cs.sharing: Group Creator", "predicate_name": "Document"}, "DATA": {"attribute": "cdb_cpersno", "cdb_module_id": "cs.documents", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cs.sharing: Group Last Saved By", "predicate_name": "Document"}, "DATA": {"attribute": "cdb_m2persno", "cdb_module_id": "cs.documents", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cs.sharing: Group Released By", "predicate_name": "Documents"}, "DATA": {"attribute": "pruefer", "cdb_module_id": "cs.documents", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cs.sharing: Project Roles", "predicate_name": "Document"}, "DATA": {"attribute": "cdb_project_id", "cdb_module_id": "cs.documents", "expression": "", "filter_rule": "", "operator": ">"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

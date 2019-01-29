@@ -1,0 +1,10 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "cdb_frame_groups"}, "DATA": {"browser_tabelle": "[default]", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.platform.cad", "check_value": 0, "classname": "cdb_frame_group", "direct_create": 0, "fqpyname": "", "max_records": 0, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "", "search_mask": "[default]", "title_cs": "", "title_de": "Rahmengruppen", "title_en": "Frame Groups", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Antet gruplar\u0131", "title_zh": "\u6846\u67b6\u7ec4"}},
+      {"PRIMARY_KEYS": {"katalog": "cdb_rk_params"}, "DATA": {"browser_tabelle": "[default]", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.platform.cad", "check_value": 0, "classname": "cdb_rk_param", "direct_create": 0, "fqpyname": "", "max_records": 0, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "", "search_mask": "[default]", "title_cs": "", "title_de": "Schriftfeldparameter", "title_en": "Title Block Parameters", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Antet blok parametreleri", "title_zh": "\u6807\u9898\u5757\u53c2\u6570"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

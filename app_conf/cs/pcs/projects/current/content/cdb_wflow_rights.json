@@ -1,0 +1,20 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 50}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 60}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 180, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 50}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 50, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 60}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 60, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 60, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 180}, "DATA": {"cdb_module_id": "cs.pcs.projects"}},
+      {"PRIMARY_KEYS": {"iststatus": 60, "objektart": "cdbpcs_project", "subject_id": "Projektleiter", "subject_type": "PCS Role", "zielstatus": 50}, "DATA": {"cdb_module_id": "cs.pcs.projects"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

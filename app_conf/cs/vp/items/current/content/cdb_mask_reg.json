@@ -1,0 +1,21 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp", "mask_role_id": "public", "name": "$Facet:sachgruppe"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 30, "priority": 0, "reg_title": "sachmerkmale"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp", "mask_role_id": "public", "name": "cdb_elink_activitystream"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 40, "priority": 10, "reg_title": "cdbblog_maskreg_activities"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp", "mask_role_id": "public", "name": "tv_add_mask"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 15, "priority": 0, "reg_title": "tv_mask_details"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp", "mask_role_id": "public", "name": "tv_change_ctl_mask"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp", "mask_role_id": "public", "name": "tv_mask"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 10, "priority": 0, "reg_title": "teiledatenblatt"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp_c", "mask_role_id": "public", "name": "$Facet:sachgruppe"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 20, "priority": 0, "reg_title": "sachmerkmale"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp_c", "mask_role_id": "public", "name": "tv_add_mask"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 15, "priority": 0, "reg_title": "tv_mask_details"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp_c", "mask_role_id": "public", "name": "tv_mask_c"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 10, "priority": 0, "reg_title": "teiledatenblatt"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp_s", "mask_role_id": "public", "name": "$Facet:sachgruppe"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 40, "priority": 0, "reg_title": "sachmerkmale"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp_s", "mask_role_id": "public", "name": "tv_add_mask_s"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 15, "priority": 0, "reg_title": "tv_mask_details"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp_s", "mask_role_id": "public", "name": "tv_change_ctl_mask_s"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp_s", "mask_role_id": "public", "name": "tv_mask_s"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 10, "priority": 0, "reg_title": "teiledatenblatt"}},
+      {"PRIMARY_KEYS": {"mask_name": "tv_comp_s", "mask_role_id": "public", "name": "tv_sml_search_mask_s"}, "DATA": {"cdb_module_id": "cs.vp.items", "ordering": 30, "priority": null, "reg_title": "sachmerkmal"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

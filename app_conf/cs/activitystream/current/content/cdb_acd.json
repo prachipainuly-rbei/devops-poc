@@ -1,0 +1,14 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cdbblog: All Subscriptions"}, "DATA": {"cdb_module_id": "cs.activitystream", "common_flag": 1, "description": "All subscriptions"}},
+      {"PRIMARY_KEYS": {"acd_id": "cdbblog: My Subscriptions"}, "DATA": {"cdb_module_id": "cs.activitystream", "common_flag": 1, "description": "My subscriptions"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.activitystream: Comments"}, "DATA": {"cdb_module_id": "cs.activitystream", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.activitystream: My Comments"}, "DATA": {"cdb_module_id": "cs.activitystream", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.activitystream: My Postings"}, "DATA": {"cdb_module_id": "cs.activitystream", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.activitystream: Postings"}, "DATA": {"cdb_module_id": "cs.activitystream", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

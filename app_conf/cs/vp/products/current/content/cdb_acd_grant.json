@@ -1,0 +1,16 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products", "allow": "read", "class": "cdbvp_product", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products", "allow": "read_file", "class": "cdbvp_product", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products", "allow": "vp_state_change", "class": "cdbvp_product", "subject_id": "Product: Manager", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "accept", "class": "cdbvp_product", "subject_id": "Product: Manager", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "create", "class": "cdbvp_product", "subject_id": "Product: Manager", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "delete", "class": "cdbvp_product", "subject_id": "Product: Manager", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "read", "class": "cdbvp_product", "subject_id": "Product: Manager", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "save", "class": "cdbvp_product", "subject_id": "Product: Manager", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.products"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

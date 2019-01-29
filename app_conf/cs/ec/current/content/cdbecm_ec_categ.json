@@ -1,0 +1,11 @@
+{
+  "cdbecm_ec_categ": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"categ_d": "Ausf\u00fchrlich"}, "DATA": {"name_cs": "", "name_de": "Ausf\u00fchrlich", "name_en": "Extensive", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Yayg\u0131n", "name_zh": "\u5e7f\u6cdb\u7684", "obsolete": 0, "planned_changes_only": 1, "workflow": "cdbecm_standard_ec"}},
+      {"PRIMARY_KEYS": {"categ_d": "Standard"}, "DATA": {"name_cs": "", "name_de": "Standard", "name_en": "Standard", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Standart", "name_zh": "\u6807\u51c6", "obsolete": 0, "planned_changes_only": 0, "workflow": "cdbecm_standard_ec"}},
+      {"PRIMARY_KEYS": {"categ_d": "Vereinfacht"}, "DATA": {"name_cs": "", "name_de": "Vereinfacht", "name_en": "Simplified", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Basitle\u015ftirilmi\u015f", "name_zh": "\u7b80\u5316", "obsolete": 0, "planned_changes_only": 0, "workflow": "cdbecm_simple_ec"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

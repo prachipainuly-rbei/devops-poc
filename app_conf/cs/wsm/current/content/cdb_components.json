@@ -1,0 +1,9 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbwsmcommands", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.wsm", "classname": "", "description": "Komponente f\u00fcr WSM-Anfragen", "filename": "cdbwsmcommands.py", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_MODULE)"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

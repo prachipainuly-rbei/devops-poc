@@ -1,0 +1,10 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products"}, "DATA": {"cdb_module_id": "cs.vp.products", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)"}, "DATA": {"cdb_module_id": "cs.vp.products", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

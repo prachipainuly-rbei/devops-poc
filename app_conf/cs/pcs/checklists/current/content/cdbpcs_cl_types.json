@@ -1,0 +1,11 @@
+{
+  "cdbpcs_cl_types": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Checklist"}, "DATA": {"auto": 1, "cli_objektart": "cdbpcs_cl_item", "rating_scheme": "RedGreenYellow", "rating_state": 200}},
+      {"PRIMARY_KEYS": {"name": "Deliverable"}, "DATA": {"auto": 1, "cli_objektart": "cdbpcs_cl_item", "rating_scheme": "RedGreenYellow", "rating_state": 200}},
+      {"PRIMARY_KEYS": {"name": "QualityGate"}, "DATA": {"auto": 1, "cli_objektart": "cdbpcs_cl_item", "rating_scheme": "RedGreenYellow", "rating_state": 200}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

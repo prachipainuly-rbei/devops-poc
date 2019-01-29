@@ -1,0 +1,10 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "", "name_cs": "", "name_de": "Projekte", "name_en": "Projects", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Projeler", "name_zh": "\u9879\u76ee", "objclass": "cdbpcs_project", "sys_wf": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "", "name_cs": "", "name_de": "Aufgaben", "name_en": "Tasks", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "G\u00f6revler", "name_zh": "\u4efb\u52a1", "objclass": "cdbpcs_task", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

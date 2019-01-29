@@ -1,0 +1,25 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "angestellter"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_add_type"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_address"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_address_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.platform.org", "primary_table": "cdb_address"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_countries"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_employee_template"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_gender"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_languages"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_org"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_org_at_add"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_org_type"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_organization_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.platform.org", "primary_table": "cdb_org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_per_at_add"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_person_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.platform.org", "primary_table": "angestellter"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_phone_type"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_template_role"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"table_name": "cdborg_addr_v"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.platform.org", "primary_table": "", "uview_col_aliases": ""}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "SELECT  a.org_id, a.name, a.org_type, a.remark, a.org_id_head,  b.add_type, b.street, b.city, b.zip, b.country FROM cdb_org a, cdb_address b, cdb_org_at_add c WHERE a.org_id = c.org_id AND c.addr_id = b.addr_id", "cdbdd_userdefined_view_txt_5": "SELECT   a.org_id org_id, a.name name, a.org_type org_type, a.remark remark, a.org_id_head org_id_head,  b.add_type add_type, b.street street, b.city city, b.zip zip, b.country country FROM cdb_org a, cdb_address b, cdb_org_at_add c WHERE a.org_id = c.org_id AND c.addr_id = b.addr_id", "cdbdd_userdefined_view_txt_6": "SELECT  a.org_id, a.name, a.org_type, a.remark, a.org_id_head,  b.add_type, b.street, b.city, b.zip, b.country FROM cdb_org a, cdb_address b, cdb_org_at_add c WHERE a.org_id = c.org_id AND c.addr_id = b.addr_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

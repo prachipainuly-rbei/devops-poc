@@ -1,0 +1,19 @@
+{
+  "cdbxml_dataprovider": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "BOMComparison", "xsd_name": "BOMComparison"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "Item_N", "source": "cs.vp.bom.reports.BOMComparison", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "BOMComparison", "xsd_name": "BOMComparisonHeader"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "Item_N", "source": "cs.vp.bom.reports.BOMComparisonHeader", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "BOMComparison", "xsd_name": "Item_N"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "", "source": "cs.vp.items.Item", "source_type": "Context"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "xsd_name": "HierarchicalBOM"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "Item_1", "source": "cs.vp.bom.reports.HierarchicalBOM", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "xsd_name": "Item_1"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "", "source": "cs.vp.items.Item", "source_type": "Context"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "xsd_name": "Product"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "Item_1", "source": "InstantiationProduct", "source_type": "Relationship"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "xsd_name": "StatusNames"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "Item_1", "source": "cs.vp.bom.reports.StatusNames", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM", "xsd_name": "Variant"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "Item_1", "source": "Variant", "source_type": "Relationship"}},
+      {"PRIMARY_KEYS": {"name": "PartUsage", "xsd_name": "Item_1"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "", "source": "cs.vp.items.Item", "source_type": "Context"}},
+      {"PRIMARY_KEYS": {"name": "PartUsage", "xsd_name": "PartUsage"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "Item_1", "source": "cs.vp.bom.reports.PartUsage", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "PartUsage", "xsd_name": "StatusNames"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "parent_xsd_name": "Item_1", "source": "cs.vp.bom.reports.StatusNames", "source_type": "CustomCode"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

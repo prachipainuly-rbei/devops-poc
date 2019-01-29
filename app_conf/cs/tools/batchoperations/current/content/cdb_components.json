@@ -1,0 +1,10 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbbop_operation", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.tools.batchoperations", "classname": "", "description": "Komponente f\u00fcr Sammeloperationen", "filename": "", "fqpyname": "cs.tools.batchoperations.BatchOperation", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_operation_exec", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.tools.batchoperations", "classname": "", "description": "", "filename": "cdbbop_operation_exec.ue", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_MODULE)"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

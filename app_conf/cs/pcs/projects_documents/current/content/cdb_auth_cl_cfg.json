@@ -1,0 +1,11 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "catalogues", "relation": "cdb_folder_type"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_folder", "relation": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs: Exceptional Access", "relation": "cdbpcs_rexc_doc"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

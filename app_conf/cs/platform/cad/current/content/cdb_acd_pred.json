@@ -1,0 +1,9 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "frame: All Frames", "predicate_name": "All Frames", "table_name": "rahmen"}, "DATA": {"cdb_module_id": "cs.platform.cad"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

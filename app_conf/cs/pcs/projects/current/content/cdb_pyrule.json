@@ -1,0 +1,18 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "ProjectEvaluationProvider"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Projects considered for portfolio reports"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Active Project"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Active projects (used for resource management)"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Documents valid for Instantiation"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Documents that may be used as template for automatic instantiation"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Finalized Project"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Completed or discarded projects"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Finalized Task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Closed tasks (discarded or completed)"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Index-dependent Valid Documents for Instantiation"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Index-dependen documents that may be used as template for automatic instantiation"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: My Project Memberships"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "My projects (where I am team member)"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Parent Task Modifiable"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Tasks that can moved to another group/parent"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Task Valid Milestones"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Valid milestones"}},
+      {"PRIMARY_KEYS": {"name": "cdbtodo: task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "description": "Project tasks to be displayed in the Task Manager"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

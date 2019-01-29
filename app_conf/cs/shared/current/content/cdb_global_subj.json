@@ -1,0 +1,15 @@
+{
+  "cdb_global_subj": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Administrator: Master Data", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_classname": "cdb_gl_subj_role", "cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Administrator: Master Data", "subject_id": "caddok", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Design Release", "subject_id": "caddok", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Documentation", "subject_id": "caddok", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Engineering", "subject_id": "caddok", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Katalogverwalter", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_classname": "cdb_gl_subj_role", "cdb_module_id": "cs.shared"}},
+      {"PRIMARY_KEYS": {"exception_id": "", "role_id": "Merkmalskatalogverwalter", "subject_id": "caddok", "subject_type": "Person"}, "DATA": {"cdb_classname": "cdb_global_subject", "cdb_module_id": "cs.shared"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

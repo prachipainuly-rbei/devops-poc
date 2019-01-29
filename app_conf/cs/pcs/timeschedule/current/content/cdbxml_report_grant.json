@@ -1,0 +1,9 @@
+{
+  "cdbxml_report_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "TimeScheduleGantt", "report_title": "ExportGantt", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "subject_name": "public"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

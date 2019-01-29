@@ -1,0 +1,14 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "0238180f-b3a2-11e1-9282-005056c00008", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"id": "315f5370-4613-11e2-97d7-78acc0a55b77", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"id": "7b7880f0-4873-11e2-8ba5-78acc0a55b77", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"id": "85844ea1-b3a2-11e1-a783-005056c00008", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"id": "9ce80180-2509-11e2-a047-78acc0a55b77", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.activitystream"}},
+      {"PRIMARY_KEYS": {"id": "eb02a2f0-250c-11e2-b5a6-78acc0a55b77", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.activitystream"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

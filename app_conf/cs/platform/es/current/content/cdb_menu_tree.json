@@ -1,0 +1,10 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "2be7f8a1-48a1-11e0-a6e1-0019bb22e334"}, "DATA": {"ausgabe_label": "cdbes_navtree", "cdb_module_id": "cs.platform.es", "classname": "cdbes_jobs", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "92b6a6fa-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "cb9cdc70-4a32-11e0-a57c-001fc617faef"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.platform.es", "classname": "cdbes_state", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

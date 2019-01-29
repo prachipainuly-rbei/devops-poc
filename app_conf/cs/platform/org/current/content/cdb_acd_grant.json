@@ -1,0 +1,17 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle", "allow": "CHANGE", "class": "angestellter", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle", "allow": "CHANGE", "class": "angestellter", "subject_id": "License-Admin", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle", "allow": "create", "class": "angestellter", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle", "allow": "read", "class": "angestellter", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle", "allow": "read_file", "class": "angestellter", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:eigener Eintrag", "allow": "CHANGE", "class": "angestellter", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:ohne CDB Account", "allow": "CHANGE", "class": "angestellter", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:ohne CDB Account", "allow": "create", "class": "angestellter", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:ohne CDB Account", "allow": "read", "class": "angestellter", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.platform.org"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

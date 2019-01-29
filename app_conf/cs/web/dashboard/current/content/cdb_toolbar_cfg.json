@@ -1,0 +1,9 @@
+{
+  "cdb_toolbar_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "cs_web_dashboard", "toolbar_id": "webui_navigation"}, "DATA": {"actiongroup": 20, "cdb_module_id": "cs.web.dashboard", "descr": "", "icon_id": "csweb_home", "ordering": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_Rahmen"}, "DATA": {"cdb_module_id": "cs.platform.cad", "cs": "", "d": "Rahmen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Antet", "uk": "Frame", "zh": "\u6846\u67b6"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_Rahmengruppen"}, "DATA": {"cdb_module_id": "cs.platform.cad", "cs": "", "d": "Rahmengruppen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Antet gruplar\u0131", "uk": "Frame Groups", "zh": "\u6846\u67b6\u7ec4"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_Schriftfeld"}, "DATA": {"cdb_module_id": "cs.platform.cad", "cs": "", "d": "Schriftfeld", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Ba\u015fl\u0131k blo\u011fu", "uk": "Title Block", "zh": "\u6807\u9898\u5757"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_cad_talk_msg"}, "DATA": {"cdb_module_id": "cs.platform.cad", "cs": "", "d": "CAD-Meldungen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "CAD mesajlar\u0131", "uk": "CAD Messages", "zh": "CAD\u4fe1\u606f"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_rk_params"}, "DATA": {"cdb_module_id": "cs.platform.cad", "cs": "", "d": "Schriftfeldparameter", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Ba\u015fl\u0131k blok parametreleri", "uk": "Title Block Parameters", "zh": "\u6807\u9898\u5757\u53c2\u6570"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

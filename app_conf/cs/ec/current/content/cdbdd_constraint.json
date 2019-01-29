@@ -1,0 +1,16 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0af0b930-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec_templ2rule", "description": "", "exclude_empty_values": null, "fields_info": "cdb_ec_id, rule_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0c43d0ac-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec", "description": "", "exclude_empty_values": null, "fields_info": "cdb_ec_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0c5bb1e0-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec_templ2proc", "description": "", "exclude_empty_values": null, "fields_info": "cdb_ec_id, cdb_process_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0c607884-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec_prot", "description": "", "exclude_empty_values": null, "fields_info": "cdbprot_zaehler"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0ca0f22a-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec_categ", "description": "", "exclude_empty_values": null, "fields_info": "categ_d"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "3a2e36f0-f8af-11e4-92e8-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec_categ", "description": "", "exclude_empty_values": 0, "fields_info": "name_de"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "3f4ca3ae-f8af-11e4-a91f-f0def133d0a6"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.ec", "classname": "cdbecm_ec_categ", "description": "", "exclude_empty_values": 1, "fields_info": "name_en"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e864dc8f-5977-11e1-93ef-001c42b5d769"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.ec", "classname": "cdb_action2ec", "description": "", "exclude_empty_values": null, "fields_info": "cdb_ec_id, action_object_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

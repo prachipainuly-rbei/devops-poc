@@ -1,0 +1,23 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "496c5826-1aff-11e8-aa99-3c52825e6e7e"}, "DATA": {"ausgabe_label": "user_template", "cdb_module_id": "cs.platform.org", "classname": "cdb_employee_template", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "9260d7cd-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "8eecb621-6be8-11e4-9ba4-1cc1de660f15"}, "DATA": {"ausgabe_label": "tree_phone_cat", "cdb_module_id": "cs.platform.org", "classname": "cdb_phone_type", "decomp_id": "", "icon_id": "", "ordering": 30, "parent_id": "d9443d9e-4440-11e2-99c9-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91c12474-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_cdb_languages", "cdb_module_id": "cs.platform.org", "classname": "cdb_languages", "decomp_id": "", "icon_id": "", "ordering": 210, "parent_id": "bc961c8f-4446-11e2-8098-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91e2833e-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_cdb_user", "cdb_module_id": "cs.platform.org", "classname": "angestellter", "decomp_id": "", "icon_id": "", "ordering": 0, "parent_id": "9259b135-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91e2833f-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_address_cat", "cdb_module_id": "cs.platform.org", "classname": "cdb_add_type", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "d9443d9e-4440-11e2-99c9-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91e28340-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_org_cat", "cdb_module_id": "cs.platform.org", "classname": "cdb_org_type", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "d9443d9e-4440-11e2-99c9-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91e4e571-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_addresses", "cdb_module_id": "cs.platform.org", "classname": "cdb_address", "decomp_id": "", "icon_id": "", "ordering": 30, "parent_id": "9206443b-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91e9a9d7-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_organization", "cdb_module_id": "cs.platform.org", "classname": "cdb_organization", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "9206443b-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9206443b-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_org_data", "cdb_module_id": "cs.platform.org", "classname": "cdb_organization", "decomp_id": "", "icon_id": "cdb_organization", "ordering": 130, "parent_id": "919b0145-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "92a5f794-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_Katalogverwal", "cdb_module_id": "cs.platform.org", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 30, "parent_id": "92b6a6fa-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9339bfef-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_cdb_countries", "cdb_module_id": "cs.platform.org", "classname": "cdb_countries", "decomp_id": "", "icon_id": "", "ordering": 200, "parent_id": "bc961c8f-4446-11e2-8098-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "933c2221-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_personen", "cdb_module_id": "cs.platform.org", "classname": "cdb_person", "decomp_id": "", "icon_id": "", "ordering": 20, "parent_id": "9206443b-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "95e0e680-1b09-11e8-bc01-3c52825e6e7e"}, "DATA": {"ausgabe_label": "tree_role_template", "cdb_module_id": "cs.platform.org", "classname": "cdb_template_role", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "9260d7cd-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "bc961c8f-4446-11e2-8098-f0def133d0a6"}, "DATA": {"ausgabe_label": "tree_Allgemein", "cdb_module_id": "cs.platform.org", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 10, "parent_id": "92a5f794-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d9443d9e-4440-11e2-99c9-f0def133d0a6"}, "DATA": {"ausgabe_label": "tree_org_data", "cdb_module_id": "cs.platform.org", "classname": "", "decomp_id": "", "icon_id": "", "ordering": 120, "parent_id": "92a5f794-2528-11df-b716-e1f861774235"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

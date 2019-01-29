@@ -1,0 +1,11 @@
+{
+  "cdbxml_report": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "DataConsistencyCheck", "title": "DataConsistency"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": ""}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit", "title": "Project-Cockpit"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": ""}},
+      {"PRIMARY_KEYS": {"name": "ProjectMTA", "title": "Meilensteintrendanalyse"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbpcs_rep_mta_mask"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

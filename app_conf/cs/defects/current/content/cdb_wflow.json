@@ -1,0 +1,9 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects", "description": "", "name_cs": "", "name_de": "Fehler", "name_en": "Defects", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Hatalar", "name_zh": "\u7f3a\u9677", "objclass": "cdb_defect", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdbvp_maturity_dtag"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 9806, "pl": "", "pt": "", "s": "", "tr": "name", "uk": "name", "zh": "name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbvp_no_variant_mgr_excl"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "Sie haben keine Berechtigung Varianten aus dem L\u00f6sungsraum  auszuschlie\u00dfen.", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "\u00c7\u00f6z\u00fcm alan\u0131ndan t\u00fcrevleri hari\u00e7 tutma yetkiniz bulunmuyor.", "uk": "You have no permission to exclude variants from solution space.", "zh": "\u4f60\u6ca1\u6709\u6743\u9650\u6392\u9664\u53d8\u91cf\u4ece\u65b9\u6848\u7a7a\u95f4."}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbvp_no_variant_mgr_inst"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": null, "d": "Sie haben keine Berechtigung Artikel auszupr\u00e4gen.", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": "", "tr": "Par\u00e7alar\u0131 somutla\u015ft\u0131rma yetkiniz bulunmuyor.", "uk": "You have no permission to instantiate parts.", "zh": "\u4f60\u6ca1\u6709\u6743\u9650\u6765\u5b9e\u4f8b\u5316\u96f6\u4ef6."}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "code", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 9811, "pl": "", "pt": "", "s": "", "tr": "code", "uk": "code", "zh": "code"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbvp_product_status"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "Das zugeordnete Produkt befindet sich nicht im Status 'Entwurf'.", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 9836, "pl": "", "pt": "", "s": "", "tr": "Atanm\u0131\u015f \u00fcr\u00fcn\u00fcn durumu 'taslak' de\u011fil.", "uk": "The assigned product's status is not 'Draft'.", "zh": "\u5206\u914d\u7684\u4ea7\u54c1\u72b6\u6001\u4e0d\u662f'\u8349\u56fe'"}},
+      {"PRIMARY_KEYS": {"meldung_label": "growth_share_report"}, "DATA": {"cdb_module_id": "cs.vp.products", "cs": "", "d": "Growth-Share Matrix", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "Growth-Share Matrix", "uk": "Growth-Share Matrix", "zh": "Growth-Share Matrix"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_FulltextSearch"}, "DATA": {"cdb_module_id": "cs.platform.es"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbes_restart_jobs"}, "DATA": {"cdb_module_id": "cs.platform.es"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

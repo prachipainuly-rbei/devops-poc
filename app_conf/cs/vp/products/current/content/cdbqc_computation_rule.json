@@ -1,0 +1,14 @@
+{
+  "cdbqc_computation_rule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "54054aee-2d9b-11e2-8ee6-082e5f0d3665"}, "DATA": {"cdb_classname": "cdbqc_custom_computation_rule", "cdb_module_id": "cs.vp.products", "fqpyname": "cs.vp.products.portfolios.PortfolioFolder.turnover_products_per_year", "name": "Portfolio Folder: Umsatzt Produkte pro Jahr"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "5f436e9e-2365-11e2-b721-0026c78a4864"}, "DATA": {"cdb_classname": "cdbqc_expression_evaluation", "cdb_module_id": "cs.vp.products", "expression": "SPY*LVP", "name": "VP: Umsatz pro Jahr"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "71f91ff0-2364-11e2-835c-0026c78a4864"}, "DATA": {"cdb_classname": "cdbqc_custom_computation_rule", "cdb_module_id": "cs.vp.products", "fqpyname": "cs.vp.products.metrics.vp_compute_amount_comp", "name": "VP: Anzahl Komponenten"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91dcd470-2d6d-11e2-a1d8-082e5f0d3665"}, "DATA": {"action": "", "cdb_classname": "cdbqc_sql_statistics", "cdb_module_id": "cs.vp.products", "evalued_attribute": "distinct code", "name": "Anzahl Produkte ohne Revision", "period": "", "statistics_name": "COUNT"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "be7e7bf0-2d9a-11e2-b8fb-082e5f0d3665"}, "DATA": {"cdb_classname": "cdbqc_custom_computation_rule", "cdb_module_id": "cs.vp.products", "fqpyname": "cs.vp.products.portfolios.PortfolioFolder.number_of_products", "name": "Portfolio Folder: Anzahl Produkte"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ec9fe5de-2364-11e2-8ee9-0026c78a4864"}, "DATA": {"cdb_classname": "cdbqc_custom_computation_rule", "cdb_module_id": "cs.vp.products", "fqpyname": "cs.vp.products.metrics.vp_compute_amount_variants", "name": "VP: Anzahl Varianten"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

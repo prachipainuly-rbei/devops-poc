@@ -1,0 +1,12 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_action2issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "\"Ma\u00dfnahme <-> Offener Punkt\"", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1479, "pl": "", "pt": "", "s": "", "tr": "\"Eylem <-> A\u00e7\u0131k konu\"", "uk": "\"Action <-> Open Issue\"", "zh": "\"\u52a8\u4f5c<->\u5f00\u653e\u7684\u95ee\u9898\""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_iss_val"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": null, "d": "name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": "", "tr": "name", "uk": "name", "zh": "name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_issue_report_failed"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "Report fehlgeschlagen: %s", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "", "uk": "Report failed: %s", "zh": ""}},
+      {"PRIMARY_KEYS": {"meldung_label": "pcs_issue_tag"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "cs": "", "d": "issue_name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1559, "pl": "", "pt": "", "s": "", "tr": "issue_name", "uk": "issue_name", "zh": "issue_name"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

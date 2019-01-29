@@ -1,0 +1,9 @@
+{
+  "masken": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribut": "xml_filename", "name": "cdbpcs_export_xml_mask", "role_id": "public"}, "DATA": {"alignment": 0, "as_configured": 0, "beschriftung_cs": "", "beschriftung_d": "Zieldatei", "beschriftung_f": "", "beschriftung_i": "", "beschriftung_ja": "", "beschriftung_ko": "", "beschriftung_pl": "", "beschriftung_pt": "", "beschriftung_s": "", "beschriftung_tr": "Hedef dosya", "beschriftung_uk": "Destination File", "beschriftung_zh": "\u76ee\u6807\u6587\u4ef6", "cdb_module_id": "cs.pcs.msp", "deactivated": 0, "dflt": "", "farbe": null, "gross_klein": null, "hidden": 0, "itemtyp": 18, "katalog": "", "mask_index": 10, "monospaced": 0, "mussfeld": 1, "read_only": 0, "resize_mode": 1, "rs_obj_link": "", "stored_len": null, "string1": "", "string2": "1", "tooltip": "", "typ": 0, "url": "", "user_exit": "", "visible_len": 50, "x_position": 20, "y_position": 20, "zeilen": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

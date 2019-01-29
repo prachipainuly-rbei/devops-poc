@@ -1,0 +1,10 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.portfolios.PortfolioFolder", "name": "Visible Portfolio Folders", "predicate_name": "Active portfolio folders"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.portfolios.Portfolio", "name": "Visible Portfolios", "predicate_name": "Active Portfolios"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

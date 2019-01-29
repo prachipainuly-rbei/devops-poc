@@ -1,0 +1,18 @@
+{
+  "cdb_toolbar_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "CDB_Copy", "toolbar_id": "operations"}, "DATA": {"actiongroup": 30, "cdb_module_id": "cs.platform.misc", "descr": "", "icon_id": "Copy", "ordering": 40}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "CDB_Delete", "toolbar_id": "operations"}, "DATA": {"actiongroup": 30, "cdb_module_id": "cs.platform.misc", "descr": "", "icon_id": "Delete", "ordering": 100}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "CDB_Edit", "toolbar_id": "operations"}, "DATA": {"actiongroup": 30, "cdb_module_id": "cs.platform.misc", "descr": "", "icon_id": "Edit", "ordering": 60}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "CDB_Export", "toolbar_id": "operations"}, "DATA": {"actiongroup": 30, "cdb_module_id": "cs.platform.misc", "descr": "", "icon_id": "Export", "ordering": 80}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "CDB_Index", "toolbar_id": "operations"}, "DATA": {"actiongroup": 30, "cdb_module_id": "cs.platform.misc", "descr": "", "icon_id": "Index", "ordering": 90}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "CDB_Modify", "toolbar_id": "operations"}, "DATA": {"actiongroup": 30, "cdb_module_id": "cs.platform.misc", "descr": "", "icon_id": "Modify", "ordering": 50}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "CDB_SearchAgain", "toolbar_id": "operations"}, "DATA": {"actiongroup": 30, "cdb_module_id": "cs.platform.misc", "descr": "", "icon_id": "SearchAgain", "ordering": 10}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "CDB_ShowObject", "toolbar_id": "operations"}, "DATA": {"actiongroup": 30, "cdb_module_id": "cs.platform.misc", "descr": "", "icon_id": "Information", "ordering": 20}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "CDB_View", "toolbar_id": "operations"}, "DATA": {"actiongroup": 30, "cdb_module_id": "cs.platform.misc", "descr": "", "icon_id": "View", "ordering": 30}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "CDB_Workflow", "toolbar_id": "operations"}, "DATA": {"actiongroup": 30, "cdb_module_id": "cs.platform.misc", "descr": "", "icon_id": "Workflow", "ordering": 70}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

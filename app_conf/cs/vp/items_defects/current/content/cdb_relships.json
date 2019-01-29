@@ -1,0 +1,10 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_defect2part"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.vp.items_defects", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 0, "label": "cdb_part", "menugroup": 10000, "node_tag": "", "ordering": 100, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "part", "reference_kmap": "teilenummer=teilenummer;t_index=t_index", "referer": "cdb_defect", "referer_kmap": "teilenummer=teilenummer;t_index=t_index", "relship_cldef": "part", "relship_table": "", "rolename": "Part", "rs_acc_prof": "", "rs_profile": "cdb_association_1_1", "show_in_mask": 0, "show_in_menu": 0}},
+      {"PRIMARY_KEYS": {"name": "cdb_part2defects"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.vp.items_defects", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 0, "label": "cdb_defects", "menugroup": 10000, "node_tag": "", "ordering": 25, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdb_defect", "reference_kmap": "cdb_object_id=cdb_object_id", "referer": "part", "referer_kmap": "teilenummer=teilenummer;t_index=t_index", "relship_cldef": "cdb_defect", "relship_table": "", "rolename": "Defects", "rs_acc_prof": "", "rs_profile": "cdb_aggregation_1_N_no_copy", "show_in_mask": 2, "show_in_menu": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0dd9c520-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.installscripts", "classname": "cdb_version", "description": "", "exclude_empty_values": null, "fields_info": "cdb_version"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0dde8bc4-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.installscripts", "classname": "cdb_script_log", "description": "", "exclude_empty_values": null, "fields_info": "name, cdb_version, exec_id, msg_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0de5b5ba-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.installscripts", "classname": "cdb_install_script", "description": "", "exclude_empty_values": null, "fields_info": "name, cdb_version"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0de8190c-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.installscripts", "classname": "cdb_script_exec", "description": "", "exclude_empty_values": null, "fields_info": "name, cdb_version, exec_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

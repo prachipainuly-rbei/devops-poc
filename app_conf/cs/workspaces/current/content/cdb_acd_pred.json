@@ -1,0 +1,13 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.workspaces: Workspaces (BLOCKED, OBSOLETE)", "predicate_name": "cs.workspaces: Workspaces (BLOCKED)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workspaces: Workspaces (BLOCKED, OBSOLETE)", "predicate_name": "cs.workspaces: Workspaces (OBSOLETE)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workspaces: Workspaces (DRAFT)", "predicate_name": "cs.workspaces: Workspaces (DRAFT)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workspaces: Workspaces (RELEASED)", "predicate_name": "cs.workspaces: Workspaces (RELEASED)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.workspaces"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workspaces: Workspaces (REVISION)", "predicate_name": "cs.workspaces: Workspaces (REVISION)", "table_name": "zeichnung"}, "DATA": {"cdb_module_id": "cs.workspaces"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

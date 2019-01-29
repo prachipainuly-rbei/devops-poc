@@ -1,0 +1,15 @@
+{
+  "cdb_active_comp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "now", "name": "cdb_license_report", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"action_what": "cdb_refresh_table", "action_when": "now", "name": "cdb_refresh_table", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "*", "name": "cdbdistribute", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "*", "name": "cdbnumgen", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "*", "name": "state_change_post", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "*", "name": "state_change_pre", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"action_what": "*", "action_when": "*", "name": "state_change_pre_mask", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.misc"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

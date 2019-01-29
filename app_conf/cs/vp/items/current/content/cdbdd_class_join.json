@@ -1,0 +1,11 @@
+{
+  "cdbdd_class_join": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdb_t_statiprot", "join_relship": "cdb_t_statiprot2new_status"}, "DATA": {"alias_name": "NewStatus", "cdb_module_id": "cs.vp.items", "enable_create_on_copy": null, "enable_create_on_create": null, "enable_modify_on_copy": null, "enable_modify_on_create": null, "enable_modify_on_modify": null}},
+      {"PRIMARY_KEYS": {"classname": "cdb_t_statiprot", "join_relship": "cdb_t_statiprot2old_status"}, "DATA": {"alias_name": "OldStatus", "cdb_module_id": "cs.vp.items", "enable_create_on_copy": null, "enable_create_on_create": null, "enable_modify_on_copy": null, "enable_modify_on_create": null, "enable_modify_on_modify": null}},
+      {"PRIMARY_KEYS": {"classname": "part", "join_relship": "part2objektstati"}, "DATA": {"alias_name": "Status", "cdb_module_id": "cs.vp.items", "enable_create_on_copy": null, "enable_create_on_create": null, "enable_modify_on_copy": null, "enable_modify_on_create": null, "enable_modify_on_modify": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

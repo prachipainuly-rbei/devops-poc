@@ -1,0 +1,16 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "011ae380-f4cc-11e0-afb2-00a0c6000000", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "0ad79080-f4cc-11e0-8f06-00a0c6000000", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "1c98135e-cb56-11e1-b2a4-001c42b5d769", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "5a96b891-5e2a-11e1-9b87-001c42b5d769", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "7b34bd40-b9e8-11e0-8633-005056c00008", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "a1891ecf-4440-11e2-8155-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "a1891ecf-4440-11e2-8155-f0def133d0a6", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"id": "f84c670f-f4cb-11e0-b0ed-00a0c6000000", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.defects"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

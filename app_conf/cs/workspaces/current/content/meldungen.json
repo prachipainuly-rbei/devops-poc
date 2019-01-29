@@ -1,0 +1,9 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_wsp_dtag"}, "DATA": {"cdb_module_id": "cs.workspaces", "cs": "", "d": "titel + \" \" + z_nummer +\"/\"+z_index", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1291, "pl": "", "pt": "", "s": "", "tr": "titel + \" \" + z_nummer +\"/\"+z_index", "uk": "titel + \" \" + z_nummer +\"/\"+z_index", "zh": "titel + \" \" + z_nummer +\"/\"+z_index"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

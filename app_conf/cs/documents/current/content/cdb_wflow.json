@@ -1,0 +1,10 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "doc_approve"}, "DATA": {"cdb_module_id": "cs.documents", "description": "", "name_cs": "", "name_de": "Dokumente (mit Pr\u00fcfung)", "name_en": "Documents (with Review)", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Belgeler (\u00f6nizlemeli)", "name_zh": "\u6587\u6863(\u5ba1\u9605)", "objclass": "document", "sys_wf": 0}},
+      {"PRIMARY_KEYS": {"objektart": "doc_standard"}, "DATA": {"cdb_module_id": "cs.documents", "description": "", "name_cs": "", "name_de": "Dokumente (ohne Pr\u00fcfung)", "name_en": "Documents (no Review)", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Belgeler (\u00f6nizlemesiz)", "name_zh": "\u6587\u6863(\u672a\u5ba1\u9605)", "objclass": "document", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

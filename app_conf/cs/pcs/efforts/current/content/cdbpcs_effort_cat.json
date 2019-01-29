@@ -1,0 +1,17 @@
+{
+  "cdbpcs_effort_cat": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"category": "Dokumentation"}, "DATA": {"billable_dft": "ja", "name_cs": "", "name_de": "Dokumentation", "name_en": "Documentation", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Dok\u00fcmantasyon", "name_zh": "\u6587\u6863", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "Einkauf"}, "DATA": {"billable_dft": "ja", "name_cs": "", "name_de": "Einkauf", "name_en": "Purchase", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Sat\u0131n alma", "name_zh": "\u91c7\u8d2d", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "Entwicklung"}, "DATA": {"billable_dft": "ja", "name_cs": "", "name_de": "Entwicklung", "name_en": "Development", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Geli\u015ftirme", "name_zh": "\u5f00\u53d1", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "Feiertag"}, "DATA": {"billable_dft": "nein", "name_cs": "", "name_de": "Feiertag", "name_en": "Public Holiday", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Resmi tatil", "name_zh": "\u516c\u5171\u5047\u65e5", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "Konzeption"}, "DATA": {"billable_dft": "ja", "name_cs": "", "name_de": "Konzeption", "name_en": "Conception", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Kavram", "name_zh": "\u6982\u5ff5", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "Krankheit"}, "DATA": {"billable_dft": "nein", "name_cs": "", "name_de": "Krankheit", "name_en": "Illness", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Hastal\u0131k", "name_zh": "\u75be\u75c5", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "Organisation/Leitung"}, "DATA": {"billable_dft": "ja", "name_cs": "", "name_de": "Organisation/Leitung", "name_en": "Organisation/Mgmt.", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Organizasyon/Y\u00f6netim", "name_zh": "\u7ec4\u7ec7/\u7ba1\u7406", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "Qualit\u00e4tssicherung"}, "DATA": {"billable_dft": "ja", "name_cs": "", "name_de": "Qualit\u00e4tssicherung", "name_en": "Quality Assurance", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Kalite g\u00fcvence", "name_zh": "\u8d28\u91cf\u4fdd\u8bc1", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"category": "Urlaub"}, "DATA": {"billable_dft": "nein", "name_cs": "", "name_de": "Urlaub", "name_en": "Holiday", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Tatil", "name_zh": "\u5047\u65e5", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

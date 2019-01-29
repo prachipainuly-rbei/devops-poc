@@ -1,0 +1,13 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.taskmanager: All User Views"}, "DATA": {"cdb_module_id": "cs.taskmanager", "common_flag": 1, "description": "All user views (for admins)"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.taskmanager: My Own User Views"}, "DATA": {"cdb_module_id": "cs.taskmanager", "common_flag": 1, "description": "Personal user views: write"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.taskmanager: My User Views"}, "DATA": {"cdb_module_id": "cs.taskmanager", "common_flag": 1, "description": "Personal and role user views: read"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs_tasks: Show Own Tasks"}, "DATA": {"cdb_module_id": "cs.taskmanager", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs_tasks: Show Tasks"}, "DATA": {"cdb_module_id": "cs.taskmanager", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

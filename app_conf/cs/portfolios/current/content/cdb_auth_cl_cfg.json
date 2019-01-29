@@ -1,0 +1,11 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdb_portfolio", "relation": "cdb_portfolio"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_portfolio", "relation": "cdb_portfolio_category"}, "DATA": {"cdb_module_id": "cs.portfolios"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_portfolio", "relation": "cdb_portfolio_folder"}, "DATA": {"cdb_module_id": "cs.portfolios"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

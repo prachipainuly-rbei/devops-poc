@@ -1,0 +1,10 @@
+{
+  "cdbxml_dataprovider": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "TimeScheduleGantt", "xsd_name": "ExportGantt"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "context": "cs.pcs.timeschedule.TimeSchedule", "parent_xsd_name": "TimeSchedule_1", "source": "cs.pcs.timeschedule.reports.ExportGantt", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "TimeScheduleGantt", "xsd_name": "TimeSchedule_1"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "context": "cs.pcs.timeschedule.TimeSchedule", "parent_xsd_name": "", "source": "cs.pcs.timeschedule.TimeSchedule", "source_type": "Context"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

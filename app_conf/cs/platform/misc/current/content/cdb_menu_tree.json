@@ -1,0 +1,9 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "b5ade24f-662e-11e7-9866-082e5f0d0c14"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.platform.misc", "classname": "cdbdd_field_content_type", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "ddee4c8e-59f1-11df-a0b9-dfffe8997085"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

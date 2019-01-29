@@ -1,0 +1,9 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "cdb_role_exc"}, "DATA": {"browser_tabelle": "[default]", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.platform.roles", "check_value": 0, "classname": "cdb_role_exc", "direct_create": 0, "fqpyname": "", "max_records": 0, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "", "search_mask": "[default]", "title_cs": "", "title_de": "Ausnahmeberechtigung", "title_en": "Exceptional Access Right", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "\u0130stisnai izin", "title_zh": "\u7279\u6b8a\u6388\u6743"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

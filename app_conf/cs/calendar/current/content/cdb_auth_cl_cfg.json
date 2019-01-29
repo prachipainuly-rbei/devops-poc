@@ -1,0 +1,11 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdb_calendar", "relation": "cdb_cal_prof_exc"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_calendar", "relation": "cdb_calendar_entry"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdb_calendar", "relation": "cdb_calendar_profile"}, "DATA": {"cdb_module_id": "cs.calendar"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "1986e980-8276-11e2-bf28-78acc0a55b77"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.cad", "classname": "altdaten_zeich", "description": "", "exclude_empty_values": null, "fields_info": ""}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a535cf6e-a18e-11e0-9a35-6cf049769241"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.cad", "classname": "cad_variant", "description": "", "exclude_empty_values": null, "fields_info": "z_nummer, z_index, variant_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

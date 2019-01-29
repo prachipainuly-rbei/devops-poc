@@ -1,0 +1,9 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "csweb_err_op_not_available"}, "DATA": {"cdb_module_id": "cs.platform.web", "cs": "", "d": "Die Operation '%s' der Klasse '%s' ist f\u00fcr das Web UI nicht verf\u00fcgbar.", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "", "uk": "The operation '%s' of class '%s' is not available for the Web UI.", "zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

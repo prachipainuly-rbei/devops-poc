@@ -1,0 +1,14 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "All", "table_name": "cdbblog_subscription"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.activitystream", "description": "All subscriptions to activity stream channels"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "My", "table_name": "cdbblog_subscription"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.activitystream", "description": "My subscriptions"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.activitystream: Comments", "table_name": "cdbblog_comment"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.activitystream", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.activitystream: My Comments", "table_name": "cdbblog_comment"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.activitystream", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.activitystream: My Postings", "table_name": "cdbblog_posting"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.activitystream", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.activitystream: Postings", "table_name": "cdbblog_posting"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.activitystream", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

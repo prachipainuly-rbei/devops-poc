@@ -1,0 +1,10 @@
+{
+  "bom_config_to_role": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"bom_config": "529421c0-0aef-11e6-a82f-dd210e660279", "role_id": "Engineering"}, "DATA": {"cdb_object_id": "52ae878f-0aef-11e6-99d6-dd210e660279"}},
+      {"PRIMARY_KEYS": {"bom_config": "5bceaa30-b6a3-11e0-aa90-6cf049769241", "role_id": "Engineering"}, "DATA": {"cdb_object_id": "7010e55e-b907-11e0-af24-6cf049769241"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

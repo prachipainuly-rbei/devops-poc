@@ -1,0 +1,10 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "cdb_portfolio_categories"}, "DATA": {"browser_tabelle": "[default]", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.portfolios", "check_value": 0, "classname": "cdb_portfolio_category", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 1, "proposal_class": "", "relation": "", "search_mask": "[default]", "title_cs": "", "title_de": "Portfoliokategorien", "title_en": "Portfolio Categories", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Portfolyo kategorileri", "title_zh": "\u7ec4\u5408\u7c7b\u522b"}},
+      {"PRIMARY_KEYS": {"katalog": "cdb_portfolio_folders"}, "DATA": {"browser_tabelle": "[default]", "callfield_only": 0, "cdb_classname": "cdb_structure_browser", "cdb_module_id": "cs.portfolios", "classname": "cdb_portfolio_folder", "comp_name": "cdb_portfolio_overview", "direct_create": 0, "force_leaf_sel": 0, "fqpyname": "", "max_records": 100, "relation": "", "show_rs_window": 0, "struct_root_class": "cdb_portfolio", "title_cs": "", "title_de": "Portfolioordner", "title_en": "Portfolio Folders", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Portfolyo klas\u00f6rleri", "title_zh": "\u7ec4\u5408\u6587\u4ef6\u5939"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

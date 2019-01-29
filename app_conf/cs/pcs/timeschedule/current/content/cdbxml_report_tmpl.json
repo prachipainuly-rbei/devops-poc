@@ -1,0 +1,10 @@
+{
+  "cdbxml_report_tmpl": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "TimeScheduleGantt", "report_title": "ExportGantt"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "cdb_object_id": "96632f91-a3a9-11e3-b67c-b4b52faf81e1", "title": "ExportGanttDiagramm"}},
+      {"PRIMARY_KEYS": {"iso_code": "en", "name": "TimeScheduleGantt", "report_title": "ExportGantt"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "cdb_object_id": "39f93351-0e9f-11e5-852a-b4b52faf81e1", "title": "ExportGantt_En"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

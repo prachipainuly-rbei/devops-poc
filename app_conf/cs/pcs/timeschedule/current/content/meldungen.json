@@ -1,0 +1,14 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_error"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "cs": null, "d": "Ein Fehler ist aufgetreten.", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": "", "tr": "Bir hata meydana geldi.", "uk": "An error has occured.", "zh": "\u53d1\u751f\u9519\u8bef."}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_project2time_schedule_tag"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "cs": null, "d": "project_name + \" <> \" + schedule_name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": "", "tr": "project_name + \" <> \" + schedule_name", "uk": "project_name + \" <> \" + schedule_name", "zh": "project_name + \" <> \" + schedule_name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_project_id_needed"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "cs": null, "d": "Es darf keine Projektrolle verantwortlich gemacht werden, wenn kein Projekt festgelegt wurde.", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": "", "tr": "Bir proje girmeden bir proje rol\u00fcn\u00fc sorumlu olarak giremezsiniz.", "uk": "You may not enter a project role as responsible without entering a project.", "zh": "\u4f60\u53ef\u80fd\u6ca1\u6709\u8f93\u5165\u9879\u76ee\u7684\u89d2\u8272\u4f5c\u4e3a\u8d23\u4efb\u4eba\u6ca1\u6709\u8f93\u5165\u4e00\u4e2a\u9879\u76ee."}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_time_schedule_tag"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "cs": null, "d": "name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": "", "tr": "name", "uk": "name", "zh": "name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_ts_content"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "cs": null, "d": "\"Terminplanelement: \" + position", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": "", "tr": "\"Zaman plan\u0131 eleman\u0131\" + position", "uk": "\"Time schedule element\" + position", "zh": "\"\u65f6\u95f4\u8fdb\u5ea6\u8868\u5143\u7d20\" + position"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_ts_format_dtag"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "cs": null, "d": "name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": "", "tr": "name", "uk": "name", "zh": "name"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

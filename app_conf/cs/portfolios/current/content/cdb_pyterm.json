@@ -1,0 +1,10 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.portfolios.PortfolioFolder", "id": 1, "name": "Visible Portfolio Folders", "predicate_name": "Active portfolio folders"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.portfolios", "expression": "100", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.portfolios.Portfolio", "id": 1, "name": "Visible Portfolios", "predicate_name": "Active Portfolios"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.portfolios", "expression": "100", "filter_rule": "", "operator": "="}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbvp_configurable_items"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Parts"}},
+      {"PRIMARY_KEYS": {"auth_class": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "Parts"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

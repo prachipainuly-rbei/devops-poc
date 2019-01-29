@@ -1,0 +1,11 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues (by me)"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Issues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

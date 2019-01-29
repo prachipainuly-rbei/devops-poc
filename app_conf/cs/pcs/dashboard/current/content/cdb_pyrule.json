@@ -1,0 +1,16 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Kosmodrom: Active Objects"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": "Active objects"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Kosmodrom: My Objects"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": "Objects I am reponsible for"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Kosmodrom: Objects By Date"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": "Objects due on a certain day"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Kosmodrom: Objects In Period"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": "Objects due in a certain time period"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Kosmodrom: Objects Recently Created"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": "Objects created in the last few days"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Kosmodrom: Overdue Objects"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": "Overdue Objects"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Kosmodrom: Released Objects"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": "Approved objects"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs: Kosmodrom: Tasks Not Begun"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": "Tasks ready but not in progress"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

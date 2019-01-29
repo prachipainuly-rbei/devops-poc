@@ -1,0 +1,18 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "OFFICELINK_001"}, "DATA": {"cdb_module_id": "cs.officelink", "description": "Execute basic operations on a Document: Load, Create, Save, Create Index, Change Status, Show/Modify Data Sheet.", "name": "OfficeLink: Basic Document Operations"}},
+      {"PRIMARY_KEYS": {"id": "OFFICELINK_010"}, "DATA": {"cdb_module_id": "cs.officelink", "description": "Read attributes of a Document or its associated objects via defined document variables.", "name": "OfficeLink: Metadata Synchronization (Read)"}},
+      {"PRIMARY_KEYS": {"id": "OFFICELINK_011"}, "DATA": {"cdb_module_id": "cs.officelink", "description": "Write attributes of a Document or its associated objects via defined document variables.", "name": "OfficeLink: Metadata Synchronization (Write)"}},
+      {"PRIMARY_KEYS": {"id": "OFFICELINK_020"}, "DATA": {"cdb_module_id": "cs.officelink", "description": "Archive Outlook mails and attachments seperately and map their properties with Document attributes.", "name": "OfficeLink: Outlook Mail Archiving"}},
+      {"PRIMARY_KEYS": {"id": "OFFICELINK_030"}, "DATA": {"cdb_module_id": "cs.officelink", "description": "Read synchronization definition data (MSP fields, synchronized fields, default fields).", "name": "OfficeLink: Read MS Project Synchronization Definition Data"}},
+      {"PRIMARY_KEYS": {"id": "OFFICELINK_031"}, "DATA": {"cdb_module_id": "cs.officelink", "description": "Write synchronization definition data (MSP fields, synchronized fields, default fields).", "name": "OfficeLink: Write MS Project Synchronization Definition Data"}},
+      {"PRIMARY_KEYS": {"id": "OFFICELINK_032"}, "DATA": {"cdb_module_id": "cs.officelink", "description": "Export Projects/Tasks into MS Project Plans.", "name": "OfficeLink: MS Project Synchronization (Read)"}},
+      {"PRIMARY_KEYS": {"id": "OFFICELINK_033"}, "DATA": {"cdb_module_id": "cs.officelink", "description": "Create or update Projects/Tasks out of MS Project.", "name": "OfficeLink: MS Project Synchronization (Write)"}},
+      {"PRIMARY_KEYS": {"id": "OFFICELINK_040"}, "DATA": {"cdb_module_id": "cs.officelink", "description": "Import or update a report schema and create or modify a report template.", "name": "OfficeLink: Create or Modify Report Templates"}},
+      {"PRIMARY_KEYS": {"id": "OFFICELINK_050"}, "DATA": {"cdb_module_id": "cs.officelink", "description": "Convert Office file formats into PDF format.", "name": "OfficeLink: PDF Conversion"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

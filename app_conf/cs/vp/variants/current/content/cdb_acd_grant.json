@@ -1,0 +1,19 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "edit_vpm", "class": "cdbvp_product", "subject_id": "Variants: Manager", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "accept", "class": "cdbvp_catalogue", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "create", "class": "cdbvp_catalogue", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "delete", "class": "cdbvp_catalogue", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "edit_vp_catalogue", "class": "cdbvp_catalogue", "subject_id": "Variants: Manager", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "read", "class": "cdbvp_catalogue", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "save", "class": "cdbvp_catalogue", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Catalog Properties", "allow": "vp_state_change", "class": "cdbvp_catalogue", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Objects", "allow": "read", "class": "cdbvp_components", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Properties (non-boolean)", "allow": "cdbvp_b_data_type", "class": "cdbvp_catalogue", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: VPM Properties (non-boolean)", "allow": "cdbvp_b_data_type", "class": "cdbvp_components", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.variants"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

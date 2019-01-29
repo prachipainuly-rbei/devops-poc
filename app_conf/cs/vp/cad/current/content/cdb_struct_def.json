@@ -1,0 +1,10 @@
+{
+  "cdb_struct_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "CDB_ReferencedModels"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.vp.cad", "comp_tag": "", "descr": "Structure representation of document references", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdb_referenced_docs", "root_mask": "", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "CDB_ReferencingModels"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.vp.cad", "comp_tag": "cdb_ref_dtag", "descr": "Structure representation of document usages", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdb_referencing_models", "root_mask": "", "show_rs_window": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0dd9c520-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_version", "field_name": "cdb_version"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "classname": "cdb_version", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0dde8bc4-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_script_log", "field_name": "cdb_version"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "classname": "cdb_script_log", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0dde8bc4-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_script_log", "field_name": "exec_id"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "classname": "cdb_script_log", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0dde8bc4-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_script_log", "field_name": "msg_id"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "classname": "cdb_script_log", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0dde8bc4-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_script_log", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "classname": "cdb_script_log", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0de5b5ba-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_install_script", "field_name": "cdb_version"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "classname": "cdb_install_script", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0de5b5ba-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_install_script", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "classname": "cdb_install_script", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0de8190c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_script_exec", "field_name": "cdb_version"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "classname": "cdb_script_exec", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0de8190c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_script_exec", "field_name": "exec_id"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "classname": "cdb_script_exec", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0de8190c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_script_exec", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "classname": "cdb_script_exec", "position": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

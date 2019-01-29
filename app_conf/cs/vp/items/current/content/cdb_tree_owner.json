@@ -1,0 +1,22 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "3a0c92c0-a4d5-11e5-a91d-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "91a227dd-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "91a227dd-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "91a48a11-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "91a48a11-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "91b53975-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "91b53975-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "91caad41-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "91caad41-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "92a5f795-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "92a5f795-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "92a859c7-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "92a859c7-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"id": "9339bfee-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

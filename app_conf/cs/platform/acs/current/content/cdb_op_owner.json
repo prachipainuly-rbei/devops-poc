@@ -1,0 +1,24 @@
+{
+  "cdb_op_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "mq_acs", "name": "CDB_Copy", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "mq_acs", "name": "CDB_Create", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "mq_acs", "name": "CDB_Delete", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "mq_acs", "name": "CDB_Export", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "mq_acs", "name": "CDB_Modify", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "acs_conv_services", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "acs_plg_conv", "name": "CDB_Search", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "mq_acs", "name": "CDB_Search", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "acs_conv_services", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "acs_plg_conv", "name": "CDB_SearchAgain", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "mq_acs", "name": "CDB_SearchAgain", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "mq_acs", "name": "CDB_SelectAndAssign", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "acs_conv_services", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "acs_plg_conv", "name": "CDB_ShowObject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "mq_acs", "name": "CDB_ShowObject", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.acs"}},
+      {"PRIMARY_KEYS": {"classname": "mq_acs", "name": "cs_acs_restart_jobs", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.acs"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

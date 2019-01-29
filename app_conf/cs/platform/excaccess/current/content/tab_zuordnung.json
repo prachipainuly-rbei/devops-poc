@@ -1,0 +1,10 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_role_exc_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.excaccess", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_cfg_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.excaccess", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

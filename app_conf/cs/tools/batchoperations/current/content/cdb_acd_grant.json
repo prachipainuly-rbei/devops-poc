@@ -1,0 +1,19 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operation Assignments (BO already run)", "allow": "read", "class": "cdbbop_operation_asgn", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operation Assignments (BO not run yet)", "allow": "FULL ACCESS", "class": "cdbbop_operation_asgn", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (BOM)", "allow": "show_batchop_bom_reg", "class": "cdbbop_operation", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (Complete BOM)", "allow": "show_batchop_cmp_reg", "class": "cdbbop_operation", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (Documents)", "allow": "show_batchop_doc_reg", "class": "cdbbop_operation", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (Parts)", "allow": "show_batchop_prt_reg", "class": "cdbbop_operation", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (already run)", "allow": "read", "class": "cdbbop_operation", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (not run yet)", "allow": "CHANGE", "class": "cdbbop_operation", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (not run yet)", "allow": "create", "class": "cdbbop_operation", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (not run yet)", "allow": "delete", "class": "cdbbop_operation", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (not run yet)", "allow": "read", "class": "cdbbop_operation", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

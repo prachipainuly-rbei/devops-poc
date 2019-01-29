@@ -1,0 +1,16 @@
+{
+  "cdb_dragdropatt": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"drag_attrib": "cdb_project_id", "drag_classname": "cdbpcs_task", "drop_classname": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "drop_attrib": "cdb_project_id"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "end_time_fcast", "drag_classname": "cdbpcs_task", "drop_classname": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "drop_attrib": "end_time_fcast"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "end_time_plan", "drag_classname": "cdbpcs_task", "drop_classname": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "drop_attrib": "end_time_plan"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "project_name", "drag_classname": "cdbpcs_task", "drop_classname": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "drop_attrib": "mapped_project_name"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "start_time_fcast", "drag_classname": "cdbpcs_task", "drop_classname": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "drop_attrib": "start_time_fcast"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "start_time_plan", "drag_classname": "cdbpcs_task", "drop_classname": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "drop_attrib": "start_time_plan"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "task_id", "drag_classname": "cdbpcs_task", "drop_classname": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "drop_attrib": "task_id"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "task_name", "drag_classname": "cdbpcs_task", "drop_classname": "cdbpcs_task"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "drop_attrib": "task_name"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

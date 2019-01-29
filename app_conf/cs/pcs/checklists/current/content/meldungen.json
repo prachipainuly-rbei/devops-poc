@@ -1,0 +1,15 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_quality_gates"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cs": null, "d": "Quality Gates", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": "", "tr": "Quality Gates", "uk": "Quality Gates", "zh": "Quality Gates"}},
+      {"PRIMARY_KEYS": {"meldung_label": "pcs_checklist_tag"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cs": "", "d": "checklist_name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1557, "pl": "", "pt": "", "s": "", "tr": "checklist_name", "uk": "checklist_name", "zh": "checklist_name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "pcs_cl_item_tag"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cs": "", "d": "criterion", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1558, "pl": "", "pt": "", "s": "", "tr": "criterion", "uk": "criterion", "zh": "criterion"}},
+      {"PRIMARY_KEYS": {"meldung_label": "pcs_err_cl_move"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cs": null, "d": "Die Checkliste muss sich im Status 'Neu' befinden, um sie in eine andere \u00fcbergeordnete Aufgabe verschieben zu k\u00f6nnen.", "f": null, "i": null, "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Only checklists in status 'New' can be moved to a different parent task.", "zh": null}},
+      {"PRIMARY_KEYS": {"meldung_label": "pcscl_wf_rej_3"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cs": null, "d": "Das Projekt befindet sich nicht im erforderlichen Status (%s):", "f": null, "i": null, "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "The project status must be one of the following (%s):", "zh": null}},
+      {"PRIMARY_KEYS": {"meldung_label": "pcscl_wf_rej_4"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cs": "", "d": "Die Checkliste befindet sich nicht im erforderlichen Status (%s):\\n\\n%s", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "", "uk": "The checklist status must be one of the following (%s):\\n\\n%s", "zh": ""}},
+      {"PRIMARY_KEYS": {"meldung_label": "pcscl_wf_rej_5"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "cs": "", "d": "Pr\u00fcfpunkt: %s:\\n%s", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "", "uk": "Checklist Item: %s:\\n%s", "zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_global_role": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "System Posting Queue Service"}, "DATA": {"cdb_module_id": "cs.activitystream", "description": "Rolle f\u00fcr den System Posting Queue Service Anwender zum Zweck der Lizenz- und Rechtebereitstellung.", "description_ml_cs": null, "description_ml_en": "Role to be used with the System Posting Queue Service User to assingn licenses and access rights.", "description_ml_es": null, "description_ml_fr": null, "description_ml_it": null, "description_ml_ja": null, "description_ml_ko": null, "description_ml_pl": null, "description_ml_pt": null, "description_ml_tr": null, "description_ml_zh": null, "is_org_role": 0, "mno": "CON-PA-GEN/SRV", "name_cs": null, "name_de": "System Posting Queue Service - Activity Stream", "name_en": "System Posting Queue Service - Activity Stream", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": null, "name_zh": null}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

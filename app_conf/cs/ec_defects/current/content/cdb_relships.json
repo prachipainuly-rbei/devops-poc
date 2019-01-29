@@ -1,0 +1,10 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_defect2ecs"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.ec_defects", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 1, "label": "tree_eng_change", "menugroup": 10000, "node_tag": "", "ordering": 40, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdbecm_ec", "reference_kmap": "cdb_ec_id=cdb_ec_id", "referer": "cdb_defect", "referer_kmap": "cdb_object_id=cdb_defect_object_id", "relship_cldef": "cdb_defect2ec", "relship_table": "", "rolename": "EngineeringChanges", "rs_acc_prof": "Defect Relationships", "rs_profile": "cdb_association_1_N_no_copy", "show_in_mask": 2, "show_in_menu": 0}},
+      {"PRIMARY_KEYS": {"name": "cdbecm_ec2defects"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.ec_defects", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 1, "label": "cdb_defects", "menugroup": 10000, "node_tag": "", "ordering": 10, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdb_defect", "reference_kmap": "cdb_object_id=cdb_defect_object_id", "referer": "cdbecm_ec", "referer_kmap": "cdb_ec_id=cdb_ec_id", "relship_cldef": "cdb_defect2ec", "relship_table": "", "rolename": "Defects", "rs_acc_prof": "", "rs_profile": "cdb_association_1_N_no_copy", "show_in_mask": 2, "show_in_menu": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

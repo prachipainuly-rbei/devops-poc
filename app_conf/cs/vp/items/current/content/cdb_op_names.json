@@ -1,0 +1,11 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_create_mbom"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.vp.items", "client_desc": "cdb_create_mbom_op_desc", "descr": "", "html_help": "", "icon_id": "cdb_create_mbom", "inactive": 0, "kind": "PowerScript", "label": "cdb_create_mbom", "label_ok": "", "menu_visible": 1, "menugroup": 46, "ordering": 1000, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_create_mbom_from_mbom"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.vp.items", "client_desc": "cdb_create_mbom_from_mbom_op_desc", "descr": null, "html_help": "", "icon_id": "cdb_create_mbom_from_mbom", "inactive": 0, "kind": "PowerScript", "label": "cdb_create_mbom_from_mbom", "label_ok": "", "menu_visible": 1, "menugroup": 46, "ordering": 1010, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cs_part"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.vp.items", "client_desc": "", "descr": null, "html_help": "", "icon_id": "cdb_part1", "inactive": 0, "kind": "PowerScript", "label": "cdbbop_part", "label_ok": "", "menu_visible": 0, "menugroup": null, "ordering": null, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

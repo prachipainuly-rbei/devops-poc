@@ -1,0 +1,9 @@
+{
+  "cdb_prop_desc": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attr": "srmt"}, "DATA": {"cdb_module_id": "cs.vp.classification", "helptext": "If this property is true, the mask and table definition for a facet is recreated each time you call the \"Rebuild property set\" function."}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

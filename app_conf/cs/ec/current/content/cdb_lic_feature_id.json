@@ -1,0 +1,14 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "ECM_010"}, "DATA": {"cdb_module_id": "cs.ec", "description": "Allow all EC data to be accessed read-only.", "name": "Engineering Change: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "ECM_020"}, "DATA": {"cdb_module_id": "cs.ec", "description": "Allow basic EC data to be created/changed.", "name": "Engineering Change: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "ECM_030"}, "DATA": {"cdb_module_id": "cs.ec", "description": "Allow EC folders to be changed.", "name": "Engineering Change: Change Folders"}},
+      {"PRIMARY_KEYS": {"id": "ECM_040"}, "DATA": {"cdb_module_id": "cs.ec", "description": "Allow status change operation for EC objects.", "name": "Engineering Change: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "ECM_050"}, "DATA": {"cdb_module_id": "cs.ec", "description": "Allow creating or changing EC Templates.", "name": "Engineering Change: Change Templates"}},
+      {"PRIMARY_KEYS": {"id": "ECM_060"}, "DATA": {"cdb_module_id": "cs.ec", "description": "Allow creating or changing object rules associated with ECM.", "name": "Engineering Change: Change Rules"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

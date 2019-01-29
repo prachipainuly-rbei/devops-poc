@@ -1,0 +1,11 @@
+{
+  "cdb_toolbar_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "csapp_about", "toolbar_id": "webui_account"}, "DATA": {"actiongroup": 40, "cdb_module_id": "cs.web.components", "descr": "", "icon_id": "csweb_information", "ordering": 30}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "csapp_documentation_portal", "toolbar_id": "webui_account"}, "DATA": {"actiongroup": 40, "cdb_module_id": "cs.web.components", "descr": "", "icon_id": "csapp_documentation_portal", "ordering": 10}},
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "csapp_software_portal", "toolbar_id": "webui_account"}, "DATA": {"actiongroup": 40, "cdb_module_id": "cs.web.components", "descr": "", "icon_id": "csapp_software_portal", "ordering": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

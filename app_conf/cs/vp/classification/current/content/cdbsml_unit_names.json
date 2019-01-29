@@ -1,0 +1,32 @@
+{
+  "cdbsml_unit_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"unit_name": "A"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "Hz"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "J"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "MHz"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "Ohm"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "V"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "W"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "h"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "kHz"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "kJ"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "kW"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "kW/h"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "kg"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "km"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "km/h"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "l"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "m"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "ml"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "mm"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "mm\u00b3"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "m\u00b2"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "m\u00b3"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "s"}, "DATA": {}},
+      {"PRIMARY_KEYS": {"unit_name": "\u00b0C"}, "DATA": {}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

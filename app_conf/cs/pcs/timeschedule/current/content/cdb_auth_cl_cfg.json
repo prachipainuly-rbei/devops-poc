@@ -1,0 +1,10 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_time_schedule", "relation": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_time_schedule", "relation": "cdbpcs_ts_content"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

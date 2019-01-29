@@ -1,0 +1,14 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (BOM)", "predicate_name": "cs.tools: Batch Operations (BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (Complete BOM)", "predicate_name": "cs.tools: Batch Operations (complete BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (Documents)", "predicate_name": "cs.tools: Batch Operations (Documents)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (Parts)", "predicate_name": "cs.tools: Batch Operations (Parts)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (already run)", "predicate_name": "cs.tools: Batch Operations (already run)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.tools: Batch Operations (not run yet)", "predicate_name": "cs.tools: Batch Operations (not run yet)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_LDAP"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "cs": "", "d": "LDAP", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "LDAP", "uk": "LDAP", "zh": "LDAP"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_ldap_conf"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "cs": "", "d": "LDAP-Konfiguration", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "LDAP - Konfig\u00fcrasyon", "uk": "LDAP Configuration", "zh": "LDAP\u914d\u7f6e"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_ldap_search"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "cs": "", "d": "LDAP-Suchb\u00e4ume", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "LDAP - Arama temelleri", "uk": "LDAP Search Bases", "zh": "LDAP-\u641c\u7d22\u57fa\u7840"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_ldap_srvr"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "cs": "", "d": "LDAP-Verbindungseinstellungen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "LDAP - Ba\u011flant\u0131 konfig\u00fcrasyonu", "uk": "LDAP Connection Settings", "zh": "LDAP-\u8fde\u63a5\u914d\u7f6e"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_org_ctxattr": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"context_name": "ProjectContext", "relation": "cdb_folder"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "context_attr": "cdb_project_id"}},
+      {"PRIMARY_KEYS": {"context_name": "ProjectContext", "relation": "cdbpcs_rexc_doc"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "context_attr": "cdb_project_id"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

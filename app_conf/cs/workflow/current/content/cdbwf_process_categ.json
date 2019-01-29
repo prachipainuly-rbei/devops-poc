@@ -1,0 +1,10 @@
+{
+  "cdbwf_process_categ": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"categ_id": "1"}, "DATA": {"name_cs": "", "name_de": "Verteiler", "name_en": "Distribution List", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Da\u011f\u0131t\u0131m listesi", "name_zh": "\u5206\u5e03\u5217\u8868", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"categ_id": "2"}, "DATA": {"name_cs": "", "name_de": "Laufmappe", "name_en": "Circulation Folder", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Dola\u015f\u0131m klas\u00f6r\u00fc", "name_zh": "\u5faa\u73af\u6587\u4ef6\u5939", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

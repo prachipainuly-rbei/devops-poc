@@ -762,3 +762,380 @@ WSM_INST=C:\Program Files (x86)\CONTACT Workspace Manager\
 [2019-01-21T07:05:31.266Z] CDBPKG PID:18564 MSG:0 No user impersonated when asking for property 'cmlt' - will use the value configured for 'public'
 [2019-01-21T07:05:31.391Z] CDBPKG PID:18564 MSG:0 No user impersonated when asking for property 'fala' - will use the value configured for 'public'
 [2019-01-21T07:05:31.485Z] CDBPKG PID:18564 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-24T11:13:54.108Z] CDBPKG PID:11336 MSG:0 Environment: 
+pid=11336
+hostname=SEZGCN1102809L
+APPDATA=C:\Users\ppr4cob\AppData\Roaming
+CADDOK_APP_CONF=C:\cdb\rbei\app_conf
+CADDOK_ARCH=win32
+CADDOK_BASE=C:\cdb\rbei
+CADDOK_CDBPKG_HOST=sezgcn1102809l.rbeigcn.com
+CADDOK_DB1=rbei
+CADDOK_DB3=Latin1_General_CS_AS
+CADDOK_DBCNCT=SEZGCN1102809L\SQLEXPRESS1
+CADDOK_DBDRIVER=mssql
+CADDOK_DBMODE=SSPI/SSPI
+CADDOK_DBNAME=mssql
+CADDOK_DBSYS=mssql
+CADDOK_DB_RETRY=1
+CADDOK_DEBUG=MSG:log:lev=0 ERR:log:lev=0
+CADDOK_DEFAULT=mssql@:C:\cdb\rbei
+CADDOK_FLS_SOED=PP0bfP9F6SY
+CADDOK_HOME=c:\cdb\contact_elements_server_15.3.13\cdb
+CADDOK_INSTALLDIR=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_ISOLANG=de
+CADDOK_LANGUAGE=d
+CADDOK_LOGDIR=C:\cdb\rbei\tmp
+CADDOK_MAX_USER_SESSIONS=4000
+CADDOK_PACKAGE_REPOSITORY_DIR=C:\cdb\rbei\tmp
+CADDOK_PRG_IDENT_PARENT=-1
+CADDOK_RUNTIME=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_SCRIPTDIR=c:\cdb\contact_elements_server_15.3.13\cdb\lib
+CADDOK_SERVER=SSPI/SSPI@SEZGCN1102809L\SQLEXPRESS1
+CADDOK_SML_SHOWID=true
+CADDOK_SQLDBMS=6
+CADDOK_SQLDBMS_STRLEN=len
+CADDOK_TMPDIR=C:\cdb\rbei\tmp
+CADDOK_TOOL=cdbpkg
+CADDOK_TOPDIR=c:\cdb
+CADDOK_WWWSERVICE_URL=http://www.example.org
+CAD_SYSTEM=-
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=SEZGCN1102809L
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIGSETROOT=C:\Windows\ConfigSetRoot
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\ppr4cob
+JAVA_HOME=C:\cdb\CONTACT_Elements_Server_15.3.13\java
+LOCALAPPDATA=C:\Users\ppr4cob\AppData\Local
+LOGONSERVER=\\COBGCIAD01
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\ppr4cob\OneDrive
+OPENSSL_CONF=C:\cdb\CONTACT_Elements_Server_15.3.13\share\openssl\openssl.cnf
+OS=Windows_NT
+PATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\Scripts;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pywin32_system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\CONTACT Workspace Manager\bin\cdbwscall;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Users\ppr4cob\AppData\Local\Microsoft\WindowsApps;C:\Users\ppr4cob\Desktop\rbei\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4e03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES=C:\Program Files
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMW6432=C:\Program Files
+PROMPT=[contact_elements_server_15.3.13:mssql] $P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\python27.zip;C:\cdb\CONTACT_Elements_Server_15.3.13\DLLs;C:\cdb\CONTACT_Elements_Server_15.3.13\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\plat-win;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\lib-tk;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\future-0.16.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\backports.functools_lru_cache-1.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\enum34-1.1.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\repoze.lru-0.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\reg-0.11-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\dectate-0.13-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\importscan-0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\morepath-0.18.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bowerstatic-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.forwarded-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.static-0.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.pathtool-0.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\setuptools_subversion-3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\redis-2.10.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\six-1.11.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zope.interface-4.4.3-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\constantly-15.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\automat-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\incremental-17.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\apsw-3.21.0.post1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\colorama-0.3.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\typing-3.6.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinxcontrib_websupport-1.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chardet-3.0.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\idna-2.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\urllib3-1.22-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests-2.18.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\alabaster-0.7.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pygments-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\markupsafe-1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\jinja2-2.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinx-1.6.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyparsing-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyscss-1.3.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pathtools-0.1.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argh-0.26.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\watchdog-0.8.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pem-17.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_dateutil-2.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\funcsigs-1.0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beaker-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose_timer-0.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beautifulsoup4-4.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\waitress-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\crochet-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\passlib-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyslet-0.7.20170805-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse-1.8.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse_type-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\behave-1.2.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ldaptor-16.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bcrypt-3.1.4-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\polib-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\kerberos_sspi-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\isodate-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\whoosh-2.7.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyjwkest-1.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperframe-5.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hpack-3.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\h2-3.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\priority-1.3.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1_modules-0.2.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\service_identity-17.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\appdirs-1.4.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pep8-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\psutil-5.4.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sympy-1.1.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\tatsu-4.2.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pint-0.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webtest-2.0.29-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\icalendar-4.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_constraint-1.3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\defusedxml-0.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests_toolbelt-0.8.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zeep-2.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\configparser-3.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argon2_cffi-18.1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\asn1crypto-0.24.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\babel-2.5.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose-1.3.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ipaddress-1.0.19-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\coverage-4.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\validate_email-1.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\werkzeug-0.14.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txaio-2.10.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\attrs-18.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\twisted-18.4.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\autobahn-18.5.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cached_property-1.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cffi-1.11.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperlink-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\imagesize-1.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\lxml-4.2.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\oic-0.14.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cryptography-2.2.2-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chameleon-3.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\qrcode-6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\selenium-3.12.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pytz-2018.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyopenssl-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webob-1.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zc.buildout-2.12.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pycryptodomex-3.7.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\Pythonwin;C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python;C:\cdb\rbei\lib;c:\cdb\rbei\site-packages\cscdb.product-11.3.0.8-py2.7.egg;c:\cdb\rbei\site-packages\cs.workspaces-15.2.1.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.workflow-15.4.1.3-py2.7.egg;c:\cdb\rbei\site-packages\cs.web-15.3.0.6-py2.7.egg;c:\cdb\rbei\site-packages\cs.vp-15.5.0.12-py2.7.egg;c:\cdb\rbei\site-packages\cs.vp_pcs-15.3.0.3-py2.7.egg;c:\cdb\rbei\site-packages\cs.taskmanager-15.4.1.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.powerreports-15.3.0.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.portfolios-15.4.0.0-py2.7.egg;c:\cdb\rbei\site-packages\cs.pcs-15.4.1.17-py2.7.egg;c:\cdb\rbei\site-packages\cs.officelink-15.5.0.9-py2.7.egg;c:\cdb\rbei\site-packages\cs.metrics-15.4.0.2-py2.7.egg;c:\cdb\rbei\site-packages\cs.launchpad-15.2.1.0-py2.7.egg;c:\cdb\rbei\site-packages\cs.ec-15.4.0.9-py2.7.egg;c:\cdb\rbei\site-packages\cs.documents-15.2.3.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.designsystem-15.2.0.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.defects-15.2.1.2-py2.7.egg;c:\cdb\rbei\site-packages\cs.bomcreator-15.2.1.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.base-15.4.2.4-py2.7.egg;c:\cdb\rbei\site-packages\cs.activitystream-15.3.1.4-py2.7.egg;c:\cdb\rbei\site-packages\cs.actions-15.4.0.2-py2.7.egg;C:\cdb\rbei\site-packages;c:\cdb\rbei\rbei.plm
+SESSIONNAME=Console
+ST_INSTALL_PATH=C:\Program Files (x86)\Micro Focus\Unified Functional Testing\
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\ppr4cob\AppData\Local\Temp
+TMP=C:\Users\ppr4cob\AppData\Local\Temp
+UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN=RBEIGCN.COM
+USERDOMAIN=RBEIGCN
+USERDOMAIN_ROAMINGPROFILE=RBEIGCN
+USERNAME=PPR4COB
+USERPROFILE=C:\Users\ppr4cob
+WINDIR=C:\Windows
+WSM_INST=C:\Program Files (x86)\CONTACT Workspace Manager\
+
+[2019-01-24T11:13:54.108Z] CDBPKG PID:11336 MSG:0 CADDOK_ISOLANG set to 'de' (CADDOK_LANGUAGE: 'd').
+[2019-01-29T05:35:05.484Z] CDBPKG PID:12696 MSG:0 Environment: 
+pid=12696
+hostname=SEZGCN1102809L
+APPDATA=C:\Users\ppr4cob\AppData\Roaming
+CADDOK_APP_CONF=C:\cdb\rbei\app_conf
+CADDOK_ARCH=win32
+CADDOK_BASE=C:\cdb\rbei
+CADDOK_CDBPKG_HOST=sezgcn1102809l.rbeigcn.com
+CADDOK_DB1=rbei
+CADDOK_DB3=Latin1_General_CS_AS
+CADDOK_DBCNCT=SEZGCN1102809L\SQLEXPRESS1
+CADDOK_DBDRIVER=mssql
+CADDOK_DBMODE=SSPI/SSPI
+CADDOK_DBNAME=mssql
+CADDOK_DBSYS=mssql
+CADDOK_DB_RETRY=1
+CADDOK_DEBUG=MSG:log:lev=0 ERR:log:lev=0
+CADDOK_DEFAULT=mssql@:C:\cdb\rbei
+CADDOK_FLS_SOED=.JzC0DBDrvA
+CADDOK_HOME=c:\cdb\contact_elements_server_15.3.13\cdb
+CADDOK_INSTALLDIR=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_ISOLANG=de
+CADDOK_LANGUAGE=d
+CADDOK_LOGDIR=C:\cdb\rbei\tmp
+CADDOK_MAX_USER_SESSIONS=4000
+CADDOK_PACKAGE_REPOSITORY_DIR=C:\cdb\rbei\tmp
+CADDOK_PRG_IDENT_PARENT=-1
+CADDOK_RUNTIME=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_SCRIPTDIR=c:\cdb\contact_elements_server_15.3.13\cdb\lib
+CADDOK_SERVER=SSPI/SSPI@SEZGCN1102809L\SQLEXPRESS1
+CADDOK_SML_SHOWID=true
+CADDOK_SQLDBMS=6
+CADDOK_SQLDBMS_STRLEN=len
+CADDOK_TMPDIR=C:\cdb\rbei\tmp
+CADDOK_TOOL=cdbpkg
+CADDOK_TOPDIR=c:\cdb
+CADDOK_WWWSERVICE_URL=http://www.example.org
+CAD_SYSTEM=-
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=SEZGCN1102809L
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIGSETROOT=C:\Windows\ConfigSetRoot
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\ppr4cob
+JAVA_HOME=C:\cdb\CONTACT_Elements_Server_15.3.13\java
+LOCALAPPDATA=C:\Users\ppr4cob\AppData\Local
+LOGONSERVER=\\COBGCIAD01
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\ppr4cob\OneDrive
+OPENSSL_CONF=C:\cdb\CONTACT_Elements_Server_15.3.13\share\openssl\openssl.cnf
+OS=Windows_NT
+PATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\Scripts;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pywin32_system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\CONTACT Workspace Manager\bin\cdbwscall;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Users\ppr4cob\AppData\Local\Microsoft\WindowsApps;C:\Users\ppr4cob\Desktop\rbei\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4e03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES=C:\Program Files
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMW6432=C:\Program Files
+PROMPT=[contact_elements_server_15.3.13:mssql] $P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\python27.zip;C:\cdb\CONTACT_Elements_Server_15.3.13\DLLs;C:\cdb\CONTACT_Elements_Server_15.3.13\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\plat-win;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\lib-tk;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\future-0.16.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\backports.functools_lru_cache-1.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\enum34-1.1.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\repoze.lru-0.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\reg-0.11-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\dectate-0.13-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\importscan-0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\morepath-0.18.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bowerstatic-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.forwarded-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.static-0.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.pathtool-0.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\setuptools_subversion-3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\redis-2.10.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\six-1.11.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zope.interface-4.4.3-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\constantly-15.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\automat-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\incremental-17.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\apsw-3.21.0.post1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\colorama-0.3.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\typing-3.6.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinxcontrib_websupport-1.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chardet-3.0.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\idna-2.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\urllib3-1.22-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests-2.18.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\alabaster-0.7.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pygments-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\markupsafe-1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\jinja2-2.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinx-1.6.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyparsing-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyscss-1.3.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pathtools-0.1.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argh-0.26.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\watchdog-0.8.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pem-17.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_dateutil-2.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\funcsigs-1.0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beaker-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose_timer-0.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beautifulsoup4-4.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\waitress-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\crochet-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\passlib-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyslet-0.7.20170805-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse-1.8.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse_type-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\behave-1.2.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ldaptor-16.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bcrypt-3.1.4-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\polib-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\kerberos_sspi-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\isodate-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\whoosh-2.7.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyjwkest-1.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperframe-5.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hpack-3.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\h2-3.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\priority-1.3.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1_modules-0.2.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\service_identity-17.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\appdirs-1.4.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pep8-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\psutil-5.4.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sympy-1.1.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\tatsu-4.2.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pint-0.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webtest-2.0.29-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\icalendar-4.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_constraint-1.3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\defusedxml-0.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests_toolbelt-0.8.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zeep-2.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\configparser-3.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argon2_cffi-18.1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\asn1crypto-0.24.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\babel-2.5.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose-1.3.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ipaddress-1.0.19-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\coverage-4.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\validate_email-1.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\werkzeug-0.14.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txaio-2.10.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\attrs-18.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\twisted-18.4.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\autobahn-18.5.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cached_property-1.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cffi-1.11.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperlink-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\imagesize-1.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\lxml-4.2.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\oic-0.14.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cryptography-2.2.2-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chameleon-3.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\qrcode-6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\selenium-3.12.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pytz-2018.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyopenssl-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webob-1.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zc.buildout-2.12.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pycryptodomex-3.7.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\Pythonwin;C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python;C:\cdb\rbei\lib;c:\cdb\rbei\site-packages\cscdb.product-11.3.0.8-py2.7.egg;c:\cdb\rbei\site-packages\cs.workspaces-15.2.1.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.workflow-15.4.1.3-py2.7.egg;c:\cdb\rbei\site-packages\cs.web-15.3.0.6-py2.7.egg;c:\cdb\rbei\site-packages\cs.vp-15.5.0.12-py2.7.egg;c:\cdb\rbei\site-packages\cs.vp_pcs-15.3.0.3-py2.7.egg;c:\cdb\rbei\site-packages\cs.taskmanager-15.4.1.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.powerreports-15.3.0.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.portfolios-15.4.0.0-py2.7.egg;c:\cdb\rbei\site-packages\cs.pcs-15.4.1.17-py2.7.egg;c:\cdb\rbei\site-packages\cs.officelink-15.5.0.9-py2.7.egg;c:\cdb\rbei\site-packages\cs.metrics-15.4.0.2-py2.7.egg;c:\cdb\rbei\site-packages\cs.launchpad-15.2.1.0-py2.7.egg;c:\cdb\rbei\site-packages\cs.ec-15.4.0.9-py2.7.egg;c:\cdb\rbei\site-packages\cs.documents-15.2.3.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.designsystem-15.2.0.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.defects-15.2.1.2-py2.7.egg;c:\cdb\rbei\site-packages\cs.bomcreator-15.2.1.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.base-15.4.2.4-py2.7.egg;c:\cdb\rbei\site-packages\cs.activitystream-15.3.1.4-py2.7.egg;c:\cdb\rbei\site-packages\cs.actions-15.4.0.2-py2.7.egg;C:\cdb\rbei\site-packages;c:\cdb\rbei\rbei.plm
+SESSIONNAME=Console
+ST_INSTALL_PATH=C:\Program Files (x86)\Micro Focus\Unified Functional Testing\
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\ppr4cob\AppData\Local\Temp
+TMP=C:\Users\ppr4cob\AppData\Local\Temp
+UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN=RBEIGCN.COM
+USERDOMAIN=RBEIGCN
+USERDOMAIN_ROAMINGPROFILE=RBEIGCN
+USERNAME=PPR4COB
+USERPROFILE=C:\Users\ppr4cob
+WINDIR=C:\Windows
+WSM_INST=C:\Program Files (x86)\CONTACT Workspace Manager\
+
+[2019-01-29T05:35:05.485Z] CDBPKG PID:12696 MSG:0 CADDOK_ISOLANG set to 'de' (CADDOK_LANGUAGE: 'd').
+[2019-01-29T05:36:05.421Z] CDBPKG PID:12696 MSG:0 No user impersonated when asking for property 'cmlt' - will use the value configured for 'public'
+[2019-01-29T05:36:05.603Z] CDBPKG PID:12696 MSG:0 No user impersonated when asking for property 'fala' - will use the value configured for 'public'
+[2019-01-29T05:36:05.686Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:06.037Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:06.038Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.182Z] CDBPKG PID:12696 MSG:0 Could not retrieve the relationship access informations cause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.296Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.334Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.356Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.367Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.479Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.480Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.491Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.491Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.491Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.491Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.491Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.491Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.493Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.493Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.493Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.494Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.496Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.515Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.515Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.515Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.515Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.516Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.530Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.546Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.563Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.563Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.564Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:13.582Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.213Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.235Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.262Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.503Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.751Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.755Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.764Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.778Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.780Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.781Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.781Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.787Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.788Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:15.975Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:16.010Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:16.065Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:16.167Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:16.187Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:16.225Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:16.243Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:16.286Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.153Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.329Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.369Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.370Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.370Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.371Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.371Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.372Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.380Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.439Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.449Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.477Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:17.486Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:26.809Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:26.810Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:27.274Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:27.385Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:27.386Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:27.553Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:27.558Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:35.767Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:38.043Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:40.841Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:40.890Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:41.147Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:42.059Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:42.264Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:42.316Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:42.615Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:42.616Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:42.643Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:42.904Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:43.065Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:45.006Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:45.173Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:45.353Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:45.697Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:45.715Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:48.891Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:52.103Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:52.238Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:55.415Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:56.116Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:56.221Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:36:58.265Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:00.091Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:04.298Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:08.279Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:08.444Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:08.636Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:09.246Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:13.875Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:19.434Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:19.499Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:19.672Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:19.680Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:19.749Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:19.790Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:25.174Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:25.707Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:27.817Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:30.491Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:30.873Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:33.080Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:33.080Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:33.081Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:37:35.458Z] CDBPKG PID:12696 MSG:0 Could not replace env vars in description patterncause there is no user. This is only ok for tools like cdbpkg
+[2019-01-29T05:43:46.892Z] CDBPKG PID:15392 MSG:0 Environment: 
+pid=15392
+hostname=SEZGCN1102809L
+APPDATA=C:\Users\ppr4cob\AppData\Roaming
+CADDOK_APP_CONF=C:\cdb\rbei\app_conf
+CADDOK_ARCH=win32
+CADDOK_BASE=C:\cdb\rbei
+CADDOK_CDBPKG_HOST=sezgcn1102809l.rbeigcn.com
+CADDOK_DB1=rbei
+CADDOK_DB3=Latin1_General_CS_AS
+CADDOK_DBCNCT=SEZGCN1102809L\SQLEXPRESS1
+CADDOK_DBDRIVER=mssql
+CADDOK_DBMODE=SSPI/SSPI
+CADDOK_DBNAME=mssql
+CADDOK_DBSYS=mssql
+CADDOK_DB_RETRY=1
+CADDOK_DEBUG=MSG:log:lev=0 ERR:log:lev=0
+CADDOK_DEFAULT=mssql@:C:\cdb\rbei
+CADDOK_FLS_SOED=.JzC0DBDrvA
+CADDOK_HOME=c:\cdb\contact_elements_server_15.3.13\cdb
+CADDOK_INSTALLDIR=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_ISOLANG=de
+CADDOK_LANGUAGE=d
+CADDOK_LOGDIR=C:\cdb\rbei\tmp
+CADDOK_MAX_USER_SESSIONS=4000
+CADDOK_PACKAGE_REPOSITORY_DIR=C:\cdb\rbei\tmp
+CADDOK_PRG_IDENT_PARENT=-1
+CADDOK_RUNTIME=C:\cdb\CONTACT_Elements_Server_15.3.13
+CADDOK_SCRIPTDIR=c:\cdb\contact_elements_server_15.3.13\cdb\lib
+CADDOK_SERVER=SSPI/SSPI@SEZGCN1102809L\SQLEXPRESS1
+CADDOK_SML_SHOWID=true
+CADDOK_SQLDBMS=6
+CADDOK_SQLDBMS_STRLEN=len
+CADDOK_TMPDIR=C:\cdb\rbei\tmp
+CADDOK_TOOL=cdbpkg
+CADDOK_TOPDIR=c:\cdb
+CADDOK_WWWSERVICE_URL=http://www.example.org
+CAD_SYSTEM=-
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=SEZGCN1102809L
+COMSPEC=C:\Windows\system32\cmd.exe
+CONFIGSETROOT=C:\Windows\ConfigSetRoot
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\ppr4cob
+JAVA_HOME=C:\cdb\CONTACT_Elements_Server_15.3.13\java
+LOCALAPPDATA=C:\Users\ppr4cob\AppData\Local
+LOGONSERVER=\\COBGCIAD01
+NUMBER_OF_PROCESSORS=4
+ONEDRIVE=C:\Users\ppr4cob\OneDrive
+OPENSSL_CONF=C:\cdb\CONTACT_Elements_Server_15.3.13\share\openssl\openssl.cnf
+OS=Windows_NT
+PATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\Scripts;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pywin32_system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\CONTACT Workspace Manager\bin\cdbwscall;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Users\ppr4cob\AppData\Local\Microsoft\WindowsApps;C:\Users\ppr4cob\Desktop\rbei\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4e03
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES=C:\Program Files
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMW6432=C:\Program Files
+PROMPT=[contact_elements_server_15.3.13:mssql] $P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\cdb\CONTACT_Elements_Server_15.3.13;C:\cdb\CONTACT_Elements_Server_15.3.13\python27.zip;C:\cdb\CONTACT_Elements_Server_15.3.13\DLLs;C:\cdb\CONTACT_Elements_Server_15.3.13\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\plat-win;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\lib-tk;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\future-0.16.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\backports.functools_lru_cache-1.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\enum34-1.1.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\repoze.lru-0.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\reg-0.11-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\dectate-0.13-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\importscan-0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\morepath-0.18.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bowerstatic-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.forwarded-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.static-0.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\more.pathtool-0.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\setuptools_subversion-3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\redis-2.10.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\six-1.11.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zope.interface-4.4.3-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\constantly-15.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\automat-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\incremental-17.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\apsw-3.21.0.post1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\colorama-0.3.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\typing-3.6.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinxcontrib_websupport-1.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chardet-3.0.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\idna-2.6-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\urllib3-1.22-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests-2.18.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\alabaster-0.7.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pygments-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\markupsafe-1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\jinja2-2.10-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sphinx-1.6.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyparsing-2.2.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyscss-1.3.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pathtools-0.1.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argh-0.26.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\watchdog-0.8.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pem-17.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_dateutil-2.6.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\funcsigs-1.0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beaker-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose_timer-0.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\beautifulsoup4-4.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\waitress-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\crochet-1.9.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\passlib-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyslet-0.7.20170805-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse-1.8.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\parse_type-0.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\behave-1.2.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ldaptor-16.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\bcrypt-3.1.4-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\polib-1.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\kerberos_sspi-0.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\isodate-0.6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\whoosh-2.7.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyjwkest-1.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperframe-5.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hpack-3.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\h2-3.0.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\priority-1.3.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyasn1_modules-0.2.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\service_identity-17.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\appdirs-1.4.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pep8-1.7.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\psutil-5.4.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\sympy-1.1.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\tatsu-4.2.5-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pint-0.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webtest-2.0.29-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\icalendar-4.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\python_constraint-1.3.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\defusedxml-0.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\requests_toolbelt-0.8.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zeep-2.4.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\configparser-3.5.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\argon2_cffi-18.1.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\asn1crypto-0.24.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\babel-2.5.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\nose-1.3.7-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\ipaddress-1.0.19-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\coverage-4.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\validate_email-1.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\werkzeug-0.14.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txaio-2.10.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\attrs-18.1.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\twisted-18.4.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\autobahn-18.5.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cached_property-1.4.2-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cffi-1.11.5-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\hyperlink-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\imagesize-1.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\lxml-4.2.1-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\oic-0.14.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\cryptography-2.2.2-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\chameleon-3.3-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\qrcode-6.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\selenium-3.12.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pytz-2018.4-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pyopenssl-18.0.0-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\webob-1.8.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\zc.buildout-2.12.1-py2.7.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\pycryptodomex-3.7.0-py2.7-win-amd64.egg;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\win32\lib;C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\Pythonwin;C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python;C:\cdb\rbei\lib;c:\cdb\rbei\site-packages\cscdb.product-11.3.0.8-py2.7.egg;c:\cdb\rbei\site-packages\cs.workspaces-15.2.1.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.workflow-15.4.1.3-py2.7.egg;c:\cdb\rbei\site-packages\cs.web-15.3.0.6-py2.7.egg;c:\cdb\rbei\site-packages\cs.vp-15.5.0.12-py2.7.egg;c:\cdb\rbei\site-packages\cs.vp_pcs-15.3.0.3-py2.7.egg;c:\cdb\rbei\site-packages\cs.taskmanager-15.4.1.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.powerreports-15.3.0.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.portfolios-15.4.0.0-py2.7.egg;c:\cdb\rbei\site-packages\cs.pcs-15.4.1.17-py2.7.egg;c:\cdb\rbei\site-packages\cs.officelink-15.5.0.9-py2.7.egg;c:\cdb\rbei\site-packages\cs.metrics-15.4.0.2-py2.7.egg;c:\cdb\rbei\site-packages\cs.launchpad-15.2.1.0-py2.7.egg;c:\cdb\rbei\site-packages\cs.ec-15.4.0.9-py2.7.egg;c:\cdb\rbei\site-packages\cs.documents-15.2.3.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.designsystem-15.2.0.1-py2.7.egg;c:\cdb\rbei\site-packages\cs.defects-15.2.1.2-py2.7.egg;c:\cdb\rbei\site-packages\cs.bomcreator-15.2.1.7-py2.7.egg;c:\cdb\rbei\site-packages\cs.base-15.4.2.4-py2.7.egg;c:\cdb\rbei\site-packages\cs.activitystream-15.3.1.4-py2.7.egg;c:\cdb\rbei\site-packages\cs.actions-15.4.0.2-py2.7.egg;C:\cdb\rbei\site-packages;c:\cdb\rbei\rbei.plm
+SESSIONNAME=Console
+ST_INSTALL_PATH=C:\Program Files (x86)\Micro Focus\Unified Functional Testing\
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\ppr4cob\AppData\Local\Temp
+TMP=C:\Users\ppr4cob\AppData\Local\Temp
+UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN=RBEIGCN.COM
+USERDOMAIN=RBEIGCN
+USERDOMAIN_ROAMINGPROFILE=RBEIGCN
+USERNAME=PPR4COB
+USERPROFILE=C:\Users\ppr4cob
+WINDIR=C:\Windows
+WSM_INST=C:\Program Files (x86)\CONTACT Workspace Manager\
+
+[2019-01-29T05:43:46.892Z] CDBPKG PID:15392 MSG:0 CADDOK_ISOLANG set to 'de' (CADDOK_LANGUAGE: 'd').

@@ -1,0 +1,9 @@
+{
+  "cdb_struct_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "cs_tasks_clsprops"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.taskmanager", "comp_tag": "", "descr": "", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdb_clsname2cdb_clsprop", "root_mask": "", "show_rs_window": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "Allgemeine Ausnahmeberechtigungen:alle"}, "DATA": {"cdb_module_id": "cs.platform.excaccess", "common_flag": 1, "description": "Alle allg. Ausnahmeberechtigungen"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_eink_portfolio", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.portfolios", "classname": "", "description": "eLink-Anwendung: Portfolio-Navigator", "filename": "", "fqpyname": "cs.portfolios.navigator.Application", "inproc": 1, "location": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

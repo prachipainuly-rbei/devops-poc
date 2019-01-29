@@ -1,0 +1,10 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "SemanticLinkTypes: all", "allow": "FULL ACCESS", "class": "cdb_semantic_link_type"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "SemanticLinks: all", "allow": "FULL ACCESS", "class": "cdb_semantic_link"}, "DATA": {"cdb_module_id": "cs.tools.semanticlinks", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

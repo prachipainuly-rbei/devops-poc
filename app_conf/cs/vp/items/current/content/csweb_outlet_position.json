@@ -1,0 +1,14 @@
+{
+  "csweb_outlet_position": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "part", "outlet_name": "object_details", "pos": 10, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "child_name": "Form", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "part", "outlet_name": "object_details", "pos": 15, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "child_name": "cs-activitystream-web-ObjectActivities", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "part", "outlet_name": "object_details", "pos": 20, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "CDB Relship Register", "cdb_module_id": "cs.vp.items", "child_name": "DetailOutletRelationshipTable", "json_properties": "{\n    \"includeRelships\" : [\n        \"Instantiations2\",\n        \"BOM\",\n        \"DependentMBOMs\",\n        \"StatusProtocol\",\n        \"DocumentsCADDocuments\",\n        \"SemanticLinks\"\n    ]\n}", "setup_fqpyname": "cs.web.components.outlet_generators.OutletPositionRelationshipsCallback"}},
+      {"PRIMARY_KEYS": {"classname": "part", "outlet_name": "object_details", "pos": 25, "priority": 10}, "DATA": {"ausgabe_label": "prod_struct", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "child_name": "cs-vp-items-ProductStructure", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "part", "outlet_name": "object_details", "pos": 30, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "child_name": "cs-vp-items-ProductUtilization", "json_properties": "", "setup_fqpyname": ""}},
+      {"PRIMARY_KEYS": {"classname": "part", "outlet_name": "object_details", "pos": 5, "priority": 10}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.vp.items", "child_name": "cs-vp-items-components-MultiFormatPreview", "json_properties": "{\n    \"viewerConfigLink\": \"/internal/items/available_viewers/\"\n}", "setup_fqpyname": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

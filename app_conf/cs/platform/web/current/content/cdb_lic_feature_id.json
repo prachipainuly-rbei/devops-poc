@@ -1,0 +1,9 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "PLATFORM_200"}, "DATA": {"cdb_module_id": "cs.platform.web", "description": "Allows a user to access the generic REST API.", "name": "REST API"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

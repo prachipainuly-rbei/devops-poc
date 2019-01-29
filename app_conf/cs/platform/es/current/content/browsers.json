@@ -1,0 +1,10 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "EnterpriseSearch_JobState"}, "DATA": {"browser_tabelle": "", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.platform.es", "check_value": 0, "classname": "", "direct_create": 0, "fqpyname": "cdb.storage.index.tesjobqueue.JobStateCatalog", "max_records": 0, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "", "search_mask": "", "title_cs": "", "title_de": "Job Status", "title_en": "Job Status", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "G\u00f6rev durumu", "title_zh": "\u4efb\u52a1\u72b6\u6001"}},
+      {"PRIMARY_KEYS": {"katalog": "EnterpriseSearch_TesState"}, "DATA": {"browser_tabelle": "", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.platform.es", "check_value": 0, "classname": "", "direct_create": 0, "fqpyname": "cdb.storage.index.tesjobqueue.TesStateCatalog", "max_records": 0, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "", "search_mask": "", "title_cs": "", "title_de": "Job Status", "title_en": "Job Status", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "G\u00f6rev durumu", "title_zh": "\u4efb\u52a1\u72b6\u6001"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

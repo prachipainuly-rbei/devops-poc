@@ -1,0 +1,11 @@
+{
+  "cdbecm_maturity": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": 10}, "DATA": {"name_cs": "", "name_de": "Entwicklung", "name_en": "Development", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Taslak", "name_zh": "\u8349\u56fe", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"id": 20}, "DATA": {"name_cs": "", "name_de": "Absicherung", "name_en": "Validation", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Do\u011frulama", "name_zh": "\u9a8c\u8bc1", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"id": 30}, "DATA": {"name_cs": "", "name_de": "Produktion", "name_en": "Production", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "\u00dcretim", "name_zh": "\u751f\u4ea7", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

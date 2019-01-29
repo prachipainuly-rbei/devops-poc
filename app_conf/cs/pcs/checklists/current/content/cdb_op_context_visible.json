@@ -1,0 +1,15 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdbpcs_checklist"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdbpcs_checklist"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbpcs_checklist"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbpcs_clitem_rating"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cl_item_set_position"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdbpcs_checklist"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdbpcs_checklist"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

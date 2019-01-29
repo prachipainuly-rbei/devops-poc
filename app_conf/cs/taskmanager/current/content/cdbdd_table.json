@@ -1,0 +1,18 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cs_tasks_attribute"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"table_name": "cs_tasks_class"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"table_name": "cs_tasks_class_context"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"table_name": "cs_tasks_class_relship"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"table_name": "cs_tasks_column"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"table_name": "cs_tasks_context"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"table_name": "cs_tasks_headers_v"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.taskmanager", "primary_table": null, "uview_col_aliases": ""}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "GENERATOR:cs.taskmanager.generate_cs_tasks_headers_v", "cdbdd_userdefined_view_txt_5": "GENERATOR:cs.taskmanager.generate_cs_tasks_headers_v", "cdbdd_userdefined_view_txt_6": "GENERATOR:cs.taskmanager.generate_cs_tasks_headers_v"}},
+      {"PRIMARY_KEYS": {"table_name": "cs_tasks_read_status"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"table_name": "cs_tasks_tag"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"table_name": "cs_tasks_user_view"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.taskmanager"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle", "allow": "CHANGE", "class": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle", "allow": "create", "class": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle", "allow": "read", "class": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:alle", "allow": "read_file", "class": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:eigener Eintrag", "allow": "CHANGE", "class": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:ohne CDB Account", "allow": "CHANGE", "class": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:ohne CDB Account", "allow": "create", "class": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "Personen:ohne CDB Account", "allow": "read", "class": "angestellter"}, "DATA": {"cdb_module_id": "cs.platform.org", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

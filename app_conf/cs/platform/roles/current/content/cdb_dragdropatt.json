@@ -1,0 +1,9 @@
+{
+  "cdb_dragdropatt": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"drag_attrib": "role_id", "drag_classname": "cdb_global_role", "drop_classname": "cdb_tree_owner"}, "DATA": {"cdb_module_id": "cs.platform.roles", "drop_attrib": "role_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs_billable", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort_activity_type", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort_cat", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort_prot", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_order_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "dflt": null, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_rep_order", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_tsheet_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

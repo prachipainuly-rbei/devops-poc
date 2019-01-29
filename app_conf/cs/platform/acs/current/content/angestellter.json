@@ -1,0 +1,9 @@
+{
+  "angestellter": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"personalnummer": "cs.dcs.service"}, "DATA": {"abt_nummer": "", "account_expiration_date": null, "account_start_date": null, "active_account": "1", "beruf": "", "calendar_profile_id": "1cb4cf41-0f40-11df-a6f9-9435b380e702", "capacity": 0.0, "cdb_cdate": "04.06.2018 12:27:10", "cdb_classname": "angestellter", "cdb_cpersno": "caddok", "cdb_mdate": "04.06.2018 12:27:10", "cdb_mpersno": "caddok", "cdb_object_id": "d6bd41b0-67e1-11e8-a503-62150181cc6a", "cdb_repl_limit": null, "cdb_repl_multi": "", "cdblic_named_user": 0, "city": "Bremen", "country": "DE", "e_mail": "", "firstname": "", "force_pwdchange": 0, "gender": "", "initials": "DCS", "is_resource": null, "is_system_account": 1, "lastname": "DCS Service User", "login": "cs.dcs.service", "name": "DCS Service User", "org_id": "131", "password_rule": "Account Manager", "remarks": "Predefined User to be used with the DCS Service", "state": "Bremen", "street": "Wiener Str. 1-3", "tel1_remark": "Telefon", "tel2_remark": "Fax", "tel3_remark": "", "telefon1": "+49-421-201530", "telefon2": "+49-421-2015341", "telefon3": "", "title": "", "visibility_flag": 1, "zip": "D-28359"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

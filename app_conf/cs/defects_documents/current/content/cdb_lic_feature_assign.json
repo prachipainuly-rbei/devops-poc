@@ -1,0 +1,23 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "ab9511b3-bb3d-11e4-9f19-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_008", "name": "CDB_Search", "password": "Yh0M50jB1Vo"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ab9538c0-bb3d-11e4-ae96-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_008", "name": "CDB_Export", "password": "jmBgZT20KiE"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ab9538c1-bb3d-11e4-a9e2-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_008", "name": "CDB_TableSetSort", "password": "5akWtL4hXxg"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ab9538c2-bb3d-11e4-b2bb-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_008", "name": "CDB_SelectAndAssign", "password": "RPnOP1t73Mo"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ab9538c3-bb3d-11e4-856d-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_008", "name": "CDB_AddObjectToFavourites", "password": "WDJMyDaU3Co"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ab955fcf-bb3d-11e4-843f-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_008", "name": "CDB_ResetSearch", "password": "QzYEwoX0ISY"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ab955fd0-bb3d-11e4-89d5-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_008", "name": "CDB_ShowObject", "password": "FsZC8ElWkr."}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ab955fd1-bb3d-11e4-80f5-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_008", "name": "CDB_AddClassDefToFavourites", "password": "wItUX46mgXg"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ab955fd2-bb3d-11e4-9c9c-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_008", "name": "CDB_AddClassToFavourites", "password": "FYIzzFlrJBA"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ab9586de-bb3d-11e4-8a12-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_008", "name": "CDB_SearchAgain", "password": "1UKekFZf8fw"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e17a10f2-bb3d-11e4-98c2-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_009", "name": "CDB_Delete", "password": "ssHLJRCiexk"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e17a3800-bb3d-11e4-b684-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_009", "name": "CDB_Create", "password": "x2GtUmDK1aw"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e17a3801-bb3d-11e4-8eea-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_009", "name": "CDB_CreateWithSearchConditions", "password": "IAB6Fq4nyVA"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e17a3802-bb3d-11e4-8160-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_009", "name": "CDB_Modify", "password": "oD7FQUtihEk"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e17a3803-bb3d-11e4-9437-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.defects_documents", "classname": "cdb_defect2doc", "feature_id": "DEFECTS_009", "name": "CDB_Copy", "password": "cI9TrsVXh8s"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

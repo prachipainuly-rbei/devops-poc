@@ -1,0 +1,14 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbvp_product", "zielstatus": 100}, "DATA": {"acd_allow": "vp_state_change", "cdb_module_id": "cs.vp.products", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbvp_product", "zielstatus": 200}, "DATA": {"acd_allow": "vp_state_change", "cdb_module_id": "cs.vp.products", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbvp_product", "zielstatus": 0}, "DATA": {"acd_allow": "vp_state_change", "cdb_module_id": "cs.vp.products", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbvp_product", "zielstatus": 200}, "DATA": {"acd_allow": "vp_state_change", "cdb_module_id": "cs.vp.products", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbvp_product", "zielstatus": 0}, "DATA": {"acd_allow": "vp_state_change", "cdb_module_id": "cs.vp.products", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbvp_product", "zielstatus": 300}, "DATA": {"acd_allow": "vp_state_change", "cdb_module_id": "cs.vp.products", "rang": null, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

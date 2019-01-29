@@ -1,0 +1,13 @@
+{
+  "cs_tasks_class_relship": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_name": "ChecklistItems", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "label": "pcs_cl_items", "position": 10}},
+      {"PRIMARY_KEYS": {"reference_name": "Documents", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "label": "documents", "position": 20}},
+      {"PRIMARY_KEYS": {"reference_name": "Documents", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "label": "documents", "position": 10}},
+      {"PRIMARY_KEYS": {"reference_name": "Items", "tclass_object_id": "a0421021-5e1f-11e6-8b78-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "label": "parts", "position": 30}},
+      {"PRIMARY_KEYS": {"reference_name": "SubChecklists", "tclass_object_id": "cfeb414f-5f07-11e6-9f32-a0b3ccf7c487"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "label": "tree_pcs_checkls", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

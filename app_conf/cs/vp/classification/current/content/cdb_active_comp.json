@@ -1,0 +1,13 @@
+{
+  "cdb_active_comp": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"action_what": "cdbsml_catdecomp", "action_when": "now", "name": "cdbsml_catdecomp", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"action_what": "cdbsml_hierbuild", "action_when": "now", "name": "cdbsml_hierbuild", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"action_what": "cdbsml_oplan", "action_when": "now", "name": "cdbsml_oplan", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"action_what": "cdbsml_pval_exclude", "action_when": "now", "name": "cdbsml_pval_exclude", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}},
+      {"PRIMARY_KEYS": {"action_what": "cdbsml_pval_include", "action_when": "now", "name": "cdbsml_pval_exclude", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.classification"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

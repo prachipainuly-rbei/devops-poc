@@ -1,0 +1,30 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_action2issues", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_log2cdb_person_cby", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_log2cdb_person_wf", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_prot2cdb_person_name", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_prot2new_status", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_prot2old_status", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_iss_rem2cdb_person_cnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2actions", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2category", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2cdb_person_cnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2cdb_person_mnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2cdb_person_wf", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2cdbpcs_iss_log", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2cdbpcs_iss_prot", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2cdbpcs_project", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2cdbpcs_task", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2close_flag", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2objektstati", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2priority", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_issue2remarks", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_project2issues", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_task2issues", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.issues"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

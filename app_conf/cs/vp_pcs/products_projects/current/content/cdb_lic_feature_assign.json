@@ -1,0 +1,18 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "e565b7ae-09d9-11e5-a217-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.products_projects", "classname": "cdbvp_project2product", "feature_id": "PROJECT_PRODUCTS_002", "name": "CDB_Modify", "password": "muaY4I1h77."}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e565b7af-09d9-11e5-b6d8-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.products_projects", "classname": "cdbvp_project2product", "feature_id": "PROJECT_PRODUCTS_002", "name": "CDB_Delete", "password": "JOHVv.nfC2Q"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e565b7b0-09d9-11e5-9596-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.products_projects", "classname": "cdbvp_project2product", "feature_id": "PROJECT_PRODUCTS_001", "name": "CDB_ShowObject", "password": "wPY4tFayQFA"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e565b7b1-09d9-11e5-ab33-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.products_projects", "classname": "cdbvp_project2product", "feature_id": "PROJECT_PRODUCTS_001", "name": "CDB_SearchAgain", "password": "uiH9oWG/N7Y"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e565b7b2-09d9-11e5-9988-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.products_projects", "classname": "cdbvp_project2product", "feature_id": "PROJECT_PRODUCTS_002", "name": "CDB_CreateWithSearchConditions", "password": "CvbOfy4yPJc"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e565b7b3-09d9-11e5-baa5-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.products_projects", "classname": "cdbvp_project2product", "feature_id": "PROJECT_PRODUCTS_002", "name": "CDB_Copy", "password": "dOzE6gRWH1Q"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e565b7b4-09d9-11e5-8264-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.products_projects", "classname": "cdbvp_project2product", "feature_id": "PROJECT_PRODUCTS_001", "name": "CDB_SelectAndAssign", "password": "LN.4z8Qmatc"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e565b7b5-09d9-11e5-8dc0-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.products_projects", "classname": "cdbvp_project2product", "feature_id": "PROJECT_PRODUCTS_001", "name": "CDB_Search", "password": "xYubD6dXx.M"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e565b7b6-09d9-11e5-afa5-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.products_projects", "classname": "cdbvp_project2product", "feature_id": "PROJECT_PRODUCTS_001", "name": "CDB_Export", "password": "AblX.nFyQSE"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e565b7b7-09d9-11e5-9b46-f0def133d0a6"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.vp_pcs.products_projects", "classname": "cdbvp_project2product", "feature_id": "PROJECT_PRODUCTS_002", "name": "CDB_Create", "password": "glWdZCxWqOk"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "ACTIONS_001"}, "DATA": {"cdb_module_id": "cs.actions", "description": "Allows to read Action master data, aggregated elements (e.g. changes of status protocol) and used catalogs.", "name": "Actions: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "ACTIONS_002"}, "DATA": {"cdb_module_id": "cs.actions", "description": "Allows to write (create, copy, modify, delete) Action master data and aggregated elements.", "name": "Actions: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "ACTIONS_003"}, "DATA": {"cdb_module_id": "cs.actions", "description": "Allows to open the structure tree control of an Action to navigate to sub-actions and other related elements (e.g. related Defects).", "name": "Actions: Open Structure Tree"}},
+      {"PRIMARY_KEYS": {"id": "ACTIONS_004"}, "DATA": {"cdb_module_id": "cs.actions", "description": "Allows to change the status of an Action.", "name": "Actions: Change of Status"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

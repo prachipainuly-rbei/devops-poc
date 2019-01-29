@@ -1,0 +1,14 @@
+{
+  "cdbdd_class_join": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbqc_action2qc", "join_relship": "cdbqc_action_qc2qc"}, "DATA": {"alias_name": "QualityCharacter", "cdb_module_id": "cs.metrics", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbqc_children", "join_relship": "cdbqc_children2relships"}, "DATA": {"alias_name": "Relation", "cdb_module_id": "cs.metrics", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbqc_def2class", "join_relship": "cdbqc_asso2definition"}, "DATA": {"alias_name": "Definition", "cdb_module_id": "cs.metrics", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbqc_definition", "join_relship": "cdbqc_definition2objektstati"}, "DATA": {"alias_name": "ObjectStates", "cdb_module_id": "cs.metrics", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbqc_grouping_value", "join_relship": "cdbqc_grouping_value2quality_character"}, "DATA": {"alias_name": "QualityCharacter", "cdb_module_id": "cs.metrics", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}},
+      {"PRIMARY_KEYS": {"classname": "cdbqc_quality_character", "join_relship": "cdbqc_quality_character2def"}, "DATA": {"alias_name": "Definition", "cdb_module_id": "cs.metrics", "enable_create_on_copy": 0, "enable_create_on_create": 0, "enable_modify_on_copy": 0, "enable_modify_on_create": 0, "enable_modify_on_modify": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "allow": "CHANGE", "class": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "error_label": "authorization_fail", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "allow": "create", "class": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "error_label": "authorization_fail", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "allow": "delete", "class": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "error_label": "authorization_fail", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues", "allow": "FULL ACCESS", "class": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues", "allow": "create", "class": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues", "allow": "read", "class": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Issues (by me)", "allow": "FULL ACCESS", "class": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Issues", "allow": "FULL ACCESS", "class": "cdbpcs_issue"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Categories (non-root)"}, "DATA": {"cdb_module_id": "cs.vp.classification", "common_flag": 1, "description": "all categories except root entries"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Categories (root)"}, "DATA": {"cdb_module_id": "cs.vp.classification", "common_flag": 1, "description": "root entry only"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Groups (non-root)"}, "DATA": {"cdb_module_id": "cs.vp.classification", "common_flag": 1, "description": "all groups except root entries"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Groups (root)"}, "DATA": {"cdb_module_id": "cs.vp.classification", "common_flag": 1, "description": "root entry only"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

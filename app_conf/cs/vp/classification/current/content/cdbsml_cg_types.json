@@ -1,0 +1,11 @@
+{
+  "cdbsml_cg_types": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cgroup_type": "Bereich", "child_type": "Klasse"}, "DATA": {"name_cs": "", "name_de": "Bereich", "name_en": "Division", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "K\u0131s\u0131m", "name_zh": "\u90e8\u95e8"}},
+      {"PRIMARY_KEYS": {"cgroup_type": "Gruppe", "child_type": "Familie"}, "DATA": {"name_cs": "", "name_de": "Gruppe", "name_en": "Group", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Grup", "name_zh": "\u7ec4"}},
+      {"PRIMARY_KEYS": {"cgroup_type": "Klasse", "child_type": "Gruppe"}, "DATA": {"name_cs": "", "name_de": "Klasse", "name_en": "Class", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "S\u0131n\u0131f", "name_zh": "\u7c7b"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

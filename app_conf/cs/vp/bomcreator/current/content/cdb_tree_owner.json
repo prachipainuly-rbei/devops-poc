@@ -1,0 +1,13 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "0206498f-e653-11e7-980b-005056c00008", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"id": "815932ee-b6b4-11e0-9533-6cf049769241", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"id": "c57e46c0-0e83-11e5-a0f6-9d6900e6d717", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"id": "d18a6bc0-bd71-11e2-9b85-005056c00008", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}},
+      {"PRIMARY_KEYS": {"id": "eaba17e1-3041-11e5-ac50-87c2e6b8ff81", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.bomcreator"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

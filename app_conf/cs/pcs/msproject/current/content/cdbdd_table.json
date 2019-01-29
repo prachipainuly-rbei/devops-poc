@@ -1,0 +1,11 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_msp_default"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.msproject"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_msp_fields"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.msproject"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_msp_syncrel"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.msproject"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

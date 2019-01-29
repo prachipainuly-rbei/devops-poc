@@ -1,0 +1,9 @@
+{
+  "cdb_browser_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attrib": "exception_id", "katalog": "cdb_role_exc", "maskenfeld_attrib": "*"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.platform.roles", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": 0, "separator": "", "std_search_val": 1, "struct_level": null, "use_or_operator": 0, "value_list": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

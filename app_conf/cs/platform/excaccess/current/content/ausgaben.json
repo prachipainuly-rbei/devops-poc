@@ -1,0 +1,11 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_roleexc_per"}, "DATA": {"cdb_module_id": "cs.platform.excaccess", "cs": "", "d": "Rollenzuordnung zu Personen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Ki\u015filere rol atama", "uk": "Role Assignment to Persons", "zh": "\u89d2\u8272\u6307\u5b9a\u5230\u4eba\u5458"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_roleexc_rol"}, "DATA": {"cdb_module_id": "cs.platform.excaccess", "cs": "", "d": "Rollenzuordnung zu allgemeinen Rollen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Genel rollere rol atama", "uk": "Role Assignment to Common Roles", "zh": "\u89d2\u8272\u6307\u5b9a\u5230\u901a\u7528\u89d2\u8272"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_role_exc"}, "DATA": {"cdb_module_id": "cs.platform.excaccess", "cs": "", "d": "Ausnahmeberechtigungen", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u0130stisnai izinler", "uk": "Exceptional Access Rights", "zh": "\u7279\u6b8a\u6388\u6743"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

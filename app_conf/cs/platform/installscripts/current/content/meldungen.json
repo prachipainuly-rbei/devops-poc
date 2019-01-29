@@ -1,0 +1,11 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_script_dtag"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1259, "pl": "", "pt": "", "s": "", "tr": "name", "uk": "Name", "zh": "name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_scriptexe_dtag"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "action + \" \" + exec_date + \" \" + persno", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1260, "pl": "", "pt": "", "s": "", "tr": "action + \" \" + exec_date + \" \" + persno", "uk": "action + \" \" + exec_date + \" \" + persno", "zh": "action + \" \" + exec_date + \" \" + persno"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_scriptlog_dtag"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "msg_type + \": \" + msg_text", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 1261, "pl": "", "pt": "", "s": "", "tr": "msg_type + \": \" + msg_text", "uk": "msg_type + \": \" + msg_text", "zh": "msg_type + \": \" + msg_text"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

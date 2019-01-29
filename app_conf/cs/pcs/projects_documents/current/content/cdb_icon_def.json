@@ -1,0 +1,12 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_docfolder_dynamic", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "descr": "cdb_folder", "fallback_id": "Folder", "identifier": "\"cdb_docfolder_dynamic.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_docfolder_dynamic", "kind": "Image", "location_type": "Server Path", "look": "Selected"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "descr": "cdb_folder", "fallback_id": "Folder", "identifier": "\"cdb_docfolder_dynamic_open.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_docfolder_exact", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "descr": "cdb_folder", "fallback_id": "Folder", "identifier": "\"cdb_docfolder_exact.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_docfolder_exact", "kind": "Image", "location_type": "Server Path", "look": "Selected"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "descr": "cdb_folder", "fallback_id": "Folder", "identifier": "\"cdb_docfolder_exact_open.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

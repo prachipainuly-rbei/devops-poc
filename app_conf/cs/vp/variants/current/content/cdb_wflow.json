@@ -1,0 +1,9 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdbvp_catalogue_property"}, "DATA": {"cdb_module_id": "cs.vp.variants", "description": "", "name_cs": "", "name_de": "Katalogmerkmale", "name_en": "Catalog Properties", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Katalog \u00f6zellikleri", "name_zh": "\u76ee\u5f55\u5c5e\u6027", "objclass": "cdbvp_catalogue", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

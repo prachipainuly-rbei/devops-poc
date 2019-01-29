@@ -1,0 +1,14 @@
+{
+  "cdb_day_type": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"day_type_id": "1"}, "DATA": {"cdb_object_id": "d2b415f8-eb23-11de-b4f1-8b287b609efc", "is_day_off_type": 0, "name_cs": "", "name_de": "Arbeitstag", "name_en": "Workday", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "\u00e7al\u0131\u015fma g\u00fcn\u00fc", "name_zh": "\u5de5\u4f5c\u65e5", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"day_type_id": "2"}, "DATA": {"cdb_object_id": "c70b15ce-eb23-11de-b4f1-8b287b609efc", "is_day_off_type": 1, "name_cs": "", "name_de": "Wochenende", "name_en": "Weekend", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Hafta sonu", "name_zh": "\u5468\u672b", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"day_type_id": "3"}, "DATA": {"cdb_object_id": "c70b15d3-eb23-11de-b4f1-8b287b609efc", "is_day_off_type": 1, "name_cs": "", "name_de": "Feiertag", "name_en": "Official Holiday", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Resmi tatil", "name_zh": "\u6cd5\u5b9a\u5047\u65e5", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"day_type_id": "4"}, "DATA": {"cdb_object_id": "c70b15d0-eb23-11de-b4f1-8b287b609efc", "is_day_off_type": 1, "name_cs": "", "name_de": "Urlaub", "name_en": "Holiday", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Tatil", "name_zh": "\u8282\u5047\u65e5", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"day_type_id": "5"}, "DATA": {"cdb_object_id": "c708b374-eb23-11de-b4f1-8b287b609efc", "is_day_off_type": 1, "name_cs": "", "name_de": "Krankheit", "name_en": "Illness", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Hastal\u0131k", "name_zh": "\u75c5\u5047", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"day_type_id": "6"}, "DATA": {"cdb_object_id": "c70b15d1-eb23-11de-b4f1-8b287b609efc", "is_day_off_type": 1, "name_cs": "", "name_de": "Betriebsferien", "name_en": "Company Holiday", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "\u015eirket tatili", "name_zh": "\u516c\u53f8\u5047\u65e5", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

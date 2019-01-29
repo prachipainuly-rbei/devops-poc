@@ -1,0 +1,15 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "45ac6c12-6c9b-11df-ba15-b481be918ab9", "field_classname": "cdbpco_curr_convert", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.currency", "classname": "cdbpco_curr_convert", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ae76d1e8-8e95-11df-8864-f749f236a3d5", "field_classname": "cdbpco_curr_convert", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.currency", "classname": "cdbpco_curr_convert", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ae76d1e8-8e95-11df-8864-f749f236a3d5", "field_classname": "cdbpco_curr_convert", "field_name": "from_curr_object_id"}, "DATA": {"cdb_module_id": "cs.currency", "classname": "cdbpco_curr_convert", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ae76d1e8-8e95-11df-8864-f749f236a3d5", "field_classname": "cdbpco_curr_convert", "field_name": "to_curr_object_id"}, "DATA": {"cdb_module_id": "cs.currency", "classname": "cdbpco_curr_convert", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "cdebf900-6c9a-11df-ba15-b481be918ab9", "field_classname": "cdbpco_currency", "field_name": "cdb_object_id"}, "DATA": {"cdb_module_id": "cs.currency", "classname": "cdbpco_currency", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "dc2579cd-8e95-11df-8864-f749f236a3d5", "field_classname": "cdbpco_currency", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.currency", "classname": "cdbpco_currency", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "e55b7b16-8e95-11df-8864-f749f236a3d5", "field_classname": "cdbpco_currency", "field_name": "symbol"}, "DATA": {"cdb_module_id": "cs.currency", "classname": "cdbpco_currency", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "csweb_outlet_child": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"outlet_child_name": "cs-audittrail-web-AuditTrailOutlet"}, "DATA": {"ausgabe_label": "audittrail", "cdb_icon_id": "cdb_audittrail", "cdb_module_id": "cs.audittrail", "config_component": "", "config_location": "$CADDOK_MODULE + \"/web/outlets/audittrail.json\"", "json_properties": "{\"relshipName\": \"\",\n \"treeIDColumnID\": \"cdb::argument::tablecolumn.child\",\n \"treeColumnID\": \"cdb::argument::tablecolumn.object_description\",\n \"treeParentColumnID\": \"cdb::argument::tablecolumn.parent\"}"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

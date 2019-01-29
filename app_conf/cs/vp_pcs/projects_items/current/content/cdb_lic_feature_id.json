@@ -1,0 +1,10 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "TASK_ITEMS_001"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "description": "Allows to read references from Task to Items.", "name": "Task Items: Read"}},
+      {"PRIMARY_KEYS": {"id": "TASK_ITEMS_002"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "description": "Allows to write (create, copy, modify, delete) references from Task to Items.", "name": "Task Items: Write"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

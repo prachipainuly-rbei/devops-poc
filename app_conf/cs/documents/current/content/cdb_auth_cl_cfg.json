@@ -1,0 +1,14 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "catalogues", "relation": "cdb_doc_categ"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbbop_operation_asgn", "relation": "cdbbop_doc_asgn"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"auth_class": "common role exceptions", "relation": "cdb_roleexc_doc"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"auth_class": "document", "relation": "zeichnung"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"auth_class": "mq_repl", "relation": "mq_mstr_repl"}, "DATA": {"cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"auth_class": "mq_repl_docs", "relation": "zeichnung"}, "DATA": {"cdb_module_id": "cs.documents"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

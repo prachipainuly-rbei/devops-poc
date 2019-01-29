@@ -1,0 +1,11 @@
+{
+  "cdb_term": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "cdbpcs_frozen", "expression": "1", "operator": "=", "predicate_name": "Frozen Issues", "table_name": "cdbpcs_issue"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.pcs.issues", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "cdb_cpersno", "expression": "$(persno)", "operator": "=", "predicate_name": "cs.pcs: Issues (by me)", "table_name": "cdbpcs_issue"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.pcs.issues", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "subject_id", "expression": "$(role)", "operator": "=", "predicate_name": "cs.pcs: My Issues", "table_name": "cdbpcs_issue"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.pcs.issues", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

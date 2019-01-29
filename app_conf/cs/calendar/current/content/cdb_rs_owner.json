@@ -1,0 +1,24 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_cal_entry2cal_prof", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_entry2cdb_person", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_entry2day_type", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_entry2person_cnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_entry2person_mnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof2cal_exc", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof2calendar_entry", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof2cdb_person", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof2person_cnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof2person_mnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof_exc2cal_prof", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof_exc2day_type", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof_exc2person_cnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_cal_prof_exc2person_mnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_person2cal_prof", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}},
+      {"PRIMARY_KEYS": {"name": "cdb_person2calendar_entry", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.calendar"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

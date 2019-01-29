@@ -1,0 +1,12 @@
+{
+  "objektstati": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cdb_action", "statusnummer": 0}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.actions", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Neu", "statusbez_en": "New", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "Yeni", "statusbez_zh": "\u65b0\u5efa", "statusbezeich": "New", "statusfarbe": "CE_Gray_Lst", "statusrelease": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdb_action", "statusnummer": 100}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.actions", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Verworfen", "statusbez_en": "Discarded", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "Se\u00e7im d\u0131\u015f\u0131 b\u0131rak\u0131ld\u0131", "statusbez_zh": "\u5e9f\u5f03", "statusbezeich": "Discarded", "statusfarbe": "CE_Gray_D", "statusrelease": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdb_action", "statusnummer": 20}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.actions", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Umsetzung", "statusbez_en": "Execution", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "Uygulama", "statusbez_zh": "\u6267\u884c", "statusbezeich": "Execution", "statusfarbe": "CE_Danger", "statusrelease": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cdb_action", "statusnummer": 200}, "DATA": {"activity_enable_post_batch": 0, "activity_enable_post_interact": 0, "activity_wfstep_label": "", "cdb_module_id": "cs.actions", "statusbemerk": "", "statusbez_cs": "", "statusbez_de": "Abgeschlossen", "statusbez_en": "Completed ", "statusbez_es": "", "statusbez_fr": "", "statusbez_it": "", "statusbez_ja": null, "statusbez_ko": null, "statusbez_pl": "", "statusbez_pt": "", "statusbez_tr": "Tamamland\u0131", "statusbez_zh": "\u5b8c\u6210", "statusbezeich": "Completed ", "statusfarbe": "CE_Success_D", "statusrelease": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

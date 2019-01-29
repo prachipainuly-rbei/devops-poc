@@ -1,0 +1,18 @@
+{
+  "cdb_term": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "z_art", "expression": "workspace", "operator": "=", "predicate_name": "cs.workspaces: Workspaces (BLOCKED)", "table_name": "zeichnung"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workspaces", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "z_status", "expression": "170", "operator": "=", "predicate_name": "cs.workspaces: Workspaces (BLOCKED)", "table_name": "zeichnung"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workspaces", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "z_art", "expression": "workspace", "operator": "=", "predicate_name": "cs.workspaces: Workspaces (DRAFT)", "table_name": "zeichnung"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workspaces", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "z_status", "expression": "0", "operator": "=", "predicate_name": "cs.workspaces: Workspaces (DRAFT)", "table_name": "zeichnung"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workspaces", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "z_art", "expression": "workspace", "operator": "=", "predicate_name": "cs.workspaces: Workspaces (OBSOLETE)", "table_name": "zeichnung"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workspaces", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "z_status", "expression": "180", "operator": "=", "predicate_name": "cs.workspaces: Workspaces (OBSOLETE)", "table_name": "zeichnung"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workspaces", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "z_art", "expression": "workspace", "operator": "=", "predicate_name": "cs.workspaces: Workspaces (RELEASED)", "table_name": "zeichnung"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workspaces", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "z_status", "expression": "200", "operator": "=", "predicate_name": "cs.workspaces: Workspaces (RELEASED)", "table_name": "zeichnung"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workspaces", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "z_art", "expression": "workspace", "operator": "=", "predicate_name": "cs.workspaces: Workspaces (REVISION)", "table_name": "zeichnung"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workspaces", "data_type": "char"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "z_status", "expression": "190", "operator": "=", "predicate_name": "cs.workspaces: Workspaces (REVISION)", "table_name": "zeichnung"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.workspaces", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

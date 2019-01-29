@@ -1,0 +1,10 @@
+{
+  "cdbxml_source": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "ProjectIssues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "context": "cs.pcs.projects.Project", "context_card": "1", "description": "Project Open Issues"}},
+      {"PRIMARY_KEYS": {"name": "TaskIssues"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "context": "cs.pcs.projects.tasks.Task", "context_card": "1", "description": "Task Open Issues"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

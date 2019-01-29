@@ -1,0 +1,15 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_cadbindclss", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.cad", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_rk_param", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.cad", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdb_talk_msg_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.cad", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "rahmen_gruppen_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.cad", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "rahmen_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.cad", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "rahmen_table_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.cad", "dflt": 0, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "rk_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.cad", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

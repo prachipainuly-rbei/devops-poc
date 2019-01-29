@@ -1,0 +1,15 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Change Templates"}, "DATA": {"cdb_module_id": "cs.ec", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes"}, "DATA": {"cdb_module_id": "cs.ec", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (EXECUTION)"}, "DATA": {"cdb_module_id": "cs.ec", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: Engineering Changes (NEW)"}, "DATA": {"cdb_module_id": "cs.ec", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes"}, "DATA": {"cdb_module_id": "cs.ec", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (EXECUTION)"}, "DATA": {"cdb_module_id": "cs.ec", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.ec: My Engineering Changes (NEW)"}, "DATA": {"cdb_module_id": "cs.ec", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

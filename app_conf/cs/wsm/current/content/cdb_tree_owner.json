@@ -1,0 +1,19 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "311ce55e-0070-11e1-ad8d-6cf049769241", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"id": "311ce55e-0070-11e1-ad8d-6cf049769241", "role_id": "Administrator: WSM"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"id": "6fd40a8f-0070-11e1-91c7-6cf049769241", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"id": "86b99612-8a38-11e6-9351-005056c00008", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"id": "86b99612-8a38-11e6-9351-005056c00008", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"id": "91da336a-8718-11e6-ad03-005056c00008", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"id": "92b6a6fa-2528-11df-b716-e1f861774235", "role_id": "Administrator: WSM"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"id": "92b9092c-2528-11df-b716-e1f861774235", "role_id": "Administrator: WSM"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"id": "9afc3c5e-067c-11e3-8335-005056c00008", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"id": "c2bd6180-4950-11e4-8075-005056c00008", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.wsm"}},
+      {"PRIMARY_KEYS": {"id": "f903228c-8a39-11e6-be8e-005056c00008", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.wsm"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

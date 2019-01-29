@@ -1,0 +1,45 @@
+{
+  "MODIFIED": {
+    "cdb_prop": [
+      {
+        "MODIFICATIONS": {
+          "value": {
+            "NEW_VALUE": "convert(nvarchar,len(z_index))+z_index", 
+            "OLD_VALUE": "length(z_index) || z_index"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "attr": "ixsm", 
+          "subject_id": "public", 
+          "subject_type": "Common Role"
+        }
+      }, 
+      {
+        "MODIFICATIONS": {
+          "value": {
+            "NEW_VALUE": "convert(nvarchar,len(t_index))+t_index", 
+            "OLD_VALUE": "length(t_index) || t_index"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "attr": "ixsp", 
+          "subject_id": "public", 
+          "subject_type": "Common Role"
+        }
+      }, 
+      {
+        "MODIFICATIONS": {
+          "value": {
+            "NEW_VALUE": "convert(nvarchar,len(z_index))+z_index", 
+            "OLD_VALUE": "length(z_index) || z_index"
+          }
+        }, 
+        "PRIMARY_KEYS": {
+          "attr": "ixsc", 
+          "subject_id": "public", 
+          "subject_type": "Common Role"
+        }
+      }
+    ]
+  }
+}

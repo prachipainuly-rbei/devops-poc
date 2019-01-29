@@ -1,0 +1,16 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (COMPLETED)", "allow": "distribute", "class": "cdb_defect", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (COMPLETED)", "allow": "read", "class": "cdb_defect", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "accept", "class": "cdb_defect", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "create", "class": "cdb_defect", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "delete", "class": "cdb_defect", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "distribute", "class": "cdb_defect", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "read", "class": "cdb_defect", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "allow": "save", "class": "cdb_defect", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.defects"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "csweb_dashboard_widget": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "object-tile"}, "DATA": {"cdb_module_id": "cs.web.dashboard", "component": "cs-web-dashboard-ObjectWidget", "description_de": "Dieses Widget zeigt Ihnen Informationen zu einem ausgew\u00e4hlten Objekt an.", "description_en": "This widget displays information about a selected object.", "description_tr": null, "description_zh": null, "library_name": "", "library_version": "", "name_de": "Objektkachel", "name_en": "Object Tile", "name_tr": "", "name_zh": ""}},
+      {"PRIMARY_KEYS": {"id": "onboarding"}, "DATA": {"cdb_module_id": "cs.web.dashboard", "component": "cs-web-dashboard-OnboardingWidget", "description_de": "Ihr Einstieg in die Arbeit mit dem Dashboard", "description_en": "Getting started working with the dashboard", "description_tr": "", "description_zh": "", "library_name": "", "library_version": "", "name_de": "Onboarding", "name_en": "Onboarding", "name_tr": "", "name_zh": ""}},
+      {"PRIMARY_KEYS": {"id": "search-favourite"}, "DATA": {"cdb_module_id": "cs.web.dashboard", "component": "cs-web-dashboard-SearchFavourite", "description_de": "Dieses Widget zeigt Ihnen die Ergebnisse zu einem ausgew\u00e4hlten Suchfavoriten an.", "description_en": "This widget displays the results of a selected search favorite.", "description_tr": "", "description_zh": "", "library_name": "", "library_version": "", "name_de": "Suchfavorit", "name_en": "Search Favorite", "name_tr": "", "name_zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

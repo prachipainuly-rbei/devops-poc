@@ -1,0 +1,17 @@
+{
+  "cdb_wflowpredef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "cad_assembly", "statusnummer": 0}, "DATA": {"cdb_module_id": "cs.vp.cad", "overwrite": 1, "value": "\"0\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "cad_drawing", "statusnummer": 0}, "DATA": {"cdb_module_id": "cs.vp.cad", "overwrite": 1, "value": "\"0\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "cad_part", "statusnummer": 0}, "DATA": {"cdb_module_id": "cs.vp.cad", "overwrite": 1, "value": "\"0\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "cad_assembly", "statusnummer": 180}, "DATA": {"cdb_module_id": "cs.vp.cad", "overwrite": 1, "value": "\"1\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "cad_drawing", "statusnummer": 180}, "DATA": {"cdb_module_id": "cs.vp.cad", "overwrite": 1, "value": "\"1\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "cad_part", "statusnummer": 180}, "DATA": {"cdb_module_id": "cs.vp.cad", "overwrite": 1, "value": "\"1\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "cad_assembly", "statusnummer": 200}, "DATA": {"cdb_module_id": "cs.vp.cad", "overwrite": 1, "value": "\"0\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "cad_drawing", "statusnummer": 200}, "DATA": {"cdb_module_id": "cs.vp.cad", "overwrite": 1, "value": "\"0\""}},
+      {"PRIMARY_KEYS": {"attribute": "cdb_obsolete", "objektart": "cad_part", "statusnummer": 200}, "DATA": {"cdb_module_id": "cs.vp.cad", "overwrite": 1, "value": "\"0\""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

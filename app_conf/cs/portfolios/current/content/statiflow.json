@@ -1,0 +1,17 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_portfolio", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.portfolios", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_portfolio", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.portfolios", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdb_portfolio", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.portfolios", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdb_portfolio", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.portfolios", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_portfolio_folder", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.portfolios", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdb_portfolio_folder", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.portfolios", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdb_portfolio_folder", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.portfolios", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdb_portfolio_folder", "zielstatus": 0}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.portfolios", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdb_portfolio_folder", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.portfolios", "rang": null, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

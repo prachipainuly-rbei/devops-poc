@@ -1,0 +1,11 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: My Sharings"}, "DATA": {"cdb_module_id": "cs.sharing", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Personal Sharing Groups"}, "DATA": {"cdb_module_id": "cs.sharing", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.sharing: Sharings"}, "DATA": {"cdb_module_id": "cs.sharing", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

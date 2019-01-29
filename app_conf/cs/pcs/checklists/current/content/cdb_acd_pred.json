@@ -1,0 +1,26 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "predicate_name": "Frozen Checklists", "table_name": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cdbpcs: Frozen Projects", "predicate_name": "Frozen Checkpoints", "table_name": "cdbpcs_cl_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklist Item Templates", "predicate_name": "cs.pcs: Checklist Template Items", "table_name": "cdbpcs_cl_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklist Items", "predicate_name": "cs.pcs: Checklist Items", "table_name": "cdbpcs_cl_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklist Items (NEW)", "predicate_name": "cs.pcs: Checklist Items (NEW)", "table_name": "cdbpcs_cl_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklist Items (READY)", "predicate_name": "cs.pcs: Checklist Items (READY)", "table_name": "cdbpcs_cl_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklist Templates", "predicate_name": "cs.pcs: Checklist Templates", "table_name": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklists", "predicate_name": "cs.pcs: Checklists", "table_name": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklists (EVALUATION)", "predicate_name": "cs.pcs: Checklists (EVALUATION)", "table_name": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Checklists (NEW)", "predicate_name": "cs.pcs: Checklists (NEW)", "table_name": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Deliverables", "predicate_name": "cs.pcs: Deliverables", "table_name": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Checklist Items (NEW)", "predicate_name": "cs.pcs: My Checklist Items (NEW)", "table_name": "cdbpcs_cl_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Checklist Items (READY)", "predicate_name": "cs.pcs: My Checklist Items (READY)", "table_name": "cdbpcs_cl_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Checklists", "predicate_name": "cs.pcs: My Checklists", "table_name": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Checklists (EVALUATION)", "predicate_name": "cs.pcs: My Checklists (EVALUATION)", "table_name": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Checklists (NEW)", "predicate_name": "cs.pcs: My Checklists (NEW)", "table_name": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates", "predicate_name": "cs.pcs: Checklist Items", "table_name": "cdbpcs_cl_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Project Templates", "predicate_name": "cs.pcs: Checklists", "table_name": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

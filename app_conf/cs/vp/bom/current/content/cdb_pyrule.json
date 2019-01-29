@@ -1,0 +1,11 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "mBOM Manager: 2D documents"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Documents which should be used as 2D Preview in the mBOM Manager"}},
+      {"PRIMARY_KEYS": {"name": "mBOM Manager: 3D documents"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Documents which should be used as 3D Preview in the mBOM Manager"}},
+      {"PRIMARY_KEYS": {"name": "mBOM Manager: Ignore differences"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Items, which should not be shown in the difference table"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

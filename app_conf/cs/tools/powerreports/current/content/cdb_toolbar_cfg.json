@@ -1,0 +1,9 @@
+{
+  "cdb_toolbar_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classdefname": "", "op_name": "cdbxml_excel_report", "toolbar_id": "webui_account"}, "DATA": {"actiongroup": 50, "cdb_module_id": "cs.tools.powerreports", "descr": "", "icon_id": "", "ordering": 40}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

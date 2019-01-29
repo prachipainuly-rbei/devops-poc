@@ -1,0 +1,12 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cdbpcs: Kosmodrom: Active Objects", "predicate_name": "cdbpcs: Kosmodrom: Active Documents"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.pcs.projects_documents", "expression": "180", "filter_rule": "", "operator": "!="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cdbpcs: Kosmodrom: My Objects", "predicate_name": "cdbpcs: Kosmodrom: My Documents"}, "DATA": {"attribute": "autoren", "cdb_module_id": "cs.pcs.projects_documents", "expression": "$(persno)", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cdbpcs: Kosmodrom: Objects Recently Created", "predicate_name": "cdbpcs: Kosmodrom: Recently Created Documents"}, "DATA": {"attribute": "cdb_cdate", "cdb_module_id": "cs.pcs.projects_documents", "expression": "$(start_date)", "filter_rule": "", "operator": ">="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 1, "name": "cdbpcs: Kosmodrom: Released Objects", "predicate_name": "cdbpcs: Kosmodrom: Released Documents"}, "DATA": {"attribute": "z_status", "cdb_module_id": "cs.pcs.projects_documents", "expression": "200", "filter_rule": "", "operator": "="}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

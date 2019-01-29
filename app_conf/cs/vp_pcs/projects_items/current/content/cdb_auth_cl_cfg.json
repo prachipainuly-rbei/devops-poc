@@ -1,0 +1,9 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs: Exceptional Access", "relation": "cdbpcs_rexc_prt"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

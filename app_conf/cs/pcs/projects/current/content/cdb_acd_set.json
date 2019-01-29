@@ -1,0 +1,10 @@
+{
+  "cdb_acd_set": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_set_name": "All Projects", "context_name": "ProjectContext"}, "DATA": {"cdb_acd_set_txt": "Dynamisches Schutzklassen-Set, das f\u00fcr alle Projekte au\u00dfer Vorlagen gilt.\nF\u00fcr Projektvorlagen wird ein statisches Schutzklassen-Set verwendet, das\ndieses dynamische Set au\u00dfer Kraft setzt (\u00fcberschreibt).\n\n\n", "cdb_module_id": "cs.pcs.projects", "static_acd_assignment": 0}},
+      {"PRIMARY_KEYS": {"acd_set_name": "Project Templates", "context_name": "ProjectContext"}, "DATA": {"cdb_acd_set_txt": "Statische Zuordnung der Schutzklassen f\u00fcr Projektvorlagen.\nDie zugeordneten Schutzklassen werden autom. bei Neuanlage einer Projektvorlage in die Schutzklassenzuordnungsrelation eingetragen und damit explizit der Vorlage zugeordnet.\n\nDie statische Zuordnung setzt  f\u00fcr Projektvorlagen alle passenden\ndynamischen Schutzklassen-Sets au\u00dfer Kraft.", "cdb_module_id": "cs.pcs.projects", "static_acd_assignment": 1}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

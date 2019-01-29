@@ -1,0 +1,9 @@
+{
+  "cdbbop_opdef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"operation": "PartStateChange", "type_id": "teile_stamm"}, "DATA": {"cdb_module_id": "cs.vp.items", "name_cs": "", "name_d": "Status\u00e4nderung", "name_es": "", "name_fr": "", "name_i": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Durumu de\u011fi\u015ftir", "name_uk": "Change Status", "name_zh": "\u66f4\u6539\u72b6\u6001", "obsolete": 0, "param_register": "cdbbop_item_statepara"}}
+    ],
+    "CONTENT_DOMAIN": "BatchOperations",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

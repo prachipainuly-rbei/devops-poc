@@ -1,0 +1,9 @@
+{
+  "cdb_link_graph_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "fb61f070-7123-11e2-84f0-005056c00008"}, "DATA": {"callargs": "-Tsvg -Gsize=15! -Goverlap=prism", "cdb_module_id": "cs.tools.semanticlinks", "font_name": "Sans-Serif", "font_size": 9, "ignore_contains": null, "name": "SemanticLinkGraph", "radius": 1, "view_name": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

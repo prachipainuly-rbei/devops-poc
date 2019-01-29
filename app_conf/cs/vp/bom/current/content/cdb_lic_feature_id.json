@@ -1,0 +1,19 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "BOM_001"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to read bom item master data.", "name": "BOM: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "BOM_002"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to write bom item master data.", "name": "BOM: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "BOM_003"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to write manufacturing boms.", "name": "BOM: Manage Manufacturing BOMs"}},
+      {"PRIMARY_KEYS": {"id": "BOM_004"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to read manufacturing boms and compare them with the engineering boms.", "name": "BOM: Compare Manufacturing BOMs"}},
+      {"PRIMARY_KEYS": {"id": "BOM_005"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to use the Platform's Batch Operation functionality.", "name": "BOM: Batch Operations"}},
+      {"PRIMARY_KEYS": {"id": "BOM_006"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to read the usage structure of a part.", "name": "BOM: Usage structure"}},
+      {"PRIMARY_KEYS": {"id": "BOM_007"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to use the bom comparision overview.", "name": "BOM: Comparison"}},
+      {"PRIMARY_KEYS": {"id": "BOM_008"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to see the product structure of a part.", "name": "BOM: Product Structure"}},
+      {"PRIMARY_KEYS": {"id": "BOM_009"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to generate quantity reports.", "name": "BOM: Quantity Reports"}},
+      {"PRIMARY_KEYS": {"id": "BOM_010"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to generate comparison reports.", "name": "BOM: Comparison Reports"}},
+      {"PRIMARY_KEYS": {"id": "BOM_011"}, "DATA": {"cdb_module_id": "cs.vp.bom", "description": "Allows to generate usage reports.", "name": "BOM: Usage Reports"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

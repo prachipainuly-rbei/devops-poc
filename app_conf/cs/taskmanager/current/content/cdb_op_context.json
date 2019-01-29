@@ -1,0 +1,10 @@
+{
+  "cdb_op_context": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CsTasksDetailReference"}, "DATA": {"cdb_module_id": "cs.taskmanager"}, "LONGTEXTS": {"cdb_op_context_txt": "operations used in the cs.taskmanager while showing references of current task object in detail view"}},
+      {"PRIMARY_KEYS": {"id": "CsTasksTable"}, "DATA": {"cdb_module_id": "cs.taskmanager"}, "LONGTEXTS": {"cdb_op_context_txt": "operations used in the cs.taskmanager table component"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

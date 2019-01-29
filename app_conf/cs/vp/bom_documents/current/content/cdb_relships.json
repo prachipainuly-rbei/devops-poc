@@ -1,0 +1,10 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_bom_item_documents"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.vp.bom_documents", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 0, "label": "part_documents", "menugroup": 10000, "node_tag": "", "ordering": 20, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "document", "reference_kmap": "z_nummer=z_nummer;z_index=z_index", "referer": "bom_item", "referer_kmap": "teilenummer=teilenummer;t_index=t_index", "relship_cldef": "document", "relship_table": "", "rolename": "DocumentsAllDocuments", "rs_acc_prof": "", "rs_profile": "cdb_navigation_1_N", "show_in_mask": 2, "show_in_menu": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_bom_item_usage2documents"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.vp.bom_documents", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 0, "label": "part_documents", "menugroup": 10000, "node_tag": "", "ordering": 20, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "document", "reference_kmap": "z_nummer=z_nummer;z_index=z_index", "referer": "bom_item_usage", "referer_kmap": "baugruppe=teilenummer;b_index=t_index", "relship_cldef": "", "relship_table": "zeichnung", "rolename": "Documents", "rs_acc_prof": "", "rs_profile": "cdb_navigation_1_N", "show_in_mask": 1, "show_in_menu": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

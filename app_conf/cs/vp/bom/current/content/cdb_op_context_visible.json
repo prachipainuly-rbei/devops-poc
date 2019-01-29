@@ -1,0 +1,19 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "CDB_ProductStructure"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "CDB_ProductUtilization"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "CDB_ProductStructure"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "CDB_ProductUtilization"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_ProductStructure"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "CDB_ProductUtilization"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdb_parts_list_comparison"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "CDB_ProductStructure"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "CDB_ProductUtilization"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "CDB_ProductStructure"}, "DATA": {"cdb_module_id": "cs.vp.bom"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "CDB_ProductUtilization"}, "DATA": {"cdb_module_id": "cs.vp.bom"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

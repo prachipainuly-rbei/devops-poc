@@ -1,0 +1,9 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdb_personal_settings", "mask_role_id": "public", "name": "cdb_perssettings_webui"}, "DATA": {"cdb_module_id": "cs.web.components", "ordering": 60, "priority": 10, "reg_title": "csweb_webui"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

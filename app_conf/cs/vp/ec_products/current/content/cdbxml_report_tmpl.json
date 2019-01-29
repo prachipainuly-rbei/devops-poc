@@ -1,0 +1,9 @@
+{
+  "cdbxml_report_tmpl": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iso_code": "de", "name": "Analyse Aenderungsmanagement", "report_title": "Analyse \u00c4nderungsmanagement"}, "DATA": {"cdb_module_id": "cs.vp.ec_products", "cdb_object_id": "e2f2e8cf-317d-11e3-b5e0-082e5f0d3665", "title": "Analyse \u00c4nderungsmanagement"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

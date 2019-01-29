@@ -1,0 +1,36 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_action2part", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdb_dependent_mboms", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdb_part2actions", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdb_part2cdb_part_cust", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdb_part2cdb_role_exc", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdb_part2cdbbop_operation", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdb_part_cust2cdb_org", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdb_role_exc2part", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdb_t_statiprot2cdb_person_name", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdb_t_statiprot2new_status", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdb_t_statiprot2old_status", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_item_asgn2part", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdbbop_operation2cdbbop_itemasgn", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdbrqm_part2slink", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_briefcase2part", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "cdbwf_part2process", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2cdb_person_cnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2cdb_person_m2nr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2cdb_person_mnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2cdb_t_statiprot", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2cdb_t_statiprot", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2objektstati", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2part_categ", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2part_surfac", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2part_usab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2teile_verteiler", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2units", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"name": "part2werkstoffe", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.vp.items"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

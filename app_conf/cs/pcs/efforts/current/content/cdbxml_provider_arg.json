@@ -1,0 +1,36 @@
+{
+  "cdbxml_provider_arg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "ProjectEfforts", "xsd_name": "ProjectEfforts"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "ProjectEfforts", "xsd_name": "ProjectEfforts"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "ProjectEfforts", "xsd_name": "ProjectEfforts"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "ProjectEfforts", "xsd_name": "ProjectEfforts"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "ProjectEfforts", "xsd_name": "ProjectEfforts"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "ProjectEfforts", "xsd_name": "ProjectEfforts"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "ProjectEfforts", "xsd_name": "ProjectEfforts"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "ProjectEfforts", "xsd_name": "Project_1"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "ProjectEfforts", "xsd_name": "Project_1"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "ProjectEfforts", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "ProjectEfforts", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "ProjectEfforts", "xsd_name": "Project_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "ProjectEfforts", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "ProjectEfforts", "xsd_name": "Project_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "TaskEfforts", "xsd_name": "TaskEfforts"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "TaskEfforts", "xsd_name": "TaskEfforts"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "TaskEfforts", "xsd_name": "TaskEfforts"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "TaskEfforts", "xsd_name": "TaskEfforts"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "TaskEfforts", "xsd_name": "TaskEfforts"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "TaskEfforts", "xsd_name": "TaskEfforts"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "TaskEfforts", "xsd_name": "TaskEfforts"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:CheckedRight", "name": "TaskEfforts", "xsd_name": "Task_1"}, "DATA": {"arg_value": "read", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehavior", "name": "TaskEfforts", "xsd_name": "Task_1"}, "DATA": {"arg_value": "skip row", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "AccessControl:FailBehaviorJoinedObjects", "name": "TaskEfforts", "xsd_name": "Task_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Action", "name": "TaskEfforts", "xsd_name": "Task_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:Enabled", "name": "TaskEfforts", "xsd_name": "Task_1"}, "DATA": {"arg_value": "True", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "Hyperlinks:TextToDisplay", "name": "TaskEfforts", "xsd_name": "Task_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"arg_name": "LongTexts", "name": "TaskEfforts", "xsd_name": "Task_1"}, "DATA": {"arg_value": "", "cdb_module_id": "cs.pcs.efforts"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

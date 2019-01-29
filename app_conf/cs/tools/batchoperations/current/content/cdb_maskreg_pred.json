@@ -1,0 +1,20 @@
+{
+  "cdb_maskreg_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp", "mask_role_id": "public", "name": "cdbbop_bomitem_cpara", "predicate_name": "cs.tools: Batch Operations (complete BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp", "mask_role_id": "public", "name": "cdbbop_bomitem_cvpara", "predicate_name": "cs.tools: Batch Operations (add Variant to BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp", "mask_role_id": "public", "name": "cdbbop_bomitem_dpara", "predicate_name": "cs.tools: Batch Operations (remove Part from BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp", "mask_role_id": "public", "name": "cdbbop_bomitem_rpara", "predicate_name": "cs.tools: Batch Operations (replace Part in BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp", "mask_role_id": "public", "name": "cdbbop_doc_statepara", "predicate_name": "cs.tools: Batch Operations (change Document status)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp", "mask_role_id": "public", "name": "cdbbop_item_statepara", "predicate_name": "cs.tools: Batch Operations (change Part status)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp_c", "mask_role_id": "public", "name": "cdbbop_bomitem_cpara", "predicate_name": "cs.tools: Batch Operations (complete BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp_c", "mask_role_id": "public", "name": "cdbbop_bomitem_cvpara", "predicate_name": "cs.tools: Batch Operations (add Variant to BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp_c", "mask_role_id": "public", "name": "cdbbop_bomitem_dpara", "predicate_name": "cs.tools: Batch Operations (remove Part from BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp_c", "mask_role_id": "public", "name": "cdbbop_bomitem_rpara", "predicate_name": "cs.tools: Batch Operations (replace Part in BOM)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp_c", "mask_role_id": "public", "name": "cdbbop_doc_statepara", "predicate_name": "cs.tools: Batch Operations (change Document status)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbbop_operation_comp_c", "mask_role_id": "public", "name": "cdbbop_item_statepara", "predicate_name": "cs.tools: Batch Operations (change Part status)", "table_name": "cdbbop_operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

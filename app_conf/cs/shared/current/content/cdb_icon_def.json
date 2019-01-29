@@ -1,0 +1,12 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_class_icon", "kind": "Image", "location_type": "Icon", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.shared", "descr": "Das zu einer Klasse konfigurierte Icon", "fallback_id": "cdbdd_class", "identifier": "cdb_icon_id", "location": "", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_create_from_template", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.shared", "descr": "Allgemeines Kontextmenuicon f\u00fcr Neu aus Vorlage", "fallback_id": "", "identifier": "\"create_from_template.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_elink_projectoverview", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.shared", "descr": "", "fallback_id": "", "identifier": "\"elink-projectoverview.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_quality", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.shared", "descr": "", "fallback_id": "", "identifier": "\"cdb_quality.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cdb_obj_state_ch": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objclass": "cdbecm_ec"}, "DATA": {"cdb_module_id": "cs.ec", "comp_name": "default", "prot_table": "cdbecm_ec_prot"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

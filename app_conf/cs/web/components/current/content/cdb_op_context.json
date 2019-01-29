@@ -1,0 +1,15 @@
+{
+  "cdb_op_context": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "WebUIApplicationBar"}, "DATA": {"cdb_module_id": "cs.web.components"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations to be shown in the default toolbar for detail\npages in the Web UI"}},
+      {"PRIMARY_KEYS": {"id": "WebUIClassApplicationBar"}, "DATA": {"cdb_module_id": "cs.web.components"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations that are displayed in the application bar of class-pages"}},
+      {"PRIMARY_KEYS": {"id": "WebUIFileControl"}, "DATA": {"cdb_module_id": "cs.web.components"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations to be shown for file objects in the FileList component."}},
+      {"PRIMARY_KEYS": {"id": "WebUIObjectApplicationBar"}, "DATA": {"cdb_module_id": "cs.web.components"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations that are displayed in the ApplicationBar on object-detail-pages"}},
+      {"PRIMARY_KEYS": {"id": "WebUIRelationshipTable"}, "DATA": {"cdb_module_id": "cs.web.components"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations to be displayed in RelationshipTable Component"}},
+      {"PRIMARY_KEYS": {"id": "WebUIResultArea"}, "DATA": {"cdb_module_id": "cs.web.components"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations displayed in the result area of the class view page"}},
+      {"PRIMARY_KEYS": {"id": "WebUIToolbar"}, "DATA": {"cdb_module_id": "cs.web.components"}, "LONGTEXTS": {"cdb_op_context_txt": "Operations to be shown in the default toolbar for detail\npages in the Web UI"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

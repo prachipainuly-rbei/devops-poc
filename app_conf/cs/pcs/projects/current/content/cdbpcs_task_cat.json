@@ -1,0 +1,14 @@
+{
+  "cdbpcs_task_cat": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"category": "Development"}, "DATA": {"name_cs": "", "name_de": "Entwicklung", "name_en": "Development", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Geli\u015ftirme", "name_zh": "\u5f00\u53d1", "obsolete": 0, "workflow": "cdbpcs_task"}},
+      {"PRIMARY_KEYS": {"category": "Dokumentation"}, "DATA": {"name_cs": "", "name_de": "Dokumentation", "name_en": "Documentation", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Dok\u00fcmantasyon", "name_zh": "\u6587\u63a7", "obsolete": 0, "workflow": "cdbpcs_task"}},
+      {"PRIMARY_KEYS": {"category": "Einkauf"}, "DATA": {"name_cs": "", "name_de": "Einkauf", "name_en": "Purchase", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Sat\u0131n alma", "name_zh": "\u91c7\u8d2d", "obsolete": 0, "workflow": "cdbpcs_task"}},
+      {"PRIMARY_KEYS": {"category": "Konzeption"}, "DATA": {"name_cs": "", "name_de": "Konzeption", "name_en": "Conception", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "kavram", "name_zh": "\u6982\u5ff5", "obsolete": 0, "workflow": "cdbpcs_task"}},
+      {"PRIMARY_KEYS": {"category": "Organisation/Leitung"}, "DATA": {"name_cs": "", "name_de": "Organisation/Leitung", "name_en": "Organisation/Management", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Organizasyon/Y\u00f6netim", "name_zh": "\u7ec4\u7ec7/\u7ba1\u7406", "obsolete": 0, "workflow": "cdbpcs_task"}},
+      {"PRIMARY_KEYS": {"category": "Qualit\u00e4tssicherung"}, "DATA": {"name_cs": "", "name_de": "Qualit\u00e4tssicherung", "name_en": "Quality Assurance", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Kalite g\u00fcvence", "name_zh": "\u8d28\u91cf\u4fdd\u8bc1", "obsolete": 0, "workflow": "cdbpcs_task"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

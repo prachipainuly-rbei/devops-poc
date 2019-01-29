@@ -1,0 +1,9 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "PLATFORM_020"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "description": "Customizing LDAP - Used to provide Single Sign On", "name": "LDAP Configuration"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

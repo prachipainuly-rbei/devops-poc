@@ -1,0 +1,24 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0d4353f2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2cl", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cl", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d4353f2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2cl", "field_name": "checklist_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cl", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d4353f2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2cl", "field_name": "z_index"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cl", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d4353f2-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2cl", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cl", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d4a7de8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2cli", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cli", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d4a7de8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2cli", "field_name": "checklist_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cli", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d4a7de8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2cli", "field_name": "cl_item_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cli", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d4a7de8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2cli", "field_name": "z_index"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cli", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0d4a7de8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2cli", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_doc2cli", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ee53900-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cl2doctmpl", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cl2doctmpl", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ee53900-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cl2doctmpl", "field_name": "checklist_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cl2doctmpl", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ee53900-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cl2doctmpl", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cl2doctmpl", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ee9ffa4-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cli2doctmpl", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cli2doctmpl", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ee9ffa4-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cli2doctmpl", "field_name": "checklist_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cli2doctmpl", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ee9ffa4-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cli2doctmpl", "field_name": "cl_item_id"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cli2doctmpl", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ee9ffa4-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_cli2doctmpl", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents", "classname": "cdbpcs_cli2doctmpl", "position": 30}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

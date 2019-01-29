@@ -1,0 +1,19 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs_checklist2docs", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl2doctmpl", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl_doctmpl2doc", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cl_item2docs", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cli2doctmpl", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_cli_doctmpl2doc", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_doc2cldoctemplates", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_doc2clidoctmpl", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_doc2topchecklists", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_project2cl_doctemplates", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_project2cli_doctemplates", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

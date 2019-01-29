@@ -1,0 +1,9 @@
+{
+  "cdbqc_grouping_attribute": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute_name": "category", "cdbqc_def_object_id": "63b5af80-2d6e-11e2-aac2-082e5f0d3665", "classname": "cdbpcs_project"}, "DATA": {"cdb_module_id": "cs.pcs.projects"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

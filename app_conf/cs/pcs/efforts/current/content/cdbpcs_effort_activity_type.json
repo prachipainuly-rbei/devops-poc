@@ -1,0 +1,11 @@
+{
+  "cdbpcs_effort_activity_type": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "8d47e140-a162-11e0-8199-005056c00008"}, "DATA": {"name_cs": "", "name_de": "Entwicklung", "name_en": "Development", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Geli\u015ftirme", "name_zh": "\u5f00\u53d1", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9158395e-a162-11e0-a8bb-005056c00008"}, "DATA": {"name_cs": "", "name_de": "Detail Design", "name_en": "Detail Design", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Detay tasar\u0131m", "name_zh": "\u7ec6\u8282\u8bbe\u8ba1", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "944aec80-a162-11e0-97fe-005056c00008"}, "DATA": {"name_cs": "", "name_de": "Drafting", "name_en": "Drafting", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Teknik resim", "name_zh": "\u8349\u56fe", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "csweb_outlet_child": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"outlet_child_name": "ContentWithFilelist"}, "DATA": {"ausgabe_label": "csweb_object_content_outlet", "cdb_icon_id": "View", "cdb_module_id": "cs.web.components", "config_component": "", "config_location": "$CADDOK_MODULE + \"/webui_default/outlets/object-content-with-filelist.json\"", "json_properties": ""}},
+      {"PRIMARY_KEYS": {"outlet_child_name": "DetailOutletRelationshipTable"}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.web.components", "config_component": "cs-web-components-base-DetailOutletRelationshipTable", "config_location": "", "json_properties": ""}},
+      {"PRIMARY_KEYS": {"outlet_child_name": "DetailOutletRelationshipTableWithContentView"}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.web.components", "config_component": "", "config_location": "$CADDOK_MODULE + \"/webui_default/outlets/detail-relship-with-content.json\"", "json_properties": ""}},
+      {"PRIMARY_KEYS": {"outlet_child_name": "DetailOutletRelationshipTreeTable"}, "DATA": {"ausgabe_label": "", "cdb_icon_id": "", "cdb_module_id": "cs.web.components", "config_component": "cs-web-components-base-DetailOutletRelationshipTreeTable", "config_location": "", "json_properties": ""}},
+      {"PRIMARY_KEYS": {"outlet_child_name": "FileList"}, "DATA": {"ausgabe_label": "web.base.file_table_panel", "cdb_icon_id": "csweb_file", "cdb_module_id": "cs.web.components", "config_component": "cs-web-components-base-FileList", "config_location": "", "json_properties": "{\n    \"expanded\": true,\n    \"minified\": false\n}"}},
+      {"PRIMARY_KEYS": {"outlet_child_name": "Form"}, "DATA": {"ausgabe_label": "data_sheet", "cdb_icon_id": "Information", "cdb_module_id": "cs.web.components", "config_component": "cs-web-components-base-Form", "config_location": "", "json_properties": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

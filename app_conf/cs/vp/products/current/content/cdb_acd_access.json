@@ -1,0 +1,17 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products", "allow": "read", "class": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products", "allow": "read_file", "class": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products", "allow": "vp_state_change", "class": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "accept", "class": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "create", "class": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "delete", "class": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "edit_vpm", "class": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "error_label": "cdbvp_product_status", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "read", "class": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Products (DRAFT)", "allow": "save", "class": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

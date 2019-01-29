@@ -1,0 +1,9 @@
+{
+  "cdb_obj_state_ch": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objclass": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "comp_name": "default", "prot_table": "cdb_t_statiprot"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

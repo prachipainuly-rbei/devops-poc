@@ -1,0 +1,11 @@
+{
+  "maskenzuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "acs_conv_services", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.platform.acs", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "acs_plg_conv", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.platform.acs", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "mq_acs_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.platform.acs", "ersteller": "Patz, Frank", "html_help": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

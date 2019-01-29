@@ -1,0 +1,9 @@
+{
+  "cdb_link_graph_cls": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "12a6d161-7124-11e2-86f7-005056c00008"}, "DATA": {"cdb_module_id": "cs.vp.items", "cfg_object_id": "fb61f070-7123-11e2-84f0-005056c00008", "classname": "part", "farben_id": 231, "obj_rule": "cdb_link_graph: Visible Elements"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

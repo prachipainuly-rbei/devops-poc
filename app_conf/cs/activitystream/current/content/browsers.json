@@ -1,0 +1,9 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "cdbblog_channel"}, "DATA": {"browser_tabelle": "[default]", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.activitystream", "check_value": 0, "classname": "cdbblog_channel", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "", "search_mask": "[default]", "title_cs": "", "title_de": "Kan\u00e4le", "title_en": "Channels", "title_es": "", "title_fr": "", "title_it": "", "title_ja": null, "title_ko": null, "title_pl": "", "title_pt": "", "title_tr": "Bir kanal se\u00e7in", "title_zh": "\u9009\u62e9\u4e00\u4e2a\u6e20\u9053"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

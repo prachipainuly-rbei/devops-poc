@@ -1,0 +1,18 @@
+{
+  "ausgaben": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_custupdates"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Custom Updates", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "\u00d6zel g\u00fcncellemeler", "uk": "Custom Updates", "zh": "\u5b9a\u5236\u66f4\u65b0"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_exp_custupdate"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Exportieren ...", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "D\u0131\u015fa aktar ...", "uk": "Export ...", "zh": "\u521b\u5efa\u5bfc\u51fa..."}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_run_custupdate"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Installieren ...", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Y\u00fckle ...", "uk": "Install ...", "zh": "\u5b89\u88c5..."}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_script_exec"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Sessions", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Oturumlar", "uk": "Sessions", "zh": "\u4f1a\u8bdd"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_script_log"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Log", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Log", "uk": "Log", "zh": "\u65e5\u5fd7"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_scrlog_checked"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Gepr\u00fcft \u2026", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Kontrol edildi ...", "uk": "Reviewed \u2026", "zh": "\u68c0\u67e5..."}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_update_all"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Updates ausf\u00fchren", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "G\u00fcncellemeleri \u00e7al\u0131\u015ft\u0131r", "uk": "Execute Updates", "zh": "\u6267\u884c\u66f4\u65b0"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "cdb_updates"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Updates", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "G\u00fcncellemeler", "uk": "Updates", "zh": "\u66f4\u65b0"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_cdb_demos"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Demodaten", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "Demolar", "uk": "Demo Data", "zh": "\u793a\u4f8b"}},
+      {"PRIMARY_KEYS": {"ausgabe_label": "tree_cdb_update"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "cs": "", "d": "Updates", "f": "", "i": "", "ja": null, "ko": null, "pl": "", "pt": "", "s": "", "tr": "G\u00fcncellemeler", "uk": "Updates", "zh": "\u66f4\u65b0"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

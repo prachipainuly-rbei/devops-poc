@@ -1,0 +1,14 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Categories (non-root)", "allow": "FULL ACCESS", "class": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Categories (root)", "allow": "read", "class": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Categories (root)", "allow": "read_file", "class": "cdbsml_propcat"}, "DATA": {"cdb_module_id": "cs.vp.classification", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Groups (non-root)", "allow": "FULL ACCESS", "class": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Groups (root)", "allow": "read", "class": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Characteristics Groups (root)", "allow": "read_file", "class": "cdbsml_cgroup"}, "DATA": {"cdb_module_id": "cs.vp.classification", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

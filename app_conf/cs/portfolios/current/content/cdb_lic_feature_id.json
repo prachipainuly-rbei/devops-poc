@@ -1,0 +1,12 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "PORTFOLIOS_001"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": "Allows to read Document master data, aggregated elements (e.g. changes of status protocol).", "name": "Portfolios: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "PORTFOLIOS_002"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": "Allows to write (create, copy, modify, delete) Document master data and aggregated elements.", "name": "Portfolios: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "PORTFOLIOS_003"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": "Allows to define portfolio structures.", "name": "Portfolios: Define Structures"}},
+      {"PRIMARY_KEYS": {"id": "PORTFOLIOS_004"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": "Allows to use the Portfolio Navigator for navigating inside a portfolio structure.", "name": "Portfolios: Navigate"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

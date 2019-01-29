@@ -1,0 +1,11 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "12adf9c0-e1d6-11e4-a550-00a0c6000000"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.launchpad", "classname": "", "feature_id": "LAUNCHPAD_001", "name": "CDB_Launchpad", "password": "SYtZ9Q2ywDU"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9290f0cf-e1da-11e4-b8f6-00a0c6000000"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_url", "cdb_module_id": "cs.launchpad", "feature_id": "LAUNCHPAD_001", "password": "8OnJ1NtHlrA", "url": ".*powerscript/cs\\.launchpad.*"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e448cb4f-e1df-11e4-a39b-00a0c6000000"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.launchpad", "classname": "", "feature_id": "LAUNCHPAD_001", "name": "CDB_Launchpad", "password": "SYtZ9Q2ywDU"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

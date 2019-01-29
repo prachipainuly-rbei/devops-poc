@@ -1,0 +1,11 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "cad_assembly"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "", "name_cs": "", "name_de": "3D-Baugruppen", "name_en": "3D Assemblies", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "3D montajlar", "name_zh": "3D\u88c5\u914d", "objclass": "document", "sys_wf": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cad_drawing"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "", "name_cs": "", "name_de": "CAD-Zeichnungen", "name_en": "CAD Drawings", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "CAD resimleri", "name_zh": "CAD\u56fe\u7eb8", "objclass": "document", "sys_wf": 0}},
+      {"PRIMARY_KEYS": {"objektart": "cad_part"}, "DATA": {"cdb_module_id": "cs.vp.cad", "description": "", "name_cs": "", "name_de": "3D-Einzelteile", "name_en": "3D Parts", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "3D par\u00e7alar", "name_zh": "3D\u96f6\u4ef6", "objclass": "document", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

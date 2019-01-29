@@ -1,0 +1,9 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Exceptional Access", "predicate_name": "cs.vp: Exceptional Access (Projects)", "table_name": "cdbpcs_rexc_prt"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

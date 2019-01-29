@@ -1,0 +1,27 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0bfc2d10-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_global_role", "field_name": "role_id"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0fc34dca-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_global_subj_base", "field_name": "exception_id"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_subj_base", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0fc34dca-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_global_subj_base", "field_name": "role_id"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_subj_base", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0fc34dca-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_global_subj_base", "field_name": "subject_id"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_subj_base", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0fc34dca-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_global_subj_base", "field_name": "subject_type"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_subj_base", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "2cd07e8f-3fa3-11e7-afbb-78acc0a55b77", "field_classname": "cdb_subjects", "field_name": "subject_id"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_subjects", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "2cd07e8f-3fa3-11e7-afbb-78acc0a55b77", "field_classname": "cdb_subjects", "field_name": "subject_type"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_subjects", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "6c9e53c0-3605-11e5-89a8-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_cs"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "7c476be1-3605-11e5-a889-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_de"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "85538d8f-3605-11e5-8fe2-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_en"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "89e8cd21-3605-11e5-b097-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_es"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "90f99400-3605-11e5-b7c3-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_fr"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "9643a4a1-3605-11e5-b713-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_it"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "99dc0da1-3605-11e5-94a8-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_ja"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "9c55e740-3605-11e5-8365-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_ko"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "9f3b7b00-3605-11e5-bf8d-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_pl"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "a3b20f00-3605-11e5-b398-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_pt"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "a62f4400-3605-11e5-a967-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_tr"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "a8be7a5e-3605-11e5-ba34-78acc0a55b77", "field_classname": "cdb_global_role", "field_name": "name_zh"}, "DATA": {"cdb_module_id": "cs.platform.roles", "classname": "cdb_global_role", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

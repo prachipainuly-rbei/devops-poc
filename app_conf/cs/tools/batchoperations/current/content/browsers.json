@@ -1,0 +1,11 @@
+{
+  "browsers": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"katalog": "cdbbop_opdef"}, "DATA": {"browser_tabelle": "[default]", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.tools.batchoperations", "check_value": 0, "classname": "cdbbop_opdef", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "", "search_mask": "", "title_cs": "", "title_de": "Operationen", "title_en": "Operations", "title_es": "", "title_fr": "", "title_it": "", "title_ja": "", "title_ko": "", "title_pl": "", "title_pt": "", "title_tr": "\u0130\u015flemler", "title_zh": "\u64cd\u4f5c"}},
+      {"PRIMARY_KEYS": {"katalog": "cdbbop_states"}, "DATA": {"browser_tabelle": "cdbbop_objstati_br_tab", "callfield_only": 0, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.tools.batchoperations", "check_value": 0, "classname": "", "direct_create": 0, "fqpyname": "cs.tools.batchoperations.TargetStateCatalog", "max_records": 100, "no_search": 0, "offer_operations": 0, "one_entry_direct": 0, "proposal_class": "", "relation": "objektstati", "search_mask": "", "title_cs": "", "title_de": "Status", "title_en": "Status", "title_es": "", "title_fr": "", "title_it": "", "title_ja": "", "title_ko": "", "title_pl": "", "title_pt": "", "title_tr": "Durum", "title_zh": "\u72b6\u6001"}},
+      {"PRIMARY_KEYS": {"katalog": "cdbbop_typedef"}, "DATA": {"browser_tabelle": "cdbbop_typedef_brows", "callfield_only": 1, "cdb_classname": "cdb_list_browser", "cdb_module_id": "cs.tools.batchoperations", "check_value": 0, "classname": "", "direct_create": 0, "fqpyname": "", "max_records": 100, "no_search": 0, "offer_operations": 1, "one_entry_direct": 0, "proposal_class": "", "relation": "cdbbop_typedef", "search_mask": "", "title_cs": "", "title_de": "", "title_en": "", "title_es": "", "title_fr": "", "title_it": "", "title_ja": "", "title_ko": "", "title_pl": "", "title_pt": "", "title_tr": "", "title_zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

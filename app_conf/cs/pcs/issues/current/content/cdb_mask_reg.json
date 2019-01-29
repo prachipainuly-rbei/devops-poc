@@ -1,0 +1,16 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_issue_comp", "mask_role_id": "public", "name": "cdb_elink_activitystream"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "ordering": 30, "priority": 10, "reg_title": "cdbblog_maskreg_activities"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_issue_comp", "mask_role_id": "public", "name": "cdbpcs_iss_chctrl"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_issue_comp", "mask_role_id": "public", "name": "cdbpcs_iss_desc_mask"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "ordering": 15, "priority": 0, "reg_title": "pcs_iss_descr"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_issue_comp", "mask_role_id": "public", "name": "cdbpcs_issue_mask"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_issue_comp_c", "mask_role_id": "public", "name": "cdbpcs_iss_desc_mask"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "ordering": 15, "priority": 0, "reg_title": "pcs_iss_descr"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_issue_comp_c", "mask_role_id": "public", "name": "cdbpcs_issue_mask"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_issue_comp_s", "mask_role_id": "public", "name": "cdbpcs_iss_chctrl_s"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_issue_comp_s", "mask_role_id": "public", "name": "cdbpcs_issue_mask_s"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "ordering": 10, "priority": 0, "reg_title": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

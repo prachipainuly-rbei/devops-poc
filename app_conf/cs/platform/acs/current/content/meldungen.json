@@ -1,0 +1,12 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_acs_global_context_create"}, "DATA": {"cdb_module_id": "cs.platform.acs", "cs": "", "d": "Rechtegesteuerte Tabellen sind automatisch f\u00fcr den globalen Kontext aktiviert.", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "", "uk": "Access controlled tables are automatically enabled for the global context.", "zh": ""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_acs_global_context_domain_set"}, "DATA": {"cdb_module_id": "cs.platform.acs", "cs": null, "d": "Schutzklassen-Sets k\u00f6nnen an den globalen Kontext nicht angeh\u00e4ngt werden. Aktivieren Sie 'allgemeine Schutzklasse' bei der Schutzklasse, um sie dem globalen Kontext zuzuordnen.", "f": null, "i": null, "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": null, "tr": null, "uk": "Domain sets cannot be attached to the global context.\\nActivate the 'Common ACD' checkbox within the access control domains to be enabled for the global context.", "zh": null}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_acs_restart_jobs"}, "DATA": {"cdb_module_id": "cs.platform.acs", "cs": "", "d": "Startet die ausgew\u00e4hlten Konvertierungsauftr\u00e4ge neu", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "", "uk": "Restarts the selected conversion jobs", "zh": ""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbmq_acsjob_dtag"}, "DATA": {"cdb_module_id": "cs.platform.acs", "cs": "", "d": "\"(\"+cdbmq_id+\") \"+plugin+\"  \" +z_nummer+\"-\"+z_index+\" --> \"+target", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 8202, "pl": "", "pt": "", "s": "", "tr": "\"(\"+cdbmq_id+\") \"+plugin+\"  \" +z_nummer+\"-\"+z_index+\" --> \"+target", "uk": "\"(\"+cdbmq_id+\") \"+plugin+\"  \" +z_nummer+\"-\"+z_index+\" --> \"+target", "zh": "\"(\"+cdbmq_id+\") \"+plugin+\"  \" +z_nummer+\"-\"+z_index+\" --> \"+target"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

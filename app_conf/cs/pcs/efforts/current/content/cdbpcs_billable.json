@@ -1,0 +1,11 @@
+{
+  "cdbpcs_billable": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "ja"}, "DATA": {"name_cs": "", "name_de": "Ja", "name_en": "Yes", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Evet", "name_zh": "\u662f", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"id": "nein"}, "DATA": {"name_cs": "", "name_de": "Nein", "name_en": "No", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Hat\u0131r", "name_zh": "\u5426", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"id": "offen"}, "DATA": {"name_cs": "", "name_de": "Offen", "name_en": "Open", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "A\u00e7", "name_zh": "\u6253\u5f00", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

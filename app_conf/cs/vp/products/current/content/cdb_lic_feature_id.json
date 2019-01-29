@@ -1,0 +1,14 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "PRODUCTS_001"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": "Allows to read product master data and aggregated elements.", "name": "Products: Read Master Data"}},
+      {"PRIMARY_KEYS": {"id": "PRODUCTS_002"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": "Allows to write product master data and aggregated elements.", "name": "Products: Write Master Data"}},
+      {"PRIMARY_KEYS": {"id": "PRODUCTS_003"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": "Allows to change the status of Products.", "name": "Products: Change of Status"}},
+      {"PRIMARY_KEYS": {"id": "PRODUCTS_007"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": "Allows to modify product catalogs.", "name": "Products: Manage Catalogs"}},
+      {"PRIMARY_KEYS": {"id": "PRODUCTS_008"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": "Allows to generate the Growth-Share Matrix Report.", "name": "Products: Growth-Share Matrix"}},
+      {"PRIMARY_KEYS": {"id": "PRODUCTS_009"}, "DATA": {"cdb_module_id": "cs.vp.products", "description": "Allows to open the product overview which shows a tree structure containing the maximum boms, the variability model, requirements, etc.", "name": "Products: Overview"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

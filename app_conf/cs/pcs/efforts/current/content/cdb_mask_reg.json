@@ -1,0 +1,12 @@
+{
+  "cdb_mask_reg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_tsheet_comp", "mask_role_id": "public", "name": "cdbpcs_ts_chctrl"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_tsheet_comp", "mask_role_id": "public", "name": "cdbpcs_tsheet_mask"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "ordering": 10, "priority": 0, "reg_title": ""}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_tsheet_comp_s", "mask_role_id": "public", "name": "cdbpcs_ts_chctrl_s"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "ordering": 20, "priority": 0, "reg_title": "aenderungsinf"}},
+      {"PRIMARY_KEYS": {"mask_name": "cdbpcs_tsheet_comp_s", "mask_role_id": "public", "name": "cdbpcs_tsheet_mask_s"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "ordering": 10, "priority": 0, "reg_title": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "SHARE_001"}, "DATA": {"cdb_module_id": "cs.sharing", "description": "Allows to share objects with other users", "name": "Sharing: Base"}},
+      {"PRIMARY_KEYS": {"id": "SHARE_002"}, "DATA": {"cdb_module_id": "cs.sharing", "description": "Perform potentially long-running tasks asynchronously", "name": "Sharing: Message Queue"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

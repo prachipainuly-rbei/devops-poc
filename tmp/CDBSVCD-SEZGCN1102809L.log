@@ -64,3 +64,100 @@
 [2019-01-21T09:20:53.186Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start 'cdb.uberserver.services.apache.Apache' due to failed dependency  on 'cdb.uberserver.services.authentication.SessionCache'
 [2019-01-21T09:21:54.740Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
 [2019-01-21T09:21:54.743Z] CDBSVCD PID:20376 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-24T05:55:40.924Z] CDBSVCD PID:916 ERROR [root] cdb.uberserver.services.authentication.SessionCache Session Cache has exited with returncode 1
+[2019-01-24T05:55:47.299Z] CDBSVCD PID:916 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-24T05:55:47.359Z] CDBSVCD PID:916 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-24T05:56:08.484Z] CDBSVCD PID:916 ERROR [root] cdb.uberserver.services.authentication.SessionCache SessionCache could not be reached! Please check session_cache.log for errors. Is the service port 6379 already in use?
+[2019-01-24T05:56:08.486Z] CDBSVCD PID:916 ERROR [root] cdb.uberserver.cdbsvcd: Starting service 'cdb.uberserver.services.authentication.SessionCache' failed:
+	Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	Traceback (most recent call last):
+	Failure: cdb.uberserver.iservice.SvcStartTimeoutError: Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	
+[2019-01-24T05:56:08.582Z] CDBSVCD PID:916 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start dependency 'cdb.uberserver.services.authentication.SessionCache' for service 'cdb.uberserver.services.apache.Apache'
+[2019-01-24T05:56:08.584Z] CDBSVCD PID:916 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start 'cdb.uberserver.services.apache.Apache' due to failed dependency  on 'cdb.uberserver.services.authentication.SessionCache'
+[2019-01-24T05:57:12.641Z] CDBSVCD PID:916 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-24T05:57:12.645Z] CDBSVCD PID:916 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-24T05:58:00.365Z] CDBSVCD PID:18204 ERROR [root] cdb.uberserver.services.authentication.SessionCache Session Cache has exited with returncode 1
+[2019-01-24T05:58:07.417Z] CDBSVCD PID:18204 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-24T05:58:07.481Z] CDBSVCD PID:18204 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-24T05:58:27.572Z] CDBSVCD PID:18204 ERROR [root] cdb.uberserver.services.authentication.SessionCache SessionCache could not be reached! Please check session_cache.log for errors. Is the service port 6379 already in use?
+[2019-01-24T05:58:27.574Z] CDBSVCD PID:18204 ERROR [root] cdb.uberserver.cdbsvcd: Starting service 'cdb.uberserver.services.authentication.SessionCache' failed:
+	Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	Traceback (most recent call last):
+	Failure: cdb.uberserver.iservice.SvcStartTimeoutError: Service 'cdb.uberserver.services.authentication.SessionCache' was not reachable after startup!
+	
+[2019-01-24T05:58:27.599Z] CDBSVCD PID:18204 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start dependency 'cdb.uberserver.services.authentication.SessionCache' for service 'cdb.uberserver.services.apache.Apache'
+[2019-01-24T05:58:27.602Z] CDBSVCD PID:18204 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start 'cdb.uberserver.services.apache.Apache' due to failed dependency  on 'cdb.uberserver.services.authentication.SessionCache'
+[2019-01-24T05:59:13.552Z] CDBSVCD PID:18204 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-24T05:59:13.560Z] CDBSVCD PID:18204 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-24T06:26:09.585Z] CDBSVCD PID:12264 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-24T06:26:09.647Z] CDBSVCD PID:12264 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-24T06:26:57.934Z] CDBSVCD PID:12264 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start cdb.uberserver.services.apache.Apache
+[2019-01-24T06:27:15.623Z] CDBSVCD PID:12264 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-24T06:27:15.623Z] CDBSVCD PID:12264 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: Errors during startup encountered. Check logfile for details.
+[2019-01-24T11:13:34.427Z] CDBSVCD PID:8232 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-24T11:15:57.935Z] CDBSVCD PID:14156 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-24T11:15:58.011Z] CDBSVCD PID:14156 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-24T11:16:56.983Z] CDBSVCD PID:14156 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start cdb.uberserver.services.apache.Apache
+[2019-01-24T11:17:22.476Z] CDBSVCD PID:14156 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-24T11:17:22.480Z] CDBSVCD PID:14156 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-24T11:20:42.111Z] CDBSVCD PID:9524 ERROR [root] cdbsvcd
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\uberserver\cdbsvcd.py", line 1528, in main
+    func(runtime, options, extra)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\uberserver\cdbsvcd.py", line 1402, in command_run
+    uberserver.create_web_ui()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\debug.py", line 123, in wrapper
+    result = f(*args, **kwargs)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\uberserver\cdbsvcd.py", line 526, in create_web_ui
+    self._setup_tcp_listener(reactor, listen_port, site, self.nodeconf)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\uberserver\cdbsvcd.py", line 806, in _setup_tcp_listener
+    "Dynamic port selection active for Uberserver. Please configure a port != 0.")
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\uberserver\usbase.py", line 440, in loginfo
+    sys.stdout.write("%s\n" % msg)
+IOError: [Errno 0] Error
+[2019-01-24T11:21:12.183Z] CDBSVCD PID:16132 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-24T11:21:12.266Z] CDBSVCD PID:16132 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-24T11:22:29.615Z] CDBSVCD PID:16132 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-24T11:23:49.595Z] CDBSVCD PID:14756 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-24T11:23:49.677Z] CDBSVCD PID:14756 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-25T09:26:55.729Z] CDBSVCD PID:15536 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-25T09:26:55.819Z] CDBSVCD PID:15536 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-25T09:36:42.444Z] CDBSVCD PID:17492 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-25T09:36:42.531Z] CDBSVCD PID:17492 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-25T09:37:45.211Z] CDBSVCD PID:17492 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start cdb.uberserver.services.apache.Apache
+[2019-01-25T09:38:12.681Z] CDBSVCD PID:17492 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-25T09:38:12.689Z] CDBSVCD PID:17492 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-25T09:41:34.459Z] CDBSVCD PID:16856 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-25T09:41:34.587Z] CDBSVCD PID:16856 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-25T09:43:38.397Z] CDBSVCD PID:16856 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-25T10:13:02.017Z] CDBSVCD PID:11400 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-25T10:13:02.095Z] CDBSVCD PID:11400 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-25T10:14:03.534Z] CDBSVCD PID:11400 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start cdb.uberserver.services.apache.Apache
+[2019-01-25T10:14:28.470Z] CDBSVCD PID:11400 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-25T10:14:28.472Z] CDBSVCD PID:11400 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-25T10:15:14.634Z] CDBSVCD PID:15196 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-25T10:15:14.727Z] CDBSVCD PID:15196 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-25T10:16:10.070Z] CDBSVCD PID:15196 ERROR [root] cdb.uberserver.cdbsvcd: FAILED to start cdb.uberserver.services.apache.Apache
+[2019-01-25T10:16:31.898Z] CDBSVCD PID:15196 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-25T10:16:31.909Z] CDBSVCD PID:15196 ERROR [root] cdb.uberserver.cdbsvcd: FAILURE: A dependent service failed to start, Service Daemon aborted. See previous log messages for details.
+[2019-01-25T10:23:02.624Z] CDBSVCD PID:15252 ERROR [root] cdbsvcd
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\uberserver\cdbsvcd.py", line 1528, in main
+    func(runtime, options, extra)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\uberserver\cdbsvcd.py", line 1402, in command_run
+    uberserver.create_web_ui()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\debug.py", line 123, in wrapper
+    result = f(*args, **kwargs)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\uberserver\cdbsvcd.py", line 526, in create_web_ui
+    self._setup_tcp_listener(reactor, listen_port, site, self.nodeconf)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\uberserver\cdbsvcd.py", line 806, in _setup_tcp_listener
+    "Dynamic port selection active for Uberserver. Please configure a port != 0.")
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\uberserver\usbase.py", line 440, in loginfo
+    sys.stdout.write("%s\n" % msg)
+IOError: [Errno 0] Error
+[2019-01-25T10:23:38.626Z] CDBSVCD PID:12372 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-25T10:23:38.682Z] CDBSVCD PID:12372 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1
+[2019-01-25T10:25:24.857Z] CDBSVCD PID:12372 ERROR [root] cdb.uberserver.cdbsvcd: CONTACT Elements logins not available. Apache service is not running.
+[2019-01-25T10:31:53.178Z] CDBSVCD PID:15844 ERROR [root] cdb.uberserver.services.index.IndexService Index Service has exited with returncode 1
+[2019-01-25T10:31:53.240Z] CDBSVCD PID:15844 ERROR [root] cdb.uberserver.services.tes.TESService Text Extraction Service has exited with returncode 1

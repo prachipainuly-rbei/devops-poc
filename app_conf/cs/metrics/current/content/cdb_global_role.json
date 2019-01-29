@@ -1,0 +1,10 @@
+{
+  "cdb_global_role": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "QC Aggregation Engine Service"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Rolle f\u00fcr den QC Aggregation Engine Dienst Anwender zum Zweck der Lizenz- und Rechtebereitstellung.", "description_ml_cs": "", "description_ml_en": "Role to be used with the QC Aggregation Engine Service User to assign licenses and access rights.", "description_ml_es": "", "description_ml_fr": "", "description_ml_it": "", "description_ml_ja": "", "description_ml_ko": "", "description_ml_pl": "", "description_ml_pt": "", "description_ml_tr": "", "description_ml_zh": "", "is_org_role": 0, "mno": "CON-PA-GEN/SRV", "name_cs": "", "name_de": "QC Aggregation Engine Service - Kennzahlenmanagement", "name_en": "QC Aggregation Engine Service - Metrics", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "", "name_zh": ""}},
+      {"PRIMARY_KEYS": {"role_id": "QC Computation Engine Service"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Rolle f\u00fcr den QC Computation Engine Dienst Anwender zum Zweck der Lizenz- und Rechtebereitstellung.", "description_ml_cs": "", "description_ml_en": "Role to be used with the QC Computation Engine Service User to assign licenses and access rights.", "description_ml_es": "", "description_ml_fr": "", "description_ml_it": "", "description_ml_ja": "", "description_ml_ko": "", "description_ml_pl": "", "description_ml_pt": "", "description_ml_tr": "", "description_ml_zh": "", "is_org_role": 0, "mno": "CON-PA-GEN/SRV", "name_cs": "", "name_de": "QC Computation Engine Service - Kennzahlenmanagement", "name_en": "QC Computation Engine Service - Metrics", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "", "name_zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

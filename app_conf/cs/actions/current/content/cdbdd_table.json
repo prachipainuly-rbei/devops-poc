@@ -1,0 +1,13 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdb_action"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.actions"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_action_prot"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.actions"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_action_prot_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.actions", "primary_table": "cdb_action_prot"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_action_resp_brows"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.actions", "primary_table": "", "uview_col_aliases": "subject_id, description_de, description_en, description_cs, description_es, description_fr, description_it, description_ja, description_ko, description_pl, description_pt, description_tr, description_zh, subject_type, subject_name_de, subject_name_en, subject_name_cs, subject_name_es, subject_name_fr, subject_name_it, subject_name_ja, subject_name_ko, subject_name_pl, subject_name_pt, subject_name_tr, subject_name_zh, cdb_project_id, order_by"}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "GENERATOR: cs.actions.generate_cdb_action_resp_brows\n", "cdbdd_userdefined_view_txt_5": "GENERATOR: cs.actions.generate_cdb_action_resp_brows", "cdbdd_userdefined_view_txt_6": "GENERATOR: cs.actions.generate_cdb_action_resp_brows"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_action_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.actions", "primary_table": "cdb_action"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

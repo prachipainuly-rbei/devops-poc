@@ -1,0 +1,9 @@
+{
+  "cdbxml_report": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "TimeScheduleGantt", "title": "ExportGantt"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbpcs_rep_gantt_mask"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

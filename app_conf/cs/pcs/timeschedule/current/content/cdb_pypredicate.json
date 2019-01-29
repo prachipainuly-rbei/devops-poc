@@ -1,0 +1,11 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.timeschedule.TimeSchedule", "name": "cdbpcs: Kosmodrom: Active Objects", "predicate_name": "cdbpcs: Kosmodrom: Active Time Schedules"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.timeschedule.TimeSchedule", "name": "cs.sharing: Group Creator", "predicate_name": "Time Schedules"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.timeschedule.TimeSchedule", "name": "cs.sharing: Group Responsible", "predicate_name": "Time Schedules"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

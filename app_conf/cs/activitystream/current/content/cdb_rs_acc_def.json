@@ -1,0 +1,12 @@
+{
+  "cdb_rs_acc_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "cdbblog: Attachments"}, "DATA": {"cdb_module_id": "cs.activitystream", "referer_allow": "create_attachment"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "cdbblog: Attachments"}, "DATA": {"cdb_module_id": "cs.activitystream", "referer_allow": "create_attachment"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read", "rs_acc_prof": "cdbblog: Attachments"}, "DATA": {"cdb_module_id": "cs.activitystream", "referer_allow": "read"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "cdbblog: Attachments"}, "DATA": {"cdb_module_id": "cs.activitystream", "referer_allow": "create_attachment"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cs_tasks_context": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"classname": "cdbwf_process"}, "DATA": {"cdb_module_id": "cs.workflow", "cdb_object_id": "85eeb500-8e58-11e8-b59c-5cc5d4123f3b"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

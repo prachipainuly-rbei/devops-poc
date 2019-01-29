@@ -1,0 +1,10 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "2be7f8a1-48a1-11e0-a6e1-0019bb22e334", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.es"}},
+      {"PRIMARY_KEYS": {"id": "2be7f8a1-48a1-11e0-a6e1-0019bb22e334", "role_id": "EnterpriseSearch-Adm"}, "DATA": {"cdb_module_id": "cs.platform.es"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

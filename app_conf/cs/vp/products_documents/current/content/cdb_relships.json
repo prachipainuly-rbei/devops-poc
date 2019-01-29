@@ -1,0 +1,9 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbvp_product2doc"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.vp.products_documents", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 1, "label": "documents", "menugroup": 10, "node_tag": "", "ordering": 30, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "document", "reference_kmap": "z_nummer=z_nummer;z_index=z_index", "referer": "cdbvp_product", "referer_kmap": "cdb_object_id=product_object_id", "relship_cldef": "cdbvp_product2doc", "relship_table": "", "rolename": "Documents", "rs_acc_prof": "", "rs_profile": "cdb_association_1_N", "show_in_mask": 1, "show_in_menu": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

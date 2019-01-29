@@ -1,0 +1,14 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "1c45c78f-6365-11e5-9940-080027002473", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"id": "2e7669f0-fd54-11e4-9d89-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"id": "93375dbb-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"id": "93375dbb-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"id": "d32977aa-c0a0-11e7-963f-a0b3ccf7c487", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}},
+      {"PRIMARY_KEYS": {"id": "d9b586de-6364-11e5-adf0-080027002473", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

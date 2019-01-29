@@ -1,0 +1,12 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "0a913460-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.mq", "classname": "cdbmq_registry", "description": "", "exclude_empty_values": null, "fields_info": "srvr_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0a9397b2-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.mq", "classname": "cdbmq_ctlmsg", "description": "", "exclude_empty_values": null, "fields_info": "srvr_id, message"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0a985e56-d05e-11de-a249-ac9a2584b2a7"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.mq", "classname": "cdbmq_event", "description": "", "exclude_empty_values": null, "fields_info": "job_id, ev_order, queue"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e88de930-3ec5-11e2-8a54-b8c8608e4b60"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.platform.mq", "classname": "cdbmq_download", "description": "", "exclude_empty_values": null, "fields_info": "queuename, job_id, dl_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

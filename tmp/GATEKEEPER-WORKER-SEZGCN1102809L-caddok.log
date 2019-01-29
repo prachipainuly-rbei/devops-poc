@@ -1,0 +1,108 @@
+[2019-01-24T11:22:59.962Z] GATEKEEPER-WORKER PID:7240 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-24T11:22:59.962Z] GATEKEEPER-WORKER PID:3580 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-24T11:22:59.963Z] GATEKEEPER-WORKER PID:9552 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-24T11:22:59.964Z] GATEKEEPER-WORKER PID:7968 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-25T09:06:36.883Z] GATEKEEPER-WORKER PID:13488 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-25T09:06:36.883Z] GATEKEEPER-WORKER PID:9804 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-25T09:06:36.883Z] GATEKEEPER-WORKER PID:11356 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-25T09:06:36.889Z] GATEKEEPER-WORKER PID:11944 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-25T09:49:57.737Z] GATEKEEPER-WORKER PID:17944 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-25T09:49:57.739Z] GATEKEEPER-WORKER PID:17848 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-25T09:49:57.751Z] GATEKEEPER-WORKER PID:16896 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError
+[2019-01-25T09:49:57.755Z] GATEKEEPER-WORKER PID:10644 ERROR [cdb.scripts.gatekeeper] Leaving mainloop
+Traceback (most recent call last):
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 102, in main
+    return run_as_worker(options)
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\cdb\python\cdb\scripts\gatekeeper.py", line 68, in run_as_worker
+    return txpool.worker.main()
+  File "C:\cdb\CONTACT_Elements_Server_15.3.13\lib\site-packages\txpool-0.9-py2.7.egg\txpool\worker.py", line 117, in main
+    obj = pickle.load(in_safe)
+EOFError

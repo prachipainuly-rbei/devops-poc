@@ -1,0 +1,9 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cdb.objects.cdb_file.cdb_file_base", "name": "WEBUI Files", "predicate_name": "WEBUI Files"}, "DATA": {"cdb_module_id": "cs.shared", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

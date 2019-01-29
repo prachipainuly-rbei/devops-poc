@@ -1,0 +1,12 @@
+{
+  "cdbwf_parameter_definition": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "526d3921-706f-11e7-be03-68f7284ff046"}, "DATA": {"cdb_module_id": "cs.workflow", "name": "operation_name", "task_definition_id": "f16b8b40-706e-11e7-9aef-68f7284ff046"}, "LONGTEXTS": {"cdbwf_parameter_description": ""}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d0dfdb40-e960-11e2-b40b-082e5f0d3665"}, "DATA": {"cdb_module_id": "cs.workflow", "name": "target_state", "task_definition_id": "4daadbb0-e57a-11e2-9a44-082e5f0d3665"}, "LONGTEXTS": {"cdbwf_parameter_description": ""}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "ddf95c1e-f838-11e2-97c0-082e5f0d3665"}, "DATA": {"cdb_module_id": "cs.workflow", "name": "subject_id", "task_definition_id": "7f87cf00-f838-11e2-b1b5-082e5f0d3665"}, "LONGTEXTS": {"cdbwf_parameter_description": ""}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e118c48f-f838-11e2-9b1a-082e5f0d3665"}, "DATA": {"cdb_module_id": "cs.workflow", "name": "subject_type", "task_definition_id": "7f87cf00-f838-11e2-b1b5-082e5f0d3665"}, "LONGTEXTS": {"cdbwf_parameter_description": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

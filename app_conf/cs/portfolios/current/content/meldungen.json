@@ -1,0 +1,11 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_portfolio_category_dtag"}, "DATA": {"cdb_module_id": "cs.portfolios", "cs": "", "d": "name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 9807, "pl": "", "pt": "", "s": "", "tr": "name", "uk": "name", "zh": "name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_portfolio_dtag"}, "DATA": {"cdb_module_id": "cs.portfolios", "cs": "", "d": "name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 9808, "pl": "", "pt": "", "s": "", "tr": "name", "uk": "name", "zh": "name"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdb_portfolio_folder_dtag"}, "DATA": {"cdb_module_id": "cs.portfolios", "cs": "", "d": "name", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 9809, "pl": "", "pt": "", "s": "", "tr": "name", "uk": "name", "zh": "name"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

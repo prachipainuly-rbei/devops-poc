@@ -1,0 +1,14 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbvp_catalogue_property", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbvp_catalogue_property", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbvp_catalogue_property", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbvp_catalogue_property", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbvp_catalogue_property", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.vp.variants"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbvp_catalogue_property", "subject_id": "Merkmalskatalogverwalter", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.vp.variants"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

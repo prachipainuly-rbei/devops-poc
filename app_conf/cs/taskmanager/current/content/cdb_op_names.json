@@ -1,0 +1,12 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cs_tasks"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.taskmanager", "client_desc": "", "descr": null, "html_help": "", "icon_id": "cs_tasks", "inactive": 0, "kind": "PowerScript", "label": "cs_task_manager_title", "label_ok": "", "menu_visible": 0, "menugroup": null, "ordering": null, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_delegate"}, "DATA": {"acl_allow": "save", "cdb_module_id": "cs.taskmanager", "client_desc": "cs_tasks_delegate_tooltip", "descr": null, "html_help": "", "icon_id": "cs_tasks_delegate", "inactive": 0, "kind": "PowerScript", "label": "cs_tasks_delegate", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_validate"}, "DATA": {"acl_allow": "save", "cdb_module_id": "cs.taskmanager", "client_desc": "", "descr": null, "html_help": "", "icon_id": "cdb_ok", "inactive": 0, "kind": "PowerScript", "label": "cs_tasks_validate", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cs_tasks_wizard"}, "DATA": {"acl_allow": "save", "cdb_module_id": "cs.taskmanager", "client_desc": "cs_tasks_wizard", "descr": null, "html_help": "", "icon_id": "cdb_create_from_template", "inactive": 0, "kind": "PowerScript", "label": "cs_tasks_wizard", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

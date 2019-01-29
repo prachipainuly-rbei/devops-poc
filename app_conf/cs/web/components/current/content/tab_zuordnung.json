@@ -1,0 +1,33 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbweb_favorites", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbweb_history_item", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_dialog_hook", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_dialog_hook_func", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_display_configuration", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_display_context", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_object_tile_rship_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_child", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_definition", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_description", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_position", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_outlet_position_owner", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_page_config", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_page_config_app", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_page_config_detail", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_page_config_owner", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_page_frame", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_plugin", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_plugin_config", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_plugin_config_library", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_related_object_tile", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_search_fav_params", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_search_favourites", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_ui_and_rest_names", "role_id": "Standard App Developer"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "csweb_ui_name", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.web.components", "dflt": null, "ersteller": "Administrator", "max_records": null, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

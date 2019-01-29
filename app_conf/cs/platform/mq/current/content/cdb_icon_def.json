@@ -1,0 +1,12 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_cdbmq1", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.mq", "descr": "", "fallback_id": "branding_company_logo_small", "identifier": "\"cdbmq1.png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_flash1", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.mq", "descr": "", "fallback_id": "branding_company_logo_small", "identifier": "\"flash1.png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_server2", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.mq", "descr": "", "fallback_id": "branding_company_logo_small", "identifier": "\"server2.png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_speaker1", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.mq", "descr": "", "fallback_id": "branding_company_logo_small", "identifier": "\"speaker1.png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

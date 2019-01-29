@@ -1,0 +1,16 @@
+{
+  "cdb_components": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "autostart", "role_id": "public"}, "DATA": {"active": 0, "cdb_module_id": "cs.platform.misc", "classname": "", "description": "Called at the start to determine actions that should be run at the start", "filename": "cdbautostart.ue", "fqpyname": "", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_license_report", "role_id": "Administrator"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.misc", "classname": "", "description": "UE that generates a license report", "filename": "cdb_license_report.ue", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_SCRIPTDIR)"}},
+      {"PRIMARY_KEYS": {"name": "cdb_refresh_table", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.misc", "classname": "", "description": "Refresh a table", "filename": "refresh_table.py", "fqpyname": "", "inproc": 1, "location": "$(CADDOK_SCRIPTDIR)"}},
+      {"PRIMARY_KEYS": {"name": "cdbdistribute", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.misc", "classname": "", "description": "", "filename": "cdbdistribute.ue", "fqpyname": "", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "cdbnumgen", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.misc", "classname": "", "description": "", "filename": "cdbnumgen.ue", "fqpyname": "", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "state_change_post", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.misc", "classname": "", "description": "Called after a workflow step", "filename": "cdbstatechangepost.ue", "fqpyname": "", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "state_change_pre", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.misc", "classname": "", "description": "Called before a workflow step", "filename": "cdbstatechangepre.ue", "fqpyname": "", "inproc": 1, "location": ""}},
+      {"PRIMARY_KEYS": {"name": "state_change_pre_mask", "role_id": "public"}, "DATA": {"active": 1, "cdb_module_id": "cs.platform.misc", "classname": "", "description": "Called before the mask for a workflow step is displayed", "filename": "cdbstatechangepremask.ue", "fqpyname": "", "inproc": 1, "location": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

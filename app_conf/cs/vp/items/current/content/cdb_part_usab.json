@@ -1,0 +1,11 @@
+{
+  "cdb_part_usab": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Ersatzteil"}, "DATA": {"name_cs": "", "name_de": "Ersatzteil", "name_en": "Spare Part", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Yedek par\u00e7a", "name_zh": "\u5907\u4ef6", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "aktiv"}, "DATA": {"name_cs": "", "name_de": "Aktiv", "name_en": "Active", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Aktif", "name_zh": "\u6d3b\u52a8\u7684", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"name": "ausgelaufen"}, "DATA": {"name_cs": "", "name_de": "Ausgelaufen", "name_en": "Phased out", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Safha safha bitmi\u015f", "name_zh": "\u5206\u9636\u6bb5\u505c\u6b62", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

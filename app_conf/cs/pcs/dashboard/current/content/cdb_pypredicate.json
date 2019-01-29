@@ -1,0 +1,20 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "name": "cdbpcs: Kosmodrom: Active Objects", "predicate_name": "cdbpcs: Kosmodrom: Active Issues"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": "Offene Punkte, die sich in einem aktiven Status befinden (Analyse, in Bearbeitung, zur\u00fcckgestellt, warten auf..., Pr\u00fcfung)"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cdbpcs: Kosmodrom: Active Objects", "predicate_name": "cdbpcs: Kosmodrom: Active Tasks"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "name": "cdbpcs: Kosmodrom: My Objects", "predicate_name": "cdbpcs: Kosmodrom: My Responsible Issues"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.Project", "name": "cdbpcs: Kosmodrom: My Objects", "predicate_name": "cdbpcs: Kosmodrom: My Projects"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": "Projekte, die sich in einem buchbaren Status befinden (in Bearbeitung) und in denen ich Teammitglied bin"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cdbpcs: Kosmodrom: My Objects", "predicate_name": "cdbpcs: Kosmodrom: My Responsible Tasks"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "name": "cdbpcs: Kosmodrom: Objects By Date", "predicate_name": "cdbpcs: Kosmodrom: Issues By Date"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cdbpcs: Kosmodrom: Objects By Date", "predicate_name": "cdbpcs: Kosmodrom: Tasks By Date"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "name": "cdbpcs: Kosmodrom: Objects In Period", "predicate_name": "cdbpcs: Kosmodrom: Issues Later"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cdbpcs: Kosmodrom: Objects In Period", "predicate_name": "cdbpcs: Kosmodrom: Tasks Later"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "name": "cdbpcs: Kosmodrom: Overdue Objects", "predicate_name": "cdbpcs: Kosmodrom: Overdue Issues"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cdbpcs: Kosmodrom: Overdue Objects", "predicate_name": "cdbpcs: Kosmodrom: Overdue Tasks"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.projects.tasks.Task", "name": "cdbpcs: Kosmodrom: Tasks Not Begun", "predicate_name": "cdbpcs: Kosmodrom: Tasks Not Begun"}, "DATA": {"cdb_module_id": "cs.pcs.dashboard", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

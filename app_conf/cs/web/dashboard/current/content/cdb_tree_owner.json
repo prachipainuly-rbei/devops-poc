@@ -1,0 +1,11 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "2f65511b-0c9c-11e7-9781-68f72859fd2a", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.web.dashboard"}},
+      {"PRIMARY_KEYS": {"id": "3616c5ed-0c18-11e7-91ec-08d40c1e651d", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.web.dashboard"}},
+      {"PRIMARY_KEYS": {"id": "d2bd60bc-1ec0-11e7-ae37-005056c00008", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.web.dashboard"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

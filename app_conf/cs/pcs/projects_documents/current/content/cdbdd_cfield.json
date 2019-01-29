@@ -1,0 +1,32 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0c226230-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2task", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_doc2task", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c226230-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2task", "field_name": "rel_type"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_doc2task", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c226230-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2task", "field_name": "task_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_doc2task", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c226230-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2task", "field_name": "z_index"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_doc2task", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c226230-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_doc2task", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_doc2task", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ec89128-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rexc_doc", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_rexc_doc", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ec89128-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rexc_doc", "field_name": "exception_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_rexc_doc", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ec89128-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rexc_doc", "field_name": "z_index"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_rexc_doc", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ec89128-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_rexc_doc", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_rexc_doc", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ede0f0a-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_task2doctmpl", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_task2doctmpl", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ede0f0a-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_task2doctmpl", "field_name": "task_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_task2doctmpl", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ede0f0a-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_task2doctmpl", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_task2doctmpl", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ef38cec-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_prj2doctmpl", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_prj2doctmpl", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ef38cec-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbpcs_prj2doctmpl", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_prj2doctmpl", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0f938b62-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_folder", "field_name": "folder_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdb_folder", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0f985206-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_folder2doc", "field_name": "folder_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdb_folder2doc", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0f985206-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_folder2doc", "field_name": "z_index"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdb_folder2doc", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0f985206-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_folder2doc", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdb_folder2doc", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0f9d18aa-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_folder_type", "field_name": "folder_type"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdb_folder_type", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "28c61caf-042c-11df-a718-d06c2d2b48f0", "field_classname": "cdb_folder2doc", "field_name": "folder_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdb_folder2doc", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "28c61caf-042c-11df-a718-d06c2d2b48f0", "field_classname": "cdb_folder2doc", "field_name": "z_index"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdb_folder2doc", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "28c61caf-042c-11df-a718-d06c2d2b48f0", "field_classname": "cdb_folder2doc", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdb_folder2doc", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "f65b368f-c0a1-11e7-87f5-a0b3ccf7c487", "field_classname": "cdbpcs_doc_tmpl_usage", "field_name": "cdb_project_id"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_doc_tmpl_usage", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "f65b368f-c0a1-11e7-87f5-a0b3ccf7c487", "field_classname": "cdbpcs_doc_tmpl_usage", "field_name": "z_nummer"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "classname": "cdbpcs_doc_tmpl_usage", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

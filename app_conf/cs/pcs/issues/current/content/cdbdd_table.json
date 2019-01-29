@@ -1,0 +1,19 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdb_action2issue"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_iss_cat"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_iss_log"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_iss_log_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.pcs.issues", "primary_table": "cdbpcs_iss_log"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_iss_prio"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_iss_prot"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_iss_prot_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.pcs.issues", "primary_table": "cdbpcs_iss_prot"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_iss_rem"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_iss_val"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_issue"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.pcs.issues"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbpcs_issue_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.pcs.issues", "primary_table": "cdbpcs_issue"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

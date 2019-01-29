@@ -1,0 +1,10 @@
+{
+  "cdb_ldap_conf": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"connection_name": "AD_SSO_SSPI_NOSYNC"}, "DATA": {"allow_anonbind": 0, "auth_method": "SSPI", "auth_realm": "EXAMPLE.INTRA", "casefold_login": 1, "cdb_object_id": "7f815b80-ffe0-11e6-b313-f0921cf0c018", "default_connection": 0, "host": "ldap.example.intra", "ldap_group": "", "ldap_user": "SSPI", "memberattribute": "memberOf", "password": "SSPI", "port": 389, "principalattribute": "userPrincipalName", "profile": "Example_MinAD", "searchbase": "cn=Users,dc=example,dc=intra", "ssl": 0, "usesyncrules": 0}},
+      {"PRIMARY_KEYS": {"connection_name": "AD_SSPI_NOSYNC"}, "DATA": {"allow_anonbind": 0, "auth_method": "SSPI", "auth_realm": "EXAMPLE.INTRA", "casefold_login": 1, "cdb_object_id": "7f810d5e-ffe0-11e6-bbd9-f0921cf0c018", "default_connection": 0, "host": "ldap.example.intra", "ldap_group": "", "ldap_user": "SSPI", "memberattribute": "memberOf", "password": "SSPI", "port": 389, "principalattribute": "sAMAccountName", "profile": "Example_MinAD", "searchbase": "cn=Users,dc=example,dc=intra", "ssl": 0, "usesyncrules": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

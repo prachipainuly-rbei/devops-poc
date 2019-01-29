@@ -1,0 +1,9 @@
+{
+  "cdb_struct_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_doc_checklists"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.pcs.checklists_documents", "comp_tag": "", "descr": "Structure representation of document checklists", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_doc2topchecklists", "root_mask": "", "show_rs_window": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

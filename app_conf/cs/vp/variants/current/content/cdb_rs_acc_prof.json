@@ -1,0 +1,12 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbvp: boolean data types"}, "DATA": {"cdb_module_id": "cs.vp.variants", "descr": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbvp: components"}, "DATA": {"cdb_module_id": "cs.vp.variants", "descr": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "edit_vp_catalogue"}, "DATA": {"cdb_module_id": "cs.vp.variants", "descr": "Controls adding values to catalogue properties", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "edit_vp_constraint"}, "DATA": {"cdb_module_id": "cs.vp.variants", "descr": "Checks the rights to modify objects assigned to constraints. \n\nObjects that depend on system generated constraints may not be altered.", "mandatory": 1}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

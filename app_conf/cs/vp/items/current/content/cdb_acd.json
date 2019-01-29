@@ -1,0 +1,17 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Exceptional Access"}, "DATA": {"cdb_module_id": "cs.vp.items", "common_flag": 1, "description": "Common Authorizations for Parts"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (BLOCKED, OBSOLETE)"}, "DATA": {"cdb_module_id": "cs.vp.items", "common_flag": 1, "description": "part, part_ERP in status 170, 180"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)"}, "DATA": {"cdb_module_id": "cs.vp.items", "common_flag": 1, "description": "part, part_ERP in status 0"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (FROM ERP)"}, "DATA": {"cdb_module_id": "cs.vp.items", "common_flag": 1, "description": "part_ERP in status 400"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (RELEASED)"}, "DATA": {"cdb_module_id": "cs.vp.items", "common_flag": 1, "description": "part, part_ERP in status 200, 300"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVIEW)"}, "DATA": {"cdb_module_id": "cs.vp.items", "common_flag": 1, "description": "part, part_ERP in status 100"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVISION)"}, "DATA": {"cdb_module_id": "cs.vp.items", "common_flag": 1, "description": "part, part_ERP in status 190"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (configurable)"}, "DATA": {"cdb_module_id": "cs.vp.items", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (mBOM)"}, "DATA": {"cdb_module_id": "cs.vp.items", "common_flag": 1, "description": "manufacturing BOMs"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

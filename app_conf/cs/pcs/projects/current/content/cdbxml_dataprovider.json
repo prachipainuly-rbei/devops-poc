@@ -1,0 +1,15 @@
+{
+  "cdbxml_dataprovider": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "DataConsistencyCheck", "xsd_name": "ProjectDataCheck"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "context": "", "parent_xsd_name": "", "source": "cs.pcs.projects.reports.ProjectDataCheck", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit", "xsd_name": "Gesamt"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "context": "cdb.objects.Forward(cdb.objects.pcs.Projects.Project.__name__, unresolved=True)", "parent_xsd_name": "ProjectEvaluationProvider", "source": "", "source_type": "GroupBy"}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit", "xsd_name": "ProjectEvaluationProvider"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "context": "cs.pcs.projects.Project", "parent_xsd_name": "Project_N", "source": "cs.pcs.projects.reports.ProjectEvaluationProvider", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit", "xsd_name": "Project_N"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "context": "cs.pcs.projects.Project", "parent_xsd_name": "", "source": "cs.pcs.projects.Project", "source_type": "Context"}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit", "xsd_name": "Risiko"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "context": "cdb.objects.Forward(cdb.objects.pcs.Projects.Project.__name__, unresolved=True)", "parent_xsd_name": "ProjectEvaluationProvider", "source": "", "source_type": "GroupBy"}},
+      {"PRIMARY_KEYS": {"name": "ProjectMTA", "xsd_name": "ProjectMTA"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "context": "cs.pcs.projects.Project", "parent_xsd_name": "Project_1", "source": "cs.pcs.projects.reports.ProjectMTA", "source_type": "CustomCode"}},
+      {"PRIMARY_KEYS": {"name": "ProjectMTA", "xsd_name": "Project_1"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "context": "cs.pcs.projects.Project", "parent_xsd_name": "", "source": "cs.pcs.projects.Project", "source_type": "Context"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

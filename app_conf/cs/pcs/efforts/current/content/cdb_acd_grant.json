@@ -1,0 +1,16 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "accept", "class": "cdbpcs_effort", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "create", "class": "cdbpcs_effort", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "delete", "class": "cdbpcs_effort", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "pcs_effort_wf_step", "class": "cdbpcs_effort", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "read", "class": "cdbpcs_effort", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "save", "class": "cdbpcs_effort", "subject_id": "Projektleiter", "subject_type": "PCS Role"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Efforts", "allow": "FULL ACCESS", "class": "cdbpcs_effort", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Efforts", "allow": "pcs_effort_wf_step", "class": "cdbpcs_effort", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbecm: Planned Changes"}, "DATA": {"cdb_module_id": "cs.ec", "descr": "Parts and documents to be modified within an engineering change", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "cdbecm_assign_rights"}, "DATA": {"cdb_module_id": "cs.ec", "descr": "Needed for rights delegation in workflows.", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "b540c240-6cc7-11e5-9dd1-005056c00008"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_url", "cdb_module_id": "cs.web.search", "feature_id": "WEB_030", "password": "/ksGj/weodI", "url": "/search.*"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d3b0cfde-6cc7-11e5-9a94-005056c00008"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_url", "cdb_module_id": "cs.web.search", "feature_id": "ENTERPRISESEARCH_001", "password": "2xpuyx.M45A", "url": "/internal/search/fulltext"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "e2c8f2a1-6cc7-11e5-a9c3-005056c00008"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_url", "cdb_module_id": "cs.web.search", "feature_id": "ENTERPRISESEARCH_001", "password": "8VoCp.yklGM", "url": "/internal/search/term"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

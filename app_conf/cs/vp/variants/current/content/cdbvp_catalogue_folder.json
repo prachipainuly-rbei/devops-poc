@@ -1,0 +1,9 @@
+{
+  "cdbvp_catalogue_folder": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "b70e3c2e-4e4c-11e1-8f85-001bfc744136"}, "DATA": {"cdb_cdate": null, "cdb_cpersno": null, "cdb_mdate": "31.07.2015 14:56:28", "cdb_mpersno": "caddok", "erp_name": null, "name_cs": "", "name_de": "Merkmalkatalog", "name_en": "Properties Catalog", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "\u00d6zellik katalo\u011fu", "name_zh": "\u5c5e\u6027\u76ee\u5f55", "parent_object_id": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

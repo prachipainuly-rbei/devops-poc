@@ -1,0 +1,10 @@
+{
+  "cdb_relships": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs_project2processes"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.pcs.projects_workflows", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 0, "label": "cdbwf_process", "menugroup": null, "node_tag": "", "ordering": null, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "", "reference": "cdbwf_process", "reference_kmap": "cdb_process_id=cdb_process_id", "referer": "cdbpcs_project", "referer_kmap": "cdb_project_id=cdb_project_id", "relship_cldef": "cdbwf_process", "relship_table": "", "rolename": "Processes", "rs_acc_prof": "", "rs_profile": "cdb_navigation_1_N", "show_in_mask": 1, "show_in_menu": 0}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_task2process"}, "DATA": {"acl_allow": "", "acl_errmsg": "", "assign_catalog": "", "assign_opname": "", "cdb_module_id": "cs.pcs.projects_workflows", "check_on_delete": 0, "delcheck_errmsg": "", "descr": "", "dropreferenceok": 0, "label": "cdbwf_process", "menugroup": 60, "node_tag": "", "ordering": 900, "overlay_icon_id": "", "prefix_ref": "", "prefix_rship": "", "projection": "cdbwf_process_relship", "reference": "cdbwf_process", "reference_kmap": "cdb_process_id=cdb_process_id", "referer": "cdbpcs_task", "referer_kmap": "cdb_object_id=cdb_content_id", "relship_cldef": "cdbwf_process_content", "relship_table": "", "rolename": "Processes", "rs_acc_prof": "", "rs_profile": "cdb_navigation_1_N", "show_in_mask": 1, "show_in_menu": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

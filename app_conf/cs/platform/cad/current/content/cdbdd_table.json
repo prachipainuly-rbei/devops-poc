@@ -1,0 +1,15 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdb_cadbindclss"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_rk_param"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_talk_msg"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"table_name": "rahmen"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"table_name": "rahmen_gruppen"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"table_name": "rahmen_table"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"table_name": "rk_values"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.cad"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cdb_rs_comp_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "cdb_action_overview", "rs_name": "cdb_action2defects"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.defects", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "", "descr": "", "empty_folders": 0, "has_folder": 0, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "", "ordering": 40, "pre_evaluate": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdb_defect_categ_overview", "rs_name": "cdb_defect_valid_subcategs"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.defects", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "", "descr": "", "empty_folders": 0, "has_folder": 0, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 1, "icon_id": "", "is_drop_target": 0, "label": "", "ordering": null, "pre_evaluate": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdb_defect_overview", "rs_name": "cdb_action2subactions"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.defects", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "", "descr": "", "empty_folders": 0, "has_folder": 0, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "", "ordering": 30, "pre_evaluate": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdb_defect_overview", "rs_name": "cdb_defect2actions"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.defects", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "", "descr": "", "empty_folders": 0, "has_folder": 0, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "", "ordering": 20, "pre_evaluate": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdb_defect_overview", "rs_name": "cdb_defect2subdefects"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.defects", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "", "descr": "", "empty_folders": 0, "has_folder": 0, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "", "ordering": 10, "pre_evaluate": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

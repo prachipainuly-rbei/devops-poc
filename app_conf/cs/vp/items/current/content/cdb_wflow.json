@@ -1,0 +1,10 @@
+{
+  "cdb_wflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objektart": "part"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "", "name_cs": "", "name_de": "Artikel", "name_en": "Parts", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "Par\u00e7alar", "name_zh": "\u96f6\u4ef6", "objclass": "part", "sys_wf": 0}},
+      {"PRIMARY_KEYS": {"objektart": "part_ERP"}, "DATA": {"cdb_module_id": "cs.vp.items", "description": "", "name_cs": "", "name_de": "Artikel mit ERP-Abgleich", "name_en": "Parts with ERP Synchronization", "name_es": "", "name_fr": "", "name_it": "", "name_ja": null, "name_ko": null, "name_pl": "", "name_pt": "", "name_tr": "ERP senkronizasyonlu par\u00e7alar", "name_zh": "\u4e0eERP\u540c\u6b65\u96f6\u4ef6", "objclass": "part", "sys_wf": 0}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

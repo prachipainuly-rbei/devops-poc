@@ -1,0 +1,14 @@
+{
+  "cdb_predicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"predicate_name": "cs.calendar: Calendar Entries", "table_name": "cdb_calendar_profile"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.calendar", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.calendar: Calendar Entries (base)", "table_name": "cdb_calendar_entry"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.calendar", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.calendar: Calendar Entries (personal)", "table_name": "cdb_calendar_entry"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.calendar", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.calendar: Calendar Entries (projects)", "table_name": "cdb_calendar_entry"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.calendar", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.calendar: My Calendar Entries", "table_name": "cdb_calendar_entry"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.calendar", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"predicate_name": "cs.calendar: Profile Exceptions", "table_name": "cdb_cal_prof_exc"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.calendar", "description": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "15426a1e-d4a3-11e5-a318-4c3488543485"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.pcs.dashboard", "classname": "cdbpcs_project", "feature_id": "DASHBOARD_001", "name": "cdbpcs_launch_project_dashboard", "password": "kVXB7YWigkc"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "59772e8f-6830-11e5-a84c-005056c00008"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_url", "cdb_module_id": "cs.pcs.dashboard", "feature_id": "DASHBOARD_001", "password": "XOV21qwOz4I", "url": ".*powerscript/cs\\.pcs\\.dashboard/\\?.*"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "b4b6fe8f-6360-11e5-8ba4-005056c00008"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_url", "cdb_module_id": "cs.pcs.dashboard", "feature_id": "DASHBOARD_001", "password": "SPvMLhBb08o", "url": ".*powerscript/cs\\.pcs\\.dashboard/?"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f631d911-62db-11e5-a1c9-005056c00008"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_url", "cdb_module_id": "cs.pcs.dashboard", "feature_id": "DASHBOARD_002", "password": "ILQipjexonE", "url": ".*powerscript/cs\\.pcs\\.dashboard/detail.*"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "fe4532b0-f589-11e4-9a6d-005056c00008"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.pcs.dashboard", "classname": "", "feature_id": "DASHBOARD_001", "name": "CDB_eLink_kosmodrom", "password": "3b9Nd.Pu1b6"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

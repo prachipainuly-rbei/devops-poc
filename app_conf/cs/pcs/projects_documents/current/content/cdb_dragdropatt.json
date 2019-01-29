@@ -1,0 +1,12 @@
+{
+  "cdb_dragdropatt": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"drag_attrib": "z_index", "drag_classname": "document", "drop_classname": "cdbpcs_prj2doctmpl"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "drop_attrib": "z_index"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "z_nummer", "drag_classname": "document", "drop_classname": "cdbpcs_prj2doctmpl"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "drop_attrib": "z_nummer"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "z_index", "drag_classname": "document", "drop_classname": "cdbpcs_task2doctmpl"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "drop_attrib": "z_index"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "z_nummer", "drag_classname": "document", "drop_classname": "cdbpcs_task2doctmpl"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "drop_attrib": "z_nummer"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

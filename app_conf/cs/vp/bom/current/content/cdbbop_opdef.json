@@ -1,0 +1,12 @@
+{
+  "cdbbop_opdef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"operation": "CompletePartsList", "type_id": "einzelteile"}, "DATA": {"cdb_module_id": "cs.vp.bom", "name_cs": "", "name_d": "St\u00fccklisten erg\u00e4nzen", "name_es": "", "name_fr": "", "name_i": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "B\u00fct\u00fcn BOM", "name_uk": "Complete BOM", "name_zh": "\u5b8c\u6210BOM", "obsolete": 0, "param_register": "cdbbop_bomitem_cpara"}},
+      {"PRIMARY_KEYS": {"operation": "CompletePartsListVar", "type_id": "einzelteile"}, "DATA": {"cdb_module_id": "cs.vp.bom", "name_cs": "", "name_d": "St\u00fccklisten um Variante erg\u00e4nzen", "name_es": "", "name_fr": "", "name_i": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "T\u00fcrevli b\u00fct\u00fcn BOM", "name_uk": "Complete BOM with Variant", "name_zh": "\u5b8c\u6210BOM\u4f7f\u7528\u53d8\u91cf", "obsolete": 0, "param_register": "cdbbop_bomitem_cvpara"}},
+      {"PRIMARY_KEYS": {"operation": "DeleteComponent", "type_id": "einzelteile"}, "DATA": {"cdb_module_id": "cs.vp.bom", "name_cs": "", "name_d": "Komponente l\u00f6schen", "name_es": "", "name_fr": "", "name_i": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Bile\u015feni sil", "name_uk": "Delete Component", "name_zh": "\u5220\u9664\u7ec4\u4ef6", "obsolete": 0, "param_register": "cdbbop_bomitem_dpara"}},
+      {"PRIMARY_KEYS": {"operation": "Replace Part", "type_id": "einzelteile"}, "DATA": {"cdb_module_id": "cs.vp.bom", "name_cs": "", "name_d": "Komponente austauschen", "name_es": "", "name_fr": "", "name_i": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Bile\u015feni de\u011fi\u015ftir", "name_uk": "Replace Component", "name_zh": "\u66ff\u6362\u7ec4\u4ef6", "obsolete": 0, "param_register": "cdbbop_bomitem_rpara"}}
+    ],
+    "CONTENT_DOMAIN": "BatchOperations",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

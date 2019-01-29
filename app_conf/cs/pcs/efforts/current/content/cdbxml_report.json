@@ -1,0 +1,10 @@
+{
+  "cdbxml_report": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "ProjectEfforts", "title": "Aufwendungen"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbpcs_eff_report"}},
+      {"PRIMARY_KEYS": {"name": "TaskEfforts", "title": "Aufwendungen"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": "cdbpcs_task_eff_report"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

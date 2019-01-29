@@ -1,0 +1,10 @@
+{
+  "cdb_setting": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "csweb.history_objs_per_class", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.web.components", "default_val": "20", "readonly": 0, "store_usr_val": 1}},
+      {"PRIMARY_KEYS": {"role_id": "public", "setting_id": "csweb.max_history_objs", "setting_id2": ""}, "DATA": {"cdb_classname": "cdb_setting", "cdb_module_id": "cs.web.components", "default_val": "25", "readonly": 0, "store_usr_val": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

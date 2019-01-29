@@ -1,0 +1,20 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "accept", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "create", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "delete", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "pcs_effort_wf_step", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "read", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts", "allow": "save", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts (booked)", "allow": "create", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts (booked)", "allow": "delete", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts (booked)", "allow": "pcs_effort_wf_step", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts (booked)", "allow": "save", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Efforts", "allow": "FULL ACCESS", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Efforts", "allow": "pcs_effort_wf_step", "class": "cdbpcs_effort"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

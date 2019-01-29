@@ -1,0 +1,18 @@
+{
+  "statiflow": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_defect", "zielstatus": 10}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.defects", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdb_defect", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.defects", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdb_defect", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.defects", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdb_defect", "zielstatus": 110}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.defects", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 10, "objektart": "cdb_defect", "zielstatus": 20}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.defects", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdb_defect", "zielstatus": 10}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.defects", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdb_defect", "zielstatus": 100}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.defects", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 20, "objektart": "cdb_defect", "zielstatus": 200}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.defects", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdb_defect", "zielstatus": 10}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.defects", "rang": null, "user_exit": "", "verteiler": ""}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdb_defect", "zielstatus": 20}, "DATA": {"acd_allow": "", "cdb_module_id": "cs.defects", "rang": null, "user_exit": "", "verteiler": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

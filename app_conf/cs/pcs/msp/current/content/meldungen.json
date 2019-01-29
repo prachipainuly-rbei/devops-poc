@@ -1,0 +1,14 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_multiple_xml_files_in_document"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": "", "d": "Das Dokument '%s' enth\u00e4lt mehrere XML Dateien.", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "", "uk": "The document '%s' contains multiple XML files.", "zh": ""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_person_not_found"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": "", "d": "Die Person '%s' konnte nicht gefunden werden.", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "", "uk": "The person '%s' could not be found.", "zh": ""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_role_not_found"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": null, "d": "Die Rolle '%s:%s' konnte nicht gefunden werden.", "f": null, "i": null, "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "The role '%s:%s' could not be found.", "zh": ""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_template_object_not_found"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": "", "d": "Vorlagenobjekt nicht gefunden: %s", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "", "uk": "Template object not found: %s", "zh": ""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_xml_export_finished"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": null, "d": "Die exportierte Datei wurde gespeichert unter: %s", "f": null, "i": null, "ja": null, "ko": null, "meldung_nr": null, "pl": null, "pt": null, "s": null, "tr": "", "uk": "The exported file has been saved as: %s", "zh": ""}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbpcs_xml_file_not_found_in_document"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "cs": "", "d": "Das Dokument '%s' enth\u00e4lt keine XML Datei.", "f": "", "i": "", "ja": "", "ko": "", "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "", "uk": "The document '%s' doesn't contain any XML file.", "zh": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

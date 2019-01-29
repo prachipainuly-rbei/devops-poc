@@ -1,0 +1,15 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CsTasksDetailReference", "name": "CDB_Workflow"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"id": "CsTasksDetailReference", "name": "cdb_share_objects"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"id": "CsTasksDetailReference", "name": "cs_tasks_delegate"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"id": "CsTasksTable", "name": "CDB_Workflow"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"id": "CsTasksTable", "name": "cdb_share_objects"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"id": "CsTasksTable", "name": "cs_tasks_delegate"}, "DATA": {"cdb_module_id": "cs.taskmanager"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cs_tasks"}, "DATA": {"cdb_module_id": "cs.taskmanager"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

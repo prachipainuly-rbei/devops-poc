@@ -1,0 +1,12 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cdbpcs: Kosmodrom: Active Objects", "predicate_name": "cdbpcs: Kosmodrom: Active Documents"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cdbpcs: Kosmodrom: My Objects", "predicate_name": "cdbpcs: Kosmodrom: My Documents"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cdbpcs: Kosmodrom: Objects Recently Created", "predicate_name": "cdbpcs: Kosmodrom: Recently Created Documents"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "name": "cdbpcs: Kosmodrom: Released Objects", "predicate_name": "cdbpcs: Kosmodrom: Released Documents"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "2D Drawings"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Documents that contain a 2D Drawing"}},
+      {"PRIMARY_KEYS": {"name": "cs-web-dashboard: My Documents"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Documents of the current user, for display in the\nWeb dashboard widget"}},
+      {"PRIMARY_KEYS": {"name": "cs.documents: With Reviewer"}, "DATA": {"cdb_module_id": "cs.documents", "description": "Documents where the attribute pruefer is set"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0ac5bd6c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_title_block", "field_name": "att_index"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_title_block", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ac5bd6c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_title_block", "field_name": "attribut"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_title_block", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ac5bd6c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_title_block", "field_name": "gruppe"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_title_block", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ac5bd6c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_title_block", "field_name": "rang"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_title_block", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0ac5bd6c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_title_block", "field_name": "relation"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_title_block", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0acf4ab4-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_frame_group", "field_name": "rahmen_gruppe"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_frame_group", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0b97e19c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_talk_msg", "field_name": "cad_system"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_talk_msg", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0b97e19c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_talk_msg", "field_name": "isolang"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_talk_msg", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0b97e19c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_talk_msg", "field_name": "label"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_talk_msg", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e2fbca8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_rk_param", "field_name": "cad_system"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_rk_param", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e2fbca8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_rk_param", "field_name": "rang"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_rk_param", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e34834c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_frame_table", "field_name": "db_relation"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_frame_table", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0e34834c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_frame_table", "field_name": "rahmen_gruppe"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_frame_table", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0f4e4b18-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_frame", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_frame", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0f4e4b18-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdb_frame", "field_name": "rahmen_gruppe"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_frame", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d4f13d88-0b62-11df-a947-c43a18ffac2c", "field_classname": "cdb_cadbindclss", "field_name": "cad_classname"}, "DATA": {"cdb_module_id": "cs.platform.cad", "classname": "cdb_cadbindclss", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

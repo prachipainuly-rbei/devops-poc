@@ -1,0 +1,9 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "PROJECTS_030"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "description": "Allows to update PCS projects by importing MS Project XML files", "name": "Projects: Import MS Project XML Files"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

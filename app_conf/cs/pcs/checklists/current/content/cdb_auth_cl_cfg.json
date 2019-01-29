@@ -1,0 +1,10 @@
+{
+  "cdb_auth_cl_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_checklist", "relation": "cdbpcs_checklst"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_checkpoint", "relation": "cdbpcs_cl_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

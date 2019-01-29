@@ -1,0 +1,22 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CreateOperations", "name": "cdbwf_ahwf_new_from_template"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "CreateOperations", "name": "cdbwf_new_process_from_template"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "CsTasksTable", "name": "cdbwf_lock_task"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "CsTasksTable", "name": "cdbwf_unlock_task"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdbwf_overview"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdbwf_overview"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbwf_ahwf_new"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbwf_ahwf_new_from_template"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbwf_lock_task"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbwf_new_process_from_template"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbwf_overview"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbwf_unlock_task"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdbwf_overview"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdbwf_overview"}, "DATA": {"cdb_module_id": "cs.workflow"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

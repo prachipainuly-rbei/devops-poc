@@ -1,0 +1,13 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "1cc4f202-0109-11e4-b596-082e5f0d0c28"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_val", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "56490230-dc82-11e1-946e-082e5f0d0c28"}, "DATA": {"ausgabe_label": "tree_pcs_iss_prio", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_prio", "decomp_id": "", "icon_id": "", "ordering": 70, "parent_id": "725d77a1-4440-11e2-89c3-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "91b79ba8-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_pcs_issues", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_issue", "decomp_id": "", "icon_id": "", "ordering": 40, "parent_id": "92b6a6f9-2528-11df-b716-e1f861774235"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "920d6ad4-2528-11df-b716-e1f861774235"}, "DATA": {"ausgabe_label": "tree_pcs_iss_cat", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_cat", "decomp_id": "", "icon_id": "", "ordering": 60, "parent_id": "725d77a1-4440-11e2-89c3-f0def133d0a6"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "bf9c5c1e-ea56-11e4-9fce-f0def133d0a6"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.pcs.issues", "classname": "cdbpcs_iss_log", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

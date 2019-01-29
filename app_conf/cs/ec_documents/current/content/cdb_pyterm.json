@@ -1,0 +1,9 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.documents.Document", "id": 52, "name": "cdbecm: EC Reference modifiable", "predicate_name": "Dokument im Status 0"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.ec_documents", "expression": "0", "filter_rule": "", "operator": "="}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbtodo: task_checklist"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Checklists to be displayed in the Task Manager"}},
+      {"PRIMARY_KEYS": {"name": "cdbtodo: task_checklist_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Checklist items to be displayed in the Task Manager"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

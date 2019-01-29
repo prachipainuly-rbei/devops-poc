@@ -1,0 +1,17 @@
+{
+  "maskenzuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_ac_config_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.platform.misc", "ersteller": "CONTACT", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_installlic_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.platform.misc", "ersteller": "CONTACT", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_license_report", "role_id": "Administrator"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.platform.misc", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_op_show_queryurl_mask", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.platform.misc", "ersteller": "caddok", "html_help": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_personal_settings", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_mask_comp", "cdb_module_id": "cs.platform.misc", "ersteller": "caddok", "html_help": "cdb_personal_settings", "predicate_mask": ""}},
+      {"PRIMARY_KEYS": {"name": "cdb_perssettings_dirs", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.platform.misc", "ersteller": "caddok", "html_help": "cdb_mask_dlgconfigdirs"}},
+      {"PRIMARY_KEYS": {"name": "cdb_perssettings_misc", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.platform.misc", "ersteller": "caddok", "html_help": "cdb_personal_settings_misc"}},
+      {"PRIMARY_KEYS": {"name": "cdb_perssettings_representation", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": "", "cdb_module_id": "cs.platform.misc", "ersteller": "caddok", "html_help": "cdb_personal_settings_representation"}},
+      {"PRIMARY_KEYS": {"name": "cdbdd_field_content_type", "role_id": "public"}, "DATA": {"cdb_classname": "cdb_maskenzuordnung", "cdb_icon_id": null, "cdb_module_id": "cs.platform.misc", "ersteller": "Administrator", "html_help": "cdb_mask_cdb-attribute-content-types"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

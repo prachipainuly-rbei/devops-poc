@@ -1,0 +1,9 @@
+{
+  "cdb_global_role": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "EnterpriseSearch-Adm"}, "DATA": {"cdb_module_id": "cs.platform.es", "description": "Administrator: Enterprise Search", "description_ml_cs": null, "description_ml_en": "Administrator: Enterprise Search", "description_ml_es": null, "description_ml_fr": null, "description_ml_it": null, "description_ml_ja": null, "description_ml_ko": null, "description_ml_pl": null, "description_ml_pt": null, "description_ml_tr": "Y\u00f6netici EnterpriseSearch", "description_ml_zh": "\u4f01\u4e1a\u641c\u7d22\u7ba1\u7406\u5458", "is_org_role": 0, "mno": null, "name_cs": null, "name_de": "Enterprise Search Administrator", "name_en": "Enterprise Search Administrator", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "EnterpriseSearch-Y\u00f6netici", "name_zh": "\u4f01\u4e1a\u641c\u7d22\u7ba1\u7406\u5458"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

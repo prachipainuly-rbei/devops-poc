@@ -1,0 +1,17 @@
+{
+  "cdb_op_context_visible": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CS.Portfolios", "name": "growth_share_report"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "EnterpriseSearch", "name": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "ExportAsLinkOpCatalog", "name": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_create_from_template"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "cdbvp_product_view"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "FavouriteOpCatalog", "name": "growth_share_report"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "ShowURLOpCatalog", "name": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products"}},
+      {"PRIMARY_KEYS": {"id": "eLink", "name": "cdbvp_product"}, "DATA": {"cdb_module_id": "cs.vp.products"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

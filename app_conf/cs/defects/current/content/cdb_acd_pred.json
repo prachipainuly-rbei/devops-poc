@@ -1,0 +1,12 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (COMPLETED)", "predicate_name": "cs.defects: Defects (DISCARDED)", "table_name": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (COMPLETED)", "predicate_name": "cs.defects: Defects (FIXED)", "table_name": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (COMPLETED)", "predicate_name": "cs.defects: Defects (REJECTED)", "table_name": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.defects: Defects (not COMPLETED)", "predicate_name": "cs.defects: Defects (not REJECTED, DISCARDED, FIXED)", "table_name": "cdb_defect"}, "DATA": {"cdb_module_id": "cs.defects"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

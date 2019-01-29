@@ -1,0 +1,19 @@
+{
+  "cdb_phone_type": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"phone_type": "Fax"}, "DATA": {"name_cs": null, "name_de": "Fax", "name_en": "Fax", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Faks", "name_zh": "\u4f20\u771f"}},
+      {"PRIMARY_KEYS": {"phone_type": "Fax Gesch\u00e4ftlich"}, "DATA": {"name_cs": null, "name_de": "Fax (Gesch\u00e4ftlich)", "name_en": "Fax (Business)", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Faks (i\u015f)", "name_zh": "\u4f20\u771f(\u5546\u52a1)"}},
+      {"PRIMARY_KEYS": {"phone_type": "Fax Privat"}, "DATA": {"name_cs": null, "name_de": "Fax (Privat)", "name_en": "Fax (Private)", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Faks (\u00f6zel)", "name_zh": "\u4f20\u771f(\u79c1\u6709)"}},
+      {"PRIMARY_KEYS": {"phone_type": "Hotline"}, "DATA": {"name_cs": null, "name_de": "Hotline", "name_en": "Hotline", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Hotline", "name_zh": "\u70ed\u7ebf\u7535\u8bdd"}},
+      {"PRIMARY_KEYS": {"phone_type": "Mobil"}, "DATA": {"name_cs": null, "name_de": "Mobil", "name_en": "Mobile", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Cep telefonu", "name_zh": "\u79fb\u52a8\u7535\u8bdd"}},
+      {"PRIMARY_KEYS": {"phone_type": "Mobil Gesch\u00e4ftlich"}, "DATA": {"name_cs": null, "name_de": "Mobil (Gesch\u00e4ftlich)", "name_en": "Mobile (Business)", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Cep telefonu (i\u015f)", "name_zh": "\u79fb\u52a8\u7535\u8bdd(\u5546\u52a1)"}},
+      {"PRIMARY_KEYS": {"phone_type": "Mobil Privat"}, "DATA": {"name_cs": null, "name_de": "Mobil (Privat)", "name_en": "Mobile (Private)", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Cep telefonu (\u00f6zel)", "name_zh": "\u79fb\u52a8\u7535\u8bdd(\u79c1\u6709)"}},
+      {"PRIMARY_KEYS": {"phone_type": "Sekretariat"}, "DATA": {"name_cs": null, "name_de": "Sekretariat", "name_en": "Secretariat", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Ofis", "name_zh": "\u529e\u516c\u5ba4"}},
+      {"PRIMARY_KEYS": {"phone_type": "Telefon"}, "DATA": {"name_cs": null, "name_de": "Telefon", "name_en": "Phone", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Telefon", "name_zh": "\u7535\u8bdd"}},
+      {"PRIMARY_KEYS": {"phone_type": "Telefon Gesch\u00e4ftlich"}, "DATA": {"name_cs": null, "name_de": "Telefon (Gesch\u00e4ftlich)", "name_en": "Phone (Business)", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Telefonu(i\u015f)", "name_zh": "\u7535\u8bdd(\u5546\u52a1)"}},
+      {"PRIMARY_KEYS": {"phone_type": "Telefon Privat"}, "DATA": {"name_cs": null, "name_de": "Telefon (Privat)", "name_en": "Phone (Private)", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Telefon (\u00f6zel)", "name_zh": "\u7535\u8bdd(\u79c1\u6709)"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

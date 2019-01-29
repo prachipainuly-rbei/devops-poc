@@ -1,0 +1,9 @@
+{
+  "csweb_plugin": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"plugin_id": "cs-audittrail-detail"}, "DATA": {"cdb_module_id": "cs.audittrail", "description": "Used to find a plugin that is responsible to display additional detail information like longtext diffs etc.", "fqpyname": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

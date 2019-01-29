@@ -1,0 +1,11 @@
+{
+  "cdbrm_risk_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": 6}, "DATA": {"name_cs": "", "name_de": "Niedrig", "name_en": "Low", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "D\u00fc\u015f\u00fck", "name_zh": "\u4f4e", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"id": 7}, "DATA": {"name_cs": "", "name_de": "Mittel", "name_en": "Medium", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Orta", "name_zh": "\u4e2d", "obsolete": 0}},
+      {"PRIMARY_KEYS": {"id": 8}, "DATA": {"name_cs": "", "name_de": "Hoch", "name_en": "High", "name_es": "", "name_fr": "", "name_it": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Y\u00fcksek", "name_zh": "\u9ad8", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

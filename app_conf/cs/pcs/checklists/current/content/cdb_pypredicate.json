@@ -1,0 +1,17 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.checklists.ChecklistItem", "name": "State Change Notification Objects", "predicate_name": "cdbpcs: Checklistitem[Ready]"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.checklists.Checklist", "name": "cdbtodo: task_checklist", "predicate_name": "cdbtodo: project_checklist"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.checklists.Checklist", "name": "cdbtodo: task_checklist", "predicate_name": "cdbtodo: task_checklist"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.checklists.ChecklistItem", "name": "cdbtodo: task_checklist_item", "predicate_name": "cdbtodo: project_checklist_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.checklists.ChecklistItem", "name": "cdbtodo: task_checklist_item", "predicate_name": "cdbtodo: task_checklist_item"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.checklists.Checklist", "name": "cs.sharing: Group Creator", "predicate_name": "Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.checklists.ChecklistItem", "name": "cs.sharing: Group Creator", "predicate_name": "Checklist Items"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.checklists.Checklist", "name": "cs.sharing: Group Responsible", "predicate_name": "Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.checklists.ChecklistItem", "name": "cs.sharing: Group Responsible", "predicate_name": "Checklist Items"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

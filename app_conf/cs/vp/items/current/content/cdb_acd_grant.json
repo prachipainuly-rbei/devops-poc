@@ -1,0 +1,35 @@
+{
+  "cdb_acd_grant": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.shared: Administration", "allow": "FULL ACCESS", "class": "part", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Exceptional Access", "allow": "FULL ACCESS", "class": "common role exceptions", "subject_id": "Administrator", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Exceptional Access", "allow": "read", "class": "common role exceptions", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (BLOCKED, OBSOLETE)", "allow": "read", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "accept", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "create", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "create_bom", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "delete", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "delete_bom", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "distribute", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "read", "class": "part", "subject_id": "Design Release", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "read", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "read", "class": "part", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "save", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (DRAFT)", "allow": "save_bom", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (FROM ERP)", "allow": "distribute", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (FROM ERP)", "allow": "read", "class": "part", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (RELEASED)", "allow": "distribute", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (RELEASED)", "allow": "index", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (RELEASED)", "allow": "read", "class": "part", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVIEW)", "allow": "distribute", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVIEW)", "allow": "read", "class": "part", "subject_id": "Design Release", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVIEW)", "allow": "read", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVIEW)", "allow": "read", "class": "part", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (REVISION)", "allow": "read", "class": "part", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (configurable)", "allow": "cdbvp_instantiations", "class": "cdbvp_configurable_items", "subject_id": "public", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.vp: Parts (mBOM)", "allow": "index", "class": "part", "subject_id": "Engineering", "subject_type": "Common Role"}, "DATA": {"cdb_module_id": "cs.vp.items"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

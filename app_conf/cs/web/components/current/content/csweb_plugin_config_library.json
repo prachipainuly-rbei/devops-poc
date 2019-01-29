@@ -1,0 +1,9 @@
+{
+  "csweb_plugin_config_library": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"discriminator": "^application/pdf$", "library_name": "cs-web-components-pdf", "plugin_id": "content-view"}, "DATA": {"cdb_module_id": "cs.web.components", "library_version": "15.1.0"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

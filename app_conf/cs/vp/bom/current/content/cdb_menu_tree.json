@@ -1,0 +1,13 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "3271b461-3a0b-11e2-aa64-082e5f0d3665"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.bom", "classname": "bom_item_usage", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "4fa73dcf-a637-11e4-a9b2-082e5f0d3665"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.bom", "classname": "cdbvp_diffutil_ignored", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "5aa3f421-92d1-11e1-89de-78acc0a55b77"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.bom", "classname": "cdb_partslist_comp", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "77352f9e-92d1-11e1-950b-78acc0a55b77"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.bom", "classname": "cdb_partslist_cval", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "aa316841-a6ab-11df-bf18-e2ee62063942"}, "DATA": {"ausgabe_label": "", "cdb_module_id": "cs.vp.bom", "classname": "bom_item", "decomp_id": "", "icon_id": "", "ordering": 1000, "parent_id": "30f646b0-96cb-11e2-b6f7-78acc0a55b77"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

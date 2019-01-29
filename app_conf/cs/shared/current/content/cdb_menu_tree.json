@@ -1,0 +1,9 @@
+{
+  "cdb_menu_tree": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "96ab8f40-cb30-11e1-9ea6-001c42b5d769"}, "DATA": {"ausgabe_label": "tree_quality", "cdb_module_id": "cs.shared", "classname": "", "decomp_id": "", "icon_id": "cdb_quality", "ordering": 100, "parent_id": "919b0145-2528-11df-b716-e1f861774235"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

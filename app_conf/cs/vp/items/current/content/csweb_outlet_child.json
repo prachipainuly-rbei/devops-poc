@@ -1,0 +1,11 @@
+{
+  "csweb_outlet_child": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"outlet_child_name": "cs-vp-items-ProductStructure"}, "DATA": {"ausgabe_label": "prod_struct", "cdb_icon_id": "csweb_table_treeview_on", "cdb_module_id": "cs.vp.items", "config_component": "cs-web-components-base-StructureTree", "config_location": "", "json_properties": "{\n  \"structureName\": \"CDB_ProductStructure\",\n  \"treeRendererName\": \"SimpleTreeContainer.DefaultRenderer\"\n}"}},
+      {"PRIMARY_KEYS": {"outlet_child_name": "cs-vp-items-ProductUtilization"}, "DATA": {"ausgabe_label": "verw_struct", "cdb_icon_id": "csweb_table_treeview_on", "cdb_module_id": "cs.vp.items", "config_component": "cs-web-components-base-StructureTree", "config_location": "", "json_properties": "{\n  \"structureName\": \"CDB_ProductUtilization\",\n  \"treeRendererName\": \"SimpleTreeContainer.DefaultRenderer\"\n}"}},
+      {"PRIMARY_KEYS": {"outlet_child_name": "cs-vp-items-components-MultiFormatPreview"}, "DATA": {"ausgabe_label": "cs_items_preview", "cdb_icon_id": "View", "cdb_module_id": "cs.vp.items", "config_component": "", "config_location": "$CADDOK_MODULE + \"/web/outlets/multiformat-preview.json\"", "json_properties": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

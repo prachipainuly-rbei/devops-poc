@@ -1,0 +1,11 @@
+{
+  "cdb_filetype": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"ft_name": "Appinfo"}, "DATA": {"cdb_module_id": "cs.wsm", "ft_description": "Workspacemanager Appinfo", "ft_editable_fname": 1, "ft_genonlycad": 0, "ft_handle_dups": 0, "ft_icon_id": null, "ft_indexable": 0, "ft_lock_policy": 0, "ft_mimetype": "", "ft_offeronimport": 1, "ft_preview_type": "", "ft_previewable": 0, "ft_scale_preview": 0, "ft_std_suffix": ".appinfo", "ft_subtype": "", "ft_view_readonly": null}},
+      {"PRIMARY_KEYS": {"ft_name": "Variantconfig"}, "DATA": {"cdb_module_id": "cs.wsm", "ft_description": "Characteristics Group Sync Rules", "ft_editable_fname": 1, "ft_genonlycad": 0, "ft_handle_dups": 0, "ft_icon_id": null, "ft_indexable": 0, "ft_lock_policy": 6, "ft_mimetype": "", "ft_offeronimport": 1, "ft_preview_type": "", "ft_previewable": 0, "ft_scale_preview": 0, "ft_std_suffix": "..variantconfig", "ft_subtype": "", "ft_view_readonly": 1}},
+      {"PRIMARY_KEYS": {"ft_name": "wsmsettings"}, "DATA": {"cdb_module_id": "cs.wsm", "ft_description": "Einstellungen des Workspace Managers", "ft_editable_fname": 0, "ft_genonlycad": 0, "ft_handle_dups": 0, "ft_icon_id": null, "ft_indexable": 0, "ft_lock_policy": 0, "ft_mimetype": "", "ft_offeronimport": 0, "ft_preview_type": "", "ft_previewable": 0, "ft_scale_preview": 0, "ft_std_suffix": ".cdbwssetting", "ft_subtype": "", "ft_view_readonly": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

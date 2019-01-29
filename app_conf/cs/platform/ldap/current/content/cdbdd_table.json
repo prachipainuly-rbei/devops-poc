@@ -1,0 +1,11 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdb_ldap_conf"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.ldap"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_ldap_schema"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.ldap"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_ldap_searchbase"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.ldap"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

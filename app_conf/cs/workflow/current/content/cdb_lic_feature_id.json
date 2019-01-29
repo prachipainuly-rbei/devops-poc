@@ -1,0 +1,17 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "WORKFLOW_001"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Allows to view workflows composed of an arrangement of sequential and parallel tasks. Task types supported are: approval, control, execution and information. Personal notification on active tasks by e-mail and/or via task manager. Access reference to documents and other object types in terms of attachments (Note: Referencing objects may require additional licenses). Automatic bookkeeping and centralized archiving; Visualization of the current status of a running workflow.", "name": "Workflow: View Workflow"}},
+      {"PRIMARY_KEYS": {"id": "WORKFLOW_002"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Allows to define workflows composed of an arrangement of sequential and parallel tasks. Task types supported are: approval, control, execution and information. Personal notification on active tasks by e-mail and/or via task manager. Interactive, easy-to-use setup of workflows by end-users (ad-hoc workflows). Reference to documents and other object types in terms of attachments (Note: Referencing objects may require additional licenses). Automatic bookkeeping and centralized archiving; Visualization of the current status of a running workflow.\n", "name": "Workflow: Setup Workflow"}},
+      {"PRIMARY_KEYS": {"id": "WORKFLOW_003"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Allows to create workflow using built-in template mechanism provides users and workgroups with reusable templates in a library. \n", "name": "Workflow: Create Workflow From Template"}},
+      {"PRIMARY_KEYS": {"id": "WORKFLOW_004"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Allows to define new system task type.", "name": "Workflow: Define System Task"}},
+      {"PRIMARY_KEYS": {"id": "WORKFLOW_005"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Allows to assign extension to task.", "name": "Workflow: Extend Task"}},
+      {"PRIMARY_KEYS": {"id": "WORKFLOW_006"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Allows to change workflow or task status, and lock or unlock tasks.", "name": "Workflow: Execute Workflow"}},
+      {"PRIMARY_KEYS": {"id": "WORKFLOW_007"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Allows to create and use workflow form templates", "name": "Workflow: Manage Form Templates"}},
+      {"PRIMARY_KEYS": {"id": "WORKFLOW_008"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Allows to create and use workflow forms", "name": "Workflow: Manage Forms"}},
+      {"PRIMARY_KEYS": {"id": "WORKFLOW_009"}, "DATA": {"cdb_module_id": "cs.workflow", "description": "Allows to fill out predefined workflow forms", "name": "Workflow: Use Forms"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

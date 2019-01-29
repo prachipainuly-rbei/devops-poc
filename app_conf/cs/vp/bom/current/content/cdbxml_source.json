@@ -1,0 +1,11 @@
+{
+  "cdbxml_source": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "BOMComparison"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "context_card": "N", "description": "BOM Comparison"}},
+      {"PRIMARY_KEYS": {"name": "HierarchicalBOM"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "context_card": "1", "description": "Hierarchical BOM"}},
+      {"PRIMARY_KEYS": {"name": "PartUsage"}, "DATA": {"cdb_module_id": "cs.vp.bom", "context": "cs.vp.items.Item", "context_card": "1", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

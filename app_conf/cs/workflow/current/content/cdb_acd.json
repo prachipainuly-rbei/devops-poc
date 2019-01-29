@@ -1,0 +1,33 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Briefcases"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can be read by everyone"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Constraints"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can be read by everyone"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Form Templates (NEW)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Form Templates (not NEW)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Forms"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: My Tasks (READY)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can be edited by owner"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: My Workflow"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can be started, stopped, or canceled by owner"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: My Workflow (EXECUTION)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can be edited by owner"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: My Workflow (NEW)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can be edited by owner"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Parameters"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can be read by everyone"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Protocols"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Task Groups (parallel, manual, READY)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Tasks"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can be read by everyone"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Tasks (CANCELED, REJECTED)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can not be deleted"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Tasks (COMPLETED)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can not be deleted"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Tasks (NEW)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Tasks (READY)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can not be deleted; accept for delegation"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Tasks (Workflow FROZEN)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can only be read"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Workflow Templates"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can only be edited by a library manager"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Workflow Templates (NEW)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can only be edited by a library manager"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Workflow Templates (not NEW)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can only be edited by a library manager"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Workflows"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can be read by everyone"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Workflows (EXECUTION)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "Process Administrators can edit"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Workflows (FROZEN)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "can not be edited"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.workflow: Workflows (NEW)"}, "DATA": {"cdb_module_id": "cs.workflow", "common_flag": 1, "description": "Process Administrator can edit"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

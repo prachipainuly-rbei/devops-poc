@@ -1,0 +1,10 @@
+{
+  "cdb_gender": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"gender": "m\u00e4nnlich"}, "DATA": {"name_cs": null, "name_de": "M\u00e4nnlich", "name_en": "Male", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Erkek", "name_zh": "\u7537\u6027"}},
+      {"PRIMARY_KEYS": {"gender": "weiblich"}, "DATA": {"name_cs": null, "name_de": "Weiblich", "name_en": "Female", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Kad\u0131n", "name_zh": "\u5973\u6027"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

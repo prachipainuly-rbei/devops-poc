@@ -1,0 +1,11 @@
+{
+  "cdb_acd_pred": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (COMPLETED)", "predicate_name": "cs.actions: Actions (COMPLETED)", "table_name": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (COMPLETED)", "predicate_name": "cs.actions: Actions (DISCARDED)", "table_name": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.actions: Actions (not DISCARDED, COMPLETED)", "predicate_name": "cs.actions: Actions (not DISCARDED, COMPLETED)", "table_name": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cs_tasks_class_context": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"position": 10, "tclass_object_id": "078e87a1-5ee2-11e6-89f5-001a7dda7107"}, "DATA": {"cdb_module_id": "cs.workflow", "reference_name": "Process"}},
+      {"PRIMARY_KEYS": {"position": 10, "tclass_object_id": "223eac70-5ef5-11e6-b527-001a7dda7107"}, "DATA": {"cdb_module_id": "cs.workflow", "reference_name": "Process"}},
+      {"PRIMARY_KEYS": {"position": 10, "tclass_object_id": "a4cb800f-5ef4-11e6-835a-001a7dda7107"}, "DATA": {"cdb_module_id": "cs.workflow", "reference_name": "Process"}},
+      {"PRIMARY_KEYS": {"position": 10, "tclass_object_id": "b8a1e39e-5ef3-11e6-afa1-001a7dda7107"}, "DATA": {"cdb_module_id": "cs.workflow", "reference_name": "Process"}},
+      {"PRIMARY_KEYS": {"position": 20, "tclass_object_id": "078e87a1-5ee2-11e6-89f5-001a7dda7107"}, "DATA": {"cdb_module_id": "cs.workflow", "reference_name": "Project"}},
+      {"PRIMARY_KEYS": {"position": 20, "tclass_object_id": "223eac70-5ef5-11e6-b527-001a7dda7107"}, "DATA": {"cdb_module_id": "cs.workflow", "reference_name": "Project"}},
+      {"PRIMARY_KEYS": {"position": 20, "tclass_object_id": "a4cb800f-5ef4-11e6-835a-001a7dda7107"}, "DATA": {"cdb_module_id": "cs.workflow", "reference_name": "Project"}},
+      {"PRIMARY_KEYS": {"position": 20, "tclass_object_id": "b8a1e39e-5ef3-11e6-afa1-001a7dda7107"}, "DATA": {"cdb_module_id": "cs.workflow", "reference_name": "Project"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

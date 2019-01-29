@@ -1,0 +1,10 @@
+{
+  "cdb_op_names": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_share_objects"}, "DATA": {"acl_allow": "", "cdb_module_id": "cs.sharing", "client_desc": "", "descr": null, "html_help": "cdb_sharing", "icon_id": "elements_share", "inactive": 0, "kind": "PowerScript", "label": "cdb_share_objects", "label_ok": "", "menu_visible": 1, "menugroup": 35, "ordering": 5, "rs_visible": 1}},
+      {"PRIMARY_KEYS": {"name": "cdb_sharing_add_person"}, "DATA": {"acl_allow": "save", "cdb_module_id": "cs.sharing", "client_desc": "", "descr": null, "html_help": "", "icon_id": "cdb_person", "inactive": 0, "kind": "PowerScript", "label": "cdb_sharing_add_person", "label_ok": "", "menu_visible": 1, "menugroup": null, "ordering": null, "rs_visible": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

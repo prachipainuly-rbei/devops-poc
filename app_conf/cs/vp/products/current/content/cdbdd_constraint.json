@@ -1,0 +1,14 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "42124f8f-5bb5-11e1-bf6d-001bfc744136"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.products", "classname": "cdbvp_product", "description": "", "exclude_empty_values": 0, "fields_info": "code"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "5f3e95a1-5d41-11e1-9ffe-001bfc744136"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.products", "classname": "cdbvp_maturity", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7878ee8f-638f-11e1-b996-001bfc744136"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.products", "classname": "cdbvp_product_prot", "description": "", "exclude_empty_values": null, "fields_info": "cdbprot_zaehler"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "87d13600-41b1-11e5-abcc-001a7dda7107"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.products", "classname": "cdbvp_maturity", "description": "", "exclude_empty_values": 1, "fields_info": "name_de"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "8c379d5e-41b1-11e5-a580-001a7dda7107"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.vp.products", "classname": "cdbvp_maturity", "description": "", "exclude_empty_values": 1, "fields_info": "name_en"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f3dd0030-3dca-11e0-a7a7-60fb428a7517"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.vp.products", "classname": "cdbvp_product", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

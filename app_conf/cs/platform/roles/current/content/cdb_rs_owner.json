@@ -1,0 +1,23 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdb_acd_access_to_acd_grant_subject", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_role2cdb_roleexc_per", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_role2cdb_roleexc_rol", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_role_exc_usage", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_role_to_acd_grant", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_role_to_cdb_person", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_role_to_global_role", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_role_to_subjects", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_global_role_usage", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_per2cdb_global_role", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_per2cdb_person", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_per2cdb_role_exc", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_rol2cdb_global_role", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_rol2cdb_global_role2", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.roles"}},
+      {"PRIMARY_KEYS": {"name": "cdb_roleexc_rol2cdb_role_exc", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.roles"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

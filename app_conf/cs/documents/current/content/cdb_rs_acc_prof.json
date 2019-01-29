@@ -1,0 +1,10 @@
+{
+  "cdb_rs_acc_prof": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"rs_acc_prof": "Change Notification"}, "DATA": {"cdb_module_id": "cs.documents", "descr": "Access rights mapping to check rights on the assigned  CAD document upon inquiries on change notifications.", "mandatory": 1}},
+      {"PRIMARY_KEYS": {"rs_acc_prof": "Scheets"}, "DATA": {"cdb_module_id": "cs.documents", "descr": "Maps the access rights checks on documents representing sheets of a drawing onto the access rights of the document object containing the master sheet.", "mandatory": 1}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

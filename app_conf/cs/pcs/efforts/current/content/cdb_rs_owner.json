@@ -1,0 +1,19 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort2activity_type", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort2billable", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort2cdb_person_cnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort2cdb_person_mnr", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort2cdbpcs_effort_cat", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort2cdbpcs_effort_prot", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort2cdbpcs_project", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort2cdbpcs_task", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_effort2objektstati", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_project2effort", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}},
+      {"PRIMARY_KEYS": {"name": "cdbpcs_task2efforts", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.pcs.efforts"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

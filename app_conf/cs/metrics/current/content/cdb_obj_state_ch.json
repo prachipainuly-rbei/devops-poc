@@ -1,0 +1,9 @@
+{
+  "cdb_obj_state_ch": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"objclass": "cdbqc_definition"}, "DATA": {"cdb_module_id": "cs.metrics", "comp_name": "default", "prot_table": ""}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "1ca706c0-e867-11e2-a30a-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "1ecd056e-3ebd-11e2-9337-f0def133d0a6", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "3f3e2a0f-e7bd-11e2-a632-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "40d6d30f-f832-11e2-a8ba-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "5485d661-6a76-11e4-a3b6-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "65bee500-67aa-11e7-b48d-68f7284ff046", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "6e46d7b0-6a72-11e4-973a-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "79d894de-e569-11e2-9325-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "7f267a40-4440-11e2-ba61-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "7f267a40-4440-11e2-ba61-f0def133d0a6", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "7f3f3fe0-b855-11e4-a2a4-7c7a914880db", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "842dbf0f-e56e-11e2-92a8-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "8f2cb480-c564-11e3-9d52-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "9227a305-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "9227a306-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "92e3f0c2-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "92e652f5-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "92ed798e-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "930c7626-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "930c7626-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "b9ae6630-6792-11e7-96d2-68f7284ff046", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "bb9cf172-c70b-11e4-b129-78acc0a55b77", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "c515a930-0046-11e5-92a3-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "d6de1f9e-e7be-11e2-b556-082e5f0d3665", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"id": "d8d1b6ae-e989-11e2-aa4d-80c16ee65d57", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.workflow"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

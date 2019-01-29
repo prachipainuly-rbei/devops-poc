@@ -1,0 +1,16 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "d0a0fded-252f-11df-94af-82cd4a5755a8", "field_classname": "cdb_ldap_schema", "field_name": "colname"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_schema", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d0a0fded-252f-11df-94af-82cd4a5755a8", "field_classname": "cdb_ldap_schema", "field_name": "key_type"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_schema", "position": 60}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d0a0fded-252f-11df-94af-82cd4a5755a8", "field_classname": "cdb_ldap_schema", "field_name": "ldap_attr"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_schema", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d0a0fded-252f-11df-94af-82cd4a5755a8", "field_classname": "cdb_ldap_schema", "field_name": "objclass"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_schema", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d0a0fded-252f-11df-94af-82cd4a5755a8", "field_classname": "cdb_ldap_schema", "field_name": "profile"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_schema", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "d0a0fded-252f-11df-94af-82cd4a5755a8", "field_classname": "cdb_ldap_schema", "field_name": "relation"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_schema", "position": 50}},
+      {"PRIMARY_KEYS": {"constraint_oid": "ecae12a5-2536-11df-a32f-b94c193b6839", "field_classname": "cdb_ldap_conf", "field_name": "connection_name"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_conf", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "fcc740c0-3562-11e2-8d28-005056c00008", "field_classname": "cdb_ldap_searchbase", "field_name": "realm"}, "DATA": {"cdb_module_id": "cs.platform.ldap", "classname": "cdb_ldap_searchbase", "position": 10}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

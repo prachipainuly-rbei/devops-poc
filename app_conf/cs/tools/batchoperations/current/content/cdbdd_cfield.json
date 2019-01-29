@@ -1,0 +1,16 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "0c739314-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbbop_operation", "field_name": "id"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "classname": "cdbbop_operation", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c7d205c-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbbop_prot", "field_name": "id"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "classname": "cdbbop_prot", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c903aec-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbbop_opdef", "field_name": "operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "classname": "cdbbop_opdef", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c903aec-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbbop_opdef", "field_name": "type_id"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "classname": "cdbbop_opdef", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0c950190-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbbop_typedef", "field_name": "type_id"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "classname": "cdbbop_typedef", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "28d92bdf-042c-11df-a718-d06c2d2b48f0", "field_classname": "cdbbop_opdef", "field_name": "operation"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "classname": "cdbbop_opdef", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "28e05191-042c-11df-a718-d06c2d2b48f0", "field_classname": "cdbbop_typedef", "field_name": "name_uk"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "classname": "cdbbop_typedef", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "28e77743-042c-11df-a718-d06c2d2b48f0", "field_classname": "cdbbop_typedef", "field_name": "name_d"}, "DATA": {"cdb_module_id": "cs.tools.batchoperations", "classname": "cdbbop_typedef", "position": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

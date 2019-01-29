@@ -1,0 +1,15 @@
+{
+  "cdb_rs_acc_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "Checklist Items"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "referer_allow": "accept"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "Checklist Items"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "valuate_checklist", "rs_acc_prof": "Checklist Items"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "referer_allow": "valuate_checklist"}},
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "referer_allow": "accept"}},
+      {"PRIMARY_KEYS": {"reference_allow": "pcschecklist_wf_step", "rs_acc_prof": "Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "referer_allow": "pcstask_wf_step"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "valuate_checklist", "rs_acc_prof": "Checklists"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "referer_allow": "valuate_checklist"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

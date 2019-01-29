@@ -1,0 +1,9 @@
+{
+  "cdbbop_typedef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"type_id": "teile_stamm"}, "DATA": {"asgn_type": "cs.vp.items.batchoperations.BatchOperationItemAssignment", "cdb_module_id": "cs.vp.items", "log_rel": "cdbbop_item_log", "name_cs": "", "name_d": "Artikel", "name_es": "", "name_fr": "", "name_i": "", "name_ja": "", "name_ko": "", "name_pl": "", "name_pt": "", "name_tr": "Par\u00e7alar", "name_uk": "Parts", "name_zh": "\u96f6\u4ef6", "obj_type": "cs.vp.items.Item", "obsolete": 0}}
+    ],
+    "CONTENT_DOMAIN": "BatchOperations",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

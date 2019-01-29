@@ -1,0 +1,16 @@
+{
+  "cdb_acd_access": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules", "allow": "pcs_ts_wf_step", "class": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules", "allow": "read", "class": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules (NEW)", "allow": "FULL ACCESS", "class": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Time Schedules (VALID, INVALID)", "allow": "read", "class": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Time Schedule Contents", "allow": "FULL ACCESS", "class": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Time Schedule Contents", "allow": "read", "class": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Time Schedules", "allow": "FULL ACCESS", "class": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "error_label": "", "mandatory": 0}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Time Schedules", "allow": "read", "class": "cdbpcs_time_schedule"}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule", "error_label": "", "mandatory": 0}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

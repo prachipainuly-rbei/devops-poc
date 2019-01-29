@@ -1,0 +1,17 @@
+{
+  "sml_data_type": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"mm_dt": "B", "mm_n1": 0, "mm_v1": 1}, "DATA": {"type_name": "Boolescher Wert"}},
+      {"PRIMARY_KEYS": {"mm_dt": "T", "mm_n1": 0, "mm_v1": 1}, "DATA": {"type_name": "Text"}},
+      {"PRIMARY_KEYS": {"mm_dt": "T", "mm_n1": 0, "mm_v1": 10}, "DATA": {"type_name": "Text"}},
+      {"PRIMARY_KEYS": {"mm_dt": "T", "mm_n1": 0, "mm_v1": 2}, "DATA": {"type_name": "Text"}},
+      {"PRIMARY_KEYS": {"mm_dt": "T", "mm_n1": 0, "mm_v1": 20}, "DATA": {"type_name": "Text"}},
+      {"PRIMARY_KEYS": {"mm_dt": "T", "mm_n1": 0, "mm_v1": 5}, "DATA": {"type_name": "Text"}},
+      {"PRIMARY_KEYS": {"mm_dt": "Z", "mm_n1": 2, "mm_v1": 2}, "DATA": {"type_name": "Gleitkommazahl"}},
+      {"PRIMARY_KEYS": {"mm_dt": "Z", "mm_n1": 2, "mm_v1": 4}, "DATA": {"type_name": "Gleitkommazahl"}},
+      {"PRIMARY_KEYS": {"mm_dt": "Z", "mm_n1": 0, "mm_v1": 6}, "DATA": {"type_name": "Ganzzahl"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

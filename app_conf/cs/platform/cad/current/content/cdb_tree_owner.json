@@ -1,0 +1,18 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "92338e04-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"id": "923ab49e-2528-11df-b716-e1f861774235", "role_id": "Frame-Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"id": "92b6a6fa-2528-11df-b716-e1f861774235", "role_id": "Frame-Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"id": "92b9092c-2528-11df-b716-e1f861774235", "role_id": "Frame-Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"id": "92b9092d-2528-11df-b716-e1f861774235", "role_id": "Frame-Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"id": "92bb6b5f-2528-11df-b716-e1f861774235", "role_id": "Frame-Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"id": "92bdcd93-2528-11df-b716-e1f861774235", "role_id": "Frame-Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"id": "92c291f8-2528-11df-b716-e1f861774235", "role_id": "Frame-Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"id": "92f7025b-2528-11df-b716-e1f861774235", "role_id": "Frame-Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}},
+      {"PRIMARY_KEYS": {"id": "92fbc6c0-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.cad"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

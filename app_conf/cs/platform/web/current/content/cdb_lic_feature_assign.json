@@ -1,0 +1,9 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "557645de-68d7-11e5-8380-005056c00008"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_url", "cdb_module_id": "cs.platform.web", "feature_id": "PLATFORM_200", "password": "QzTUItibR/2", "url": "/api/v1.*"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

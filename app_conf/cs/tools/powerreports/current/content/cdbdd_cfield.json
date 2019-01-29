@@ -1,0 +1,34 @@
+{
+  "cdbdd_cfield": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"constraint_oid": "07c412c0-f6ea-11e7-bbbc-001a7dda7107", "field_classname": "mq_xsd_reports", "field_name": "cdbmq_id"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "mq_xsd_reports", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "096754b0-d795-11df-b4c6-1cc1de660f15", "field_classname": "cdbxml_provider_type", "field_name": "provider_type"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_provider_type", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "09733b91-d795-11df-a87d-1cc1de660f15", "field_classname": "cdbxml_provider_reg", "field_name": "fqpyname"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_provider_reg", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a5a4802-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_dataprovider", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_dataprovider", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a5a4802-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_dataprovider", "field_name": "xsd_name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_dataprovider", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a6171f8-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_source", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_source", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a63d54a-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_report", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a63d54a-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_report", "field_name": "title"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a689bee-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_report_grant", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_grant", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a689bee-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_report_grant", "field_name": "report_title"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_grant", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a689bee-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_report_grant", "field_name": "subject_id"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_grant", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a689bee-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_report_grant", "field_name": "subject_type"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_grant", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a722936-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_prov_grant", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_prov_grant", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a722936-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_prov_grant", "field_name": "subject_id"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_prov_grant", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a722936-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_prov_grant", "field_name": "subject_type"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_prov_grant", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0a722936-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_prov_grant", "field_name": "xsd_name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_prov_grant", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0afa4678-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_provider_arg", "field_name": "arg_name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_provider_arg", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0afa4678-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_provider_arg", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_provider_arg", "position": 0}},
+      {"PRIMARY_KEYS": {"constraint_oid": "0afa4678-d05e-11de-a249-ac9a2584b2a7", "field_classname": "cdbxml_provider_arg", "field_name": "xsd_name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_provider_arg", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "52593f38-ddbe-11de-80ec-c5de3751c2b3", "field_classname": "cdbxml_report_arg", "field_name": "arg_name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_arg", "position": 40}},
+      {"PRIMARY_KEYS": {"constraint_oid": "52593f38-ddbe-11de-80ec-c5de3751c2b3", "field_classname": "cdbxml_report_arg", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_arg", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "52593f38-ddbe-11de-80ec-c5de3751c2b3", "field_classname": "cdbxml_report_arg", "field_name": "persno"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_arg", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "52593f38-ddbe-11de-80ec-c5de3751c2b3", "field_classname": "cdbxml_report_arg", "field_name": "report_title"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_arg", "position": 20}},
+      {"PRIMARY_KEYS": {"constraint_oid": "f7f55674-ddbf-11de-80ec-c5de3751c2b3", "field_classname": "cdbxml_report_tmpl", "field_name": "iso_code"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_tmpl", "position": 30}},
+      {"PRIMARY_KEYS": {"constraint_oid": "f7f55674-ddbf-11de-80ec-c5de3751c2b3", "field_classname": "cdbxml_report_tmpl", "field_name": "name"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_tmpl", "position": 10}},
+      {"PRIMARY_KEYS": {"constraint_oid": "f7f55674-ddbf-11de-80ec-c5de3751c2b3", "field_classname": "cdbxml_report_tmpl", "field_name": "report_title"}, "DATA": {"cdb_module_id": "cs.tools.powerreports", "classname": "cdbxml_report_tmpl", "position": 20}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cdb_acc_r_c_asg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acc_right": "accept", "right_comp": "CHANGE"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"acc_right": "save", "right_comp": "CHANGE"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"acc_right": "accept", "right_comp": "WRITE ACCESS"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"acc_right": "create", "right_comp": "WRITE ACCESS"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"acc_right": "delete", "right_comp": "WRITE ACCESS"}, "DATA": {"cdb_module_id": "cs.platform.misc"}},
+      {"PRIMARY_KEYS": {"acc_right": "save", "right_comp": "WRITE ACCESS"}, "DATA": {"cdb_module_id": "cs.platform.misc"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

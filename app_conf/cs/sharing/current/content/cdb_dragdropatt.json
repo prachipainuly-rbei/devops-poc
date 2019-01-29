@@ -1,0 +1,12 @@
+{
+  "cdb_dragdropatt": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"drag_attrib": "\"Person\"", "drag_classname": "angestellter", "drop_classname": "cdb_sharing_group_member"}, "DATA": {"cdb_module_id": "cs.sharing", "drop_attrib": "subject_type"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "personalnummer", "drag_classname": "angestellter", "drop_classname": "cdb_sharing_group_member"}, "DATA": {"cdb_module_id": "cs.sharing", "drop_attrib": "subject_id"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "\"Common Role\"", "drag_classname": "cdb_global_role", "drop_classname": "cdb_sharing_group_member"}, "DATA": {"cdb_module_id": "cs.sharing", "drop_attrib": "subject_type"}},
+      {"PRIMARY_KEYS": {"drag_attrib": "role_id", "drag_classname": "cdb_global_role", "drop_classname": "cdb_sharing_group_member"}, "DATA": {"cdb_module_id": "cs.sharing", "drop_attrib": "subject_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (immutable)"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (no Documents)"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Folders (no Subfolders)"}, "DATA": {"cdb_module_id": "cs.pcs.projects_documents", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

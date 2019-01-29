@@ -1,0 +1,10 @@
+{
+  "cdb_op_context": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "VariantMatrix"}, "DATA": {"cdb_module_id": "cs.vp.variants"}, "LONGTEXTS": {"cdb_op_context_txt": "Operation for the part list in the variant matrix"}},
+      {"PRIMARY_KEYS": {"id": "VariantMatrixVariant"}, "DATA": {"cdb_module_id": "cs.vp.variants"}, "LONGTEXTS": {"cdb_op_context_txt": "Operation for selected variant toolbar"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meldungen": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"meldung_label": "activity_obj_created"}, "DATA": {"cdb_module_id": "cs.activitystream", "cs": "", "d": "%s wurde angelegt", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "%s olu\u015fturuldu", "uk": "%s has been created", "zh": "%s\u5df2\u7ecf\u88ab\u521b\u5efa"}},
+      {"PRIMARY_KEYS": {"meldung_label": "activity_obj_modified"}, "DATA": {"cdb_module_id": "cs.activitystream", "cs": "", "d": "%s wurde ge\u00e4ndert:\\n%s", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "%s de\u011fi\u015ftirildi: \\n%s", "uk": "%s has been modified:\\n%s", "zh": "%s \u5df2\u7ecf\u88ab\u4fee\u6539:\\n%s"}},
+      {"PRIMARY_KEYS": {"meldung_label": "activity_obj_wfstep"}, "DATA": {"cdb_module_id": "cs.activitystream", "cs": "", "d": "%s wurde in den Status '%s' \u00fcberf\u00fchrt.", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "%s durumu '%s' olarak de\u011fi\u015ftirildi", "uk": "The status of %s has been changed to '%s'.", "zh": "\u72b6\u6001%s\u5df2\u7ecf\u88ab\u66f4\u6539\u4e3a'%s'"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbblog_comment_desc"}, "DATA": {"cdb_module_id": "cs.activitystream", "cs": "", "d": "\"Kommentar von \" + mapped_cpersno + \" am \" + cdb_cdate", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 2201, "pl": "", "pt": "", "s": "", "tr": "\"Yorum sahibi \" + mapped_cpersno + \"   \" + cdb_cdate", "uk": "\"Comment from \" + mapped_cpersno + \" on \" + cdb_cdate", "zh": "\"\u5907\u6ce8\u6765\u81ea \" + mapped_cpersno + \" \u5728 \" + cdb_cdate"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbblog_posting_desc"}, "DATA": {"cdb_module_id": "cs.activitystream", "cs": "", "d": "\"Beitrag von \" + mapped_cpersno + \" am \" + cdb_cdate", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 2200, "pl": "", "pt": "", "s": "", "tr": "\"Bildirim sahibi \" + mapped_cpersno + \"   \" + cdb_cdate", "uk": "\"Posting from \" + mapped_cpersno + \" on \" + cdb_cdate", "zh": "\"\u5730\u5740\u6765\u81ea \" + mapped_cpersno + \" \u5728 \" + cdb_cdate"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbblog_system_posting_desc"}, "DATA": {"cdb_module_id": "cs.activitystream", "cs": "", "d": "title", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "title", "uk": "title", "zh": "title"}},
+      {"PRIMARY_KEYS": {"meldung_label": "cdbblog_topic_desc"}, "DATA": {"cdb_module_id": "cs.activitystream", "cs": "", "d": "\"Themenzuordnung\"", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": 2202, "pl": "", "pt": "", "s": "", "tr": "\"Konu atamas\u0131\"", "uk": "\"Topic Assignment\"", "zh": "\"\u4e3b\u9898\u5206\u914d\""}},
+      {"PRIMARY_KEYS": {"meldung_label": "desc_cdbblog_channel"}, "DATA": {"cdb_module_id": "cs.activitystream", "cs": "", "d": "title", "f": "", "i": "", "ja": null, "ko": null, "meldung_nr": null, "pl": "", "pt": "", "s": "", "tr": "title", "uk": "title", "zh": "title"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

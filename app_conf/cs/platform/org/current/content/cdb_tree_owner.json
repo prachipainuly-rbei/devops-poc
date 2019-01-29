@@ -1,0 +1,30 @@
+{
+  "cdb_tree_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "496c5826-1aff-11e8-aa99-3c52825e6e7e", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "8eecb621-6be8-11e4-9ba4-1cc1de660f15", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "91c12474-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "91c12474-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "91e2833e-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "91e2833e-2528-11df-b716-e1f861774235", "role_id": "License-Admin"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "91e2833f-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "91e2833f-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "91e28340-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "91e28340-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "91e4e571-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "91e9a9d7-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "9206443b-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "92a5f794-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "9339bfef-2528-11df-b716-e1f861774235", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "9339bfef-2528-11df-b716-e1f861774235", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "933c2221-2528-11df-b716-e1f861774235", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "95e0e680-1b09-11e8-bc01-3c52825e6e7e", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "bc961c8f-4446-11e2-8098-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "bc961c8f-4446-11e2-8098-f0def133d0a6", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "d9443d9e-4440-11e2-99c9-f0def133d0a6", "role_id": "Administrator"}, "DATA": {"cdb_module_id": "cs.platform.org"}},
+      {"PRIMARY_KEYS": {"id": "d9443d9e-4440-11e2-99c9-f0def133d0a6", "role_id": "Katalogverwalter"}, "DATA": {"cdb_module_id": "cs.platform.org"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

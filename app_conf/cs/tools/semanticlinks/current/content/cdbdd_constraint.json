@@ -1,0 +1,21 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "069dfa51-2110-11e8-b0e8-605718ab0982"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_graph_cls", "description": null, "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "0c4ad095-1c2a-11e2-a26b-001c42b5d769"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_graph_cfg", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "1136430f-f280-11e1-bf15-001c42b5d769"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_rs", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "2d042405-f27f-11e1-a9b7-001c42b5d769"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_cfg", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "447287b0-2110-11e8-b77d-605718ab0982"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_graph_cls", "description": "", "exclude_empty_values": 0, "fields_info": null}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "51363f4f-1c2a-11e2-89f7-001c42b5d769"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_graph_cfg", "description": "", "exclude_empty_values": 0, "fields_info": "name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "7796ef40-f5f1-11e2-8166-10604b7deefb"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link", "description": null, "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "80e766cf-f280-11e1-82db-001c42b5d769"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_rs", "description": "", "exclude_empty_values": 0, "fields_info": "column_classname, row_classname, dsm_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "80f2290f-f5f6-11e2-a44c-10604b7deefb"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "description": "", "exclude_empty_values": 0, "fields_info": "subject_object_classname, name, object_object_classname"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "84e564de-f27f-11e1-9f67-001c42b5d769"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_link_matrix_cfg", "description": "", "exclude_empty_values": 0, "fields_info": "name"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "99f9f70f-f5f3-11e2-b5b8-10604b7deefb"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link", "description": "", "exclude_empty_values": 0, "fields_info": "subject_object_id, object_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "adc80b4f-f5f4-11e2-9132-10604b7deefb"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "description": "", "exclude_empty_values": 1, "fields_info": "subject_object_classname, is_copy_link_type, object_object_classname"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f08e1e81-f5f3-11e2-92b2-10604b7deefb"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.tools.semanticlinks", "classname": "cdb_semantic_link_type", "description": null, "exclude_empty_values": null, "fields_info": "cdb_object_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

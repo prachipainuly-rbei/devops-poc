@@ -1,0 +1,10 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.ec.EngineeringChange", "name": "cs.sharing: Group Creator", "predicate_name": "Engineering Change"}, "DATA": {"cdb_module_id": "cs.ec", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.ec.EngineeringChange", "name": "cs.sharing: Group Responsible", "predicate_name": "Engineering Change"}, "DATA": {"cdb_module_id": "cs.ec", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

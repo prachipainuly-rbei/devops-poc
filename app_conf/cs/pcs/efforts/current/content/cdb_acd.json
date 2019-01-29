@@ -1,0 +1,11 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "common_flag": 0, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: Efforts (booked)"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.pcs: My Efforts"}, "DATA": {"cdb_module_id": "cs.pcs.efforts", "common_flag": 1, "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

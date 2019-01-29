@@ -1,0 +1,12 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbqc: optimal actions"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Actions considered to compute the optimal combinations of actions"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc: users with valid account"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Users with active account"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc: valid actions"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "Actions to be displayed in the KPI Cockpit"}},
+      {"PRIMARY_KEYS": {"name": "cdbqc: visible quality characteristics"}, "DATA": {"cdb_module_id": "cs.metrics", "description": "KPIs to be displayed for the active user"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

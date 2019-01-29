@@ -1,0 +1,10 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_issue", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "descr": "Offener Punkt-Klassensymbol", "fallback_id": "branding_company_logo_small", "identifier": "\"issue.png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdbpcs_issue_object", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.pcs.issues", "descr": "Offener Punkt Objektsymbol", "fallback_id": "branding_company_logo_small", "identifier": "\"issue_\"+close_flag+\".png\"", "location": "$CADDOK_MODULE + \"/resources/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

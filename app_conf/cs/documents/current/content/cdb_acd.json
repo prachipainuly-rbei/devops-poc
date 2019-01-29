@@ -1,0 +1,20 @@
+{
+  "cdb_acd": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (BLOCKED, OBSOLETE)"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": "doc_standard, doc_approve in status 170, 180"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (DRAFT)"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": "doc_standard, doc_approve in status 0"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (RELEASED)"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": "doc_standard, doc_approve in status 200"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (REVIEW)"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": "doc_approve in status 100"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents (REVISION)"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": "doc_standard, doc_approve in status 190"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Documents - Unprotected"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": "Documents that grants access to non derived files to public"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Exceptional Access"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": "Common Authorizations for Documents"}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs (not by me)"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs (on demand)"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": ""}},
+      {"PRIMARY_KEYS": {"acd_id": "cs.documents: Replication Jobs (orig sec)"}, "DATA": {"cdb_module_id": "cs.documents", "common_flag": 1, "description": "Replication of original and secondary formats"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

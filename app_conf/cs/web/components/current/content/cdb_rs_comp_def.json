@@ -1,0 +1,12 @@
+{
+  "cdb_rs_comp_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "csweb_outlets", "rs_name": "csweb_outlet_definition2positions"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.web.components", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "csweb_outlet_position2owners", "descr": "", "empty_folders": 0, "has_folder": 0, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "", "ordering": 30, "pre_evaluate": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "csweb_outlets", "rs_name": "csweb_outlet_description2definitions"}, "DATA": {"addtl_icon": "OutletDefinitionClass", "cdb_module_id": "cs.web.components", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "csweb_outlet_definition2positions", "descr": "", "empty_folders": 0, "has_folder": 0, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "", "ordering": 20, "pre_evaluate": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "csweb_outlets", "rs_name": "csweb_outlet_position2child"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.web.components", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "", "descr": "", "empty_folders": 0, "has_folder": 0, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "", "ordering": 40, "pre_evaluate": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "csweb_outlets", "rs_name": "csweb_outlet_position2owners"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.web.components", "decomp_full_1n": 0, "decomp_id": "", "default_rs": "", "descr": "", "empty_folders": 0, "has_folder": 0, "hide_objects": 0, "hide_rs": 0, "hide_sub_rs": 0, "icon_id": "", "is_drop_target": 1, "label": "", "ordering": 50, "pre_evaluate": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

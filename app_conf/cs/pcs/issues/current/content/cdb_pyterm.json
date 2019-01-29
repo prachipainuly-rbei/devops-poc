@@ -1,0 +1,16 @@
+{
+  "cdb_pyterm": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "id": 1, "name": "State Change Notification Objects", "predicate_name": "cdbpcs: Issue[Analysing]"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.pcs.issues", "expression": "30", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "id": 2, "name": "State Change Notification Objects", "predicate_name": "cdbpcs: Issue[Analysing]"}, "DATA": {"attribute": "Project.status", "cdb_module_id": "cs.pcs.issues", "expression": "180", "filter_rule": "", "operator": "!="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "id": 1, "name": "cdbtodo: task_issue", "predicate_name": "cdbtodo: task_issue"}, "DATA": {"attribute": "status", "cdb_module_id": "cs.pcs.issues", "expression": "10, 30, 50, 100", "filter_rule": "", "operator": "IN"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "id": 3, "name": "cdbtodo: task_issue", "predicate_name": "cdbtodo: task_issue"}, "DATA": {"attribute": "subject_id", "cdb_module_id": "cs.pcs.issues", "expression": "$(role)", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "id": 4, "name": "cdbtodo: task_issue", "predicate_name": "cdbtodo: task_issue"}, "DATA": {"attribute": "Project.status", "cdb_module_id": "cs.pcs.issues", "expression": "180", "filter_rule": "", "operator": "!="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "id": 5, "name": "cdbtodo: task_issue", "predicate_name": "cdbtodo: task_issue"}, "DATA": {"attribute": "cdbpcs_frozen", "cdb_module_id": "cs.pcs.issues", "expression": "0", "filter_rule": "", "operator": "="}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "id": 1, "name": "cs.sharing: Group Creator", "predicate_name": "Issues"}, "DATA": {"attribute": "cdb_cpersno", "cdb_module_id": "cs.pcs.issues", "expression": "", "filter_rule": "", "operator": ">"}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.pcs.issues.Issue", "id": 1, "name": "cs.sharing: Group Responsible", "predicate_name": "Issues"}, "DATA": {"attribute": "subject_id", "cdb_module_id": "cs.pcs.issues", "expression": "", "filter_rule": "", "operator": ">"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

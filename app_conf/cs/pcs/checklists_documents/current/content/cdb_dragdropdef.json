@@ -1,0 +1,11 @@
+{
+  "cdb_dragdropdef": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"drag_classname": "cdbpcs_cl2doctmpl", "drop_classname": "cdbpcs_prj2doctmpl"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"drag_classname": "document", "drop_classname": "cdbpcs_cl2doctmpl"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}},
+      {"PRIMARY_KEYS": {"drag_classname": "document", "drop_classname": "cdbpcs_cli2doctmpl"}, "DATA": {"cdb_module_id": "cs.pcs.checklists_documents"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

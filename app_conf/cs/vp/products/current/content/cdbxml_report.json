@@ -1,0 +1,10 @@
+{
+  "cdbxml_report": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "GrowthShareMatrix", "title": "GrowthShareMatrix"}, "DATA": {"cdb_module_id": "cs.vp.products", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": ""}},
+      {"PRIMARY_KEYS": {"name": "PortfolioGrowthShareMatrix", "title": "PortfolioGrowthShareMatrix"}, "DATA": {"cdb_module_id": "cs.vp.products", "cdbxml_rep_exec_type": "Client", "cdbxml_report_format": "Excel", "dialog": ""}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

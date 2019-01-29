@@ -1,0 +1,13 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdbmq_ctlmsg"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.mq"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbmq_download"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.mq"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbmq_event"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.mq"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbmq_queues_v"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.platform.mq", "primary_table": "", "uview_col_aliases": ""}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "SELECT DISTINCT queuename FROM cdbmq_registry", "cdbdd_userdefined_view_txt_5": "SELECT DISTINCT queuename FROM cdbmq_registry", "cdbdd_userdefined_view_txt_6": "SELECT DISTINCT queuename FROM cdbmq_registry"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbmq_registry"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.platform.mq"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

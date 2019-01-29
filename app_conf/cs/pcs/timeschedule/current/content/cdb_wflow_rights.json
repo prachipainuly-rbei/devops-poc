@@ -1,0 +1,13 @@
+{
+  "cdb_wflow_rights": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_time_schedule", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 100}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"iststatus": 0, "objektart": "cdbpcs_time_schedule", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbpcs_time_schedule", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"iststatus": 100, "objektart": "cdbpcs_time_schedule", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 200}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}},
+      {"PRIMARY_KEYS": {"iststatus": 200, "objektart": "cdbpcs_time_schedule", "subject_id": "public", "subject_type": "Common Role", "zielstatus": 0}, "DATA": {"cdb_module_id": "cs.pcs.timeschedule"}}
+    ],
+    "CONTENT_DOMAIN": "ObjectLifeCycle",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

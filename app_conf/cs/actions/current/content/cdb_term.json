@@ -1,0 +1,16 @@
+{
+  "cdb_term": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "200", "operator": "=", "predicate_name": "cs.actions: Actions (COMPLETED)", "table_name": "cdb_action"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.actions", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "100", "operator": "=", "predicate_name": "cs.actions: Actions (DISCARDED)", "table_name": "cdb_action"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.actions", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "100", "operator": "!=", "predicate_name": "cs.actions: Actions (not DISCARDED, COMPLETED)", "table_name": "cdb_action"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.actions", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "200", "operator": "!=", "predicate_name": "cs.actions: Actions (not DISCARDED, COMPLETED)", "table_name": "cdb_action"}, "CONTENT_DOMAIN": "AccessControl", "DATA": {"cdb_module_id": "cs.actions", "data_type": "integer"}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "200", "operator": "=", "predicate_name": "cs.actions: Solutions (COMPLETED)", "table_name": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "data_type": "integer"}, "UPDATE_POLICY": "NEVER UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "100", "operator": "=", "predicate_name": "cs.actions: Solutions (DISCARDED)", "table_name": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "data_type": "integer"}, "UPDATE_POLICY": "NEVER UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "100", "operator": "!=", "predicate_name": "cs.actions: Solutions (not DISCARDED, COMPLETED)", "table_name": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "data_type": "integer"}, "UPDATE_POLICY": "NEVER UPDATED"},
+      {"PRIMARY_KEYS": {"attribute": "status", "expression": "200", "operator": "!=", "predicate_name": "cs.actions: Solutions (not DISCARDED, COMPLETED)", "table_name": "cdb_action"}, "DATA": {"cdb_module_id": "cs.actions", "data_type": "integer"}, "UPDATE_POLICY": "NEVER UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

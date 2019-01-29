@@ -1,0 +1,9 @@
+{
+  "cdb_global_role": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"role_id": "Portfolio: Manager"}, "DATA": {"cdb_module_id": "cs.portfolios", "description": "Management von Portfolios", "description_ml_cs": null, "description_ml_en": "Management of Portfolios", "description_ml_es": null, "description_ml_fr": null, "description_ml_it": null, "description_ml_ja": null, "description_ml_ko": null, "description_ml_pl": null, "description_ml_pt": null, "description_ml_tr": "Portfolyolar\u0131n y\u00f6netimi", "description_ml_zh": "\u7ec4\u5408\u7ba1\u7406", "is_org_role": 1, "mno": "", "name_cs": null, "name_de": "Portfoliomanagement", "name_en": "Portfolio Management", "name_es": null, "name_fr": null, "name_it": null, "name_ja": null, "name_ko": null, "name_pl": null, "name_pt": null, "name_tr": "Portfolyo y\u00f6netimi", "name_zh": "\u7ec4\u5408\u7ba1\u7406"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

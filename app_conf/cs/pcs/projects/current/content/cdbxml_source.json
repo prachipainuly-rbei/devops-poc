@@ -1,0 +1,11 @@
+{
+  "cdbxml_source": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "DataConsistencyCheck"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "context": "", "context_card": "", "description": "Checking data consistency"}},
+      {"PRIMARY_KEYS": {"name": "MultiProjectCockpit"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "context": "cs.pcs.projects.Project", "context_card": "N", "description": "Earned Value Analysis for multiple projects"}},
+      {"PRIMARY_KEYS": {"name": "ProjectMTA"}, "DATA": {"cdb_module_id": "cs.pcs.projects", "context": "cs.pcs.projects.Project", "context_card": "1", "description": "Milestone Trend Analysis"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

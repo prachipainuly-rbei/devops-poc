@@ -1,0 +1,32 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "aenderung"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_cad_categ_ftype"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_dcat_decomp"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_doc_categ"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_doc_categ_proposals"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_doc_rel"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_drawing2sheets"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_mod_event"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_mod_kind"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_mod_source"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_priority_cat"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_roleexc_doc"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_z_statiprot"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdb_z_statiprot_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.documents", "primary_table": "cdb_z_statiprot"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbbop_doc_asgn"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbecm_doc_ecn_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.documents", "primary_table": "aenderung"}},
+      {"PRIMARY_KEYS": {"table_name": "doctype_assign"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "document_template_proposal"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "document_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.documents", "primary_table": "zeichnung"}},
+      {"PRIMARY_KEYS": {"table_name": "massstab"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "mq_mstr_repl"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "prefixes"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "z_verteiler"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}},
+      {"PRIMARY_KEYS": {"table_name": "zeichnung"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.documents"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

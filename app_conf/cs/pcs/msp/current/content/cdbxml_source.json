@@ -1,0 +1,9 @@
+{
+  "cdbxml_source": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "TaskAttributesToMsp"}, "DATA": {"cdb_module_id": "cs.pcs.msp", "context": "cs.pcs.projects.Project", "context_card": "1", "description": "For importing into MS-Project plans"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

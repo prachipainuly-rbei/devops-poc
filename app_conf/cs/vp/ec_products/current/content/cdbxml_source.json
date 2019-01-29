@@ -1,0 +1,9 @@
+{
+  "cdbxml_source": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Analyse Aenderungsmanagement"}, "DATA": {"cdb_module_id": "cs.vp.ec_products", "context": "", "context_card": "", "description": "Engineering Change Process Analysis"}}
+    ],
+    "CONTENT_DOMAIN": "PowerReports",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

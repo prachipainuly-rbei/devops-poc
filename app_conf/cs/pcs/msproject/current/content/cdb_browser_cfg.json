@@ -1,0 +1,12 @@
+{
+  "cdb_browser_cfg": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"attrib": "column_name", "katalog": "cdbpcs_msp_syncrel_c", "maskenfeld_attrib": "cdb_column"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.pcs.msproject", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": null, "separator": "", "std_search_val": 1, "struct_level": null, "use_or_operator": null, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "table_name", "katalog": "cdbpcs_msp_syncrel_c", "maskenfeld_attrib": "cdb_relation"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.pcs.msproject", "constant_val": 0, "create_source": 0, "input_attrib": "cdb_relation", "no_overwrite": 0, "sep_at_end": null, "separator": "", "std_search_val": 1, "struct_level": null, "use_or_operator": null, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "field_enabled", "katalog": "cdbpcs_msp_syncrel_f", "maskenfeld_attrib": ""}, "DATA": {"additive": 0, "alike_value": "=1", "cdb_module_id": "cs.pcs.msproject", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 1, "sep_at_end": null, "separator": "", "std_search_val": 0, "struct_level": null, "use_or_operator": null, "value_list": 0}},
+      {"PRIMARY_KEYS": {"attrib": "pcs_field", "katalog": "cdbpcs_msp_syncrel_f", "maskenfeld_attrib": "pcs_field"}, "DATA": {"additive": 0, "alike_value": "", "cdb_module_id": "cs.pcs.msproject", "constant_val": 0, "create_source": 0, "input_attrib": "", "no_overwrite": 0, "sep_at_end": null, "separator": "", "std_search_val": 1, "struct_level": null, "use_or_operator": null, "value_list": 0}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cdb_pyrule": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "Index filter rule: Released"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "Defines the behaviour of the index filter rule 'Filter: only approved Indexes'.\n"}},
+      {"PRIMARY_KEYS": {"name": "Index filter rule: Released or checking"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "Defines the behaviour of the index filter rule 'Filter: approved or under review'.\n"}},
+      {"PRIMARY_KEYS": {"name": "Index filter rule: Remove all"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "Defines the behaviour of the index filter rule 'Filter: Offer no Indexes'.\n"}},
+      {"PRIMARY_KEYS": {"name": "Index update rule: Highest"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "Defines the behaviour of the index update rule 'Highest Index'."}},
+      {"PRIMARY_KEYS": {"name": "Index update rule: Highest released"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "Defines the behaviour of the index update rule 'Highest approved Index'."}},
+      {"PRIMARY_KEYS": {"name": "Index update rule: Highest released or checking"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "Defines the behaviour of the index update rule Highest Index in Status approved or under review'"}},
+      {"PRIMARY_KEYS": {"name": "WSM: partners for export"}, "DATA": {"cdb_module_id": "cs.wsm", "description": "Filters organizations visible when calling \"Assign partner filenames...\" in the Workspace Manager.\n"}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

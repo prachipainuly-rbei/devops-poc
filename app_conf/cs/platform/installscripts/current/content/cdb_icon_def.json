@@ -1,0 +1,13 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_inst_script", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "descr": "", "fallback_id": "", "identifier": "\"cdb_script_\"+inst_state+\".png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_ok", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "descr": "", "fallback_id": "", "identifier": "\"cdb_ok.png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_script_exec", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "descr": "", "fallback_id": "", "identifier": "\"cdb_script_\"+exec_state+\".png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_script_log", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "descr": "", "fallback_id": "", "identifier": "\"cdb_\"+msg_type+\".png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "cdb_version_state", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.installscripts", "descr": "", "fallback_id": "", "identifier": "\"cdb_version_state_\"+state+\".png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

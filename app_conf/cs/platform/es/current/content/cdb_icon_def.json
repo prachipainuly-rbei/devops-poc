@@ -1,0 +1,10 @@
+{
+  "cdb_icon_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_icon_id": "ES_Search", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.es", "descr": "Suchsymbol f\u00fcr EnterpriseSearch", "fallback_id": "", "identifier": "\"CDB_ES_Search.png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}},
+      {"PRIMARY_KEYS": {"cdb_icon_id": "es_categories", "kind": "Image", "location_type": "Server Path", "look": "Normal"}, "DATA": {"cdb_module_id": "cs.platform.es", "descr": "", "fallback_id": "", "identifier": "\"es_categories.png\"", "location": "$CADDOK_HOME + \"/design/icons/\"", "transparency": ""}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

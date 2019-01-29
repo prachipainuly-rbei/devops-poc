@@ -1,0 +1,13 @@
+{
+  "tab_zuordnung": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbmq_ctlmsg_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.mq", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbmq_download", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.mq", "dflt": null, "ersteller": "caddok", "max_records": null, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbmq_event_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.mq", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbmq_queues_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.mq", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}},
+      {"PRIMARY_KEYS": {"name": "cdbmq_registry_tab", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.platform.mq", "dflt": 0, "ersteller": "caddok", "max_records": 0, "zeilenhoehe": null}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

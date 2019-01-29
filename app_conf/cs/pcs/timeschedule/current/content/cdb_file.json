@@ -1,0 +1,10 @@
+{
+  "cdb_file": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "25d64e92-a35c-11e7-8002-a0b3ccf7c487"}, "CONTENT_DOMAIN": "PowerReports", "DATA": {"cdb_belongsto": null, "cdb_cdate": "27.09.2017 10:16:22", "cdb_classname": "cdb_file", "cdb_cpersno": "caddok", "cdb_folder": null, "cdb_lock_id": "", "cdb_mdate": "29.09.2017 13:56:22", "cdb_mpersno": "caddok", "cdb_wspitem_id": "2408936f-a35c-11e7-9cc7-a0b3ccf7c487", "cdbf_blob_id": "59e0107e-09b1-45f2-b656-5f5ba686e52b", "cdbf_derived_from": "", "cdbf_description": "", "cdbf_fdate": "29.09.2017 11:56:20", "cdbf_hash": "md5:d5be94203bcf7d61f606d1a3b9b85e84", "cdbf_hidden": 0, "cdbf_name": "ExportGantt_de.xlsm", "cdbf_object_id": "96632f91-a3a9-11e3-b67c-b4b52faf81e1", "cdbf_original_name": "ExportGantt_de", "cdbf_primary": "1", "cdbf_size": "77269", "cdbf_type": "MS-Excel:XLSM", "cdbf_typedesc": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"},
+      {"PRIMARY_KEYS": {"cdb_object_id": "36afd060-a35c-11e7-a915-a0b3ccf7c487"}, "CONTENT_DOMAIN": "PowerReports", "DATA": {"cdb_belongsto": null, "cdb_cdate": "27.09.2017 10:16:50", "cdb_classname": "cdb_file", "cdb_cpersno": "caddok", "cdb_folder": null, "cdb_lock_id": "", "cdb_mdate": "29.09.2017 13:57:14", "cdb_mpersno": "caddok", "cdb_wspitem_id": "3608e200-a35c-11e7-bc57-a0b3ccf7c487", "cdbf_blob_id": "8ce3958e-1333-49bf-88c1-697f6617cc5f", "cdbf_derived_from": "", "cdbf_description": "", "cdbf_fdate": "29.09.2017 11:57:13", "cdbf_hash": "md5:bc5c7cb82d1dbad825f2b92cc526b086", "cdbf_hidden": 0, "cdbf_name": "ExportGantt_en.xlsm", "cdbf_object_id": "39f93351-0e9f-11e5-852a-b4b52faf81e1", "cdbf_original_name": "ExportGantt_en", "cdbf_primary": "1", "cdbf_size": "76813", "cdbf_type": "MS-Excel:XLSM", "cdbf_typedesc": ""}, "UPDATE_POLICY": "OPTIONALLY UPDATED"}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "INHERITED"
+  }
+}

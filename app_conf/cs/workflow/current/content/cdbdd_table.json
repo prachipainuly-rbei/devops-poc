@@ -1,0 +1,37 @@
+{
+  "cdbdd_table": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_briefcase"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_briefcase_link"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_briefcase_link_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.workflow", "primary_table": "cdbwf_briefcase_link"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_briefcase_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.workflow", "primary_table": "cdbwf_briefcase"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_constraint"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_constraint_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.workflow", "primary_table": "cdbwf_constraint"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_extension_assignment"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_filter_parameter"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_filter_parameter_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.workflow", "primary_table": "cdbwf_filter_parameter"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_form"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_form_template"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_form_template_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.workflow", "primary_table": "cdbwf_form_template"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_form_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.workflow", "primary_table": "cdbwf_form"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_info_message"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_parameter_definition"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_process"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_process_categ"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_process_component_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.workflow", "primary_table": "cdbwf_task"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_process_content"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.workflow", "primary_table": null, "uview_col_aliases": ""}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "SELECT DISTINCT a.cdb_process_id cdb_process_id, a.briefcase_id, a.name briefcase_name, b.cdb_content_id\nFROM cdbwf_briefcase a, cdbfolder_content b\nWHERE a.cdb_object_id=b.cdb_folder_id", "cdbdd_userdefined_view_txt_5": "SELECT DISTINCT a.cdb_process_id cdb_process_id, a.briefcase_id, a.name briefcase_name, b.cdb_content_id\nFROM cdbwf_briefcase a, cdbfolder_content b\nWHERE a.cdb_object_id=b.cdb_folder_id", "cdbdd_userdefined_view_txt_6": "SELECT DISTINCT a.cdb_process_id cdb_process_id, a.briefcase_id, a.name briefcase_name, b.cdb_content_id\nFROM cdbwf_briefcase a, cdbfolder_content b\nWHERE a.cdb_object_id=b.cdb_folder_id"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_process_pyrule_assign"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_process_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.workflow", "primary_table": "cdbwf_process"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_protocol"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_protocol_v"}, "DATA": {"addtl_1": "", "addtl_5": "", "addtl_6": "", "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.workflow", "primary_table": "cdbwf_protocol"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_resp_browser"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.workflow", "primary_table": "", "uview_col_aliases": "subject_id, description_de, description_en, description_cs, description_es, description_fr, description_it, description_ja, description_ko, description_pl, description_pt, description_tr, description_zh, subject_type, subject_name_de, subject_name_en, subject_name_cs, subject_name_es, subject_name_fr, subject_name_it, subject_name_ja, subject_name_ko, subject_name_pl, subject_name_pt, subject_name_tr, subject_name_zh, cdb_project_id, order_by"}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "GENERATOR: cs.workflow.generate_cdbwf_resp_browser", "cdbdd_userdefined_view_txt_5": "GENERATOR: cs.workflow.generate_cdbwf_resp_browser", "cdbdd_userdefined_view_txt_6": "GENERATOR: cs.workflow.generate_cdbwf_resp_browser"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_resp_mapping"}, "DATA": {"cdb_classname": "cdbdd_userdefined_view", "cdb_module_id": "cs.workflow", "primary_table": "", "uview_col_aliases": "subject_id, subject_type, subject_name_de, subject_name_en, subject_name_cs, subject_name_es, subject_name_fr, subject_name_it, subject_name_ja, subject_name_ko, subject_name_pl, subject_name_pt, subject_name_tr, subject_name_zh"}, "LONGTEXTS": {"cdbdd_userdefined_view_txt_1": "GENERATOR: cs.workflow.generate_cdbwf_resp_mapping", "cdbdd_userdefined_view_txt_5": "GENERATOR: cs.workflow.generate_cdbwf_resp_mapping", "cdbdd_userdefined_view_txt_6": "GENERATOR: cs.workflow.generate_cdbwf_resp_mapping"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_system_task_definition"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_system_task_v"}, "DATA": {"addtl_1": null, "addtl_5": null, "addtl_6": null, "cdb_classname": "cdbdd_class_view", "cdb_module_id": "cs.workflow", "primary_table": "cdbwf_task"}},
+      {"PRIMARY_KEYS": {"table_name": "cdbwf_task"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}},
+      {"PRIMARY_KEYS": {"table_name": "mq_wfqueue"}, "DATA": {"cdb_classname": "cdbdd_table", "cdb_module_id": "cs.workflow"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

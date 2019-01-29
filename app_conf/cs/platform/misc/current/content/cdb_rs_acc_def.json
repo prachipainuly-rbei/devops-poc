@@ -1,0 +1,33 @@
+{
+  "cdb_rs_acc_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"reference_allow": "create", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "create"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create_derived_file", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "create_derived_file"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create_file", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "create_file"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "delete"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete_derived_file", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "delete_derived_file"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete_file", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "delete_file"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "read"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read_derived_file", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "read_derived_file"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read_file", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "read_file"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "write_derived_file", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "write_derived_file"}},
+      {"PRIMARY_KEYS": {"reference_allow": "write_file", "rs_acc_prof": "Dateihistorie"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "write_file"}},
+      {"PRIMARY_KEYS": {"reference_allow": "accept", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create_derived_file", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "read"}},
+      {"PRIMARY_KEYS": {"reference_allow": "create_file", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete_derived_file", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "delete_file", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "lock", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "read"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read_derived_file", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "read"}},
+      {"PRIMARY_KEYS": {"reference_allow": "read_file", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "read_file"}},
+      {"PRIMARY_KEYS": {"reference_allow": "save", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "unlock", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "write_derived_file", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "save"}},
+      {"PRIMARY_KEYS": {"reference_allow": "write_file", "rs_acc_prof": "Files"}, "DATA": {"cdb_module_id": "cs.platform.misc", "referer_allow": "save"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

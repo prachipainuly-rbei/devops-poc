@@ -1,0 +1,24 @@
+{
+  "cdb_rs_owner": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"name": "cdbxml_provider2grant", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_provider2provider_arg", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_report2dialog", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_report2grant", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_report2report_arg", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_report2tmpl", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_report_tmpl2cdb_file", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_source2all_providerargs", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_source2all_providergrants", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_source2all_providers", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_source2all_report_args", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_source2all_report_grants", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_source2all_report_tmpl", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_source2cdbxml_report", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_source2data_provider", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}},
+      {"PRIMARY_KEYS": {"name": "cdbxml_subprovider", "role_id": "public"}, "DATA": {"cdb_module_id": "cs.tools.powerreports"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

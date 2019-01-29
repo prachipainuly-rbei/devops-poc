@@ -1,0 +1,17 @@
+{
+  "cdbdd_constraint": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "027f0690-3abc-11e5-9f34-7c7a914880db"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_attachment", "description": null, "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "25c10ea1-3abc-11e5-a4bb-7c7a914880db"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_attachment", "description": "", "exclude_empty_values": 0, "fields_info": "posting_id, attachment_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "4abec9b5-ae36-11e1-89ef-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_posting", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "5f573d66-ae38-11e1-b7e9-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_topic2posting", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "943b151e-485b-11e2-beca-78acc0a55b77"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_channel", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "9e55191e-24d4-11e2-8d83-78acc0a55b77"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.activitystream", "classname": "mq_system_posting", "description": "", "exclude_empty_values": null, "fields_info": "cdbmq_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "d30b5db0-ae36-11e1-bb49-005056c00008"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_comment", "description": "", "exclude_empty_values": null, "fields_info": "cdb_object_id"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "f9c14d9e-45d2-11e2-be3b-78acc0a55b77"}, "DATA": {"cdb_classname": "cdbdd_primary_key", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_subscription", "description": "", "exclude_empty_values": null, "fields_info": "channel_cdb_object_id, personalnummer"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "fef6b340-fce0-11e1-a0a7-549be0f00110"}, "DATA": {"cdb_classname": "cdbdd_unique_constraint", "cdb_module_id": "cs.activitystream", "classname": "cdbblog_topic2posting", "description": "", "exclude_empty_values": 0, "fields_info": "posting_id, topic_id"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

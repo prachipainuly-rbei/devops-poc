@@ -1,0 +1,10 @@
+{
+  "cdbblog_posting": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "2f9d0240-8c99-11e2-af31-78acc0a55b77"}, "DATA": {"cdb_cdate": "14.03.2013 12:20:33", "cdb_classname": "cdbblog_user_posting", "cdb_cpersno": "caddok", "cdb_mdate": "14.03.2013 12:20:33", "cdb_mpersno": "caddok", "context_object_id": "", "last_comment_date": "14.03.2013 12:20:33"}, "LONGTEXTS": {"cdbblog_posting_txt": "Willkommen bei den Aktivit\u00e4ten. Die Aktivit\u00e4ten zeigen sowohl relevante Informationen zu Elementen (Projekte, Dokumente, Artikel, ...), die Sie abonniert haben, als auch systemweite Diskussionsbeitr\u00e4ge. Alle Projekte, denen Sie zugeordnet sind, sind automatisch f\u00fcr Sie abonniert. Zus\u00e4tzlich k\u00f6nnen Sie beliebige Elemente abonnieren.\n\nDiskussionsbeitr\u00e4ge, die Sie hier erstellen, sind systemweit f\u00fcr alle Anwender sichtbar. Beitr\u00e4ge zu einem speziellen Element werden im jeweiligen Kontext des Elements erstellt. Wechseln Sie dazu z.B. in das Info-Datenblatt, den Taskmanager oder in die Projektdetails."}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "3cb2501e-8c99-11e2-942a-78acc0a55b77"}, "DATA": {"cdb_cdate": "14.03.2013 12:20:55", "cdb_classname": "cdbblog_user_posting", "cdb_cpersno": "caddok", "cdb_mdate": "14.03.2013 12:20:55", "cdb_mpersno": "caddok", "context_object_id": "", "last_comment_date": "14.03.2013 12:20:55"}, "LONGTEXTS": {"cdbblog_posting_txt": "Welcome to the Activities. The Activities contain the latest information about all your subscribed elements (projects, documents, items, \u2026) as well as system-wide discussion threads. By default you are subscribed to all projects where you are a team member. Additionally you can subscribe to other elements.\n\nDiscussion threads created here are presented to all users. If you want to create a thread that is relevant to a certain element you have to create it in this special context, e.g. the Info Form of the element, the Taskmanager, or the Project Details."}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "NEVER UPDATED"
+  }
+}

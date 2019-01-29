@@ -1,0 +1,12 @@
+{
+  "cdb_pypredicate": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "cdbpcs: Kosmodrom: Active Objects", "predicate_name": "cdbpcs: Kosmodrom: Active Items"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "cdbpcs: Kosmodrom: My Objects", "predicate_name": "cdbpcs: Kosmodrom: My Items"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "cdbpcs: Kosmodrom: Objects Recently Created", "predicate_name": "cdbpcs: Kosmodrom: Recently Created Items"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "description": ""}},
+      {"PRIMARY_KEYS": {"fqpyname": "cs.vp.items.Item", "name": "cdbpcs: Kosmodrom: Released Objects", "predicate_name": "cdbpcs: Kosmodrom: Released Items"}, "DATA": {"cdb_module_id": "cs.vp_pcs.projects_items", "description": ""}}
+    ],
+    "CONTENT_DOMAIN": "Rules",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cs_tasks_class_context": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"position": 10, "tclass_object_id": "9c40cc0f-42a8-11e6-9df7-00aa004d0001"}, "DATA": {"cdb_module_id": "cs.actions", "reference_name": "Parentaction"}},
+      {"PRIMARY_KEYS": {"position": 20, "tclass_object_id": "9c40cc0f-42a8-11e6-9df7-00aa004d0001"}, "DATA": {"cdb_module_id": "cs.actions", "reference_name": "Task"}},
+      {"PRIMARY_KEYS": {"position": 30, "tclass_object_id": "9c40cc0f-42a8-11e6-9df7-00aa004d0001"}, "DATA": {"cdb_module_id": "cs.actions", "reference_name": "Project"}},
+      {"PRIMARY_KEYS": {"position": 40, "tclass_object_id": "9c40cc0f-42a8-11e6-9df7-00aa004d0001"}, "DATA": {"cdb_module_id": "cs.actions", "reference_name": "Product"}},
+      {"PRIMARY_KEYS": {"position": 50, "tclass_object_id": "9c40cc0f-42a8-11e6-9df7-00aa004d0001"}, "DATA": {"cdb_module_id": "cs.actions", "reference_name": "Item"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

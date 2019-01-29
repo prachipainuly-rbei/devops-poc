@@ -1,0 +1,10 @@
+{
+  "cdb_struct_def": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"comp_name": "cdb_folder_overview"}, "DATA": {"addtl_icon": "", "cdb_module_id": "cs.pcs.projects_documents", "comp_tag": "", "descr": "Structure representation of project folders", "filter_catalog": "", "html_help": "", "icon_size": 16, "initial_level": 4, "initial_rs": "cdb_folder2folder", "root_mask": "", "show_rs_window": 1}},
+      {"PRIMARY_KEYS": {"comp_name": "cdbpcs_project_documents"}, "DATA": {"addtl_icon": "State Color", "cdb_module_id": "cs.pcs.projects_documents", "comp_tag": "", "descr": "Structure representation of project documents", "filter_catalog": "", "html_help": "cdb_gui_pcs_pjdocview", "icon_size": 16, "initial_level": 4, "initial_rs": "cdbpcs_project2docs", "root_mask": "", "show_rs_window": 1}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS UPDATED"
+  }
+}

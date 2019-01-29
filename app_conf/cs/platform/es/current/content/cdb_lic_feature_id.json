@@ -1,0 +1,10 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "ENTERPRISESEARCH_001"}, "DATA": {"cdb_module_id": "cs.platform.es", "description": "Allows a user to use the EnterpriseSearch.", "name": "Enterprise Search"}},
+      {"PRIMARY_KEYS": {"id": "ENTERPRISESEARCH_002"}, "DATA": {"cdb_module_id": "cs.platform.es", "description": "Administration of Enterprise Search, e.g. looking for Jobs", "name": "Platform: EnterpriseSearch Administration"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

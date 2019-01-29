@@ -1,0 +1,14 @@
+{
+  "cdb_lic_feature_assign": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"cdb_object_id": "021949cf-b30c-11e6-a5ec-001a7dda7107"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.pcs.msp", "classname": "cdbpcs_project", "feature_id": "PROJECTS_030", "name": "import_from_file", "password": "LhDhKWKAPFE"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a07fb261-d852-11e6-b805-001a7dda7107"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.pcs.msp", "classname": "cdbpcs_project", "feature_id": "PROJECTS_030", "name": "import_from_xml", "password": "16zdcJKekA2"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a0800080-d852-11e6-89a4-001a7dda7107"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.pcs.msp", "classname": "cdbpcs_project", "feature_id": "PROJECTS_030", "name": "export_to_xml", "password": "31ln6kyh0Sw"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a0804e9e-d852-11e6-9446-001a7dda7107"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_op", "cdb_module_id": "cs.pcs.msp", "classname": "cdbpcs_project", "feature_id": "PROJECTS_030", "name": "export_task_attrs_to_excel", "password": "ladEZC8GnAY"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "a081fc4f-d852-11e6-b7fd-001a7dda7107"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_rep", "cdb_module_id": "cs.pcs.msp", "feature_id": "PROJECTS_030", "password": "suJyrHoj4MU", "report_name": "TaskAttributesToMsp"}},
+      {"PRIMARY_KEYS": {"cdb_object_id": "db488f61-df42-11e6-9675-001a7dda7107"}, "DATA": {"cdb_classname": "cdb_lic_feature_assign_url", "cdb_module_id": "cs.pcs.msp", "feature_id": "PROJECTS_030", "password": "0q5PCfuKtpw", "url": "/cs-pcs-msp.*"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}

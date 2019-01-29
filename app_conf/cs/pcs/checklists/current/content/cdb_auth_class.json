@@ -1,0 +1,10 @@
+{
+  "cdb_auth_class": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_checklist"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Checklist access rights"}},
+      {"PRIMARY_KEYS": {"auth_class": "cdbpcs_checkpoint"}, "DATA": {"cdb_module_id": "cs.pcs.checklists", "description": "Checklist item access rights"}}
+    ],
+    "CONTENT_DOMAIN": "AccessControl",
+    "UPDATE_POLICY": "OPTIONALLY UPDATED"
+  }
+}

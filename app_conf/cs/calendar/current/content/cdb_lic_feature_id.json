@@ -1,0 +1,11 @@
+{
+  "cdb_lic_feature_id": {
+    "CONTENT": [
+      {"PRIMARY_KEYS": {"id": "CALENDAR_001"}, "DATA": {"cdb_module_id": "cs.calendar", "description": "Allows to read Calendar Entries", "name": "Calendar: Read"}},
+      {"PRIMARY_KEYS": {"id": "CALENDAR_002"}, "DATA": {"cdb_module_id": "cs.calendar", "description": "Allows to write Calendar Entries", "name": "Calendar: Write"}},
+      {"PRIMARY_KEYS": {"id": "CALENDAR_003"}, "DATA": {"cdb_module_id": "cs.calendar", "description": "Allows to administrate the Calendar functionality, e.g. maintenance of Calendar Profiles, assignment of Users to their Calendar Profile", "name": "Calendar: Administrate"}}
+    ],
+    "CONTENT_DOMAIN": "",
+    "UPDATE_POLICY": "ALWAYS REPLACED"
+  }
+}
